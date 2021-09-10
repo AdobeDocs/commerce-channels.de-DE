@@ -1,0 +1,74 @@
+---
+title: Listendetails anzeigen
+description: Um Wettbewerbsmetriken in Ihren Amazon-Listen und individuellen SKU-/Produktänderungen zu verstehen, lesen Sie die Seite Produktlistendetails .
+exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
+source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 0%
+
+---
+
+# Details zur Liste anzeigen
+
+Die Seite _[!UICONTROL Product Listing Details]_enthält zusätzliche Informationen zu Ihren aktiven Produktlisten, einschließlich des Protokolls zu Listing-Aktivitäten, in dem die Änderungen an einer einzelnen SKU/einem einzelnen Produkt angezeigt werden. Diese Informationen helfen Ihnen dabei, die Wettbewerbsmetriken Ihrer Produkte und der einzelnen SKU/Produktänderungen zu verstehen. Weitere Informationen auf dieser Seite sind:
+
+- **[!UICONTROL Listing Details]** - Produktdetails wie Name und Amazon Seller SKU
+- **[!UICONTROL Listing Activity Log]** - Historische Aufzeichnung aller Änderungen, die für diese Auflistung vorgenommen wurden, wie Preisänderungen und Änderungen der Menge/des Bestands. Es sind keine weiteren Maßnahmen erforderlich. Dieses Protokoll wird zur Überprüfung bereitgestellt, um den Änderungsverlauf zu verstehen.
+- **[!UICONTROL Buy Box Competitor Pricing]** - Daten zum  [[!DNL Buy Box]](./buy-box-competitor-pricing.md) Status und zur Preisgestaltung von Amazon
+- **[!UICONTROL Lowest Competitor Pricing]** - Informationen über die Preise und Feedback-Informationen des niedrigsten Amazon-Konkurrenten
+
+Die Startseiten der Amazon-Vertriebskanäle teilen einige gängige [Arbeitsbereichssteuerelemente](./workspace-controls.md), mit denen Sie die angezeigten Daten anpassen können.
+
+## Auflistungsdetails
+
+Die angezeigten Produktinformationen umfassen:
+
+- _[!UICONTROL Amazon Name]_
+- _[!UICONTROL Catalog (Magento) SKU]_
+- _[!UICONTROL Amazon Seller SKU]_
+
+![Auflistungsdetails](assets/amazon-product-listing-details.png)
+
+## Auflisten des Aktivitätsprotokolls {#listing-activity-log}
+
+Zeigt alle aktuellen Aktivitäten für die Amazon-Auflistung an. Zu den angezeigten Informationen gehören:
+
+- Amazon Seller SKU: Gibt die für die Auflistung definierte Bestandseinheit (Stock Keeping Unit, SKU) an.
+- ASIN: Identifiziert die 10-stellige Amazon-Produktkennung.
+- Auflistungsaktion: Gibt den Aktionstyp an, der für die Auflistung aufgetreten ist.
+- Kommentare: Enthält zusätzliche Details zum Typ der aufgetretenen Auflistungsaktion.
+- Ausgeführt bei: Gibt das Datum und die Uhrzeit der Aktion an.
+
+![Details zur Produktliste - Protokoll](assets/amazon-listing-activity-log.png)
+ zur Listening-Aktivität__
+
+## Buy Box Konkurrentenpreise {#buy-box-competitor-pricing}
+
+Auf dieser Registerkarte werden Informationen zum Amazon-Händler angezeigt, der die Position [[!DNL Buy Box]](./buy-box-competitor-pricing.md) für die Auflistung enthält. Anhand dieser Informationen können Sie die Preispositionierung Ihrer Wettbewerber in Amazon nachvollziehen. Zu den angezeigten Informationen gehören:
+
+- ASIN: Die 10-stellige Amazon-Produktkennung.
+- Ist Verkäufer: Gibt an, ob Sie der Verkäufer [!DNL Buy Box] sind. Optionen Ja/Nein.
+- Bedingung: Gibt die für die Auflistung definierte Bedingung an.
+- Listenpreis: Gibt den Preis an, zu dem die Auflistung veröffentlicht wurde.
+- Versandpreis: Identifiziert den der Auflistung hinzugefügten Versandpreis.
+- Anlandepreis: Identifiziert den Börsennotierungspreis zuzüglich des Versandpreises für die Auflistung.
+- Zuletzt aktualisiert: Identifiziert das Datum und die Uhrzeit, zu der die Preisinformationen von Amazon aktualisiert wurden.
+
+![Details zur Produktliste: Buy Box-Mitbewerber-Preise](assets/amazon-listing-details-buy-box-2.png)
+
+## Niedrigste Preise für Wettbewerber {#lowest-competitor-pricing}
+
+Auf dieser Registerkarte werden Informationen zu Amazon-Konkurrenten für dieselbe Auflistung angezeigt. Diese Informationen können verwendet werden, um die Preispositionierung und die [niedrigste Konkurrenzpreise](./lowest-competitor-pricing.md) zu verstehen. Zu den angezeigten Informationen gehören:
+
+- ASIN: Die 10-stellige Amazon-Produktkennung.
+- Bedingung: Gibt die für die Auflistung definierte Bedingung an.
+- Fulfillment-Kanal: Identifiziert die für die Erfüllung verantwortliche Partei. Optionen: Händler/Amazon.
+- Listenpreis: Gibt den Preis an, zu dem die Auflistung veröffentlicht wurde.
+- Versandpreis: Identifiziert den der Auflistung hinzugefügten Versandpreis.
+- Anlandepreis: Identifiziert den Börsennotierungspreis zuzüglich des Versandpreises für die Auflistung.
+- Feedback-Bewertung: Identifiziert die Amazon-Feedback-Bewertung für den niedrigsten Preis.
+- Feedback-Anzahl: Identifiziert die Amazon-Feedback-Anzahl für den niedrigsten Preis-Händler.
+- Zuletzt aktualisiert: Identifiziert das Datum und die Uhrzeit, zu der die Preisinformationen von Amazon aktualisiert wurden.
+
+![Details zur Produktliste - niedrigste Preise für Wettbewerber](assets/amazon-listing-details-lowest-comp.png)
