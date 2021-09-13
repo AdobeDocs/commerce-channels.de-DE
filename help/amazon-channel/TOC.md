@@ -1,9 +1,8 @@
 ---
 user-guide-title: Benutzerhandbuch für Amazon Sales Channel
 user-guide-description: Generieren Sie über Amazon Umsätze, indem Sie Adobe Commerce oder Magento Open Source in Ihr [!DNL Amazon Seller Central] Konto integrieren.
-product: commerce
 breadcrumb-title: Kanalmanager für Commerce
-source-git-commit: 8d12a839bbdf77f27c732507b5b776729e252a9f
+source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
