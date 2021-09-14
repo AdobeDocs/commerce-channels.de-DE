@@ -1,11 +1,11 @@
 ---
 title: Listeneinstellungen anzeigen
-description: 'Verwenden Sie die Listeneinstellungen, um festzulegen, wie Ihre [!DNL Commerce] Katalogprodukte auf [!DNL Amazon Marketplace] aufgelistet werden.'
-redirect_from: /sales-channels/asc/ob-listing-settings.html: 
+description: Verwenden Sie die Listeneinstellungen, um festzulegen, wie Ihre [!DNL Commerce] Katalogprodukte auf [!DNL Amazon Marketplace] aufgelistet werden.
+redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 246
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
