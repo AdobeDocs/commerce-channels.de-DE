@@ -1,6 +1,6 @@
 ---
 title: Erfüllt von
-description: Verwenden Sie die Einstellungen Erfüllen von , um zu bestimmen, wie die Bestellungen aus Amazon-Auflistungen erfüllt (versandt) werden.
+description: Verwenden Sie die Fulfillment By-Einstellungen, um zu bestimmen, wie die Bestellungen aus Amazon-Listen ausgeführt (versendet) werden.
 redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -12,48 +12,48 @@ ht-degree: 0%
 
 # Erfüllt von
 
-_[!UICONTROL Fulfilled By]_-Einstellungen sind Teil Ihrer Einstellungen für die Store-Auflistung. Auf die Listening-Einstellungen kann über das [Store-Dashboard](./amazon-store-dashboard.md) zugegriffen werden.
+_[!UICONTROL Fulfilled By]_-Einstellungen Teil Ihrer Einstellungen für die Ladenliste sind. Auf die Listseinstellungen kann über folgende Optionen zugegriffen werden: [Dashboard speichern](./amazon-store-dashboard.md).
 
-Diese Einstellungen definieren die Partei, die Bestellungen erfüllt (oder ausführt). Wenn alle Ihre Bestellungen mit einer Methode erfüllt sind, wählen Sie zwischen Händler (Sie) oder Amazon. Wenn Sie Bestellungen von Ihren Standorten ausführen und Amazon verwenden möchten, empfiehlt es sich, die dritte Option zu verwenden und ein [!DNL Commerce] -Produktattribut zu konfigurieren.
+Diese Einstellungen definieren die Partei, die Bestellungen erfüllt (oder ausführt). Wenn alle Ihre Bestellungen mit einer Methode erfüllt werden, wählen Sie zwischen Händler (Sie) oder Amazon. Wenn Sie planen, Aufträge von Ihrem Standort aus zu erfüllen und Amazon zu verwenden, sollten Sie die dritte Option verwenden und eine [!DNL Commerce] Produktattribut.
 
-- **[!UICONTROL Fulfilled by Merchant]** - Entscheiden Sie, ob Sie, der Händler, alle Bestellungen erfüllen. Wenn eine Bestellung aufgegeben wird, wird der Bestand von Ihrem [!DNL Commerce]-Katalog abgezogen.
+- **[!UICONTROL Fulfilled by Merchant]** - Wählen Sie aus, ob Sie, der Händler, alle Bestellungen erfüllen. Wenn eine Bestellung aufgegeben wird, wird der Lagerbestand von Ihrer Bestellung abgezogen [!DNL Commerce] Katalog.
 
-- **[!UICONTROL Fulfilled by Amazon]** - Wählen Sie aus, ob Amazon alle Bestellungen erfüllt. Mit dieser Option wird der Produktbestand nicht von Ihrem [!DNL Commerce]-Katalog abgezogen, wenn eine Bestellung aufgegeben wird. Lagerbestand für von Amazon erfüllte Bestellungen wird gespeichert und von ihren Lagern abgezogen. Bevor Sie diese Option zuweisen, müssen Sie in Ihrem [!DNL Amazon Seller Central]-Konto überprüfen, ob Ihre Produkte für die Erfüllung _Erfüllt von Amazon_ (FBA) geeignet sind. Der FBA-Bestand wird direkt über Ihr [!DNL Amazon Seller Central] -Konto verwaltet. Mit dieser Ausführungsmethode gibt der Amazon-Verkaufskanal keine Mengenaktualisierungen zwischen [!DNL Commerce] und Amazon frei. Daher stehen Ihnen nicht alle in den Mengeneinstellungen beschriebenen Marketing-Tools im Amazon-Vertriebskanal zur Verfügung.
+- **[!UICONTROL Fulfilled by Amazon]** - Wählen Sie aus, ob Amazon alle Bestellungen erfüllt. Mit dieser Option wird der Produktbestand nicht von Ihrer [!DNL Commerce] Katalog, wenn eine Bestellung aufgegeben wird. Lagerbestände für Amazon-Aufträge werden gelagert und von ihren Lagern abgezogen. Bevor Sie diese Option zuweisen, müssen Sie Folgendes überprüfen: [!DNL Amazon Seller Central] Konto, für das Ihre Produkte berechtigt sind _Erfüllt von Amazon_ (FBA) Fulfillment. Die FBA-Bestandsaufnahme wird direkt über Ihre [!DNL Amazon Seller Central] Konto. Bei dieser Fulfillment-Methode teilt Amazon Sales Kanal keine Mengenaktualisierungen mit zwischen [!DNL Commerce] und Amazon. Daher stehen Ihnen im Amazon Sales Kanal nicht alle in den Mengeneinstellungen beschriebenen Marketingwerkzeuge zur Verfügung.
 
-- **[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Wenn Ihre Produkte von Ihnen und Amazon möglicherweise erfüllt werden, sollten Sie ein  [!DNL Commerce] Produktattribut mit Werten für &quot;Fulfill By Merchant&quot;und &quot;Fulfill by Amazon&quot;erstellen. Wenn Sie diesen Wert pro Produkt festlegen, wird angegeben, wer die Bestellungen erfüllt.
+- **[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Wenn Ihre Produkte von Ihnen und Amazon erfüllt werden können, können Sie eine [!DNL Commerce] Produktattribut mit Werten für &quot;Fulfillment by Merchant&quot;und &quot;Fulfillment by Amazon&quot;. Wenn dieser Wert pro Produkt festgelegt wird, gibt dies an, wer die Bestellungen erfüllt.
 
-Die Ausführungsmethode ist ein regionales Attribut und basiert auf der Einstellung **[!UICONTROL Amazon Marketplace Country]** , die während der [Store-Integration](./store-integration.md) definiert wird. Wenn eine Änderung vorgenommen wird, wirkt sich die Änderung auf alle Amazon-Auflistungen aus, die [!DNL Amazon Seller SKU] in Ihren Amazon-Stores verwenden, die in derselben Region verkauft werden (wie in _[!UICONTROL Amazon Marketplace Country]_während der [Store-Integration](./store-integration.md) definiert). Eine Änderung an einem freigegebenen [!DNL Amazon Seller SKU] in den USA wirkt sich nicht auf Ihre Amazon-Stores aus, die für eine andere Region festgelegt wurden (wie bei der Store-Integration definiert).
+Die Fulfillment-Methode ist ein regionales Attribut und basiert auf **[!UICONTROL Amazon Marketplace Country]** Einstellung definiert während [Speicherintegration](./store-integration.md). Wenn eine Änderung vorgenommen wird, wirkt sich die Änderung auf alle Amazon-Auflistungen aus, die diese Angaben teilen [!DNL Amazon Seller SKU] in Amazon-Geschäften, die in derselben Region verkauft werden (wie in _[!UICONTROL Amazon Marketplace Country]_während [Speicherintegration](./store-integration.md)). Eine Änderung an einer freigegebenen [!DNL Amazon Seller SKU] in den Vereinigten Staaten hat keine Auswirkungen auf Ihre Amazon-Filialen, die für eine andere Region eingerichtet sind (wie bei der Speicherintegration definiert).
 
 >[!NOTE]
 >
->Wenn eine Bestellung von Amazon (FBA) erfüllt wird und die Bestellung importiert wird, können Sie Platzhalterdaten für einige Felder in den Bestelldetails sehen. Siehe [Amazon-Bestelldetails](./amazon-order-details.md).
+>Wenn eine Bestellung von Amazon (FBA) ausgeführt wird und die Bestellung importiert wird, können Sie die Dummy-Daten für einige Felder in den Auftragsdetails sehen. Siehe [Amazon-Auftragsdetails](./amazon-order-details.md).
 
-## [!UICONTROL Fulfilled By]-Einstellungen konfigurieren {#configure-fulfilled-by-settings}
+## Konfigurieren Sie [!UICONTROL Fulfilled By] Einstellungen {#configure-fulfilled-by-settings}
 
-1. Klicken Sie im Store-Dashboard auf **[!UICONTROL Listing Settings]** .
+1. Klick **[!UICONTROL Listing Settings]** auf dem Dashboard.
 
-1. Erweitern Sie den Abschnitt _[!UICONTROL Fulfilled By]_.
+1. Erweitern der _[!UICONTROL Fulfilled By]_Abschnitt.
 
-1. Wählen Sie für **[!UICONTROL Product Fulfilled By]** aus, wer die Reihenfolge erfüllt (ausführt):
+1. für **[!UICONTROL Product Fulfilled By]**, wer die Bestellung erfüllt (Schiffe):
 
    - `Fulfilled by Merchant` - Der Händler erfüllt die Bestellung.
 
    - `Fulfilled by Amazon` - Amazon Warehouse erfüllt die Bestellung.
 
-   - `Assign Fulfilled By Using Magento Product Attribute` - Ein  [!DNL Commerce] Attribut gibt an, wer die Bestellung pro Produkt erfüllt.
+   - `Assign Fulfilled By Using Magento Product Attribute` - A [!DNL Commerce] -Attribut gibt an, wer die Bestellung pro Produkt erfüllt.
 
-      Wählen Sie bei Auswahl das Attribut [!DNL Commerce] aus, das Sie in **[!UICONTROL Fulfilled by Attribute]** zuordnen möchten.
+      Wählen Sie die [!DNL Commerce] Attribut, dem Sie zuordnen möchten **[!UICONTROL Fulfilled by Attribute]**.
 
 1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save listing settings]**.
 
-![Erfüllen durch Einstellungen](assets/amazon-fulfilled-by.png)
+![Erfüllt durch Einstellungen](assets/amazon-fulfilled-by.png)
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Product Fulfilled By] | Optionen:<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) Wählen Sie aus, ob Sie die Bestellungen erfüllen. Wenn eine Bestellung aufgegeben wird, wird der Bestand von Ihrem [!DNL Commerce]-Katalog abgezogen. Wenn ein neues Produkt erstellt wird, wird die Ausführungsmethode von Merchant Fulfill zugewiesen.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Entscheiden Sie, ob Amazon die Bestellungen erfüllt. Mit dieser Ausführungsmethode wird der Produktbestand nicht von Ihrem [!DNL Commerce]-Katalog abgezogen, wenn eine Bestellung aufgegeben wird. Wenn ein Produkt erstellt wird, wird es mit _[!UICONTROL Fulfilled by Amazon (FBA)]_als Erfüllungstyp erstellt. Stellen Sie sicher, dass Ihre Produkte innerhalb Ihres [!DNL Amazon Seller Central]-Kontos für die FBA-Erfüllung infrage kommen. Der FBA-Bestand wird auch direkt über Ihr [!DNL Amazon Seller Central]-Konto verwaltet. Bei dieser Ausführungsmethode werden Mengenaktualisierungen nicht relativ zum Katalog [!DNL Commerce] übertragen. Daher können Sie einige der unter [Lager/Mengeneinstellungen](./stock-quantity.md) beschriebenen Marketing-Tools nicht verwenden.</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Entscheiden Sie, ob Sie über ein vorhandenes  [!DNL Commerce] Attribut verfügen, das bestimmt, ob es vom Händler erfüllt oder von Amazon erfüllt wird. Wenn ausgewählt, wird **[!UICONTROL Fulfilled by Attribute]** aktiviert.</li></ul> |
-| [!UICONTROL Fulfilled By Attribute] | Wählen Sie das Attribut [!DNL Commerce] aus, das zur Bestimmung der Ausführungsmethode verwendet wird.<br><br>Wenn das Attribut beispielsweise  _Fulfill_ Byte lautet und Sie den Attributwert als  _[!UICONTROL Fulfilled By Merchant]_oder_[!UICONTROL Fulfilled By Amazon (FBA)]_ auswählen, verwendet das System diesen Wert als Erfüllungstyp für ein neues Produkt. Als Händler sollten Sie sicherstellen, dass Ihre Produkte innerhalb Ihres [!DNL Amazon Seller Central]-Kontos für die FBA-Erfüllung infrage kommen. FBA Inventory wird auch direkt über Ihr Amazon-Verkaufskonto verwaltet.<br><br>Die Optionen hängen von den Attributen ab, die Sie für Ihre Amazon-Produkte einrichten. |
+| [!UICONTROL Product Fulfilled By] | Optionen:<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) Wählen Sie aus, ob Sie die Bestellungen erfüllen. Wenn eine Bestellung aufgegeben wird, wird der Lagerbestand von Ihrer Bestellung abgezogen [!DNL Commerce] Katalog. Wenn ein neues Produkt erstellt wird, wird die Fulfillment-Methode von Merchant Fulfillment zugewiesen.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Wählen Sie aus, ob Amazon die Bestellungen erfüllt. Bei dieser Fulfillment-Methode wird der Produktbestand nicht von Ihrer [!DNL Commerce] Katalog, wenn eine Bestellung aufgegeben wird. Wenn ein Produkt erstellt wird, wird es erstellt mit _[!UICONTROL Fulfilled by Amazon (FBA)]_als Fulfillment-Typ. Stellen Sie sicher, dass Ihre Produkte innerhalb Ihrer [!DNL Amazon Seller Central] Konto. FBA-Inventar wird auch direkt über Ihre [!DNL Amazon Seller Central] Konto. Bei dieser Fulfillment-Methode werden Quantitätsaktualisierungen nicht in Relation zu Ihrer [!DNL Commerce] Katalog, sodass Sie einige der Marketingwerkzeuge, die unter [Lagerbestand-/Mengeneinstellungen](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Wählen Sie aus, ob Sie über eine vorhandene [!DNL Commerce] -Attribut, das bestimmt, ob er vom Händler erfüllt oder von Amazon erfüllt wird. Wenn ausgewählt, **[!UICONTROL Fulfilled by Attribute]** aktiviert.</li></ul> |
+| [!UICONTROL Fulfilled By Attribute] | Wählen Sie [!DNL Commerce] Attribut, das zur Bestimmung der Fulfillment-Methode verwendet wird.<br><br>Wenn das Attribut z. B. _Erfüllt von_ und wählen Sie den Attributwert aus als _[!UICONTROL Fulfilled By Merchant]_oder_[!UICONTROL Fulfilled By Amazon (FBA)]_ verwendet das System diesen Wert als Fulfillment-Typ für ein neues Produkt. Als Händler sollten Sie sicherstellen, dass Ihre Produkte innerhalb von [!DNL Amazon Seller Central] Konto. Das FBA-Inventar wird auch direkt über Ihr Amazon-Händlerkonto verwaltet.<br><br>Die Optionen hängen von den Attributen ab, die Sie für Ihre Amazon-Produkte festlegen. |
 
-**Schnellzugriff**  -  [!UICONTROL Listing Settings] Abschnitte
+**Schnellzugriff** - [!UICONTROL Listing Settings] Abschnitte
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)

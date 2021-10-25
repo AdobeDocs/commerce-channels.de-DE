@@ -1,6 +1,6 @@
 ---
-title: Abbrechen einer nicht versandten Bestellung
-description: Abbrechen einer ausstehenden oder teilweise ausgelieferten (nicht versandten) Bestellung über Ihr Amazon [!DNL Seller Central] Konto.
+title: Nicht versandte Bestellung abbrechen
+description: Ausstehende oder teilweise ausgelieferte (nicht versandte) Bestellung über Ihr Amazon stornieren [!DNL Seller Central] Konto.
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,34 +9,34 @@ ht-degree: 0%
 
 ---
 
-# Abbrechen einer nicht versandten Bestellung
+# Nicht versandte Bestellung abbrechen
 
-Amazon-Bestellungen können nur storniert werden, wenn sie den Status `Unshipped` aufweisen. Wenn die Bestellung ausstehend oder teilweise versandt (nicht versandt) ist, kann die Bestellung nur über Ihr [!DNL Amazon Seller Central] Konto storniert werden. Wenn der Artikel versandt wurde, müssen Rücksendungen und Umtausch auch in Ihrem [!DNL Amazon Seller Central] -Konto durchgeführt werden.
+Amazon-Bestellungen können nur storniert werden, wenn sie in einer `Unshipped` Status. Wenn die Bestellung aussteht oder teilweise versandt (nicht versandt), kann die Bestellung nur über Ihre [!DNL Amazon Seller Central] Konto. Wenn das Element versendet wurde, müssen Rücksendungen und Austausche auch in Ihrer [!DNL Amazon Seller Central] Konto.
 
 >[!NOTE]
 >
->Für andere Aufgaben als den Abbruch einer Bestellung:
+>Für andere Aufgaben als die Stornierung einer Bestellung:
 >
->- Wenn Sie [Bestellimport](./order-settings.md) aktiviert haben, werden die Bestellungen im [[!DNL Commerce] Auftrags-Workflow](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;} verwaltet.
->- Wenn [Bestellimport](./order-settings.md) deaktiviert ist, müssen Sie Ihre Bestellungen in [!DNL Amazon Seller Central] verwalten.
+>- Wenn Sie [Import bestellen](./order-settings.md) aktiviert, werden Bestellungen in der [[!DNL Commerce] Auftragsarbeitsablauf](https://docs.magento.com/user-guide/sales/orders.html){Zielgruppe=&quot;_blank&quot;}.
+>- Falls [Import bestellen](./order-settings.md) ist deaktiviert, müssen Sie Ihre Bestellungen verwalten in [!DNL Amazon Seller Central].
 
 
-## Abbrechen einer Bestellung im Status `Unshipped`
+## Bestellung abbrechen in `Unshipped` Status
 
-1. Klicken Sie auf der Store-Karte auf **[!UICONTROL View Store]**.
+1. Klick **[!UICONTROL View Store]** auf der Ladenkarte.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Recent Orders]_des Store-Dashboards auf eine Bestellnummer.
+1. In _[!UICONTROL Recent Orders]_im Store-Dashboard auf eine Bestellnummer klicken.
 
-   Die Seite _[!UICONTROL Amazon Order Details]_wird angezeigt.
+   Die _[!UICONTROL Amazon Order Details]_angezeigt.
 
-1. Klicken Sie in der Kopfzeilenleiste auf **[!UICONTROL Cancel Order]** .
+1. Klick **[!UICONTROL Cancel Order]** in der Kopfzeile.
 
-   Diese Option wird nur bei Bestellungen mit dem Status `Unshipped` angezeigt.
+   Diese Option wird nur bei Bestellungen angezeigt in `Unshipped` Status.
 
-1. Wählen Sie für **[!UICONTROL Reason for cancellation]** eine Option aus.
+1. für **[!UICONTROL Reason for cancellation]**, wählen Sie eine Option aus.
 
-1. Klicken Sie auf **[!UICONTROL Confirm]**.
+1. Klick **[!UICONTROL Confirm]**.
 
-   Die Bestellung wird abgebrochen und der Status wird in den Bestelldetails auf `Canceled` aktualisiert.
+   Die Bestellung wird abgebrochen und der Status wird aktualisiert auf `Canceled` in den Auftragsdetails.
 
-Die Stornierungsbenachrichtigung wird an Ihr [!DNL Amazon Seller Central]-Konto gesendet und der mit der Bestellung verbundene Kunde wird ebenfalls benachrichtigt. Der Status der entsprechenden [!DNL Commerce]-Bestellung ändert sich, falls vorhanden, in `Complete`.
+Die Stornierungsbenachrichtigung wird an Ihre [!DNL Amazon Seller Central] und der mit der Bestellung verbundene Kunde wird ebenfalls benachrichtigt. Der Status der entsprechenden [!DNL Commerce] gegebenenfalls Änderungen an `Complete`.

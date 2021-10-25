@@ -1,6 +1,6 @@
 ---
 title: Startseite
-description: Verwenden Sie die Startseite des Amazon-Vertriebskanals in Ihren  [!DNL Commerce] Admin to access your [!DNL Amazon Marketplace] Auflistungen und Aktivitäten.
+description: Verwenden Sie die Amazon Sales Kanal-Startseite in Ihrem [!DNL Commerce] Admin to access your [!DNL Amazon Marketplace] Auflistungen und Aktivität.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 # Startseite
 
-Die Startseite des Amazon-Vertriebskanals ist Ihre Landingpage beim Zugriff auf Ihren Amazon-Vertriebskanal.
+Die Amazon Sales Kanal Startseite ist Ihre Landingpage beim Zugriff auf Ihren Amazon Sales Kanal.
 
-![Startseite des Amazon-Vertriebskanals](assets/amazon-sales-channel-home-tabs.png)
+![Amazon Sales Kanal Startseite](assets/amazon-sales-channel-home-tabs.png)
 
-Im Menü links stehen folgende Ansichten zur Verfügung:
+Ansichten im linken Menü:
 
-- [[!UICONTROL Amazon Stores]](./managing-stores.md) - (Standardansicht) Zeigen Sie zusammenfassende Informationen für jeden Ihrer Amazon-Verkaufskanalspeicher an. Um den Store [dashboard](./amazon-store-dashboard.md) anzuzeigen, klicken Sie auf **[!UICONTROL View Store]**.
-- [[!UICONTROL Learning and Preparation]](./learning-preparation.md) - Zeigen Sie Ihre Amazon und  [!DNL Commerce] empfohlene Einrichtungsaufgaben und verfügbare Lernmaterialien an.
-- [[!UICONTROL Attributes]](./managing-attributes.md) - Zeigen Sie verknüpfte  [!DNL Commerce] und Amazon-Attribute für Ihren Produktkatalog an und verwalten Sie sie. Um automatisch mit Amazon zu synchronisieren, bearbeiten oder erstellen und verknüpfen Sie Attribute direkt über [!DNL Commerce].
+- [[!UICONTROL Amazon Stores]](./managing-stores.md) - (Standard-Ansicht) Ansicht für jeden Ihrer Amazon Kanal Stores. Zur Ansicht des Ladens [Dashboard](./amazon-store-dashboard.md), klicken **[!UICONTROL View Store]**.
+- [[!UICONTROL Learning and Preparation]](./learning-preparation.md) - Ansicht Ihres Amazon und [!DNL Commerce] empfohlene Setup-Aufgaben und verfügbare Lernmaterialien.
+- [[!UICONTROL Attributes]](./managing-attributes.md) - Ansicht und Verwaltung von Links [!DNL Commerce] und Amazon-Attribute für Ihren Produktkatalog. Zur automatischen Synchronisation mit Amazon bearbeiten oder erstellen Sie Attribute direkt über [!DNL Commerce].
 
-## Zugriff auf Amazon Sales Channel
+## Auf Amazon Sales Channel zugreifen
 
-Navigieren Sie in der Seitenleiste _[!UICONTROL Admin]_zu **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
+Auf _[!UICONTROL Admin]_Sidebar, Gehe zu **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-Die Startseite des Amazon-Vertriebskanals wird geöffnet. Standardmäßig wird die Ansicht [_Amazon Stores_](./managing-stores.md) angezeigt.
+Die Amazon Sales Kanal Startseite öffnet sich, standardmäßig auf [_Amazon Stores_](./managing-stores.md) Ansicht.

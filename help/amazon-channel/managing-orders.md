@@ -1,6 +1,6 @@
 ---
 title: Bestellungen verwalten
-description: You can enable order import in your Order Settings to more easily manage your Amazon orders from your Commerce Admin.
+description: Sie können den Auftragsimport in Ihren Auftragseinstellungen aktivieren, um Ihre Amazon-Bestellungen von Ihrem Commerce-Administrator aus leichter zu verwalten.
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
 source-git-commit: 1d1b888db4de4f6e3658af768cd6f5cf30828788
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ Nach [Speicherintegration](./store-integration.md), [**[!UICONTROL Import Amazon
 >
 >Unabhängig von den Einstellungen für den Auftragsimport wurden Amazon-Bestellungen in Ihren [!DNL Amazon Seller Central] Konto vor [Speicherintegration](./store-integration.md) nicht importiert werden.
 
-Imported Amazon orders are managed in the [[!DNL Commerce] Orders](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;} workflow, just like your other [!DNL Commerce] stores. Klicken Sie auf die Amazon-Bestellnummer im *[!UICONTROL Order Number]* -Spalte, um die Reihenfolge in [[!DNL Commerce] Bestellvorgang](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){Zielgruppe=&quot;_blank&quot;}. Siehe [Ansicht Amazon Bestellungen](./amazon-orders-all.md).
+Importierte Amazon-Bestellungen werden verwaltet in [[!DNL Commerce] Bestellungen](https://docs.magento.com/user-guide/sales/orders.html)Workflow für {Zielgruppe=&quot;_blank&quot;}, genau wie bei anderen [!DNL Commerce] Geschäfte. Klicken Sie auf die Amazon-Bestellnummer im *[!UICONTROL Order Number]* -Spalte, um die Reihenfolge in [[!DNL Commerce] Bestellvorgang](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){Zielgruppe=&quot;_blank&quot;}. Siehe [Ansicht Amazon Bestellungen](./amazon-orders-all.md).
 
 ### Prozess für Auftragsimport
 
@@ -32,7 +32,7 @@ Wenn eine Bestellung auf Amazon und [Import bestellen](./order-settings.md) akti
 | Ändern | Aktionen |
 |---|---|
 | Eine Bestellung wird auf Amazon aufgegeben. | <ul><li>Amazon legt den Bestellstatus fest auf `Pending`.</li><li>Bestellinformationen werden gesendet an [!DNL Commerce].</li><li>Auftrag wird hinzugefügt zu [_Amazon-Aufträge_ Tabelle](./amazon-orders-all.md) mit `Pending` Status.</li></ul> |
-| Amazon ändert den Bestellstatus in `Unshipped`. | <ul><li>The status change is sent to [!DNL Commerce].</li><li>In [_Amazon-Aufträge_ Tabelle](./amazon-orders-all.md), ändert sich der Bestellstatus in `Unshipped`.</li><li>In [[!DNL Commerce] Auftragsarbeitsablauf](https://docs.magento.com/user-guide/sales/orders.html){Zielgruppe=&quot;_blank&quot;}, entsprechende [!DNL Commerce] Auftrag wurde mit einem `Processing` Status.</li></ul> |
+| Amazon ändert den Bestellstatus in `Unshipped`. | <ul><li>Die Statusänderung wird gesendet an [!DNL Commerce].</li><li>In [_Amazon-Aufträge_ Tabelle](./amazon-orders-all.md), ändert sich der Bestellstatus in `Unshipped`.</li><li>In [[!DNL Commerce] Auftragsarbeitsablauf](https://docs.magento.com/user-guide/sales/orders.html){Zielgruppe=&quot;_blank&quot;}, entsprechende [!DNL Commerce] Auftrag wurde mit einem `Processing` Status.</li></ul> |
 | In [[!DNL Commerce] Auftragsarbeitsablauf](https://docs.magento.com/user-guide/sales/orders.html){Zielgruppe=&quot;_blank&quot;}, die [!DNL Commerce] Auftrag wird verarbeitet und der Status ändert sich in `Shipped`. | <ul><li>In [_Amazon-Aufträge_ Tabelle](./amazon-orders-all.md), ändert sich der Bestellstatus in `Shipped`.</li><li>Beim nächsten Cron-Auftrag ändert sich der Auftragsstatus in `Complete` in [[!DNL Commerce] Auftragsarbeitsablauf](https://docs.magento.com/user-guide/sales/orders.html){Zielgruppe=&quot;_blank&quot;}.</li></ul> |
 
 ### Blocker für Auftragserstellung
@@ -43,7 +43,7 @@ Es gibt einige Szenarios, die die Erstellung der entsprechenden [!DNL Commerce] 
 |---|---|
 | Das Element ist nicht im [!DNL Commerce] Katalog. | [Produkt erstellen](./creating-assigning-catalog-products.md) in [!DNL Commerce] Katalog und [Manuell übereinstimmen](./creating-assigning-catalog-products.md) dem Produkt. |
 | Das Element im Katalog ist deaktiviert. | Vergewissern Sie sich, dass [Produktstatus](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){Zielgruppe=&quot;_blank&quot;} ist aktiviert. |
-| The ordered item is out of stock. | Aktualisieren oder konfigurieren Sie [Produktoptionen](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){Zielgruppe=&quot;_blank&quot;} für Menge und Quelle. |
+| Der bestellte Artikel ist nicht auf Lager. | Aktualisieren oder konfigurieren Sie [Produktoptionen](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){Zielgruppe=&quot;_blank&quot;} für Menge und Quelle. |
 
 Wenn Bestellungen nicht importiert werden können, wird oben auf dem Bildschirm eine Systemnachricht ähnlich der folgenden angezeigt:
 

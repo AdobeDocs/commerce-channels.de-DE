@@ -1,6 +1,6 @@
 ---
-title: Protokolle und Store-Berichte
-description: Verwenden Sie die Protokolle und speichern Sie Berichte, um zu sehen, was in Ihrem Adobe Commerce- oder Magento Open Source-Store und in Ihren Amazon Marketplace-Listen passiert.
+title: Protokolle und Berichte speichern
+description: Verwenden Sie die Protokolle und speichern Sie Berichte, um zu sehen, was in Ihrem Adobe Commerce- oder Magento Open Source-Store und in Ihren Amazon Marketplace-Listen geschieht.
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,22 +11,22 @@ ht-degree: 0%
 
 # Protokolle und Berichte speichern
 
-Die Amazon Sales Channel-Erweiterung enthält einige wertvolle Protokolle und Store-Berichte, mit denen Sie die Änderungen anzeigen können, die sich auf Ihre Amazon-Listen und -Bestellungen auswirken. Sie können diese Berichte verwenden, um zu sehen, was in Ihrem Store passiert, und um verschiedene Listenstatus zu verstehen.
+Die Amazon Sales Kanal-Erweiterung beinhaltet einige wertvolle Protokolle und speichert Berichte, mit denen Sie die Änderungen, die Ihre Amazon-Auflistungen und -Bestellungen betreffen, Ansicht haben. Sie können diese Berichte verwenden, um zu sehen, was in Ihrem Geschäft passiert, und um verschiedene Listenstatus zu verstehen.
 
-Für die Protokolle oder Berichte sind keine Aktionen verfügbar, da sie schreibgeschützte Funktionen sind.
+Für die Protokolle oder speichern Sie Berichte keine Aktionen, da es sich um reine Rezensionsfunktionen handelt.
 
-Die folgenden Protokolle können über das [Store-Dashboard](./amazon-store-dashboard.md) aufgerufen werden.
+Auf die folgenden Protokolle kann zugegriffen werden über [Dashboard speichern](./amazon-store-dashboard.md).
 
-- Das [Protokoll zu Listing-Änderungen](./listing-changes-log.md) zeigt die Änderungen an, die in Ihrem Amazon-Vertriebskonto vorgenommen wurden, und spiegelt die Einstellungen Ihres Amazon-Vertriebskanals wider.
+- Die [Änderungsprotokoll auflisten](./listing-changes-log.md) zeigt die Änderungen an Ihrem Amazon Seller-Konto an, die sich aus Ihren Amazon Sales Kanal-Einstellungen ergeben haben.
 
-- Das [Kommunikationsfehlerprotokoll](./communication-errors-log.md) zeigt alle gemeldeten Kommunikationsfehler mit Amazon an.
+- Die [Kommunikationsprotokoll](./communication-errors-log.md) zeigt alle gemeldeten Kommunikationsfehler mit Amazon an.
 
-Die folgenden speicherspezifischen Berichte können über das [Store-Dashboard](./amazon-store-dashboard.md) aufgerufen werden.
+Auf die folgenden speicherspezifischen Berichte können Sie über die [Dashboard speichern](./amazon-store-dashboard.md).
 
-- Der Bericht [Konkurrenzpreisanalyse](./competitive-price-analysis.md) zeigt, dass Ihr Amazon _Landepreis_ (Listenpreis plus Versandpreis) im Verhältnis zum Preis [Buy Box](./buy-box-competitor-pricing.md) und zum niedrigsten Preis von Konkurrenten](./lowest-competitor-pricing.md) steht.[
+- Die [Analyse der Wettbewerbspreise](./competitive-price-analysis.md) Bericht zeigt, dass Ihr Amazon _Anlandepreis_ (Listenpreis plus Versandpreis) in Bezug auf [Buy Box](./buy-box-competitor-pricing.md) Preis und [kleinster Konkurrent](./lowest-competitor-pricing.md) Preis.
 
-- Der Bericht [Listening-Verbesserungen](./listing-improvements.md) enthält alle vorgeschlagenen Listenerweiterungen, die von Amazon für den ausgewählten Store bereitgestellt werden.
+- Die [Listungsverbesserungen](./listing-improvements.md) zeigt alle von Amazon für den ausgewählten Store vorgeschlagenen Verbesserungen an.
 
 >[!TIP]
 >
->Sie können die Protokolldatei auch auf zusätzliche Informationen überprüfen, wenn eine Fehlerbehebung erforderlich ist. Siehe [Vertriebskanal-Admin-Einstellungen](./sales-channel-settings.md). Die Protokollierung der Synchronisation von Amazon-Verkaufskanälen wird in die Datei `{Commerce Root}/var/log/channel_amazon.log` geschrieben und kann im [Entwicklermodus](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;} angezeigt werden.
+>Sie können die Protokolldatei auch auf weitere Informationen prüfen, wenn die Fehlerbehebung erforderlich ist. Siehe [Admin-Einstellungen für Sales-Kanal](./sales-channel-settings.md). Die Protokollierung der Synchronisation von Amazon Sales Kanal wird in `{Commerce Root}/var/log/channel_amazon.log` Datei und kann angezeigt werden in [Entwicklermodus](https://docs.magento.com/user-guide/magento/installation-modes.html){Zielgruppe=&quot;_blank&quot;}.

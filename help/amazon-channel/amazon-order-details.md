@@ -1,6 +1,6 @@
 ---
-title: Amazon-Bestelldetails
-description: Zeigen Sie Details zu Ihren Amazon Marketplace-Bestellungen in der Adobe Commerce oder Magento Open Source Admin an.
+title: Amazon-Auftragsdetails
+description: Ansicht für Ihre Amazon Marketplace-Bestellungen im Adobe Commerce oder Magento Open Source Admin.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,21 +9,21 @@ ht-degree: 0%
 
 ---
 
-# Amazon-Bestelldetails
+# Amazon-Auftragsdetails
 
-![Amazon-Bestelldetails](assets/amazon-order-details-header.png)
+![Amazon-Auftragsdetails](assets/amazon-order-details-header.png)
 
-## Amazon-Bestelldetails anzeigen
+## Ansicht Amazon Auftragsdetails
 
-1. Klicken Sie auf der Store-Karte auf **[!UICONTROL View Store]**.
+1. Klick **[!UICONTROL View Store]** auf der Ladenkarte.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Recent Orders]_auf eine Bestellnummer.
+1. In _[!UICONTROL Recent Orders]_klicken Sie auf eine Bestellnummer.
 
-   Die Seite _[!UICONTROL Amazon Order Details]_wird geöffnet.
+   Die _[!UICONTROL Amazon Order Details]_Seite wird geöffnet.
 
 >[!NOTE]
 >
->Wenn Sie den Bestellimport in [Bestelleinstellungen](./order-settings.md) aktiviert haben und die Bestellung [von Amazon (FBA)](./fulfilled-by.md) erfüllt wurde, können Sie Platzhalterdaten für einige Felder in den Bestelldetails sehen. Amazon sendet nicht die folgenden Daten für FBA-Bestellungen.
+>Wenn der Auftragsimport in Ihrem [Auftragseinstellungen](./order-settings.md) und die Bestellung [erfüllt von Amazon (FBA)](./fulfilled-by.md), können Sie die Dummy-Daten für einige Felder in den Auftragsdetails sehen. Amazon sendet folgende Daten für FBA-Bestellungen nicht.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -37,13 +37,13 @@ ht-degree: 0%
 > - `GiftMessageText`
 
 
-### Registerkarte &quot;Bestelldetails und Versanddetails&quot;
+### Registerkarte &quot;Order and Shipping Details&quot;
 
-Der Tab _[!UICONTROL Order and Shipping Details]_zeigt detaillierte Bestellinformationen an, die von Amazon empfangen wurden.
+Die _[!UICONTROL Order and Shipping Details]_auf der Registerkarte erhalten Sie detaillierte Bestellinformationen von Amazon.
 
 >[!IMPORTANT]
 >
->Amazon akzeptiert nicht standardmäßige Adressinformationen, die nicht in den Amazon-Vertriebskanal importiert werden können, wodurch verhindert wird, dass die Länder-/Ländercodes bei einigen Bestellungen korrekt aktualisiert werden. Um Adressfehler zu korrigieren, können die folgenden Felder in den Bestelldetails bearbeitet werden:
+>Amazon akzeptiert nicht standardmäßige Adressinformationen, die nicht in den Amazon Sales Kanal importiert werden können, wodurch verhindert wird, dass die Staaten-/Ländercodes bei einigen Bestellungen korrekt aktualisiert werden. Die folgenden Felder können in den Auftragsdetails bearbeitet werden, um Adressfehler zu beheben:
 >
 >- `Shipping address 1`
 >- `Shipping address 2`
@@ -54,18 +54,18 @@ Der Tab _[!UICONTROL Order and Shipping Details]_zeigt detaillierte Bestellinfor
 >- `Shipping country`
 
 >
->Vergessen Sie nicht, nach der Bearbeitung auf **Bestellung speichern** zu klicken.
+>Klicken Sie auf **Bestellung speichern** nach Bearbeitung.
 
-![Bestelldetails und Versanddetails](assets/amazon-order-details.png)
+![Bestellungs- und Versanddetails](assets/amazon-order-details.png)
 
-### Registerkarte &quot;Bestellelemente&quot;
+### Registerkarte &quot;Elemente&quot;
 
-Auf der Registerkarte _[!UICONTROL Order Items]_werden alle Elemente angezeigt, die mit der Amazon-Bestellung verknüpft sind, wie von Amazon empfangen.
+Die _[!UICONTROL Order Items]_-Tab zeigt alle mit der Amazon-Bestellung verknüpften Elemente an, wie sie von Amazon empfangen wurden.
 
-![Bestellelementdetails](assets/amazon-order-item-details.png)
+![Auftragselementdetails](assets/amazon-order-item-details.png)
 
-### Tab Tracking
+### Registerkarte Laufweite
 
-Der Tab _[!UICONTROL Tracking]_zeigt Tracking-Informationen an, die mit der Amazon-Bestellung verbunden sind.
+Die _[!UICONTROL Tracking]_auf dieser Registerkarte werden Verfolgungsinformationen angezeigt, die mit der Amazon-Bestellung verbunden sind.
 
-![Tracking-Details](assets/amazon-order-tracking-details.png)
+![Trackingdetails](assets/amazon-order-tracking-details.png)

@@ -1,6 +1,6 @@
 ---
-title: Über den Amazon-Vertriebskanal
-description: Verwenden Sie die Amazon Sales Channel-Erweiterung, um Adobe Commerce oder Magento Open Source nahtlos in Ihr Amazon Seller Central-Konto zu integrieren.
+title: Über Amazon Sales Kanal
+description: Nutzen Sie die Amazon Sales Kanal-Erweiterung, um Adobe Commerce oder Magento Open Source nahtlos in Ihr Amazon Seller Central-Konto zu integrieren.
 exl-id: 11752491-d0da-4ff7-a0a7-d17d4fa1bfc9
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,122 +9,122 @@ ht-degree: 0%
 
 ---
 
-# Über den Amazon-Vertriebskanal
+# Über den Amazon Sales Kanal
 
-Der Kanalmanager für Adobe Commerce bietet die Amazon-Erweiterung für Vertriebskanäle, die Ihren [!DNL Commerce]-Administrator nahtlos in Ihr [!DNL Amazon Seller Central]-Konto integriert. Nach [Onboarding](./amazon-onboarding-home.md) wird [!DNL Commerce] zum &quot;zentralen Befehlszentrum&quot;für die Verwaltung und Kontrolle Ihrer Amazon-Auflistungen, -Bestellungen und -Bestands sowie der Preise für Ihren Amazon-Store.
+Kanal Manager für Adobe Commerce bietet die Amazon Sales Kanal-Erweiterung an, die Ihre [!DNL Commerce] Admin mit Ihrer [!DNL Amazon Seller Central] Konto. Nach [Einstieg](./amazon-onboarding-home.md), [!DNL Commerce] wird zu einem &quot;zentralen Kommandozentrum&quot; für die Verwaltung und Steuerung Ihrer Amazon-Listen, Bestellungen und Lagerbestände und Preise für Ihren Amazon Store.
 
-[Die Store-](./store-integration.md) Integration verbindet Ihre  [!DNL Commerce] Instanz mit Amazon, um Daten zwischen beiden Plattformen zu synchronisieren. Mit dem Amazon-Vertriebskanal können Sie:
+[Integration speichern](./store-integration.md) verbindet Ihr [!DNL Commerce] -Instanz und Amazon, um Daten zwischen beiden Plattformen zu synchronisieren. Mit Amazon Sales Kanal können Sie:
 
-- [](./amazon-onboarding-home.md) Integration von einem oder mehreren  [!DNL Amazon Seller Central] Konten in Adobe Commerce oder Magento Open Source.
+- [Bordwand](./amazon-onboarding-home.md) und integrieren Sie eine oder mehrere [!DNL Amazon Seller Central] Konten bei Adobe Commerce oder Magento Open Source.
 
-- Importieren und synchronisieren Sie Ihre vorhandenen Amazon-Listen und gleichen Sie sie mit Produkten in Ihrem [!DNL Commerce]-Katalog ab, wodurch ein zentralisierter Produktkatalog erstellt wird.
+- Importieren und synchronisieren Sie Ihre vorhandenen Amazon-Auflistungen und gleichen Sie sie mit den Produkten in Ihren [!DNL Commerce] Katalog erstellen, einen zentralisierten Produktkatalog erstellen.
 
-- Erstellen und verwalten Sie Amazon-Listen für Produkte in Ihrem [!DNL Commerce]-Katalog.
+- Erstellen und verwalten Sie Amazon-Listen für Produkte in Ihren [!DNL Commerce] Katalog.
 
-- Anzeigen und Erfüllen (Schiff) von Bestellungen in [!DNL Commerce] und Amazon, Synchronisierungsauftragsstatus, Zahlungs- und Erstattungsinformationen.
+- Ansicht und Befolgung (Schiff) von [!DNL Commerce] und Amazon, den Bestellstatus, Zahlungs- und Rückerstattungsinformationen synchronisieren.
 
-- Anzeigen von Protokollen für Analysen und Fehler für [Wettbewerbspreise](./competitive-price-analysis.md), [Auflistung von Änderungen](./listing-changes-log.md) und [Kommunikationsproblemen](./communication-errors-log.md).
+- Ansicht-Protokolle für Analyse und Fehler für [wettbewerbsfähige Preise](./competitive-price-analysis.md), [Änderungen auflisten](./listing-changes-log.md)und [Kommunikationsfragen](./communication-errors-log.md).
 
-Greifen Sie auf Ihre Amazon-Stores zu, um alle diese Funktionen, Kontoinformationen, Auflistungen, Bestellungen und mehr im Amazon-Vertriebskanal [Homepage](./amazon-sales-channel-home.md) anzuzeigen und zu verwalten.
+Zugriff auf Ihre Amazon Stores zur Ansicht und Verwaltung all dieser Funktionen, Kontoinformationen, Listen, Bestellungen und vieles mehr auf dem Amazon-Kanal für den Vertrieb [Startseite](./amazon-sales-channel-home.md).
 
 ## Promotions und Preisgestaltung
 
-Mit der Erweiterung [!DNL Amazon Sales Channel] können Sie:
+Mit [!DNL Amazon Sales Channel] Erweiterung können Sie:
 
-- Synchronisieren Sie die Listenpreise in Amazon mit [!DNL Commerce] dem Katalogpreis (oder alternativen Preisattribut).
+- Preise für Amazon-Auflistung synchronisieren auf [!DNL Commerce] Katalogpreis (oder alternatives Preisattribut).
 
-- Aktivieren Sie MSRP [Strickthrough-Preise](./listing-price.md#configure-listing-price-settings) in Ihren Amazon-Listen, um Kundenwertvorschläge zu erhöhen.
+- MSRP aktivieren [Durchschlagspreise](./listing-price.md#configure-listing-price-settings) in Ihren Amazon-Listen, um das Kundenwertangebot zu verbessern.
 
-- Aktivieren und verwalten Sie [Mindest-Werbepreis (MAP)](./listing-price.md#configure-listing-price-settings) in Ihren Amazon-Auflistungen.
+- Aktivieren und verwalten [Mindestpreis für Werbung (MAP)](./listing-price.md#configure-listing-price-settings) in Ihren Amazon-Listen.
 
-- Konfigurieren Sie zusätzliche [MwSt](./listing-price.md#configure-listing-price-settings) in Ihren Amazon-Preisen.
+- Weitere konfigurieren [Mehrwertsteuer](./listing-price.md#configure-listing-price-settings) in Ihrem Amazon-Preis.
 
-- Legen Sie einen benutzerdefinierten Wert für &quot;Verfügbare Menge&quot;in Ihren [Lager-/Mengeneinstellungen](./stock-quantity.md#configure-stock--quantity-settings) fest, der mit Ihren Amazon-Listen angezeigt wird, um die Käuferpriorität zu erhöhen.
+- Legen Sie einen benutzerdefinierten Wert für &quot;Verfügbare Menge&quot;in Ihrem [Lager-/Mengeneinstellungen](./stock-quantity.md#configure-stock--quantity-settings) um mit Ihren Amazon-Listen zu zeigen, um die Kaufdringenheit zu erhöhen.
 
 ## Preisregeln
 
-Mit der Erweiterung [!DNL Amazon Sales Channel] können Sie:
+Mit [!DNL Amazon Sales Channel] Erweiterung können Sie:
 
-- Erstellen Sie stapelbare, flexible und komplexe [Preisregeln](./pricing-products.md), um Ihre Amazon-Preise für Alltagsangebote oder saisonale Promotions zu verwalten.
+- Stapelbar, flexibel und komplex erstellen [Preisregeln](./pricing-products.md) um Ihre Amazon Preise für den täglichen Verkauf oder saisonale Promotionen zu verwalten.
 
-- Erstellen Sie die Preise [floor](./floor-price.md) und [ceiling](./optional-ceiling-price.md), um Ihre niedrigsten und höchsten Preise zu schützen.
+- Erstellen [Fußboden](./floor-price.md) und [Obergrenze](./optional-ceiling-price.md) Preise zum Schutz Ihrer niedrigsten und höchsten Preise.
 
-- Erstellen und verwalten Sie [intelligente Neuberechnungsregeln](./intelligent-repricing-rules.md), die Ihre Produktpreise automatisch an andere Amazon-Konkurrenten anpassen ([kleinster Konkurrent](./lowest-competitor-pricing.md) und [Buy Box](./buy-box-competitor-pricing.md) Preis).
+- Erstellen und verwalten [Intelligente Preisanpassungsregeln](./intelligent-repricing-rules.md) die die Produktpreise automatisch an andere Amazon-Konkurrent anpassen ([kleinster Konkurrent](./lowest-competitor-pricing.md) und [Buy Box](./buy-box-competitor-pricing.md) Preis).
 
-## Verwaltung von Catalog-Feeds
+## Katalog-Feed-Verwaltung
 
-Mit der Erweiterung [!DNL Amazon Sales Channel] können Sie:
+Mit [!DNL Amazon Sales Channel] Erweiterung können Sie:
 
-- Importieren Sie Ihre vorhandenen Amazon-Listen (Produkte) und gleichen Sie sie mit vorhandenen oder erstellen Sie Produkte in Ihrem [!DNL Commerce]-Katalog.
+- Importieren Sie Ihre vorhandenen Amazon-Auflistungen (Produkte) und gleichen Sie sie mit vorhandenen Produkten ab oder erstellen Sie Produkte in Ihren [!DNL Commerce] Katalog.
 
-- Veröffentlichen Sie Ihre [!DNL Commerce]-Produkte in Amazon, um Amazon-Listen zu erstellen.
+- Veröffentlichen Sie Ihre [!DNL Commerce] Produkte nach Amazon, um Amazon-Listen zu erstellen.
 
-- Erstellen Sie [Außerkraftsetzungen](./creating-editing-overrides.md), um einen individuellen Preis, Bearbeitungszeit, Bedingung und die Meldung der Verkaufsmitteilungen festzulegen.
+- Erstellen [Überschreibungen](./creating-editing-overrides.md) um einen individuellen Preis, die Bearbeitungszeit, den Zustand und den Hinweis des Verkäufers festzulegen.
 
-- Importieren und ordnen Sie das Produkt [attribute](./attributes-view.md) aus Ihren Amazon-Listen zu, um es automatisch mit Produkten in Ihrem [!DNL Commerce]-Katalog abzustimmen.
+- Produkt importieren und zuordnen [Attribute](./attributes-view.md) aus Ihren Amazon-Listen, um automatisch Produkte in Ihren [!DNL Commerce] Katalog.
 
-- Legen Sie mehrere Suchparameter fest, um Amazon-Auflistungen mit Ihrem [!DNL Commerce]-Katalog abzugleichen.
+- Festlegen mehrerer Suchparameter, um Amazon-Auflistungen Ihren [!DNL Commerce] Katalog.
 
-- Definieren Sie [Listening-Regeln](./listing-rules.md) , um zu bestimmen, welche Ihrer [!DNL Commerce]-Produkte für die Auflistung in Amazon geeignet sind.
+- Definieren [Listungsregeln](./listing-rules.md) um zu bestimmen, welche Ihrer [!DNL Commerce] die Erzeugnisse in Amazon aufgeführt werden können.
 
-- Legen Sie für Ihre neuen Amazon-Listen eine standardmäßige [Bearbeitungszeit](./product-listing-actions.md) fest.
+- Standard festlegen [Bearbeitungszeit](./product-listing-actions.md) für Ihre neuen Amazon-Listen.
 
-- Übereinstimmungsauflistungsbedingungen basierend auf einem [!DNL Commerce] -Attribut.
+- Übereinstimmungsauflistungsbedingungen basierend auf einem [!DNL Commerce] Attribut.
 
-- Fügen Sie für jeden Bedingungstyp Verkaufshinweise hinzu (optional).
+- hinzufügen für jeden Bedingungstyp (optional).
 
-- Implementieren Sie beim Importieren von Amazon-Listen die Mengenschwellen in Ihren [!DNL Commerce]-Katalog.
+- Implementieren Sie beim Import von Amazon-Listen in Ihre [!DNL Commerce] Katalog.
 
-- Zeigen Sie die empfohlenen [Auflistungsverbesserungen](./listing-improvements.md) an.
+- Ansicht empfohlen [Verbesserungen in der Auflistung](./listing-improvements.md).
 
 ## Auftragsverwaltung und Kundendienst
 
-Mit der Erweiterung [!DNL Amazon Sales Channel] können Sie:
+Mit [!DNL Amazon Sales Channel] Erweiterung können Sie:
 
-- Support und Verarbeitung von Bestellungen in Amazon und [!DNL Commerce].
+- Support- und Prozessaufträge in Amazon und [!DNL Commerce].
 
-- [](./order-settings.md#configure-order-settings) Importieren Sie Ihre Amazon-Bestellungen in Amazon  [!DNL Commerce] oder lassen Sie sie in.
+- [Importieren](./order-settings.md#configure-order-settings) Ihre Amazon-Bestellungen bei [!DNL Commerce] oder lassen Sie sie in Amazon.
 
-- Definieren Sie, welche Ihrer [!DNL Commerce] Websites mit Ihren Amazon-Bestellungen für den Import und die Verwaltung von Bestellungen verknüpft werden sollen.
+- Definieren Sie, welches Ihrer [!DNL Commerce] Website-Shops, die mit Ihren Amazon-Bestellungen für den Import und die Verwaltung von Bestellungen verbunden sind.
 
-- Anzeigen, Abbrechen und Versenden von Bestellungen von [!DNL Commerce] und/oder Amazon abhängig von Ihren [Ausführungsparametern](./fulfilled-by.md).
+- Bestellungen für Ansicht, Storno und Versand von [!DNL Commerce] und/oder Amazon je nach Ihrem [Fulfillment-Einstellungen](./fulfilled-by.md).
 
-- Ordnen Sie Ihren Amazon-Bestellstatus dem benutzerdefinierten Status in [!DNL Commerce] zu (optional).
+- Zuordnen des Amazon-Bestellstatus zu benutzerdefiniertem Status in [!DNL Commerce] (optional).
 
-- Zeigen Sie Bestellfehler an und verwalten Sie sie, um Probleme zu beheben und eine Verbindung mit Kunden herzustellen.
+- Ansicht und Verwaltung von Auftragsfehlern zur Behebung von Problemen und zur Kundenverbindung.
 
-- Senden Sie Daten zur Bestellverfolgung an Ihr [!DNL Amazon Seller Central]-Konto.
+- Auftragsverfolgungsdaten an Ihre [!DNL Amazon Seller Central] Konto.
 
-- [Abbrechen von ](./cancel-unshipped-order.md) Bestellungen und Auswählen einer Antwort auf einen Grund.
+- [Bestellungen stornieren](./cancel-unshipped-order.md) und wählen Sie eine Antwort aus.
 
-- Zeigen Sie die [aktuellen Bestellinformationen](./amazon-store-dashboard.md) für Ihre Amazon-Bestellungen an.
+- Ansicht der [jüngere Bestellung](./amazon-store-dashboard.md) Informationen zu Ihren Amazon-Bestellungen.
 
-## Berichterstellung
+## Berichte
 
-Mit der Erweiterung [!DNL Amazon Sales Channel] können Sie Berichtinformationen zu folgenden Themen überprüfen:
+Mit [!DNL Amazon Sales Channel] -Erweiterung können Sie Berichtinformationen zu folgenden Themen anzeigen:
 
-- Auflistungen nach Status von aktiv, inaktiv, qualifiziert und unvollständig.
+- Auflistungen nach Status von aktiv, inaktiv, förderfähig und unvollständig.
 
-- Bestellungen bis zum Versand.
+- Bestellungen warten auf den Versand.
 
-- Die letzten Bestellungen.
+- Die neuesten Bestellungen.
 
-- Amazon [Auflistung der Änderungen log](./listing-changes-log.md) , um Produkt-/Auflistungsänderungen (z. B. Preis und Menge) zu überprüfen.
+- Amazon [Änderungsprotokoll auflisten](./listing-changes-log.md) zur Überprüfung von Produkt-/Auflistungsänderungen (z. B. Preis und Menge).
 
-- Produkt [Buy Box](./buy-box-competitor-pricing.md) Konkurrierende Preisdaten.
+- Produkt [Buy Box](./buy-box-competitor-pricing.md) Konkurrent-Preisdaten
 
-- Produkt [Niedrigste konkurrierende Preise](./lowest-competitor-pricing.md) Daten.
+- Produkt [Niedrigste Konkurrent-Preise](./lowest-competitor-pricing.md) Daten.
 
 ## Support für globale Verkäufe
 
-Mit der Erweiterung [!DNL Amazon Sales Channel] können Sie:
+Mit [!DNL Amazon Sales Channel] Erweiterung können Sie:
 
-- Verwalten mehrerer [!DNL Amazon Marketplace] Regionen (Länder).
+- Mehrere verwalten [!DNL Amazon Marketplace] Regionen (Länder).
 
-- Unterstützen Sie mehrere Währungen mit dem [[!DNL Commerce] Währungsumrechnungstool](https://docs.magento.com/user-guide/stores/currency-configuration.html){target=&quot;_blank&quot;}.
+- Mehrere Währungen mit [[!DNL Commerce] Währungsumrechnungswerkzeug](https://docs.magento.com/user-guide/stores/currency-configuration.html){Zielgruppe=&quot;_blank&quot;}.
 
-- Verwalten Sie Sendungen von Ihren Produktstandorten und Amazon-Ausführungszentren.
+- Verwalten Sie Sendungen von Ihren Produktstandorten und Amazon-Fulfillment-Zentren.
 
 ## Kundenverwaltung
 
-Erstellen Sie Ihre [!DNL Commerce]-Kundendatenbank durch [Importieren von Kundendaten](./order-settings.md#configure-order-settings), die mit Ihren Amazon-Bestellungen verknüpft sind. Erweitern Sie Ihr Marketing-Potenzial durch diese erweiterte Kundenliste durch Ihre [!DNL Amazon Marketplace]-Auflistungen und die [!DNL Commerce] Storefront.
+Erstellen Sie [!DNL Commerce] Kundendatenbank nach [Kundendaten importieren](./order-settings.md#configure-order-settings) mit Ihren Amazon-Bestellungen verbunden. Ihr Marketing-Potenzial steigern durch diese erweiterte Liste von Kunden durch Ihre [!DNL Amazon Marketplace] Auflistungen und [!DNL Commerce] Schaufenster.

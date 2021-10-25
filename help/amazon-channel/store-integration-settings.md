@@ -1,6 +1,6 @@
 ---
-title: Store-Integrationseinstellungen
-description: Nachdem Sie das Onboarding des Amazon-Verkaufskanals abgeschlossen haben, überprüfen Sie die Einstellungen für die Store-Integration über das Dashboard [!UICONTROL Amazon Store] .
+title: Integrationseinstellungen speichern
+description: Nachdem Sie den Amazon Sales Kanal-Onboarding-Prozess abgeschlossen haben, überprüfen und konfigurieren Sie die Store-Integrationseinstellungen über [!UICONTROL Amazon Store] Dashboard
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,28 +9,28 @@ ht-degree: 0%
 
 ---
 
-# Einstellungen zur Store-Integration
+# Integrationseinstellungen speichern
 
-Überprüfen und konfigurieren Sie nach der Integration Ihres Stores die Einstellungen für die Store-Integration über das Dashboard [!UICONTROL Amazon Store] . Diese Einstellungen werden für die Stores *Inaktiv* und *Aktiv* angezeigt. Hier können Sie den Namen Ihres Amazon-Stores und die E-Mail-Adresse ändern, die Sie während der Store-Integration mit dem Store verknüpft haben.
+Überprüfen und konfigurieren Sie nach der Integration Ihres Speichers die Speicherintegrationseinstellungen über [!UICONTROL Amazon Store] Dashboard. Diese Einstellungen werden angezeigt für *Inaktiv* und *Aktiv* Geschäfte. Hier können Sie den Namen Ihres Amazon Store und die E-Mail-Adresse ändern, die Sie dem Store während der Speicherintegration zugewiesen haben.
 
-## Einstellungen für die Store-Integration ändern
+## Speicherintegrationseinstellungen ändern
 
-1. Um den Store [dashboard](./amazon-store-dashboard.md) anzuzeigen, klicken Sie auf **[!UICONTROL View Store]** in einer Store-Karte.
+1. So zeigen Sie den Store an [Dashboard](./amazon-store-dashboard.md), klicken **[!UICONTROL View Store]** in einer Ladenkarte.
 
-1. Klicken Sie im Menü links auf **[!UICONTROL Store Integration Settings]** .
+1. Klick **[!UICONTROL Store Integration Settings]** im Menü links.
 
-1. Aktualisieren Sie für **[!UICONTROL Email Address]** Ihre bevorzugte Kontakt-E-Mail-Adresse.
+1. für **[!UICONTROL Email Address]**, aktualisieren Sie Ihre bevorzugte Kontakt-E-Mail-Adresse.
 
-1. Aktualisieren Sie für **[!UICONTROL New Store Name]** den beschreibenden Namen für Ihren neuen Amazon-Verkaufskanalspeicher.
+1. für **[!UICONTROL New Store Name]**, aktualisieren Sie den beschreibenden Namen für Ihren neuen Amazon Sales Kanal Store.
 
-   Dieser Name wird auf der Registerkarte [_[!UICONTROL Amazon Stores]_](./managing-stores.md) angezeigt.
+   Dieser Name wird im [_[!UICONTROL Amazon Stores]_](./managing-stores.md) Tabulator.
 
-   Sie wird nur als [!DNL Commerce]-Referenz verwendet und identifiziert den Speicher in der Liste auf der Homepage des Amazon-Vertriebskanals. Es sollte etwas sein, das Ihr Team leicht erkennen kann. Beispielsweise könnte Ihr Amazon-Store, der in der Region USA verkauft wird, `Amazon Store USA` heißen.
+   Es wird als [!DNL Commerce] nur auf der Amazon-Startseite für den Kanal zu verweisen und den Speicher in der Liste zu identifizieren. Das sollte etwas sein, das Ihr Team leicht erkennen kann. So könnte z. B. Ihr Amazon-Store, der in den Vereinigten Staaten verkauft wird, `Amazon Store USA`.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klick **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Die _[!UICONTROL Amazon Marketplace Country]_-Einstellung, die während der [Store-Integration](./store-integration.md) definiert wurde, kann nicht aktualisiert werden. Um die Ländereinstellung zu bearbeiten, müssen Sie den Store (unter_[!UICONTROL Action]_ auf der Store-Karte) löschen und einen Store für das andere Land hinzufügen.
+>Die _[!UICONTROL Amazon Marketplace Country]_Einstellung definiert während [Speicherintegration](./store-integration.md) kann nicht aktualisiert werden. Um die Ländereinstellung zu bearbeiten, müssen Sie den Store löschen (unter_[!UICONTROL Action]_ auf der Ladenkarte) und fügen Sie einen Laden für das jeweilige Land hinzu.
 
-![Einstellungen zur Store-Integration](assets/amazon-store-settings.png)
+![Integrationseinstellungen speichern](assets/amazon-store-settings.png)

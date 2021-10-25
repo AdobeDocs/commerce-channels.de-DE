@@ -13,46 +13,46 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Der Abschnitt &quot;Preisanpassung&quot;unterscheidet sich geringfügig für Standard- und intelligente Neupreisregeln. **[!UICONTROL Match Competitor Price]** ist nur verfügbar unter  _[!UICONTROL Price Action]_, wenn **[!UICONTROL Rule Type]**auf  `Intelligent repricing rule`gesetzt ist.
+>Der Bereich Preisanpassung unterscheidet sich leicht von Standard- und Intelligent Reprice-Regeln. **[!UICONTROL Match Competitor Price]** ist nur verfügbar unter _[!UICONTROL Price Action]_wann **[!UICONTROL Rule Type]**ist eingestellt auf `Intelligent repricing rule`.
 
-Zu den Abschnitten einer intelligenten Neupreisregel gehören:
+Zu den Abschnitten einer intelligenten Neubewertungsregel gehören:
 
 - [Regeltyp auswählen](./intelligent-repricing-rules.md)
-- [Bedingte Unterschiede zwischen Wettbewerbern](./competitor-conditional-variances.md)
+- [Bedingte Abweichungen des Konkurrenten](./competitor-conditional-variances.md)
 - Preisanpassung
-- [Floor Price](./floor-price.md)
+- [Floor-Preis](./floor-price.md)
 - [Optionaler Höchstpreis](./optional-ceiling-price.md)
 
 Die Preisanpassung definiert die Preisberechnung, wenn Sie die Preisquelle des Konkurrenten ermittelt haben.
 
 ## Preisanpassung konfigurieren
 
-Definieren Sie Ihre Preisanpassung im Abschnitt _[!UICONTROL Price Adjustment]_.
+Definieren Sie Ihre Preisanpassung im _[!UICONTROL Price Adjustment]_Abschnitt.
 
-1. Wählen Sie für **[!UICONTROL Price Action]** eine Option:
+1. für **[!UICONTROL Price Action]**, wählen Sie eine Option aus:
 
-   - `Decrease By` - Wählen Sie aus, wann der definierte Preis-Quellwert angepasst werden soll, um einen niedrigeren Preis für die Regel zu erzielen, bevor Sie sie in Amazon auflisten.
+   - `Decrease By` - Wählen Sie aus, wann der festgelegte Wert der Preisquelle nach unten angepasst werden soll, um einen niedrigeren Preis für die Regel zu erzielen, bevor Sie sie für Amazon aufgeben.
 
-   - `Increase By` - Wählen Sie aus, wann der definierte Preisquellenwert angepasst werden soll, um einen höheren Preis für die Regel zu erzielen, bevor Sie sie in Amazon auflisten.
+   - `Increase By` - Wählen Sie aus, wann der festgelegte Wert der Preisquelle angepasst werden soll, um einen höheren Preis für die Regel zu erzielen, bevor Sie sie für Amazon aufgeben.
 
-   - `Match Competitor Price` - (Nur intelligente Neupreisregel) Wählen Sie aus, wann Sie Ihren Amazon-Listingpreis basierend auf Ihrem Konkurrenten-Feedback und Ihren Varianzparametern an den  [niedrigsten ](./lowest-competitor-pricing.md) Wettbewerbspreis anpassen möchten. Wenn auf `Match Competitor Price` gesetzt, werden die Felder _[!UICONTROL Apply]_und_[!UICONTROL Adjustment Amount]_ entfernt.
+   - `Match Competitor Price` - (Nur intelligente Preisanpassungsregel) Wählen Sie aus, wann Sie Ihren Amazon-Listingpreis ändern möchten, um ihn an die [kleinster Konkurrent](./lowest-competitor-pricing.md) Preis, basierend auf Ihrem Konkurrent Feedback und Varianzparametern. Wenn festgelegt auf `Match Competitor Price`, _[!UICONTROL Apply]_und_[!UICONTROL Adjustment Amount]_ Felder werden entfernt.
 
-1. Wählen Sie für **[!UICONTROL Apply]** eine Option:
+1. für **[!UICONTROL Apply]**, wählen Sie eine Option aus:
 
-   - `Apply as percentage` - Wählen Sie aus, wann die in Ihrem  **[!UICONTROL Magento Price Source]** Listing- [ ](./listing-price.md) Preis definierte Variable um einen Prozentwert angepasst werden soll.
+   - `Apply as percentage` - Wählen Sie aus, wann die **[!UICONTROL Magento Price Source]** definiert in [Listingpreis](./listing-price.md) um einen Prozentsatz angepasst.
 
-   - `Apply as fixed amount` - Wählen Sie aus, wann die in Ihrem  **[!UICONTROL Magento Price Source]** Listing- [ ](./listing-price.md) Preis definierte Variable um einen festen Betrag angepasst werden soll.
+   - `Apply as fixed amount` - Wählen Sie aus, wann die **[!UICONTROL Magento Price Source]** definiert in [Listingpreis](./listing-price.md) angepasst um einen festen Betrag.
 
-1. Geben Sie für **[!UICONTROL Adjustment Amount]** (erforderlich) den numerischen Wert für die Preisanpassung ein.
+1. für **[!UICONTROL Adjustment Amount]** (erforderlich), geben Sie den numerischen Wert für die Preisanpassung ein.
 
-   - Wenn **[!UICONTROL Apply]** auf `Apply as percentage` gesetzt ist, geben Sie den Prozentwert ein (Beispiel: `25` für eine 25%ige Anpassung eingeben).
+   - Wann **[!UICONTROL Apply]** ist eingestellt auf `Apply as percentage`, geben Sie den Prozentwert ein (Beispiel: Eingabe `25` 25 % Anpassung).
 
-   - Wenn **[!UICONTROL Apply]** auf `Apply as fixed amount` gesetzt ist, geben Sie den numerischen Wert für den Festbetrag ein (Beispiel: `25` für eine feste Anpassung von 25 USD eingeben).
+   - Wann **[!UICONTROL Apply]** ist eingestellt auf `Apply as fixed amount`, geben Sie den numerischen Wert für den Festbetrag ein (Beispiel: Eingabe `25` für eine feste Anpassung um 25 Dollar).
 
-![Intelligente Neupreisregelung - Preisanpassung](assets/amazon-price-adjustment.png)
+![Intelligente Preisanpassungsregel - Preisanpassung](assets/amazon-price-adjustment.png)
 
 | Feld | Beschreibung |
 |---|---|
-| [!UICONTROL Price Action] | Wählen Sie eine Preisanpassungsaktion. Optionen:<br>**[!UICONTROL Decrease By]**- Wählen Sie aus, wann der in [Listing Price](./listing-price.md) definierte definierte _[!UICONTROL Magento Price Source]_-Wert angepasst werden soll, um einen niedrigeren Preis für die Regel zu erzielen, bevor Sie sie in Amazon auflisten.<br>**[!UICONTROL Increase By]**- Wählen Sie aus, wann die in Ihrem_[!UICONTROL Magento Price Source]_ Listing- [Preis ](./listing-price.md) definierte Regel angepasst werden soll, um einen höheren Preis für die Regel zu erzielen, bevor Sie sie in Amazon auflisten.<br>**[!UICONTROL Match Competitor Price]**- (Nur intelligente Neupreisregel) Wählen Sie aus, wann Sie Ihren Amazon-Listingpreis basierend auf Ihrem Konkurrenten-Feedback und Ihren Varianzparametern an den  [niedrigsten ](./lowest-competitor-pricing.md) Wettbewerbspreis anpassen möchten. Wenn ausgewählt, werden die Felder _Apply_ und _Adjustment Amount_ entfernt. |
-| [!UICONTROL Apply] | Optionen:<br>**[!UICONTROL Apply as percentage]**- Wählen Sie aus, wann der definierte _[!UICONTROL Magento Price Source]_in Ihrem [Listing Price](./listing-price.md) um einen Prozentwert angepasst werden soll.<br>**[!UICONTROL Apply as fixed amount]**- Wählen Sie aus, wann die in Ihrem_[!UICONTROL Magento Price Source]_ Listing- [ ](./listing-price.md) Preis definierte Variable um einen festen Betrag angepasst werden soll. |
-| [!UICONTROL Adjustment Amount] | Erforderlich.<br>Wenn Sie  `Apply as percentage` für  **[!UICONTROL Apply]** wählen, geben Sie den Prozentwert ein (Beispiel: 25 %  `25` für eine Anpassung).<br>Wenn Sie  `Apply as fixed amount` für  **[!UICONTROL Apply]** wählen, geben Sie den numerischen Wert für den Festbetrag ein (Beispiel: für  `25` eine feste Anpassung von 25 USD). |
+| [!UICONTROL Price Action] | Wählen Sie eine Preisanpassungsaktion aus. Optionen:<br>**[!UICONTROL Decrease By]**- Wählen Sie aus, wann die _[!UICONTROL Magento Price Source]_definiert in [Listingpreis](./listing-price.md) um nach unten korrigiert zu werden, was einen niedrigeren Preis für die Regel ergibt, bevor sie an Amazon notiert wird.<br>**[!UICONTROL Increase By]**- Wählen Sie aus, wann die_[!UICONTROL Magento Price Source]_ definiert in [Listingpreis](./listing-price.md) zu bereinigen, um einen höheren Preis für die Regel zu erzielen, bevor sie an Amazon notiert wird.<br>**[!UICONTROL Match Competitor Price]**- (Nur intelligente Preisanpassungsregel) Wählen Sie aus, wann Sie Ihren Amazon-Listingpreis ändern möchten, um ihn an die [kleinster Konkurrent](./lowest-competitor-pricing.md) Preis, basierend auf Ihrem Konkurrent Feedback und Varianzparametern. Bei Auswahl der _Übernehmen_ und _Anpassungsbetrag_ Felder werden entfernt. |
+| [!UICONTROL Apply] | Optionen:<br>**[!UICONTROL Apply as percentage]**- Wählen Sie aus, wann die _[!UICONTROL Magento Price Source]_definiert in [Listingpreis](./listing-price.md) um einen Prozentsatz angepasst.<br>**[!UICONTROL Apply as fixed amount]**- Wählen Sie aus, wann die_[!UICONTROL Magento Price Source]_ definiert in [Listingpreis](./listing-price.md) angepasst um einen festen Betrag. |
+| [!UICONTROL Adjustment Amount] | Erforderlich.<br>Wenn Sie möchten `Apply as percentage` für **[!UICONTROL Apply]**, geben Sie den Prozentwert ein (Beispiel: Eingabe `25` 25 % Anpassung).<br>Wenn Sie möchten `Apply as fixed amount` für **[!UICONTROL Apply]**, geben Sie den numerischen Wert für den Festbetrag ein (Beispiel: Eingabe `25` für eine feste Anpassung um 25 Dollar). |

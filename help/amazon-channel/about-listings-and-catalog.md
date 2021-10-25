@@ -1,6 +1,6 @@
 ---
 title: Über Amazon und den Commerce-Katalog
-description: Der Amazon-Vertriebskanal importiert Ihre Amazon-Auflistungen in Ihr Commerce-Backend und synchronisiert sie kontinuierlich mit Produkten und Verkäufen.
+description: Der Amazon Sales Kanal importiert Ihre Amazon-Auflistungen in Ihr Commerce-Backend und synchronisiert sie kontinuierlich mit Produkten und Verkäufen.
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,40 +9,40 @@ ht-degree: 0%
 
 ---
 
-# Über Amazon und den Katalog [!DNL Commerce]
+# Über Amazon und [!DNL Commerce] Katalog
 
-Ihr Adobe Commerce- oder Magento Open Source-Backend enthält einen Katalog mit allen Produkten und zugehörigen Einstellungen und Informationen (Bilder, Optionen, Preise und mehr) sowie Konfigurationen für Bestellung und Versand. Ihr [!DNL Amazon Seller Central] -Konto verfügt auch über einen Katalog und eine Bestellkonfiguration, die Ihre Verkäufe über das [!DNL Amazon Marketplace] genau verfolgen.
+Ihr Adobe Commerce- oder Magento Open Source-Backend enthält einen Katalog mit allen Produkteinstellungen und zugehörigen Einstellungen und Informationen (Bilder, Optionen, Preise und mehr) sowie Konfigurationen für Bestellung und Versand. Ihre [!DNL Amazon Seller Central] hat auch einen Katalog und Auftragskonfigurationen, die ausschließlich Ihren Umsatz durch [!DNL Amazon Marketplace].
 
-Um Produktkatalog und -verkäufe an einem Ort besser zu verwalten und zu überprüfen, importiert der Amazon-Vertriebskanal Ihre Amazon-Auflistungen in Ihr [!DNL Commerce]-Backend, synchronisiert kontinuierlich mit Produkten und Verkäufen und meldet Probleme und Trends. Es unterstützt Integrationen mit mehreren [!DNL Amazon Seller Central]-Konten, die alle Daten über die einzige Oberfläche für mehrere Storefronts verfolgen.
+Um den Produktkatalog und den Vertrieb über einen Standort besser zu verwalten und zu überprüfen, importiert Amazon Sales Kanal Ihre Amazon-Auflistungen in Ihre [!DNL Commerce] Backend, synchron mit Produkten und Verkäufen, meldet Probleme und Trends. Es unterstützt Integrationen mit mehreren [!DNL Amazon Seller Central] -Konten, die alle Daten über die einzige Oberfläche für mehrere Stores verfolgen.
 
 ## Produktattribute
 
-Adobe Commerce und Magento Open Source verwalten Katalogsynchronisierungen mit der Verwendung von Produkt [attributes](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}, um Produkteinstellungen und Daten zu definieren. Amazon verwendet auch Attribute, die über das Onboarding zugeordnet werden. Bei [Aufgaben vor dem Setup](./amazon-pre-setup-tasks.md) für den Amazon-Vertriebskanal definieren Sie (bei Bedarf) zusätzliche Amazon-Attribute, um beim Import Ihrer Amazon-Auflistungen in Ihren [!DNL Commerce]-Katalog korrekte Produktzuordnungen sicherzustellen. Zu diesen Attributen gehören UPC, EAN, ISBN und ASIN ([!DNL Amazon Standard Identification Number]). Beim Onboarding werden Produkte mithilfe Ihrer Attribute zwischen Amazon- und [!DNL Commerce]-Katalogen synchronisiert. Eine ordnungsgemäße Zuordnung Ihrer [!DNL Commerce]- und Amazon-Produkte gewährleistet eine kontinuierliche Synchronisierung von Produktinformationen, Bestellungen und Beständen.
+Adobe Commerce und Magento Open Source verwalten Katalogsynchronisierungen mit Produktverwendung [Attribute](https://docs.magento.com/user-guide/catalog/product-attributes.html){Zielgruppe=&quot;_blank&quot;} zum Definieren von Produkteinstellungen und -daten. Amazon verwendet auch Attribute, die über das Einsteigen zugeordnet werden können. Während [Aufgaben vor dem Setup](./amazon-pre-setup-tasks.md) für Amazon Sales Kanal definieren Sie zusätzliche Amazon-Attribute (falls erforderlich), um beim Import Ihrer Amazon-Einträge in Ihre [!DNL Commerce] Katalog. Zu diesen Attributen gehören UPC, EAN, ISBN und ASIN ([!DNL Amazon Standard Identification Number]). Durch Einstieg werden die Produkte zwischen Amazon und [!DNL Commerce] Kataloge mit Ihren Attributen. Richtige Zuordnung Ihrer [!DNL Commerce] und Amazon-Produkte sorgen für eine kontinuierliche Synchronisation von Produktinformationen, Bestellungen und Lagerbeständen.
 
-Wenn Sie diese Attribute nicht für Ihren Katalog erstellt oder konfiguriert haben, sollten Sie Ihren Produkten vor dem Onboarding einen [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} und Werte hinzufügen. Wenn ein Amazon-Attribut importiert wird, kann es für Suche, Navigation, Preisregeln und vieles mehr verwendet werden. Weitere Informationen zu diesen Attributen finden Sie unter [Amazon: Was sind UPCs, EANs, ISBNs und ASINs?](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){target=&quot;_blank&quot;}
+Wenn Sie diese Attribute nicht für Ihren Katalog erstellt oder konfiguriert haben, sollten Sie einen [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){Zielgruppe=&quot;_blank&quot;} und Werte für Ihre Produkte vor dem Einstieg. Wenn ein Amazon-Attribut importiert wird, kann es für die Suche, Navigation, Preisregeln und vieles mehr verwendet werden. Weitere Informationen zu diesen Attributen finden Sie unter [Amazon: Was sind UPCs, EANs, ISBNs und ASINs?](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){Zielgruppe=&quot;_blank&quot;}
 
-Nach dem Onboarding können Sie Ihre Produktattribute und Amazon-Zuordnungen jederzeit verwalten und aktualisieren.
+Nach dem Einstieg können Sie Ihre Produktattribute und Amazon-Zuordnungen jederzeit verwalten und aktualisieren.
 
 ## Produktlisten
 
-Eine Amazon-Auflistung ist eine Produktseite für jedes Produkt, das Sie über das [!DNL Amazon Marketplace] verkaufen, auf der Produktbeschreibungen, Preise, Bilder und mehr angezeigt werden, die über Attribute zugeordnet sind. Während des Onboarding können Sie Ihre [!DNL Commerce]-Produkte automatisch in Amazon-Listen veröffentlichen. Sie können Ihre vorhandenen Amazon-Listen auch importieren, indem Sie sie Ihren [!DNL Commerce]-Produkten zuordnen.
+Eine Amazon-Auflistung ist eine Produktseite für jedes Produkt, das Sie über [!DNL Amazon Marketplace], in dem Produktbeschreibungen, Preise, Bilder und vieles mehr angezeigt werden, die über Attribute zugeordnet sind. Während des Boarding können Sie Ihre [!DNL Commerce] Produkte können automatisch in Amazon-Listen veröffentlicht werden. Sie können Ihre vorhandenen Amazon-Listen auch importieren, indem Sie sie Ihren [!DNL Commerce] Produkte.
 
-Wenn Sie eine Liste mit [!DNL Commerce] Produkten erstellt haben, werden diese zur Genehmigung an Amazon übermittelt. Die meisten erfolgreichen Listen werden innerhalb weniger Stunden genehmigt. Wenn Ihre Liste genehmigt wurde, erscheint sie im [!DNL Amazon Marketplace] für sofortige Bestellungen durch Kunden. Die [!DNL Amazon Sales Channel]-Erweiterung bietet eine Reihe von Registerkarten zum Überprüfen von Amazon-Listen. Abhängig vom Problem oder den erforderlichen Daten sollten Sie Ihr [!DNL Amazon Seller Central]-Konto auf spezifische Details zu diesen Listen überprüfen.
+Wenn Sie eine Auflistung erstellt haben [!DNL Commerce] werden sie Amazon zur Genehmigung vorgelegt. Die meisten erfolgreichen Auflistungen werden innerhalb weniger Stunden genehmigt. Wenn Ihre Liste genehmigt wurde, wird sie im [!DNL Amazon Marketplace] für Sofortbestellungen durch Kunden. Die [!DNL Amazon Sales Channel] -Erweiterung bietet eine Reihe von Registerkarten zur Überprüfung von Amazon-Auflistungen. Je nach Problem oder den erforderlichen Daten sollten Sie Ihre [!DNL Amazon Seller Central] für spezifische Details in diesen Listen.
 
-- [Aktiv](./active-listings.md): Listet genehmigte Produktlisten auf, die über den Marketplace verfügbar sind.
+- [Aktiv](./active-listings.md): Listen genehmigte Produktauflistungen auf dem Markt verfügbar.
 
-- [Bereit zum Auflisten](./ready-to-list.md): Listet Produkte auf, die den Anforderungen an Regeln entsprechen und für die Veröffentlichung in Amazon bereit sind.
+- [Bereit für Liste](./ready-to-list.md): Listen von Produkten, die die Anforderungen der Listening-Regeln erfüllen und auf Amazon veröffentlicht werden können.
 
-- [Inaktiv](./inactive-listings.md): Listet Produkte auf, die aufgrund der Blockierung aus einem bestimmten Grund (z. B. Branding-Problem), der Schließung und Anforderung von Zuverlässigkeit usw. nicht auf dem Markt verfügbar sind.
+- [Inaktiv](./inactive-listings.md): Liste von Produkten, die auf dem Markt nicht verfügbar sind, weil sie aus einem bestimmten Grund blockiert wurden (z. B. Markenproblematik), geschlossen sind und eine erneute Überprüfung erfordern usw.
 
-- [Nicht zugelassen](./ineligible-listings.md): Führt Produkte, die nicht aktiv auf dem Markt aufgeführt werden können (z. B.  `0` Mengen- oder Verkaufsdaten), aufgrund der Listening-Regeln auf.
+- [Nicht förderfähig](./ineligible-listings.md): Aufgrund der Listungsregeln können Listen Produkte, die nicht aktiv auf dem Markt aufgeführt werden können (z. B. `0` Verkaufsdaten).
 
-- [Unvollständig](./incomplete-listings.md): Listet Produkte auf, denen erforderliche Informationen fehlen. Aktualisieren Sie die Produktdaten für eine weitere Überprüfung.
+- [Unvollständig](./incomplete-listings.md): Listen-Produkte fehlen erforderliche Informationen. Aktualisieren Sie die Produktdaten für eine andere Überprüfung.
 
-- [Beendet](./ended-listings.md): Listet Produktlisten auf, die für eine Auflistung infrage kommen, aber manuell aus Amazon entfernt werden können. Sie können diese Produkte neu auflisten.
+- [Beendet](./ended-listings.md): Listen von Produktauflistungen, die für eine Auflistung infrage kommen, aber manuell aus Amazon entfernt wurden. Sie können diese Produkte neu auflisten.
 
-## Synchronisieren von Daten
+## Daten werden synchronisiert
 
-Adobe Commerce und Magento Open Source kommunizieren Produkt- und Bestelldaten zwischen Ihrem [!DNL Amazon Seller Central]-Konto und dem [!DNL Commerce]-Backend. Die fortlaufenden Updates bieten eine zentrale Quelle bis [!DNL Commerce], um Ihre Lagerbestände zu verwalten und zu pflegen, Bestellungen zu erfüllen, Verkäufe zu verfolgen und Overheads und Doppelarbeit zu reduzieren. Die Berichterstellung erfasst die neuesten Daten zur Verfolgung von Trends und zur Lösung von Kommunikationsproblemen, die zwischen den beiden Systemen auftreten.
+Adobe Commerce und Magento Open Source kommunizieren Produkt- und Bestelldaten zwischen Ihren [!DNL Amazon Seller Central] und [!DNL Commerce] Backend. Die kontinuierlichen Aktualisierungen bieten eine einzige Quelle durch [!DNL Commerce] Ihre Bestände zu verwalten und zu pflegen, Aufträge zu erfüllen, Verkäufe zu verfolgen und den Aufwand und die Doppelarbeit zu reduzieren. Berichte erfasst die neuesten Daten zur Verfolgung von Trends und zur Behebung von Kommunikationsproblemen, die zwischen den beiden Systemen auftreten.
 
-Die gesamte Synchronisierung wird von einem [cron-Auftrag](https://docs.magento.com/user-guide/system/cron.html){target=&quot;_blank&quot;} verwaltet, der in [Aufgaben vor der Einrichtung](./amazon-pre-setup-tasks.md) alle fünf Minuten aktualisiert wird.
+Alle Synchronisierungen werden von einem [cron job](https://docs.magento.com/user-guide/system/cron.html){Zielgruppe=&quot;_blank&quot;}, eingestellt auf alle fünf Minuten in Ihrem [Aufgaben vor dem Setup](./amazon-pre-setup-tasks.md).

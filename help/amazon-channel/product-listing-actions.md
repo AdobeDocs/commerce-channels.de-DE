@@ -1,6 +1,6 @@
 ---
-title: Produktlistenaktionen
-description: Verwenden Sie die Einstellungen für Produktlistungsaktionen , um festzulegen, wie Ihr Commerce-Katalog mit Amazon interagiert.
+title: Produktlistungsaktionen
+description: Verwenden Sie die Einstellungen für Produktlistungsaktionen, um zu definieren, wie Ihr Commerce-Katalog mit Amazon interagiert.
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -10,46 +10,46 @@ ht-degree: 0%
 
 ---
 
-# Aktionen auf der Produktliste
+# Produktlistenkategorien
 
-Die Aktionseinstellungen für die Produktliste sind Teil Ihrer Einstellungen für die Store-Auflistung. Auf die Listening-Einstellungen kann über das [Store-Dashboard](./amazon-store-dashboard.md) zugegriffen werden.
+Die Einstellungen für die Produktlistungsaktionen sind Teil Ihrer Einstellungen für die Ladenliste. Auf die Listseinstellungen kann über folgende Optionen zugegriffen werden: [Dashboard speichern](./amazon-store-dashboard.md).
 
-Diese Einstellungen definieren, wie Ihr Katalog mit Amazon interagiert. Diese Einstellungen:
+Diese Einstellungen definieren die Interaktion Ihres Katalogs mit Amazon. Diese Einstellungen:
 
-- Geben Sie an, ob Ihre [!DNL Commerce] -Katalogprodukte, die die Amazon-Voraussetzungen erfüllen, automatisch an Ihr [!DNL Amazon Seller Central] -Konto gesendet werden, um Auflistungen zu erstellen.
+- Geben Sie an, ob Ihre [!DNL Commerce] Katalogprodukte, die die Amazon-Teilnahmevoraussetzungen erfüllen, werden automatisch an Ihre [!DNL Amazon Seller Central] Konto zum Erstellen von Auflistungen.
 
-- Legen Sie die standardmäßige Bearbeitungszeit für eine Bestellung fest. Dieser Wert definiert die Anzahl der Tage, die Sie benötigen, um eine Bestellung zu verarbeiten und zu versenden. Wenn beispielsweise jemand 2 Tage Versand auswählt, beginnt diese Versanddurchlaufzeit erst nach Abschluss der Verarbeitung und die Pakete werden an einen Beförderer übergeben. Die Versandzeit beträgt insgesamt (Bearbeitungszeit + Versandzeit + Feiertage).
+- Legen Sie die Standardverarbeitungszeit für eine Bestellung fest. Dieser Wert definiert die Anzahl der Tage, die Sie zum Versenden und Verarbeiten einer Bestellung benötigen. Wenn jemand beispielsweise 2-Tage-Versand wählt, wird die Versandzeit nicht Beginn, bis die Verarbeitung abgeschlossen ist und die Pakete an einen Beförderer übergeben werden. Die Gesamtdauer des Versands beträgt (Bearbeitungszeit + Durchfahrtszeit + Feiertage).
 
 ## Einstellungen konfigurieren
 
-1. Klicken Sie im Store-Dashboard auf **[!UICONTROL Listing Settings]** .
+1. Klick **[!UICONTROL Listing Settings]** auf dem Dashboard.
 
-1. Erweitern Sie den Abschnitt _[!UICONTROL Product Listing Actions]_.
+1. Erweitern der _[!UICONTROL Product Listing Actions]_Abschnitt.
 
-1. Wählen Sie für **[!UICONTROL Automatic List Action]** (erforderlich) eine Option:
+1. für **[!UICONTROL Automatic List Action]** (erforderlich), wählen Sie eine Option aus:
 
-   - `Automatically List Eligible Products` - (Standard) Wählen Sie aus, wann Ihre  [!DNL Commerce] Katalogprodukte (die die Voraussetzungen für Amazon erfüllen) automatisch in Amazon veröffentlicht und Amazon-Listen erstellt werden sollen.
+   - `Automatically List Eligible Products` - (Standard) Wählen Sie aus, wann Sie möchten [!DNL Commerce] Katalogprodukte (die die Anspruchsvoraussetzungen von Amazon erfüllen) zur automatischen Veröffentlichung auf Amazon und Erstellung von Amazon-Listen.
 
-   - `Do Not Automatically List Eligible Products` - Wählen Sie aus, wann Sie die entsprechenden  [!DNL Commerce] Katalogprodukte manuell auswählen und Amazon-Listen erstellen möchten. Falls ausgewählt, werden Katalogprodukte, die Ihren Listenkriterien entsprechen und alle erforderlichen Informationen enthalten, auf dem Tab [_[!UICONTROL Ready to List]_](./ready-to-list.md) angezeigt, um sie manuell in Amazon zu veröffentlichen.
+   - `Do Not Automatically List Eligible Products` - Wählen Sie aus, wann Sie das gewünschte Element manuell auswählen möchten [!DNL Commerce] Katalogprodukte erstellen und Amazon-Listen erstellen. Wenn Sie diese Option wählen, werden Produkte katalogisiert, die Ihren Listungskriterien entsprechen und alle erforderlichen Informationen enthalten, auf der [_[!UICONTROL Ready to List]_](./ready-to-list.md) für die manuelle Veröffentlichung auf Amazon.
 
-1. Geben Sie für **[!UICONTROL Default Handling Time]** (erforderlich) die Anzahl der Tage an, die für die Vorlaufzeit vor dem Versand benötigt werden.
+1. für **[!UICONTROL Default Handling Time]** (erforderlich), geben Sie die Anzahl der Tage an, die für die Vorlaufzeit vor dem Versand benötigt werden.
 
-   Der Standardwert ist `2` Tage.
+   Der Standardwert ist `2` Tagen.
 
    >[!NOTE]
    >
-   >Dieser standardmäßige Bereitstellungszeitwert gilt nur für Amazon-Auflistungen, die über den Amazon-Vertriebskanal erstellt werden. Alle Amazon-Listen, die in Ihrem [!DNL Amazon Seller Central]-Konto erstellt wurden, verwenden die in Amazon festgelegte standardmäßige Bearbeitungszeit.
+   >Dieser Standard-Ausgabezeitwert ist nur für Amazon-Auflistungen wirksam, die über Amazon Sales Kanal erstellt wurden. Alle Amazon-Auflistungen, die in Ihren [!DNL Amazon Seller Central] -Konto verwenden Sie die in Amazon festgelegte Standardverarbeitungszeit.
 
 1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save listing settings]**.
 
-![Aktionen auf der Produktliste](assets/amazon-product-listing-actions.png)
+![Produktlistenkategorien](assets/amazon-product-listing-actions.png)
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Automatic List Action] | Optionen:<ul><li>**[!UICONTROL Automatically List Eligible Products]** - (Empfohlen) Wählen Sie aus, wann Ihre  [!DNL Commerce] Katalogprodukte (die die Voraussetzungen für Amazon erfüllen) automatisch in Amazon veröffentlicht und Amazon-Listen erstellt werden sollen. Wenn diese Option aktiviert ist, wird die Registerkarte [_[!UICONTROL Ready to List]_](./ready-to-list.md) nicht angezeigt. </li><li>**[!UICONTROL Do Not Automatically List Eligible Products]** - Wählen Sie aus, wann Sie die geeigneten  [!DNL Commerce] Katalogprodukte manuell auswählen und Amazon-Listen erstellen möchten. Falls ausgewählt, werden Katalogprodukte, die Ihren Listenkriterien entsprechen und alle erforderlichen Informationen enthalten, auf dem Tab [_[!UICONTROL Ready to List]_](./ready-to-list.md) angezeigt, um sie manuell zu veröffentlichen.</li></ul> |
-| [!UICONTROL Default Handling Time] | Der numerische Wert, der die Anzahl der Tage angibt, die Sie für die Verarbeitung und den Versand Ihrer Bestellungen benötigen. Der Standardwert ist `2`. Dieser Wert wird für Amazon-Auflistungen verwendet, die in [!DNL Commerce] erstellt und in Amazon veröffentlicht wurden. Die standardmäßige Bearbeitungszeit für Amazon-Auflistungen vor der Integration mit [!DNL Commerce] wird von dieser Einstellung nicht beeinflusst.<br><br>Der im Amazon-Vertriebskanal definierte Wert ersetzt nicht die standardmäßige Bearbeitungszeit, die in einer vorhandenen Amazon-Liste definiert ist. Wenn **[!UICONTROL Handling Time Override]** aktiviert und dann entfernt wird, wird die Verarbeitungszeit für eine Bestellung auf den hier definierten Wert zurückgesetzt.<br><br>Wenn Sie Produkte mit unterschiedlichen Verarbeitungszeiten haben, können Sie eine &quot;Handling Time Override&quot;auf produktspezifischer Ebene erstellen. Sie können Überschreibungen von Bearbeitungszeiten im Tab [_[!UICONTROL Overrides]_](./overrides.md) verwalten, sodass Sie Ihre Produkterfüllung flexibel verwalten können. Wenn [!DNL Commerce] für ein Produkt keine Überschreibungszeit enthält, ist der Standardwert für die Bearbeitungszeit der in der Amazon-Auflistung definierte Wert.<br><br>Die Verarbeitungszeit ist ein regionales Attribut. Wenn der Wert für eine Auflistung geändert wird, wirkt sich die Änderung auf alle Auflistungen aus, die den [!DNL Amazon Seller SKU] in allen Amazon Stores teilen, die für dieselbe Region vorhanden sind (definiert unter [Speicherintegration](./store-integration.md)). Eine Änderung des Werts für ein freigegebenes [!DNL Amazon Seller SKU] in Nordamerika wirkt sich jedoch nicht auf dieselben Produkte aus, die in einem Store mit einer anderen definierten Region aufgeführt sind. Der Speicher für die Region mit dem ältesten Erstellungsdatum steuert die Priorität für die Standardeinstellungen für die Verarbeitungszeit. |
+| [!UICONTROL Automatic List Action] | Optionen:<ul><li>**[!UICONTROL Automatically List Eligible Products]** - (Empfohlen) Wählen Sie aus, wann Sie möchten [!DNL Commerce] Katalogprodukte (die die Anspruchsvoraussetzungen von Amazon erfüllen) zur automatischen Veröffentlichung auf Amazon und Erstellung von Amazon-Listen. Bei Auswahl der [_[!UICONTROL Ready to List]_](./ready-to-list.md) nicht angezeigt wird. </li><li>**[!UICONTROL Do Not Automatically List Eligible Products]** - Wählen Sie, wann Sie die Option &quot;Zulässig&quot; manuell auswählen möchten [!DNL Commerce] Katalogprodukte erstellen und Amazon-Listen erstellen. Wenn Sie diese Option wählen, werden Produkte katalogisiert, die Ihren Listungskriterien entsprechen und alle erforderlichen Informationen enthalten, auf der [_[!UICONTROL Ready to List]_](./ready-to-list.md) für die manuelle Veröffentlichung.</li></ul> |
+| [!UICONTROL Default Handling Time] | Der numerische Wert, der die Anzahl der Tage angibt, an denen Sie Ihre Bestellungen bearbeiten und versenden müssen. Der Standardwert ist `2`. Dieser Wert wird für Amazon-Auflistungen verwendet, die in [!DNL Commerce] und in Amazon veröffentlicht. Die standardmäßige Bearbeitungszeit für Amazon-Auflistungen vor der Integration in [!DNL Commerce] sind von dieser Einstellung nicht betroffen.<br><br>Der im Amazon Sales Kanal definierte Wert ersetzt nicht die Standardverarbeitungszeit, die in einer bestehenden Amazon-Liste definiert ist. Wenn ein **[!UICONTROL Handling Time Override]** aktiviert und dann entfernt wird, kehrt die Bearbeitungszeit für eine Bestellung auf den hier definierten Wert zurück.<br><br>Wenn Sie Produkte mit unterschiedlichen Verarbeitungszeiten haben, können Sie eine &quot;Handling Time Override&quot;(Zeitüberschreibung für Handling Time Override) auf produktspezifischer Ebene erstellen. Sie können Zeitüberschreitungen im Bereich [_[!UICONTROL Overrides]_](./overrides.md) , damit Sie flexibel in der Verwaltung Ihrer Produkterfüllung sind. Wenn keine Verarbeitungszeit überschrieben wurde [!DNL Commerce] für ein Produkt der Standardwert für die Bearbeitungszeit ist der in der Amazon-Auflistung definierte Wert.<br><br>Die Bearbeitungszeit ist ein regionales Attribut. Wenn der Wert für eine Auflistung geändert wird, wirkt sich die Änderung auf alle Auflistungen aus, die die [!DNL Amazon Seller SKU] in allen Amazon Stores, die für dieselbe Region vorhanden sind (definiert unter [Speicherintegration](./store-integration.md)). Ändern des Werts für eine gemeinsame Nutzung [!DNL Amazon Seller SKU] in Nordamerika nicht die gleichen Erzeugnisse betreffen, die in einem Laden mit einer anderen definierten Region aufgeführt sind. Der Speicher für den Bereich mit dem ältesten Erstellungsdatum steuert die Priorität für die Standardeinstellungen für die Bearbeitungszeit. |
 
-**Schnellzugriff**  -  [!UICONTROL Listing Settings] Abschnitte
+**Schnellzugriff** - [!UICONTROL Listing Settings] Abschnitte
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)

@@ -1,6 +1,6 @@
 ---
-title: Erstellen und Bearbeiten von Überschreibungen
-description: Verwenden Sie Überschreibungen des Amazon-Sales Channels, um Ihre Änderungen auf eine einzelne Amazon-Liste oder auf mehrere Auflistungen anzuwenden.
+title: Überschreibungen erstellen und bearbeiten
+description: Verwenden Sie Amazon Sales Channel-Überschreibungen, um Ihre Änderungen auf eine einzelne Amazon-Auflistung oder auf mehrere Auflistungen anzuwenden.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,111 +9,111 @@ ht-degree: 0%
 
 ---
 
-# Erstellen und Bearbeiten von Überschreibungen
+# Überschreibungen erstellen und bearbeiten
 
-Sie können eine Liste erstellen und überschreiben oder eine auf eine Liste angewendete Überschreibung bearbeiten oder entfernen. Überschreibt einen definierten Wert für eine bestimmte Auflistung.
+Sie können eine Auflistung erstellen und überschreiben oder eine auf eine Auflistung angewendete Außerkraftsetzung bearbeiten oder entfernen. Überschreibt die Einstellung eines bestimmten Werts für eine bestimmte Auflistung.
 
-## Erstellen einer Überschreibung für eine einzelne Liste
+## Überschreibung für eine einzelne Auflistung erstellen
 
-Die Aktion _[!UICONTROL Create Override]_ist verfügbar, wenn Sie Auflistungen auf den Registerkarten_[!UICONTROL Inactive]_, _[!UICONTROL Active]_und_[!UICONTROL Ineligible]_ anzeigen.
+Die _[!UICONTROL Create Override]_Aktion ist verfügbar, wenn Auflistungen auf der_[!UICONTROL Inactive]_, _[!UICONTROL Active]_und_[!UICONTROL Ineligible]_ Tabulatoren.
 
-1. Zeigen Sie eine Liste auf einer _[!UICONTROL Products Listings]_-Seite an (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_und_[!UICONTROL Ineligible]_ -Registerkarte).
+1. Ansicht einer Auflistung auf einer _[!UICONTROL Products Listings]_Seite (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_und_[!UICONTROL Ineligible]_ Tabulator).
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**>**[!UICONTROL Create Override]**, um die Seite &quot;Produktlistenüberschreibungen&quot;zu öffnen.
+1. In _[!UICONTROL Action]_Spalte, klicken **[!UICONTROL Select]**>**[!UICONTROL Create Override]**um die Seite mit den Produktlistungen zu öffnen.
 
-   ![Amazon-Listenüberschreibungen erstellen](assets/amazon-select-create-override.png)
+   ![Überschreiben der Amazon-Auflistung erstellen](assets/amazon-select-create-override.png)
 
-1. Um sicherzustellen, dass Sie die richtige Liste anzeigen, überprüfen Sie die _[!UICONTROL Listing Details]_.
+1. Überprüfen Sie die _[!UICONTROL Listing Details]_.
 
-1. Bestimmen Sie den Typ der Überschreibung, die Sie erstellen.
+1. Bestimmen Sie den Typ der Außerkraftsetzung, die Sie erstellen.
 
-   Sie können einen einzelnen Überschreibungstyp oder eine beliebige Kombination von Typen für die Auflistung definieren (Preis, Bearbeitungszeit, Bedingung, Verkaufshinweise).
+   Sie können einen einzelnen Überschreibungstyp oder eine beliebige Kombination von Typen für die Auflistung definieren (Preis, Bearbeitungszeit, Bedingung, Verkaufsmitteilungen).
 
-   - **Preis**  - Klicken Sie auf  **[!UICONTROL Change Listing Price]** und geben Sie Ihren definierten Preiswert für  **[!UICONTROL Price Override]** ein.
-   - **Verarbeitungszeit**  - Klicken Sie auf  **[!UICONTROL Change Handling Time]** und geben Sie den definierten Zeitwert (in Tagen) für  **[!UICONTROL Handling Time Override]** ein.
-   - **Bedingung**  - Klicken Sie auf  **[!UICONTROL Change Condition]** und wählen Sie die richtige Option für  **[!UICONTROL Condition Override]** aus.
-   - **Verkaufshinweise**  - Klicken Sie auf  **[!UICONTROL Change Seller Notes]** und geben Sie Ihren Notiztext für  **[!UICONTROL Seller Notes Override]** ein.
+   - **Preis** - Klicken **[!UICONTROL Change Listing Price]** und geben Sie Ihren festgelegten Preiswert ein für **[!UICONTROL Price Override]**.
+   - **Bearbeitungszeit** - Klicken **[!UICONTROL Change Handling Time]** und geben Sie den definierten Zeitwert (in Tagen) ein für **[!UICONTROL Handling Time Override]**.
+   - **Bedingung** - Klicken **[!UICONTROL Change Condition]** und wählen Sie die richtige Option für die **[!UICONTROL Condition Override]**.
+   - **Hinweise für Verkäufer** - Klicken **[!UICONTROL Change Seller Notes]** und geben Sie den Hinweistext ein für **[!UICONTROL Seller Notes Override]**.
 
-1. Klicken Sie auf **[!UICONTROL Save Listing Override]**.
+1. Klick **[!UICONTROL Save Listing Override]**.
 
-   Die Seite _[!UICONTROL Product Listing Overrides]_wird geschlossen. Der Status der Auflistung ändert sich in `Relist in Progress`. Die Änderung wird mit der nächsten Datensynchronisation in Amazon veröffentlicht (wie in Ihren Cron-Einstellungen konfiguriert). Die Auflistung wird auch dem Tab_[!UICONTROL Overrides]_ hinzugefügt.
+   Die _[!UICONTROL Product Listing Overrides]_Seite wird geschlossen. Der Status der Auflistung ändert sich in `Relist in Progress`. Die Änderung wird mit der nächsten Datensynchronisierung auf Amazon veröffentlicht (wie in Ihren cron-Einstellungen konfiguriert). Die Auflistung wird ebenfalls dem_[!UICONTROL Overrides]_ Tabulator.
 
-Das folgende Beispiel zeigt eine Außerkraftsetzung, die einen neuen Preis von `$55`, eine neue Bearbeitungszeit von `1 day`, eine neue Bedingung von `Used; Like New` und einen neuen Text für die Verkaufsnotiz definiert.
+Das folgende Beispiel zeigt eine Außerkraftsetzung, die einen neuen Preis von `$55`, eine neue Bearbeitungszeit von `1 day`, eine neue Bedingung von `Used; Like New`und neuer Text für den Verkäufer-Hinweis.
 
-![Beispiel für Amazon-Listenüberschreibungen](assets/amazon-overrides-edit.png)
+![Beispiel-Amazon-Listenseite](assets/amazon-overrides-edit.png)
 
-## Bearbeiten oder Entfernen einer Überschreibung für eine einzelne Auflistung {#edit-override-single-listing}
+## Überschreiben für eine einzelne Auflistung bearbeiten oder entfernen {#edit-override-single-listing}
 
-Die Aktion _[!UICONTROL Edit Overrides]_ist verfügbar, wenn Sie Auflistungen auf der Registerkarte_[!UICONTROL Overrides]_ anzeigen.
+Die _[!UICONTROL Edit Overrides]_Aktion ist verfügbar, wenn Auflistungen auf der_[!UICONTROL Overrides]_ Tabulator.
 
-1. Zeigen Sie eine Liste auf der Seite _[!UICONTROL Product Listings]_an (_[!UICONTROL Overrides]_ Registerkarte).
+1. Ansicht einer Auflistung auf _[!UICONTROL Product Listings]_Seite (_[!UICONTROL Overrides]_ Tabulator).
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**>**[!UICONTROL Edit Overrides]**.
+1. In _[!UICONTROL Action]_Spalte, klicken **[!UICONTROL Select]**>**[!UICONTROL Edit Overrides]**.
 
-   Die Seite _[!UICONTROL Product Listing Overrides]_wird geöffnet.
+   Die _[!UICONTROL Product Listing Overrides]_Seite wird geöffnet.
 
-   ![Amazon-Listenüberschreibungen auswählen](assets/amazon-select-edit-overrides.png)
+   ![Überschreiben der Amazon-Auflistung auswählen](assets/amazon-select-edit-overrides.png)
 
-1. Um sicherzustellen, dass Sie die richtige Auflistung überschreiben, überprüfen Sie die _[!UICONTROL Listing Details]_.
+1. Überprüfen Sie die _[!UICONTROL Listing Details]_.
 
-1. Um Ihre _[!UICONTROL Override]_-Einstellungen zu bearbeiten, definieren Sie die Abschnitte für den Typ, den Sie ändern möchten (Preis, Bearbeitungszeit, Bedingung, Verkaufshinweise).
+1. So bearbeiten Sie Ihre _[!UICONTROL Override]_-Einstellungen, legen Sie die Abschnitte für den Typ fest, den Sie ändern möchten (Preis, Bearbeitungszeit, Bedingung, Verkaufsmitteilungen).
 
-   Um den gleichen Überschreibungstyp beizubehalten, wählen Sie `No Change To <override type>` (Standard) aus. Bei dieser Einstellung bleibt der zuvor definierte Wert zum Außerkraftsetzen unverändert.
+   Um einen Überschreibungstyp unverändert zu lassen, wählen Sie `No Change To <override type>` (Standard). Mit dieser Einstellung bleibt der zuvor definierte Wert für die Außerkraftsetzung unverändert.
 
-   - **Preis**  - Klicken Sie auf  **[!UICONTROL Change Listing Price]** und geben Sie Ihren definierten Preiswert für  **[!UICONTROL Price Override]** ein.
-   - **Verarbeitungszeit**  - Klicken Sie auf  **[!UICONTROL Change Handling Time]** und geben Sie den definierten Zeitwert (in Tagen) für  **[!UICONTROL Handling Time Override]** ein.
-   - **Bedingung**  - Klicken Sie auf  **[!UICONTROL Change Condition]** und wählen Sie die richtige Option für  **[!UICONTROL Condition Override]**.
-   - **Verkaufshinweise**  - Klicken Sie auf  **[!UICONTROL Change Seller Notes]** und geben Sie Ihren Notiztext für  **[!UICONTROL Seller Notes Override]** ein.
+   - **Preis** - Klicken **[!UICONTROL Change Listing Price]** und geben Sie Ihren festgelegten Preiswert ein für **[!UICONTROL Price Override]**.
+   - **Bearbeitungszeit** - Klicken **[!UICONTROL Change Handling Time]** und geben Sie den definierten Zeitwert (in Tagen) ein für **[!UICONTROL Handling Time Override]**.
+   - **Bedingung** - Klicken **[!UICONTROL Change Condition]** und wählen Sie die richtige Option für **[!UICONTROL Condition Override]**.
+   - **Hinweise für Verkäufer** - Klicken **[!UICONTROL Change Seller Notes]** und geben Sie den Hinweistext ein für **[!UICONTROL Seller Notes Override]**.
 
-1. Um einen Überschreibungstyp zu entfernen, klicken Sie für jeden zu entfernenden Typ auf **Remove** . Wenn der zuvor definierte Wert nicht entfernt wird, bleibt er in der Überschreibung.
+1. Um einen Überschreibungstyp zu entfernen, klicken Sie auf **Entfernen** für jeden Typ, den Sie entfernen möchten. Wenn der zuvor definierte Wert nicht entfernt wurde, verbleibt er in der Überschreibung.
 
-1. Klicken Sie auf **[!UICONTROL Save Listing Override]**.
+1. Klick **[!UICONTROL Save Listing Override]**.
 
-   Die Seite _[!UICONTROL Product Listing Overrides]_wird geschlossen. Der Status der Auflistung ändert sich in `Relist in Progress`. Die Änderung wird mit der nächsten Datensynchronisation in Amazon veröffentlicht (wie in Ihren Cron-Einstellungen konfiguriert). Wenn diese Liste noch nicht aufgeführt ist, werden die Auflistungen auch zum Tab_[!UICONTROL Overrides]_ hinzugefügt.
+   Die _[!UICONTROL Product Listing Overrides]_Seite wird geschlossen. Der Status der Auflistung ändert sich in `Relist in Progress`. Die Änderung wird mit der nächsten Datensynchronisierung auf Amazon veröffentlicht (wie in Ihren cron-Einstellungen konfiguriert). Wenn diese Liste nicht bereits aufgeführt ist, werden die Auflistungen ebenfalls zu_[!UICONTROL Overrides]_ Tabulator.
 
-Piggyback auf das Beispiel _Erstellen einer Überschreibung_. Das folgende Beispiel zeigt eine Bearbeitung der zuvor erstellten Überschreibung, die einen neuen Preis von `$50` definiert, die Außerkraftsetzung der Handling-Zeit entfernt und die vorherigen Bedingungen und Verkaufshinweise außer Kraft setzt.
+Schweine auf _Überschreiben erstellen_ Beispiel. Das folgende Beispiel zeigt eine Bearbeitung der zuvor erstellten Überschreibung, die einen neuen Preis von `$50`, entfernt die Überschreibungsdauer für die Handling-Zeit und behält die vorherigen Überschreibungen für Bedingungs- und Verkäuferhinweise bei.
 
 ![Bearbeiten oder Entfernen einer Überschreibung](assets/amazon-overrides-edit-2.png)
-___
+__
 
-## Bearbeiten oder Entfernen einer Überschreibung für mehrere Listen {#edit-override-multiple-listings}
+## Überschreibung für mehrere Auflistungen bearbeiten oder entfernen {#edit-override-multiple-listings}
 
-Die Aktion _[!UICONTROL Edit Listing Overrides]_ist auf den Registerkarten_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_ und _[!UICONTROL Ineligible]_verfügbar.
+Die _[!UICONTROL Edit Listing Overrides]_Diese Aktion ist auf folgender Website verfügbar:_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_ und _[!UICONTROL Ineligible]_Tabulatoren.
 
 >[!NOTE]
 >
->Da Sie Überschreibungen für mehrere Auflistungen ändern, wird der Abschnitt _[!UICONTROL Listing Details]_nicht so angezeigt wie beim Ändern einer einzelnen Auflistung.
+>Da Sie Überschreibungen für mehrere Auflistungen ändern, _[!UICONTROL Listing Details]_-Abschnitt wird nicht wie bei der Änderung einer einzelnen Auflistung angezeigt.
 
-1. Zeigen Sie die Liste auf einer _[!UICONTROL Products Listings]_-Seite an (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_ und _[!UICONTROL Ineligible]_-Registerkarte).
+1. Ansicht der Auflistung auf einer _[!UICONTROL Products Listings]_Seite (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_ und _[!UICONTROL Ineligible]_Tabulator).
 
 1. Aktivieren Sie das Kontrollkästchen in der linken Spalte für jede Liste, die Sie ändern möchten.
 
-1. Klicken Sie unter _[!UICONTROL Actions]_auf **[!UICONTROL Edit Listing Overrides]**.
+1. Unter _[!UICONTROL Actions]_, klicken **[!UICONTROL Edit Listing Overrides]**.
 
-   Die Seite _[!UICONTROL Product Listing Overrides]_wird geöffnet.
+   Die _[!UICONTROL Product Listing Overrides]_Seite wird geöffnet.
 
-   ![Amazon-Listenüberschreibungen auswählen](assets/amazon-actions-edit-listing-overrides.png)
+   ![Überschreiben der Amazon-Auflistung auswählen](assets/amazon-actions-edit-listing-overrides.png)
 
-1. Um Ihre _[!UICONTROL Override]_-Einstellungen zu bearbeiten, definieren Sie die Abschnitte für den Typ, den Sie ändern möchten (Preis, Bearbeitungszeit, Bedingung, Verkaufshinweise).
+1. So bearbeiten Sie Ihre _[!UICONTROL Override]_-Einstellungen, legen Sie die Abschnitte für den Typ fest, den Sie ändern möchten (Preis, Bearbeitungszeit, Bedingung, Verkaufsmitteilungen).
 
-   Um dasselbe zu überschreiben, wählen Sie `No Change To <override type>` (Standard) aus. Bei dieser Einstellung bleibt der zuvor definierte Wert zum Außerkraftsetzen unverändert.
+   Um das gleiche zu überschreiben, wählen Sie `No Change To <override type>` (Standard). Mit dieser Einstellung bleibt der zuvor definierte Wert für die Außerkraftsetzung unverändert.
 
-   - **Preis**  - Klicken Sie auf  **[!UICONTROL Change Listing Price]** und geben Sie Ihren definierten Preiswert für  **[!UICONTROL Price Override]** ein.
-   - **Verarbeitungszeit**  - Klicken Sie auf  **[!UICONTROL Change Handling Time]** und geben Sie den definierten Zeitwert (in Tagen) für  **[!UICONTROL Handling Time Override]** ein.
-   - **Bedingung**  - Klicken Sie auf  **[!UICONTROL Change Condition]** und wählen Sie die richtige Option für  **[!UICONTROL Condition Override]**.
-   - **Verkaufshinweise**  - Klicken Sie auf  **[!UICONTROL Change Seller Notes]** und geben Sie Ihren Notiztext für  **[!UICONTROL Seller Notes Override]** ein.
+   - **Preis** - Klicken **[!UICONTROL Change Listing Price]** und geben Sie Ihren festgelegten Preiswert ein für **[!UICONTROL Price Override]**.
+   - **Bearbeitungszeit** - Klicken **[!UICONTROL Change Handling Time]** und geben Sie den definierten Zeitwert (in Tagen) ein für **[!UICONTROL Handling Time Override]**.
+   - **Bedingung** - Klicken **[!UICONTROL Change Condition]** und wählen Sie die richtige Option für **[!UICONTROL Condition Override]**.
+   - **Hinweise für Verkäufer** - Klicken **[!UICONTROL Change Seller Notes]** und geben Sie den Hinweistext ein für **[!UICONTROL Seller Notes Override]**.
 
-1. Um einen Überschreibungstyp zu entfernen, klicken Sie für jeden zu entfernenden Typ auf **[!UICONTROL Remove]** . Wenn der zuvor definierte Wert nicht entfernt wird, bleibt er in der Überschreibung.
+1. Um einen Überschreibungstyp zu entfernen, klicken Sie auf **[!UICONTROL Remove]** für jeden Typ, den Sie entfernen möchten. Wenn der zuvor definierte Wert nicht entfernt wurde, verbleibt er in der Überschreibung.
 
-1. Klicken Sie auf **[!UICONTROL Save Listing Override]**.
+1. Klick **[!UICONTROL Save Listing Override]**.
 
-   Die Seite _[!UICONTROL Product Listing Overrides]_wird geschlossen. Der Status der Listen ändert sich in `Relist in Progress`. Die Änderung wird mit der nächsten Datensynchronisation in Amazon veröffentlicht (wie in Ihren Cron-Einstellungen konfiguriert). Wenn diese Liste noch nicht aufgeführt ist, werden die Auflistungen auch zum Tab_[!UICONTROL Overrides]_ hinzugefügt.
+   Die _[!UICONTROL Product Listing Overrides]_Seite wird geschlossen. Der Status der Auflistungen ändert sich in `Relist in Progress`. Die Änderung wird mit der nächsten Datensynchronisierung auf Amazon veröffentlicht (wie in Ihren cron-Einstellungen konfiguriert). Wenn diese Liste nicht bereits aufgeführt ist, werden die Auflistungen ebenfalls zu_[!UICONTROL Overrides]_ Tabulator.
 
 ### Typen überschreiben
 
-| Überschreibung | Beschreibung |
+| Überschreiben | Beschreibung |
 |--- |--- |
-| [!UICONTROL Price Override] | Ein Preisüberschreiben definiert den Preis für die Auflistungen. Diese Überschreibung hat Vorrang vor allen automatisierten Einstellungen, bis die Überschreibung entfernt wird.<br><br>Um den Preis Ihres Produkts zu überschreiben, wählen Sie  **[!UICONTROL Change Listing Price]** und geben Sie den neuen Preis für  **[!UICONTROL Price Override]** ein. |
-| [!UICONTROL Handling Time Override] | Eine Umschlagszeit-Überschreibung definiert die Zeit (in Tagen) für die Verarbeitung und das Versenden von Produkten. Eine Überschreibungszeit hat Vorrang vor allen automatisierten und standardmäßigen Verarbeitungszeiteinstellungen, bis die Überschreibung entfernt wird.<br><br>Der Wert, der im  _[!UICONTROL Handling Time Override]_Feld vorhanden ist, ist entweder die standardmäßige Bearbeitungszeit, die Sie in Ihren  [Listeneinstellungen ](./listing-settings.md) festgelegt haben, oder die definierte Verarbeitungszeit für das Außerkraftsetzen. Wenn Sie eine Zeitüberschreitung bei der Verarbeitung entfernen, wird standardmäßig die in Ihren Listeneinstellungen definierte Bearbeitungszeit verwendet.<br><br>Um eine Zeitüberschreitung für die Handhabung zu definieren, wählen Sie **[!UICONTROL Change Handling Time]**und geben Sie die neue Bearbeitungszeit (in Tagen) für **[!UICONTROL Handling Time Override]**ein. |
-| [!UICONTROL Condition Override] | Um die Listening-Bedingung zu überschreiben, wählen Sie **[!UICONTROL Change Condition]** und wählen Sie die neue Bedingung unter **Bedingungsüberschreibungen** aus. |
-| [!UICONTROL Seller Notes Override] | Für Produkte in Ihrem Katalog, die mit einer anderen Bedingung als `New` definiert sind, kann eine Verkaufsnote hinzugefügt werden, um Ihr Produkt und seine Bedingung für potenzielle Käufer detaillierter zu beschreiben. Sie können für ein `New` -Bedingungsprodukt eine Außerkraftsetzung der Verkaufsnotiz eingeben, Amazon zeigt die Notiz jedoch nicht an.<br><br>Um die Verkaufsnotizen zu überschreiben, wählen Sie  **[!UICONTROL Change Seller Notes]** und geben Sie die neue Notiz für  **[!UICONTROL Seller Notes Override]** ein. |
+| [!UICONTROL Price Override] | Ein Preisüberschuss definiert den Preis für die Auflistungen. Diese Außerkraftsetzung hat Vorrang vor allen automatisierten Einstellungen, bis die Außerkraftsetzung entfernt wurde.<br><br>Um den Preis Ihres Produkts zu überschreiben, wählen Sie **[!UICONTROL Change Listing Price]** und geben Sie den neuen Preis ein für **[!UICONTROL Price Override]**. |
+| [!UICONTROL Handling Time Override] | Eine Umschlagzeit definiert die Zeit (in Tagen) für die Verarbeitung und das Versenden von Produkten. Eine Zeitüberschreibung für die Verarbeitung hat Vorrang vor allen automatisierten und standardmäßigen Einstellungen für die Bearbeitungszeit, bis die Außerkraftsetzung entfernt wurde.<br><br>Der Wert, der im _[!UICONTROL Handling Time Override]_ist entweder Ihre standardmäßige Bearbeitungszeit, die in [Listeneinstellungen](./listing-settings.md) oder die festgelegte Überschreibungsdauer. Wenn Sie eine Verarbeitungszeit-Überschreibung entfernen, wird in der Liste standardmäßig die in Ihren Listeneinstellungen definierte Bearbeitungszeit verwendet.<br><br>Wählen Sie zum Definieren einer Überschreibungszeit **[!UICONTROL Change Handling Time]**und geben Sie die neue Bearbeitungszeit (in Tagen) ein für **[!UICONTROL Handling Time Override]**. |
+| [!UICONTROL Condition Override] | Um die Listingbedingung zu überschreiben, wählen Sie **[!UICONTROL Change Condition]** und wählen Sie die neue Bedingung aus **Bedingungsüberschreiben**. |
+| [!UICONTROL Seller Notes Override] | Für Produkte in Ihrem Katalog, die mit einer anderen Bedingung als `New`, kann eine Verkaufsnote hinzugefügt werden, um Ihr Produkt und seinen Zustand potenziellen Käufern näher zu erläutern. Sie können eine Außerkraftsetzung für eine Verkäuferinformation eingeben für `New` -Bedingungsprodukt, aber Amazon zeigt die Notiz nicht an.<br><br>Um die Verkäufernotizen zu überschreiben, wählen Sie **[!UICONTROL Change Seller Notes]** und geben Sie die neue Notiz ein für **[!UICONTROL Seller Notes Override]**. |

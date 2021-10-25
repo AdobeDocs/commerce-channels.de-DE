@@ -1,6 +1,6 @@
 ---
-title: Hinzufügen oder Überprüfen des Amazon API-Schlüssels
-description: In Ihrer Commerce-Konfiguration können Sie mit dem validierten Amazon-API-Schlüssel Ihre Stores in Ihr Amazon Seller-Konto integrieren.
+title: Amazon API-Schlüssel Hinzufügen oder überprüfen
+description: In Ihrer Commerce-Konfiguration ermöglicht Ihnen der validierte Amazon API-Schlüssel die Integration Ihrer Geschäfte mit Ihrem Amazon Seller-Konto.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,56 +9,56 @@ ht-degree: 0%
 
 ---
 
-# Hinzufügen oder Überprüfen des Amazon-API-Schlüssels
+# Amazon API-Schlüssel Hinzufügen oder überprüfen
 
-Beim Zugriff auf den Amazon-Vertriebskanal überprüft und validiert [!DNL Commerce] automatisch den Amazon-API-Schlüssel, den Sie in Ihrer Store-Konfiguration hinzugefügt haben. Wenn dies validiert wurde, können Sie mit dem nächsten Schritt [Store-Integration](./store-integration.md) fortfahren.
+beim Zugriff auf Amazon Sales Kanal, [!DNL Commerce] überprüft und validiert automatisch den Amazon API-Schlüssel, den Sie in Ihrer Store-Konfiguration hinzugefügt haben. Wenn validiert, können Sie mit dem nächsten Schritt fortfahren. [Integration speichern](./store-integration.md).
 
-Wenn der Amazon-API-Schlüssel fehlt, ungültig oder abgelaufen ist, müssen Sie Ihren Schlüssel aktualisieren. Es wird eine Meldung angezeigt, in der Sie aufgefordert werden, einen API-Schlüssel abzurufen und ihn zu Ihrer Amazon-Vertriebskanalkonfiguration hinzuzufügen.
+Wenn der Amazon API-Schlüssel fehlt, ungültig oder abgelaufen ist, müssen Sie den Schlüssel aktualisieren. Es wird eine Meldung angezeigt, in der Sie aufgefordert werden, einen API-Schlüssel zu erhalten und ihn Ihrer Amazon Sales Kanal-Konfiguration hinzuzufügen.
 
-## Abrufen und Hinzufügen des Amazon-API-Schlüssels nach Aufforderung
+## Amazon API-Schlüssel bei Aufforderung abrufen und hinzufügen
 
-Der API-Schlüssel wird jedes Mal überprüft, wenn Sie auf Ihren Amazon-Vertriebskanal zugreifen.
+Der API-Schlüssel wird jedes Mal überprüft, wenn Sie auf Ihren Amazon Sales Kanal zugreifen.
 
-1. Melden Sie sich bei [!DNL Commerce] Admin an.
+1. Anmelden bei [!DNL Commerce] Admin.
 
-1. Navigieren Sie in der Seitenleiste _[!UICONTROL Admin]_zu **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
+1. Auf _[!UICONTROL Admin]_Sidebar, Gehe zu **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-   Wenn Sie zum ersten Mal auf den Amazon-Vertriebskanal zugreifen oder Ihr API-Schlüssel aktualisiert werden muss, fordert Sie das System dazu auf, den Vorgang abzuschließen.
+   Wenn Sie zum ersten Mal auf Amazon Sales Kanal zugreifen oder Ihr API-Schlüssel aktualisiert werden muss, fordert das System Sie während des Vorgangs auf.
 
-   ![Abrufen und Hinzufügen der Amazon API-Schlüsselaufforderung](assets/amazon-api-verification-prompt.png)
+   ![Eingabeaufforderung für Amazon API-Schlüssel abrufen und Hinzufügen](assets/amazon-api-verification-prompt.png)
 
-1. Klicken Sie auf **[!UICONTROL Sign in]** , um auf Ihr [!DNL Commerce]-Webkonto zuzugreifen.
+1. Klick **[!UICONTROL Sign in]** , um auf [!DNL Commerce] Webkonto.
 
-   Die Seite &quot;Commerce-Konten&quot;wird in einer neuen Browser-Registerkarte geöffnet.
+   Die Seite Commerce-Konten wird in einer neuen Browserregisterkarte geöffnet.
 
-   - Wenn Sie bei Ihrem [!DNL Commerce]-Konto angemeldet sind, wird der _[!UICONTROL API Portal]_-Abschnitt der_[!UICONTROL My Account]_-Seite automatisch angezeigt.
+   - Wenn Sie bei Ihrem [!DNL Commerce] Konto, _[!UICONTROL API Portal]_Abschnitt_[!UICONTROL My Account]_ Seite wird automatisch angezeigt.
 
-   - Wenn Sie nicht angemeldet sind, werden Sie aufgefordert, Ihren [!DNL Commerce]-Kontonamen und Ihr Kennwort einzugeben, bevor die Registerkarte _[!UICONTROL API Portal]_angezeigt wird.
+   - Wenn Sie nicht angemeldet sind, werden Sie aufgefordert, Ihre [!DNL Commerce] Benutzername und Kennwort des Kontos vor _[!UICONTROL API Portal]_angezeigt.
 
-   - Wenn Sie kein Konto haben, besuchen Sie [die [!DNL Commerce] Kontoseite](https://account.magento.com/customer/account/login/){target=&quot;_blank&quot;} und registrieren Sie sich. Dieses Konto sollte Teil Ihres Unternehmens oder Ihres Unternehmens sein.
+   - Wenn Sie kein Konto haben, besuchen Sie [die [!DNL Commerce] Kontoseite](https://account.magento.com/customer/account/login/){Zielgruppe=&quot;_blank&quot;} und registrieren. Dieses Konto sollte Teil Ihrer Firma oder Ihres Geschäfts sein.
 
-1. Bei Bedarf können Sie API-Schlüssel auf der Registerkarte _[!UICONTROL API Portal]_in Ihrem [!DNL Commerce]-Konto anzeigen und generieren.
+1. Bei Bedarf können Sie API-Schlüssel auf der _[!UICONTROL API Portal]_in der [!DNL Commerce] Konto.
 
-   Um einen API-Schlüssel zu erstellen, geben Sie eine Beschreibung wie `Amazon Sales Channel` ein und klicken Sie auf **[!UICONTROL Add New]**. Der neue Schlüssel wird generiert und mit dem eingegebenen Namen angezeigt. Klicken Sie auf **[!UICONTROL Copy]** , um den neuen Schlüssel zu kopieren.
+   Geben Sie zum Erstellen eines API-Schlüssels eine Beschreibung wie `Amazon Sales Channel` und klicken **[!UICONTROL Add New]**. Der neue Schlüssel wird erstellt und mit dem von Ihnen eingegebenen Namen angezeigt. Klick **[!UICONTROL Copy]** um den neuen Schlüssel zu kopieren.
 
-   ![API-Schlüssel generieren oder kopieren](assets/amazon-add-api-key.png)
+   ![API-Schlüssel erstellen oder kopieren](assets/amazon-add-api-key.png)
 
-1. Kehren Sie mit dem neu generierten und kopierten Schlüssel zur Registerkarte _[!UICONTROL Amazon Sales Channel]_im Browser zurück.
+1. Kehren Sie mit dem neuen Schlüssel erstellt und kopiert zum _[!UICONTROL Amazon Sales Channel]_im Browser.
 
-1. Klicken Sie auf der Seite _[!UICONTROL Welcome to Amazon Sales Channel]_auf **[!UICONTROL Add the key]**.
+1. Auf _[!UICONTROL Welcome to Amazon Sales Channel]_Seite, klicken **[!UICONTROL Add the key]**.
 
-   Der Browser verlässt den Amazon-Verkaufskanal und eine Store-Konfigurationsseite öffnet die _[!UICONTROL Api Keys]_-Seite in der [!DNL Commerce]-Admin-Konsole. Sie können diese Seite manuell öffnen, wenn Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** gehen, **[!UICONTROL Services]** im linken Bereich erweitern und **[!UICONTROL Magento Services]** auswählen.
+   Der Browser verlässt den Amazon Sales Kanal und eine Store-Konfigurationsseite öffnet die _[!UICONTROL Api Keys]_Seite im [!DNL Commerce] Admin. Sie können diese Seite manuell öffnen, wenn Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**, erweitern **[!UICONTROL Services]** im linken Bereich und wählen Sie **[!UICONTROL Magento Services]**.
 
-1. Fügen Sie den kopierten Schlüssel für **[!UICONTROL Production Api key]** ein.
+1. Kopierten Schlüssel einfügen für **[!UICONTROL Production Api key]**.
 
-1. Klicken Sie auf **[!UICONTROL Save Config]**. Sie können jetzt zum Amazon-Vertriebskanal zurückkehren.
+1. Klick **[!UICONTROL Save Config]**. Sie können jetzt zum Amazon Sales Kanal zurückkehren.
 
-   ![Hinzufügen Ihres API-Schlüssels in Ihrer Store-Konfiguration](assets/config-magento-services-api-screen.png)
+   ![Ihren API-Schlüssel in Ihrer Store-Konfiguration hinzufügen](assets/config-magento-services-api-screen.png)
 
-1. Navigieren Sie in der Seitenleiste _[!UICONTROL Admin]_zu **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
+1. Auf _[!UICONTROL Admin]_Sidebar, Gehe zu **[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 
-   Der erneute Zugriff auf Amazon Sales Channel-Trigger [!DNL Commerce] überprüft und validiert Ihren API-Schlüssel und ermöglicht Ihnen den Fortfahren.
+   Wiederaufnahme des Zugriffs auf Amazon Sales Kanal-Trigger [!DNL Commerce] überprüfen und validieren Sie Ihren API-Schlüssel und können fortfahren.
 
-   Wenn Sie aufgefordert werden, den Schlüssel erneut zu überprüfen, wiederholen Sie diesen Vorgang _Hinzufügen und Überprüfen_.
+   Wenn Sie aufgefordert werden, den Schlüssel erneut zu bestätigen, wiederholen Sie dies _hinzufügen und Überprüfen_ verarbeiten.
 
-![Nächstes ](assets/btn-next.png) [**SymbolWeiter zur Speicherintegration**](./store-integration.md)
+![Nächstes Symbol](assets/btn-next.png) [**Integration weiter speichern**](./store-integration.md)
