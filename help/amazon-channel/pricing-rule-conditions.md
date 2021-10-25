@@ -3,7 +3,7 @@ title: Preisregel - Bedingungen
 description: Verwenden Sie die Preisregel, um zu bestimmen, welche Produkte für die Preisregel in der Liste infrage kommen.
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: ac190d88711f07c0b255a8cb50b12b62945f625e
+source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Preisregel - Bedingungen
 
-Die Bedingungen bestimmen, welche Erzeugnisse für die Preisregel in Betracht kommen. Die Festlegung der Bedingungen für Ihre Amazon-Preisregeln folgt derselben Logik und demselben Verfahren wie die Festlegung der Bedingungen für die Festlegung [Regeln für Warenkorb-Preise](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){:Zielgruppe=&quot;_blank&quot;} in [!DNL Commerce].
+Die Bedingungen bestimmen, welche Erzeugnisse für die Preisregel in Betracht kommen. Die Festlegung der Bedingungen für Ihre Amazon-Preisregeln folgt derselben Logik und demselben Verfahren wie die Festlegung der Bedingungen für die Festlegung [Regeln für Warenkorb-Preise](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){Zielgruppe=&quot;_blank&quot;} in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,11 +24,11 @@ Alle Bereiche in den Bedingungen, die fett sind, können angeklickt werden, um d
 
 Dieser Vorgang kann je nach Katalogkonfiguration einfach oder detailliert sein. Sie können Ihre Bedingungen so festlegen, dass wann `ALL` oder `ANY` der Bedingungen `TRUE` oder `FALSE` für ein Produkt, dann ist das Produkt für die Anwendung der Preisregel in Betracht.
 
-Die Bedingungen basieren auf Ihren [Produktattribute](https://docs.magento.com/user-guide/catalog/product-attributes.html){:Zielgruppe=&quot;_blank&quot;}. Lassen Sie den Bedingungsabschnitt leer, um die Regel auf alle Produkte anzuwenden.
+Die Bedingungen basieren auf Ihren [Produktattribute](https://docs.magento.com/user-guide/catalog/product-attributes.html){Zielgruppe=&quot;_blank&quot;}. Lassen Sie den Bedingungsabschnitt leer, um die Regel auf alle Produkte anzuwenden.
 
 >[!NOTE]
 >
->Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, **Für Promotion-Regelbedingungen verwenden** für das Attribut muss auf `Yes` in [Storefront-Eigenschaften](https://docs.magento.com/user-guide/stores/attribute-product-create.html){:Zielgruppe=&quot;_blank&quot;} für das Attribut.
+>Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, **Für Promotion-Regelbedingungen verwenden** für das Attribut muss auf `Yes` in [Storefront-Eigenschaften](https://docs.magento.com/user-guide/stores/attribute-product-create.html){Zielgruppe=&quot;_blank&quot;} für das Attribut.
 
 ![Preisregel - Bedingung - Zeile 1](assets/ob-price-rules-condition-1.png)
 
@@ -50,7 +50,7 @@ Sie können verschiedene Bedingungen erstellen, indem Sie die Kombination dieser
 
    ![Kombination von Preisregel-Bedingungen](assets/ob-conditions-combinations.png)
 
-   **[!UICONTROL Product Attribute]** - Die verfügbaren Produktattribute hängen von der [Einrichten des Attributs](https://docs.magento.com/user-guide/stores/attribute-product-create.html){:Zielgruppe=&quot;_blank&quot;}. Für ein Attribut, das in der Liste angezeigt werden soll, *[!UICONTROL Use for Promo Rule Conditions]* für das Attribut muss auf `Yes` in [Schaufenster-Eigenschaften](https://docs.magento.com/user-guide/stores/attribute-product-create.html){:Zielgruppe=&quot;_blank&quot;}.
+   **[!UICONTROL Product Attribute]** - Die verfügbaren Produktattribute hängen von der [Einrichten des Attributs](https://docs.magento.com/user-guide/stores/attribute-product-create.html){Zielgruppe=&quot;_blank&quot;}. Für ein Attribut, das in der Liste angezeigt werden soll, *[!UICONTROL Use for Promo Rule Conditions]* für das Attribut muss auf `Yes` in [Schaufenster-Eigenschaften](https://docs.magento.com/user-guide/stores/attribute-product-create.html){Zielgruppe=&quot;_blank&quot;}.
 
    - für **[!UICONTROL Product Attribute]**, wählen Sie das Attribut aus, das Sie als Basis der Bedingung definieren möchten. In diesem Beispiel ist die ausgewählte Bedingung `Category`.
 

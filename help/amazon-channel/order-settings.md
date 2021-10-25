@@ -1,118 +1,118 @@
 ---
-title: Bestelleinstellungen
-description: Verwenden Sie die Bestelleinstellungen, um zu bestimmen, wie Amazon-Bestellungen in Ihren Commerce-Store importiert und dort verarbeitet werden.
+title: Auftragseinstellungen
+description: Verwenden Sie die Bestelleinstellungen, um zu bestimmen, wie Amazon-Bestellungen in Ihren Commerce-Store importiert und verarbeitet werden.
 redirect_from: /sales-channels/asc/ob-order-settings.html
 exl-id: dc8d0ce1-86a8-4949-b49a-73c5cf62db16
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
 
 ---
 
-# Bestelleinstellungen
+# Auftragseinstellungen
 
-Mit den Bestelleinstellungen wird definiert, ob und wie Amazon-Bestellungen in [!DNL Commerce] importiert und verarbeitet werden. Der Zugriff darauf erfolgt über das [Store-Dashboard](./amazon-store-dashboard.md).
+Mit den Auftragseinstellungen wird festgelegt, ob und wie Amazon-Bestellungen in importiert und verarbeitet werden. [!DNL Commerce] und kann auf der [Dashboard speichern](./amazon-store-dashboard.md).
 
-Die Einstellungen für den Bestellimport sind standardmäßig auf `Enabled` eingestellt. Das bedeutet, dass Ihre Amazon-Bestellungen im Store-Dashboard angezeigt werden und die entsprechenden [!DNL Commerce] Bestellungen erstellt werden. Importierte Bestellungen können im Workflow [!DNL Commerce] [Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){:target=&quot;_blank&quot;} verwaltet werden.
+Die Importeinstellungen für die Reihenfolge sind auf `Enabled` Standardmäßig werden Ihre Amazon-Bestellungen im Store-Dashboard angezeigt und erstellen Sie die entsprechenden [!DNL Commerce] Bestellungen. Importierte Bestellungen können verwaltet werden im [!DNL Commerce] [Bestellungen](https://docs.magento.com/user-guide/sales/orders.html)Workflow für {Zielgruppe=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
->Unabhängig von Ihren Bestelleinstellungen werden Amazon-Bestellungen, die vor Ihrer Store-Integration existierten, nicht importiert.
+>Unabhängig von Ihren Bestelleinstellungen werden Amazon-Bestellungen, die vor der Store-Integration bestanden, nicht importiert.
 
-Nachdem die [Store-Integration](./store-integration.md) abgeschlossen ist, können Sie Ihre Bestelleinstellungen ändern. Wenn Sie Ihre Bestelleinstellungen auf `Disabled` festlegen, werden Amazon-Bestellungen im Store-Dashboard angezeigt, müssen aber in Ihrem [!DNL Amazon Seller Central]-Konto verwaltet werden.
+Nach [Speicherintegration](./store-integration.md) ist abgeschlossen, können Sie Ihre Bestelleinstellungen ändern. Wenn Sie die Bestelleinstellungen auf `Disabled`, werden Amazon-Bestellungen auf dem Store-Dashboard angezeigt, müssen aber in Ihrer [!DNL Amazon Seller Central] Konto.
 
-Wenn eine Bestellung in Amazon erstellt wird, wird sie nicht sofort in [!DNL Commerce] importiert. Amazon weist neu erstellten Bestellungen den Status `Pending` zu. Nachdem Amazon die Bestell- und Zahlungsmethode überprüft hat, wird der Auftragsstatus in `Unshipped` geändert. Durch diese Statusänderung wird der Bestellimport Trigger und [!DNL Commerce] erstellt eine übereinstimmende, entsprechende Reihenfolge.
+Wenn eine Bestellung auf Amazon erstellt wird, wird sie nicht sofort in importiert [!DNL Commerce]. Amazon weist ein `Pending` Status auf neu erstellte Bestellungen. Nachdem Amazon die Bestellungs- und Zahlungsmethode überprüft hat, wird der Status der Bestellung geändert in `Unshipped`. Diese Statusänderung Trigger den Auftragsimport und [!DNL Commerce] erstellt eine entsprechende Reihenfolge.
 
-Aus Amazon importierte Bestellungen können im Workflow [!DNL Commerce] [Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){:target=&quot;_blank&quot;} verwaltet werden. Siehe auch [Bestellungen verwalten](./managing-orders.md).
+Aus Amazon importierte Bestellungen können verwaltet werden in [!DNL Commerce] [Auftragsarbeitsablauf](https://docs.magento.com/user-guide/sales/orders.html){Zielgruppe=&quot;_blank&quot;}. Siehe auch [Bestellungen verwalten](./managing-orders.md).
 
-## Bestelleinstellungen konfigurieren {#configure-order-settings}
+## Auftragseinstellungen konfigurieren {#configure-order-settings}
 
-1. Klicken Sie im Store-Dashboard auf **[!UICONTROL Order Settings]** .
+1. Klick **[!UICONTROL Order Settings]** auf dem Dashboard.
 
-1. Wählen Sie für **[!UICONTROL Import Amazon Orders]** (erforderlich) eine Option:
+1. für **[!UICONTROL Import Amazon Orders]** (erforderlich), wählen Sie eine Option aus:
 
-   - `Disabled` - Wählen Sie aus, wann Sie keine entsprechenden Bestellungen in erstellen möchten,  [!DNL Commerce] wenn neue Bestellungen von Amazon empfangen werden. Wenn diese Option aktiviert ist, sind alle anderen Felder auf dieser Seite deaktiviert.
+   - `Disabled` - Wählen Sie aus, wenn Sie keine entsprechenden Bestellungen erstellen möchten in [!DNL Commerce] wenn neue Bestellungen von Amazon eingegangen sind. Bei Auswahl dieser Option sind alle anderen Felder auf dieser Seite deaktiviert.
 
-   - `Enabled` - (Standard) Wählen Sie aus, wann Sie entsprechende  [!DNL Commerce] Bestellungen erstellen möchten, wenn neue Bestellungen von Amazon empfangen werden. [!DNL Commerce] Bestellungen werden basierend auf dem Amazon-Status und den Lagerbeständen erstellt.
+   - `Enabled` - (Standard) Wählen Sie aus, wann Sie entsprechende Elemente erstellen möchten [!DNL Commerce] Bestellungen bei neuen Bestellungen von Amazon. [!DNL Commerce] Bestellungen werden auf Basis des Amazon-Status und der Lagerbestände erstellt.
 
       >[!NOTE]
       >
-      >Für den Import von Amazon-Bestellungen muss `Enabled` festgelegt sein, damit Amazon-Bestellungen im Workflow [!DNL Commerce] [Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){:target=&quot;_blank&quot;} verwaltet werden können. Wenn der Wert auf `Disabled` festgelegt ist, weisen Ihre Amazon-Bestellungen keine entsprechende [!DNL Commerce] Bestellnummer auf und können nicht unter [!DNL Commerce] verwaltet werden. Sie verwalten diese Bestellungen in Ihrem [!DNL Amazon Seller Central] -Konto.
+      >Amazon-Aufträge importieren muss auf `Enabled` zur Verwaltung von Amazon-Bestellungen im [!DNL Commerce] [Bestellungen](https://docs.magento.com/user-guide/sales/orders.html)Workflow für {Zielgruppe=&quot;_blank&quot;}. Wenn festgelegt auf `Disabled`, haben Ihre Amazon-Bestellungen keine entsprechende [!DNL Commerce] Auftragsnummer und kann nicht verwaltet werden in [!DNL Commerce]. Sie verwalten diese Aufträge in Ihren [!DNL Amazon Seller Central] Konto.
 
-1. Wählen Sie für **[!UICONTROL Import Amazon Orders Into Magento Store]** aus, mit welchem [!DNL Commerce] Speicher die Amazon-Bestellungen verknüpft sind, wenn die entsprechende Bestellung in [!DNL Commerce] erstellt wird.
+1. für **[!UICONTROL Import Amazon Orders Into Magento Store]**, welche [!DNL Commerce] speichern Sie die Amazon-Bestellungen, mit denen verbunden ist, wenn die entsprechende Bestellung erstellt wurde in [!DNL Commerce].
 
-   Diese Einstellung ist standardmäßig die Store-Ansicht für die Website, die ausgewählt wurde, wenn Sie [den Amazon Store](./store-integration.md) hinzugefügt haben. Wenn Sie diese Einstellung ändern möchten, hängt die Liste der Optionen von den [!DNL Commerce] Stores ab, die Sie in Ihrer Konfiguration eingerichtet haben. Siehe [Stores](https://docs.magento.com/user-guide/stores/stores-all-create-view.html#create-a-new-store-view){:target=&quot;_blank&quot;}.
+   Diese Einstellung setzt standardmäßig auf die Store-Ansicht der Website, die bei der Auswahl ausgewählt wurde [hat Amazon Store hinzugefügt](./store-integration.md). Wenn Sie diese Einstellung ändern möchten, hängt die Liste der Optionen von der [!DNL Commerce] speichert, die Sie in Ihrer Konfiguration eingerichtet haben. Siehe [Geschäfte](https://docs.magento.com/user-guide/stores/stores-all-create-view.html#create-a-new-store-view){Zielgruppe=&quot;_blank&quot;}.
 
-1. Wählen Sie für **[!UICONTROL Customer Creation]** eine Option:
+1. für **[!UICONTROL Customer Creation]**, wählen Sie eine Option aus:
 
-   - `No Customer Creation (guest)` - (Standard) Wählen Sie aus, wann Sie kein Kundenkonto in  [!DNL Commerce] Verwendung der importierten Kundendaten aus der Amazon-Bestellung erstellen möchten. Wenn diese Option aktiviert ist, verarbeitet [!DNL Commerce] eine importierte Amazon-Bestellung auf die gleiche Weise wie ein Gastkasse in [!DNL Commerce].
+   - `No Customer Creation (guest)` - (Standard) Wählen Sie aus, wenn Sie kein Kundenkonto erstellen möchten in [!DNL Commerce] Verwendung der importierten Kundendaten aus der Amazon-Bestellung. Wenn ausgewählt, [!DNL Commerce] verarbeitet eine importierte Amazon-Bestellung auf die gleiche Weise wie ein Gast-Checkout in [!DNL Commerce].
 
-   - `Build New Customer Account` - Wählen Sie aus, wann Sie ein neues Kundenkonto unter  [!DNL Commerce] Verwendung der mit der Amazon-Bestellung importierten Kundendaten erstellen möchten. Diese Option hilft beim Aufbau Ihrer Kundendatenbank anhand Ihrer Amazon-Bestellungen.
+   - `Build New Customer Account` - Wählen Sie aus, wann Sie ein neues Kundenkonto erstellen möchten in [!DNL Commerce] die mit der Amazon-Bestellung importierten Kundendaten verwenden. Mit dieser Option können Sie Ihre Kundendatenbank aus Ihren Amazon-Bestellungen aufbauen.
 
-1. Wählen Sie für **[!UICONTROL Order Number Source]** eine Option:
+1. für **[!UICONTROL Order Number Source]**, wählen Sie eine Option aus:
 
-   - `Build Using Magento Order Number` - (Standard) Wählen Sie aus, wann Sie eine eindeutige  [!DNL Commerce] Bestellnummer für die entsprechende Amazon-Bestellung mit der  [!DNL Commerce] inkrementell zugewiesenen Bestell-ID erstellen möchten.
+   - `Build Using Magento Order Number` - (Standard) Wählen Sie aus, wann Sie eine eindeutige Datei erstellen möchten [!DNL Commerce] Bestellnummer für entsprechende Amazon-Bestellung unter Verwendung der [!DNL Commerce] inkrementell zugewiesene Bestell-ID.
 
-   - `Build Using Amazon Order Number` - Wählen Sie aus, wann Sie die  [!DNL Commerce] Bestellnummer mit der entsprechenden von Amazon zugewiesenen Bestellnummer erstellen möchten.
+   - `Build Using Amazon Order Number` - Wählen Sie aus, wann Sie die [!DNL Commerce] Bestellnummer unter Verwendung der entsprechenden Amazon-zugewiesenen Bestellnummer.
    >[!NOTE]
    >
-   >Nach dem Import einer Bestellung wird die Amazon-Bestellnummer in der Liste _[!UICONTROL Recent Orders]_im Store-Dashboard angezeigt. Die Bestellnummer [!DNL Commerce] wird angezeigt, wenn die Bestelldetails im Arbeitsbereich [!DNL Commerce] [Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){:target=&quot;_blank&quot;} angezeigt werden.
+   >Nach dem Importieren einer Bestellung wird die Amazon-Bestellnummer im _[!UICONTROL Recent Orders]_Liste auf dem Dashboard des Ladens. Die [!DNL Commerce] Bestellnummer wird angezeigt, wenn die Auftragsdetails im [!DNL Commerce] [Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){Zielgruppe=&quot;_blank&quot;} Arbeitsbereich.
 
-1. Wählen Sie für **[!UICONTROL Order Status]** (erforderlich) eine Option:
+1. für **[!UICONTROL Order Status]** (erforderlich), wählen Sie eine Option aus:
 
-   - `Default Order Status` - (Standard) Wählen Sie aus, wann neu erstellten Bestellungen, die aus Amazon importiert wurden, Ihr Standardbestellungsstatus für neue Bestellungen zugewiesen werden soll. Der Standardstatus für neue Bestellungen (es sei denn, Sie haben einen benutzerdefinierten Bestellstatus für neue Bestellungen erstellt) ist `Pending`. Siehe [Verarbeitungsaufträge](https://docs.magento.com/user-guide/sales/order-processing.html){:target=&quot;_blank&quot;}.
+   - `Default Order Status` - (Standard) Wählen Sie aus, wann neu erstellte Bestellungen, die aus Amazon importiert wurden, Ihrem definierten Standardbestellstatus für neue Bestellungen zugewiesen werden sollen. Der Standardstatus für neue Bestellungen (es sei denn, Sie haben einen benutzerdefinierten Bestellstatus für neue Bestellungen erstellt) ist `Pending`. Siehe [Bestellungen werden verarbeitet](https://docs.magento.com/user-guide/sales/order-processing.html){Zielgruppe=&quot;_blank&quot;}.
 
-   - `Custom Order Status` - Wählen Sie aus, wann neu erstellten Bestellungen, die aus Amazon importiert wurden, ein anderer Status als der Standardstatus zugewiesen werden soll.
+   - `Custom Order Status` - Wählen Sie aus, wann neu erstellte Bestellungen aus Amazon einem anderen Status als dem Standardstatus zugewiesen werden sollen.
 
-   - `Processing Order Status` - Aktiviert, wenn  **[!UICONTROL Order Status]** auf  `Custom Order Status`gesetzt ist. Wählen Sie den Status aus, den Sie für neu erstellte, aus Amazon importierte Bestellungen verwenden möchten. Die Optionen in diesem Feld basieren auf den Standardstatusoptionen in [!DNL Commerce]. Siehe [Bestellstatus](https://docs.magento.com/user-guide/sales/order-status.html). Sie können auch einen benutzerdefinierten Bestellstatus erstellen, der hier zur Auswahl angezeigt wird. Informationen zum Erstellen eines benutzerdefinierten Bestellstatus finden Sie unter [Benutzerdefinierter Bestellstatus](https://docs.magento.com/user-guide/sales/order-status-custom.html){:target=&quot;_blank&quot;}.
+   - `Processing Order Status` - Aktiviert bei **[!UICONTROL Order Status]** ist eingestellt auf `Custom Order Status`. Wählen Sie den Status aus, den Sie für neu erstellte Bestellungen verwenden möchten, die aus Amazon importiert wurden. Die Optionen in diesem Feld basieren auf den Standardstatusoptionen in [!DNL Commerce]. Siehe [Auftragsstatus](https://docs.magento.com/user-guide/sales/order-status.html). Sie können auch einen benutzerdefinierten Bestellstatus erstellen, der hier zur Auswahl angezeigt wird. Informationen zum Erstellen eines benutzerdefinierten Bestellstatus finden Sie unter [Benutzerdefinierter Auftragsstatus](https://docs.magento.com/user-guide/sales/order-status-custom.html){Zielgruppe=&quot;_blank&quot;}.
 
 1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save order settings]**.
 
-![Bestelleinstellungen](assets/amazon-order-settings.png)
+![Auftragseinstellungen](assets/amazon-order-settings.png)
 
 | Feld | Beschreibung |
 |---|---|
-| [!UICONTROL Import Amazon Orders] | Optionen:<ul><li>**[!UICONTROL Disabled]** - Wählen Sie aus, wann Sie keine entsprechenden Bestellungen in erstellen möchten,  [!DNL Commerce] wenn neue Bestellungen von Amazon empfangen werden. Wenn diese Option aktiviert ist, sind alle anderen Felder auf dieser Seite deaktiviert.</li><li>**[!UICONTROL Enabled]** - (Standard) Wählen Sie aus, wann Sie entsprechende  [!DNL Commerce] Bestellungen erstellen möchten, wenn neue Bestellungen von Amazon empfangen werden. [!DNL Commerce] Bestellungen werden basierend auf dem Amazon-Status und den Lagerbeständen erstellt.</li></ul><br><br>`Enabled` muss ausgewählt sein, um Amazon-Bestellungen in zu verwalten  [!DNL Commerce]. Wenn `Disabled` ausgewählt ist, werden Ihre Amazon-Bestellungen im Store-Dashboard angezeigt, die Bestellungen müssen jedoch in Ihrem [!DNL Amazon Seller Central]-Konto verwaltet werden. |
-| [!UICONTROL Import Amazon Orders Into Magento Store] | Wählen Sie aus, mit welchen [!DNL Commerce]-Speichern die Amazon-Bestellungen verknüpft sind, wenn sie im Arbeitsbereich [!DNL Commerce] [Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){:target=&quot;_blank&quot;} erstellt werden. Diese Einstellung ist standardmäßig die Store-Ansicht für die [!DNL Commerce]-Website, die ausgewählt wurde, als [Sie den Amazon Store](./store-integration.md) hinzugefügt haben. Wenn Sie diese Einstellung ändern möchten, hängt die Liste der Optionen von den [!DNL Commerce] Stores ab, die Sie in Ihrer Konfiguration eingerichtet haben. Siehe [Stores](https://docs.magento.com/user-guide/stores/stores-all-stores.html){:target=&quot;_blank&quot;}. |
-| [!UICONTROL Customer Creation] | Optionen:<ul><li>**[!UICONTROL No Customer Creation (guest)]** - (Standard) Wählen Sie aus, wann Sie kein Kundenkonto in  [!DNL Commerce] Verwendung der importierten Kundendaten aus der Amazon-Bestellung erstellen möchten. Wenn diese Option aktiviert ist, weist [!DNL Commerce]  an, eine importierte Amazon-Bestellung auf dieselbe Weise zu verarbeiten wie ein Gast-Checkout.</li><li>**[!UICONTROL Build New Customer Account]** - Wählen Sie aus, wann Sie ein neues Kundenkonto in Ihrer  [!DNL Commerce] Kundendatenbank mit den mit der Amazon-Bestellung importierten Kundendaten erstellen möchten. Diese Option hilft beim Erstellen Ihrer [!DNL Commerce] Kundendatenbank aus Ihren Amazon-Bestellungen.</li></ul> |
-| Bestellnummer | Optionen:<ul><li>**[!UICONTROL Build Using Magento Order Number]** - (Standard) Wählen Sie aus, wann Sie eine eindeutige  [!DNL Commerce] Bestellnummer für die entsprechende Amazon-Bestellung mit der  [!DNL Commerce] inkrementell zugewiesenen Bestell-ID erstellen möchten. </li><li>**Mit Amazon-Bestellnummer erstellen**  - Wählen Sie aus, wann Sie die  [!DNL Commerce] Bestellnummer mit der entsprechenden Amazon-zugewiesenen Bestellnummer erstellen möchten.</li></ul> |
-| Ausstehende Bestellungen | Optionen:<ul><li>**[!UICONTROL Do Not Reserve Quantity]** - Wählen Sie aus, wann Ihre  [!DNL Commerce] Lagermenge nicht von Ihren Amazon-Bestellungen betroffen sein soll. Wählen Sie aus, ob Sie Amazon für Ihren FBA-Prozess (FBA) verwenden. Wenn Sie eine Amazon-Bestellung erhalten, wirkt sich die bestellte Menge nicht auf Ihre [!DNL Commerce] Lagermenge aus.</li><li>**[!UICONTROL Reserve Quantity]** - Wählen Sie aus, wann die Bestellmenge in der Amazon in Ihrer  [!DNL Commerce] Lagermenge &quot;reserviert&quot;werden soll. Wenn Sie eine Amazon-Bestellung erhalten, wird die bestellte Menge in Ihrer [!DNL Commerce] Lagermenge &quot;reserviert&quot;, um zu verhindern, dass Ihr [!DNL Commerce]-Lager &quot;überverkauft&quot;wird. Die &quot;reservierte&quot; Menge kann nicht über Ihre [!DNL Commerce] Storefront gekauft werden.</li></ul> |
-| [!UICONTROL Order Status] | Optionen:<ul><li>**[!UICONTROL Default Order Status]** - (Standard) Wählen Sie aus, wann neu erstellten Bestellungen, die aus Amazon importiert wurden, Ihr Standardbestellungsstatus für neue Bestellungen zugewiesen werden soll. Der Standardstatus für neue Bestellungen (es sei denn, Sie haben einen benutzerdefinierten Bestellstatus für neue Bestellungen erstellt) ist `Pending`. Siehe [Verarbeitungsaufträge](https://docs.magento.com/user-guide/sales/order-processing.html).</li><li>>**[!UICONTROL Custom Order Status]** - Wählen Sie aus, wann neu erstellten aus Amazon importierten Bestellungen ein anderer Status als der Standardstatus zugewiesen werden soll. Wenn diese Option aktiviert ist, können Sie mit **[!UICONTROL Processing Order Status]** den Status auswählen, den Sie für neu erstellte, aus Amazon importierte Bestellungen verwenden möchten.</li></ul> |
-| [!UICONTROL Processing Orders Status] | Aktiviert, wenn _[!UICONTROL Order Status]_auf `Custom Order Status` gesetzt ist. Wählen Sie den Bestellstatus aus, den Sie neuen Bestellungen zuweisen möchten. Die Optionen in diesem Feld hängen von den Standardstatusoptionen in [!DNL Commerce] ab. Siehe [Bestellstatus](https://docs.magento.com/user-guide/sales/order-status.html){:target=&quot;_blank&quot;}. Sie können auch einen benutzerdefinierten Bestellstatus erstellen, der hier angezeigt wird. Informationen zum Erstellen eines benutzerdefinierten Bestellstatus finden Sie unter [Benutzerdefinierter Bestellstatus](https://docs.magento.com/user-guide/sales/order-status-custom.html){:target=&quot;_blank&quot;}. |
+| [!UICONTROL Import Amazon Orders] | Optionen:<ul><li>**[!UICONTROL Disabled]** - Wählen Sie aus, wenn Sie keine entsprechenden Bestellungen erstellen möchten in [!DNL Commerce] wenn neue Bestellungen von Amazon eingegangen sind. Bei Auswahl dieser Option sind alle anderen Felder auf dieser Seite deaktiviert.</li><li>**[!UICONTROL Enabled]** - (Standard) Wählen Sie aus, wann Sie entsprechende Elemente erstellen möchten [!DNL Commerce] Bestellungen bei neuen Bestellungen von Amazon. [!DNL Commerce] Bestellungen werden auf Basis des Amazon-Status und der Lagerbestände erstellt.</li></ul><br><br>`Enabled` muss zur Verwaltung von Amazon-Bestellungen in [!DNL Commerce]. Wann `Disabled` ausgewählt wurde, werden Ihre Amazon-Bestellungen im Store-Dashboard angezeigt, die Bestellungen müssen jedoch in Ihrer [!DNL Amazon Seller Central] Konto. |
+| [!UICONTROL Import Amazon Orders Into Magento Store] | Auswählen [!DNL Commerce] speichern Sie die Amazon-Bestellungen, mit denen sie verbunden sind, wenn sie in der [!DNL Commerce] [Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){Zielgruppe=&quot;_blank&quot;} Arbeitsbereich. Diese Einstellung setzt standardmäßig auf die Store-Ansicht für [!DNL Commerce] Website ausgewählt, wenn [hat Amazon Store hinzugefügt](./store-integration.md). Wenn Sie diese Einstellung ändern möchten, hängt die Liste der Optionen von der [!DNL Commerce] speichert, die Sie in Ihrer Konfiguration eingerichtet haben. Siehe [Geschäfte](https://docs.magento.com/user-guide/stores/stores-all-stores.html){Zielgruppe=&quot;_blank&quot;}. |
+| [!UICONTROL Customer Creation] | Optionen:<ul><li>**[!UICONTROL No Customer Creation (guest)]** - (Standard) Wählen Sie aus, wenn Sie kein Kundenkonto erstellen möchten in [!DNL Commerce] Verwendung der importierten Kundendaten aus der Amazon-Bestellung. Wenn diese Option ausgewählt ist, teilt diese Option Folgendes mit: [!DNL Commerce] um eine importierte Amazon-Bestellung auf die gleiche Weise wie ein Gast-Checkout zu verarbeiten.</li><li>**[!UICONTROL Build New Customer Account]** - Wählen Sie aus, wann Sie ein neues Kundenkonto in Ihrem [!DNL Commerce] Kundendatenbank unter Verwendung der mit der Amazon-Bestellung importierten Kundendaten. Diese Option hilft Ihnen bei der Erstellung Ihrer [!DNL Commerce] Kundendatenbank aus Ihren Amazon-Bestellungen.</li></ul> |
+| Auftragsnummernquelle | Optionen:<ul><li>**[!UICONTROL Build Using Magento Order Number]** - (Standard) Wählen Sie aus, wann Sie eine eindeutige Datei erstellen möchten [!DNL Commerce] Bestellnummer für entsprechende Amazon-Bestellung unter Verwendung der [!DNL Commerce] inkrementell zugewiesene Bestell-ID. </li><li>**Erstellen mit Amazon-Auftragsnummer** - Wählen Sie aus, wann Sie die [!DNL Commerce] Bestellnummer unter Verwendung der entsprechenden Amazon-zugewiesenen Bestellnummer.</li></ul> |
+| Ausstehende Aufträge | Optionen:<ul><li>**[!UICONTROL Do Not Reserve Quantity]** - Wählen Sie aus, wenn Sie Ihre [!DNL Commerce] die von Ihren Amazon-Bestellungen betroffene Lagermenge. Wählen Sie aus, ob Sie Amazon für Ihren FBA-Prozess verwenden. Wenn Sie eine Bestellung bei Amazon erhalten, wirkt sich die bestellte Menge nicht auf Ihre Bestellung aus [!DNL Commerce] Bestandsmenge.</li><li>**[!UICONTROL Reserve Quantity]** - Wählen Sie aus, wann die Bestellmenge im Amazon &quot;reserviert&quot; werden soll. [!DNL Commerce] Bestandsmenge. Wenn Sie eine Bestellung bei Amazon erhalten, wird die bestellte Menge in Ihrem [!DNL Commerce] zur Vermeidung Ihrer [!DNL Commerce] Bestand aus &quot;Überverkauf&quot;. Die &quot;reservierte&quot; Menge steht nicht zum Kauf über [!DNL Commerce] Schaufenster.</li></ul> |
+| [!UICONTROL Order Status] | Optionen:<ul><li>**[!UICONTROL Default Order Status]** - (Standard) Wählen Sie aus, wann neu erstellte Bestellungen aus Amazon Ihrem Standardbestellstatus für neue Bestellungen zugewiesen werden sollen. Der Standardstatus für neue Bestellungen (es sei denn, Sie haben einen benutzerdefinierten Bestellstatus für neue Bestellungen erstellt) ist `Pending`. Siehe [Bestellungen werden verarbeitet](https://docs.magento.com/user-guide/sales/order-processing.html).</li><li>>**[!UICONTROL Custom Order Status]** - Wählen Sie aus, wann neu erstellte Bestellungen aus Amazon einem anderen Status als dem Standardstatus zugewiesen werden sollen. Wenn ausgewählt, **[!UICONTROL Processing Order Status]** ermöglicht es Ihnen, den Status auszuwählen, den Sie für neu erstellte Bestellungen verwenden möchten, die aus Amazon importiert werden.</li></ul> |
+| [!UICONTROL Processing Orders Status] | Aktiviert bei _[!UICONTROL Order Status]_ist eingestellt auf `Custom Order Status`. Wählen Sie den Bestellstatus, den Sie neuen Bestellungen zuweisen möchten. Die Optionen in diesem Feld hängen von den Standardstatusoptionen in [!DNL Commerce]. Siehe [Auftragsstatus](https://docs.magento.com/user-guide/sales/order-status.html){Zielgruppe=&quot;_blank&quot;}. Sie können hier auch einen benutzerdefinierten Bestellstatus erstellen. Informationen zum Erstellen eines benutzerdefinierten Bestellstatus finden Sie unter [Benutzerdefinierter Auftragsstatus](https://docs.magento.com/user-guide/sales/order-status-custom.html){Zielgruppe=&quot;_blank&quot;}. |
 
 ## [!DNL Commerce] Auftragserstellung
 
-[!DNL Commerce] Bestellungen werden für Amazon-Bestellungen basierend auf den folgenden Status- und Lagerbedingungen erstellt.
+[!DNL Commerce] Bestellungen werden für Amazon Bestellungen auf Basis der folgenden Status- und Bestandsbedingungen erstellt.
 
 ### Auftragserstellung mit Lagerbestandsverwaltung
 
 >[!NOTE]
 >
->Wird nur in Adobe Commerce- und Magento Open Source 2.3.x-Integrationen unterstützt.
+>Wird nur in Adobe Commerce und Magento Open Source 2.3.x-Integrationen unterstützt.
 
-| Fulfillment-Kanal | [!DNL Commerce] Inventarstatus | Amazon-Bestellstatus | [!UICONTROL Create Magento Order] Einstellung | Bestand reserviert |
+| Fulfillment-Kanal | [!DNL Commerce] Bestandsstatus | Amazon-Auftragsstatus | [!UICONTROL Create Magento Order] Einstellung | Bestand reserviert |
 |---|---|---|---|---|
-| FBA | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | Ausstehend | Nein | Nein |
-| FBA | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | PendingAvailability | Nein | Nein |
-| FBA | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | Abgebrochen | Nein | Nein |
-| FBA | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | Fehler | Nein | Nein |
-| FBA | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | Unversandt | Nein | Nein |
-| FBA | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | Teilweise ausgeliefert | Nein | Nein |
-| FBA | Auf Lager<br>Nicht verwalten | versandt | Ja | Nein |
-| FBA | Nicht vorrätig | versandt | Nein | Nein |
-| FBM | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | Ausstehend | Nein | Nein |
-| FBM | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | PendingAvailability | Nein | Nein |
-| FBM | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | Abgebrochen | Nein | Nein |
-| FBM | Vorrätig<br>Nicht vorrätig<br>Nicht verwalten | Fehler | Nein | Nein |
-| FBM | Auf Lager<br>Nicht verwalten | Unversandt | Ja | Ja |
-| FBM | Nicht vorrätig | Unversandt | Nein | Nein |
-| FBM | Auf Lager<br>Nicht verwalten | Teilweise ausgeliefert | Ja | Ja |
-| FBM | Nicht vorrätig | Teilweise ausgeliefert | Nein | Nein |
-| FBM | Auf Lager<br>Nicht verwalten | versandt | Ja | Ja |
-| FBM | Nicht vorrätig | versandt | Nein | Nein |
+| FBA | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Ausstehend | Nein | Nein |
+| FBA | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Ausstehende Verfügbarkeit | Nein | Nein |
+| FBA | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Abgebrochen | Nein | Nein |
+| FBA | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Fehler | Nein | Nein |
+| FBA | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Nicht versandt | Nein | Nein |
+| FBA | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Teilweise versandt | Nein | Nein |
+| FBA | Auf Lager<br>Nicht verwalten | Versand | Ja | Nein |
+| FBA | Nicht auf Lager | Versand | Nein | Nein |
+| FBM | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Ausstehend | Nein | Nein |
+| FBM | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Ausstehende Verfügbarkeit | Nein | Nein |
+| FBM | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Abgebrochen | Nein | Nein |
+| FBM | Auf Lager<br>Nicht auf Lager<br>Nicht verwalten | Fehler | Nein | Nein |
+| FBM | Auf Lager<br>Nicht verwalten | Nicht versandt | Ja | Ja |
+| FBM | Nicht auf Lager | Nicht versandt | Nein | Nein |
+| FBM | Auf Lager<br>Nicht verwalten | Teilweise versandt | Ja | Ja |
+| FBM | Nicht auf Lager | Teilweise versandt | Nein | Nein |
+| FBM | Auf Lager<br>Nicht verwalten | Versand | Ja | Ja |
+| FBM | Nicht auf Lager | Versand | Nein | Nein |
 
 >[!NOTE]
->Wenn eine Amazon-Bestellung in den Status `Partially Shipped` oder `Shipped` importiert wird, gilt für alle Elemente in der Reihenfolge die Erstellung einer Lagerbestandsreservierung. Der Amazon-Vertriebskanal kompensiert keine zuvor versandten Artikel.
+>Wenn eine Amazon-Bestellung in eine `Partially Shipped` oder `Shipped` -Status, die erstellte Lagerungsreservierung ist für alle Artikel in der Bestellung. Amazon Sales Kanal kompensiert nicht die zuvor versandten Artikel.
 >
->Wenn eine Bestellung von Amazon (FBA) ausgeführt wird, ein Element jedoch den Status `out of stock` aufweist, kann [!DNL Commerce] keine entsprechende Bestellung erstellen. Dies ist eine Beschränkung der Lagerbestandsverwaltungsintegrationen.
+>Wenn eine Bestellung von Amazon (FBA) ausgefüllt wurde, jedoch ein Artikel in `out of stock` Status, [!DNL Commerce] kann keine entsprechende Bestellung erstellen. Dies ist eine Beschränkung der Lagerbestandsverwaltung.

@@ -3,7 +3,7 @@ title: '[!DNL Amazon Sales Channel] Benutzerhandbuch'
 description: '[!DNL Channel manager] for Adobe Commerce provides the Amazon sales channel extension to enable merchants to seamlessly sell products in the [!DNL Amazon Marketplace].'
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
-source-git-commit: 55e3376f3a1462446cb27a7f0d926202c7542334
+source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -12,30 +12,30 @@ ht-degree: 0%
 
 # [!DNL Amazon Sales Channel] Benutzerhandbuch
 
-[!DNL Channel manager] für Adobe Commerce bietet die Amazon-Vertriebskanalerweiterung, damit Händler Produkte nahtlos im Amazon Marketplace verkaufen können.
+[!DNL Channel manager] Adobe Commerce bietet die Erweiterung des Amazon-Kanals an, damit Händler Produkte nahtlos im Amazon Marketplace verkaufen können.
 
-Als Adobe Commerce- oder Magento Open Source-Händler können Sie die [!DNL Amazon Sales Channel]-Erweiterung verwenden, um Ihre Geschäfte mit dem weltweit größten Internet-Shopping-Ziel zu integrieren. Diese Erweiterung ermöglicht den Amazon-Vertrieb, indem [!DNL Commerce] mit Ihrem [!DNL Amazon Seller Central]-Konto verbunden und sowohl die Automatisierung als auch die Synchronisierung von Katalog- und Bestelldaten ermöglicht wird. Verwalten Sie alle Amazon-Auflistungen vollständig, implementieren Sie einfache oder intelligente Preisregeln und verwalten Sie Ihre Bestellungen und Lagerbestände über ein einzelnes [!DNL Commerce]-Dashboard.
+Als Adobe Commerce- oder Magento Open Source-Händler können Sie [!DNL Amazon Sales Channel] -Erweiterung, um Ihre Geschäfte mit dem weltweit größten Einkaufsziel im Internet zu integrieren. Diese Erweiterung ermöglicht den Amazon-Vertrieb über eine Verbindung [!DNL Commerce] mit [!DNL Amazon Seller Central] -Konto erstellen und sowohl die Automatisierung als auch die Synchronisierung von Katalog- und Auftragsdaten bereitstellen. Alle Amazon-Auflistungen vollständig verwalten, einfache oder intelligente Preisregeln implementieren und Ihre Bestellungen und Inventare über eine einzige einzige einzige einzige Verwaltung verwalten [!DNL Commerce] Dashboard.
 
-Der Einstieg ist einfach. Ein kurzer Onboarding-Prozess führt Sie bei der Erstellung eines [!DNL Amazon Seller Central]-Kontos und der Integration in Ihren Amazon-Verkaufskanalspeicher und Ihren [!DNL Commerce]-Katalog, um Amazon-Auflistungen, -Bestellungen, -Bestand und -Erfüllung zu verwalten. In einem zentralen Dashboard werden Statusaktualisierungen für alle Amazon-Vertriebskanalspeicher-Integrationen und Amazon-Listen angezeigt. Neue Kunden in der globalen [!DNL Amazon Marketplace] mit vereinfachten und automatisierten Prozessen erreichen - alles zu wenig oder gar keiner der Kosten und Arbeitsschritte bei der Einrichtung eines neuen Systems.
+Die ersten Schritte sind einfach. Ein kurzer Einbootungsprozess hilft Ihnen bei der Erstellung eines [!DNL Amazon Seller Central] und Integration in Ihren Amazon Sales Kanal Store und Ihre [!DNL Commerce] Katalog zur Verwaltung von Amazon-Listen, Bestellungen, Beständen und Fulfillments. Ein zentrales Dashboard zeigt Statusaktualisierungen für alle Ihre Amazon Sales Kanal Store-Integrationen und Amazon-Listen an. Neue Kunden weltweit erreichen [!DNL Amazon Marketplace] mit vereinfachten und automatisierten Prozessen - alles zu wenig oder gar keinem der Kosten und Arbeitsaufwand für die Einrichtung eines neuen Systems.
 
-Nach der Integration Ihres [!DNL Amazon Seller Central]-Kontos können Sie mit der [!DNL Amazon Sales Channel]-Erweiterung Ihre Konten verwalten und Daten zwischen [!DNL Commerce] und Amazon synchronisieren. Es ermöglicht Ihnen, über den Administrator [!DNL Commerce] Listen zu erstellen, Promotions zu verwalten, Preise festzulegen und Inventar und Erfüllung direkt zu verwalten. Zu diesen Optionen gehören Preisregeln, die die Preisgestaltung von Amazon für denselben Artikel überwachen und Ihre Preise automatisch anpassen, um wettbewerbsfähiger zu werden.
+Nach der Integration [!DNL Amazon Seller Central] Konto, [!DNL Amazon Sales Channel] -Erweiterung ermöglicht die Verwaltung Ihrer Konten und die Synchronisierung von Daten zwischen [!DNL Commerce] und Amazon. Sie ermöglicht Ihnen die Erstellung von Auflistungen, die Verwaltung von Promotions, die Festsetzung von Preisen und die Verwaltung von Inventar und Fulfillment direkt über das [!DNL Commerce] Admin. Zu diesen Optionen gehören Preisregeln, die die Preise von Amazon für ein und dasselbe Produkt überwachen und die Preise automatisch anpassen, um wettbewerbsfähiger zu werden.
 
-## Guide - Übersicht
+## Hilfslinienübersicht
 
-In diesem Handbuch werden einige grundlegende [!DNL Amazon Seller Central]-Informationen vorgestellt, die Anforderungen zum Einrichten Ihres Amazon-Vertriebskanals. Er enthält auch Details zum Onboarding- und Integrationsprozess, zu den verfügbaren Speicher-, Produkt-, Preis- und anderen Optionen sowie dazu, wie Sie mit dem Amazon-Vertriebskanal Ihre Auflistungen und Verkäufe im [!DNL Amazon Marketplace] verwalten können. Verwenden Sie die linke Leiste, um durch verschiedene Funktionen zu navigieren und per Drilldown auf detaillierte Informationen und Verfahren zuzugreifen.
+Dieser Leitfaden enthält einige grundlegende [!DNL Amazon Seller Central] Informationen, die Voraussetzungen für die Einrichtung Ihres Amazon Sales Kanals. Es enthält auch Einzelheiten zum Einstieg und Integrationsprozess, zu verfügbaren Geschäften, Produkten, Preisen und anderen Optionen sowie dazu, wie Sie den Amazon Sales Kanal verwenden können, um Ihre Auflistungen und Verkäufe im [!DNL Amazon Marketplace]. Verwenden Sie die linke Schiene, um durch verschiedene Funktionen zu navigieren und im Drilldown-Verfahren auf detaillierte Informationen und Verfahren zuzugreifen.
 
 | Bereich | Beschreibung |
 |----|----|
-| [Über den Amazon-Vertriebskanal](./about-amazon-sales-channel.md) | Erfahren Sie mehr über die Grundlagen des Amazon-Vertriebskanals, die wichtigsten Funktionen, Best Practices und mehr. |
-| [Onboard Amazon Sales Channel](./amazon-onboarding-home.md) | Schnelles Erstellen von Amazon Stores und Integration mit [!DNL Amazon Seller Central]. Nutzen Sie Ihren Amazon-Vertriebskanal, um mit dem Verkauf zu beginnen. |
-| [Amazon-Vertriebskanal - Startseite](./amazon-sales-channel-home.md) | Erfahren Sie mehr über die Startseite Ihres Amazon-Vertriebskanals und die verfügbaren Optionen und Aufgaben. Zeigen Sie zusammenfassende Informationen zu Ihren Amazon Stores an und greifen Sie auf Store-Details und -Einstellungen zu. |
-| [Attribute verwalten](./attributes-view.md) | Der Amazon-Vertriebskanal ordnet Produkte mithilfe von Produktattributen zwischen Ihrem [!DNL Commerce]-Katalog und Amazon zu. Erfahren Sie mehr über das Erstellen, Zuordnen und Verwalten dieser Attribute. |
-| [Verwalten von Store-Einstellungen](./ob-store-review.md) | Zeigen Sie Ihre Store-Einstellungen an und ändern Sie sie, einschließlich Listeneinstellungen, Bestelleinstellungen, Listen- und Preisregeln. |
-| [Listen verwalten](./managing-product-listings.md) | Wenn Sie über den Amazon Marketplace verkaufen, können Sie Ihre Auflistungen (Einstellungen, Regeln und Preise) aktualisieren, hinzufügen und verwalten. Erfahren Sie mehr über das Erstellen und Ändern Ihrer Store- und Listeneinstellungen. |
-| [Bestellungen und Erfüllung verwalten](./managing-orders.md) | Amazon Sales Channel unterstützt die Auftragserfüllung und Sendungen über Amazon und [!DNL Commerce]. Erfahren Sie mehr über das Erfüllen mit Amazon, direkt über [!DNL Commerce] und Bestellverwaltungsoptionen. |
-| [Anzeigen von Protokollen und Berichten](./amazon-logs-reports.md) | Erfahren Sie mehr über getrackte Fehler und Interaktionen zwischen Amazon und [!DNL Commerce]. |
+| [Über Amazon Sales Kanal](./about-amazon-sales-channel.md) | Erfahren Sie mehr über die Grundlagen des Amazon Sales Kanals, wichtige Funktionen, Best Practices und mehr. |
+| [Onboard Amazon Sales Kanal](./amazon-onboarding-home.md) | Schnell Amazon Stores erstellen und integrieren mit [!DNL Amazon Seller Central]. Holen Sie sich Ihren Amazon Sales Kanal auf den Weg zum Beginn. |
+| [Amazon Sales Kanal Home](./amazon-sales-channel-home.md) | Erfahren Sie mehr über Ihre Amazon Sales Kanal Startseite und die verfügbaren Optionen und Aufgaben. Ansicht - Übersicht über Ihre Amazon Stores und Zugriffstastendetails und -einstellungen. |
+| [Attribute verwalten](./attributes-view.md) | Amazon Sales Kanal ordnet Produkte zwischen [!DNL Commerce] Katalog und Amazon mit Produktattributen. Erfahren Sie mehr über das Erstellen, Zuordnen und Verwalten dieser Attribute. |
+| [Speichereinstellungen verwalten](./ob-store-review.md) | Ansicht und Änderung Ihrer Store-Einstellungen, einschließlich Listeneinstellungen, Bestelleinstellungen sowie Listen- und Preisregeln. |
+| [Listen verwalten](./managing-product-listings.md) | Wenn Sie über den Amazon Marketplace verkaufen, können Sie Ihre Listen aktualisieren, hinzufügen und verwalten (Einstellungen, Regeln und Preise). Erfahren Sie mehr über das Erstellen und Ändern Ihrer Store- und Listennummereinstellungen. |
+| [Bestellungen und Erfüllung verwalten](./managing-orders.md) | Amazon Sales Kanal unterstützt Auftragsausführung und Versand über Amazon und [!DNL Commerce]. Erfahren Sie mehr über die Erfüllung durch Amazon, direkt über [!DNL Commerce]und Optionen für die Auftragsverwaltung. |
+| [Ansichten und Berichte](./amazon-logs-reports.md) | Weitere Informationen zu verfolgten Fehlern und Interaktionen zwischen Amazon und [!DNL Commerce]. |
 
-## Zusätzliche Dokumentation zu Adobe Commerce
+## Zusätzliche Adobe Commerce-Dokumentation
 
-- [Adobe Commerce-Benutzerhandbuch](https://docs.magento.com/user-guide/){:target=&quot;_blank&quot;}
-- [Adobe Commerce-Entwicklerhandbuch](https://devdocs.magento.com/){:target=&quot;_blank&quot;}
+- [Adobe Commerce-Benutzerhandbuch](https://docs.magento.com/user-guide/){Zielgruppe=&quot;_blank&quot;}
+- [Adobe Commerce Developer Guide](https://devdocs.magento.com/){Zielgruppe=&quot;_blank&quot;}

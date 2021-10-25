@@ -1,62 +1,62 @@
 ---
-title: Preispriorität - Logik
-description: Der Amazon-Vertriebskanal wendet bei der Bestimmung des veröffentlichten Preises für eine Amazon-Auflistung eine Priorisierung an.
+title: Preisprioritätslogik
+description: Amazon Sales Kanal setzt bei der Bestimmung des veröffentlichten Preises für eine Amazon-Auflistung Prioritäten.
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 4%
 
 ---
 
-# Preisprioritätslogik
+# Logik der Preispriorität
 
-Wie ermittelt das System im folgenden Beispiel, ob Sie $31.99, $24.99 oder $27.99 veröffentlichen sollten?
+Wie bestimmt das System im folgenden Beispiel, ob Sie $31.99, $24.99 oder $27.99 veröffentlichen sollten?
 
-![Umfang der Handelspreise](assets/amazon-price-scope.png)
+![Handelspreisdefinition](assets/amazon-price-scope.png)
 
-Um zu bestimmen, welcher Preis verwendet wird, wenn sich ein Produkt auf zwei Websites befindet und einen variierenden Preis pro Website hat, verwenden Sie die Preisprioritätslogik (bestimmt durch den Wert [Sortierreihenfolge](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){:target=&quot;_blank&quot;}).
+Um zu bestimmen, welcher Preis verwendet wird, wenn ein Produkt auf zwei Websites ist und einen unterschiedlichen Preis pro Website hat, verwenden Sie die Preisprioritätslogik (ermittelt durch [Sortierreihenfolge](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){Zielgruppe=&quot;_blank&quot;} Wert).
 
-Um die Sortierreihenfolge Ihrer Stores anzuzeigen, gehen Sie in der Seitenleiste _Admin_ zu **[!UICONTROL All Stores]** > **[!UICONTROL Stores]** . Klicken Sie in der Spalte _[!UICONTROL Web Site]_auf den Namen der Website. Auf der Seite_[!UICONTROL Web Site Information]_ wird die Einstellung _[!UICONTROL Sort Order]_für die Website angezeigt, die die Priorität der Website bestimmt. Der Wert `1` gibt die höchste Priorität an.
+Um die Sortierreihenfolge Ihrer Geschäfte Ansicht, gehen Sie zu **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** in _Admin_ Sidebar. In _[!UICONTROL Web Site]_-Spalte, klicken Sie auf den Namen der Website. Die_[!UICONTROL Web Site Information]_ Seite zeigt die _[!UICONTROL Sort Order]_-Einstellung für die Website, die die Priorität der Website bestimmt. Ein Wert von `1` gibt die höchste Priorität an.
 
-Wenn der Produktpreis auf `Use Default` gesetzt ist, wird anstelle des Website-Preiswerts der Standardpreis verwendet.
+Wenn der Produktpreis auf `Use Default`, fällt er auf den Standardpreis anstatt auf den Preis der Website.
 
 ## Beispiel 1
 
-|  | Website-Priorität | Preis (Website) | Use Default |
+|  | Website-Priorität | Preis (Website) | Standard verwenden |
 |---|---|---|---|
 | Standard | 0 | 31,99 $ | — |
-| Store 1 | 1 | 24,99 $ | Nein |
+| 1 lagern | 1 | 24,99 $ | Nein |
 | Store 2 | 2 | 27,99 $ | Ja |
 
-- **[!UICONTROL Magento Price Source]** (definiert in [Listing Price](./listing-price.md) ist auf das Attribut `Price` festgelegt.
-- Sehen Sie sich die Website mit der höchsten Website-Priorität an, nämlich Store 1 (definiert durch den Wert [Sortierreihenfolge](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){:target=&quot;_blank&quot;}).
-- Da Store 1 auf die Verwendung des Website-Preises festgelegt ist (Use Default = No), beträgt der veröffentlichte Preis 24,99 USD.
+- Die **[!UICONTROL Magento Price Source]** (definiert in [Listingpreis](./listing-price.md) wird auf `Price` Attribut.
+- Sehen Sie sich die Website mit der höchsten Priorität der Website an: Store 1 (definiert von [Sortierreihenfolge](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){Zielgruppe=&quot;_blank&quot;} Wert).
+- Da Store 1 auf die Nutzung des Website-Preises eingestellt ist (Standard verwenden = Nein), beträgt der veröffentlichte Preis 24,99 US-Dollar.
 
 ## Beispiel 2
 
-|  | Website-Priorität | Preiswebsite | Use Default |
+|  | Website-Priorität | Preiswebsite | Standard verwenden |
 |---|---|---|---|
 | Standard | 0 | 31,99 $ | — |
-| Store 1 | 1 | 24,99 $ | Ja |
+| 1 lagern | 1 | 24,99 $ | Ja |
 | Store 2 | 2 | 27,99 $ | Nein |
 
-- **[!UICONTROL Magento Price Source]** (definiert in [Listing Price](./listing-price.md) ist auf das Attribut `Price` festgelegt.
-- Sehen Sie sich die Website mit der höchsten Website-Priorität an, nämlich Store 1 (definiert durch den Wert [sort order](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){:target=&quot;_blank&quot;}).
-- Da Store 1 **nicht** für die Verwendung des Website-Preises festgelegt ist (Use Default = Ja), sehen Sie sich die nächste Website in der Sortierreihenfolge an.
-- Da Store 2 **auf** gesetzt ist, um den Website-Preis zu verwenden (Use Default = No), beträgt der veröffentlichte Preis 27,99 USD.
+- Die **[!UICONTROL Magento Price Source]** (definiert in [Listingpreis](./listing-price.md) wird auf `Price` Attribut.
+- Sehen Sie sich die Website mit der höchsten Priorität der Website an: Store 1 (definiert von [Sortierreihenfolge](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){Zielgruppe=&quot;_blank&quot;} Wert).
+- Seit Store 1 **ist nicht** gesetzt, um den Preis der Website zu verwenden (Standard verwenden = Ja), schauen Sie sich die nächste Website in der Sortierreihenfolge an.
+- Seit Store 2 **ist** auf den Preis der Website (Verwenden Sie Standard = Nein) eingestellt, ist der veröffentlichte Preis $27.99.
 
 ## Beispiel 3
 
-|  | Website-Priorität | Preiswebsite | Use Default |
+|  | Website-Priorität | Preiswebsite | Standard verwenden |
 |---|---|---|---|
-| Standard | 0 | 31,99 $ | 30,00$ |
-| Store 1 | 1 | 24,99 $ | — |
-| Store 2 | 2 | 27,99 $ | 20,00$ |
+| Standard | 0 | 31,99 $ | 30,00 $ |
+| 1 lagern | 1 | 24,99 $ | — |
+| Store 2 | 2 | 27,99 $ | 20,00 $ |
 
-In diesem Beispiel wird der Wert ohne Preis hinzugefügt, der verwendet wird, wenn Sie einen anderen Wert für _[!UICONTROL Magento Price Source_] auswählen (definiert in den Einstellungen [Listenpreis](./listing-price.md)). Der Wert ohne Preis verwendet immer den Preis als Ausweichpreis.
+In diesem Beispiel wird der Nicht-Preiswert hinzugefügt, der verwendet wird, wenn Sie einen anderen Wert für das _ auswählen[!UICONTROL Magento Price Source_] (definiert in [Listingpreis](./listing-price.md) Einstellungen). Der Non-Price-Wert verwendet immer den Preis als Fallback-Preis.
 
-- **[!UICONTROL Magento Price Source]** (definiert in Ihren [[!UICONTROL Listing Price]](./listing-price.md)-Einstellungen) ist auf `Non-Price` eingestellt.
-- Sehen Sie sich die Website mit der höchsten Website-Priorität an, nämlich `Store 1` (definiert durch den Wert [Sortierreihenfolge](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){:target=&quot;_blank&quot;}).
-- Da Store 1 **nicht** für die Verwendung des Attributs `Non-Price` festgelegt ist, sehen Sie sich die nächste Website in der Sortierreihenfolge an.
-- Da Store 2 **auf** gesetzt ist, um das Attribut `Non-Price` zu verwenden (Non-Price [Website] = $20,00), beträgt der veröffentlichte Preis $20,00.
+- Die **[!UICONTROL Magento Price Source]** (definiert in [[!UICONTROL Listing Price]](./listing-price.md) Einstellungen) auf `Non-Price`.
+- Sehen Sie sich die Website mit der höchsten Priorität an. `Store 1`(definiert durch [Sortierreihenfolge](https://docs.magento.com/user-guide/stores/stores-all-create-view.html){Zielgruppe=&quot;_blank&quot;} Wert).
+- Seit Store 1 **ist nicht** zur Verwendung der `Non-Price` -Attribut, sehen Sie sich die nächste Website in der Sortierreihenfolge an.
+- Seit Store 2 **ist** zur Verwendung der `Non-Price` Attribut (Nicht-Preis) [Webseite] = $20.00), der veröffentlichte Preis ist $20.00.
