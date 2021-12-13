@@ -34,3 +34,4 @@ ht-degree: 0%
 >Die _[!UICONTROL Amazon Marketplace Country]_Einstellung definiert während [Speicherintegration](./store-integration.md) kann nicht aktualisiert werden. Um die Ländereinstellung zu bearbeiten, müssen Sie den Store löschen (unter_[!UICONTROL Action]_ auf der Ladenkarte) und fügen Sie einen Laden für das jeweilige Land hinzu.
 
 ![Integrationseinstellungen speichern](assets/amazon-store-settings.png)
+
