@@ -1,44 +1,54 @@
 ---
 title: Sales Channel-Einstellungen
-description: Aktualisieren Sie die Commerce-Konfiguration, um Protokollierung, Cron-Quelle und Synchronisation für Amazon Sales Kanal-Funktionen zu verwalten.
+description: Aktualisieren Sie die Commerce-Konfiguration, um die Protokollierung, Cron-Quelle und Synchronisation für Amazon-Vertriebskanalfunktionen zu verwalten.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
 # Sales Channel-Einstellungen
 
-Wann [!DNL Amazon Sales Channel] -Erweiterung installiert ist, werden die Standardwerte im Admin for Amazon Sales Kanal festgelegt. Diese Einstellungen können in Ihren Konfigurationseinstellungen für Ihren Amazon Store geändert werden. Diese Einstellungen umfassen:
+Wenn die [!DNL Amazon Sales Channel] installiert ist, werden im Vertriebskanal Admin für Amazon Standardwerte festgelegt. Diese Einstellungen können in Ihren Konfigurationseinstellungen für Ihren Amazon Store geändert werden. Zu diesen Einstellungen gehören:
 
-- Zeiträume für das Löschen des Protokollverlaufs der Aktivität
+- Zeiträume für das Löschen des Aktivitätsprotokollverlaufs
 - Cron-Quellauswahl
-- Protokollsynchronisierungsoptionen
+- Optionen zur Protokollsynchronisierung
 
-## Geschäftliche Kanal-Einstellungen ändern
+## Ändern der Einstellungen für Commerce-Kanäle
 
-1. Auf _Admin_ Sidebar, Gehe zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales Channels]** und wählen **[!UICONTROL Global Settings]**.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Sales Channels]** und wählen Sie **[!UICONTROL Global Settings]**.
 
-1. für **[!UICONTROL Clear Log History]**, wählen Sie eine Option aus:
+1. Für **[!UICONTROL Clear Log History]**, wählen Sie eine Option aus:
 
-   - `Once Daily` - Wählen Sie aus, ob Sie den Verlauf Ihrer Aktivität einmal täglich löschen möchten.
+   - `Once Daily` - Wählen Sie aus, den Verlauf Ihrer Store-Aktivität einmal täglich zu löschen.
 
-   - `Once Weekly` - Wählen Sie aus, ob der Verlauf Ihrer Aktivität einmal wöchentlich gelöscht werden soll.
+   - `Once Weekly` - Wählen Sie aus, den Verlauf Ihrer Store-Aktivität einmal wöchentlich zu löschen.
 
-   - `Once Monthly` - (Standard) Wählen Sie aus, ob der Verlauf Ihrer Store-Aktivität einmal monatlich gelöscht werden soll.
+   - `Once Monthly` - (Standard) Wählen Sie aus, den Verlauf Ihrer Store-Aktivität einmal monatlich zu löschen.
 
-1. für **[!UICONTROL Background Tasks (CRON) Source]**, wählen `Magento CRON`.
+1. Für **[!UICONTROL Background Tasks (CRON) Source]** auswählen `Magento CRON`.
 
-   Mit dieser Option kann Amazon Sales Kanal Ihre [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) Einstellungen zur Bestimmung der Kommunikations- und Datensynchronisierungsintervalle mit [!DNL Amazon Seller Central].
+   Mit dieser Option kann der Amazon-Vertriebskanal Ihre [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) Einstellungen zum Ermitteln von Kommunikations- und Datensynchronisierungsintervallen mit [!DNL Amazon Seller Central].
 
-1. für **[!UICONTROL Enable Debug Logging]**, wählen `Enabled` um zusätzliche Synchronisierungsdaten zu erfassen, wenn die Fehlerbehebung erforderlich ist.
+1. Für **[!UICONTROL Enable Debug Logging]** auswählen `Enabled` , um bei der Fehlerbehebung zusätzliche Synchronisierungsdaten zu erfassen.
 
-   Die Protokollierung des Amazon Sales Kanal wird in `{Commerce Root}/var/log/channel_amazon.log` Datei und kann angezeigt werden in [Entwicklermodus](https://docs.magento.com/user-guide/magento/installation-modes.html){Zielgruppe=&quot;_blank&quot;}. Protokollierung darf nur `Enabled` während der Fehlerbehebung und sollte `Disabled` wenn die Fehlerbehebung abgeschlossen ist.
+   Die Protokollierung des Amazon-Vertriebskanals wird in `{Commerce Root}/var/log/channel_amazon.log` Datei und kann in [Entwicklermodus](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. Die Protokollierung sollte nur `Enabled` während der Fehlerbehebung und sollten `Disabled` wenn die Fehlerbehebung abgeschlossen ist.
 
-1. Klick **[!UICONTROL Save Config]**.
+1. Für **[!UICONTROL Read-Only Mode]** auswählen `Enabled` , um alle ausgehenden, sich ändernden API-Anfragen zu blockieren.
 
-![Konfigurationseinstellungen für Sales Channel](assets/config-sales-channel-global-settings.png)
+   Mit dieser Einstellung werden potenzielle Änderungen gespeichert, aber nicht gesendet, bis [!UICONTROL Read-Only Mode] deaktiviert ist. Der Konfigurationscache muss für den schreibgeschützten Modus gelöscht werden, um aktiviert zu werden. Um die Datenübertragung erneut zu starten, wählen Sie `Disabled`.
+
+   >[!IMPORTANT]
+   >
+   >[!UICONTROL Read-Only Mode] ist für Kopien der Produktionsinstanz wie Staging oder Qualitätssicherung konzipiert und sollte nicht in der Produktionsinstanz verwendet werden.
+   >
+   >Wenn eine Datenbank auf eine neue Kopie der Instanz migriert wird (erkannt, wenn sich die URL eines Stores in der Konfiguration ändert), [!UICONTROL Read-Only Mode] automatisch aktiviert ist.
+
+1. Klicken **[!UICONTROL Save Config]**.
+
+![Sales Channel-Konfigurationseinstellungen](assets/config-sales-channel-global-settings.png)
