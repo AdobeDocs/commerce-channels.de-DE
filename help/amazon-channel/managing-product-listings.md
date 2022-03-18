@@ -1,6 +1,6 @@
 ---
-title: Amazon-Listen verwalten
-description: Amazon Sales Channel bietet mehrere Tools, mit denen Sie Ihre Amazon-Auflistungen über den Commerce-Administrator verwalten können.
+title: Verwalten von Amazon-Listen
+description: Amazon Sales Channel bietet mehrere Tools, mit denen Sie Ihre Amazon-Auflistungen über den Commerce Admin verwalten können.
 exl-id: 895fd0f1-29ec-4ae5-af5b-eb5d99f5752a
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,28 +9,28 @@ ht-degree: 0%
 
 ---
 
-# Amazon-Listen verwalten
+# Verwalten von Amazon-Listen
 
-Produktlistungseinstellungen können jederzeit nach der [!DNL Commerce] Store ist integriert. Sie können auf Ihre Listeneinstellungen zugreifen auf [Dashboard speichern](./amazon-store-dashboard.md).
+Die Produktlisteneinstellungen können jederzeit nach der [!DNL Commerce] store ist integriert. Sie können auf Ihre Listeneinstellungen im [Store-Dashboard](./amazon-store-dashboard.md).
 
-Klicken Sie auf , um auf Ihre Produktauflistungen nach dem jeweiligen Listenstand zuzugreifen. **[!UICONTROL Manage Listings]** in _[!UICONTROL Store Listings]_Abschnitt. Die[_ Produktauflistungen _](./managing-listings-by-tab.md)Seite wird geöffnet für_[!UICONTROL Active]_ standardmäßig ein Tabulator.
+Um auf Ihre Produktlisten nach ihrem Listenstand zuzugreifen, klicken Sie auf **[!UICONTROL Manage Listings]** im _[!UICONTROL Store Listings]_Abschnitt. Die[_ Produktlisten _](./managing-listings-by-tab.md)Seite, die in_[!UICONTROL Active]_ standardmäßig auf.
 
-Sie können auch auf **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]** und **[!UICONTROL In Progress Listings]** in _[!UICONTROL Store Listings]_-Abschnitt, um direkt auf diese Registerkarten zuzugreifen.
+Sie können auch auf **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]** und **[!UICONTROL In Progress Listings]** im _[!UICONTROL Store Listings]_-Abschnitt, um direkt auf diese Registerkarten zuzugreifen.
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]** entweder _Bereit für Liste_ Auflistungen oder _Unvollständige Auflistungen_, abhängig von Ihren [_Produktlistungsaktionen_](./product-listing-actions.md) Einstellungen. Siehe Registerkartenbeschreibungen in [Listen nach Status/Register verwalten](./managing-listings-by-tab.md).
+>**[!UICONTROL In Progress Listings]** entweder _Listenbereit_ Auflistungen oder _Unvollständige Listen_, abhängig von Ihrer [_Produktlistenaktionen_](./product-listing-actions.md) -Einstellungen. Siehe Registerkartenbeschreibungen unter [Verwalten von Listen nach Status/Registerkarte](./managing-listings-by-tab.md).
 
-Siehe [Listen nach Status/Register verwalten](./managing-listings-by-tab.md) und [Auflistungen nach Aktion verwalten](./managing-listings-by-action.md).
+Siehe [Verwalten von Listen nach Status/Registerkarte](./managing-listings-by-tab.md) und [Verwalten von Listen nach Aktion](./managing-listings-by-action.md).
 
-## Auf Produktlisten zugreifen
+## Produktlisten aufrufen
 
-1. Auf _Admin_ Sidebar, Gehe zu **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. Klick **[!UICONTROL View Store]** auf einer Ladenkarte.
+1. Klicken **[!UICONTROL View Store]** auf einer Speicherkarte.
 
-1. Klicken Sie im Store-Dashboard auf **[!UICONTROL Manage Listings]** in _[!UICONTROL Store Listings]_Abschnitt.
+1. Klicken Sie im Store-Dashboard auf **[!UICONTROL Manage Listings]** im _[!UICONTROL Store Listings]_Abschnitt.
 
-1. Klicken Sie auf eine Registerkarte, um Ansichten in diesem Status anzuzeigen.
+1. Um Auflistungen in diesem Status anzuzeigen, klicken Sie auf eine Registerkarte.
 
-   Die _[!UICONTROL Active]_wird standardmäßig angezeigt.
+   Die _[!UICONTROL Active]_standardmäßig angezeigt.

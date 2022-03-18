@@ -1,51 +1,51 @@
 ---
-title: hinzufügen
-description: Verwenden Sie Preisregeln, um die Listenpreise für Ihren Commerce-Produktkatalog auf dem Amazon Marketplace zu verwalten.
+title: Hinzufügen von Preisregeln
+description: Verwenden Sie Preisregeln, um die Listenpreise auf dem Amazon Marketplace für Ihren Commerce-Produktkatalog zu verwalten.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# hinzufügen
+# Hinzufügen von Preisregeln
 
-Preisregeln können jederzeit nach der Integration Ihres Ladens konfiguriert oder geändert werden. Preisregeln gehören zu [Listingeinstellungen](./listing-settings.md) und kann im [Dashboard speichern](./amazon-store-dashboard.md).
+Preisregeln können jederzeit konfiguriert oder geändert werden, nachdem Ihr Store integriert wurde. Preisregeln sind Teil von [Listening-Einstellungen](./listing-settings.md) und kann im [Store-Dashboard](./amazon-store-dashboard.md).
 
 ## Standardpreisregel
 
-Mit einer standardmäßigen Preisregel können Sie einen Amazon-Börsennotierungspreis um einen bestimmten Prozentsatz oder festen Dollarbetrag im Verhältnis zum * erhöhen oder senken.*[!UICONTROL Magento Price Source*]* definiert in [Listingpreis](./listing-price.md).
+Mit einer standardmäßigen Preisregel-Aktion können Sie einen Amazon-Börsennotierungspreis um einen bestimmten Prozentwert oder festen Dollarbetrag im Verhältnis zum * erhöhen oder verringern *[!UICONTROL Magento Price Source*]* definiert in [Listenpreis](./listing-price.md).
 
-### Standardpreisregel Hinzufügen
+### Hinzufügen einer standardmäßigen Preisregel
 
-1. Klick **[!UICONTROL Pricing rules]** auf dem Dashboard.
+1. Klicken **[!UICONTROL Pricing rules]** im Dashboard speichern.
 
-1. Klick **[!UICONTROL Add new pricing rule]**.
+1. Klicken **[!UICONTROL Add new pricing rule]**.
 
-1. Fertig stellen **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** für die Regel.
+1. Führen Sie die **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** für die Regel.
 
-1. Fertig stellen **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** für die Regel.
+1. Führen Sie die **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** für die Regel.
 
-1. Fertig stellen **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** für die Regel.
+1. Führen Sie die **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** für die Regel.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save pricing rule]**.
+1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save pricing rule]**.
 
-## Intelligente Preisanpassungsregel
+## Intelligente Neupreisregel
 
-Eine intelligente Neupreisregel verwendet die Preise der Amazon Konkurrent, um Ihren Börsenpreis zu bestimmen. Konkurrent sind andere Verkäufer, die dieselben Produkte auflisten, die Sie auf Amazon auflisten.
+Eine intelligente Neupreisregel nutzt die Preise von Amazon-Konkurrenten, um Ihren Börsennotierungspreis zu bestimmen. Wettbewerber sind andere Verkäufer, die dieselben Produkte auflisten, die Sie in Amazon auflisten.
 
-### Eine intelligente Preisbildungsregel Hinzufügen
+### Intelligente Neupreisregel hinzufügen
 
-1. Klick **[!UICONTROL Pricing rules]** auf dem Dashboard.
+1. Klicken **[!UICONTROL Pricing rules]** im Dashboard speichern.
 
-1. Klick **[!UICONTROL Add new pricing rule]**.
+1. Klicken **[!UICONTROL Add new pricing rule]**.
 
-1. Fertig stellen **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** für die Regel.
+1. Führen Sie die **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** für die Regel.
 
-1. Fertig stellen **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** für die Regel.
+1. Führen Sie die **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** für die Regel.
 
-1. Fertig stellen **[!UICONTROL Price Rule Actions]** für die Regel.
+1. Führen Sie die **[!UICONTROL Price Rule Actions]** für die Regel.
 
    - [[!UICONTROL Select Rule Typ]e](./intelligent-repricing-rules.md)
 
@@ -57,4 +57,4 @@ Eine intelligente Neupreisregel verwendet die Preise der Amazon Konkurrent, um I
 
    - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save pricing rule]**.
+1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save pricing rule]**.

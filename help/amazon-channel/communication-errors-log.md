@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Kommunikationsprotokoll
 
-Das Kommunikationsprotokoll zeigt alle gemeldeten Kommunikationsfehler mit Amazon an. Die Informationen umfassen den betroffenen Amazon Sales Kanal Store, den Fehlercode und eine Kurzbeschreibung sowie das Datum und die Uhrzeit des Fehlers.
+Das Kommunikationsfehlerprotokoll zeigt alle gemeldeten Kommunikationsfehler mit Amazon. Zu den Informationen gehören der betroffene Amazon-Verkaufskanalspeicher, der Fehlercode und eine kurze Beschreibung sowie das Datum und die Uhrzeit des Fehlers.
 
-Für das Protokoll sind keine Aktionen verfügbar. Es handelt sich um eine reine Rezensionsfunktion.
+Für das Protokoll sind keine Aktionen verfügbar. Es handelt sich um eine Funktion, die nur zur Überprüfung dient.
 
-Amazon Sales Kanal Startseite teilen einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) , mit denen Sie die angezeigten Daten anpassen können.
+Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 
 ![Kommunikationsprotokoll](assets/amazon-comm-errors-log.png)
 
@@ -23,7 +23,7 @@ Amazon Sales Kanal Startseite teilen einige gemeinsame [Arbeitsbereichssteuerele
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL Amazon Store Name] | Der Name des Speichers, der bei der Einrichtung des Amazon Store definiert wurde. Siehe [Integration speichern](./store-integration.md). |
-| [!UICONTROL Error Code] | Der von Amazon erhaltene Code zur Identifizierung des Fehlertyps. |
-| [!UICONTROL Message] | Die Meldung, die den dem Fehlercode zugeordneten Fehler beschreibt. |
+| [!UICONTROL Amazon Store Name] | Der Name des Stores, der beim Einrichten des Amazon-Stores definiert wurde. Siehe [Store-Integration](./store-integration.md). |
+| [!UICONTROL Error Code] | Der von Amazon empfangene Code zur Identifizierung des Fehlertyps. |
+| [!UICONTROL Message] | Die Meldung, die den Fehler im Zusammenhang mit dem Fehlercode beschreibt. |
 | [!UICONTROL Created On] | Datum und Uhrzeit des Fehlers. |

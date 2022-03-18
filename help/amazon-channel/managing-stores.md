@@ -1,6 +1,6 @@
 ---
-title: Amazon Stores Ansicht
-description: Rufen Sie die Amazon Stores-Ansicht auf, um schnell die grundlegenden Statistiken für jeden Ihrer Amazon-Stores und die Zugriffssteuerungsoptionen zu überprüfen.
+title: Amazon Stores-Ansicht
+description: Navigieren Sie zur Ansicht "Amazon Stores", um die grundlegenden Statistiken für jeden Ihrer Amazon Stores zu überprüfen und auf die Verwaltungsoptionen zuzugreifen.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,35 +9,35 @@ ht-degree: 0%
 
 ---
 
-# Amazon Stores Ansicht
+# Ansicht &quot;Amazon Stores&quot;
 
-Bei Ansicht der Amazon Sales Kanal Startseite _Amazon Stores_ Ansicht wird standardmäßig geöffnet.
+Wenn Sie sich die Startseite des Amazon-Vertriebskanals ansehen, wird die _Amazon Stores_ -Ansicht wird standardmäßig geöffnet.
 
-![Amazon Stores Ansicht](assets/amazon-sales-channel-home-tabs.png)
+![Ansicht &quot;Amazon Stores&quot;](assets/amazon-sales-channel-home-tabs.png)
 
-Die _[!UICONTROL Amazon Stores]_Ansicht zeigt eine &quot;Store Card&quot; für jeden Ihrer Amazon Stores sowie einige grundlegende Statistiken und Verwaltungsoptionen an. Die auf jeder Karte angezeigten Zusammenfassungen enthalten den jeweiligen Speicherstatus, das erstellte Datum, das letzte aktualisierte Datum und Listen, die beachtet werden müssen (Beispiel: Unvollständige Auflistungen) und zugewiesene [!DNL Commerce] Website.
+Die _[!UICONTROL Amazon Stores]_-Ansicht zeigt für jeden Ihrer Amazon-Stores eine &quot;Store-Karte&quot;mit einigen grundlegenden Statistiken und Verwaltungsoptionen an. Die auf jeder Karte angezeigten Zusammenfassungsinformationen enthalten jeden Store-Status, das erstellte Datum, das Datum der letzten Aktualisierung und Auflistungen, die beachtet werden müssen (Beispiel: Unvollständige Listen) und die zugewiesenen [!DNL Commerce] Website.
 
-Bei Ansicht des _[!UICONTROL Amazon Store]_Ansicht, jede Ladenkarte ermöglicht Ihnen:
+Beim Anzeigen der _[!UICONTROL Amazon Store]_anzeigen, können Sie mit jeder Speicherkarte:
 
-- So öffnen Sie einen Laden [Dashboard](./amazon-store-dashboard.md), klicken **[!UICONTROL View Store]**.
+- So öffnen Sie einen Store [Dashboard](./amazon-store-dashboard.md)klicken **[!UICONTROL View Store]**.
 
-- Klicken Sie zum Ändern des Speicherstatus oder Löschen eines Speichers auf **[!UICONTROL Action]** und wählen Sie:
+- Um einen Store-Status zu ändern oder einen Store zu löschen, klicken Sie auf **[!UICONTROL Action]** und wählen Sie:
 
-   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]** - Wählen Sie, um den Status des Store zu ändern in `Active` oder `Inactive`, bzw.
+   - **[!UICONTROL Activate]** / **[!UICONTROL Deactivate]** - Ändern Sie den Status des Stores in `Active` oder `Inactive`zurück.
 
-      Ändern eines `Inactive` speichern in `Active` -Status aktiviert Auflistungen und die Aktivität der Bestellungen für den Store und verwendet dabei die aktuellen Store-Einstellungen (wie z. B. Listeneinstellungen, Preisregeln und Überschreibungen).
+      Ändern von `Inactive` speichern in `Active` Status aktiviert Auflistungen und die Bestellaktivität für den Store unter Verwendung der aktuellen Store-Einstellungen (z. B. Listeneinstellungen, Preisregeln und Überschreibungen).
 
-      Ändern des Speicherstatus von `Active` nach `Inactive` -Status setzt die Aktivität der Einträge und der Bestellung für den Store aus. Ein inaktiver Store behält alle Speichereinstellungen und -auflistungen bei, stoppt jedoch vorübergehend die Synchronisierung von Preis, Menge und Auftragsverwaltung, bis der Store wieder zu `Active` Status. Mit dieser Funktion können Sie Ihre Store-Aktivität auf regionaler Ebene kontrollieren, ohne dass Sie Ihren Amazon Store neu integrieren oder neu integrieren müssen oder die historischen Auftragsdaten und Verkaufsdaten verloren gehen.
+      Ändern des Speicherstatus von `Active` nach `Inactive` status setzt Auflistungen und die Bestellaktivität für den Store aus. Ein inaktiver Store behält alle Store-Einstellungen und -Auflistungen bei, stoppt jedoch vorübergehend die Synchronisierung von Preis, Menge und Auftragsverwaltung, bis der Store wieder zu `Active` Status. Mit dieser Funktion können Sie Ihre Store-Aktivität auf regionaler Ebene steuern, ohne dass Sie Ihren Amazon-Store neu integrieren oder neu integrieren müssen oder historische Bestellungen- und Verkaufsdaten verloren gehen.
 
-   - **[!UICONTROL Delete]** - Wählen Sie , um einen Store zu löschen, der nicht mehr benötigt wird.
+   - **[!UICONTROL Delete]** - Wählen Sie aus, einen nicht mehr benötigten Store zu löschen.
 
-      Wählen Sie aus, wann Sie einen vorhandenen Amazon Store und dessen Integrationseinstellungen mit Ihrem [!DNL Amazon Seller Central] Konto. Durch Löschen des Kontos wird der Store aus dem Amazon Sales Kanal entfernt, sowie alle Kontoeinstellungen, Einträge, Protokolle und andere Informationen zu diesem Store. Der Speicher kann nach dem Löschen nicht abgerufen werden. Es muss ein neuer Store erstellt werden.
+      Wählen Sie aus, wann Sie einen vorhandenen Amazon-Store und dessen Integrationseinstellungen mit Ihrem [!DNL Amazon Seller Central] -Konto. Durch das Löschen des Kontos wird der Store aus dem Amazon-Vertriebskanal entfernt, einschließlich aller Kontoeinstellungen, Auflistungen, Protokolle und anderer Informationen zu diesem Store. Der Store kann nach dem Löschen nicht abgerufen werden. Es muss ein neuer Store erstellt werden.
 
 >[!NOTE]
->Um die dem Store während der Integration zugewiesene Website zu ändern, müssen Sie den Store löschen und den Store erneut mit der während der Speicherintegration definierten Website hinzufügen.
+>Um die während der Integration dem Store zugewiesene Website zu ändern, müssen Sie den Store löschen und den Store erneut mit der anderen Website hinzufügen, die während der Store-Integration definiert wurde.
 
-| Karte speichern | Beschreibung |
+| Store Card | Beschreibung |
 |--- |--- |
-| Oberer Abschnitt | Enthält: <br>Das Regionssymbol für den Store, definiert während [Speicherintegration](./store-integration.md).<br> Zugewiesene _[!UICONTROL Magento Website]_, definiert während der Speicher-Integration.<br>Die_[!UICONTROL Status]_ in Ihrem Geschäft. Optionen: **[!UICONTROL Active]** - Die Filialintegration ist vollständig und mit Amazon verifiziert und steht für die Aktivität von Verkäufen zur Verfügung. **[!UICONTROL Inactive]** - Die Store-Integration ist vollständig, wird jedoch nicht verwendet und ist nicht für die Aktivität von Verkäufen verfügbar. Wann `Inactive`Ihre Amazon-Verkäufe werden angehalten. Wann `Active`, Umsatzerlöse und zusätzliche Einstellungen werden vor der Aktivierung zur Aktualisierung gespeichert.<br>Die *[!UICONTROL Last Updated]* Datum der letzten Änderung der Amazon Store-Einrichtung.<br>Die *[!UICONTROL Created]* Datum, an dem der Amazon Store im Amazon Sales Kanal erstellt wurde. |
-| Mittlerer Abschnitt | Enthält ein Zusammenfassungs-Diagramm der Store-Aktivität der letzten 30 Tage sowie Hinweise und Warnhinweise für alle Auflistungen, die beachtet werden müssen. |
-| Unterer Abschnitt | Enthält die Optionen &quot;Ansicht speichern&quot;und &quot;Aktion&quot;.<br>So öffnen Sie den Laden [Dashboard](./amazon-store-dashboard.md), klicken **[!UICONTROL View Store]**.<br>Klicken Sie zum Aktivieren, Deaktivieren oder Löschen eines Speichers auf **[!UICONTROL Actions]**. |
+| Top-Bereich | Umfasst: <br>Das Regionssymbol für den Store, das während der [Store-Integration](./store-integration.md).<br> Die zugewiesenen _[!UICONTROL Magento Website]_, definiert während der Store-Integration.<br>Die_[!UICONTROL Status]_ Ihres Ladens. Optionen: **[!UICONTROL Active]** - Die Speicherintegration ist mit Amazon abgeschlossen und überprüft und steht für die Verkaufsaktivität zur Verfügung. **[!UICONTROL Inactive]** - Die Speicherintegration ist abgeschlossen, wird jedoch nicht verwendet oder steht nicht für Verkaufsaktivitäten zur Verfügung. Wann `Inactive`, werden Ihre Amazon-Verkäufe ausgesetzt. Wann `Active`, Verkaufsumsatz und zusätzliche Einstellungen, die vor der Aktivierung aktualisiert werden sollen.<br>Die *[!UICONTROL Last Updated]* Datum der letzten Änderung am Amazon Store-Setup.<br>Die *[!UICONTROL Created]* Datum, an dem der Amazon Store im Amazon-Vertriebskanal erstellt wurde. |
+| Zweiter Abschnitt | Enthält ein Zusammenfassungsdiagramm zu Store-Aktivitäten für die letzten 30 Tage sowie Hinweise und Warnhinweise für alle Einträge, die beachtet werden müssen. |
+| Unterer Bereich | Umfasst die Optionen &quot;Store anzeigen&quot;und &quot;Aktion&quot;.<br>So öffnen Sie den Store [Dashboard](./amazon-store-dashboard.md)klicken **[!UICONTROL View Store]**.<br>Um einen Store zu aktivieren, zu deaktivieren oder zu löschen, klicken Sie auf **[!UICONTROL Actions]**. |

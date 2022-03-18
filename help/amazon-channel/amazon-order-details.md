@@ -1,6 +1,6 @@
 ---
-title: Amazon-Auftragsdetails
-description: Ansicht für Ihre Amazon Marketplace-Bestellungen im Adobe Commerce oder Magento Open Source Admin.
+title: Amazon-Bestelldetails
+description: Zeigen Sie Details zu Ihren Amazon Marketplace-Bestellungen in der Adobe Commerce oder Magento Open Source Admin an.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,21 +9,21 @@ ht-degree: 0%
 
 ---
 
-# Amazon-Auftragsdetails
+# Amazon-Bestelldetails
 
-![Amazon-Auftragsdetails](assets/amazon-order-details-header.png)
+![Amazon-Bestelldetails](assets/amazon-order-details-header.png)
 
-## Ansicht Amazon Auftragsdetails
+## Amazon-Bestelldetails anzeigen
 
-1. Klick **[!UICONTROL View Store]** auf der Ladenkarte.
+1. Klicken **[!UICONTROL View Store]** auf der Speicherkarte.
 
-1. In _[!UICONTROL Recent Orders]_klicken Sie auf eine Bestellnummer.
+1. Im _[!UICONTROL Recent Orders]_klicken Sie auf eine Bestellnummer.
 
-   Die _[!UICONTROL Amazon Order Details]_Seite wird geöffnet.
+   Die _[!UICONTROL Amazon Order Details]_Seite geöffnet.
 
 >[!NOTE]
 >
->Wenn der Auftragsimport in Ihrem [Auftragseinstellungen](./order-settings.md) und die Bestellung [erfüllt von Amazon (FBA)](./fulfilled-by.md), können Sie die Dummy-Daten für einige Felder in den Auftragsdetails sehen. Amazon sendet folgende Daten für FBA-Bestellungen nicht.
+>Wenn Sie den Bestellimport in Ihrem [Bestelleinstellungen](./order-settings.md) und die Reihenfolge [erfüllt von Amazon (FBA)](./fulfilled-by.md), können Sie Platzhalterdaten für einige Felder in den Bestelldetails sehen. Amazon sendet nicht die folgenden Daten für FBA-Bestellungen.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -37,13 +37,13 @@ ht-degree: 0%
 > - `GiftMessageText`
 
 
-### Registerkarte &quot;Order and Shipping Details&quot;
+### Registerkarte &quot;Bestelldetails und Versanddetails&quot;
 
-Die _[!UICONTROL Order and Shipping Details]_auf der Registerkarte erhalten Sie detaillierte Bestellinformationen von Amazon.
+Die _[!UICONTROL Order and Shipping Details]_zeigt detaillierte Bestellinformationen an, wie sie von Amazon empfangen wurden.
 
 >[!IMPORTANT]
 >
->Amazon akzeptiert nicht standardmäßige Adressinformationen, die nicht in den Amazon Sales Kanal importiert werden können, wodurch verhindert wird, dass die Staaten-/Ländercodes bei einigen Bestellungen korrekt aktualisiert werden. Die folgenden Felder können in den Auftragsdetails bearbeitet werden, um Adressfehler zu beheben:
+>Amazon akzeptiert nicht standardmäßige Adressinformationen, die nicht in den Amazon-Vertriebskanal importiert werden können, wodurch verhindert wird, dass die Länder-/Ländercodes bei einigen Bestellungen korrekt aktualisiert werden. Um Adressfehler zu korrigieren, können die folgenden Felder in den Bestelldetails bearbeitet werden:
 >
 >- `Shipping address 1`
 >- `Shipping address 2`
@@ -52,20 +52,19 @@ Die _[!UICONTROL Order and Shipping Details]_auf der Registerkarte erhalten Sie 
 >- `Shipping region`
 >- `Shipping postal code`
 >- `Shipping country`
-
 >
->Klicken Sie auf **Bestellung speichern** nach Bearbeitung.
+>Vergessen Sie nicht, auf **Bestellung speichern** nach der Bearbeitung.
 
-![Bestellungs- und Versanddetails](assets/amazon-order-details.png)
+![Bestelldetails und Versanddetails](assets/amazon-order-details.png)
 
-### Registerkarte &quot;Elemente&quot;
+### Registerkarte &quot;Bestellelemente&quot;
 
 Die _[!UICONTROL Order Items]_-Tab zeigt alle mit der Amazon-Bestellung verknüpften Elemente an, wie sie von Amazon empfangen wurden.
 
-![Auftragselementdetails](assets/amazon-order-item-details.png)
+![Bestellelementdetails](assets/amazon-order-item-details.png)
 
-### Registerkarte Laufweite
+### Tab Tracking
 
-Die _[!UICONTROL Tracking]_auf dieser Registerkarte werden Verfolgungsinformationen angezeigt, die mit der Amazon-Bestellung verbunden sind.
+Die _[!UICONTROL Tracking]_zeigt Tracking-Informationen an, die mit der Amazon-Bestellung verbunden sind.
 
-![Trackingdetails](assets/amazon-order-tracking-details.png)
+![Tracking-Details](assets/amazon-order-tracking-details.png)

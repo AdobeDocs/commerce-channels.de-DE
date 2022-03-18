@@ -1,6 +1,6 @@
 ---
 title: Attribute
-description: Amazon Sales Channel bietet [!UICONTROL Attributes] , um die Liste von Amazon- und Commerce-Attributen und deren Zuordnung zu Produkten zu überwachen.
+description: Amazon Sales Channel stellt die [!UICONTROL Attributes] um die Liste der Amazon- und Commerce-Attribute und ihre Zuordnung für die Produktzuordnung zu überwachen.
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,32 +11,32 @@ ht-degree: 0%
 
 # Attribute
 
-Die _[!UICONTROL Attributes]_Ansicht zeigt Ihre Liste von Amazon und [!DNL Commerce] Attribute. Die Liste zeigt auch Attribute an, die für die Produktübereinstimmung zugeordnet wurden. Weitere Informationen finden Sie unter [Attribute verwalten](./managing-attributes.md).
+Die _[!UICONTROL Attributes]_zeigt Ihre Liste von Amazon und [!DNL Commerce] -Attribute. Die Liste zeigt auch Attribute an, die für die Produktzuordnung zugeordnet wurden. Weitere Informationen finden Sie unter [Attribute verwalten](./managing-attributes.md).
 
-![Attributes-Ansicht](assets/amazon-attributes-view.png)
+![Attributansicht](assets/amazon-attributes-view.png)
 
-Von _[!UICONTROL Attributes]_Ansicht, Sie und überprüfen Sie Ihre Attributeinstellungen in der Tabelle und [erstellen oder bearbeiten](./creating-attributes.md) ein Attribut.
+Aus dem _[!UICONTROL Attributes]_anzeigen, Sie anzeigen und Ihre Attributeinstellungen in der Tabelle überprüfen und [erstellen oder bearbeiten](./creating-attributes.md) ein Attribut.
 
-## Liste der Attribute Ansicht
+## Anzeigen der Attributliste
 
-1. Auf _Admin_ Sidebar, Gehe zu **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. Klick **[!UICONTROL Attributes]** im linken Menü ein Amazon-Attribut suchen und die Liste Ihrer Attribute überprüfen.
+1. Klicken **[!UICONTROL Attributes]** Suchen Sie im Menü links ein Amazon-Attribut und überprüfen Sie Ihre Attributliste.
 
-1. Erstellen oder bearbeiten Sie ein Attribut nach Bedarf:
+1. Erstellen oder bearbeiten Sie nach Bedarf ein Attribut:
 
-   - nach [erstellen](./creating-attributes.md#create-an-attribute) und legen Sie die entsprechenden Attributwerte für das Attribut fest. Klicken Sie **[!UICONTROL Create]**.
+   - nach [erstellen](./creating-attributes.md#create-an-attribute) und legen Sie übereinstimmende Attributwerte für das Attribut fest, klicken Sie auf **[!UICONTROL Create]**.
 
-   - Zum Deaktivieren oder [Einstellungen bearbeiten](./creating-attributes.md#edit-an-attribute) oder &quot;Passende Attributwerte für das Attribut&quot;, klicken Sie **[!UICONTROL Edit]**.
+   - So deaktivieren Sie oder [Einstellungen bearbeiten](./creating-attributes.md#edit-an-attribute) oder Abgleichen von Attributwerten für das Attribut klicken Sie auf **[!UICONTROL Edit]**.
 
-      Beim Bearbeiten eines Attributs wird die Attributzuordnung für die Produktzuordnung geändert.
+      Das Bearbeiten eines Attributs umfasst das Ändern der Attributzuordnung für die Produktzuordnung.
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Country] | Das Land, in dem die Aktivität des Verkaufs definiert wird in  **[!DNL Amazon Marketplace]Land** während [Speicherintegration](./store-integration.md). |
-| [!UICONTROL ID] | Generischer Attributwert erstellt von [!DNL Commerce] wenn das Attribut erstellt wird. |
+| [!UICONTROL Country] | Das Land der Verkaufsaktivität, definiert in  **[!DNL Amazon Marketplace]Land** during [Store-Integration](./store-integration.md). |
+| [!UICONTROL ID] | Generischer Attributwert, generiert von [!DNL Commerce] wenn das Attribut erstellt wird. |
 | [!UICONTROL Amazon Attribute Name] | Der Name des aus Amazon importierten Attributs. |
-| [!UICONTROL Product Catalog Attribute Code] | Wenn zugeordnet, wird die [!DNL Commerce] Attribut, das der Zuordnung zu _[!UICONTROL Amazon Attribute Name]_für übereinstimmende Katalog- und Produktauflistungen. |
-| [!UICONTROL Overwrite Magento Values] | Wenn das Attribut auf `Overwrite Existing Magento Values` in den Attributeinstellungen zeigt die Tabelle `Enabled`. &quot;Aktiviert&quot;bedeutet, dass bei Erhalt aktualisierter Produktinformationen für das Attribut von Amazon die neuen Informationen die entsprechenden Informationen für das Produkt in Ihrem [!DNL Commerce] Katalog. Es kann sich auch auf Ihre Produkte auswirken, die in Ihren [!DNL Commerce] Geschäfte. |
-| Status | Gibt an, ob die Attributwerte in importiert wurden [!DNL Commerce] und einem [!DNL Commerce] Attribut. Optionen: `Enabled` / `Disabled` |
-| Aktion | Gibt die für das Attribut verfügbaren Optionen für die Aufgabe an. Optionen: `Create` / `Edit` |
+| [!UICONTROL Product Catalog Attribute Code] | Wenn die Variable [!DNL Commerce] -Attribut, das der Zuordnung zum _[!UICONTROL Amazon Attribute Name]_für übereinstimmende Kataloge und Auflistungsprodukte. |
+| [!UICONTROL Overwrite Magento Values] | Wenn das Attribut auf `Overwrite Existing Magento Values` in den Attributeinstellungen zeigt die Tabelle `Enabled`. Aktiviert bedeutet, dass bei aktualisierten Produktinformationen für das Attribut von Amazon die neuen Informationen die entsprechenden Informationen für das Produkt in Ihrer [!DNL Commerce] Katalog. Sie kann sich auch auf Ihre Produkte auswirken, die in Ihrer [!DNL Commerce] Stores. |
+| Status | Gibt an, ob die Attributwerte in importiert wurden [!DNL Commerce] und einem [!DNL Commerce] -Attribut. Optionen: `Enabled` / `Disabled` |
+| Aktion | Gibt die für das Attribut verfügbaren Aufgabenoptionen an. Optionen: `Create` / `Edit` |

@@ -4,7 +4,7 @@ product: magento
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/commerce-channels.de-DE
+git-repo: https://github.com/AdobeDocs/commerce-channels.de-DE
 role: User
 index: true
 source-git-commit: 40eddad0931e87f917838a5feea60bfc4ef624b7
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Metadaten für die interne Verwendung
 
-Die Datei `metadata.md` enthält Metadaten auf Repo-Ebene, die an die `TOC.md`-Dateien des Benutzerhandbuchs im Repository übergeben werden. Wenn Sie den Inhalt von metadata.md für ein Benutzerhandbuch ändern möchten, tun Sie dies in einer beliebigen `TOC.md`-Datei.
+Die `metadata.md` -Datei enthält Metadaten auf Repo-Ebene, die an das Benutzerhandbuch übergeben werden `TOC.md` -Dateien im Repository. Wenn Sie den Inhalt von metadata.md für ein Benutzerhandbuch ändern möchten, tun Sie dies in einer beliebigen `TOC.md` -Datei.
 
 | Metadaten | Funktion |
 |--- |--- |

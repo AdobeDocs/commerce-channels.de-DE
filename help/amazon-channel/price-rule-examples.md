@@ -1,6 +1,6 @@
 ---
 title: Beispiele für Preisregeln
-description: Um Ihnen bei der Gestaltung Ihrer Preisregeln für Amazon-Auflistungen behilflich zu sein, sollten Sie sich diese Beispiele anhand gängiger Szenarien ansehen.
+description: Um Sie bei der Erstellung Ihrer Preisregeln für Amazon-Auflistungen zu unterstützen, sollten Sie diese Beispiele anhand gängiger Szenarien durchlesen.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,249 +9,249 @@ ht-degree: 2%
 
 ---
 
-# Price rule examples
+# Beispiele für Preisregeln
 
-## Standard price rule examples
+## Beispiele für Standardpreisregeln
 
-### Discard Subsequent Rules
+### Nachfolgende Regeln verwerfen
 
-Die Möglichkeit, nachfolgende Regeln zu verwerfen, ist ein großartiges Merkmal innerhalb der Preisregeln, das verhindert, dass mehrere Preisregeln stapelbar sind und unbeabsichtigte zusätzliche Rabatte bieten. Um nachfolgende Regeln zu verwerfen, muss eine Preisregel die Prioritäten verwenden, die im _[!UICONTROL Priority]_Abschnitt von [Allgemeine Preisregel - Einstellungen](./pricing-rule-general-settings.md).
+Die Möglichkeit, nachfolgende Regeln zu verwerfen, ist eine großartige Funktion innerhalb der Preisregeln, die verhindert, dass mehrere Preisregeln stapeln und unbeabsichtigte zusätzliche Rabatte gewähren. Um nachfolgende Regeln zu verwerfen, muss eine Preisregel die in der Variablen _[!UICONTROL Priority]_Abschnitt [Allgemeine Preisregeleinstellungen](./pricing-rule-general-settings.md).
 
-Falls **[!UICONTROL Discard Subsequent Rules]** ist eingestellt auf `Yes`gelten die Regeln mit einer niedrigeren Priorität (höhere Zahlen) nicht für die förderfähigen Erzeugnisse.
+Wenn **[!UICONTROL Discard Subsequent Rules]** auf `Yes`, gelten die Regeln mit niedrigerer Priorität (höhere Zahlen) nicht für die förderfähigen Produkte.
 
-Nehmen wir zum Beispiel drei Preisregeln:
+Angenommen, es gibt drei Preisregeln:
 
 | Beispiel | Regelname | Priorität | Nachfolgende Regel verwerfen |
 |----------|----|----|----|
-| 1 | 10 % Rabatt auf Produkte | 1 | No |
-| 2 | $2 verkaufte Produkte | 2 | Ja |
+| 1 | 10 % Rabatt auf Verkaufsprodukte | 1 | Nein |
+| 2 | 2 USD an Verkaufsprodukten | 2 | Ja |
 | 3 | 5 % aller Produkte | 3 | Nein |
 
-In diesem Szenario gelten die Regeln #1 und #2 für die förderfähigen Produkte. Regel #3 gilt nur für förderfähige Produkte, die nicht in Regel #2 enthalten sind, da sie eine niedrigere Priorität hat als Beispiel #2 und **[!UICONTROL Discard Subsequent Rules]** ist eingestellt auf `Yes`. Die in der Kategorie aufgeführten Erzeugnisse würden also einen Rabatt von 10 % und zwei US-Dollar vom Amazon-Notierungspreis erhalten.
+In diesem Szenario gelten die Regeln 1 und 2 für die entsprechenden Produkte. Regel 3 gilt nur für infrage kommende Produkte, die nicht in Regel 2 enthalten sind, da sie eine niedrigere Priorität als Beispiel 2 hat und **[!UICONTROL Discard Subsequent Rules]** auf `Yes`. Die in der Verkaufskategorie infrage kommenden Produkte erhalten also einen 10-%-Rabatt und 2-Dollar-Rabatt auf den Amazon-Börsennotierungspreis.
 
-### Anwendung von zwei Standardpreisregeln
+### Anwendung von zwei Preisregeln
 
-| Feld | Einstellung - Regel 1 | Einstellung - Artikel 2 |
+| Feld | Einstellung - Regel 1 | Einstellung - Regel 2 |
 |----------|----|----|
 | [!UICONTROL Rule Name] | Regel 1 | Artikel 2 |
 | [!UICONTROL Priority] | 1 | 2 |
 | [!UICONTROL Rule Type] | Standardpreisregel | Standardpreisregel |
 | [!UICONTROL Price action] | Verringern um | Verringern um |
-| [!UICONTROL Apply] | Als Prozentsatz anwenden | Als festen Betrag anwenden |
+| [!UICONTROL Apply] | Anwenden als Prozentsatz | Anwenden als fester Betrag |
 | [!UICONTROL Adjustment Amount] | 10 | 10 |
 
 #### Produkt 1
 
 Preis: 45,49 $
 
-Artikel 1 findet Anwendung: $ 45.49 x (0.9) = $ 40.94
+Regel 1 gilt: 45,49 $ x (0,9) = 40,94 $
 
-Artikel 2 gilt: 40,94 $ - 10,00 $ = 30,94 $
+Regel 2 gilt: 40,94 $ - 10,00 $ = 30,94 $
 
-Der endgültige Preis nach Artikel 1 und Artikel 2 wird angewandt: 30,94 $
+Der Endpreis nach Regel 1 und Regel 2 wird angewandt: 30,94 $
 
 #### Produkt 2
 
-Preis: 47,76 $
+Preis: $ 47.76
 
-Artikel 1 findet Anwendung: $ 47.76 x (0.9) = $ 42.98
+Regel 1 gilt: 47,76 $ x (0,9) = 42,98 $
 
-Artikel 2 gilt: 42,98 $ - 10,00 $ = 32,98 $
+Regel 2 gilt: 42,98 $ - 10,00 $ = 32,98 $
 
-Der Endpreis nach Regel 1 und Regel 2 wird angewandt: 32,98 $
+Der Endpreis nach Regel 1 und Regel 2 wird angewendet: 32,98 $
 
-## Beispiele für intelligente Preisanpassungsregeln
+## Beispiele für intelligente Neupreisregeln
 
-### Buy Box-Preis mit Floor-Preis-Quelle = Preis
+### Buy Box price mit Floor Price Source = Price
 
 | Feld | Einstellung |
 |----------|----|
 | [!UICONTROL Rule Name] | Regel 1 |
 | [!UICONTROL Priority] | 1 |
-| [!UICONTROL Rule Type] | Intelligente Preisanpassungsregel |
-| [!UICONTROL Competitor Price Source] | &quot;Buy Box&quot;-Preis verwenden |
-| [!UICONTROL Price Action] | Übereinstimmungspreis Konkurrent |
+| [!UICONTROL Rule Type] | Intelligente Neupreisregel |
+| [!UICONTROL Competitor Price Source] | &quot;Buy Box-Preis&quot;verwenden |
+| [!UICONTROL Price Action] | Abgleichen des konkurrierenden Preises |
 | [!UICONTROL Floor Price Source] | Preis |
 | [!UICONTROL Floor Price Action] | Übereinstimmung |
 
 #### Produkt 1
 
-Preis: 15 $
+Preis: 15$
 
-[Buy Box](./buy-box-competitor-pricing.md) Preis aus Amazon: $10
+[Buy Box](./buy-box-competitor-pricing.md) Preis von Amazon: 10$
 
-weil [Buy Box](./buy-box-competitor-pricing.md) Der Preis ist niedriger als der ursprüngliche Preis, das Produkt wird zum ursprünglichen Preis aufgeführt.
+Da die [Buy Box](./buy-box-competitor-pricing.md) Der Preis liegt unter dem ursprünglichen Preis, das Produkt wird zum ursprünglichen Preis angeboten.
 
-Endpreis nach Anwendung der Regel: 15 $
+Der Endpreis nach Anwendung der Regel: 15$
 
 #### Produkt 2
 
-Preis: $5
+Preis: 5$
 
-[Buy Box](./buy-box-competitor-pricing.md) Preis aus Amazon: $10
+[Buy Box](./buy-box-competitor-pricing.md) Preis von Amazon: 10$
 
-weil [Buy Box](./buy-box-competitor-pricing.md) der Preis ist größer als der ursprüngliche Preis, das Produkt wird am [Buy Box](./buy-box-competitor-pricing.md) Preis.
+Da die [Buy Box](./buy-box-competitor-pricing.md) der Preis größer ist als der ursprüngliche Preis, wird das Produkt zum [Buy Box](./buy-box-competitor-pricing.md) Preis.
 
-Endpreis nach Anwendung der Regel: $10
+Der Endpreis nach Anwendung der Regel: 10$
 
-### Buy Box-Preis mit Floor-Preis-Quelle = Preis und 20 % Preisrückgang
+### Buy Box-Preis mit Floor Price Source = Preis und 20% Preisrückgang
 
 | Feld | Einstellung |
 |----------|----|
-| [!UICONTROL Rule Name] | Rule-1 |
+| [!UICONTROL Rule Name] | Regel 1 |
 | [!UICONTROL Priority] | 1 |
-| [!UICONTROL Rule Type] | Intelligent repricing rule |
-| [!UICONTROL Competitor Price Source] | &quot;Buy Box&quot;-Preis verwenden |
-| [!UICONTROL Price Action] | Übereinstimmungspreis Konkurrent |
+| [!UICONTROL Rule Type] | Intelligente Neupreisregel |
+| [!UICONTROL Competitor Price Source] | &quot;Buy Box-Preis&quot;verwenden |
+| [!UICONTROL Price Action] | Abgleichen des konkurrierenden Preises |
 | [!UICONTROL Floor Price Source] | Preis |
 | [!UICONTROL Floor Price Action] | Verringern um |
-| [!UICONTROL Apply] | Als Prozentsatz anwenden |
+| [!UICONTROL Apply] | Anwenden als Prozentsatz |
 | [!UICONTROL Floor Adjustment Amount] | 20 |
 
 #### Produkt 1
 
-Preis: 20 $
+Preis: 20$
 
-Errechneter Floor-Preis: 16 $
+Errechneter Floor-Preis: 16$
 
-[Buy Box](./buy-box-competitor-pricing.md) Preis aus Amazon: 15 $
+[Buy Box](./buy-box-competitor-pricing.md) Preis von Amazon: 15$
 
-weil [Buy Box](./buy-box-competitor-pricing.md) Preis ist kleiner als der berechnete [Floor-Preis](./floor-price.md), ist das Produkt unter der Liste Berechnete [Floor-Preis](./floor-price.md).
+Da die [Buy Box](./buy-box-competitor-pricing.md) Der Preis ist kleiner als der berechnete [Floor Price](./floor-price.md)festgelegt ist, wird das Produkt unter Berechnet aufgeführt. [Floor Price](./floor-price.md).
 
-Endpreis nach Anwendung der Regel: 16 $
+Der Endpreis nach Anwendung der Regel: 16$
 
 #### Produkt 2
 
-Preis: 15 $
+Preis: 15$
 
-Berechnet [Floor-Preis](./floor-price.md): 12 $
+Berechnet [Floor Price](./floor-price.md): 12$
 
-[Buy Box](./buy-box-competitor-pricing.md) Preis aus Amazon: 15 $
+[Buy Box](./buy-box-competitor-pricing.md) Preis von Amazon: 15$
 
-weil [Buy Box](./buy-box-competitor-pricing.md) Preis ist größer als der berechnete [Floor-Preis](./floor-price.md), das Produkt ist unter [Buy Box](./buy-box-competitor-pricing.md) Preis.
+Da die [Buy Box](./buy-box-competitor-pricing.md) Der Preis ist größer als der berechnete [Floor Price](./floor-price.md), wird das Produkt unter [Buy Box](./buy-box-competitor-pricing.md) Preis.
 
-Endpreis nach Anwendung der Regel: 15 $
+Der Endpreis nach Anwendung der Regel: 15$
 
 #### Produkt 3
 
-Preis: 17 $
+Preis: 17$
 
-Errechneter Floor-Preis: 13,60 $
+Errechneter Floor-Preis: 13,60$
 
-[Buy Box](./buy-box-competitor-pricing.md) Preis aus Amazon: 15 $
+[Buy Box](./buy-box-competitor-pricing.md) Preis von Amazon: 15$
 
-weil [Buy Box](./buy-box-competitor-pricing.md) Preis ist größer als der berechnete [Floor-Preis](./floor-price.md), das Produkt ist unter [Buy Box](./buy-box-competitor-pricing.md) Preis.
+Da die [Buy Box](./buy-box-competitor-pricing.md) Der Preis ist größer als der berechnete [Floor Price](./floor-price.md), wird das Produkt unter [Buy Box](./buy-box-competitor-pricing.md) Preis.
 
-Endpreis nach Anwendung der Regel: 15 $
+Der Endpreis nach Anwendung der Regel: 15$
 
-### Niedrigster Preis mit allen Preisen des Konkurrenten und Verwendung aller Produktbedingungen des Konkurrenten
+### Niedrigster Preis mit allen Preisen des Wettbewerbers und Verwendung aller Produktbedingungen des Wettbewerbers
 
 | Feld | Einstellung |
 |----------|-----|
 | [!UICONTROL Rule Name] | Regel 1 |
 | [!UICONTROL Priority] | 1 |
-| [!UICONTROL Rule Type] | Intelligente Preisanpassungsregel |
-| [!UICONTROL Competitor Price Source] | Niedrigster Konkurrent-Preis verwenden |
-| [!UICONTROL Minimum Positive Feedback] | Alle Konkurrent-Preise |
-| [!UICONTROL Conditional Variance] | Alle Produktbedingungen des Konkurrenten verwenden |
-| [!UICONTROL Price Action] | Übereinstimmungspreis Konkurrent |
+| [!UICONTROL Rule Type] | Intelligente Neupreisregel |
+| [!UICONTROL Competitor Price Source] | Niedrigster Preis für Konkurrenten |
+| [!UICONTROL Minimum Positive Feedback] | Alle konkurrierenden Preise |
+| [!UICONTROL Conditional Variance] | Verwenden Sie alle Produktbedingungen des Konkurrenten |
+| [!UICONTROL Price Action] | Abgleichen des konkurrierenden Preises |
 | [!UICONTROL Floor Price Source] | Preis |
 | [!UICONTROL Floor Price Action] | Übereinstimmung |
 
 | Preis | Bedingung |
 |----------|----|
-| 17 $ | Neu |
-| 15 $ | Neu |
-| 14 $ | Verwendet; Sehr gut |
-| 13 $ | Used; Good |
+| 17$ | Neu |
+| 15$ | Neu |
+| 14$ | Verwendet; Sehr gut |
+| 13$ | Verwendet; Gut |
 
 #### Produkt 1
 
-Preis: $10
+Preis: 10$
 
 Bedingung: Neu
 
-Da der niedrigste Konkurrent-Preis für die neue Bedingung 15 US-Dollar beträgt, wird das Produkt bei 15 US-Dollar aufgeführt.
+Da der niedrigste Konkurrenzpreis für die neue Bedingung 15 USD beträgt, wird das Produkt auf 15 USD aufgelistet.
 
-Endpreis nach Anwendung der Regel: 15 $
+Der Endpreis nach Anwendung der Regel: 15$
 
 #### Produkt 2
 
-Preis: $10
+Preis: 10$
 
-Bedingung: Verwendet; Akzeptierbar
+Bedingung: Verwendet; Acceptable
 
-weil [niedrigster Konkurrent](./lowest-competitor-pricing.md) für die Gebrauchsbedingung $13, wird das Produkt auf $13 aufgelistet.
+Da die [niedrigster Wettbewerbspreis](./lowest-competitor-pricing.md) für die verwendete Bedingung 13 USD, wird das Produkt bei 13 USD aufgeführt.
 
-Endpreis nach Anwendung der Regel: 13 $
+Der Endpreis nach Anwendung der Regel: 13$
 
-### Intelligente Preisanpassungsregel, die Höchstpreise, Währungsumrechnungen und Mehrwertsteuer kombiniert
+### Intelligente Neupreisregelung, die Obergrenzen, Währungsumrechnung und Mehrwertsteuer kombiniert
 
-| Feld | Setting |
+| Feld | Einstellung |
 |----------|-----|
-| [!UICONTROL VAT] | 10% |
-| [!UICONTROL Ceiling price source] | $10 |
+| [!UICONTROL VAT] | 10 % |
+| [!UICONTROL Ceiling price source] | 10$ |
 | [!UICONTROL Currency conversion] | 1,25 Euro:1 USD |
 
-[Höchstpreis](./optional-ceiling-price.md) auf dem europäischen Markt (MwSt.): $10 x 1.25 = $12.50
+[Höchstpreis](./optional-ceiling-price.md) auf dem europäischen (MwSt)-Markt: $10 x 1,25 = $12,50
 
-Wann [Höchstpreis](./optional-ceiling-price.md) auf dem europäischen Markt (MwSt.), wird die MwSt. berechnet und addiert.
+Wenn die [Höchstpreis](./optional-ceiling-price.md) auf dem europäischen (MwSt)-Markt erfasst wird, wird die MwSt berechnet und hinzugefügt.
 
-Endpreis nach MwSt.: $12.50 x (1.1) = $13.75
+Endpreis nach MwSt: 12,50 $ x (1,1) = 13,75 $
 
-### Kombination mehrerer Preisregeln, Höchstpreise, Währungsumrechnung und Mehrwertsteuer
+### Kombinieren mehrerer Preisregeln, des Plafonds, der Währungsumrechnung und der Mehrwertsteuer
 
 #### Intelligente Preisregel (aus dem vorherigen Beispiel)
 
 | Feld | Einstellung |
 |----------|----|
 | Priorität | 1 |
-| Mehrwertsteuer | 10% |
-| Höchstpreisquelle | $10 |
+| Mehrwertsteuer | 10 % |
+| Obergrenze der Preisquelle | 10$ |
 | Währungsumrechnung | 1,25 Euro:1 USD |
 
-[Höchstpreis](./optional-ceiling-price.md) auf dem europäischen Markt (MwSt.): $10 x 1.25 = $12.50
+[Höchstpreis](./optional-ceiling-price.md) auf dem europäischen (MwSt)-Markt: $10 x 1,25 = $12,50
 
-Endpreis nach MwSt.: $12.50 x (1.1) = $13.75
+Endpreis nach MwSt: 12,50 $ x (1,1) = 13,75 $
 
-#### Standardpreisregel
+#### Standardmäßige Preisregel
 
 | Feld | Einstellung |
 |----------|-----|
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Erhöhen um |
-| [!UICONTROL Apply] | Als festen Betrag anwenden |
-| [!UICONTROL Adjustment Amount] | 5,00 $ |
+| [!UICONTROL Apply] | Anwenden als fester Betrag |
+| [!UICONTROL Adjustment Amount] | 5,00$ |
 
-Wann [Höchstpreis](./optional-ceiling-price.md) wird getroffen, wird die Standardpreisregel zusätzlich zur intelligenten Preisregel angewendet.
+Wenn die [Höchstpreis](./optional-ceiling-price.md) getroffen wurde, wird die standardmäßige Preisregel zusätzlich zur intelligenten Preisregel angewendet.
 
-Endpreis nach Anwendung der Standardpreisregel: 13,75 $ + 5,00 $ = 18,75 $
+Endpreis nach Anwendung der Standardpreisregel: $13.75 + $5.00 = $18.75
 
 ### Preisanpassung
 
-In diesem Beispiel wird der wettbewerbsfähigste Preis durch den Blick auf die Amazon definiert [Niedrigstpreis des Konkurrenten](./lowest-competitor-pricing.md) mit einer positiven Rückmeldung von 95% und einer Mindestanzahl von 1.000 Handelsbewertungen.
+In diesem Beispiel wird der wettbewerbsfähigste Preis durch einen Blick auf die Amazon definiert [niedrigster Preis des Konkurrenten](./lowest-competitor-pricing.md) mit einem 95% positiven Feedback und einer minimalen Feedback-Anzahl von 1.000 Händlerbewertungen.
 
 ![Beispiel für Preisanpassung](assets/amazon-price-adjustment-example.png)
 
-Nachdem Sie diese Suche anhand dieser Parameter durchgeführt haben, wird der Wettbewerbspreis auf $25 zurückgesetzt.
+Nachdem Sie diese Suche anhand dieser Parameter ausgeführt haben, wird der Wettbewerbspreis wieder auf 25 USD gesetzt.
 
-Von hier aus gibt es drei verschiedene [Preisregel](./pricing-rule-actions.md) Entscheidungen auf der Grundlage dieses niedrigsten Preises.
+Von hier aus gibt es drei verschiedene [Preisregel-Aktion](./pricing-rule-actions.md) Optionen, die auf diesem niedrigsten Preis basieren.
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Price Action] | Optionen:<ul><li>**[!UICONTROL Decrease By]** - Diese Option senkt Ihren Börsennotierungspreis im Verhältnis zu [niedrigster Konkurrent](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Mit dieser Option erhöhen Sie Ihren Börsenpreis im Verhältnis zu [niedrigster Konkurrent](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Mit dieser Option wird der Amazon-Börsennotierungspreis auf der Grundlage der Parameter auf den niedrigsten Preis angepasst. In diesem Beispiel liegt der Börsennotierungspreis Amazon bei 25 Dollar.</li></ul> |
-| [!UICONTROL Apply] | Optionen: Als Prozentsatz anwenden/Festbetrag anwenden |
-| [!UICONTROL Adjustment Amount] | Zahlenwert zur Bestimmung des Prozentsatzes oder des Festbetrags für den anzuwendenden Rabatt. <br>Diese Auswahlen führen dazu, dass der niedrigste Preis gewählt und auf $0,01 reduziert wird. |
+| [!UICONTROL Price Action] | Optionen:<ul><li>**[!UICONTROL Decrease By]** - Diese Option senkt Ihren Listenkurs im Verhältnis zum [niedrigster Wettbewerbspreis](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Mit dieser Option erhöhen Sie Ihren Börsenpreis im Verhältnis zum [niedrigster Wettbewerbspreis](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Mit dieser Option wird Ihr Amazon-Listingpreis so geändert, dass er anhand der Parameter dem niedrigsten Preis entspricht. In diesem Beispiel beträgt der Amazon-Listingpreis 25 USD.</li></ul> |
+| [!UICONTROL Apply] | Optionen: Anwenden als Prozentsatz/Anwenden als festen Betrag |
+| [!UICONTROL Adjustment Amount] | Numerischer Wert : Angabe des Prozentsatzes oder Festbetrags für den anzuwendenden Rabatt. <br>Diese Auswahl führt dazu, dass der niedrigste Preis angenommen und auf 0,01 USD weniger gesetzt wird. |
 
 ### Floor-Preis
 
-| Feld | Setting |
+| Feld | Einstellung |
 |----------|----|
-| [!UICONTROL Floor Price Source] | Cost = $5 |
+| [!UICONTROL Floor Price Source] | Kosten = 5 USD |
 | [!UICONTROL Floor Price Action] | Erhöhen um |
-| [!UICONTROL Apply] | Als Prozentsatz anwenden |
+| [!UICONTROL Apply] | Anwenden als Prozentsatz |
 | [!UICONTROL Floor Adjustment Amount] | 5 |
 
-[Floor-Preis](./floor-price.md) Berechnung = Floor Price Source `$5` x Floor Adjustment Betrag `5%` = 5,25 $
+[Floor-Preis](./floor-price.md) calculate = Floor Price Source `$5` x Floor Adjustment Amount `5%` = 5,25 USD
 
-Wenn die intelligente Preisregel angewendet wird, kann der Börsennotierungspreis für dieses Produkt unter 5,25 US-Dollar liegen, wenn die Kosten 5 US-Dollar betragen.
+Wenn die intelligente Preisregel angewendet wird, ist es möglich, dass der Listenpreis für dieses bestimmte Produkt unter 5,25 USD liegt, wenn die Kosten 5 USD betragen.

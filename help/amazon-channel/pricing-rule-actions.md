@@ -1,6 +1,6 @@
 ---
-title: Preisregelaktionen
-description: Verwenden Sie die Preisregelaktionen, um die auf die Preisquelle angewandten Anpassungsberechnungen zur Bestimmung des Börsenkurses in der Amazon zu definieren.
+title: Aktionen für Preisregeln
+description: Verwenden Sie die Preisregelaktionen, um die auf die Preisquelle angewendeten Anpassungsberechnungen zur Bestimmung des Amazon-Börsennotierungspreises zu definieren.
 redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -10,27 +10,27 @@ ht-degree: 0%
 
 ---
 
-# Preisregel-Maßnahmen
+# Aktionen für Preisregeln
 
-Die Preisregelaktionen definieren die auf die Kursquelle angewandten Anpassungsberechnungen zur Bestimmung des Börsenkurses.
+Preisregelaktionen definieren die Anpassungsberechnungen, die auf die Preisquelle angewendet werden, um den Börsennotierungspreis zu bestimmen.
 
 ## Standardpreisregel
 
-A [Standardpreisregel](./standard-price-rules.md) ermöglicht es Ihnen, einen Amazon-Notierungspreis um einen bestimmten Prozentsatz oder festen Dollarbetrag im Verhältnis zum [!DNL Commerce] Katalogpreis (oder Preisquelle).
+A [Standardpreisregel](./standard-price-rules.md) ermöglicht es Ihnen, einen Amazon-Listenpreis um einen bestimmten Prozentsatz oder festen Dollarbetrag im Verhältnis zum [!DNL Commerce] Katalogpreis (oder Preisquelle).
 
 | Abschnitt | Beschreibung |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | Regeltyp festlegen auf `Standard price rule`. |
-| [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | Definieren Sie die zur Bestimmung des Börsenkurses auf die Kursquelle angewandten Anpassungsberechnungen |
+| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | Legen Sie den Regeltyp auf `Standard price rule`. |
+| [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | Definieren Sie die auf die Preisquelle angewendeten Anpassungsberechnungen zur Bestimmung des Börsenkurses. |
 
-## Intelligente Preisanpassungsregel
+## Intelligente Neupreisregel
 
-An [Intelligente Preisbildungsregel](./intelligent-repricing-rules.md) verwendet die Preise von Amazon Konkurrenten, um den Listingpreis zu bestimmen. Konkurrent sind andere Verkäufer, die dieselben Produkte auflisten, die Sie auf Amazon auflisten.
+Ein [Intelligente Neupreisregel](./intelligent-repricing-rules.md) verwendet die Preise von Amazon-Konkurrenten, um Ihren Listenpreis zu ermitteln. Wettbewerber sind andere Verkäufer, die dieselben Produkte auflisten, die Sie in Amazon auflisten.
 
 | Abschnitt | Beschreibung |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Regeltyp festlegen auf `Intelligent repricing rule` zusammen mit Ihren Konkurrent-Preisquellen- und Feedback-Anforderungen. |
-| [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definieren Sie Varianten für die Bedingungen eines von Konkurrenten verkauften Produkts. |
-| [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Definieren Sie die zur Bestimmung des Börsenkurses auf die Kursquelle angewandten Anpassungsberechnungen |
-| [[!UICONTROL Floor Price]](./floor-price.md) | Definieren Sie den niedrigsten Preis für ein Produkt, um zu verhindern, dass durch mehrere Preisregeln ein Listenpreis zu niedrig festgelegt wird. |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Legen Sie den Regeltyp auf `Intelligent repricing rule` zusammen mit Ihren Anforderungen an Konkurrentenpreise und Feedback. |
+| [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definieren Sie Abweichungen für Bedingungen des gleichen Produkts, das von Wettbewerbern verkauft wird. |
+| [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Definieren Sie die auf die Preisquelle angewendeten Anpassungsberechnungen zur Bestimmung des Börsenkurses. |
+| [[!UICONTROL Floor Price]](./floor-price.md) | Definieren Sie den niedrigsten Preis für ein Produkt, um zu verhindern, dass durch mehrere Preisregeln ein Listentarif zu niedrig festgelegt wird. |
 | [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md) | Definieren Sie Ihren höchsten Preis für ein Produkt, um sicherzustellen, dass Ihre Preise wettbewerbsfähig bleiben. |

@@ -1,6 +1,6 @@
 ---
-title: Ansicht Amazon Bestellungen
-description: Ansicht Ihrer Amazon Marketplace-Bestellungen im Adobe Commerce oder Magento Open Source Admin.
+title: Anzeigen von Amazon-Bestellungen
+description: Zeigen Sie Ihre Amazon Marketplace-Bestellungen in der Adobe Commerce- oder Magento Open Source-Administration an.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,44 +9,44 @@ ht-degree: 0%
 
 ---
 
-# Ansicht Amazon-Aufträge
+# Anzeigen von Amazon-Bestellungen
 
-Es gibt zwei Möglichkeiten, Ihre Amazon-Bestellungen Ansicht: _[!UICONTROL Recent Orders]_und_[!UICONTROL All Orders]_.
+Es gibt zwei Möglichkeiten, Ihre Amazon-Bestellungen anzuzeigen: _[!UICONTROL Recent Orders]_und_[!UICONTROL All Orders]_.
 
-Beide Optionen zeigen Ihnen grundlegende Bestellinformationen, wie sie von Amazon erhalten wurden, darunter:
+Beide Optionen zeigen Ihnen grundlegende Bestellinformationen, die von Amazon empfangen werden, darunter:
 
 - Kaufdatum
-- Auftragsnummer
+- Bestellnummer
 - Status
 - Name des Käufers
-- Gesamt
-- Auftragsnotizen
+- Gesamtsumme
+- Bestellhinweise
 
-_[!UICONTROL All Orders]_Ansicht fügt Filteroptionen für Auftragssuchvorgänge hinzu.
+_[!UICONTROL All Orders]_-Ansicht fügt Filteroptionen für Auftragssuchvorgänge hinzu.
 
 >[!NOTE]
 >
->Ausgenommen sind _[!UICONTROL Order Notes]_-Spalte_[!UICONTROL Amazon orders]_ -Tabelle mit Bestellinformationen aus Amazon ausgefüllt. Die _Auftragsnotizen_ Spalte wird aktualisiert von [!DNL Commerce] als Auftragsabwicklung.
+>Außer für _[!UICONTROL Order Notes]_-Spalte_[!UICONTROL Amazon orders]_ -Tabelle mit den von Amazon empfangenen Bestellinformationen gefüllt. Die _Bestellhinweise_ Spalte wird aktualisiert von [!DNL Commerce] als die Reihenfolge verarbeitet.
 
 ## Letzte Bestellungen
 
-Sie können Ihre neuesten Bestellungen in der Ansicht _[!UICONTROL Recent Orders]_Abschnitt [Dashboard speichern](./amazon-store-dashboard.md).
+Sie können Ihre neuesten Bestellungen im _[!UICONTROL Recent Orders]_Abschnitt [Store-Dashboard](./amazon-store-dashboard.md).
 
 ![Letzte Bestellungen](assets/amazon-recent-orders-imported.png)
 
-### Ansicht jüngster Amazon-Aufträge
+### Aktuelle Amazon-Bestellungen anzeigen
 
-1. Klick **[!UICONTROL View Store]** auf einer Ladenkarte.
+1. Klicken **[!UICONTROL View Store]** auf einer Speicherkarte.
 
-1. Ansicht Ihrer Bestellungen im _[!UICONTROL Recent Orders]_Abschnitt.
+1. Zeigen Sie Ihre Bestellungen im _[!UICONTROL Recent Orders]_Abschnitt.
 
-1. Klicken Sie zur Ansicht der Auftragsdetails auf die Amazon-Bestellnummer im _[!UICONTROL Order Number]_Spalte.
+1. Um Bestelldetails anzuzeigen, klicken Sie auf die Amazon-Bestellnummer im _[!UICONTROL Order Number]_Spalte.
 
-   Die _[!UICONTROL Amazon Order Details]_-Seite für die Auftragsöffnung.
+   Die _[!UICONTROL Amazon Order Details]_-Seite für die Reihenfolge geöffnet.
 
-## Ansicht aller Bestellungen
+## Alle Bestellungen anzeigen
 
-Sie können alle Ihre Amazon-Bestellungen auf der Ansicht _[!UICONTROL Amazon orders]_Seite (auch als_[!UICONTROL All Orders]_ Ansicht). Die Amazon-Bestelltabelle ist ähnlich wie die _[!UICONTROL Recent Orders]_im Store-Dashboard, ermöglicht Ihnen jedoch die Ansicht aller Ihrer Amazon-Bestellungen und die Eingrenzung Ihrer Bestellungen-Liste mit den folgenden Filteroptionen:
+Sie können alle Ihre Amazon-Bestellungen im _[!UICONTROL Amazon orders]_Seite (auch als_[!UICONTROL All Orders]_ Ansicht). Die Amazon-Bestelltabelle ähnelt der _[!UICONTROL Recent Orders]_-Bereich des Store-Dashboards, ermöglicht Ihnen jedoch, alle Ihre Amazon-Bestellungen anzuzeigen und Ihre Bestellliste mit den folgenden Filteroptionen einzuschränken:
 
 - [!UICONTROL Purchase Date (range)]
 - [!UICONTROL Order Number]
@@ -54,52 +54,52 @@ Sie können alle Ihre Amazon-Bestellungen auf der Ansicht _[!UICONTROL Amazon or
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon-Aufträge](assets/amazon-orders-list-all.png)
+![Amazon-Bestellungen](assets/amazon-orders-list-all.png)
 
-### Ansicht aller Amazon-Bestellungen
+### Alle Amazon-Bestellungen anzeigen
 
-1. Klick **[!UICONTROL View Store]** auf einer Ladenkarte.
+1. Klicken **[!UICONTROL View Store]** auf einer Speicherkarte.
 
-1. Klick **[!UICONTROL All Orders]** in _[!UICONTROL Recent Orders]_Abschnitt.
+1. Klicken **[!UICONTROL All Orders]** im _[!UICONTROL Recent Orders]_Abschnitt.
 
-1. Um die Liste einzuschränken oder nach einer bestimmten Bestellnummer zu suchen, füllen Sie **[!UICONTROL Filter by]** Parameter und klicken **[!UICONTROL Apply filters]**.
+1. Um die Liste einzuschränken oder nach einer bestimmten Bestellnummer zu suchen, müssen Sie die **[!UICONTROL Filter by]** Parameter und klicken Sie auf **[!UICONTROL Apply filters]**.
 
-1. Klicken Sie zur Ansicht der Auftragsdetails auf die Amazon-Bestellnummer im _[!UICONTROL Order Number]_Spalte.
+1. Um Bestelldetails anzuzeigen, klicken Sie auf die Amazon-Bestellnummer im _[!UICONTROL Order Number]_Spalte.
 
-   Die _[!UICONTROL Amazon Order Details]_-Seite für die Auftragsöffnung.
+   Die _[!UICONTROL Amazon Order Details]_-Seite für die Reihenfolge geöffnet.
 
 ## Filter verwenden
 
-Sie können Filter auf Ihre Bestellungs-Liste anwenden in _[!UICONTROL Filter by]_Abschnitt. Wählen Sie aus und klicken Sie auf **[!UICONTROL Apply filters]**. Die angewendeten Filter werden über dem Auftragsraster angezeigt.
+Sie können Filter auf Ihre Bestellliste im _[!UICONTROL Filter by]_Abschnitt. Auswählen und klicken Sie auf **[!UICONTROL Apply filters]**. Die angewendeten Filter werden oberhalb des Sortierungsrasters angezeigt.
 
 ![Filter zum Anzeigen von Amazon-Bestellungen](assets/amazon-orders-filter-view.png)
 
-### Angewendete Filter ändern
+### Ändern angewendeter Filter
 
-- Sie können Filter hinzufügen oder ändern in _[!UICONTROL Filter by]_Abschnitt. Klick **[!UICONTROL Apply filters]**um die Liste der Bestellung und die Filteroptionen zu aktualisieren, die über dem Auftragsraster angezeigt werden.
+- Sie können Filter in der _[!UICONTROL Filter by]_Abschnitt. Klicken **[!UICONTROL Apply filters]**um die Bestellliste und die Filteroptionen zu aktualisieren, die über dem Bestellraster angezeigt werden.
 
-- Sie können Filter nacheinander entfernen, indem Sie auf `x` für den Filter oder alle gleichzeitig durch Klicken auf **[!UICONTROL Clear all filters]**. Durch das Entfernen eines Filters werden die Liste der Reihenfolge und die Filteroptionen aktualisiert, die über dem Auftragsraster angezeigt werden.
+- Sie können Filter einzeln entfernen, indem Sie auf die `x` für den Filter oder alle auf einmal durch Klicken auf **[!UICONTROL Clear all filters]**. Wenn Sie einen Filter entfernen, werden die Liste der Bestellungen und die Filteroptionen, die über dem Bestellungsraster angezeigt werden, aktualisiert.
 
-- Wenn die Liste Ihrer Bestellung lang ist, können Sie die Seitenumbruch-Steuerelemente unterhalb des Gitters verwenden, um weitere Bestellungen Ansicht.
+- Wenn Ihre Bestellliste lang ist, können Sie die Paginierungssteuerelemente unterhalb des Rasters verwenden, um weitere Bestellungen anzuzeigen.
 
 >[!TIP]
 >
 >Einige Tipps zur Ansicht der Bestellungen:
 >
->- Wenn Sie mehrere Amazon Store-Integrationen haben, kann ein Aktualisieren der Ansicht Ihrer Seite beim Wechsel zwischen Store-Ansichten erforderlich sein, um sowohl die Liste der Bestellungen als auch die Ansichten für die Seitenumbrüche des aktuellen Store zu aktualisieren.
->- Bei der Sortierung nach Spalte gilt die Sortierung nur für die Ansicht der aktuellen Liste. Es empfiehlt sich, die Liste zu filtern und dann die angezeigte Seite zu sortieren.
->- Abhängig von der Breite des Fensters Ihrer Ansicht können sich überschneidende Textfelder in den Spalten anzeigen. Um die Spalten für den Zeilenumbruch zu erweitern, erweitern Sie die Ansicht des Fensters.
->- Beim Filtern nach _[!UICONTROL Total]_, nach ganzen Zahlen filtern. Die Eingabe eines Dezimalbetrags kann zu Fehlern in den Ergebnissen führen.
+>- Wenn Sie über mehrere Amazon Store-Integrationen verfügen, kann eine Aktualisierung Ihrer Seitenansicht beim Wechsel zwischen Store-Ansichten erforderlich sein, um sowohl die Bestellliste als auch die Paginierungsansichten für den aktuellen Store zu aktualisieren.
+>- Bei der Sortierung nach Spalte gilt die Sortierung nur für die aktuelle Listenansicht. Es empfiehlt sich, die Liste zu filtern und anschließend die Seite zu sortieren, die Sie anzeigen.
+>- Abhängig von der Breite des Ansichtsfensters können Sie in den Spalten überlappenden Text sehen. Um die Spalten für den Text zu erweitern, erweitern Sie die Fensteransicht.
+>- Beim Filtern nach _[!UICONTROL Total]_, nach Ganzzahlen filtern. Die Eingabe eines Dezimalbetrags kann zu Fehlern in den Ergebnissen führen.
 
 
 ### Standardspalten
 
 | Spalte | Beschreibung |
 |---|---|
-| [!UICONTROL Filter by] | Nur verfügbar im _[!UICONTROL All Orders]_Ansicht.<br>Schränken Sie die Liste von Aufträgen auf folgender Grundlage ein:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
-| [!UICONTROL Purchase Date] | Datum des Kaufs, wie von Amazon empfangen. |
-| [!UICONTROL Order Number] | Die von und von Amazon generierte Bestellnummer. Klicken Sie auf den Link, um den Bildschirm &quot;Amazon-Auftragsdetails&quot;Ansicht. |
-| [!UICONTROL Status] | Status der bei Amazon eingegangenen Bestellung. Optionen: `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
-| [!UICONTROL Buyer's Name] | Der Name der Person, die die Bestellung aufgegeben hat, wie er von Amazon erhalten wurde. |
-| [!UICONTROL Grand Total] | Der Gesamtwährungswert der Bestellung, wie er von Amazon erhalten wurde. |
-| [!UICONTROL Order Notes] | Zuletzt aufgezeichnete Aktion für die Bestellung, während sie verarbeitet in [!DNL Commerce]. Die Informationen umfassen u. a., sind aber nicht beschränkt auf Bestellfehler und Bestellverarbeitungs-Updates.<br>**Hinweis**: Dieses Feld wird aktualisiert von [!DNL Commerce] als Auftragsabwicklung. |
+| [!UICONTROL Filter by] | Nur im _[!UICONTROL All Orders]_anzeigen.<br>Schränken Sie die Liste der Bestellungen auf Grundlage folgender Elemente ein:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
+| [!UICONTROL Purchase Date] | Das Datum des Kaufs, wie es von Amazon empfangen wurde. |
+| [!UICONTROL Order Number] | Die von Amazon generierte und von ihm empfangene Bestellnummer. Um den Bildschirm &quot;Amazon-Bestelldetails&quot;anzuzeigen, klicken Sie auf den Link. |
+| [!UICONTROL Status] | Der Status der Bestellung, wie er von Amazon empfangen wurde. Optionen: `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
+| [!UICONTROL Buyer's Name] | Der Name der Person, die die Bestellung aufgegeben hat, wie er von Amazon empfangen wurde. |
+| [!UICONTROL Grand Total] | Der Gesamtwährungswert der Bestellung, wie er von Amazon empfangen wurde. |
+| [!UICONTROL Order Notes] | Die letzte Aktion, die für die Bestellung aufgezeichnet wurde, während sie in [!DNL Commerce]. Die Informationen umfassen u. a. Bestellimportfehler und Bestellaktualisierungen.<br>**Hinweis**: Dieses Feld wird von [!DNL Commerce] als die Reihenfolge verarbeitet. |
