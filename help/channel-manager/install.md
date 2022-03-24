@@ -1,13 +1,13 @@
 ---
 title: Installieren [!DNL Channel Manager]
 description: Installieren Sie die Channel Manager-Erweiterung.
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Installieren des Kanal-Managers
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Mindeststabilitätseinstellung aktualisieren
 
-Vor der Installation der Erweiterung müssen Sie die `minimum-stability` Anforderungen in `composer.json` -Datei, damit Sie frühe Versionen von Channel Manager mithilfe von Composer installieren können.
+Aktualisieren Sie vor der Installation der Erweiterung die `minimum-stability` Anforderungen in `composer.json` -Datei, damit Sie frühe Versionen von Channel Manager mithilfe von Composer installieren können.
 
 Um die Konfiguration zu aktualisieren, fügen Sie die folgenden Zeilen zum `composer.json` -Datei.
 
@@ -28,7 +28,7 @@ Um die Konfiguration zu aktualisieren, fügen Sie die folgenden Zeilen zum `comp
 
 ## Installieren der Erweiterung
 
-Die Installationsanweisungen hängen davon ab, ob Sie den Kanal-Manager auf einer lokalen oder Cloud Commerce-Instanz installieren:
+Die Installationsanweisungen für den Kanalmanager hängen davon ab, ob Adobe Commerce oder Magento Open Source lokal oder in der Cloud-Infrastruktur bereitgestellt wird.
 
 - Installieren auf einem [Vor-Ort-Instanz](#install-on-an-on-premises-instance).
 
@@ -126,12 +126,13 @@ Arbeiten Sie in einer Entwicklungsverzweigung, wenn Sie Ihrer Cloud-Instanz eine
 
 Hilfe zur Verwendung von Verzweigungen finden Sie unter [Erste Schritte mit der Erstellung von Zweigen](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} in der Adobe Commerce-Entwicklerdokumentation.
 
-Bei der Installation einer Erweiterung wird der Erweiterungsname (&lt;vendorname>\_&lt;componentname>) wird automatisch in die [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html)Datei {target=&quot;_blank&quot;}. Sie müssen die Datei nicht direkt bearbeiten.
+Während der Installation wird der Erweiterungsname (`&lt;VendorName>\_&lt;ComponentName>`) wird automatisch in die [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html)Datei {target=&quot;_blank&quot;}. Sie müssen die Datei nicht direkt bearbeiten.
 
 1. Wechseln Sie auf Ihrer lokalen Workstation zum Stammordner des Cloud-Projekts.
 
-1. Erstellen oder checken Sie einen Entwicklungszweig aus. Siehe [Verzweigung](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
-1. Fügen Sie mithilfe des Composer-Namens die Erweiterung zum `require` -Abschnitt der Datei &quot;composer.json&quot;aus.
+1. Erstellen oder Auschecken einer Entwicklung [Verzweigung](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+
+1. Fügen Sie mithilfe des Composer-Namens die Erweiterung zum `require` Abschnitt `composer.json` -Datei.
 
    ```bash
    $ composer require magento/channel-manager --no-update
@@ -148,7 +149,7 @@ Bei der Installation einer Erweiterung wird der Erweiterungsname (&lt;vendorname
    ```
 
    ```bash
-   $ git push origin &lt;branch-name>
+   $ git push origin <branch-name>
    ```
 
 1. Nachdem der Build und die Bereitstellung abgeschlossen sind, melden Sie sich mit SSH bei der Remote-Umgebung an und überprüfen Sie, ob die Erweiterung ordnungsgemäß installiert wurde.
@@ -197,7 +198,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. Überprüfen Sie, ob die Anmeldedaten in auth.json übereinstimmen.[ die Schlüssel, die mit der MAGE ID verknüpft sind](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}, das zur Registrierung für den Kanal-Manager-Dienst verwendet wird.
+1. Überprüfen Sie, ob die Anmeldedaten in auth.json übereinstimmen. [die Schlüssel, die mit der MAGE ID verknüpft sind](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}, das zur Registrierung für den Kanal-Manager-Dienst verwendet wird.
 
 ### Unzureichender Speicher für PHP
 
@@ -223,6 +224,14 @@ Verwenden Sie eine der folgenden Methoden, um das Speicherproblem zu beheben:
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
+### Fehlende Ansicht
+
+Wenn Sie eine Fehlermeldung über eine fehlende `process_catalog_exporter_view` während der Installation des Kanal-Managers versuchen Sie es [Indexer aktualisieren](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+
+```bash
+php bin/magento indexer:refresh
+```
+
 ### Cloud-Bereitstellungsfehler
 
-Probleme bei der Bereitstellung der Erweiterung in der Cloud finden Sie unter[Fehler bei der Erweiterungsbereitstellung](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+Probleme bei der Bereitstellung der Erweiterung in der Cloud finden Sie unter [Fehler bei der Erweiterungsbereitstellung](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
