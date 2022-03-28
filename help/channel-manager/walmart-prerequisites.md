@@ -1,13 +1,13 @@
 ---
 title: Walmart-Voraussetzungen
 description: Stellen Sie sicher, dass Sie über die erforderlichen Informationen und Ressourcen für den Walmart Marketplace verfügen, um sie in den Kanal-Manager zu integrieren.
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
+source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Walmart-Voraussetzungen
 
@@ -34,8 +34,21 @@ Der Kanal-Manager benötigt die folgenden Ressourcen und Informationen, um einen
 
    * Legen Sie die Berechtigungen wie in der folgenden Tabelle gezeigt fest. Weitere Informationen finden Sie unter [API-Anmeldeinformationen](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) im _Walmart Marketplace Seller-Hilfe_.
 
-|    **Adobe API-Schlüsselkonfiguration für Walmart**
-| **Berechtigung** | **Einstellung** | |—|—| | Inhalt | Vollständiger Zugriff | | Feeds abrufen | Nur Ansicht | | Bestand | Vollständiger Zugriff | | Artikel | Vollständiger Zugriff | | Launch Time | Vollständiger Zugriff | | Bestellung | Vollständiger Zugriff | | Preis | Vollständiger Zugriff | | Berichte | Nur Ansicht | | Rückgabe | Vollständiger Zugriff | | Regeln | Vollständiger Zugriff | | Versand | Vollständiger Zugriff |
+   **Adobe API-Schlüsselkonfiguration für Walmart**
+
+   | **Berechtigung** | **Einstellung** |
+   |----------------|-------------|
+   | Inhalt | Vollständiger Zugriff |
+   | Feeds abrufen | Nur anzeigen |
+   | Bestand | Vollständiger Zugriff |
+   | Elemente | Vollständiger Zugriff |
+   | Startzeit | Vollständiger Zugriff |
+   | Bestellung | Vollständiger Zugriff |
+   | Preis | Vollständiger Zugriff |
+   | Berichte | Nur anzeigen |
+   | Rückgabe | Vollständiger Zugriff |
+   | Regeln | Vollständiger Zugriff |
+   | Versand | Vollständiger Zugriff |
 
 ## Walmart Marketplace Store-Status
 
