@@ -75,8 +75,8 @@ Sie benötigen die folgenden Informationen von Walmart, um Commerce in den Walma
 
    * Legen Sie die Berechtigungen wie in der folgenden Tabelle gezeigt fest. Weitere Informationen finden Sie unter [API-Anmeldeinformationen](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) im *Walmart Marketplace Seller-Hilfe*.
 
-|    **Adobe API-Schlüsselkonfiguration für Walmart**
-| **Berechtigung** | **Einstellung** | |—|—| | Inhalt | Vollständiger Zugriff | | Feeds abrufen | Nur Ansicht | | Bestand | Vollständiger Zugriff | | Artikel | Vollständiger Zugriff | | Launch Time | Vollständiger Zugriff | | Bestellung | Vollständiger Zugriff | | Preis | Vollständiger Zugriff | | Berichte | Nur Ansicht | | Rückgabe | Vollständiger Zugriff | | Regeln | Vollständiger Zugriff | | Versand | Vollständiger Zugriff |
+&#x200B;|    **Adobe API-Schlüsselkonfiguration für Walmart**
+&#x200B;| **Berechtigung** | **Einstellung** | |—|—| | Inhalt | Vollständiger Zugriff | | Feeds abrufen | Nur Ansicht | | Bestand | Vollständiger Zugriff | | Artikel | Vollständiger Zugriff | | Launch Time | Vollständiger Zugriff | | Bestellung | Vollständiger Zugriff | | Preis | Vollständiger Zugriff | | Berichte | Nur Ansicht | | Rückgabe | Vollständiger Zugriff | | Regeln | Vollständiger Zugriff | | Versand | Vollständiger Zugriff |
 
 ## Walmart Marketplace Store-Status
 
