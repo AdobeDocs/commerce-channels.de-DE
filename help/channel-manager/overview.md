@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie installieren und verwenden [!DNL Channel Mana
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 7412a3d5b78e206521a048fb56edacd8f11ddb58
+source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,21 @@ Sie benötigen die folgenden Informationen von Walmart, um Commerce in den Walma
 
    * Legen Sie die Berechtigungen wie in der folgenden Tabelle gezeigt fest. Weitere Informationen finden Sie unter [API-Anmeldeinformationen](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) im *Walmart Marketplace Seller-Hilfe*.
 
-&#x200B;|    **Adobe API-Schlüsselkonfiguration für Walmart**
-&#x200B;| **Berechtigung** | **Einstellung** | |—|—| | Inhalt | Vollständiger Zugriff | | Feeds abrufen | Nur Ansicht | | Bestand | Vollständiger Zugriff | | Artikel | Vollständiger Zugriff | | Launch Time | Vollständiger Zugriff | | Bestellung | Vollständiger Zugriff | | Preis | Vollständiger Zugriff | | Berichte | Nur Ansicht | | Rückgabe | Vollständiger Zugriff | | Regeln | Vollständiger Zugriff | | Versand | Vollständiger Zugriff |
+   **Adobe API-Schlüsselkonfiguration für Walmart**
+
+   | **Berechtigung** | **Einstellung** |
+   |----------------|-------------|
+   | Inhalt | Vollständiger Zugriff |
+   | Feeds abrufen | Nur anzeigen |
+   | Bestand | Vollständiger Zugriff |
+   | Elemente | Vollständiger Zugriff |
+   | Startzeit | Vollständiger Zugriff |
+   | Bestellung | Vollständiger Zugriff |
+   | Preis | Vollständiger Zugriff |
+   | Berichte | Nur anzeigen |
+   | Rückgabe | Vollständiger Zugriff |
+   | Regeln | Vollständiger Zugriff |
+   | Versand | Vollständiger Zugriff |
 
 ## Walmart Marketplace Store-Status
 
