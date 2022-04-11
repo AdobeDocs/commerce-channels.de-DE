@@ -1,32 +1,34 @@
 ---
-title: '"[!DNL Channel Manager] Guide overview"'
+title: '''[!DNL Channel Manager] Guide overview'''
 description: Umfassende Informationen zu [!DNL Channel Manager] für Adobe Commerce- und Magento Open Source-Administratoren, einschließlich Installation und Onboarding
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# [!DNL Channel Manager] Guide Overview
+
+# Übersicht
 
 >[!IMPORTANT]
 >
-> Diese Funktion ist nur für Beta-Benutzer verfügbar und steht noch nicht allen Kunden zur Verfügung. Derzeit auf US-Kunden beschränkt. Wenden Sie sich für Hilfe und Fragen an Ihren Adobe Commerce Beta-Programmmanager.
+> Diese Funktion ist nur für Beta-Benutzer verfügbar und steht noch nicht allen Kunden zur Verfügung. Derzeit auf US-Kunden beschränkt. Wenden Sie sich für Unterstützung und Fragen an Ihren Adobe Commerce Beta-Programmmanager.
 
 Dieses Handbuch richtet sich an Administratoren von Adobe Commerce und Magento Open Source. Es enthält detaillierte Informationen zu [!DNL Channel Manager] Installation, Onboarding, Konfiguration und Verwaltung. Das Handbuch setzt grundlegende Kenntnisse der Commerce-Konfiguration und -Funktionalität voraus.
 
 [!DNL Channel Manager] verfügt über zwei Bereiche für Administratoren:
 
-* **Der Administrator**- Verwenden Sie diesen Bereich, um auf die Konfigurationsoberfläche, den Produktkatalog und die Bestellung zuzugreifen.
+* **Der Administrator**- In diesem Bereich können Sie auf die Konfigurationsoptionen, den Produktkatalog und die Auftragsverwaltung zugreifen.
 * **Die Befehlszeilenschnittstelle**- Verwenden Sie dieses Tool, um Installations- und Backend-Konfigurationsaufgaben auszuführen.
 
 Dieses Handbuch behandelt:
 
 * Alle [!DNL Channel Manager]-spezifische Aufgaben, die vom Commerce Admin ausgeführt werden.
-* Alle [!DNL Channel Manager]-spezifische Aufgaben, die über die Befehlszeile ausgeführt werden.
+* Alle [!DNL Channel Manager]-spezifische Aufgaben, die über die Befehlszeile abgeschlossen werden.
 
 Weitere Informationen zur Verwaltung Ihrer [!DNL Commerce] Informationen zu Plattformen, Projekten und Websites finden Sie in den Handbüchern für Benutzer und Entwickler von Adobe Commerce und Magento Open Source .
 
@@ -42,4 +44,4 @@ Weitere Informationen zur Verwaltung Ihrer [!DNL Commerce] Informationen zu Plat
 Erhalten Sie zusätzliche Informationen und Hilfe zu Adobe Commerce und Magento Open Source aus den folgenden Ressourcen:
 
 * [Hilfezentrum](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;} - Siehe [!DNL Amazon Sales Channel]-zugehörige Artikel zur Fehlerbehebung.
-* [Support-Tickets](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;}: Senden Sie ein Ticket, um zusätzliche Hilfe zu erhalten.
+* [Support-Tickets](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;}-Senden Sie ein Ticket, um zusätzliche Hilfe zu erhalten.

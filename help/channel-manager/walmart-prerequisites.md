@@ -2,9 +2,9 @@
 title: Walmart-Voraussetzungen
 description: Stellen Sie sicher, dass Sie über die erforderlichen Informationen und Ressourcen für den Walmart Marketplace verfügen, um sie in den Kanal-Manager zu integrieren.
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ Der Kanal-Manager benötigt die folgenden Ressourcen und Informationen, um einen
 
 ## Einrichten eines Marketplace-Verkäuferkontos
 
-1. [Senden Sie Ihre Walmart Seller-Anwendung](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [Senden Sie Ihre Walmart Seller-Anwendung](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. nach Genehmigung durch Walmart, [Einrichten Ihres Walmart Seller-Kontos](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Erstellen eines Walmart Marketplace-API-Schlüssels
+## Erstellen eines Walmart Marketplace-Produktions-API-Schlüssels
 
 1. Gehen Sie zu Walmart Marketplace , um eine [API-Schlüssel für die Produktion von Lösungsanbietern für die Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 

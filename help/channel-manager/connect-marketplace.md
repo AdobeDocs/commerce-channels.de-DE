@@ -1,28 +1,28 @@
 ---
-title: Sales Channel verbinden mit [!DNL Walmart Marketplace]
+title: Verkaufskanal verbinden mit [!DNL Walmart Marketplace]
 description: Konfigurieren Sie den Vertriebskanal und verbinden Sie sich mit dem Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 
-# Verbinden mit [!DNL Walmart Marketplace]
+# Verkaufskanal verbinden mit [!DNL Walmart Marketplace]
 
 Nach der Installation von Channel Manager auf Ihrer [!DNL Commerce] z. B. einen Commerce-Store mit dem Walmart Marketplace verbinden.
 
-1. Erstellen Sie den Vertriebskanal nach [Auswählen des Commerce-Stores für Produktlisten](#select-the-commerce-store-for-the-sales-channel).
+1. [Erstellen des Vertriebskanals](#create-the-sales-channel) durch Auswahl des Commerce-Stores für Produktlisten.
 
 1. [Verbinden Sie den Kanal mit [!DNL Walmart Marketplace] durch Hinzufügen von Walmart API-Anmeldeinformationen](#connect-the-channel-to-walmart-marketplace).
 
-1. [Vollständige Einrichtung des Vertriebskanals](#complete-store-setup) damit Sie Auflistungen, Inventar, Preise und Verkäufe vom Channel Manager verwalten können.
+1. [Vollständige Einrichtung des Vertriebskanals](#complete-store-setup) zur Verwaltung von Listen, Beständen, Preisen und Bestellungen für Ihr Walmart Marketplace-Produktportfolio.
 
 ## Erstellen des Vertriebskanals
 
-1. Öffnen Sie den Kanal-Manager.
+1. Öffnen [!DNL Channel Manager].
 
    - Wählen Sie im Admin die Option **[!UICONTROL Marketing** > _Kanäle _> **Kanal-Manager]**.
 
@@ -43,7 +43,7 @@ Nach der Installation von Channel Manager auf Ihrer [!DNL Commerce] z. B. einen 
 
 ## Verbinden des Kanals mit dem Walmart Marketplace
 
-1. Fügen Sie die Anmeldeinformationen für die [!DNL Walmart Marketplace Adobe Production API key] von [!DNL Walmart Marketplace Seller] -Konto.
+1. Fügen Sie die Anmeldeinformationen für die [[!DNL Walmart Marketplace Adobe Production API key]](connect-marketplace.md#generate-a-walmart-marketplace-production-api-key) von [!DNL Walmart Marketplace Seller] -Konto.
 
    - Wenn Sie nicht über die Anmeldeinformationen verfügen, wählen Sie **[!UICONTROL Get API credentials]** um sie aus dem [!DNL Walmart Marketplace Developer Portal].
 
@@ -63,11 +63,11 @@ Nach der Installation von Channel Manager auf Ihrer [!DNL Commerce] z. B. einen 
 
       Wenn Sie Anmeldeinformationen zu [!DNL Channel Manager], blendet Adobe das Client-Geheimnis aus und speichert den Wert in einem sicheren Vault.
 
-1. [!UICONTROL Save] die Konfiguration, um die Verbindung herzustellen.
+1. Auswählen [!UICONTROL Save] , um die Konfiguration anzuwenden und eine Verbindung zum [!DNL Walmart marketplace].
 
-   Nachdem Sie die Verbindung erfolgreich hergestellt haben, verwalten Sie den Kanal über **[!UICONTROL Channel Manager > Marketplace Stores]**.
+Nachdem Sie die Verbindung erfolgreich hergestellt haben, verwalten Sie den Kanal über **[!UICONTROL Channel Manager > Marketplace Stores]**.
 
-   ![[!DNL Walmart Marketplace API key] Konfigurationsseite](assets/manage-connected-stores.png)
+![[!DNL Walmart Marketplace API key] Konfigurationsseite](assets/manage-connected-stores.png)
 
 
 ### Beheben von Verbindungsproblemen
@@ -78,7 +78,7 @@ Wenn die Verbindung zu Walmart fehlschlägt, lesen Sie den Abschnitt [Häufig ge
 
 - Stellen Sie sicher, dass die Zugriffskonfiguration für den API-Schlüssel der Walmart-Adobe über die richtigen Berechtigungen verfügt. Siehe [Walmart-Voraussetzungen](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
-- Vergewissern Sie sich, dass der Walmart-API-Dienst im [Walmart-API-Statusseite](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
+- Vergewissern Sie sich, dass die [!DNL Walmart API] -Dienst ist im [Walmart-API-Statusseite](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
 
 ## Komplette Store-Einrichtung
 

@@ -1,17 +1,18 @@
 ---
 title: Info [!DNL Channel Manager]
-description: Erfahren Sie, wie Sie installieren und verwenden [!DNL Channel Manager] , um Adobe Commerce- und Magento Open Source-Stores mit Drittanbieter-Marktplätzen zu integrieren und einen Vertriebskanal zu erstellen, um Marktplatzierungen, -preise, -inventare und -verkäufe nahtlos über Ihren Commerce-Administrator zu verwalten.
+description: Erfahren Sie, wie Sie installieren und verwenden [!DNL Channel Manager] , um Adobe Commerce- und Magento Open Source-Stores mit Drittanbieter-Marktplätzen zu integrieren und einen Vertriebskanal zu erstellen, um Marketplace-Listen, -Preise, -Bestands- und -verkäufe nahtlos über Ihren Commerce-Administrator zu verwalten.
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Übersicht
+
+# Info [!DNL Channel Manager]
 
 Der Kanalmanager für Adobe Commerce und Magento Open Source bietet einen praktischen Arbeitsbereich in der Admin-Konsole, um Kanalverkäufe auf Drittanbieter-Marktplätzen wie Walmart, Amazon und eBay zu verwalten. Steigern Sie den Umsatz und expandieren Sie auf neue Märkte, während Sie gleichzeitig den Betrieb Ihrer Vertriebskanäle nahtlos von Ihrem Commerce-Administrator aus verwalten.
 
@@ -19,7 +20,7 @@ Der Kanalmanager für Adobe Commerce und Magento Open Source bietet einen prakti
 
 ## Beta-Version - Übersicht
 
-Die Beta-Version von Channel Manager unterstützt Adobe Commerce- oder Magento Open Source-Verkäufer, die Produkte im Walmart Marketplace anbieten möchten.
+Die Beta-Version von Channel Manager unterstützt Adobe Commerce- oder Magento Open Source-Verkäufer, die auf verkaufen möchten [!DNL Walmart Marketplace].
 
 Diese Version unterstützt die folgenden Funktionen zur Verwaltung von Vertriebskanalvorgängen:
 
@@ -27,7 +28,7 @@ Diese Version unterstützt die folgenden Funktionen zur Verwaltung von Vertriebs
 
 * Veröffentlichen von Produkten aus dem Kanal-Manager in Walmart mithilfe der Produktzuordnung
 
-* Anzeigen des Produktlistenstatus im Kanal-Manager, z. B. *Entwurf*, *Verarbeitung*, *passend*, *error*.
+* Produktlisten verwalten und Status verfolgen
 
 * Lagerbestandsmengen für übereinstimmende Produkte von Commerce nach Walmart synchronisieren
 
@@ -45,7 +46,7 @@ Die Datensynchronisation zwischen [!DNL Channel Manager] und [!DNL Walmart Marke
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Hinzufügen von Produkten zum Kanal-Manager | Wählen Sie Produkte aus dem Commerce-Produktkatalog aus und importieren Sie sie in den Kanal-Manager. | **Bis zu 5 Minuten**-Wenn Sie viele Produkte auswählen, z. B. einen gesamten Produktkatalog, dauert der Importvorgang länger. |
 | Produkte auf dem Walmart Marketplace abgleichen | Wählen Sie Produktlisten im Kanal-Manager aus und senden Sie sie zur Übereinstimmung an Walmart. | **Bis zu 30 Minuten**-Wenn Sie viele Produkte auswählen, dauert der passende Prozess je nach ausgewählter Menge länger. |
-| Inventaraktualisierungen | Wenn sich die Lagerbestandsmenge in Commerce ändert. Channel Manager synchronisiert Aktualisierung mit Walmart. | **Bis zu 10 Minuten** |
+| Inventaraktualisierungen | Wenn sich die Lagerbestandsmenge in Commerce ändert, [!DNL Channel Manager] synchronisiert die Aktualisierung mit Walmart. | **Bis zu 10 Minuten** |
 | Preisaktualisierungen | Wenn sich ein Produktpreis ändert, synchronisiert der Channel Manager das Update mit Walmart. | **Bis zu 5 Minuten** |
 | Synchronisierungen von Walmart an Commerce bestellen | Der Kunde bestellt ein Commerce-Produkt auf dem Walmart Marketplace. Walmart sendet die Bestellung an den Kanal-Manager. Die Reihenfolge wird im Bestell-Dashboard angezeigt. | **Bis zu 30 Minuten** |
 | In der Commerce Order Management erstellte Bestellungen | Der Kanal-Manager erstellt die Commerce-Bestellung über die Walmart-Bestellung und aktualisiert das Bestell-Dashboard, sodass es die Commerce-Bestellnummer enthält. | **Bis zu 5 Minuten** |
@@ -62,7 +63,7 @@ Sie benötigen die folgenden Informationen von Walmart, um Commerce in den Walma
 
 ### Einrichten eines Marketplace-Verkäuferkontos
 
-1. [Senden Sie Ihre Walmart Seller-Anwendung](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [Senden Sie Ihre Walmart Seller-Anwendung](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 2. nach Genehmigung durch Walmart, [Einrichten Ihres Walmart Seller-Kontos](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
 ### Erstellen eines Walmart Marketplace-API-Schlüssels
@@ -73,7 +74,7 @@ Sie benötigen die folgenden Informationen von Walmart, um Commerce in den Walma
 
    * Wählen Sie Adobe als Lösungsanbieter aus.
 
-   * Legen Sie die Berechtigungen wie in der folgenden Tabelle gezeigt fest. Weitere Informationen finden Sie unter [API-Anmeldeinformationen](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) im *Walmart Marketplace Seller-Hilfe*.
+   * Legen Sie die Berechtigungen wie in der folgenden Tabelle gezeigt fest. Weitere Informationen finden Sie unter [API-Anmeldeinformationen](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) im *[!DNL Walmart Marketplace]Hilfe zum Verkäufer*.
 
    **Adobe API-Schlüsselkonfiguration für Walmart**
 
@@ -95,9 +96,9 @@ Sie benötigen die folgenden Informationen von Walmart, um Commerce in den Walma
 
 Wenn Sie Produkte im Walmart Marketplace veröffentlichen, hängt die Verfügbarkeit der Liste vom Status Ihrer Walmart Marketplace-Stores ab:
 
-* Bei Live Stores werden Ihre Produktangebote aufgelistet und stehen zum Verkauf zur Verfügung, sobald der Match-Vorgang abgeschlossen ist.
+* Bei Live Stores werden Ihre Produktangebote aufgelistet und stehen zum Verkauf zur Verfügung, wenn der Match-Vorgang abgeschlossen ist.
 
-* Bei Geschäften, die nicht live sind, werden Ihre Produktangebote gestaffelt und für Kunden nicht sichtbar. Sobald der Store live geschaltet wird, werden Staging-Listen automatisch an den Live Store gesendet.
+* Bei Geschäften, die nicht live sind, werden Ihre Produktangebote gestaffelt und für Kunden nicht sichtbar. Wenn der Store live geschaltet wird, werden Staging-Listen automatisch an den Live Store gesendet.
 
 
 ![[!DNL Walmart Seller Central] Staging-Produkte](assets/walmart-seller-central-staged.png)

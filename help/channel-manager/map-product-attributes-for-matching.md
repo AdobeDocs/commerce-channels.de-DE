@@ -1,15 +1,16 @@
 ---
-title: Konfigurieren der Produktübereinstimmung
+title: Produktabgleich konfigurieren
 description: Zuordnen von Attributen für die Zuordnung von Commerce-Produkten zu vorhandenen Walmart Marketplace-Listen
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Konfigurieren der Produktübereinstimmung
+# Produktabgleich konfigurieren
 
 Bevor Sie Listen in Walmart Marketplace veröffentlichen, ordnen Sie mindestens eine eindeutige Kennung aus Ihren Produktkatalogattributen einer der erforderlichen Walmart Marketplace -Produktkennungen zu. Dieser Schritt ist erforderlich, um Produkte auf dem Walmart Marketplace zuzuordnen.
 
@@ -28,7 +29,7 @@ Wenn Ihr Katalog einen anderen Typ von Produkt-ID-Attribut enthält, konvertiere
 
 ## Produktattributeinstellungen konfigurieren
 
-1. Wählen Sie auf der Produktlistenseite für den verbundenen Vertriebskanal ein oder mehrere Produkte in *Entwurf* Status.
+1. Im [!UICONTROL Listings] für den verbundenen Vertriebskanal ein oder mehrere Produkte in *Entwurf* Status.
 
 1. Auswählen **[!UICONTROL Settings]**.
 

@@ -2,25 +2,25 @@
 title: Veröffentlichen von Listen in Walmart
 description: Veröffentlichen Sie Auflistungen für Commerce-Produkte in Walmart Marketplace , um mit dem Verkauf zu beginnen.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Veröffentlichen von Listen in Walmart
 
-Wie andere Marktplätze ermöglicht es auch Walmart Anbietern, von anderen Anbietern verkaufte Artikel aufzulisten.
+Wie andere Marktplätze, [!DNL Walmart] Ermöglicht es Drittanbietern, von anderen Anbietern verkaufte Artikel aufzulisten.
 
-Die Plattform verwendet Produktidentifikatoren wie UPC und GTIN, um Artikel zuzuordnen, die bereits zum Verkauf angeboten werden.
-Für passende Produkte enthält der vorhandene Walmart Marketplace Aktualisierungen, die das Commerce-Produktangebot enthalten.
+Die Plattform verwendet Produktidentifikatoren wie UPC und GTIN, um die vorhandenen zu gleichen [!DNL Walmart Marketplace] Auflistungen.
+Für übereinstimmende Produkte listet der Walmart Marketplace Aktualisierungen auf, um das Commerce-Produktangebot bei der Veröffentlichung eines Produkts aus einzubeziehen. [!DNL Channel Manager].
 
-Normalerweise erscheinen Produkte mit den niedrigsten Preisen zuerst in den Ergebnissen, aber andere Faktoren wie Bewertungen beeinflussen auch die Platzierung.
+Normalerweise erscheinen Produktangebote mit den niedrigsten Preisen zuerst in der [!DNL Walmart Marketplace] Auflistung, aber auch andere Faktoren wie Bewertungen wirken sich auf die Platzierung aus.
 
 ## Produkte abgleichen
 
-Wenn Sie Produkte abgleichen, sendet der Kanal-Manager die Produktdaten an den Walmart Marketplace, um nach vorhandenen Listen mit Attributwerten zu suchen, die mit dem zugeordneten Commerce-Produktattribut übereinstimmen. Übereinstimmungskriterien werden durch die [Konfiguration der Attributzuordnung](map-product-attributes-for-matching.md) für Ihren Store-Kanal.
+Wenn Sie Produkte abgleichen, sendet der Kanal-Manager die Produktdaten an [!DNL Walmart Marketplace] , um nach vorhandenen Listen mit Attributwerten zu suchen, die mit dem zugeordneten Commerce-Produktattribut übereinstimmen. Übereinstimmungskriterien werden durch die [attribute-mapping-Konfiguration](map-product-attributes-for-matching.md) für Ihren Store-Kanal.
 
 Wenn eine Übereinstimmung gefunden wird, wird die vorhandene Produktliste aktualisiert, um Ihr Angebot hinzuzufügen.
 

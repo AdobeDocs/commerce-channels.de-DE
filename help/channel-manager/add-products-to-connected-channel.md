@@ -1,37 +1,34 @@
 ---
-title: Produkte zum Kanalspeicher hinzufügen
+title: Produkte zum verbundenen Kanal hinzufügen
 description: Erstellen Sie ein Produktsortiment für Marketplace-Verkäufe, indem Sie Produkte aus dem Katalog zum Vertriebskanal hinzufügen.
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Produkte zum Kanalspeicher hinzufügen
+# Produkte zum verbundenen Kanal hinzufügen
 
-Wählen Sie im Kanal-Manager Produkte aus der [!DNL Commerce] Katalog für Walmart Marketplace-Verkäufe.
-
-Um Produkte mit dem Vertriebskanal zu synchronisieren, müssen die ausgewählten Produkte die folgende Attributkonfiguration aufweisen:
+Um Produkte mit dem Walmart Marketplace Vertriebskanal zu synchronisieren, wählen Sie Produkte aus dem [!DNL Commerce] Produktkatalog erstellen und in den Kanal-Manager importieren. Die ausgewählten Produkte müssen die folgende Attributkonfiguration aufweisen:
 
 - **[!UICONTROL Publish to Channel Manager]** Attribut aktiviert ist
 
 - Mindestens ein Produktattribut muss mit einem der [erforderliche Walmart Marketplace-Attribute](map-product-attributes-for-matching.md)- GTIN, ISBN, ISSN, UPC, EAN
 
-Nachdem Sie die Auswahl gespeichert haben, importiert der Kanal-Manager die Produktdaten in den Kanal. Dieser Vorgang kann bis zu 30 Minuten dauern.
+Das Verfahren zum Importieren von Produkten aus [!DNL Commerce] Je nach der Anzahl der ausgewählten Produkte kann es bis zu 30 Minuten oder länger dauern.
 
 ## Produkte zum Vertriebskanal hinzufügen
 
-1. Öffnen Sie den Produktkatalog, der Ihrem Kanal-Manager-Store zugeordnet ist.
-
-   Wählen Sie in einem verbundenen Verkaufskanalspeicher die Option **Produkte hinzufügen**.
+1. Wählen Sie in einem verbundenen Verkaufskanalspeicher die Option **Produkte hinzufügen** , um den Produktkatalog zu öffnen.
 
    ![Produkte zum verbundenen Kanal hinzufügen](assets/add-initial-products-to-connected-channel.png)
 
    Der Katalog wird in einer neuen Registerkarte geöffnet.
 
-1. Wählen Sie aus dem Katalog-Produktraster Produkte aus, die auf dem Walmart Marketplace verkauft werden sollen.
+1. Wählen Sie aus der Produktliste des Katalogs Produkte aus, die verkauft werden sollen [!DNL Walmart Marketplace].
 
    ![Produkte an den verbundenen Kanal senden](assets/select-products-from-catalog.png)
 
@@ -57,6 +54,9 @@ Nachdem Sie die Auswahl gespeichert haben, importiert der Kanal-Manager die Prod
 
 1. Kehren Sie zum verbundenen Vertriebskanal in zurück. [!DNL Channel Manager].
 
-   Nachdem der Importvorgang abgeschlossen ist, zeigen Sie Produkte von an **[!UICONTROL Listings]**. Zunächst befinden sich die Produkte in *Entwurf* Status. Auswählen [!UICONTROL Refresh products]**, um die Tabelle zu aktualisieren.
+1. Nachdem der Importvorgang abgeschlossen ist, zeigen Sie Produkte von an **[!UICONTROL Listings]**.
 
    ![Importierte Produkte in verbundene Vertriebskanäle](assets/products-in-marketplace-sales-channel.png)
+
+   Zunächst befinden sich die Produkte in *Entwurf* Status. Auswählen **[!UICONTROL Refresh products]** , um die Tabelle zu aktualisieren.
+
