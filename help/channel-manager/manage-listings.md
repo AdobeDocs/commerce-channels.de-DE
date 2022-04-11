@@ -1,8 +1,8 @@
 ---
-title: Listen verwalten
+title: Verwalten von Listen
 description: Verwalten von Verkaufskanallisten für eine [!DNL Commerce] mit dem Kanal-Manager für Adobe Commerce und Magento Open Source speichern.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -41,28 +41,28 @@ Sie können Produktangebote im Walmart Marketplace erstellen, indem Sie Produkta
 
 * **[Manuelles Hochladen neuer Listen](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Verwenden Sie für Produkte, die nicht mit einer vorhandenen Liste auf dem Walmart Marketplace übereinstimmen, eine Excel-Vorlage der Walmart-Produktkategorie, um Produktlisten stapelweise hochzuladen.
 
-## Listen-Steuerelemente und Feldbeschreibungen
+## Listen- und Spaltenbeschreibungen
 
-Die folgenden Tabellen beschreiben die Steuerelemente und Felder, die im [!UICONTROL Listings] Seite.
+Die folgenden Tabellen beschreiben die verfügbaren Steuerelemente und Spalten für [!UICONTROL Listings].
 
 **Steuerelemente für[!UICONTROL Listings]**
 
-| **Attribut** | **Anforderungsstufe** |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Refresh products] | Aktualisiert die Anzeige mit der aktuellsten Liste und dem aktuellen Status |
-| [!UICONTROL Add Products ] | Öffnet die [!UICONTROL  Admin Product Catalog] Seite zum Auswählen der Produkte, die Sie zu Ihrem [!DNL Walmart Marketplace] Sortierung oder Aktualisierung von Produktattributen, um die Anforderungen an die Auflistung von Walmart Marketplace zu erfüllen. |
-| [!UICONTROL Match products on Walmart] | Nachdem Sie ein oder mehrere Produkte im Status Entwurf ausgewählt haben, wählen Sie [!UICONTROL Match products on Walmart] , um nach Produktangeboten zu suchen, die einem vorhandenen hinzugefügt werden können [!DNL Walmart Marketplace] Auflistung. |
+| **Kontrolle** | **Beschreibung** |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Refresh products] | Aktualisiert die Anzeige mit der aktuellsten Auflistung und dem aktuellen Status. |
+| [!UICONTROL Add Products] | Öffnet die [!UICONTROL Admin Product Catalog] Seite zum Auswählen der Produkte, die Sie zu Ihrem [!DNL Walmart Marketplace] Sortierung oder Aktualisierung von Produktattributen, um die Anforderungen an die Auflistung von Walmart Marketplace zu erfüllen. |
+| [!UICONTROL Match products on Walmart] | Nachdem Sie ein oder mehrere Produkte im Status Entwurf ausgewählt haben, wählen Sie Produkte in Walmart abgleichen aus, um nach Produktangeboten zu suchen, die einem vorhandenen hinzugefügt werden können. [!DNL Walmart Marketplace] Auflistung. |
 
 
 **Spaltenbeschreibungen**
 
 | **Feld** | **Beschreibung** |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product name] | Name des Produkts aus der [!DNL Commerce] Katalog speichern. |
-| [!UICONTROL SKU (Unique ID)] | Das zugeordnete Attribut, das zum Abgleichen von Produkten auf dem Marketplace verwendet wird. Dieser Feldname hängt von der zugeordneten Attributkonfiguration für [!DNL Channel Manager] Auflistungen. In diesem Fall verwendet der Produktabgleichsvorgang die Produkt-SKU aus der [!DNL Commerce] Katalog zum Auffinden einer [!DNL Walmart Marketplace]  Liste mit einem SKU-Wert, der dem SKU-Wert aus den Commerce-Produktattributen entspricht. |
+| [!UICONTROL SKU (Unique ID)] | Das zugeordnete Attribut, das zum Abgleichen von Produkten auf dem Marketplace verwendet wird. Dieser Feldname hängt von der zugeordneten Attributkonfiguration für [!DNL Channel Manager] Auflistungen. In diesem Fall verwendet der Produktabgleichsvorgang die Produkt-SKU aus der [!DNL Commerce] Katalog zum Auffinden einer [!DNL Walmart Marketplace]  Liste mit einem SKU-Wert, der mit dem SKU-Wert aus der [!DNL Commerce] Produktattribute. |
 | [!UICONTROL  Quantity] | Umfang des in Adobe Commerce oder Magento Open Source verfügbaren Bestands. |
 | [!UICONTROL Price] | Der Produktpreis aus dem [!DNL Commerce] Katalog speichern. Aktualisierungen des Katalogpreises werden mit dem Kanal-Manager synchronisiert und dann an [!DNL Walmart Marketplace]  sodass die aufgelisteten Artikel den aktuellen Preis anzeigen. |
-| [!UICONTROL Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Status wird aktualisiert, wenn Sie erfolgreich Produkte zu [!DNL Channel Manager] und wenn Sie Produkte auf dem Markt finden. Wenn ein Vorgang fehlschlägt, wird in der Liste der Fehlerstatus angezeigt. Nachdem Sie den Fehler behoben haben, [!DNL Channel Manager] wiederholt den Vorgang und aktualisiert den Status. |
+| [!UICONTROL Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Status wird aktualisiert, wenn Sie erfolgreich Produkte zu [!DNL Channel Manager] und wenn Sie Produkte auf dem Markt finden. Wenn ein Vorgang fehlschlägt, zeigt die Auflistung einen Fehlerstatus an. Nachdem Sie den Fehler behoben haben, [!DNL Channel Manager] wiederholt den Vorgang und aktualisiert den Status. |
 
 
 ### Über den Listenstand
