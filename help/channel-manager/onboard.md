@@ -4,9 +4,9 @@ description: Verbinden Sie Ihre Instanz mit dem [!DNL Channel Manager] -Service 
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,9 @@ Nachdem Sie das Onboarding abgeschlossen haben, konfigurieren und verwalten Sie 
 - **Genehmigung zum Herunterladen des Channel Manager Composer-Pakets**- Stellen Sie dem Beta-Koordinator für den Adobe-Kanal die MAGE-ID der [!DNL Commerce] -Konto, mit dem der Dienst für Ihr Unternehmen verwaltet wird.
 - **Erlebnis mit Composer und dem[!DNL Commerce CLI]** -Siehe [Allgemeine CLI-Installation](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} für Informationen zur Verwendung dieser Tools zum Installieren und Verwalten von Erweiterungen in [!DNL Adobe Commerce] oder [!DNL Magento Open Source] Plattformen.
 - [[!DNL Amazon Sales Channel] Version 4.4.2 oder höher](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Wenn Sie aktiviert haben [!DNL Amazon Sales Channel] für Ihre [!DNL Commerce] Sites, überprüfen Sie, ob Ihre [!DNL Commerce] Auf der Plattform ist vor der Installation Version 4.42 installiert. [!DNL Channel Manager].
+- [!DNL Inventory Management] Erweiterung für Adobe Commerce und Magento Open Source
+
+   Wenn Sie planen, den Kanal-Manager für die Bestandsverwaltung und Auftragsverwaltung zu verwenden, muss die Inventory management-Erweiterung auf Ihrer Adobe Commerce- und Magento Open Source-Instanz installiert und aktiviert sein. In der Regel wird diese Erweiterung unter Adobe Commerce und Magento Open Source 2.3.x und höher standardmäßig installiert und aktiviert. Weitere Informationen finden Sie unter [Installieren von Inventory management](https://devdocs.magento.com/extensions/inventory-management/) in der Adobe Commerce Developer-Dokumentation.
 
 ### Voraussetzungen
 
@@ -66,7 +69,6 @@ Nachdem Sie das Onboarding abgeschlossen haben, konfigurieren und verwalten Sie 
 - [Composer 1.x oder höher](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
 - [[!DNL Amazon Sales Channel] Version 4.4.2 oder höher](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Wenn Sie aktiviert haben [!DNL Amazon Sales Channel] für Ihre [!DNL Commerce] Sites, überprüfen Sie, ob Ihre [!DNL Commerce] Auf der Plattform ist vor der Installation Version 4.42 installiert. [!DNL Channel Manager].
 - [!DNL Inventory Management]
-
 
 ### Unterstützte Plattformen
 

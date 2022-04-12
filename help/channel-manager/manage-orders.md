@@ -1,13 +1,13 @@
 ---
 title: Verwalten von Walmart Marketplace-Bestellungen
 description: Anzeigen und Verwalten [!DNL Walmart Marketplace] Bestellungen mit [!DNL Channel Manager] für Adobe Commerce und Magento Open Source.
-source-git-commit: c6c204fa5f72a68c814f48163cb037f558a41de4
+exl-id: c2779c72-4793-445c-858a-867ea8389662
+source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Verwalten von Walmart Marketplace-Bestellungen
 
@@ -44,8 +44,8 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
 **Spaltenbeschreibungen**
 
-| **Feld** | **Beschreibung** |
-|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Feld | Beschreibung |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL  Walmart Order Number] | Die Bestellnummer, die der Bestellung in der [!DNL Walmart Marketplace]. Beim erstmaligen Import einer Bestellung in [!DNL Channel Manager], wird nur die Walmart-Bestellnummer angezeigt. Wenn die [!DNL Commerce] -Reihenfolge erstellt wird, wird die [!DNL Walmart] Die Bestellnummer wird im [!UICONTROL External ID] Produktattribut. |
 | [!DNL Commerce]  Bestellnummer | Die der [!DNL Commerce]  aus der [!DNL Walmart Marketplace] bestellen. |
 | Elemente | Anzahl der bestellten Artikel [!DNL Walmart Marketplace]. |
@@ -70,10 +70,10 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
    Nach Abschluss der Auftragsstornierung wird die [!DNL Commerce] Bestandsmengenaktualisierungen, um die zurückgegebenen Elemente widerzuspiegeln. Dann [!DNL Channel Manager] synchronisiert die Aktualisierung mit dem [!DNL Walmart Marketplace].
 
-   * **[!UICONTROL Refunded]**-Bestellungen, die vom [!DNL Commerce] speichern.
+* **[!UICONTROL Refunded]**-Bestellungen, die vom [!DNL Commerce] speichern.
+
    Nach Abschluss der Rückerstattung wird die [!DNL Commerce] Bestandsmengenaktualisierungen, um die erstatteten Artikel widerzuspiegeln. Dann [!DNL Channel Manager] synchronisiert die Aktualisierung mit dem [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Error]**- Bestellungen, die aufgrund fehlender Informationen oder anderer Probleme nicht in das Bestellrepository importiert wurden.
 
    Bewegen Sie den Mauszeiger über die *[!UICONTROL Error]* Statusanzeige. Nachdem Sie den Fehler behoben haben, wird die Bestellung automatisch aktualisiert, um aktuelle Informationen und den Status anzuzeigen.
-
