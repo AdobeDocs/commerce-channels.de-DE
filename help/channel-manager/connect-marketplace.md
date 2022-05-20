@@ -2,13 +2,12 @@
 title: Verkaufskanal verbinden mit [!DNL Walmart Marketplace]
 description: Konfigurieren Sie den Vertriebskanal und verbinden Sie sich mit dem Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
+source-git-commit: 06affb78c30086e11dd9ead70e6538ef3d1ff95b
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
-
 
 # Verkaufskanal verbinden mit [!DNL Walmart Marketplace]
 
@@ -30,8 +29,19 @@ Nach der Installation von Channel Manager auf Ihrer [!DNL Commerce] z. B. einen 
 
       ![Verbinden Sie den Commerce Store mit [!DNL Walmart Marketplace] von [!DNL Channel Manager]](assets/connect-commerce-store-to-marketplace.png)
 
+1. Auf der Startseite des Kanal-Managers in der [!UICONTROL Marketplaces available to connect] Bereich, wählen Sie [!UICONTROL Get Started].
+
+   ![Verbinden des neuen Walmart Store mit [!DNL Channel Manager]](assets/channel-manager-home.png)
+
+1. Richten Sie bei Bedarf Ihr Walmart Marketplace-Verkaufskonto ein.
 
 1. Konfigurieren Sie den Speicher und die Verbindung:
+
+   - Auswählen **[!UICONTROL Add Credentials]**.
+
+      ![Verbindung zwischen Commerce und konfigurieren [!DNL Walmart Marketplace] von [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+
+   - Wählen Sie die Commerce-Store-Ansicht aus, um eine Verbindung zum Marketplace herzustellen.
 
    - Eindeutige Eingabe **[!UICONTROL store name]**.
 
@@ -39,11 +49,9 @@ Nach der Installation von Channel Manager auf Ihrer [!DNL Commerce] z. B. einen 
 
    - Hinzufügen einer **[!UICONTROL email address]** zum Empfang von Dienstbenachrichtigungen im Zusammenhang mit [!DNL Channel Manager].
 
-      ![Verbindung zwischen Commerce und konfigurieren [!DNL Walmart Marketplace] von [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+1. Verbinden Sie den Kanal mit [!DNL Walmart Marketplace].
 
-## Verbinden des Kanals mit dem Walmart Marketplace
-
-1. Fügen Sie die Anmeldeinformationen für die [[!DNL Walmart Marketplace Adobe Production API key]](connect-marketplace.md#generate-a-walmart-marketplace-production-api-key) von [!DNL Walmart Marketplace Seller] -Konto.
+   - Fügen Sie die Anmeldeinformationen für die [[!DNL Walmart Marketplace Adobe Production API key]](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) von [!DNL Walmart Marketplace Seller] -Konto.
 
    - Wenn Sie nicht über die Anmeldeinformationen verfügen, wählen Sie **[!UICONTROL Get API credentials]** um sie aus dem [!DNL Walmart Marketplace Developer Portal].
 
@@ -63,12 +71,11 @@ Nach der Installation von Channel Manager auf Ihrer [!DNL Commerce] z. B. einen 
 
       Wenn Sie Anmeldeinformationen zu [!DNL Channel Manager], blendet Adobe das Client-Geheimnis aus und speichert den Wert in einem sicheren Vault.
 
-1. Auswählen [!UICONTROL Save] , um die Konfiguration anzuwenden und eine Verbindung zum [!DNL Walmart marketplace].
+1. Auswählen **[!UICONTROL Save Store]** , um die Konfiguration anzuwenden und eine Verbindung zum [!DNL Walmart marketplace].
 
 Nachdem Sie die Verbindung erfolgreich hergestellt haben, verwalten Sie den Kanal über **[!UICONTROL Channel Manager > Marketplace Stores]**.
 
-![[!DNL Walmart Marketplace API key] Konfigurationsseite](assets/manage-connected-stores.png)
-
+![Einrichten des ersten Stores](assets/channel-manager-setup-first-store.png)
 
 ### Beheben von Verbindungsproblemen
 
@@ -88,9 +95,9 @@ So schließen Sie die Store-Einrichtung ab:
 
 1. Wählen Sie im Admin ** aus.[!UICONTROL Marketing** > **Kanal-Manager**].
 
-   ![[!DNL Walmart Marketplace API key] Konfigurationsseite](assets/connect-commerce-store-config.png)
+   ![Einrichten des ersten Stores](assets/channel-manager-setup-first-store.png)
 
-1. Öffnen Sie einen verbundenen Vertriebskanal, indem Sie das Stiftsymbol in einer Store-Einstiegszeile auswählen.
+1. Öffnen Sie den Store, indem Sie auf das Augensymbol in der Spalte ganz rechts klicken.
 
 1. Starten Sie Verkaufskanalvorgänge.
 
