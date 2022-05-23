@@ -2,9 +2,9 @@
 title: Veröffentlichen von Listen in Walmart
 description: Veröffentlichen Sie Auflistungen für Commerce-Produkte in Walmart Marketplace , um mit dem Verkauf zu beginnen.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Normalerweise erscheinen Produktangebote mit den niedrigsten Preisen zuerst in d
 
 ## Produkte abgleichen
 
-Wenn Sie Produkte abgleichen, sendet der Kanal-Manager die Produktdaten an [!DNL Walmart Marketplace] , um nach vorhandenen Listen mit Attributwerten zu suchen, die mit dem zugeordneten Commerce-Produktattribut übereinstimmen. Übereinstimmungskriterien werden durch die [attribute-mapping-Konfiguration](map-product-attributes-for-matching.md) für Ihren Store-Kanal.
+Wenn Sie Produkte abgleichen, sendet der Kanal-Manager die Produktdaten an [!DNL Walmart Marketplace] , um nach vorhandenen Listen mit Attributwerten zu suchen, die mit dem zugeordneten Commerce-Produktattribut übereinstimmen. Übereinstimmungskriterien werden durch die [attribute-mapping-Konfiguration](map-catalog-attributes.md) für Ihren Store-Kanal.
 
 Wenn eine Übereinstimmung gefunden wird, wird die vorhandene Produktliste aktualisiert, um Ihr Angebot hinzuzufügen.
 
 ### Voraussetzungen
 
-Bevor Sie Produkte zuordnen, überprüfen Sie, ob Ihre Produktkatalog-Attributwerte die Walmart-Anforderungen erfüllen, und konfigurieren Sie die Attributeinstellungen. Siehe [Produktabgleich konfigurieren](map-product-attributes-for-matching.md).
+Bevor Sie Produkte zuordnen, überprüfen Sie, ob Ihre Produktkatalog-Attributwerte die Walmart-Anforderungen erfüllen, und konfigurieren Sie die Attributeinstellungen. Siehe [Katalogattribute zuordnen](map-catalog-attributes.md).
 
 #### Produkte auswählen und abgleichen
 
@@ -54,15 +54,15 @@ Nach Abschluss der Übereinstimmung kann der Status *Übereinstimmung* oder *Feh
 
 * **[!UICONTROL Match]** gibt an, dass das Produkt erfolgreich abgeglichen wurde. Ihr Produktangebot wurde auf einer vorhandenen Walmart Marketplace-Liste veröffentlicht. Wenn die Variable [Marketplace store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* wird im *[!UICONTROL Status detail]* Spalte.
 
-Wenn [[!DNL Walmart Marketplace] store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), die *Statusdetails* gibt an, dass das Produkt *Staging für Übereinstimmung*. Staging-Produkte werden automatisch veröffentlicht, sobald die Variable [!DNL Walmart Marketplace] store aktiviert ist.
+Wenn [[!DNL Walmart Marketplace] store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), die *Statusdetails* gibt an, dass das Produkt *Staging für Übereinstimmung*. Staging-Produkte werden automatisch veröffentlicht, wenn die Variable [!DNL Walmart Marketplace] store aktiviert ist.
 
-* **[!UICONTROL Error]** bezeichnet eine der folgenden Eigenschaften:
+* **[!UICONTROL Error]** gibt an, dass der Match-Vorgang aufgrund eines der folgenden Probleme fehlgeschlagen ist:
 
-   * Es ist ein Fehler aufgetreten und der Match-Vorgang ist fehlgeschlagen.
+   * [!DNL Channel Manager] konnte aufgrund eines Verbindungsproblems nicht zur Übereinstimmung gesendet werden.
 
    * Es wurde keine Übereinstimmung gefunden.
 
-   * Übereinstimmung gefunden, aber die Auflistung kann aufgrund eines Fehlers, der vom Walmart Marketplace zurückgegeben wurde, nicht veröffentlicht werden.  entweder ein -Attribut fehlt oder als gestaffelt veröffentlicht wird, weil die [Marketplace store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Übereinstimmung gefunden, aber die Liste kann nicht veröffentlicht werden, weil [!DNL Walmart Marketplace] einen Fehlercode zurückgegeben. Siehe *Statusdetails** für die Fehlerbeschreibung.
 
 ### Checkliste für Walmart
 
@@ -116,7 +116,7 @@ Verwenden Sie für Produkte, die auf dem Walmart Marketplace nicht übereinstimm
 
 ### Voraussetzungen
 
-* Vergewissern Sie sich, dass Sie die [Walmart-Voraussetzungen](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+* Vergewissern Sie sich, dass Sie die [Walmart-Voraussetzungen](walmart-prerequisites.md).
 
 * Überprüfen Sie in Ihrem Commerce-Produktkatalog, ob die Katalogkonfiguration für die Produkte, die auf dem Walmart Marketplace aufgelistet werden sollen, alle erforderlichen Attribute aufweist und den Inhaltsrichtlinien von Walmart Marketplace entspricht.
 

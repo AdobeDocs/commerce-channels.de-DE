@@ -2,9 +2,9 @@
 title: Verwalten von Walmart Marketplace-Bestellungen
 description: Anzeigen und Verwalten [!DNL Walmart Marketplace] Bestellungen mit [!DNL Channel Manager] für Adobe Commerce und Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Es kann bis zu 35 Minuten dauern für eine [!DNL Walmart Marketplace] Reihenfolge der Anzeige im [!DNL Channel Manager] Bestellliste. [!DNL Walmart] benötigt ca. 30 Minuten, um eingehende Bestellungen zu verarbeiten und an [!DNL Channel Manager].  Nachdem der Kanal-Manager die Bestellung erhalten hat, dauert es fünf weitere Minuten, die Bestellung in Adobe Commerce oder Magento Open Source zu erstellen und anzuzeigen.
+>Es kann bis zu 35 Minuten dauern für eine [!DNL Walmart Marketplace] Reihenfolge der Anzeige im [!DNL Channel Manager] Bestellliste. [!DNL Walmart] benötigt ca. 30 Minuten, um eingehende Bestellungen zu verarbeiten und an [!DNL Channel Manager]. Nachdem der Kanal-Manager die Bestellung erhalten hat, dauert es etwa fünf Minuten, bis die Bestellung in Adobe Commerce oder Magento Open Source erstellt und angezeigt wird.
 
 ## Bestellungen überprüfen
 
@@ -26,6 +26,8 @@ ht-degree: 0%
 1. Öffnen Sie die Store-Ansicht, indem Sie das Stiftsymbol in einer Store-Einstiegszeile auswählen.
 
 1. Um Bestellinformationen anzuzeigen, klicken Sie auf *[!UICONTROL *Orders]**.
+
+1. Informationen über die Reihenfolge abrufen und die nächsten Schritte bestimmen, indem Sie die **[Status](#about-order-status)** -Spalte, um Informationen zu den Bestellungen zu erhalten.
 
 ## Bestelldetails anzeigen
 
@@ -54,6 +56,8 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 | [!UICONTROL Ship By Date] | Datum, an dem die Bestellung versandt werden muss, um sie zu erfüllen [!DNL Walmart Marketplace] Anforderungen. |
 | [!UICONTROL Order Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Status wird aktualisiert, wenn Sie erfolgreich Produkte zu [!DNL Channel Manager] und wenn Sie Produkte auf der [!DNL Walmart Marketplace]. Wenn ein Vorgang fehlschlägt, wird in der Liste der Fehlerstatus angezeigt. Nachdem Sie den Fehler behoben haben, [!DNL Channel Manager] wiederholt den Vorgang und aktualisiert den Status. |
 
+| [!UICONTROL Error description]    | Bietet detailliertere Informationen zu Bestellungen mit einer *Fehler* status.|
+
 ### Über den Bestellstatus
 
 [!UICONTROL Order Status] liefert Informationen zum aktuellen Status von [!DNL Walmart Marketplace] Bestellungen, die von Adobe Commerce oder Magento Open Source verwaltet werden. Aktualisierungen des Bestellstatus treten auf, wenn [!DNL Channel Manager] erhält aktualisierte Bestellinformationen von entweder [!DNL Walmart Marketplace] oder [!DNL Commerce] Bestellsystem. Bestellungen können den folgenden Status aufweisen:
@@ -74,6 +78,6 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
    Nach Abschluss der Rückerstattung wird die [!DNL Commerce] Bestandsmengenaktualisierungen, um die erstatteten Artikel widerzuspiegeln. Dann [!DNL Channel Manager] synchronisiert die Aktualisierung mit dem [!DNL Walmart Marketplace].
 
-* **[!UICONTROL Error]**- Bestellungen, die aufgrund fehlender Informationen oder anderer Probleme nicht in das Bestellrepository importiert wurden.
+* **[!UICONTROL Error]**- Fehlerhafte Bestellungen. Fehler können auftreten, wenn ein Bestellaktualisierungsvorgang fehlschlägt. Beispielsweise treten Fehler auf, wenn [!DNL Channel Manager] kann keine neue Bestellung von Walmart erhalten. Sie können auch auftreten, wenn [!DNL Channel Manager] kann eine Auftragsversand- oder Löschungsaktualisierung nicht an die [!DNL Walmart Marketplace].
 
-   Bewegen Sie den Mauszeiger über die *[!UICONTROL Error]* Statusanzeige. Nachdem Sie den Fehler behoben haben, wird die Bestellung automatisch aktualisiert, um aktuelle Informationen und den Status anzuzeigen.
+* **[!UICONTROL Error description]**-Enthält detaillierte Informationen zu Bestellfehlern, die aufgrund von Problemen auftreten, wie fehlende Informationen oder ungültige Werte, falsche Versanddetails oder eine fehlgeschlagene Auftragsstornierung. Anhand der Beschreibung kann festgestellt werden, ob ein Fehler auf der [!DNL Commerce] -Instanz oder auf [!DNL Walmart Marketplace].

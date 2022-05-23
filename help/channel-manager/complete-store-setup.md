@@ -2,9 +2,9 @@
 title: Vollständige Einrichtung des Vertriebskanals
 description: Navigieren Sie zu einem verbundenen Vertriebskanal, um Produktlisten, Inventar- und Preisaktualisierungen anzuzeigen und zu verwalten und Bestellungen zu verfolgen.
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Nachdem Sie einen Commerce-Store mit [!DNL Walmart Marketplace], schließen Sie 
 
 1. Starten Sie Verkaufskanalvorgänge.
 
-   - [Produkte aus Ihrem [!DNL Commerce Catalog] zum Kanal-Manager](add-products-to-connected-channel.md)
+   - [Produkte aus Ihrem [!DNL Commerce Catalog] zum Kanal-Manager](add-products-to-channel-store.md)
 
    - [Produktlisten in veröffentlichen [!DNL Walmart] Produktabgleich verwenden](publish-listings-to-marketplace.md)
 

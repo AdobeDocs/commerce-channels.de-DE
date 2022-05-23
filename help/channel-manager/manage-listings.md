@@ -2,9 +2,9 @@
 title: Verwalten von Listen
 description: Verwalten von Verkaufskanallisten für eine [!DNL Commerce] mit dem Kanal-Manager für Adobe Commerce und Magento Open Source speichern.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Sie können die folgenden Aufgaben in der Listenansicht ausführen.
 
 Erstellen Sie das Produktsortiment für den Kanal Walmart Marketplace , indem Sie die folgenden Aufgaben ausführen:
 
-* [Hinzufügen von Produkten aus Ihrem Commerce-Produktkatalog zum Channel Manager](add-products-to-connected-channel.md)
+* [Hinzufügen von Produkten aus Ihrem Commerce-Produktkatalog zum Channel Manager](add-products-to-channel-store.md)
 
-* [Produktabgleich konfigurieren](map-product-attributes-for-matching.md#configure-product-attribute-settings)
+* [Katalogattribute zuordnen](map-catalog-attributes.md#configure-product-attribute-settings)
 
 ## Produkte in Walmart veröffentlichen
 
 Sie können Produktangebote im Walmart Marketplace erstellen, indem Sie Produktabgleiche verwenden oder Produktlisten für neue Produkte manuell hochladen. Anweisungen finden Sie unter [Veröffentlichen von Listen in Walmart Marketplace](publish-listings-to-marketplace.md) wie in den folgenden Themen beschrieben:
 
-* **[Produkte bei Walmart abgleichen](publish-listings-to-marketplace.md)**- Veröffentlichen Sie Produktlisten von Ihrem Kanal in [!DNL Walmart Marketplace] durch Aktualisierung bestehender Listen, die dasselbe Produkt verkaufen. Übereinstimmungskriterien werden durch die [attribute-mapping-Konfiguration](map-product-attributes-for-matching.md) für Ihren Kanal.
+* **[Produkte bei Walmart abgleichen](publish-listings-to-marketplace.md)**- Veröffentlichen Sie Produktlisten von Ihrem Kanal in [!DNL Walmart Marketplace] durch Aktualisierung bestehender Listen, die dasselbe Produkt verkaufen. Übereinstimmungskriterien werden durch die [attribute-mapping-Konfiguration](map-catalog-attributes.md) für Ihren Kanal.
 
 * **[Manuelles Hochladen neuer Listen](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Verwenden Sie für Produkte, die nicht mit einer vorhandenen Liste auf dem Walmart Marketplace übereinstimmen, eine Excel-Vorlage der Walmart-Produktkategorie, um Produktlisten stapelweise hochzuladen.
 
@@ -97,6 +97,8 @@ Im Arbeitsbereich &quot;Listen&quot;zeigt die Bezeichnung Status an, wo sich ein
 
 * **[!UICONTROL Match - Match in Stage]**-Identifiziert Produkte, die übereinstimmen mit [!DNL Walmart] die erst veröffentlicht werden können, wenn die [!DNL Walmart Marketplace] Store ist live. Produkte mit diesem Status werden automatisch veröffentlicht, wenn die Variable [!DNL Walmart Marketplace] Store wird live geschaltet.
 
-* **[!UICONTROL Error]**- Identifiziert Produkte, die nicht mit einem vorhandenen übereinstimmen [!DNL Walmart Marketplace] Auflistung. Anzeigen von Fehlerdetails durch Bewegen des Mauszeigers über die *Fehler* Statusbezeichnung.
+* **[!UICONTROL Error]**- Identifiziert Produkte, die nicht mit einem vorhandenen übereinstimmen [!DNL Walmart Marketplace] Auflistung.
+
+* **[!UICONTROL Error description]**-Bietet detaillierte Informationen zum Listenfehler.
 
    Nachdem Sie den Fehler behoben haben, senden Sie das Produkt erneut zur Übereinstimmung. Siehe [Fehlerbehebung bei Produktübereinstimmungsfehlern](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).
