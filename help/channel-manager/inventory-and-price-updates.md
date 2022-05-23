@@ -2,14 +2,14 @@
 title: Bestand- und Preisaktualisierungen
 description: '''[!DNL Channel Manager] Synchronisiert Inventar- und Preisaktualisierungen zwischen dem Commerce Store und [!DNL Walmart Marketplace] damit Sie Ihre Vertriebskanalvorgänge von Ihrem Commerce-Administrator aus verwalten können.'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# Inventar- und Preisaktualisierungen
+# Inventar- und Preisaktualisierung
 
 [!DNL Channel Manager] erfasst Inventar und Preise für Produkte in [!DNL Commerce] Produktkatalog und Synchronisierungsaktualisierungen zum verbundenen Vertriebskanal und [!DNL Walmart Marketplace]. Durch die Synchronisierung wird sichergestellt, dass die Produktlisten die aktuelle Lagermenge und -preise widerspiegeln.
 
@@ -19,7 +19,7 @@ Wenn sich die Produktinventarisierung ändert [!DNL Commerce], [!DNL Channel Man
 
 * **Aktualisierungen der Lagermenge im Produktkatalog**-When [!DNL Commerce] Änderungen der Lagermenge aufgrund von [manuelle Änderungen der Lagermenge](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), Erstattungen oder Annullierungen, [!DNL Channel Manager] Synchronisiert die Änderung mit verbundenen Kanälen und [!DNL Walmart Marketplace].
 
-* **Die Lagermenge entsprechend reduzieren [!DNL Walmart Marketplace] Bestellungen**-Nach einem [!DNL Walmart Marketplace] Synchronisierungsaufträge an [!DNL Channel Manager], [!DNL Channel Manager] sendet das Update an die [!DNL Commerce] Bestellsystem. [!DNL Commerce] passt die Lagermengen auf der Basis der Bestellung an. Anschließend wird die aktualisierte Menge mit [!DNL Walmart Marketplace]. Bis die Synchronisierungsvorgänge abgeschlossen sind, werden in den Vertriebskanallisten möglicherweise unterschiedliche Mengen angezeigt und [!DNL Walmart].
+* **Die Lagermenge entsprechend reduzieren [!DNL Walmart Marketplace] Bestellungen**-Nach a [!DNL Walmart Marketplace] Synchronisierungsaufträge an [!DNL Channel Manager], [!DNL Channel Manager] sendet das Update an die [!DNL Commerce] Bestellsystem. [!DNL Commerce] passt die Lagermengen auf der Basis der Bestellung an. Anschließend wird die aktualisierte Menge mit [!DNL Walmart Marketplace]. Bis die Synchronisierungsvorgänge abgeschlossen sind, werden in den Vertriebskanallisten möglicherweise unterschiedliche Mengen angezeigt und [!DNL Walmart].
 
 >[!IMPORTANT]
 >

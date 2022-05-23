@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie installieren und verwenden [!DNL Channel Mana
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -14,29 +14,27 @@ ht-degree: 0%
 
 # Info [!DNL Channel Manager]
 
-Der Kanalmanager für Adobe Commerce und Magento Open Source bietet einen praktischen Arbeitsbereich in der Admin-Konsole, um Kanalverkäufe auf Drittanbieter-Marktplätzen wie Walmart, Amazon und eBay zu verwalten. Steigern Sie den Umsatz und expandieren Sie auf neue Märkte, während Sie gleichzeitig den Betrieb Ihrer Vertriebskanäle nahtlos von Ihrem Commerce-Administrator aus verwalten.
+[!DNL Channel Manager] hilft Ihnen, den Umsatz zu steigern und neue Kunden zu erreichen, indem Sie Ihren Adobe Commerce- oder Magento Open Source-Produktkatalog in die [!DNL Walmart US Marketplace].
 
-![[!DNL Channel Manager] Admin-Ansicht der Erweiterung](assets/channel-manager-admin-entry-page.png)
+![[!DNL Channel Manager] Admin-Ansicht der Erweiterung](assets/channel-manager-home.png)
 
-## Beta-Version - Übersicht
+Nach der Installation und Konfiguration [!DNL Channel Manager], die [!DNL Commerce] Admin wird erweitert, damit Sie [!DNL Walmart Marketplace] Absatzvorgänge nahtlos aus Ihrer Commerce-Umgebung heraus.
 
-Die Beta-Version von Channel Manager unterstützt Adobe Commerce- oder Magento Open Source-Verkäufer, die auf verkaufen möchten [!DNL Walmart Marketplace].
+* **Listenverwaltung**-Veröffentlichen Sie einfach Produktlisten, indem Sie Produkte aus Ihrem Commerce-Katalog mit vorhandenen Walmart Marketplace-Listen abgleichen.
 
-Diese Version unterstützt die folgenden Funktionen zur Verwaltung von Vertriebskanalvorgängen:
+* **Inventory management**-Elemente im Marketplace-Händlerkonto des Händlers werden automatisch synchronisiert und aus dem Handel aktualisiert, um eine präzise Bestandsaufnahme zu gewährleisten.
 
-* API-Verbindung zwischen Adobe Commerce oder Magento Open Source und Walmart Marketplace herstellen
+* **Preisaktualisierungen**- Erhalten Sie genaue Preise für Marktplatzierungen mit automatischer Preissynchronisierung. Wenn sich ein Preis in Adobe Commerce ändert, werden die Änderungen innerhalb von 10 Minuten auf dem Markt übernommen.
 
-* Veröffentlichen von Produkten aus dem Kanal-Manager in Walmart mithilfe der Produktzuordnung
+* **Auftragsverwaltung**-Wenn neue Bestellungen auf einem Marketplace erstellt werden, synchronisiert der Channel Manager Bestellungen mit Adobe Commerce und sendet Bestellbestätigungen an den Marketplace, um sicherzustellen, dass der Bestand für jede Bestellung reserviert ist.
 
-* Produktlisten verwalten und Status verfolgen
+* **Versandmanagement**-Wenn Bestellungen als in Adobe Commerce versandt gekennzeichnet sind, wird die Versandaktualisierung an die [!DNL Walmart Marketplace]. Diese Benachrichtigung stellt sicher, dass die Verkäufer ihre SLA-Anforderungen erfüllen und dass Kunden Versandaktualisierungen für ihre aktuellen Bestellungen erhalten.
 
-* Lagerbestandsmengen für übereinstimmende Produkte von Commerce nach Walmart synchronisieren
+* **Stornierungen**-Wenn Bestellungen in Adobe Commerce storniert werden, sendet der Channel Manager aktualisierte Bestellinformationen an den Marketplace, um die Aktion für die entsprechende Marketplace-Bestellung zu replizieren.
 
-* Synchronisieren der Katalogpreise für passende Produkte von Commerce nach Walmart
+[!DNL Channel Manager] unterstützt Adobe Commerce- oder Magento Open Source-Verkäufer, die auf verkaufen möchten [!DNL Walmart Marketplace].
 
-* Bestellungen von Walmart Marketplace empfangen und im [!DNL Commerce] Dashboard für Bestellungen
-
-### Erwartete Latenz für den Kanal-Manager-Betrieb
+## Erwartete Latenz für den Kanal-Manager-Betrieb
 
 Die Datensynchronisation zwischen [!DNL Channel Manager] und [!DNL Walmart Marketplace] -Store benötigt etwas Zeit, um abzuschließen. Überprüfen Sie die erwartete Verarbeitungszeit für [!DNL Channel Manager] Operationen, die die Planung des Betriebs von Vertriebskanälen erleichtern.
 

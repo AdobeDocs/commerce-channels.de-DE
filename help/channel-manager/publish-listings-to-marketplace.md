@@ -2,9 +2,9 @@
 title: Veröffentlichen von Listen in Walmart
 description: Veröffentlichen Sie Auflistungen für Commerce-Produkte in Walmart Marketplace , um mit dem Verkauf zu beginnen.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Wenn eine Übereinstimmung gefunden wird, wird die vorhandene Produktliste aktua
 
 ### Voraussetzungen
 
-Bevor Sie Produkte zuordnen, überprüfen Sie, ob Ihre Produktkatalog-Attributwerte die Walmart-Anforderungen erfüllen, und konfigurieren Sie die Attributeinstellungen. Siehe [Produktabgleich konfigurieren](map-product-attributes-for-matching.md)
+Bevor Sie Produkte zuordnen, überprüfen Sie, ob Ihre Produktkatalog-Attributwerte die Walmart-Anforderungen erfüllen, und konfigurieren Sie die Attributeinstellungen. Siehe [Produktabgleich konfigurieren](map-product-attributes-for-matching.md).
 
 #### Produkte auswählen und abgleichen
 
@@ -40,27 +40,29 @@ Bevor Sie Produkte zuordnen, überprüfen Sie, ob Ihre Produktkatalog-Attributwe
 
    Eine Meldung gibt die Anzahl der Produkte an, die zum Abgleich gesendet wurden.
 
-   ![Produkte an den verbundenen Vertriebskanal senden](assets/products-submit-for-matching.png)
+   ![Produkte an den verbundenen Vertriebskanal senden](assets/products-submitted-for-matching.png)
 
    Der Status für ausgewählte Produkte ändert sich in [!UICONTROL *Verarbeitung*] bis der Match-Vorgang abgeschlossen ist. Es kann bis zu 30 Minuten dauern, bis Walmart Marketplace den Match-Vorgang abschließt.
 
 ### Prüfen des Übereinstimmungsstatus
 
-1. Auswählen **Produkte aktualisieren** , um den aktuellen Produktstatus zu aktualisieren.
+1. Auswählen **Produkte aktualisieren** , um den aktuellen Produktstatus anzuzeigen.
 
 1. Überprüfen Sie den Produktstatus.
 
-   Nach Abschluss der Übereinstimmung kann der Status *Übereinstimmung* oder *Fehler*.
+Nach Abschluss der Übereinstimmung kann der Status *Übereinstimmung* oder *Fehler*.
 
-   * **[!UICONTROL Match]** gibt an, dass das Produkt erfolgreich abgeglichen wurde. Ihr Produktangebot wurde auf einer vorhandenen Walmart Marketplace-Liste veröffentlicht.
+* **[!UICONTROL Match]** gibt an, dass das Produkt erfolgreich abgeglichen wurde. Ihr Produktangebot wurde auf einer vorhandenen Walmart Marketplace-Liste veröffentlicht. Wenn die Variable [Marketplace store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* wird im *[!UICONTROL Status detail]* Spalte.
 
-   * **[!UICONTROL Error]** bezeichnet eine der folgenden Eigenschaften:
+Wenn [[!DNL Walmart Marketplace] store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), die *Statusdetails* gibt an, dass das Produkt *Staging für Übereinstimmung*. Staging-Produkte werden automatisch veröffentlicht, sobald die Variable [!DNL Walmart Marketplace] store aktiviert ist.
 
-      * Es ist ein Fehler aufgetreten und der Match-Vorgang ist fehlgeschlagen.
+* **[!UICONTROL Error]** bezeichnet eine der folgenden Eigenschaften:
 
-      * Es wurde keine Übereinstimmung gefunden.
+   * Es ist ein Fehler aufgetreten und der Match-Vorgang ist fehlgeschlagen.
 
-      * Übereinstimmung gefunden, aber Produkt als inszeniert veröffentlicht, weil die [Marketplace store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Es wurde keine Übereinstimmung gefunden.
+
+   * Übereinstimmung gefunden, aber die Auflistung kann aufgrund eines Fehlers, der vom Walmart Marketplace zurückgegeben wurde, nicht veröffentlicht werden.  entweder ein -Attribut fehlt oder als gestaffelt veröffentlicht wird, weil die [Marketplace store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### Checkliste für Walmart
 
@@ -68,9 +70,9 @@ Bevor Sie Produkte zuordnen, überprüfen Sie, ob Ihre Produktkatalog-Attributwe
 
 ### Fehlerbehebung bei Produktübereinstimmungsfehlern
 
-Wenn der Vorgang der Produktübereinstimmung fehlschlägt, gibt der Walmart Marketplace einen Fehlercode zurück und der Kanal-Manager zeigt den Fehlerstatus in den Informationen zur Produktliste an.
+Wenn der Vorgang zur Produktanpassung mit einem Fehler fehlschlägt, wird die Fehlermeldung im *[!UICONTROL Status detail]* in der Spalte [!UICONTROL Channel Manager] Produktliste.
 
-Zeigen Sie die Details der Fehlermeldungen an, indem Sie den Mauszeiger über die **Fehler** Statusbezeichnung. Häufige Fehler, die zurückgegeben werden, sind falsch formatierte Produkt-ID-Werte oder fehlende erforderliche Attribute.
+Häufige Fehler, die zurückgegeben werden, sind falsch formatierte Produkt-ID-Werte oder fehlende erforderliche Attribute.
 
 #### Produkt-ID-Werte korrigieren
 

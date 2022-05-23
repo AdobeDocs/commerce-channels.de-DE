@@ -2,9 +2,9 @@
 title: Installieren [!DNL Channel Manager]
 description: Installieren Sie die Channel Manager-Erweiterung.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Bei beiden Methoden müssen Sie die Befehlszeilenschnittstelle (CLI) verwenden.
 
 >[!NOTE]
 >
->Hilfe bei der Installation [!DNL Commerce] -Software, die die CLI verwendet, siehe [Allgemeine CLI-Installation](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}.
+>Hilfe zur Installation [!DNL Commerce] -Software, die die CLI verwendet, siehe [Allgemeine CLI-Installation](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}.
 
 ### Installation auf einer lokalen Instanz
 
