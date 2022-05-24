@@ -2,9 +2,9 @@
 title: Verarbeitungsaufträge
 description: Versandanleitung und Stornierung [!DNL Walmart Marketplace] Bestellungen von Adobe Commerce und Magento Open Source.
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: 6ad7a116e931408192144e4bd446fcc0055364e1
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,9 @@ Wenn Sie eine Bestellung in Commerce verarbeiten, synchronisiert der Kanal-Manag
    ![Commerce Order detail view for a Walmart Marketplace order](assets/order-detail-with-external-order-id.png)
 
    * Wählen Sie einen Versandunternehmen aus und fügen Sie eine Trackingnummer hinzu, indem Sie **[!UICONTROL Add tracking number]**.
+
+      ![Commerce Order detail view for a Walmart Marketplace order](assets/order-shipment-add-tracking-number.png)
+
 
    * Füllen Sie nach Bedarf den Rest des Versandformulars aus. Siehe [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) für detaillierte Anweisungen.
 

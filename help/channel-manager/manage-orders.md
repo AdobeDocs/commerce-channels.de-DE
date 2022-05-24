@@ -2,9 +2,9 @@
 title: Verwalten von Walmart Marketplace-Bestellungen
 description: Anzeigen und Verwalten [!DNL Walmart Marketplace] Bestellungen mit [!DNL Channel Manager] für Adobe Commerce und Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 | [!UICONTROL Order Value] | Gesamtkosten der bestellten Artikel. |
 | [!UICONTROL Date Created] | Das Datum, an dem die Bestellung erstellt wurde [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | Datum, an dem die Bestellung versandt werden muss, um sie zu erfüllen [!DNL Walmart Marketplace] Anforderungen. |
-| [!UICONTROL Order Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Status wird aktualisiert, wenn Sie erfolgreich Produkte zu [!DNL Channel Manager] und wenn Sie Produkte auf der [!DNL Walmart Marketplace]. Wenn ein Vorgang fehlschlägt, wird in der Liste der Fehlerstatus angezeigt. Nachdem Sie den Fehler behoben haben, [!DNL Channel Manager] wiederholt den Vorgang und aktualisiert den Status. |
-
-| [!UICONTROL Error description]    | Bietet detailliertere Informationen zu Bestellungen mit einer *Fehler* status.|
+| [!UICONTROL Deliver By Date] | Datum der Lieferung der Bestellung an den Kunden zur Erfüllung [!DNL Walmart Marketplace] Anforderungen. |
+| [!UICONTROL Last Update At] | Zeitstempel, der angibt, wann die Bestelldaten zuletzt in [!DNL Channel Manager] |
+| [!UICONTROL Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Status wird aktualisiert, wenn Sie erfolgreich Produkte zu [!DNL Channel Manager] und wenn Sie Produkte auf der [!DNL Walmart Marketplace]. Wenn ein Vorgang fehlschlägt, wird in der Liste der Fehlerstatus angezeigt. Nachdem Sie den Fehler behoben haben, [!DNL Channel Manager] wiederholt den Vorgang und aktualisiert den Status. |
+| [!UICONTROL Error Description] | Detailliertere Informationen zu Bestellungen mit einer *Fehler* Status. |
 
 ### Über den Bestellstatus
 

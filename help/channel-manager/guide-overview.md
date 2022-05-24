@@ -4,7 +4,7 @@ description: Umfassende Informationen zu [!DNL Channel Manager] für Adobe Comme
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 8230f2c41919a5baf1c86a8516a093934710785d
+source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Diese Funktion ist nur für Beta-Benutzer verfügbar und steht noch nicht allen Kunden zur Verfügung. Derzeit auf US-Kunden beschränkt. Wenden Sie sich für Unterstützung und Fragen an Ihren Adobe Commerce Beta-Programmmanager.
+>Diese Funktion ist nur für Beta-Benutzer verfügbar und steht noch nicht allen Kunden zur Verfügung. Derzeit auf US-Kunden beschränkt. Wenden Sie sich für Unterstützung und Fragen an Ihren Adobe Commerce Beta-Programmmanager.
 
 Dieses Handbuch richtet sich an Administratoren von Adobe Commerce und Magento Open Source. Es enthält detaillierte Informationen zu [!DNL Channel Manager] Installation, Onboarding, Konfiguration und Verwaltung. Das Handbuch setzt grundlegende Kenntnisse der Commerce-Konfiguration und -Funktionalität voraus.
 
