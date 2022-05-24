@@ -2,7 +2,7 @@
 title: Versandunternehmen zuordnen
 description: Zuordnen von Attributen zum Abgleich [DNL! Commerce-] Produkte in bestehende [!DNL Walmart Marketplace] Auflistungen und Synchronisieren von Daten zwischen [!DNL Channel Manager] und [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: e8c3fdc912b1e7ee4960a9a6ff66a2c9968f34f0
+source-git-commit: aff38e59771fb973b789450b1a7b9552a7a809ff
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Führen Sie vor der Zuordnung von Versandunternehmen die folgenden Aufgaben aus:
 
 1. Im [!UICONTROL Listings] Seite für den Verkaufskanalspeicher auswählen **[!UICONTROL Settings]**.
 
-1. Von *[!UICONTROL Map Attributes]auswählen **[!UICONTROL Shipping Carriers].
+1. Von **[!UICONTROL Map Attributes]** auswählen **[!UICONTROL Shipping Carriers]**.
 
    ![Versandunternehmen zuordnen](assets/map-shipping-carriers.png)
 
