@@ -2,20 +2,20 @@
 title: Verarbeitungsaufträge
 description: Versandanleitung und Stornierung [!DNL Walmart Marketplace] Bestellungen von Adobe Commerce und Magento Open Source.
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 6ad7a116e931408192144e4bd446fcc0055364e1
+source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
 # Verarbeitungsaufträge
 
-Wenn Sie Adobe Commerce und die Magento Open Source Order Management verwenden, um Ihre [!DNL Commerce] Verkaufsstellen, können Sie [!DNL Walmart Marketplace] Bestellungen aus dem Handel unter Verwendung desselben Workflows.
+Nachher [!DNL Walmart Marketplace] Bestellungen wurden bestätigt und erfolgreich an gesendet [!DNL Channel Manager], verwenden Sie [Commerce Order Management](https://docs.magento.com/user-guide/sales/orders-workspace.html) , um die Bestellung zu verarbeiten.
 
-Wenn Sie eine Bestellung in Commerce verarbeiten, synchronisiert der Kanal-Manager Aktualisierungen in [!DNL Walmart Marketplace]. Durch diese Aktualisierung wird sichergestellt, dass der Auftragsstatus und die Versandinformationen aus Commerce mit den in der Variablen [!DNL Walmart Marketplace].
+Der Kanal-Manager synchronisiert Aktualisierungen mit [!DNL Walmart Marketplace] , um sicherzustellen, dass der Auftragsstatus und die Versandinformationen aus Commerce mit den in der Variablen [!DNL Walmart Marketplace].
 
-* **Auftragsversand**-Walmart benötigt eine Trackingnummer für alle Sendungen. Sie können Teillieferungen erstellen, wenn Sie nicht über Vorräte für alle Artikel in der Bestellung verfügen. Nach Absendung der Sendung werden die Auftragsaktualisierungen mit [!DNL Walmart Marketplace]. Anschließend informiert Walmart die Kunden über den Bestellstatus und die Versanddetails.
+* **Auftragsversand**-Walmart benötigt eine Trackingnummer für alle Sendungen. Wenn einige Artikel nicht vorrätig sind, können Sie Teillieferungen erstellen, um derzeit verfügbare Artikel zu senden. Nach Absendung der Sendung werden die Auftragsaktualisierungen mit [!DNL Walmart Marketplace]. Anschließend informiert Walmart die Kunden über den Bestellstatus und die Versanddetails.
 
 * **Stornierungen von Bestellungen**-Wenn Sie eine [!DNL Walmart Marketplace] Bestellung, Walmart benötigt einen Stornierungsgrund, der in der an den Kunden gesendeten Stornierungsmeldung enthalten ist. Der Stornogrund wird auch im Abschnitt [!DNL Commerce] Bestellzahlinformationen.
 
@@ -35,11 +35,11 @@ Wenn Sie eine Bestellung in Commerce verarbeiten, synchronisiert der Kanal-Manag
 
 1. Erstellen und Senden einer Sendung für die gesamte Bestellung oder einen Teil davon durch Auswahl von **[!UICONTROL Ship]**.
 
-   ![Commerce Order detail view for a Walmart Marketplace order](assets/order-detail-with-external-order-id.png)
+   ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png)
 
    * Wählen Sie einen Versandunternehmen aus und fügen Sie eine Trackingnummer hinzu, indem Sie **[!UICONTROL Add tracking number]**.
 
-      ![Commerce Order detail view for a Walmart Marketplace order](assets/order-shipment-add-tracking-number.png)
+      ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png)
 
 
    * Füllen Sie nach Bedarf den Rest des Versandformulars aus. Siehe [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) für detaillierte Anweisungen.
@@ -56,15 +56,14 @@ Wenn Sie eine Bestellung in Commerce verarbeiten, synchronisiert der Kanal-Manag
 
 1. Öffnen Sie in der Bestelltabelle die Detailseite der Bestellung, indem Sie die **Commerce-Bestellnummer** für die Bestellung zum Abbrechen.
 
-   ![Commerce Order detail view for a Walmart Marketplace order](assets/order-detail-with-external-order-id.png)
+   ![Detailansicht einer Commerce-Bestellung für[!DNL Walmart Marketplace]order](assets/order-detail-with-external-order-id.png)
 
 1. Abbrechen der Bestellung.
 
    * Auswählen **Abbrechen** über das Menü Bestelldetails .
 
    * Im [!UICONTROL Cancel Order] Wählen Sie das **Abbruchsgrund**.
-
-   ![Commerce Order detail view for a Walmart Marketplace order](assets/cancel-order-reason-selector.png)
+   ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/cancel-order-reason-selector.png)
 
    * Auswählen **Reihenfolge abbrechen**.
 

@@ -1,10 +1,10 @@
 ---
 title: Veröffentlichen von Listen in Walmart
-description: Veröffentlichen Sie Auflistungen für Commerce-Produkte in Walmart Marketplace , um mit dem Verkauf zu beginnen.
+description: Veröffentlichen von Listen für Commerce-Produkte in [!DNL Walmart Marketplace]um den Verkauf zu beginnen.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---

@@ -1,32 +1,32 @@
 ---
-title: Walmart-Voraussetzungen
-description: Stellen Sie sicher, dass Sie über die erforderlichen Informationen und Ressourcen für den Walmart Marketplace verfügen, um sie in den Kanal-Manager zu integrieren.
+title: '"[!DNL Walmart] Voraussetzungen"'
+description: '"Vergewissern Sie sich, dass Sie über die erforderlichen [!DNL Walmart Marketplace] Informationen und Ressourcen zur Integration mit dem Kanal-Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-# Walmart-Voraussetzungen
+# [!DNL Walmart] Voraussetzungen
 
-Der Kanal-Manager benötigt die folgenden Ressourcen und Informationen, um einen Commerce-Vertriebskanal für Walmart Marketplace zu konfigurieren.
+[!DNL Channel Manager] erfordert die folgenden Ressourcen und Informationen zum Konfigurieren eines [!DNL Commerce] Vertriebskanal für [!DNL Walmart Marketplace.]
 
-* Genehmigung zum Verkauf auf Walmart und Anmeldedaten für die Anmeldung beim registrierten Vertriebskonto für Marketplace
+* Genehmigung zum Verkauf [!DNL Walmart] und Anmeldedaten für die Anmeldung beim registrierten Marketplace Seller-Konto
 
-* API-Schlüssel zur Verbindung von Adobe Commerce oder Magento Open Source mit Walmart Marketplace
+* API-Schlüssel zum Verbinden von Adobe Commerce oder Magento Open Source mit [!DNL Walmart Marketplace]
 
-   Der Walmart Marketplace-API-Schlüssel ermöglicht die Integration zwischen dem Channel Manager für Adobe Commerce oder Magento Open Source und dem Walmart Marketplace. Richten Sie den API-Schlüssel in Seller Central ein, bevor Sie den Onboarding-Prozess für den Kanal-Manager starten.
+   Die [!DNL Walmart Marketplace] API-Schlüssel ermöglicht die Integration zwischen [!DNL Channel Manager] für Adobe Commerce oder Magento Open Source und den Walmart Marketplace. Richten Sie den API-Schlüssel in Seller Central ein, bevor Sie den Onboarding-Prozess für den Kanal-Manager starten.
 
 ## Einrichten eines Marketplace-Verkäuferkontos
 
 1. [Senden Sie Ihre Walmart Seller-Anwendung](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. nach Genehmigung durch Walmart, [Einrichten Ihres Walmart Seller-Kontos](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. Nach Erteilung der Genehmigung durch [!DNL Walmart], [Einrichten Ihres Walmart Seller-Kontos](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Erstellen eines Walmart Marketplace-Produktions-API-Schlüssels
+## Generieren Sie eine [!DNL Walmart Marketplace] Produktions-API-Schlüssel
 
-1. Gehen Sie zu Walmart Marketplace , um eine [API-Schlüssel für die Produktion von Lösungsanbietern für die Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Navigieren Sie zu [!DNL Walmart Marketplace] , um [API-Schlüssel für die Produktion von Lösungsanbietern für die Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Erstellen Sie den Schlüssel und konfigurieren Sie Berechtigungen:
 
@@ -50,12 +50,12 @@ Der Kanal-Manager benötigt die folgenden Ressourcen und Informationen, um einen
    | Regeln | Vollständiger Zugriff |
    | Versand | Vollständiger Zugriff |
 
-## Walmart Marketplace Store-Status
+## [!DNL Walmart Marketplace] Speicherstatus
 
-Wenn Sie Produkte im Walmart Marketplace veröffentlichen, hängt die Verfügbarkeit der Liste vom Status Ihrer Walmart Marketplace-Stores ab:
+Wenn Sie Produkte auf dem Marketplace veröffentlichen, hängt die Listenverfügbarkeit vom Status Ihrer [!DNL Walmart Marketplace] Stores:
 
 * Bei Live Stores werden Ihre Produktangebote aufgelistet und stehen zum Verkauf zur Verfügung, wenn der Match-Vorgang abgeschlossen ist.
 
-* Bei Geschäften, die nicht live sind, werden Ihre Produktangebote gestaffelt und für Kunden nicht sichtbar. Wenn der Store live geschaltet wird, werden Staging-Listen automatisch an den Live Store gesendet.
+* Bei Geschäften, die nicht live sind, werden Ihre Produktangebote gestaffelt und für Kunden nicht sichtbar. Wenn die [!DNL Walmart Marketplace] Store wird live geschaltet, gestaffelte Listen werden automatisch an den Live Store gesendet.
 
 ![[!DNL Walmart Seller Central] Staging-Produkte](assets/walmart-seller-central-staged.png)
