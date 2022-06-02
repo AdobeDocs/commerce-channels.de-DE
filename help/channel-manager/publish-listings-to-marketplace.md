@@ -2,9 +2,9 @@
 title: Veröffentlichen von Listen in Walmart
 description: Veröffentlichen von Listen für Commerce-Produkte in [!DNL Walmart Marketplace]um den Verkauf zu beginnen.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Wenn eine Übereinstimmung gefunden wird, wird die vorhandene Produktliste aktua
 
 ### Voraussetzungen
 
-Bevor Sie Produkte zuordnen, überprüfen Sie, ob Ihre Produktkatalog-Attributwerte die Walmart-Anforderungen erfüllen, und konfigurieren Sie die Attributeinstellungen. Siehe [Katalogattribute zuordnen](map-catalog-attributes.md).
+Bevor Sie Produkte zuordnen, überprüfen Sie, ob die Produktkatalog-Attributwerte die Walmart-Anforderungen erfüllen, und konfigurieren Sie die Produktattributeinstellungen. Siehe [Katalogattribute zuordnen](map-catalog-attributes.md).
 
 #### Produkte auswählen und abgleichen
 
@@ -52,9 +52,7 @@ Bevor Sie Produkte zuordnen, überprüfen Sie, ob Ihre Produktkatalog-Attributwe
 
 Nach Abschluss der Übereinstimmung kann der Status *Übereinstimmung* oder *Fehler*.
 
-* **[!UICONTROL Match]** gibt an, dass das Produkt erfolgreich abgeglichen wurde. Ihr Produktangebot wurde auf einer vorhandenen Walmart Marketplace-Liste veröffentlicht. Wenn die Variable [Marketplace store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* wird im *[!UICONTROL Status detail]* Spalte.
-
-Wenn [[!DNL Walmart Marketplace] store ist nicht aktiv](walmart-prerequisites.md#walmart-marketplace-store-status), die *Statusdetails* gibt an, dass das Produkt *Staging für Übereinstimmung*. Staging-Produkte werden automatisch veröffentlicht, wenn die Variable [!DNL Walmart Marketplace] store aktiviert ist.
+* **[!UICONTROL Match]** gibt an, dass das Produkt erfolgreich abgeglichen wurde. Ihr Produktangebot wurde auf einer vorhandenen Walmart Marketplace-Liste veröffentlicht. Wenn die Variable [Marketplace store ist nicht aktiv](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* wird im *[!UICONTROL Status detail]* Spalte. Staging-Produkte werden automatisch veröffentlicht, wenn die Variable [!DNL Walmart Marketplace] store aktiviert ist.
 
 * **[!UICONTROL Error]** gibt an, dass der Match-Vorgang aufgrund eines der folgenden Probleme fehlgeschlagen ist:
 
@@ -116,7 +114,7 @@ Verwenden Sie für Produkte, die auf dem Walmart Marketplace nicht übereinstimm
 
 ### Voraussetzungen
 
-* Vergewissern Sie sich, dass Sie die [Walmart-Voraussetzungen](walmart-prerequisites.md).
+* Vergewissern Sie sich, dass Sie die [Walmart-Anforderungen](walmart-requirements.md).
 
 * Überprüfen Sie in Ihrem Commerce-Produktkatalog, ob die Katalogkonfiguration für die Produkte, die auf dem Walmart Marketplace aufgelistet werden sollen, alle erforderlichen Attribute aufweist und den Inhaltsrichtlinien von Walmart Marketplace entspricht.
 

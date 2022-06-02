@@ -2,9 +2,9 @@
 title: Installieren [!DNL Channel Manager]
 description: Installieren Sie die Channel Manager-Erweiterung.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Installieren [!DNL Channel Manager]
 
-Überprüfen Sie die [Voraussetzungen](onboard.md#prerequisites) und sammeln Sie die erforderlichen Informationen, bevor Sie den Kanal-Manager installieren.
+Überprüfen Sie die [Anforderungen](onboard.md#requirements) und sammeln Sie die erforderlichen Informationen, bevor Sie den Kanal-Manager installieren.
 
 ## Mindeststabilitätseinstellung aktualisieren
 
@@ -56,7 +56,7 @@ Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adob
 1. Aus dem [!DNL Commerce] Projektstammordner, Hinzufügen von Kanal-Manager zu `composer.json`.
 
    ```bash
-    $ composer require magento/channel-manager --no-update
+    composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. Geben Sie bei entsprechender Aufforderung die Zugriffsschlüssel aus Ihrem [!DNL Commerce] -Konto.
@@ -66,59 +66,55 @@ Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adob
 1. Aktualisieren Sie die Abhängigkeiten und installieren Sie die Erweiterung.
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
 
-   Die `composer update` -Befehl aktualisiert alle Abhängigkeiten. Verwenden Sie stattdessen diesen Befehl, um nur Abhängigkeiten im Zusammenhang mit dem Kanal-Manager zu aktualisieren: `composer update magento/channel-manager`.
+   Die `composer update` -Befehl aktualisiert nur die Abhängigkeiten, die für [!DNL Channel Manager]. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
 
 1. Warten Sie, bis Composer die Aktualisierung der Projektabhängigkeiten abgeschlossen und etwaige Fehler behoben hat.
 
-1. Installation überprüfen
+1. Überprüfen Sie die Modulinstallation:
+
+   - Überprüfen Sie den Modulstatus.
+
+      ```bash
+      bin/magento module:status Magento_SalesChannels
+      ```
+
+      Beispielantwort:
+
+      ```terminal
+      Module is enabled
+      ```
+
+   - Wenn das Modul nicht aktiviert ist, aktivieren Sie es.
 
    ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   Beispielantwort:
-
-   ```terminal
-   Module is disabled
+   bin/magento module:enable Magento_SalesChannels
    ```
 
 1. Registrieren Sie die Erweiterung.
 
    ```bash
-   $ bin/magento setup:upgrade
+   bin/magento setup:upgrade
    ```
 
 1. Kompilieren Sie bei entsprechender Aufforderung Ihre [!DNL Commerce] Projekt.
 
    ```bash
-   $ bin/magento setup:di:compile
-   ```
-
-1. Stellen Sie sicher, dass die Erweiterung aktiviert ist:
-
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   Beispielantwort:
-
-   ```bash
-   Module is enabled
+   bin/magento setup:di:compile
    ```
 
 1. Bereinigen Sie den Cache.
 
    ```bash
-   $ bin/magento cache:clean
+   bin/magento cache:clean
    ```
 
 1. Wartungsmodus deaktivieren.
 
    ```bash
-    $ bin/magento maintenance:disable
+   bin/magento maintenance:disable
    ```
 
 ### Installieren auf einer Adobe Commerce on Cloud Infrastructure-Instanz
@@ -136,14 +132,16 @@ Während der Installation wird der Erweiterungsname (`magento\channel-manager`) 
 1. Fügen Sie mithilfe des Composer-Namens die Erweiterung zum `require` Abschnitt `composer.json` -Datei.
 
    ```bash
-   $ composer require magento/channel-manager --no-update
+   composer require require magento/module-sales-channels-extension --no-update
    ```
 
-1. Aktualisieren Sie die Projektabhängigkeiten.
+1. Aktualisieren Sie die Abhängigkeiten und installieren Sie die Erweiterung.
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
+
+   Die `composer update` -Befehl aktualisiert nur die Abhängigkeiten, die für [!DNL Channel Manager]. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
 
 1. Hinzufügen, Übertragen und Push-Code-Änderungen, die Änderungen an beiden `composer.lock` und `composer.json` -Datei.
 
@@ -161,15 +159,18 @@ Während der Installation wird der Erweiterungsname (`magento\channel-manager`) 
 
 1. Nachdem der Build- und Bereitstellungsprozess abgeschlossen ist, melden Sie sich mit SSH bei der Remote-Umgebung an und überprüfen Sie, ob die Erweiterung ordnungsgemäß installiert wurde.
 
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
+```bash
+   bin/magento module:status Magento_SalesChannels
+```
 
-   Beispielantwort:
+Beispielantwort:
 
-   ```terminal
-   Module is enabled
-   ```
+```terminal
+Module is enabled
+```
+
+Wenn das Modul deaktiviert ist, [Aktivieren Sie sie in Ihrer lokalen Umgebung](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) und stellen Sie Ihre Änderungen bereit.
+
 
 1. Nachdem Sie die Erweiterung erfolgreich installiert haben, melden Sie sich bei der [!UICONTROL Admin] nach [Konfigurieren von Commerce Services Connector](connect.md).
 

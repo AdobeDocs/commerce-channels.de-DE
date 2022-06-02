@@ -4,9 +4,9 @@ description: Verbinden Sie den Kanal-Manager mit [!DNL Commerce] Dienste, die di
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Die Einrichtung des Commerce Services Connector ist ein einmaliger Prozess, der 
 
 - **Commerce-Konto**-Um Software auf Commerce-Instanzen zu installieren, müssen Sie über ein Konto mit dem Eigentümer oder Administrator Zugriff auf die Commerce-Plattform verfügen.
 
-   Kontoinhaber und Admin-Benutzer können über die Commerce-Instanz oder über die Befehlszeile Admin-Konten erstellen. [!DNL Commerce] CLI, Befehl `admin:user:create`.
+   Kontoinhaber und Superbenutzer können über die Commerce-Instanz oder über die Befehlszeile Admin-Konten erstellen. [!DNL Commerce] CLI, Befehl `admin:user:create`.
 
 - **Adobe Commerce Production API-Schlüssel**-this [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} ermöglicht API-Zugriff auf Dienste, die für den Kanal-Manager erforderlich sind. Sie benötigen die öffentlichen und privaten Anmeldeinformationen für diesen Schlüssel.
 

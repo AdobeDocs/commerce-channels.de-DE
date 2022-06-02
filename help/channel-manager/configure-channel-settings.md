@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren der Kanaleinstellungen
 description: Konfigurieren Sie die Einstellungen für den Kanal-Manager und den Vertriebskanal für die Authentifizierung, ordnen Sie die Katalogattribute und die Versandunternehmen zu, die zum Koordinieren von Verkaufsvorgängen zwischen [!DNL Commerce] und [!DNL Walmart Marketplace].
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -19,4 +19,4 @@ In [!DNL Channel Manager], konfigurieren Sie während des Onboarding-Prozesses e
 
 * **[Versandunternehmen zuordnen](map-shipping-carriers.md)**-Vor der Verarbeitung [!DNL Walmart Marketplace] Bestellungen von [!DNL Commerce], stellen Sie sicher, dass Sie die Versandunternehmen von Ihren [!DNL Commerce] Instanz an die entsprechenden Netzbetreiber auf [!DNL Walmart Marketplace].
 
-* **Walmart API-Anmeldeinformationen**-Während der [!DNL Channel Manager] Onboarding-Vorgang, geben Sie die [Walmart API-Anmeldeinformationen](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) von [!DNL Walmart Marketplace Seller] Konto für Verbindung [!DNL Commerce] nach [!DNL Walmart Marketplace] für die Kommunikation und Datensynchronisation. Bei Bedarf können Sie diese Anmeldedaten im Abschnitt *Einstellungen* Seite.
+* **Walmart API-Anmeldeinformationen**-Während der [!DNL Channel Manager] Onboarding-Vorgang, geben Sie die [Walmart API-Anmeldeinformationen](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) von [!DNL Walmart Marketplace Seller] Konto für Verbindung [!DNL Commerce] nach [!DNL Walmart Marketplace] für die Kommunikation und Datensynchronisation. Bei Bedarf können Sie diese Anmeldedaten im Abschnitt *Einstellungen* Seite.
