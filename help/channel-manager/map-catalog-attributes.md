@@ -2,19 +2,18 @@
 title: Katalogattribute zuordnen
 description: Zuordnen von Attributen zum Abgleich [DNL! Commerce-] Produkte in bestehende [!DNL Walmart Marketplace] Auflistungen und Synchronisieren von Daten zwischen [!DNL Channel Manager] und [!DNL Walmart].
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
 # Katalogattribute zuordnen
 
-Vor der Veröffentlichung von Listen aus [!DNL Commerce] nach [!DNL Walmart Marketplace]müssen Sie mindestens eine eindeutige Kennung aus Ihrem [!DNL Commerce] Katalog zur entsprechenden Kennung von Walmart.
-Dieser Schritt muss mit [!DNL Commerce] bereits [!DNL Walmart] Auflistungen und zum Synchronisieren von Produktdaten zwischen [!DNL Commerce] und [!DNL Walmart].
+Vor der Verbindung von Listen aus [!DNL Commerce] nach [!DNL Walmart Marketplace]müssen Sie mindestens eine eindeutige Kennung aus Ihrem [!DNL Commerce] Katalog zur entsprechenden Kennung von Walmart.
 
-Bei der Produktabstimmung wird die [!DNL Commerce] Das Produkt muss über mindestens ein Produktattribut verfügen, das mit einer der folgenden Produkt-IDs (Product IDs) übereinstimmt, die für [!DNL Walmart].
+Dieser Schritt muss mit [!DNL Commerce] bereits [!DNL Walmart] Auflistungen und zum Synchronisieren von Produktdaten zwischen [!DNL Commerce] und [!DNL Walmart]. Die [!DNL Commerce] Das Produkt muss über mindestens ein Produktattribut verfügen, das mit einer der folgenden Produkt-IDs (Product IDs) übereinstimmt, die für [!DNL Walmart].
 
 **Erforderlich [!DNL Walmart] Produkt-IDs**
 
@@ -29,7 +28,9 @@ Wenn Ihr Katalog nicht über ein entsprechendes Attribut verfügt, [Hinzufügen 
 
 ## Zuordnen eindeutiger Kennungen
 
-1. Im [!UICONTROL Listings] Seite für den Verkaufskanalspeicher auswählen **[!UICONTROL Settings]**.
+1. Aus dem **[!UICONTROL Listings]** oder **[!UICONTROL Orders]** Seite für den Verkaufskanalspeicher auswählen **[!UICONTROL Channel Settings]**.
+
+1. on **[!UICONTROL Channel Settings]** auswählen **[!UICONTROL Shipping Carriers]**.
 
    - Suchen Sie die [!DNL Walmart Marketplace] -Attribut zuzuordnen.
 
@@ -37,17 +38,7 @@ Wenn Ihr Katalog nicht über ein entsprechendes Attribut verfügt, [Hinzufügen 
 
       Im folgenden Beispiel wird die [!UICONTROL Walmart Marketplace UPC] -Attribut dem UPC-Attribut im Produktkatalog.
    ![Zuordnungsattribute für Produktübereinstimmungskriterien](assets/products-map-attributes-for-match.png)
-   - Optional können Sie mehrere Attribute zuordnen, um Übereinstimmungen zu erhöhen. Wenn Sie mehr als ein Attribut zuordnen, wählen Sie eines als **Primäre Kennung**. Diese
 
    - Auswählen **[!UICONTROL Save]**.
 
 
-## Zugeordnete Attributkonfiguration aktualisieren
-
-Ändern Sie die Commerce-Produktkennung für übereinstimmende Produkte, indem Sie die zugeordneten Attributeinstellungen aktualisieren.
-
-Anstatt beispielsweise Produkte auf Grundlage des Commerce UPC-Produktattribut-Codes zuzuordnen, können Sie eine Übereinstimmung anhand der SKU herstellen. Sie können auch zusätzliche Attribute zuordnen, um die Übereinstimmung zu verbessern.
-
-1. Aus dem **[!UICONTROL Listings]** auswählen **[!UICONTROL Settings]**.
-
-1. Ändern Sie im Formular Zuordnungsattribut die zugeordnete Attributkonfiguration nach Bedarf.

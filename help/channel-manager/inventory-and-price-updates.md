@@ -2,20 +2,26 @@
 title: Bestand- und Preisaktualisierungen
 description: '''[!DNL Channel Manager] Synchronisiert Inventar- und Preisaktualisierungen zwischen dem Commerce Store und [!DNL Walmart Marketplace] damit Sie Ihre Vertriebskanalvorgänge von Ihrem Commerce-Administrator aus verwalten können.'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # Inventar- und Preisaktualisierung
 
-[!DNL Channel Manager] erfasst Inventar und Preise für Produkte in [!DNL Commerce] Produktkatalog und Synchronisierungsaktualisierungen zum verbundenen Vertriebskanal und [!DNL Walmart Marketplace]. Durch die Synchronisierung wird sichergestellt, dass die Produktlisten die aktuelle Lagermenge und -preise widerspiegeln.
+[!DNL Channel Manager] erfasst Inventar und Preise für Produkte in [!DNL Commerce] Produktkatalog und synchronisiert Aktualisierungen mit dem verbundenen Vertriebskanal und [!DNL Walmart Marketplace]. Der Synchronisierungsvorgang stellt sicher, dass die Produktlisten die aktuelle Lagermenge und -preisstruktur widerspiegeln.
+
+
+>[!IMPORTANT]
+>
+>Nachher [!DNL Channel Manager] installiert und konfiguriert ist, werden alle Inventar-, Preis- und Bestellaktualisierungen automatisch synchronisiert. Wenn Sie bereits direkt oder über eine andere Integration auf dem Walmart Marketplace verkaufen, deaktivieren Sie die vorherige Integration und stellen Sie sicher, dass die Lagerbestände und Preise im Commerce-Storefront korrekt sind und mit den Daten in übereinstimmen. [!DNL Walmart Marketplace] bevor Sie eine Verbindung herstellen [!DNL Channel Manager] in den Live-Marketplace-Store.
+
 
 ## Inventaraktualisierungen
 
-Wenn sich die Produktinventarisierung ändert [!DNL Commerce], [!DNL Channel Manager] Synchronisiert Aktualisierungen des Vertriebskanals und des [!DNL Walmart Marketplace]. Es kann bis zu 10 Minuten dauern, bis Bestandsaktualisierungen über den Vertriebskanal hinweg mit dem [!DNL Walmart marketplace].
+Wenn sich die Produktinventarisierung ändert [!DNL Commerce], [!DNL Channel Manager] synchronisiert Aktualisierungen für [!DNL Walmart Marketplace]. Es kann bis zu 10 Minuten dauern, bis Bestandsaktualisierungen über den Vertriebskanal hinweg mit dem [!DNL Walmart marketplace].
 
 * **Aktualisierungen der Lagermenge im Produktkatalog**—When [!DNL Commerce] Änderungen der Lagermenge aufgrund von [manuelle Änderungen der Lagermenge](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), Erstattungen oder Annullierungen, [!DNL Channel Manager] Synchronisiert die Änderung mit verbundenen Kanälen und [!DNL Walmart Marketplace].
 
@@ -29,7 +35,7 @@ Wenn sich die Produktinventarisierung ändert [!DNL Commerce], [!DNL Channel Man
 
 Wenn sich der Produktpreis in [!DNL Commerce], [!DNL Channel Manager] synchronisiert die Aktualisierung mit dem [!DNL Walmart Marketplace]. Es kann bis zu fünf Minuten dauern, bis die Preisänderung im [!DNL Walmart Marketplace] Auflistung.
 
-### Preise für ein veröffentlichtes Produkt verwalten
+### Preise für verbundene Produkte verwalten
 
 1. Aus dem [!UICONTROL Admin]auswählen **[!UICONTROL Catalog > Products]**.
 1. Suchen Sie im Produktraster nach dem zu aktualisierenden Produkt und wählen Sie **[!UICONTROL Edit]**.

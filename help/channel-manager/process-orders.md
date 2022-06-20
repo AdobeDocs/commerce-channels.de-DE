@@ -2,9 +2,9 @@
 title: Verarbeitungsaufträge
 description: Versandanleitung und Stornierung [!DNL Walmart Marketplace] Bestellungen von Adobe Commerce und Magento Open Source.
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ Der Kanal-Manager synchronisiert Aktualisierungen mit [!DNL Walmart Marketplace]
 
 * **Auftragsversand**-Walmart benötigt eine Trackingnummer für alle Sendungen. Wenn einige Artikel nicht vorrätig sind, können Sie Teillieferungen erstellen, um derzeit verfügbare Artikel zu senden. Nach Absendung der Sendung werden die Auftragsaktualisierungen mit [!DNL Walmart Marketplace]. Anschließend informiert Walmart die Kunden über den Bestellstatus und die Versanddetails.
 
-* **Stornierungen von Bestellungen**-Wenn Sie eine [!DNL Walmart Marketplace] Bestellung, Walmart benötigt einen Stornierungsgrund, der in der an den Kunden gesendeten Stornierungsmeldung enthalten ist. Der Stornogrund wird auch im Abschnitt [!DNL Commerce] Bestellzahlinformationen.
+* **Stornierungen von Bestellungen**-Wenn Sie eine [!DNL Walmart Marketplace] Bestellung, Walmart benötigt einen Stornierungsgrund, der in der an den Kunden gesendeten Stornierungsmeldung enthalten ist. Der Stornogrund wird auch im Abschnitt [!DNL Commerce] Bestellzahlinformationen. Nachdem Sie den Abbruch gesendet haben, werden Bestandsaktualisierungen mit synchronisiert. [!DNL Walmart Marketplace]. Anschließend informiert Walmart die Kunden über den Bestellstatus und die Versanddetails.
+
+   In der Storefront müssen Sie die gesamte Bestellung stornieren. Der Handel gestattet keine teilweisen Stornierungen.
+
+Bei der Verarbeitung von Commerce-Bestellungen und [!DNL Channel Manager] Synchronisiert erfolgreich Versand-, Teillieferungs- und Löschaktualisierungen der [!DNL Walmart Marketplace], ist die Auftragsverarbeitung abgeschlossen.
 
 >[!NOTE]
 >
@@ -69,3 +73,11 @@ Der Kanal-Manager synchronisiert Aktualisierungen mit [!DNL Walmart Marketplace]
 
 
 1. Verfolgen Sie nach dem Absenden des Abbruchs die [Bestellstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] , um zu überprüfen, ob Aktualisierungen an [!DNL Walmart Marketplace].
+
+## Bestellfehler beheben
+
+Fehler können während des Bestellsynchronisierungsprozesses von [!DNL Walmart Marketplace]oder während der Auftragsaktualisierung für Sendungen, Teillieferungen und Stornierungen.
+
+Wenn der Synchronisierungsvorgang für eine Lieferung, eine teilweise Lieferung oder eine Löschung der Aktualisierung fehlschlägt, wird die [!DNL Channel Manager] Auf der Bestellseite wird eine _Fehler_ Status für die Bestellung. Um sicherzustellen, dass Versandinformationen und Auftragsstornierungsinformationen im Walmart Marketplace-Konto korrekt widergespiegelt werden, müssen Sie die Bestellung manuell in Ihrem [!DNL Walmart Marketplace] speichern.
+
+

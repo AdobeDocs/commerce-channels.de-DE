@@ -2,9 +2,9 @@
 title: Installieren [!DNL Channel Manager]
 description: Installieren Sie die Channel Manager-Erweiterung.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
+source-git-commit: f3b4392824e5682cec2f7071445111373188808e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,6 @@ ht-degree: 0%
 # Installieren [!DNL Channel Manager]
 
 Überprüfen Sie die [Anforderungen](onboard.md#requirements) und sammeln Sie die erforderlichen Informationen, bevor Sie den Kanal-Manager installieren.
-
-## Mindeststabilitätseinstellung aktualisieren
-
-Aktualisieren Sie vor der Installation der Erweiterung die `minimum-stability` Anforderungen in `composer.json` -Datei, damit Sie frühe Versionen von Channel Manager mithilfe von Composer installieren können.
-
-Um die Konfiguration zu aktualisieren, fügen Sie die folgenden Zeilen zum `composer.json` -Datei.
-
-```json
-{
-   "minimum-stability": "alpha",
-   "prefer-stable": true
-}
-```
 
 ## Installieren der Erweiterung
 
