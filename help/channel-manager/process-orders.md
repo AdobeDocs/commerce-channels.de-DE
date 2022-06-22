@@ -1,10 +1,10 @@
 ---
 title: Verarbeitungsaufträge
-description: Versandanleitung und Stornierung [!DNL Walmart Marketplace] Bestellungen von Adobe Commerce und Magento Open Source.
+description: '"Hinweise für Versand und Stornierung [!DNL Walmart Marketplace] Bestellungen von Adobe Commerce und Magento Open Source."'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 Nachher [!DNL Walmart Marketplace] Bestellungen wurden bestätigt und erfolgreich an gesendet [!DNL Channel Manager], verwenden Sie [Commerce Order Management](https://docs.magento.com/user-guide/sales/orders-workspace.html) , um die Bestellung zu verarbeiten.
 
-Der Kanal-Manager synchronisiert Aktualisierungen mit [!DNL Walmart Marketplace] , um sicherzustellen, dass der Auftragsstatus und die Versandinformationen aus Commerce mit den in der Variablen [!DNL Walmart Marketplace].
+Der Kanal-Manager synchronisiert Aktualisierungen mit [!DNL Walmart Marketplace] sicherstellen, dass der Auftragsstatus und die Versandinformationen von [!DNL Commerce] entspricht den in der [!DNL Walmart Marketplace].
 
 * **Auftragsversand**-Walmart benötigt eine Trackingnummer für alle Sendungen. Wenn einige Artikel nicht vorrätig sind, können Sie Teillieferungen erstellen, um derzeit verfügbare Artikel zu senden. Nach Absendung der Sendung werden die Auftragsaktualisierungen mit [!DNL Walmart Marketplace]. Anschließend informiert Walmart die Kunden über den Bestellstatus und die Versanddetails.
 
 * **Stornierungen von Bestellungen**-Wenn Sie eine [!DNL Walmart Marketplace] Bestellung, Walmart benötigt einen Stornierungsgrund, der in der an den Kunden gesendeten Stornierungsmeldung enthalten ist. Der Stornogrund wird auch im Abschnitt [!DNL Commerce] Bestellzahlinformationen. Nachdem Sie den Abbruch gesendet haben, werden Bestandsaktualisierungen mit synchronisiert. [!DNL Walmart Marketplace]. Anschließend informiert Walmart die Kunden über den Bestellstatus und die Versanddetails.
 
-   In der Storefront müssen Sie die gesamte Bestellung stornieren. Der Handel gestattet keine teilweisen Stornierungen.
+   In der Storefront müssen Sie die gesamte Bestellung stornieren. [!DNL Commerce] lässt keine teilweisen Stornierungen zu.
 
 Bei der Verarbeitung von Commerce-Bestellungen und [!DNL Channel Manager] Synchronisiert erfolgreich Versand-, Teillieferungs- und Löschaktualisierungen der [!DNL Walmart Marketplace], ist die Auftragsverarbeitung abgeschlossen.
 
@@ -58,7 +58,7 @@ Bei der Verarbeitung von Commerce-Bestellungen und [!DNL Channel Manager] Synchr
 
 1. Zur Ansicht [!DNL Walmart Marketplace] Bestellungen, auswählen *[!UICONTROL *Orders]**.
 
-1. Öffnen Sie in der Bestelltabelle die Detailseite der Bestellung, indem Sie die **Commerce-Bestellnummer** für die Bestellung zum Abbrechen.
+1. Öffnen Sie in der Tabelle &quot;Bestellungen&quot;den [Bestelldetailseite](manage-orders.md#view-order-detail) durch Auswahl der **Commerce-Bestellnummer** für die Bestellung zum Abbrechen.
 
    ![Detailansicht einer Commerce-Bestellung für[!DNL Walmart Marketplace]order](assets/order-detail-with-external-order-id.png)
 

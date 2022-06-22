@@ -1,10 +1,10 @@
 ---
 title: Bestand- und Preisaktualisierungen
-description: '''[!DNL Channel Manager] Synchronisiert Inventar- und Preisaktualisierungen zwischen dem Commerce Store und [!DNL Walmart Marketplace] damit Sie Ihre Vertriebskanalvorgänge von Ihrem Commerce-Administrator aus verwalten können.'
+description: '''[!DNL Channel Manager] Synchronisiert Inventar- und Preisaktualisierungen zwischen [!DNL Commerce] speichern und [!DNL Walmart Marketplace] damit Sie Ihre Vertriebskanalvorgänge über die [!DNL Commerce] Admin'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Nachher [!DNL Channel Manager] installiert und konfiguriert ist, werden alle Inventar-, Preis- und Bestellaktualisierungen automatisch synchronisiert. Wenn Sie bereits direkt oder über eine andere Integration auf dem Walmart Marketplace verkaufen, deaktivieren Sie die vorherige Integration und stellen Sie sicher, dass die Lagerbestände und Preise im Commerce-Storefront korrekt sind und mit den Daten in übereinstimmen. [!DNL Walmart Marketplace] bevor Sie eine Verbindung herstellen [!DNL Channel Manager] in den Live-Marketplace-Store.
+>Nachher [!DNL Channel Manager] installiert und konfiguriert ist, werden alle Inventar-, Preis- und Bestellaktualisierungen automatisch synchronisiert. Wenn Sie bereits auf Walmart Marketplace verkaufen, deaktivieren Sie alle anderen Integrationen, die das Produkt und die Bestelldaten aktualisieren. Überprüfen Sie dann, ob Lagerbestände und -preise in der Variablen [!DNL Commerce] storefront sind genau und stimmen mit den Daten in [!DNL Walmart Marketplace] bevor Sie eine Verbindung herstellen [!DNL Channel Manager] in den Live-Marketplace-Store.
 
 
 ## Inventaraktualisierungen

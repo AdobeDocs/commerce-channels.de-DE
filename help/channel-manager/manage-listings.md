@@ -1,10 +1,10 @@
 ---
-title: Verwalten von Listen
-description: Verwalten von Verkaufskanallisten für eine [!DNL Commerce] mit dem Kanal-Manager für Adobe Commerce und Magento Open Source speichern.
+title: Listen verwalten
+description: '"Verwalten von Verkaufskanallisten für eine [!DNL Commerce] mit dem Kanal-Manager für Adobe Commerce und Magento Open Source speichern."'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Sie können die folgenden Aufgaben in der Listenansicht ausführen.
 * Produkte hinzufügen
 * Produkte abgleichen
 * Status der Tracking-Liste
-* Fehlerbeschreibung für alle Produktlisten mit Fehlerstatus
+* Fehlerbeschreibung für Listen mit Fehlerstatus überprüfen
 
 ## Anzeigen von Produktlisten
 
@@ -40,7 +40,7 @@ Sie können die folgenden Aufgaben in der Listenansicht ausführen.
 
 1. Die Sortierreihenfolge zurücksetzen und Filter durch Auswahl von **Produkte aktualisieren**.
 
-## Hinzufügen von Commerce-Produkten zum Kanal-Manager
+## Hinzufügen [!DNL Commerce] Produkte an den Kanal-Manager
 
 Erstellen Sie das Produktangebot für die [!DNL Walmart Marketplace] -Kanal durch Ausführen der folgenden Aufgaben:
 
@@ -93,7 +93,7 @@ Im Arbeitsbereich &quot;Listen&quot;zeigt die Bezeichnung Status an, wo sich ein
 
 * **[!UICONTROL Match]**- Identifiziert Produkte, die erfolgreich zugewiesen wurden unter [!DNL Walmart].
 
-   Eine Übereinstimmung tritt auf, wenn der Produktattributwert - z. B. der UPC-Code - mit dem UPC-Wert in einem vorhandenen übereinstimmt [!DNL Walmart Marketplace] Auflistung. Wenn ein Produkt übereinstimmt, wird das Commerce-Produktangebot dem vorhandenen hinzugefügt [!DNL Walmart] Auflistung.
+   Eine Übereinstimmung tritt auf, wenn der Produktattributwert - z. B. der UPC-Code - mit dem UPC-Wert in einem vorhandenen übereinstimmt [!DNL Walmart Marketplace] Auflistung. Wenn ein Produkt übereinstimmt, wird das Commerce-Produktangebot der vorhandenen Liste hinzugefügt.
 
    Überprüfen Sie die [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) Dashboard , um die aktualisierte Produktliste zu überprüfen und Produktdetails, Preise und Lagerbestände zu überprüfen.
 

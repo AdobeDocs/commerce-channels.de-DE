@@ -1,12 +1,12 @@
 ---
 title: '''[!DNL Channel Manager] Guide overview'''
-description: Umfassende Informationen zu [!DNL Channel Manager] für Adobe Commerce- und Magento Open Source-Administratoren, einschließlich Installation und Onboarding
+description: '"Umfassende Informationen zu [!DNL Channel Manager] für Adobe Commerce- und Magento Open Source-Administratoren, einschließlich Installation und Onboarding."'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Übersicht
 
-Dieses Handbuch richtet sich an Administratoren von Adobe Commerce und Magento Open Source. Es enthält detaillierte Informationen zu [!DNL Channel Manager] Installation, Onboarding, Konfiguration und Verwaltung. Das Handbuch setzt grundlegende Kenntnisse der Commerce-Konfiguration und -Funktionalität voraus.
+Dieses Handbuch richtet sich an Administratoren von Adobe Commerce und Magento Open Source. Es enthält detaillierte Informationen zu [!DNL Channel Manager] Installation, Onboarding, Konfiguration und Verwaltung. Das Handbuch setzt ein grundlegendes Verständnis des Kerns voraus [!DNL Commerce] Konfiguration und Funktionalität.
 
 [!DNL Channel Manager] verfügt über zwei Bereiche für Administratoren:
 
@@ -23,7 +23,7 @@ Dieses Handbuch richtet sich an Administratoren von Adobe Commerce und Magento O
 
 Dieses Handbuch behandelt:
 
-* Alle [!DNL Channel Manager]-spezifische Aufgaben, die vom Commerce Admin ausgeführt werden.
+* Alle [!DNL Channel Manager]-spezifische Aufgaben, die von der [!DNL Commerce] Admin.
 * Alle [!DNL Channel Manager]-spezifische Aufgaben, die über die Befehlszeile abgeschlossen werden.
 
 Weitere Informationen zur Verwaltung Ihrer [!DNL Commerce] Informationen zu Plattformen, Projekten und Websites finden Sie in den Handbüchern für Benutzer und Entwickler von Adobe Commerce und Magento Open Source .

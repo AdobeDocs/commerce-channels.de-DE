@@ -1,12 +1,12 @@
 ---
-title: Verbinden mit [!DNL Commerce] Dienstleistungen
-description: Verbinden Sie den Kanal-Manager mit [!DNL Commerce] Dienste, die die Datensynchronisation und Kommunikation zwischen [!DNL Commerce] -Instanz, Kanal-Manager und anderen unterstützenden Diensten.
+title: '"Verbinden mit [!DNL Commerce] Dienste'''
+description: '"Verbinden Sie den Kanal-Manager mit [!DNL Commerce] Dienste, die die Datensynchronisation und Kommunikation zwischen [!DNL Commerce] -Instanz, Kanal-Manager und anderen unterstützenden Diensten."'
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
+source-git-commit: 7e7a3e854bbc6062e2d15c1962ddf787451e7275
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # Verbinden mit [!DNL Commerce] Dienstleistungen
 
-Der Commerce Services Connector integriert den Channel Manager-Dienst in Adobe Commerce- und Magento Open Source-Instanzen. Der Connector ermöglicht die Datensynchronisation und Kommunikation zwischen dem [!DNL Commerce] Instanz, [!DNL Channel Manager]und andere unterstützende Dienste.
+Die [!DNL Commerce Services Connector] integriert den Kanal-Manager-Dienst in Adobe Commerce- und Magento Open Source-Instanzen. Der Connector ermöglicht die Datensynchronisation und Kommunikation zwischen dem [!DNL Commerce] Instanz, [!DNL Channel Manager]und andere unterstützende Dienste.
 
-Die Einrichtung des Commerce Services Connector ist ein einmaliger Prozess, der für die Verwendung von Adobe erforderlich ist [Commerce SaaS-Dienste](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} wie [!DNL Channel Manager], [!DNL Live Search]und [!DNL Product Recommendations]. Wenn Sie den Connector bereits für einen anderen Dienst konfiguriert haben, überspringen Sie diesen Schritt.
+[!DNL Commerce Services Connector] Einrichtung ist ein einmaliger Prozess, der verwendet werden muss [Adobe Commerce SaaS-Dienste](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;}, z. B. [!DNL Channel Manager], [!DNL Live Search]und [!DNL Product Recommendations]. Wenn Sie den Connector bereits für einen anderen Dienst konfiguriert haben, überspringen Sie diesen Schritt.
 
 ## Voraussetzungen
 
-- **Commerce-Konto**-Um Software auf Commerce-Instanzen zu installieren, müssen Sie über ein Konto mit dem Eigentümer oder Administrator Zugriff auf die Commerce-Plattform verfügen.
+- **Commerce-Konto**-Installieren der Software auf [!DNL Commerce] -Instanzen müssen Sie über ein Konto mit dem Inhaber- oder Administratorzugriff auf die [!DNL Commerce] Plattform.
 
-   Kontoinhaber und Superbenutzer können über die Commerce-Instanz oder über die Befehlszeile Admin-Konten erstellen. [!DNL Commerce] CLI, Befehl `admin:user:create`.
+   Kontoinhaber und Superbenutzer können über die [!DNL Commerce] -Instanz oder über die Befehlszeile mit der [!DNL Commerce] CLI, Befehl `admin:user:create`.
 
 - **Adobe Commerce Production API-Schlüssel**-this [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} ermöglicht API-Zugriff auf Dienste, die für den Kanal-Manager erforderlich sind. Sie benötigen die öffentlichen und privaten Anmeldeinformationen für diesen Schlüssel.
 
 >[!TIP]
 >
->Um die Anmeldedaten bereitzustellen, hat ein Inhaber einer Commerce-Lizenz oder eines Kontos folgende Optionen: [Freigeben von Zugriff](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} oder geben Sie die [API-Schlüssel](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} Anmeldedaten für einen vertrauenswürdigen Entwickler.
+>Um die Anmeldeinformationen anzugeben, muss ein [!DNL Commerce] Lizenzinhaber oder Kontoinhaber hat Optionen [Freigeben von Zugriff](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} oder geben Sie die [API-Schlüssel](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} Anmeldedaten für einen vertrauenswürdigen Entwickler.
 
-## Connector für Commerce Services konfigurieren
+## Konfigurieren Sie die [!DNL Commerce Services Connector]
 
 1. Öffnen Sie die Konfiguration der Store-Dienste .
 
@@ -42,7 +42,7 @@ Die Einrichtung des Commerce Services Connector ist ein einmaliger Prozess, der 
 
 1. Fügen Sie Anmeldedaten für den Produktions-API-Schlüssel aus Ihrem Adobe Commerce-Konto hinzu.
 
-   ![[!DNL Commerce Service Connector] im [!DNL Admin] Ansicht](assets/commerce-services-connector-admin-service-view.png)
+   ![[!DNL Commerce Services Connector] im [!DNL Admin] Ansicht](assets/commerce-services-connector-admin-service-view.png)
 
 
    >[!NOTE]
@@ -51,5 +51,5 @@ Die Einrichtung des Commerce Services Connector ist ein einmaliger Prozess, der 
 
 1. Konfigurieren Sie das SaaS-Projekt und den Datenraum, damit Commerce Services Daten an den Kanal-Manager-Dienst senden kann.
 
-   ![[!DNL Commerce Service Connector] SaaS-ID-Konfiguration in der [!DNL Admin] Ansicht](assets/commerce-services-connector-saas-config.png)
+   ![[!DNL Commerce Services Connector] SaaS-ID-Konfiguration in der [!DNL Admin] Ansicht](assets/commerce-services-connector-saas-config.png)
 

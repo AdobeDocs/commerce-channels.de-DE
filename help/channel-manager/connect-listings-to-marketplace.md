@@ -1,10 +1,10 @@
 ---
 title: Listen mit Walmart verbinden
-description: Verbinden von Auflistungen für Commerce-Produkte mit [!DNL Walmart Marketplace]um den Verkauf zu beginnen.
+description: '"Verbindungslisten für [!DNL Commerce] Produkte [!DNL Walmart Marketplace]zu verkaufen."'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ Wie andere Marktplätze, [!DNL Walmart] Ermöglicht es Drittanbietern, von ander
 
 - [!DNL Walmart Marketplace] verwendet Produktidentifikatoren wie UPC und GTIN, um Produkte mit bestehenden abzugleichen [!DNL Walmart Marketplace] Auflistungen.
 
-- Für passende Produkte listet der Walmart Marketplace Aktualisierungen auf, um das Commerce-Produktangebot bei der Verbindung eines Produkts von einzubeziehen. [!DNL Channel Manager].
+- Bei übereinstimmenden Produkten listet der Walmart Marketplace Aktualisierungen auf, um die [!DNL Commerce] Produktangebot bei der Verbindung eines Produkts von [!DNL Channel Manager].
 
 - Normalerweise erscheinen Produktangebote mit den niedrigsten Preisen zuerst in der [!DNL Walmart Marketplace] Auflistung, aber auch andere Faktoren wie Bewertungen wirken sich auf die Platzierung aus.
 
 ## Produkte abgleichen
 
-Wenn Sie Produkte abgleichen, sendet der Kanal-Manager die Produktdaten an [!DNL Walmart Marketplace] , um nach vorhandenen Listen mit Attributwerten zu suchen, die mit dem zugeordneten Commerce-Produktattribut übereinstimmen. Übereinstimmungskriterien werden durch die [attribute-mapping-Konfiguration](map-catalog-attributes.md) für Ihren Store-Kanal.
+Wenn Sie Produkte abgleichen, sendet der Kanal-Manager die Produktdaten an [!DNL Walmart Marketplace] , um nach vorhandenen Listen mit Attributwerten zu suchen, die mit der zugeordneten [!DNL Commerce] Produktattribut. Übereinstimmungskriterien werden durch die [attribute-mapping-Konfiguration](map-catalog-attributes.md) für Ihren Store-Kanal.
 
 Wenn eine Übereinstimmung gefunden wird, wird die vorhandene Produktliste aktualisiert, um Ihr Angebot hinzuzufügen.
 
@@ -81,7 +81,7 @@ Weitere Informationen zu den Fehler-Codes von Walmart Marketplace finden Sie in 
 
 ## Hochladen neuer Produktlisten
 
-Verwenden Sie für Produkte, die auf dem Walmart Marketplace nicht übereinstimmen, eine Excel-Vorlage der Walmart-Produktkategorie, um Produktlisten stapelweise hochzuladen. Sie füllen die Walmart-Vorlage mit Produktkatalogdaten, die aus Ihrer Commerce-Instanz exportiert wurden.
+Verwenden Sie für Produkte, die auf dem Walmart Marketplace nicht übereinstimmen, eine Excel-Vorlage der Walmart-Produktkategorie, um Produktlisten stapelweise hochzuladen. Sie füllen die Walmart-Vorlage mit Produktkatalogdaten, die aus Ihrem [!DNL Commerce] -Instanz.
 
 Überprüfen Sie Ihren Produktkatalog für neue Produktlisten, um sicherzustellen, dass Produkte, die Sie auf dem Walmart Marketplace verkaufen möchten, über die für Produktlisten im Walmart Marketplace erforderlichen Attribute verfügen.
 
@@ -113,7 +113,7 @@ Verwenden Sie für Produkte, die auf dem Walmart Marketplace nicht übereinstimm
 
 - Vergewissern Sie sich, dass Sie die [Walmart-Anforderungen](walmart-requirements.md).
 
-- Überprüfen Sie in Ihrem Commerce-Produktkatalog, ob die Katalogkonfiguration für die Produkte, die auf dem Walmart Marketplace aufgelistet werden sollen, alle erforderlichen Attribute aufweist und den Inhaltsrichtlinien von Walmart Marketplace entspricht.
+- In [!DNL Commerce] Produktkatalog, überprüfen Sie, ob die Katalogkonfiguration für die Produkte, die auf dem Walmart Marketplace aufgelistet werden sollen, alle erforderlichen Attribute aufweist und die Inhaltsrichtlinien von Walmart Marketplace erfüllt.
 
 - Stellen Sie sicher, dass der Cron-Auftrag ausgeführt wird, um den Exportvorgang abzuschließen.
 
@@ -135,16 +135,16 @@ Verwenden Sie für Produkte, die auf dem Walmart Marketplace nicht übereinstimm
 
    - Stellen Sie sicher, dass die Vorlage die erforderlichen und empfohlenen Attribute für die Produktliste enthält.
 
-1. Aus dem [!DNL Commerce] Admin, wählen Sie die Produktdaten aus, die von Ihrer Adobe Commerce-Site exportiert werden sollen.
+1. Aus dem [!DNL Commerce] Admin, wählen Sie die Produktdaten aus, die aus Ihrer Adobe exportiert werden sollen [!DNL Commerce] Site.
 
    - Wählen Sie im Admin die Option [!UICONTROL **System** > Datenübertragung > **Export**].
 
    - Im [!UICONTROL Export] in der [!UICONTROL Entity Type] Feld, wählen Sie [!UICONTROL **Produkte**].
 
    - Im [!UICONTROL Entity Attributes] -Tabelle die Auswahlkriterien für den Export von Produktdaten konfigurieren.
-   ![Seite &quot;Produktdaten exportieren&quot;im [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![Seite &quot;Produktdaten exportieren&quot;im [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Verwenden Sie Filter, um die Attributwerte auszuwählen und zu konfigurieren, die für die Produktkategorien gelten, in denen Sie verkaufen. Stellen Sie sicher, dass Walmarts erforderliche und empfohlene Attribute eingeschlossen sind (siehe [Daten exportieren](https://docs.magento.com/user-guide/system/data-export.html) detaillierte Anweisungen finden Sie im Adobe Commerce-Benutzerhandbuch.)
+   Verwenden Sie Filter, um die Attributwerte auszuwählen und zu konfigurieren, die für die Produktkategorien gelten, in denen Sie verkaufen. Stellen Sie sicher, dass Walmarts erforderliche und empfohlene Attribute eingeschlossen sind (siehe [Daten exportieren](https://docs.magento.com/user-guide/system/data-export.html) in der Adobe [!DNL Commerce] Benutzerhandbuch für detaillierte Anweisungen.)
 
    Um ein Attribut aus dem Export auszuschließen, wählen Sie die [!UICONTROL **Ausschließen**] am Anfang der Zeile.
 

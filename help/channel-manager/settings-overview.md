@@ -1,8 +1,8 @@
 ---
 title: Einstellungsübersicht
-description: Erfahren Sie mehr über die [!DNL Channel Manager settings] zur Konfiguration der Authentifizierung und zur Zuordnung von Produktkatalogattributen und Versandunternehmen, die für die Koordinierung der Verkaufsvorgänge zwischen [!DNL Commerce] und [!DNL Walmart Marketplace].
+description: '"Erfahren Sie mehr über die [!DNL Channel Manager settings] zur Konfiguration der Authentifizierung und zur Zuordnung von Produktkatalogattributen und Versandunternehmen, die für die Koordinierung der Verkaufsvorgänge zwischen [!DNL Commerce] und [!DNL Walmart Marketplace].'''
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Mithilfe der Einstellungen für Vertriebskanäle lässt sich die Kommunikation u
 
 In [!DNL Channel Manager], konfigurieren Sie während des Onboarding-Prozesses einige Einstellungen für die Verkaufskanäle. Nach dem Onboarding können Sie die Konfiguration durch Auswahl von **[!UICONTROL Channel Settings]** von [!UICONTROL Listings] und [!UICONTROL Orders] Dashboards.
 
-* **Walmart-Verbindung**-Während der [!DNL Channel Manager] Onboarding-Prozess, den Sie [API-Anmeldeinformationen](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) von [!DNL Walmart Marketplace] Verkaufskonto für Verbindung [!DNL Commerce] nach [!DNL Walmart Marketplace] für die Kommunikation und Datensynchronisation. Bei Bedarf können Sie diese Anmeldedaten im Abschnitt *Kanaleinstellungen* Seite.
+* **[Walmart-Verbindung](manage-wmt-connection.md)**-Während der [!DNL Channel Manager] Onboarding-Prozess, den Sie [API-Anmeldeinformationen](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) von [!DNL Walmart Marketplace] Verkaufskonto für Verbindung [!DNL Commerce] nach [!DNL Walmart Marketplace] für die Kommunikation und Datensynchronisation. Bei Bedarf können Sie diese Anmeldedaten im Abschnitt *Kanaleinstellungen* Seite.
 
 * **[Eindeutige Kennungen zuordnen](map-catalog-attributes.md)**-Vor dem Verbinden von Auflistungen aus [!DNL Commerce] nach [!DNL Walmart Marketplace]muss mindestens eine eindeutige Kennung aus Ihrem [!DNL Commerce] Katalog zur entsprechenden Kennung von Walmart. Dieser Schritt muss mit [!DNL Commerce] bereits [!DNL Walmart] Auflistungen und zum Synchronisieren von Produktdaten zwischen [!DNL Commerce] und [!DNL Walmart].
 

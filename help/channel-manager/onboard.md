@@ -1,12 +1,12 @@
 ---
 title: Onboard [!DNL Channel Manager]
-description: Verbinden Sie Ihre Instanz mit dem [!DNL Channel Manager] -Service durch Ausführen einiger Onboarding-Schritte.
+description: '''Verbinden Sie Ihre Instanz mit dem [!DNL Channel Manager] Service durch Ausführung einiger Onboarding-Schritte."'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Nachdem Sie das Onboarding abgeschlossen haben, konfigurieren und verwalten Sie 
 
 - **Commerce-Kontoinformationen**- Herunterladen und Installieren [!DNL Channel Manager] erfordert [Commerce-Konto](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Sie benötigen eine Konto-ID und Anmeldedaten mit dem Inhaber- oder Administratorzugriff auf die [!DNL Adobe Commerce] oder [!DNL Magento Open Source] -Instanz.
 
-   - **MAGE-ID**-[Anmelden](https://account.magento.com/customer/account/login/) zum Commerce-Konto, um die ID von zu erhalten **[!UICONTROL My Account - Magento settings]**.
+   - **MAGE-ID**-[Anmelden](https://account.magento.com/customer/account/login/) der [!DNL Commerce] -Konto zum Abrufen der ID von **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] in den Commerce-Kontoeinstellungen](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] on [!DNL Commerce] Kontoeinstellungen](assets/mageid-my-commerce-account.png)
 
-   - **Zugriffsschlüssel -** Abrufen von Authentifizierungsschlüsseln zum Herunterladen von Commerce-Erweiterungen aus dem Commerce Composer-Repository `([!DNL repo.magento.com]`).
+   - **Zugriffsschlüssel -** Abrufen von Authentifizierungsschlüsseln zum Herunterladen [!DNL Commerce] Erweiterungen aus [!DNL Commerce] Composer-Repository `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

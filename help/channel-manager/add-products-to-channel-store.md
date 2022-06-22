@@ -1,10 +1,10 @@
 ---
-title: Produkte zum Verkaufskanalspeicher hinzufügen
-description: Erstellen Sie ein Produktsortiment für [!DNL Walmart Marketplace] Vertrieb durch Hinzufügen von Produkten aus dem Katalog zum Vertriebskanal
+title: Hinzufügen von Produkten zum Kanal-Manager
+description: '"Erstellen Sie ein Produktsortiment für [!DNL Walmart Marketplace] Vertrieb durch Hinzufügen von Produkten aus dem Katalog zum im Kanal-Manager konfigurierten Vertriebskanal." '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---

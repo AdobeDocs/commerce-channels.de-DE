@@ -1,23 +1,23 @@
 ---
-title: '"Verwalten [!DNL Walmart Marketplace] Bestellungen"'
+title: '"Anzeigen und Verfolgen von Bestellungen aus [!DNL Channel Manager]'''
 description: '"Anzeigen und Verwalten [!DNL Walmart Marketplace] Bestellungen mit [!DNL Channel Manager] für Adobe Commerce und Magento Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: eb57189ed866fffa064867d1de5ae9db5b32e283
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
-# Verwalten [!DNL Walmart Marketplace] Bestellungen
+# Anzeigen und Verfolgen von Bestellungen aus [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] Bestelldaten für [!DNL Commerce] Produkte werden automatisch in [!DNL Channel Manager] after [!DNL Walmart] verarbeitet die Reihenfolge.
 
-Auf der Seite &quot;Commerce&quot;werden bei einer erfolgreichen Synchronisation die folgenden Trigger angezeigt:
+Im [!DNL Commerce] bei erfolgreicher Synchronisierung werden die folgenden Trigger ausgeführt:
 
 - [!DNL Channel Manager] sendet eine Auftragsbestätigung an Walmart.
 
-- Eine entsprechende Commerce-Bestellung wird aus der Walmart-Bestellung erstellt.
+- Eine entsprechende [!DNL Commerce] -Bestellung wird aus der Walmart-Bestellung erstellt.
 
 - Die aktualisierten Bestellinformationen werden auf der Seite [!DNL Channel Manager] Dashboard &quot;Bestellungen&quot;.
 
@@ -40,7 +40,7 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 **Spaltenbeschreibungen**
 
 | Feld | Beschreibung |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Walmart Order Number] | Die Bestellnummer, die der Bestellung in der [!DNL Walmart Marketplace]. Beim erstmaligen Import einer Bestellung in [!DNL Channel Manager], wobei nur die [!DNL Walmart] Bestellnummer angezeigt. Wenn die [!DNL Commerce] -Reihenfolge erstellt wird, wird die [!DNL Walmart] Die Bestellnummer wird im [!UICONTROL External ID] Produktattribut. |
 | [!DNL Commerce] Bestellnummer | Die der [!DNL Commerce] aus der [!DNL Walmart Marketplace] bestellen. |
 | Elemente | Anzahl der bestellten Artikel [!DNL Walmart Marketplace]. |
@@ -50,7 +50,7 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 | [!UICONTROL Deliver By Date] | Datum der Lieferung der Bestellung an den Kunden zur Erfüllung [!DNL Walmart Marketplace] Anforderungen im UTC-Format. |
 | [!UICONTROL Ship Method] | Die [[!DNL Walmart Marketplace] Versandmethode](https://sellerhelp.walmart.com/s/guide?article=000007893) für die Bestellung ausgewählt wurde. |
 | [!UICONTROL Last Update At] | Zeitstempel, der angibt, wann die Bestelldaten zuletzt in [!DNL Channel Manager] im UTC-Format. |
-| [!UICONTROL Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Anfangsstatus einer aus importierten Bestellung [!DNL Walmart Marketplace] is _Öffnen_. Zusätzliche Statusaktualisierungen treten auf, wenn Commerce-Bestellungen verarbeitet werden und [!DNL Channel Manager] Synchronisiert erfolgreich Versand-, Teillieferungs- und Löschaktualisierungen der [!DNL Walmart Marketplace]. |
+| [!UICONTROL Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Anfangsstatus einer aus importierten Bestellung [!DNL Walmart Marketplace] is _Öffnen_. Zusätzliche Statusaktualisierungen treten auf, wenn [!DNL Commerce] Bestellungen werden verarbeitet und [!DNL Channel Manager] Synchronisiert erfolgreich Versand-, Teillieferungs- und Löschaktualisierungen der [!DNL Walmart Marketplace]. |
 | [!UICONTROL Error Description] | Detailliertere Informationen zu Bestellungen mit einer _[!UICONTROL Error]_Status. |
 
 ## Bestellstatus
@@ -60,7 +60,7 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
 - **[!UICONTROL Shipped]**-Bestellungen, die von der [!DNL Commerce] speichern. Wenn die Bestellung ausgeht, [!DNL Channel Manager] sendet eine Aktualisierung an [!DNL Walmart Marketplace] um den Versandstatus von Walmart zu aktualisieren und die Bestellnummer für die Sendung anzugeben.
 
-- **[!UICONTROL Partially Shipped]**—Bestellungen, bei denen einige als versandt markierte Artikel und andere auf den Versand warten. Wenn Artikel in der Bestellung versandt werden, [!DNL Channel Manager] sendet eine Aktualisierung an [!DNL Walmart Marketplace] den Versandstatus zu aktualisieren, um ihn teilweise auf Walmart zu liefern, und die Auftragsverfolgungsnummer für die Sendung anzugeben.
+- **[!UICONTROL Partially Shipped]**—Bestellungen, bei denen einige als versandt markierte Artikel und andere auf den Versand warten. Wenn Artikel in der Bestellung versandt werden, [!DNL Channel Manager] sendet eine Aktualisierung an [!DNL Walmart Marketplace] , um den Versandstatus auf _[!DNL Partially Shipped]_auf Walmart und geben Sie die Bestellnummer für die Sendung an.
 
 - **[!UICONTROL Canceled]**-Bestellungen, die vom [!DNL Commerce] speichern.
 
@@ -72,7 +72,7 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
 >[!NOTE]
 >
->Wenn Bestellartikel in mehreren Sendungen gesendet werden, wird der Bestellstatus in [!DNL Channel Manager] spiegeln den letzten verfügbaren Bestellstatus wider. Wenn beispielsweise das erste Element ausgeliefert wird und keine Fehler zurückgegeben werden, wenn Bestellaktualisierungen mit [!DNL Channel Manager] und [!DNL Walmart Marketplace], die [!DNL Channel Manager] Bestellstatus: _[!UICONTROL Partially Shipped]_.  Wenn ein zweites Element versandt wird und [!CKanal-Manager] gibt einen Fehler zurück, der Auftragsstatus wird in_[!UICONTROL Error]_.
+>Wenn Bestellartikel in mehreren Sendungen gesendet werden, wird der Bestellstatus in [!DNL Channel Manager] spiegelt den letzten verfügbaren Bestellstatus wider. Wenn beispielsweise das erste Element ausgeliefert wird und keine Fehler zurückgegeben werden, wenn Bestellaktualisierungen mit [!DNL Channel Manager] und [!DNL Walmart Marketplace], die [!DNL Channel Manager] Bestellstatus: _[!UICONTROL Partially Shipped]_. Wenn ein zweites Element versandt wird und [!DNL Channel Manager] gibt einen Fehler zurück, der Auftragsstatus wird in_[!UICONTROL Error]_.
 
 ## Bestellungen überprüfen
 
@@ -82,7 +82,7 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
 1. Um Bestellinformationen anzuzeigen, klicken Sie auf *[!UICONTROL *Orders]**.
 
-1. Informationen über die Reihenfolge abrufen und die nächsten Schritte bestimmen, indem Sie die **[Status](#about-order-status)** -Spalte, um Informationen zu den Bestellungen zu erhalten.
+1. Informationen über die Reihenfolge abrufen und die nächsten Schritte bestimmen, indem Sie die **[Status](#about-order-status)** Spalte.
 
 ## Bestelldetails anzeigen
 
