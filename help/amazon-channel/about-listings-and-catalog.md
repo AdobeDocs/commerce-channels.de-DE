@@ -2,9 +2,9 @@
 title: Über Amazon und den Commerce-Katalog
 description: Der Amazon-Vertriebskanal importiert Ihre Amazon-Auflistungen in Ihr Commerce-Backend und synchronisiert sie kontinuierlich mit Produkten und Verkäufen.
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 5d30a5282ede2db0d9619eb2263b733328d26426
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Um Ihren Produktkatalog und Ihre Verkaufszahlen an einem Ort besser zu verwalten
 
 Adobe Commerce und Magento Open Source verwalten Katalogsynchronisierungen mit der Verwendung von Produkten [attributes](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} zur Definition von Produkteinstellungen und Daten. Amazon verwendet auch Attribute, die über das Onboarding zugeordnet werden. Während [Aufgaben vor der Einrichtung](./amazon-pre-setup-tasks.md) Für den Amazon-Vertriebskanal definieren Sie bei Bedarf zusätzliche Amazon-Attribute, um beim Import Ihrer Amazon-Auflistungen in Ihre [!DNL Commerce] Katalog. Zu diesen Attributen gehören UPC, EAN, ISBN und ASIN ([!DNL Amazon Standard Identification Number]). Beim Onboarding werden Produkte zwischen Amazon und synchronisiert. [!DNL Commerce] Kataloge mit Ihren Attributen. Ordnungsgemäße Zuordnung Ihrer [!DNL Commerce] und Amazon-Produkte gewährleisten eine kontinuierliche Synchronisierung von Produktinformationen, Bestellungen und Beständen.
 
-Wenn Sie diese Attribute nicht für Ihren Katalog erstellt oder konfiguriert haben, sollten Sie eine [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} und Werte zu Ihren Produkten vor dem Onboarding angeben. Wenn ein Amazon-Attribut importiert wird, kann es für Suche, Navigation, Preisregeln und vieles mehr verwendet werden. Weitere Informationen zu diesen Attributen finden Sie unter [Amazon: Was sind UPCs, EANs, ISBNs und ASINs?](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){target=&quot;_blank&quot;}
+Wenn Sie diese Attribute nicht für Ihren Katalog erstellt oder konfiguriert haben, sollten Sie eine [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} und Werte zu Ihren Produkten vor dem Onboarding angeben. Wenn ein Amazon-Attribut importiert wird, kann es für Suche, Navigation, Preisregeln und vieles mehr verwendet werden. Siehe [Was bedeuten ASIN, UPC, EAN, ISBN, SKU und andere Barcodes?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target=&quot;_blank&quot;}
 
 Nach dem Onboarding können Sie Ihre Produktattribute und Amazon-Zuordnungen jederzeit verwalten und aktualisieren.
 
