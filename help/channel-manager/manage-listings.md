@@ -1,10 +1,10 @@
 ---
 title: Listen verwalten
-description: '"Verwalten von Verkaufskanallisten für eine [!DNL Commerce] mit dem Kanal-Manager für Adobe Commerce und Magento Open Source speichern."'
+description: "Verwalten von Verkaufskanallisten für eine [!DNL Commerce] mit dem Kanal-Manager für Adobe Commerce und Magento Open Source speichern."
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ Die folgenden Tabellen beschreiben die verfügbaren Steuerelemente und Spalten f
 **Steuerelemente für[!UICONTROL Listings]**
 
 | **Kontrolle** | **Beschreibung** |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Öffnet die [!UICONTROL Admin Product Catalog] Seite zum Auswählen der Produkte, die Sie zu Ihrem [!DNL Walmart Marketplace] Sortierung oder Aktualisierung von Produktattributen, um die Anforderungen an die Auflistung von Walmart Marketplace zu erfüllen. |
-| [!UICONTROL Match products on Walmart] | Nachdem Sie ein oder mehrere Produkte im Status Entwurf ausgewählt haben, wählen Sie Produkte abgleichen auf [!DNL Walmart] , um nach Produktangeboten zu suchen, die einem vorhandenen hinzugefügt werden können [!DNL Walmart Marketplace] Auflistung. |
+| [!UICONTROL Match products on Walmart] | Nach Auswahl eines oder mehrerer Produkte in [!UICONTROL Draft] status, select [!UICONTROL Match products on Walmart] , um nach Produktangeboten zu suchen, die einem vorhandenen hinzugefügt werden können [!DNL Walmart Marketplace] Auflistung. |
 | [!UICONTROL Refresh products] | Aktualisieren Sie die Anzeige mit der aktuellsten Liste und dem aktuellen Status. Dieses Steuerelement setzt auch die Listenansicht auf die standardmäßige Sortierreihenfolge zurück und entfernt alle Filter. |
-| [!UICONTROL Filter by *Status*] | Zeigen Sie nur Auflistungen mit einem bestimmten Status an, indem Sie eine der Statuszählungskarten über der Listing-Tabelle auswählen. Verwenden Sie die *Produkte aktualisieren* , um den Filter zu entfernen. |
+| [!UICONTROL Filter by *Status*] | Zeigen Sie nur Listen mit einem bestimmten Status an, indem Sie eine der Statuskarten über der Tabelle Liste auswählen. Entfernen Sie den Filter durch Auswahl von **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | Ändern Sie die Sortierreihenfolge für die Auflistung, indem Sie eine beliebige Spaltenüberschrift auswählen. |
 
 
@@ -81,7 +81,6 @@ Die folgenden Tabellen beschreiben die verfügbaren Steuerelemente und Spalten f
 | [!UICONTROL Price] | Der Produktpreis aus dem [!DNL Commerce] Katalog speichern. Aktualisierungen des Katalogpreises werden mit dem Kanal-Manager synchronisiert und dann an [!DNL Walmart Marketplace]  sodass die aufgelisteten Artikel den aktuellen Preis anzeigen. |
 | [!UICONTROL Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Status wird aktualisiert, wenn Sie erfolgreich Produkte zu [!DNL Channel Manager] und wenn Sie Produkte auf dem Markt finden. Wenn ein Vorgang fehlschlägt, zeigt die Auflistung einen Fehlerstatus an. Nachdem Sie den Fehler behoben haben, [!DNL Channel Manager] wiederholt den Vorgang und aktualisiert den Status. |
 | [!UICONTROL Error Description] | Bietet zusätzliche Fehlerinformationen für Produkte mit einer `[!DNL Error]` Status. |
-| [!UICONTROL Status Detail] | Bietet zusätzliche Informationen zu Produkten mit *Fehler* oder *Übereinstimmung* Status. |
 
 ### Über den Listenstand
 

@@ -1,10 +1,10 @@
 ---
 title: Listen mit Walmart verbinden
-description: '"Verbindungslisten für [!DNL Commerce] Produkte [!DNL Walmart Marketplace]zu verkaufen."'
+description: "Verbindungslisten für [!DNL Commerce] Produkte [!DNL Walmart Marketplace]zu verkaufen."
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Bevor Sie Produkte zuordnen, überprüfen Sie, ob die Produktkatalog-Attributwer
 1. Auswählen **[!UICONTROL Match Products]**.
 
    Eine Meldung gibt die Anzahl der Produkte an, die zum Abgleich gesendet wurden.
-
-   ![Produkte an den verbundenen Vertriebskanal senden](assets/products-submitted-for-matching.png)
 
    Der Status für ausgewählte Produkte ändert sich in [!UICONTROL *Verarbeitung*] bis der Match-Vorgang abgeschlossen ist. Es kann bis zu 30 Minuten dauern, bis Walmart Marketplace den Match-Vorgang abschließt.
 
@@ -144,7 +142,7 @@ Verwenden Sie für Produkte, die auf dem Walmart Marketplace nicht übereinstimm
    - Im [!UICONTROL Entity Attributes] -Tabelle die Auswahlkriterien für den Export von Produktdaten konfigurieren.
    ![Seite &quot;Produktdaten exportieren&quot;im [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Verwenden Sie Filter, um die Attributwerte auszuwählen und zu konfigurieren, die für die Produktkategorien gelten, in denen Sie verkaufen. Stellen Sie sicher, dass Walmarts erforderliche und empfohlene Attribute eingeschlossen sind (siehe [Daten exportieren](https://docs.magento.com/user-guide/system/data-export.html) in der Adobe [!DNL Commerce] Benutzerhandbuch für detaillierte Anweisungen.)
+   Verwenden Sie Filter, um die Attributwerte auszuwählen und zu konfigurieren, die für die Produktkategorien gelten, in denen Sie verkaufen. Stellen Sie sicher, dass Sie die erforderlichen und empfohlenen Attribute von Walmart einbeziehen. (Siehe [Daten exportieren](https://docs.magento.com/user-guide/system/data-export.html) in der Adobe [!DNL Commerce] Benutzerhandbuch für detaillierte Anweisungen.)
 
    Um ein Attribut aus dem Export auszuschließen, wählen Sie die [!UICONTROL **Ausschließen**] am Anfang der Zeile.
 

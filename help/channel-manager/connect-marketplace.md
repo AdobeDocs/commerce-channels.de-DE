@@ -1,8 +1,8 @@
 ---
-title: '''Connect [!DNL Channel Manager] nach [!DNL Walmart Marketplace]'''
-description: '"Verbinden Sie eine Commerce-Store-Ansicht mit [!DNL Walmart Marketplace] zur Erstellung des Vertriebskanals zur Verwaltung von Commerce-Produktlisten, -Beständen, -Preisen und -Bestellungen für Walmart Marketplace-Verkäufe."'
+title: 'Connect [!DNL Channel Manager] nach [!DNL Walmart Marketplace]'
+description: "Verbinden Sie eine Commerce-Store-Ansicht mit [!DNL Walmart Marketplace] zur Erstellung des Vertriebskanals zur Verwaltung von Commerce-Produktlisten, -Beständen, -Preisen und -Bestellungen für Walmart Marketplace-Verkäufe."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Nach der Installation von Channel Manager auf Ihrer [!DNL Commerce] -Instanz ers
 
 1. [Verbinden Sie den Kanal mit [!DNL Walmart Marketplace] durch Hinzufügen von [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [Vollständige Einrichtung des Vertriebskanals](#complete-store-setup) zur Verwaltung von Listen, Beständen, Preisen und Bestellungen für Ihre [!DNL Walmart Marketplace] Produktsortiment.
+1. [Vollständige Einrichtung des Vertriebskanals](#complete-sales-channel-store-setup) zur Verwaltung von Listen, Beständen, Preisen und Bestellungen für Ihre [!DNL Walmart Marketplace] Produktsortiment.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Nach der Installation von Channel Manager auf Ihrer [!DNL Commerce] -Instanz ers
 
 1. Auswählen **[!UICONTROL Save Store]** , um die Konfiguration anzuwenden und eine Verbindung zum [!DNL Walmart marketplace].
 
-1. Nach erfolgreicher Verbindung [Komplette Store-Einrichtung](complete-store-setup.md) von **[!UICONTROL Channel Manager]** Store-Seite.
+1. Nach erfolgreicher Verbindung [Komplette Store-Einrichtung](complete-sales-channel-store-setup.md) von **[!UICONTROL Channel Manager]** Store-Seite.
 
 ![Einrichten des ersten Stores](assets/channel-manager-setup-first-store.png)
 

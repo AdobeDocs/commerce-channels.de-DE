@@ -4,7 +4,7 @@ description: '''Verbinden Sie Ihre Instanz mit dem [!DNL Channel Manager] Servic
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Nachdem Sie das Onboarding abgeschlossen haben, konfigurieren und verwalten Sie 
 
 1. [Verbinden Sie Ihre [!DNL Commerce] speichern in [!DNL Walmart Marketplace]](connect.md).
 
-1. [Komplette Store-Einrichtung](complete-store-setup.md).
+1. [Komplette Store-Einrichtung](complete-sales-channel-store-setup.md).
 
 ## Voraussetzungen
 

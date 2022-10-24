@@ -1,10 +1,10 @@
 ---
 title: Verarbeitungsaufträge
-description: '"Hinweise für Versand und Stornierung [!DNL Walmart Marketplace] Bestellungen von Adobe Commerce und Magento Open Source."'
+description: "Hinweise für Versand und Stornierung [!DNL Walmart Marketplace] Bestellungen von Adobe Commerce und Magento Open Source."
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Der Kanal-Manager synchronisiert Aktualisierungen mit [!DNL Walmart Marketplace]
 
    In der Storefront müssen Sie die gesamte Bestellung stornieren. [!DNL Commerce] lässt keine teilweisen Stornierungen zu.
 
-Bei der Verarbeitung von Commerce-Bestellungen und [!DNL Channel Manager] Synchronisiert erfolgreich Versand-, Teillieferungs- und Löschaktualisierungen der [!DNL Walmart Marketplace], ist die Auftragsverarbeitung abgeschlossen.
+* **Erstattungsantrag**-Wenn eine Walmart Marketplace-Rückgabe für eine versandte Bestellung angefordert wird, wird die [!UICONTROL Status details] enthält einen Link zur Rückkehr. Die Rückgaben und Erstattungen werden über das [Rückgabe](return-refund-orders.md) Dashboard.
+
+Bei der Verarbeitung von Commerce-Bestellungen und [!DNL Channel Manager] Synchronisiert erfolgreich Versand-, Teillieferungs- und Löschaktualisierungen der [!DNL Walmart Marketplace], ist die Auftragsverarbeitung abgeschlossen. Rücksendungsanträge und Erstattungen für versandte Bestellungen werden über das [Rückgabe](return-refund-orders.md) Dashboard.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ Bei der Verarbeitung von Commerce-Bestellungen und [!DNL Channel Manager] Synchr
 
 1. Öffnen Sie die Store-Ansicht, indem Sie das Augensymbol für einen Verkaufskanalspeicher auswählen.
 
-1. Zur Ansicht [!DNL Walmart Marketplace] Bestellungen, auswählen *[!UICONTROL *Orders]**.
+1. Zur Ansicht [!DNL Walmart Marketplace] Bestellungen, auswählen **[!UICONTROL Orders]**.
 
 1. Öffnen Sie in der Tabelle Bestellungen die Versandreihenfolge durch Auswahl der **Commerce-Bestellnummer**.
 
@@ -49,6 +51,8 @@ Bei der Verarbeitung von Commerce-Bestellungen und [!DNL Channel Manager] Synchr
    * Füllen Sie nach Bedarf den Rest des Versandformulars aus. Siehe [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) für detaillierte Anweisungen.
 
 1. Verfolgen Sie nach der Übermittlung der Sendung die [Bestellstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] , um zu überprüfen, ob Aktualisierungen an [!DNL Walmart Marketplace].
+
+Nach dem Versand einer Bestellung können Sie die vollständige oder teilweise Rückerstattung von [!DNL Channel Manager] für Artikel, die in der Bestellung auf der Grundlage von Rückgabeanfragen von [!DNL Walmart Marketplace]. Siehe [Rückgabe- und Erstattungsanordnungen](return-refund-orders.md).
 
 ## Abbrechen einer Bestellung
 

@@ -1,10 +1,10 @@
 ---
 title: Hinzufügen von Produkten zum Kanal-Manager
-description: '"Erstellen Sie ein Produktsortiment für [!DNL Walmart Marketplace] Vertrieb durch Hinzufügen von Produkten aus dem Katalog zum im Kanal-Manager konfigurierten Vertriebskanal." '
+description: "Erstellen Sie ein Produktsortiment für [!DNL Walmart Marketplace] Vertrieb durch Hinzufügen von Produkten aus dem Katalog zum im Kanal-Manager konfigurierten Vertriebskanal."
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ Der Importvorgang kann je nach der Anzahl der ausgewählten Produkte bis zu 30 M
 
 1. Überprüfen Sie nach Abschluss des Importvorgangs die hinzugefügten Produkte, indem Sie zu [!DNL Channel Manager] und auswählen **[!UICONTROL Listings]**.
 
+   Zunächst befinden sich die Produkte in *Entwurf* Status. Auswählen **[!UICONTROL Refresh products]** , um die Tabelle zu aktualisieren.
+
+1. Aktualisieren Sie die Ansicht, um die neuen Produkte anzuzeigen, die dem Kanal-Manager hinzugefügt wurden, indem Sie die **[!UICONTROL Draft]** Statuskarte.
+
    ![Importierte Produkte in verbundene Vertriebskanäle](assets/products-in-marketplace-sales-channel.png)
 
-   Zunächst befinden sich die Produkte in *Entwurf* Status. Auswählen **[!UICONTROL Refresh products]** , um die Tabelle zu aktualisieren.
 
