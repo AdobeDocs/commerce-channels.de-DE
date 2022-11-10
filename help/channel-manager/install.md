@@ -1,8 +1,8 @@
 ---
 title: '"Installieren [!DNL Channel Manager]'''
-description: '"Installieren Sie die[!DNL Channel Manager] Erweiterung."'
+description: "Installieren Sie die[!DNL Channel Manager] Erweiterung."
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 31af7107c0b27a236b94f7725b7a107d1027789c
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -67,7 +67,6 @@ Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adob
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
-
       Beispielantwort:
 
       ```terminal
@@ -119,7 +118,7 @@ Während der Installation wird der Erweiterungsname (`magento\channel-manager`) 
 1. Fügen Sie mithilfe des Composer-Namens die Erweiterung zum `require` Abschnitt `composer.json` -Datei.
 
    ```bash
-   composer require require magento/module-sales-channels-extension --no-update
+   composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. Aktualisieren Sie die Abhängigkeiten und installieren Sie die Erweiterung.
