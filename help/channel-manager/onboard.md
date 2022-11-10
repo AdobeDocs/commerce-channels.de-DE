@@ -4,9 +4,9 @@ description: '''Verbinden Sie Ihre Instanz mit dem [!DNL Channel Manager] Servic
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: 738c48b8b8075e7c8bbf883c58cc8de39bca355c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,23 +14,15 @@ ht-degree: 0%
 
 # Onboard [!DNL Channel Manager]
 
-Nachdem Sie das Onboarding abgeschlossen haben, konfigurieren und verwalten Sie die Vorgänge der Vertriebskanäle über das [!UICONTROL Channel Manager] -Option auf [!UICONTROL Commerce Admin Marketing] Menü.
+Nachdem Sie das Onboarding-Verfahren für den Kanal-Manager abgeschlossen haben, können Sie über Adobe Commerce auf die Vertriebsvorgänge für den Kanal Walmart Marketplace zugreifen, diese konfigurieren und verwalten. Der Kanal-Manager ist im Menü [!UICONTROL Channel Manager] -Option auf [!UICONTROL Commerce Admin Marketing] Menü.
 
 ![[!DNL Channel Manager] Option in der Admin-Ansicht](assets/channel-manager-admin-view.png)
 
-## Onboarding-Übersicht
-
-1. [Installieren Sie die [!DNL Channel Manager] Erweiterung](install.md).
-
-1. [Konfigurieren Sie die [!DNL Commerce Services Connector]](connect.md) , um den Kanal-Manager in die Commerce-Instanz und andere unterstützende Dienste zu integrieren.
-
-1. [Verbinden Sie Ihre [!DNL Commerce] speichern in [!DNL Walmart Marketplace]](connect.md).
-
-1. [Komplette Store-Einrichtung](complete-sales-channel-store-setup.md).
-
 ## Voraussetzungen
 
-- Vergewissern Sie sich, dass Sie die [Anforderungen an Walmart Marketplace](walmart-requirements.md) zur Integration mit dem Kanal-Manager.
+Überprüfen Sie die Anforderungen für die Verwendung des Kanal-Managers und sammeln Sie die erforderlichen Kontoinformationen und Anmeldeinformationen, um die Erweiterung herunterzuladen, zu installieren und zu konfigurieren.
+
+- **[Anforderungen an Walmart Marketplace](walmart-requirements.md)**-Überprüfen Sie, ob Sie die Anforderungen für die Integration mit dem Kanal-Manager erfüllen, einschließlich [Einrichten Ihres Verkäuferkontos](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) und Generieren des API-Schlüssels zur Aktivierung der Integration.
 
 - **Commerce-Kontoinformationen**- Herunterladen und Installieren [!DNL Channel Manager] erfordert [Commerce-Konto](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Sie benötigen eine Konto-ID und Anmeldedaten mit dem Inhaber- oder Administratorzugriff auf die [!DNL Adobe Commerce] oder [!DNL Magento Open Source] -Instanz.
 
@@ -48,20 +40,20 @@ Nachdem Sie das Onboarding abgeschlossen haben, konfigurieren und verwalten Sie 
 
       - Superbenutzerzugriff auf das Cloud-Projekt
       - Administratorzugriff auf eine bestimmte Umgebung
-      - ein [!DNL Adobe Commerce] oder [!DNL Magento Open Source] Konto mit Berechtigungen für den Zugriff auf das Composer-Repository
+      - ein [!DNL Adobe Commerce] Konto mit Berechtigungen für den Zugriff auf das Composer-Repository
 
       Siehe [Benutzerzugriff verwalten](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **Erlebnis mit Composer und dem[!DNL Commerce CLI]** -Siehe [Allgemeine CLI-Installation](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} für Informationen zur Verwendung dieser Tools zum Installieren und Verwalten von Erweiterungen in [!DNL Adobe Commerce] oder [!DNL Magento Open Source] Plattformen.
+- **Erlebnis mit Composer und dem[!DNL Commerce CLI]**-Siehe [Allgemeine CLI-Installation](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} für Informationen zur Verwendung dieser Tools zum Installieren und Verwalten von Erweiterungen in [!DNL Adobe Commerce] oder [!DNL Magento Open Source] Plattformen.
 
-- [[!DNL Amazon Sales Channel] Version 4.4.2 oder höher](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Wenn Sie aktiviert haben [!DNL Amazon Sales Channel] für Ihre [!DNL Commerce] Sites, überprüfen Sie, ob Ihre [!DNL Commerce] Auf der Plattform ist vor der Installation Version 4.4.2 installiert. [!DNL Channel Manager].
+- **[[!DNL Amazon Sales Channel] Version 4.4.2 oder höher](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)**-Wenn aktiviert [!DNL Amazon Sales Channel] für Ihre [!DNL Commerce] Sites, überprüfen Sie, ob Ihre [!DNL Commerce] Die Plattform hat vor der Installation Version 4.4.2 oder höher installiert. [!DNL Channel Manager].
 
-- [!DNL Inventory Management] Erweiterung für Adobe Commerce und Magento Open Source
+- **[!DNL Inventory Management]Erweiterung für Adobe Commerce und Magento Open Source**
 
-   Wenn Sie planen, den Kanal-Manager für die Bestandsverwaltung und Auftragsverwaltung zu verwenden, muss die Inventory management-Erweiterung auf Ihrer Adobe Commerce- und Magento Open Source-Instanz installiert und aktiviert sein. In der Regel wird diese Erweiterung unter Adobe Commerce und Magento Open Source 2.3.x und höher standardmäßig installiert und aktiviert.
+   Wenn Sie planen, den Kanal-Manager für die Bestandsverwaltung und die Lagerbestandsverwaltung zu verwenden, muss die Inventory management-Erweiterung auf Ihrer Adobe Commerce- und Magento Open Source-Instanz installiert und aktiviert sein. In der Regel wird diese Erweiterung in Adobe Commerce installiert und standardmäßig aktiviert und [!DNL Magento Open Source] 2.3.x und höher.
 
-   Wenn Sie Commerce von 2.2.x aktualisiert haben oder Inventory management deaktiviert haben, müssen Sie Ihre Installation aktualisieren, um die erforderlichen Module einzuschließen. Weitere Informationen finden Sie unter [Installieren von Inventory management](https://devdocs.magento.com/extensions/inventory-management/) in der Adobe Commerce Developer-Dokumentation.
+   Wenn Sie Commerce von 2.2.x aktualisiert haben oder Inventory management deaktiviert haben, aktualisieren Sie Ihre Installation, um die erforderlichen Module einzuschließen. Siehe [Installieren von Inventory management](https://devdocs.magento.com/extensions/inventory-management/) in der Adobe Commerce Developer-Dokumentation.
 
 ### Systemanforderungen
 
@@ -76,3 +68,15 @@ Nachdem Sie das Onboarding abgeschlossen haben, konfigurieren und verwalten Sie 
 - Adobe Commerce on Cloud (ECE) : 2.4.x
 - Adobe Commerce vor Ort (EE): 2.4.x
 - Magento Open Source 2.4.x
+
+## Onboarding-Schritte
+
+1. [Einrichten des Walmart-Verkäuferkontos](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+
+1. [Installieren Sie die [!DNL Channel Manager] Erweiterung](install.md).
+
+1. [Verbindung zu Commerce Services herstellen](connect.md) , um den Kanal-Manager in die Commerce-Instanz und andere unterstützende Dienste zu integrieren.
+
+1. [Verbinden Sie Ihre [!DNL Commerce] speichern in [!DNL Walmart Marketplace]](connect-marketplace.md).
+
+1. [Komplette Store-Einrichtung](complete-sales-channel-store-setup.md).
