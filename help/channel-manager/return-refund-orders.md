@@ -1,14 +1,15 @@
 ---
 title: Rückgabe und Rückerstattung von Bestellungen
-description: "Anleitung für die vollständige oder teilweise Erstattung von Rückerstattungsanträgen [!DNL Walmart Marketplace] von [!DNL Channel Manager] für Adobe Commerce und Magento Open Source."
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: Anleitung für die vollständige oder teilweise Erstattung von Rückerstattungsanträgen [!DNL Walmart Marketplace] von [!DNL Channel Manager] für Adobe Commerce und Magento Open Source.
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
 
 ---
 
-# Rückgabe- und Erstattungsanordnungen
+# Rückgabe und Rückerstattung von Bestellungen
 
 Wenn ein Käufer eine Rückgabe für über erworbene Bestellungen anfordert [!DNL Walmart Marketplace], erstellt Walmart eine Rückkehranfrage. [!DNL Channel Manager] überwacht den Marketplace-Kanal für diese Anforderungen und synchronisiert die Informationen zur Rückgabeanforderung automatisch mit dem Kanal-Manager.
 
@@ -189,5 +190,3 @@ Sie können Informationen zu Rückkehranfragen und Erstattungsverarbeitung über
 Fehler können auftreten, wenn die Rückkehrinformationen von empfangen werden [!DNL Walmart Marketplace]oder wenn [!DNL Channel Manager] Synchronisiert Statusaktualisierungen von [!DNL Commerce] nach [!DNL Walmart Marketplace].
 
 Wenn der Synchronisierungsvorgang für eine Rückgabe-Aktualisierung fehlschlägt, wird die [!DNL Channel Manager] Das Rückgabe-Dashboard zeigt eine *[!UICONTROL Error]* -Status für den Rückkehreintrag. Um sicherzustellen, dass die Rückgabe- und Rückerstattungsinformationen im Walmart Marketplace-Konto korrekt widergespiegelt werden, müssen Sie die Bestellung manuell in Ihrem [!DNL Walmart Marketplace] speichern.
-
-

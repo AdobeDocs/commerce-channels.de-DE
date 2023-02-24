@@ -2,7 +2,7 @@
 title: Hinzufügen von Produkten zum Kanal-Manager
 description: "Erstellen Sie ein Produktsortiment für [!DNL Walmart Marketplace] Vertrieb durch Hinzufügen von Produkten aus dem Katalog zum im Kanal-Manager konfigurierten Vertriebskanal."
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Hinzufügen von Produkten zu [!DNL Channel Manager]
+# Produkte hinzufügen zu [!DNL Channel Manager]
 
 So fügen Sie Produkte zum [!DNL Walmart Marketplace] Vertriebskanal, wählen Sie sie aus dem [!DNL Commerce] Produktkatalog und importieren Sie sie in [!DNL Channel Manager].
 Der Importvorgang kann je nach der Anzahl der ausgewählten Produkte bis zu 30 Minuten oder länger dauern.

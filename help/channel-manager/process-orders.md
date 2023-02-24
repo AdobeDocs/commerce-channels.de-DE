@@ -1,15 +1,15 @@
 ---
-title: Verarbeitungsaufträge
+title: Prozessaufträge
 description: "Hinweise für Versand und Stornierung [!DNL Walmart Marketplace] Bestellungen von Adobe Commerce und Magento Open Source."
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
-# Verarbeitungsaufträge
+# Prozessaufträge
 
 Nachher [!DNL Walmart Marketplace] Bestellungen wurden bestätigt und erfolgreich an gesendet [!DNL Channel Manager], verwenden Sie [Commerce Order Management](https://docs.magento.com/user-guide/sales/orders-workspace.html) , um die Bestellung zu verarbeiten.
 

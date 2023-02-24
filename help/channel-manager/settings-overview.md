@@ -2,7 +2,7 @@
 title: Einstellungsübersicht
 description: '"Erfahren Sie mehr über die [!DNL Channel Manager settings] zur Konfiguration der Authentifizierung und zur Zuordnung von Produktkatalogattributen und Versandunternehmen, die für die Koordinierung der Verkaufsvorgänge zwischen [!DNL Commerce] und [!DNL Walmart Marketplace].'''
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%

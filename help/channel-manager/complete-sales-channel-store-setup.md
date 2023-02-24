@@ -2,14 +2,14 @@
 title: Vollständige Kanaleinrichtung
 description: '"Nach der Erstellung des Vertriebskanals, der eine [!DNL Commerce] Store-Ansicht zu [!DNL Walmart Marketplace], öffnen Sie den Kanal und schließen Sie die Kanalkonfiguration ab. Starten Sie dann den Prozess, um Produkte hinzuzufügen, Listen, Bestände, Preise und Bestellungen von [!DNL Channel Manager].'''
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# Vollständige Einrichtung des Vertriebskanals
+# Vollständige Einrichtung des Sales Channels
 
 Nachdem Sie eine [!DNL Commerce] speichern in [!DNL Walmart Marketplace], schließen Sie die Store-Einrichtung über [!DNL Channel Manager] Homepage.
 

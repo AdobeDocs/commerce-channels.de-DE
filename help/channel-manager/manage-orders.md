@@ -1,15 +1,15 @@
 ---
-title: Anzeigen und Verwalten von Bestellungen aus [!DNL Channel Manager]'
+title: '"Anzeigen und Verwalten von Bestellungen aus [!DNL Channel Manager]'''
 description: "Anzeigen und Verwalten [!DNL Walmart Marketplace] Bestellungen mit [!DNL Channel Manager] für Adobe Commerce und Magento Open Source."
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
-# Anzeigen und Verfolgen von Bestellungen aus [!DNL Channel Manager]
+# Anzeigen und Verfolgen von Bestellungen von [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] Bestelldaten für [!DNL Commerce] Produkte werden automatisch in [!DNL Channel Manager] after [!DNL Walmart] verarbeitet die Reihenfolge.
 
@@ -175,6 +175,3 @@ Im Commerce-Store werden aus importierte Bestellungen [!DNL Walmart Marketplace]
    ![Auftragsdetails zum Status des geordneten Elements [!DNL Walmart Marketplace] Bestellungen](assets/order-detail-status-history.png)
 
 Zeigen Sie Artikelrechnungen und Erstattungsdetails an, indem Sie [!UICONTROL Invoice] und [!UICONTROL Credit Memo] Optionen aus dem Navigationsmenü. Sie können auch direkt über das [[!UICONTROL Returns]](return-refund-orders.md) Dashboard in Ihrem Verkaufskanalspeicher.
-
-
-

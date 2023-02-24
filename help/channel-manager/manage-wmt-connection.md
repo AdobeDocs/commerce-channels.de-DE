@@ -2,7 +2,7 @@
 title: Verwalten der Walmart Marketplace-Verbindung
 description: '''Aktualisieren Sie die API-Anmeldeinformationen, um die Verbindung zwischen einem [DNL! Commerce] Store-Ansicht und [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] Produktlisten erstellen und Inventar-, Preis-, Bestell- und Versanddaten zwischen [!DNL Commerce] und der Walmart."'
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: 2e55243dd920471b32e534563a39cc7be85375f8
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

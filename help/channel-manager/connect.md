@@ -1,22 +1,22 @@
 ---
 title: '"Verbinden mit [!DNL Commerce] Dienste'''
-description: '"Verbinden Sie den Kanal-Manager mit [!DNL Commerce] Dienste, die die Datensynchronisation und Kommunikation zwischen [!DNL Commerce] -Instanz, Kanal-Manager und anderen unterstützenden Diensten."'
+description: "Verbinden Sie den Kanal-Manager mit [!DNL Commerce] Dienste, die die Datensynchronisation und Kommunikation zwischen [!DNL Commerce] -Instanz, Kanal-Manager und anderen unterstützenden Diensten."
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 7e7a3e854bbc6062e2d15c1962ddf787451e7275
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 
-# Verbinden mit [!DNL Commerce] Dienstleistungen
+# Verbinden mit [!DNL Commerce] Dienste
 
 Die [!DNL Commerce Services Connector] integriert den Kanal-Manager-Dienst in Adobe Commerce- und Magento Open Source-Instanzen. Der Connector ermöglicht die Datensynchronisation und Kommunikation zwischen dem [!DNL Commerce] Instanz, [!DNL Channel Manager]und andere unterstützende Dienste.
 
-[!DNL Commerce Services Connector] Einrichtung ist ein einmaliger Prozess, der verwendet werden muss [Adobe Commerce SaaS-Dienste](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;}, z. B. [!DNL Channel Manager], [!DNL Live Search]und [!DNL Product Recommendations]. Wenn Sie den Connector bereits für einen anderen Dienst konfiguriert haben, überspringen Sie diesen Schritt.
+[!DNL Commerce Services Connector] Einrichtung ist ein einmaliger Prozess, der verwendet werden muss [Adobe Commerce SaaS-Dienste](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} wie [!DNL Channel Manager], [!DNL Live Search]und [!DNL Product Recommendations]. Wenn Sie den Connector bereits für einen anderen Dienst konfiguriert haben, überspringen Sie diesen Schritt.
 
 ## Voraussetzungen
 
@@ -24,11 +24,11 @@ Die [!DNL Commerce Services Connector] integriert den Kanal-Manager-Dienst in Ad
 
    Kontoinhaber und Superbenutzer können über die [!DNL Commerce] -Instanz oder über die Befehlszeile mit der [!DNL Commerce] CLI, Befehl `admin:user:create`.
 
-- **Adobe Commerce Production API-Schlüssel**-this [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} ermöglicht API-Zugriff auf Dienste, die für den Kanal-Manager erforderlich sind. Sie benötigen die öffentlichen und privaten Anmeldeinformationen für diesen Schlüssel.
+- **Adobe Commerce Production API-Schlüssel**-this [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} ermöglicht API-Zugriff auf Dienste, die für den Kanal-Manager erforderlich sind. Sie benötigen die öffentlichen und privaten Anmeldeinformationen für diesen Schlüssel.
 
 >[!TIP]
 >
->Um die Anmeldeinformationen anzugeben, muss ein [!DNL Commerce] Lizenzinhaber oder Kontoinhaber hat Optionen [Freigeben von Zugriff](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} oder geben Sie die [API-Schlüssel](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} Anmeldedaten für einen vertrauenswürdigen Entwickler.
+>Um die Anmeldeinformationen anzugeben, muss ein [!DNL Commerce] Lizenzinhaber oder Kontoinhaber hat Optionen [Freigeben von Zugriff](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} -Anmeldedaten für einen vertrauenswürdigen Entwickler.
 
 ## Konfigurieren Sie die [!DNL Commerce Services Connector]
 

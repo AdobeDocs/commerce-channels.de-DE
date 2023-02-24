@@ -1,15 +1,15 @@
 ---
-title: Listen verwalten
+title: Verwalten von Listen
 description: "Verwalten von Verkaufskanallisten für eine [!DNL Commerce] mit dem Kanal-Manager für Adobe Commerce und Magento Open Source speichern."
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# Listen verwalten
+# Verwalten von Listen
 
 Produktlisten für die [!DNL Walmart Marketplace] Vertriebskanal über die Kanal-Manager-Benutzeroberfläche.
 
@@ -82,7 +82,7 @@ Die folgenden Tabellen beschreiben die verfügbaren Steuerelemente und Spalten f
 | [!UICONTROL Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Status wird aktualisiert, wenn Sie erfolgreich Produkte zu [!DNL Channel Manager] und wenn Sie Produkte auf dem Markt finden. Wenn ein Vorgang fehlschlägt, zeigt die Auflistung einen Fehlerstatus an. Nachdem Sie den Fehler behoben haben, [!DNL Channel Manager] wiederholt den Vorgang und aktualisiert den Status. |
 | [!UICONTROL Error Description] | Bietet zusätzliche Fehlerinformationen für Produkte mit einer `[!DNL Error]` Status. |
 
-### Über den Listenstand
+### Über den Listenstatus
 
 Im Arbeitsbereich &quot;Listen&quot;zeigt die Bezeichnung Status an, wo sich ein Produkt im [!DNL Channel Manager] -Arbeitsablauf, damit Sie die nächsten Schritte bestimmen und Fehler beheben können. Listen können die folgenden Statusbezeichnungen aufweisen:
 

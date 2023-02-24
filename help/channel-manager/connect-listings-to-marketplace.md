@@ -1,15 +1,15 @@
 ---
-title: Listen mit Walmart verbinden
+title: Verbinden von Listen mit Walmart
 description: "Verbindungslisten für [!DNL Commerce] Produkte [!DNL Walmart Marketplace]zu verkaufen."
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
 
 ---
 
-# Listen mit Walmart verbinden
+# Verbinden von Listen mit Walmart
 
 Wie andere Marktplätze, [!DNL Walmart] Ermöglicht es Drittanbietern, von anderen Anbietern verkaufte Artikel aufzulisten.
 
