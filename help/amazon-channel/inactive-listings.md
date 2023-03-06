@@ -2,7 +2,7 @@
 title: Inaktive Listen
 description: Der Amazon-Vertriebskanal stellt die [!UICONTROL Inactive] Registerkarte zur Überwachung Ihrer derzeit inaktiven [!DNL Amazon Marketplace] Auflistungen.
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%

@@ -3,9 +3,9 @@ title: Lager/Menge
 description: So steuern Sie die Synchronisierung der Produktmengendetails von Ihrem Commerce-Store mit Ihrem [!DNL Amazon Seller Central] -Konto die Einstellungen für Lager/Menge aktualisieren.
 redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Diese Einstellungen werden verwendet, um die Produktmengendetails von Ihren [!DN
 
 >[!NOTE]
 >
->Für Benutzer von Adobe Commerce und Magento Open Source 2.3.x unterstützt der Amazon-Vertriebskanal die Verwendung der Inventory management-Erweiterung ohne zusätzliche Einrichtung. Siehe [Verwalten des Bestands](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target=&quot;_blank&quot;}.
+>Für Benutzer von Adobe Commerce und Magento Open Source 2.3.x unterstützt der Amazon-Vertriebskanal die Verwendung der Inventory management-Erweiterung ohne zusätzliche Einrichtung. Siehe [Verwalten des Bestands](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target="_blank"}.
 
 ## Einstellungen für Lager/Menge konfigurieren {#configure-stock--quantity-settings}
 

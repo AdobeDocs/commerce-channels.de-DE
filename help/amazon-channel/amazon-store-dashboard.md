@@ -2,7 +2,7 @@
 title: Amazon Store-Dashboard
 description: Zeigen Sie die Aktivität für Ihre Amazon Stores über den Commerce Admin im Dashboard des Amazon Stores an.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -10,7 +10,6 @@ ht-degree: 0%
 ---
 
 # Amazon Store-Dashboard
-
 
 Im _[!UICONTROL Amazon Stores]_Ansicht auf der Startseite des Amazon-Vertriebskanals, Sie können auf **[!UICONTROL View Store]**auf einer Store-Karte, um das Store-Dashboard zu öffnen.
 

@@ -2,16 +2,16 @@
 title: Erstellen [!DNL Commerce] Attribute für Amazon
 description: Bevor Sie das Onboarding des Amazon-Verkaufskanals abschließen, stellen Sie sicher, dass Sie über die erforderlichen [!UICONTROL Commerce] Produktattribute.
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# Erstellen [!DNL Commerce] -Attribute für Amazon
+# Erstellen [!DNL Commerce] Attribute für Amazon
 
-Vor der Onboarding [!DNL Amazon Seller Central] , empfiehlt es sich, [!DNL Commerce] [Produktattribute](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;}, um Ihre Produktlisten zuzuordnen. Nach Abschluss des Onboarding können Sie Ihre Produktattribute über die [Attribute](./managing-attributes.md) des [Amazon-Vertriebskanal - Startseite](./amazon-sales-channel-home.md) Seite.
+Vor der Onboarding [!DNL Amazon Seller Central] , empfiehlt es sich, [!DNL Commerce] [Produktattribute](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} , um Ihre Produktlisten zuzuordnen. Nach Abschluss des Onboarding können Sie Ihre Produktattribute über die [Attribute](./managing-attributes.md) des [Amazon-Vertriebskanal - Startseite](./amazon-sales-channel-home.md) Seite.
 
 In diesen Anweisungen wird beschrieben, wie Sie [!DNL Commerce] -Attribute für Amazon ASIN- und Amazon-Bedingung. Es wird empfohlen, zusätzliche Attribute wie Amazon EAN, Amazon ISBN und Amazon UPC zu erstellen. Sie können auch ein Amazon-Preisattribut erstellen, wenn Sie Ihren Amazon-Listingpreis als Preisquelle für Preisregeln verwenden möchten. Diese Attribute werden bei der Konfiguration Ihrer Listen- und Preiseinstellungen beim Onboarding verwendet. Verwenden Sie diese Attribute auch beim Erstellen von Amazon-Listen und beim Aktualisieren und Synchronisieren Ihrer [!DNL Commerce] Katalog mit Ihren Amazon-Auflistungen.
 

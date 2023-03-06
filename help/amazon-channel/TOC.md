@@ -1,11 +1,11 @@
 ---
-user-guide-title: Benutzerhandbuch für den Amazon-Vertriebskanal
+user-guide-title: Benutzerhandbuch für Amazon Sales Channel
 user-guide-description: Generieren von Verkäufen über Amazon durch Integration von Adobe Commerce oder Magento Open Source in Ihre [!DNL Amazon Seller Central] -Konto.
 breadcrumb-title: Amazon-Vertriebskanal
-source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
+source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 2%
    - [Listeneinstellungen anzeigen](listing-settings.md)
    - [Aktionen auf der Produktliste](product-listing-actions.md)
    - [Drittanbieterlisten](third-party-listing-settings.md)
-   - [Listenpreis](listing-price.md)
+   - [Börsenkurs](listing-price.md)
    - [(B2B) Geschäftspreise](business-pricing.md)
    - [Lager/Menge](stock-quantity.md)
    - [Erfüllt von](fulfilled-by.md)
    - [Katalogsuche](catalog-search.md)
-   - [Produktlistenbedingung](product-listing-condition.md)
+   - [Bedingung für die Produktliste](product-listing-condition.md)
    - [Erneuerte Produkte](renewed-products.md)
 - [Bestelleinstellungen](order-settings.md)
 - [Einstellungen zur Store-Integration](store-integration-settings.md)
@@ -82,7 +82,7 @@ ht-degree: 2%
       - [Preisanalyse](competitive-price-analysis.md)
       - [Verbesserungen bei Listen](listing-improvements.md)
    - Protokolle {#logs}
-      - [Protokoll zu Listening-Änderungen](listing-changes-log.md)
+      - [Protokoll zu Änderungen auflisten](listing-changes-log.md)
       - [Kommunikationsfehlerprotokoll](communication-errors-log.md)
 - Listen verwalten {#admin-listings}
    - [Verwalten von Amazon-Listen](managing-product-listings.md)

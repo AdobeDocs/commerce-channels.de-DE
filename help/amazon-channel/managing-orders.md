@@ -2,9 +2,9 @@
 title: Bestellungen verwalten
 description: Sie können den Bestellimport in Ihren Bestelleinstellungen aktivieren, um Ihre Amazon-Bestellungen einfacher von Ihrem Commerce-Administrator aus zu verwalten.
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
-source-git-commit: 1d1b888db4de4f6e3658af768cd6f5cf30828788
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Wie Sie Ihre Amazon-Bestellungen verwalten, hängt davon ab, ob der Bestellimpor
 
 ## Mit aktiviertem Bestellimport
 
-Nachher [Store-Integration](./store-integration.md), die [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) Einstellung ist `Enabled` Standardmäßig. Mit dieser Einstellung entspricht [!DNL Commerce] Bestellungen werden für Ihre Amazon-Bestellungen erstellt und können im [[!DNL Commerce] Bestellungen](https://docs.magento.com/user-guide/sales/orders.html)Workflow {target=&quot;_blank&quot;}.
+Nachher [Store-Integration](./store-integration.md), die [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) Einstellung ist `Enabled` Standardmäßig. Mit dieser Einstellung entspricht [!DNL Commerce] Bestellungen werden für Ihre Amazon-Bestellungen erstellt und können im [[!DNL Commerce] Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} Arbeitsablauf.
 
 >[!NOTE]
 >
 >Unabhängig von Ihren Einstellungen für den Bestellimport gibt es in Amazon Bestellungen, die in Ihrer [!DNL Amazon Seller Central] -Konto vor [Store-Integration](./store-integration.md) werden nicht importiert.
 
-Importierte Amazon-Bestellungen werden im [[!DNL Commerce] Bestellungen](https://docs.magento.com/user-guide/sales/orders.html)Workflow {target=&quot;_blank&quot;} - genau wie Ihr anderer [!DNL Commerce] Stores. Klicken Sie auf die Amazon-Bestellnummer im *[!UICONTROL Order Number]* -Spalte, um die Reihenfolge in der [[!DNL Commerce] Bestellprozess](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){target=&quot;_blank&quot;}. Siehe [Anzeigen von Amazon-Bestellungen](./amazon-orders-all.md).
+Importierte Amazon-Bestellungen werden im [[!DNL Commerce] Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} workflow, just like your other [!DNL Commerce] stores. Click the Amazon order number in the *[!UICONTROL Order Number]* column to open the order in the [[!DNL Commerce] order process](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){target="_blank"}. Siehe [Anzeigen von Amazon-Bestellungen](./amazon-orders-all.md).
 
 ### Vorgang zum Bestellimport
 
@@ -32,8 +32,8 @@ Wenn eine Bestellung in Amazon aufgegeben wird und [Bestellimport](./order-setti
 | Änderung | Aktionen |
 |---|---|
 | Eine Bestellung wird auf Amazon aufgegeben. | <ul><li>Amazon setzt den Bestellstatus auf `Pending`.</li><li>Bestellinformationen werden an [!DNL Commerce].</li><li>Bestellung wird hinzugefügt [_Amazon-Bestellungen_ table](./amazon-orders-all.md) mit `Pending` Status.</li></ul> |
-| Amazon ändert den Bestellstatus in `Unshipped`. | <ul><li>Die Statusänderung wird an [!DNL Commerce].</li><li>Im [_Amazon-Bestellungen_ table](./amazon-orders-all.md), ändert sich der Bestellstatus in `Unshipped`.</li><li>Im [[!DNL Commerce] Workflow für Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}, ein entsprechendes [!DNL Commerce] Die Bestellung wird mit einer `Processing` Status.</li></ul> |
-| In [[!DNL Commerce] Workflow für Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}, die [!DNL Commerce] Die Bestellung wird verarbeitet und der Status ändert sich in `Shipped`. | <ul><li>Im [_Amazon-Bestellungen_ table](./amazon-orders-all.md), ändert sich der Bestellstatus in `Shipped`.</li><li>Beim nächsten Cron-Auftrag ändert sich der Bestellstatus in `Complete` im [[!DNL Commerce] Workflow für Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}.</li></ul> |
+| Amazon ändert den Bestellstatus in `Unshipped`. | <ul><li>Die Statusänderung wird an [!DNL Commerce].</li><li>Im [_Amazon-Bestellungen_ table](./amazon-orders-all.md), ändert sich der Bestellstatus in `Unshipped`.</li><li>Im [[!DNL Commerce] Workflow für Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}, die [!DNL Commerce] Die Bestellung wird mit einer `Processing` Status.</li></ul> |
+| In [[!DNL Commerce] Workflow für Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}, die [!DNL Commerce] Die Bestellung wird verarbeitet und der Status ändert sich in `Shipped`. | <ul><li>Im [_Amazon-Bestellungen_ table](./amazon-orders-all.md), ändert sich der Bestellstatus in `Shipped`.</li><li>Beim nächsten Cron-Auftrag ändert sich der Bestellstatus in `Complete` im [[!DNL Commerce] Workflow für Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.</li></ul> |
 
 ### Blocker zur Auftragserstellung
 
@@ -42,8 +42,8 @@ Es gibt einige Szenarien, die die Erstellung der entsprechenden [!DNL Commerce] 
 | Szenario | Lösung |
 |---|---|
 | Das Element ist nicht im [!DNL Commerce] Katalog. | [Produkt erstellen](./creating-assigning-catalog-products.md) in [!DNL Commerce] Katalog und [manuell übereinstimmen](./creating-assigning-catalog-products.md) dem Produkt. |
-| Das Element im Katalog ist deaktiviert. | Stellen Sie sicher, dass die Variable [Produktstatus](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target=&quot;_blank&quot;} aktiviert ist. |
-| Der bestellte Artikel ist nicht vorrätig. | Aktualisieren oder konfigurieren Sie die [Produktoptionen](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target=&quot;_blank&quot;} für Menge und Quelle. |
+| Das Element im Katalog ist deaktiviert. | Stellen Sie sicher, dass die Variable [Produktstatus](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} aktiviert ist. |
+| Der bestellte Artikel ist nicht vorrätig. | Aktualisieren oder konfigurieren Sie die [Produktoptionen](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} für Menge und Quelle. |
 
 Wenn Bestellungen nicht importiert werden können, wird oben auf dem Bildschirm eine Systemmeldung wie die folgende angezeigt:
 

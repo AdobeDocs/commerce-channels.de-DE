@@ -2,7 +2,7 @@
 title: Beispiele für Preisregeln
 description: Um Sie bei der Erstellung Ihrer Preisregeln für Amazon-Auflistungen zu unterstützen, sollten Sie diese Beispiele anhand gängiger Szenarien durchlesen.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 2%
@@ -160,10 +160,10 @@ Der Endpreis nach Anwendung der Regel: 15$
 
 | Preis | Bedingung |
 |----------|----|
-| 17$ | Neu |
-| 15$ | Neu |
-| 14$ | Verwendet; Sehr gut |
-| 13$ | Verwendet; Gut |
+| $17 | Neu |
+| $15 | Neu |
+| $14 | Verwendet; Sehr gut |
+| $13 | Verwendet; Gut |
 
 #### Produkt 1
 
@@ -189,8 +189,8 @@ Der Endpreis nach Anwendung der Regel: 13$
 
 | Feld | Einstellung |
 |----------|-----|
-| [!UICONTROL VAT] | 10 % |
-| [!UICONTROL Ceiling price source] | 10$ |
+| [!UICONTROL VAT] | 10% |
+| [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 Euro:1 USD |
 
 [Höchstpreis](./optional-ceiling-price.md) auf dem europäischen (MwSt)-Markt: $10 x 1,25 = $12,50
@@ -206,8 +206,8 @@ Endpreis nach MwSt: 12,50 $ x (1,1) = 13,75 $
 | Feld | Einstellung |
 |----------|----|
 | Priorität | 1 |
-| Mehrwertsteuer | 10 % |
-| Obergrenze der Preisquelle | 10$ |
+| Mehrwertsteuer | 10% |
+| Obergrenze der Preisquelle | $10 |
 | Währungsumrechnung | 1,25 Euro:1 USD |
 
 [Höchstpreis](./optional-ceiling-price.md) auf dem europäischen (MwSt)-Markt: $10 x 1,25 = $12,50
@@ -221,7 +221,7 @@ Endpreis nach MwSt: 12,50 $ x (1,1) = 13,75 $
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Erhöhen um |
 | [!UICONTROL Apply] | Anwenden als fester Betrag |
-| [!UICONTROL Adjustment Amount] | 5,00$ |
+| [!UICONTROL Adjustment Amount] | $5.00 |
 
 Wenn die [Höchstpreis](./optional-ceiling-price.md) getroffen wurde, wird die standardmäßige Preisregel zusätzlich zur intelligenten Preisregel angewendet.
 

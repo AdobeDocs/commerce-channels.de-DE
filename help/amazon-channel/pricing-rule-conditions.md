@@ -3,16 +3,16 @@ title: Bedingungen für Preisregeln
 description: Verwenden Sie die Preisregel-Bedingungen, um zu bestimmen, welche Produkte für die Regel des Listenpreises infrage kommen.
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # Bedingungen für Preisregeln
 
-Die Bedingungen bestimmen, welche Produkte für die Preisregel infrage kommen. Die Festlegung der Bedingungen für Ihre Amazon-Preisregeln folgt derselben Logik und demselben Prozess wie die Definition der Bedingungen für [Warenkorbpreisregeln](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;} in [!DNL Commerce].
+Die Bedingungen bestimmen, welche Produkte für die Preisregel infrage kommen. Die Festlegung der Bedingungen für Ihre Amazon-Preisregeln folgt derselben Logik und demselben Prozess wie die Definition der Bedingungen für [Warenkorbpreisregeln](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,11 +24,11 @@ Auf alle Bereiche in den fett gedruckten Bedingungen kann geklickt werden, um di
 
 Dieser Vorgang kann je nach Konfiguration Ihres Katalogs einfach oder detailliert sein. Sie können Bedingungen so definieren, dass `ALL` oder `ANY` der Bedingungen `TRUE` oder `FALSE` für ein Produkt gilt die Preisregel für das Produkt.
 
-Die Bedingungen basieren auf Ihren [Produktattribute](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}. Lassen Sie den Abschnitt Bedingungen leer, um die Regel auf alle Produkte anzuwenden.
+Die Bedingungen basieren auf Ihren [Produktattribute](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Lassen Sie den Abschnitt Bedingungen leer, um die Regel auf alle Produkte anzuwenden.
 
 >[!NOTE]
 >
->Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, **Verwendung für Bedingungen für Angebotsregeln** für muss das Attribut auf `Yes` in [Storefront-Eigenschaften](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;} für das Attribut.
+>Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, **Verwendung für Bedingungen für Angebotsregeln** für muss das Attribut auf `Yes` in [Storefront-Eigenschaften](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} für das -Attribut.
 
 ![Bedingung der Preisregel - Zeile 1](assets/ob-price-rules-condition-1.png)
 
@@ -50,7 +50,7 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
 
    ![Kombination von Preisregelbedingungen](assets/ob-conditions-combinations.png)
 
-   **[!UICONTROL Product Attribute]** - Die verfügbaren Produktattribute hängen von der [Einrichtung des Attributs](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}. Damit ein Attribut in der Liste angezeigt wird, *[!UICONTROL Use for Promo Rule Conditions]* für muss das Attribut auf `Yes` in [Storefront-Eigenschaften](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}.
+   **[!UICONTROL Product Attribute]** - Die verfügbaren Produktattribute hängen von der [Einrichtung des Attributs](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
 
    - Für **[!UICONTROL Product Attribute]**, wählen Sie das Attribut aus, das Sie als Basis der Bedingung definieren möchten. In diesem Beispiel lautet die ausgewählte Bedingung: `Category`.
 

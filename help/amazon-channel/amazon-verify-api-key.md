@@ -2,14 +2,14 @@
 title: Hinzufügen oder Überprüfen des Amazon API-Schlüssels
 description: In Ihrer Commerce-Konfiguration können Sie mit dem validierten Amazon-API-Schlüssel Ihre Stores in Ihr Amazon Seller-Konto integrieren.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
 
-# Hinzufügen oder Überprüfen des Amazon-API-Schlüssels
+# Hinzufügen oder Überprüfen des Amazon API-Schlüssels
 
 Beim Zugriff auf den Amazon-Vertriebskanal [!DNL Commerce] überprüft und validiert automatisch den Amazon-API-Schlüssel, den Sie in Ihrer Store-Konfiguration hinzugefügt haben. Wenn validiert, können Sie mit dem nächsten Schritt fortfahren, [Store-Integration](./store-integration.md).
 
@@ -35,7 +35,7 @@ Der API-Schlüssel wird jedes Mal überprüft, wenn Sie auf Ihren Amazon-Vertrie
 
    - Wenn Sie noch nicht angemeldet sind, werden Sie aufgefordert, Ihre [!DNL Commerce] Benutzername und Kennwort des Kontos vor _[!UICONTROL API Portal]_angezeigt.
 
-   - Wenn Sie kein Konto haben, besuchen Sie [die [!DNL Commerce] Kontoseite](https://account.magento.com/customer/account/login/){target=&quot;_blank&quot;} und registrieren. Dieses Konto sollte Teil Ihres Unternehmens oder Ihres Unternehmens sein.
+   - Wenn Sie kein Konto haben, besuchen Sie [die [!DNL Commerce] Kontoseite](https://account.magento.com/customer/account/login/){target="_blank"} und registrieren. Dieses Konto sollte Teil Ihres Unternehmens oder Ihres Unternehmens sein.
 
 1. Bei Bedarf können Sie API-Schlüssel für die _[!UICONTROL API Portal]_in der [!DNL Commerce] -Konto.
 

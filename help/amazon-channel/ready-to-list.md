@@ -2,7 +2,7 @@
 title: Listenbereit
 description: Der Amazon-Vertriebskanal bietet die Registerkarte "Listenbereit", mit der Sie Commerce-Produkte überprüfen können, die die Voraussetzungen erfüllen, aber nicht automatisch aufgelistet werden.
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Sie haben einige Optionen zum manuellen [Neue Liste in Amazon veröffentlichen](
 | [!UICONTROL Status] | Der von Amazon definierte Status der Auflistung. |
 | [!UICONTROL Action] | Liste der verfügbaren Aktionen, die auf eine bestimmte Liste angewendet werden können. Um eine Aktion anzuwenden, klicken Sie auf **[!UICONTROL Select]** im _[!UICONTROL Action]_und wählen Sie eine Option aus:<ul><li>[[!UICONTROL Publish on Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
 
-### Häufige Ursachen für Listen vom Typ &quot;Bereit zum Auflisten&quot;
+### Häufige Ursachen für Listen, die bereit zur Auflistung sind
 
 - **[!UICONTROL Ready to List]** - Das Produkt wird mit einem Amazon-ASIN abgeglichen und für die Auflistung geplant. Wenn [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) in Ihren Listeneinstellungen auf `Do Not Automatically List Eligible Products`, stellt dieser Status die Produkte dar, die zur manuellen Auflistung bereit sind.
 

@@ -3,14 +3,14 @@ title: Onboard Amazon Sales Channel
 description: Erfahren Sie mehr über die Aufgaben vor der Einrichtung, Onboarding-Schritte und die Funktionsweise von Amazon mit Amazon Sales Channel in Adobe Commerce und Magento Open Source.
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
-# Integrierter Amazon-Vertriebskanal
+# Onboard Amazon Sales Channel
 
 In diesem Abschnitt werden die Aufgaben vor der Einrichtung, das Onboarding und einige Schlüsselkonzepte für die Funktionsweise von Amazon mit dem Amazon-Vertriebskanal in Adobe Commerce und Magento Open Source beschrieben.
 
@@ -18,7 +18,7 @@ Die [!DNL Amazon Sales Channel] -Erweiterung unterstützt mehrere Amazon-Stores.
 
 >[!TIP]
 >
->A [Professional Seller-Konto](https://sell.amazon.com/){target=&quot;_blank&quot;} on [!DNL Amazon Seller Central] in Nordamerika oder in der europäischen (UK) Region erforderlich. Amazon berechnet monatliche Abos und Verkaufspreise. Siehe [Amazon: Verkaufsplan auswählen](https://sell.amazon.com/pricing.html){target=&quot;_blank&quot;}.<br><br>
+>A [Professional Seller-Konto](https://sell.amazon.com/){target="_blank"} on [!DNL Amazon Seller Central] in the North America or European (UK) region is required. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan](https://sell.amazon.com/pricing.html){target="_blank"}.<br><br>
 >Das Onboarding ist einfach: Erstellen Sie Ihren Store und verbinden Sie ihn dann mit Ihrem [!DNL Amazon Seller Central] -Konto.
 >Wenn Ihr Store verbunden ist, versucht der Amazon-Kanal, Ihre Amazon-Auflistungen zu importieren und basierend auf Ihrem [Attributzuordnung](./attributes-view.md).<br><br>
 >Die Einstellungen Ihres Amazon-Vertriebskanals wirken sich auf Ihre Amazon-Auflistungen aus. Ihre Erstauflistung, Preise und Produkteinstellungen sind für Sie standardmäßig festgelegt. Sie können Ihre [Store-Einstellungen](./ob-store-review.md) (Auflistung, Preise, Bestellung und Berichterstellung), nachdem Ihr Geschäft mit Ihrem [!DNL Amazon Seller Central] -Konto.

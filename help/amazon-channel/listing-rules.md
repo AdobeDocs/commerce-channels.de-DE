@@ -3,9 +3,9 @@ title: Listening-Regeln
 description: Mit Listening-Regeln werden die Commerce-Katalogprodukte bestimmt, die als Amazon Marketplace-Listen veröffentlicht werden.
 redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Sie können auf die Listenregeln für den Store im [Store-Dashboard](./amazon-st
 
 Listening-Regeln definieren die Regeln, um zu bestimmen, welche Produkte der Amazon-Vertriebskanal in Amazon veröffentlicht. Diese Regeln bieten viele Optionen zum Erstellen einfacher bis komplexer Regeln zum Ein- oder Ausschließen von Produkten als Listen. Jede Regel besteht aus Bedingungen, die die Voraussetzungen für die Produktlisten-Eignung festlegen.
 
-Ihre Listening-Regeln werden kontinuierlich mit Ihrer [!DNL Commerce] Katalog. Wenn Sie neue [!DNL Commerce] Produkte, die die in Ihren Zulassungsregeln festgelegten Eignungsanforderungen erfüllen, werden die Produkte automatisch für die Aufnahme in Amazon verarbeitet.
+Ihre Listening-Regeln werden kontinuierlich mit Ihrer [!DNL Commerce] Katalog. Wenn Sie neue [!DNL Commerce] Produkte, die die von Ihren Listening-Regeln festgelegten Eignungskriterien erfüllen, werden die Produkte automatisch für die Aufnahme in Amazon verarbeitet.
 
 - Wenn Sie möchten, dass alle Ihre Produkte in einer Amazon-Liste veröffentlicht werden, legen Sie keine Bedingungen für Ihre Listening-Regeln fest.
 
-- Wenn Sie begrenzen möchten, welche Ihrer Katalogprodukte in Amazon veröffentlicht werden, definieren Sie Ihre Bedingungen für die Listenregel. Das Definieren der Bedingungen für Ihre Amazon-Listening-Regeln folgt derselben Logik und demselben Prozess wie das Definieren der Bedingungen für [Warenkorbpreisregeln](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
+- Wenn Sie begrenzen möchten, welche Ihrer Katalogprodukte in Amazon veröffentlicht werden, definieren Sie Ihre Bedingungen für die Listenregel. Das Definieren der Bedingungen für Ihre Amazon-Listening-Regeln folgt derselben Logik und demselben Prozess wie das Definieren der Bedingungen für [Warenkorbpreisregeln](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
 - Wenn Ihre Listening-Regeln ein Produkt ausschließen, ändert sich der Berechtigungsstatus für dieses Produkt in `Ineligible`. Nicht infrage kommende Produkte werden nicht in Amazon veröffentlicht.
 
@@ -40,7 +40,7 @@ Siehe [Beispiel: Definieren einer Bedingung](./ob-define-condition-example.md).
 
 | Feld | Beschreibung |
 |---|---|
-| [!UICONTROL Websites] | Die verfügbaren Optionen hängen von der [Websites](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;}, die Sie in Ihrem [!DNL Commerce] Konfiguration. Wählen Sie die Website für die in Amazon aufgeführten Produkte aus. Es kann nur eine Website ausgewählt werden, da für jede Website ein eindeutiger Amazon Store erforderlich ist, der im Amazon-Vertriebskanal erstellt wurde. |
+| [!UICONTROL Websites] | Die verfügbaren Optionen hängen von der [Websites](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} Sie haben sich in der [!DNL Commerce] Konfiguration. Wählen Sie die Website für die in Amazon aufgeführten Produkte aus. Es kann nur eine Website ausgewählt werden, da für jede Website ein eindeutiger Amazon Store erforderlich ist, der im Amazon-Vertriebskanal erstellt wurde. |
 | [!UICONTROL Conditions] | Wird verwendet, um die [!DNL Commerce] -Attribute für die Produkteignung in Ihrer Amazon-Region. Siehe [Beispiel: Definieren einer Bedingung](./ob-define-condition-example.md). |
 
 ## Bedingungsarbeitsbereich
@@ -50,7 +50,7 @@ Auf alle Bereiche in den fett gedruckten Bedingungen kann geklickt werden, um di
 - Fügen Sie keine Bedingungen hinzu, wenn alle Produkte auf den ausgewählten Websites infrage kommen.
 - Es gibt eine komplexe Reihe von Back-End-Prozessen, die direkt mit den Systemen von Amazon kommunizieren. Je nachdem, wie viele Elemente Sie auflisten möchten und wie beschäftigt die Amazon-Systeme sein könnten (z. B. Black Friday), kann es einige Zeit dauern, bis Ihre Artikel in Amazon aufgelistet werden.
 
-Weitere Informationen zu Bedingungen finden Sie unter [Beschreibung der Bedingungen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
+Weitere Informationen zu Bedingungen finden Sie unter [Beschreibung der Bedingungen](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
 ## Vorschau der Listening-Regel
 
@@ -98,7 +98,7 @@ Ihre potenziellen Amazon-Auflistungen werden im _[!UICONTROL Listing Preview]_Se
 |--- |--- |
 | [!UICONTROL Product ID] | Die eindeutige, sequenzielle Zahl, die einer [!DNL Commerce] -Katalogprodukt, wenn es hinzugefügt wird. |
 | [!UICONTROL Thumbnail] | Zeigt eine Miniaturansicht des Hauptproduktbilds an. |
-| [!UICONTROL Name] | Der Name des Produkts, das im [!DNL Commerce] [Produktraster](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Name] | Der Name des Produkts, das im [!DNL Commerce] [Produktraster](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
 | [!UICONTROL Type] | Der Produkttyp, der im [!DNL Commerce] Produktraster. |
 | [!UICONTROL Attribute Set] | Der Name des Attributsatzes, der als Vorlage für das Produkt verwendet wird und im [!DNL Commerce] Produktraster. |
 | [!UICONTROL SKU] | Die eindeutige Lagereinheit, die dem Produkt zugewiesen und im [!DNL Commerce] Produktraster. |

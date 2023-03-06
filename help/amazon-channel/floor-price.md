@@ -2,14 +2,14 @@
 title: '"Intelligente Neupreisregel: Floor Price'''
 description: Verwenden Sie die Einstellungen für den Tiefstpreis, um den niedrigsten Preis für eine intelligente Preisregel zur Verwaltung Ihrer Amazon-Auflistungen zu ermitteln.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
-# Intelligente Neupreisregel: Grundpreis
+# Intelligente Neupreisregel: Floor Price
 
 Zu den Abschnitten einer intelligenten Neupreisregel gehören:
 
@@ -31,7 +31,7 @@ Definieren Sie Ihre niedrigste Preiseinstellung im _[!UICONTROL Floor Price]_Abs
 
 1. Für **[!UICONTROL Floor Price Source]**, wählen Sie ein Preisquellenattribut aus.
 
-   Wählen Sie die [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}, das Ihre relative Bodenbegrenzung angibt. Wenn Sie beispielsweise nicht möchten, dass der Listenpreis für Amazon unter den Artikelkosten liegt, wählen Sie die *Kosten* -Attribut.
+   Wählen Sie die [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} , der Ihre relative Bodenbegrenzung angibt. Wenn Sie beispielsweise nicht möchten, dass der Listenpreis für Amazon unter den Artikelkosten liegt, wählen Sie die *Kosten* -Attribut.
 
 1. Für **[!UICONTROL Floor Price Action]**, wählen Sie eine Option aus.
 

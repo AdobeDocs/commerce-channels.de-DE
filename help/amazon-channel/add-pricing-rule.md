@@ -2,10 +2,10 @@
 title: Hinzufügen von Preisregeln
 description: Verwenden Sie Preisregeln, um die Listenpreise auf dem Amazon Marketplace für Ihren Commerce-Produktkatalog zu verwalten.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 

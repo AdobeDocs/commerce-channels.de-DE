@@ -2,14 +2,14 @@
 title: Listendetails anzeigen
 description: Um Wettbewerbsmetriken in Ihren Amazon-Listen und individuellen SKU-/Produktänderungen zu verstehen, lesen Sie die Seite Produktlistendetails .
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-# Details zur Liste anzeigen
+# Listendetails anzeigen
 
 Die _[!UICONTROL Product Listing Details]_-Seite enthält zusätzliche Informationen zu Ihren aktiven Produktlisten, einschließlich des Protokolls zu Listing-Aktivitäten, das die Änderungen an einer einzelnen SKU bzw. einem einzelnen Produkt anzeigt. Diese Informationen helfen Ihnen dabei, die Wettbewerbsmetriken Ihrer Produkte und der einzelnen SKU/Produktänderungen zu verstehen. Weitere Informationen auf dieser Seite sind:
 
@@ -30,7 +30,7 @@ Die angezeigten Produktinformationen umfassen:
 
 ![Auflistungsdetails](assets/amazon-product-listing-details.png)
 
-## Auflisten des Aktivitätsprotokolls {#listing-activity-log}
+## Protokoll zu Listening-Aktivitäten {#listing-activity-log}
 
 Zeigt alle aktuellen Aktivitäten für die Amazon-Auflistung an. Zu den angezeigten Informationen gehören:
 
@@ -43,7 +43,7 @@ Zeigt alle aktuellen Aktivitäten für die Amazon-Auflistung an. Zu den angezeig
 ![Produktlistendetails - Protokoll zu Listening-Aktivitäten](assets/amazon-listing-activity-log.png)
 __
 
-## Buy Box Konkurrentenpreise {#buy-box-competitor-pricing}
+## Buy Box-Mitbewerber-Preise {#buy-box-competitor-pricing}
 
 Auf dieser Registerkarte werden Informationen zum Amazon-Händler angezeigt, der die [[!DNL Buy Box]](./buy-box-competitor-pricing.md) Position für die Auflistung. Anhand dieser Informationen können Sie die Preispositionierung Ihrer Wettbewerber in Amazon nachvollziehen. Zu den angezeigten Informationen gehören:
 

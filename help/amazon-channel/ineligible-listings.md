@@ -2,14 +2,14 @@
 title: Nicht zulässige Listen
 description: Der Amazon-Vertriebskanal stellt die [!UICONTROL Ineligible] -Registerkarte, um Sie bei der Verwaltung von Elementen zu unterstützen, sind nicht als Liste auf der Grundlage Ihrer aktuellen Listening-Regeln qualifiziert.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
-# Nicht infrage kommende Listen
+# Nicht zulässige Listen
 
 Die _[!UICONTROL Ineligible]_zeigt eine Liste aller Produkte an, die derzeit in Amazon veröffentlicht sind, aber aufgrund Ihrer aktuellen Listening-Regeln nicht als Liste infrage kommen. Wenn ein früheres Produkt in Frage kam und die Listening-Regeln so geändert werden, dass es jetzt nicht mehr zugelassen wird, wird die mit einem Produkt verbundene Menge auf 0 gesetzt und das Produkt wird als_ nicht förderfähig _. Es ist jedoch weiterhin in Ihrer [!DNL Amazon Seller Account].
 

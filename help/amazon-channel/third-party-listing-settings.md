@@ -3,9 +3,9 @@ title: Drittanbieterlisten
 description: Aktualisieren Sie die Einstellungen für die Drittanbieterliste, um festzustellen, ob Ihr Commerce-Katalog Produkte aus Ihren bestehenden Amazon Seller Central-Listen importiert.
 redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Der erste Listenimport wird beim [Store-Integration](./store-integration.md) ist
 
    - `Import Listing` - (Standard) Wählen Sie aus, wann Produktinformationen aus Ihren Amazon-Listen in Ihre [!DNL Commerce] Produktkatalog. Diese Option ist die Standardoption und wird empfohlen.
 
-   - `Do Not Import Listing` - Legen Sie fest, wann Sie manuell [Erstellen und Zuweisen neuer Produkte](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;} [!DNL Commerce] Katalog für Ihre Amazon-Auflistungen.
+   - `Do Not Import Listing` - Legen Sie fest, wann Sie manuell [Erstellen und Zuweisen neuer Produkte](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} auf [!DNL Commerce] Katalog für Ihre Amazon-Auflistungen.
    >[!NOTE]
    >Die folgenden Optionsfelder sind nur aktiv, wenn auf `Import Listing`.
 
@@ -49,7 +49,7 @@ Der erste Listenimport wird beim [Store-Integration](./store-integration.md) ist
 
 | Feld | Beschreibung |
 |---|---|
-| [!UICONTROL Import Third Party Listings] | Erforderlich. Optionen:<ul><li>**[!UICONTROL Import Listing]** - (Standard) Wählen Sie aus, wann Produktinformationen aus Ihren Amazon-Listen in Ihre [!DNL Commerce] Produktkatalog. </li><li>**[!UICONTROL Do Not Import Listing]** - Legen Sie fest, wann Sie manuell [Erstellen und Zuweisen neuer Produkte](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;} [!DNL Commerce] Katalog für Ihre Amazon-Auflistungen.</li></ul> |
+| [!UICONTROL Import Third Party Listings] | Erforderlich. Optionen:<ul><li>**[!UICONTROL Import Listing]** - (Standard) Wählen Sie aus, wann Produktinformationen aus Ihren Amazon-Listen in Ihre [!DNL Commerce] Produktkatalog. </li><li>**[!UICONTROL Do Not Import Listing]** - Legen Sie fest, wann Sie manuell [Erstellen und Zuweisen neuer Produkte](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} auf [!DNL Commerce] Katalog für Ihre Amazon-Auflistungen.</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | Nur aktiv , wenn auf `Import Listing`.<br>Wählen Sie die [!DNL Commerce] als Übereinstimmung mit dem Amazon-Attribut für die Amazon Seller-SKU. Wenn dieses Attribut nicht vorhanden ist, lesen Sie [Erstellen von Amazon-Produktattributen für Amazon-Übereinstimmung](./ob-creating-magento-attributes.md). Überprüfen Sie bei Bedarf Ihre [!DNL Commerce] [attributes](./managing-attributes.md) und erstellen oder bearbeiten Sie ein Attribut, das diesen Amazon-Daten entspricht. |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | Nur aktiv , wenn auf `Import Listing`.<br>Wählen Sie die [!DNL Commerce] -Attribut, das mit dem Amazon-Attribut für Amazon ASIN übereinstimmt. Wenn dieses Attribut nicht vorhanden ist, lesen Sie [Erstellen von Amazon-Produktattributen für Amazon-Übereinstimmung](./ob-creating-magento-attributes.md). Überprüfen Sie bei Bedarf Ihre [!DNL Commerce] [attributes](./managing-attributes.md) und erstellen oder bearbeiten Sie ein Attribut, das diesen Amazon-Daten entspricht. |
 

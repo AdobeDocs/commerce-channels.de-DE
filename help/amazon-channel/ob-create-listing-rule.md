@@ -2,14 +2,14 @@
 title: '"Onboarding: Erstellen einer Listungsregel'''
 description: Erstellen Sie beim Abschluss des Onboarding-Prozesses für den Amazon-Verkaufskanal die anfänglichen Listening-Regeln zum Generieren von Amazon-Auflistungen für Ihre [!DNL Commerce] Produkte.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
 
 ---
 
-# Onboarding: Erstellen einer Listungsregel
+# Onboarding: Listungsregel erstellen
 
 Listening-Regeln können während des Onboarding definiert, aber auch jederzeit geändert werden. Nach dem Onboarding können Sie auf die [Auflistungsregeln](./listing-rules.md) im Geschäft [Dashboard](./amazon-store-dashboard.md).
 

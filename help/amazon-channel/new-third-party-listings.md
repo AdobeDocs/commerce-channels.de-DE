@@ -2,7 +2,7 @@
 title: Neue Drittanbieterlisten
 description: Verwalten Sie neue Amazon-Listen, indem Sie sie mit einem Produkt in Ihrem Commerce-Katalog abgleichen.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%

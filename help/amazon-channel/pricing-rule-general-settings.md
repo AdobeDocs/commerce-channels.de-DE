@@ -3,7 +3,7 @@ title: Allgemeine Preisregeleinstellungen
 description: Verwenden Sie die allgemeinen Preisregeleinstellungen, um die Hauptmerkmale einer Regel für den Börsennotierungspreis zu definieren.
 redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%

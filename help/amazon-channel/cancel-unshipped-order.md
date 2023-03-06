@@ -2,9 +2,9 @@
 title: Abbrechen einer nicht versandten Bestellung
 description: Abbrechen einer ausstehenden oder teilweise ausgelieferten (unausgelieferten) Bestellung über Ihre Amazon [!DNL Seller Central] -Konto.
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Amazon-Bestellungen können nur storniert werden, wenn sie sich in einer `Unship
 >
 >Für andere Aufgaben als den Abbruch einer Bestellung:
 >
->- Wenn Sie [Bestellimport](./order-settings.md) aktiviert ist, werden die Bestellungen im [[!DNL Commerce] Workflow für Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}.
+>- Wenn Sie [Bestellimport](./order-settings.md) aktiviert ist, werden die Bestellungen im [[!DNL Commerce] Workflow für Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
 >- Wenn [Bestellimport](./order-settings.md) deaktiviert ist, müssen Sie Ihre Bestellungen in [!DNL Amazon Seller Central].
 
 

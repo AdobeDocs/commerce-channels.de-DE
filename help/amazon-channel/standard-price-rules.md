@@ -2,7 +2,7 @@
 title: Standardmäßige Preisregelaktionen
 description: Verwenden Sie standardmäßige Preisregelaktionen, um einen Amazon-Listingpreis im Verhältnis zum Commerce-Katalogpreis (oder zur Preisquelle) zu erhöhen oder zu senken.
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%

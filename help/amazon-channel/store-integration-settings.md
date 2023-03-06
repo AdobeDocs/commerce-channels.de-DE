@@ -2,14 +2,14 @@
 title: Store-Integrationseinstellungen
 description: Nachdem Sie das Onboarding des Amazon-Verkaufskanals abgeschlossen haben, überprüfen und konfigurieren Sie die Einstellungen für die Store-Integration über das [!UICONTROL Amazon Store] Dashboard
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Einstellungen zur Store-Integration
+# Store-Integrationseinstellungen
 
 Überprüfen und konfigurieren Sie nach der Integration Ihres Stores die Einstellungen für die Store-Integration über die [!UICONTROL Amazon Store] Dashboard. Diese Einstellungen werden für *Inaktiv* und *Aktiv* Stores. Hier können Sie den Namen Ihres Amazon-Stores und die E-Mail-Adresse ändern, die Sie während der Store-Integration mit dem Store verknüpft haben.
 

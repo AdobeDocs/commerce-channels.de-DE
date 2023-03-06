@@ -2,14 +2,14 @@
 title: Amazon Stores-Ansicht
 description: Navigieren Sie zur Ansicht "Amazon Stores", um die grundlegenden Statistiken für jeden Ihrer Amazon Stores zu überprüfen und auf die Verwaltungsoptionen zuzugreifen.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# Ansicht &quot;Amazon Stores&quot;
+# Amazon Stores-Ansicht
 
 Wenn Sie sich die Startseite des Amazon-Vertriebskanals ansehen, wird die _Amazon Stores_ -Ansicht wird standardmäßig geöffnet.
 

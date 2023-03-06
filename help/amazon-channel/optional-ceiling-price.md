@@ -1,15 +1,15 @@
 ---
-title: '"Intelligente Neupreisregel: Optionaler Höchstpreis"'
+title: "Intelligente Neupreisregel: Optionaler Höchstpreis"
 description: Verwenden Sie optionale Preiseinstellungen, um Ihren höchsten Produktpreis vor den intelligenten Preisregeln zu schützen, die Ihre Amazon-Auflistungen verwalten.
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# Intelligente Neupreisregel: fakultativer Höchstpreis
+# Intelligente Neupreisregel: Optionaler Höchstpreis
 
 Zu den Abschnitten einer intelligenten Neupreisregel gehören:
 
@@ -27,7 +27,7 @@ Definieren Sie Ihre optionalen Einstellungen für den höchsten Preis in _[!UICO
 
 1. Für **[!UICONTROL Ceiling Price Source]**, wählen Sie ein Attribut aus.
 
-   Wählen Sie Ihre [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}, das Ihre relative Obergrenze angibt. Wenn Sie beispielsweise nicht möchten, dass der Amazon-Listingpreis über dem MSRP Ihres Artikels liegt, wählen Sie die `Manufacturer's Suggested Retail Price` -Attribut.
+   Wählen Sie Ihre [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} , der Ihre relative Obergrenze angibt. Wenn Sie beispielsweise nicht möchten, dass der Amazon-Listingpreis über dem MSRP Ihres Artikels liegt, wählen Sie die `Manufacturer's Suggested Retail Price` -Attribut.
 
 1. Für **[!UICONTROL Ceiling Price Action]**, wählen Sie eine Option aus.
 
@@ -47,7 +47,7 @@ In diesem Beispiel wird der Höchstpreis auf 2 % unter dem MSRP des Artikels fes
 
 | Feld | Beschreibung |
 |---|---|
-| [!UICONTROL Ceiling Price Source] | Wählen Sie die [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}, das Ihre relative Obergrenze angibt. Wenn Sie beispielsweise nicht möchten, dass der Produktlistenpreis über dem MSRP Ihres Artikels liegt, wählen Sie die `Manufacturer's Suggested Retail Price` -Attribut. |
+| [!UICONTROL Ceiling Price Source] | Wählen Sie die [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} , der Ihre relative Obergrenze angibt. Wenn Sie beispielsweise nicht möchten, dass der Produktlistenpreis über dem MSRP Ihres Artikels liegt, wählen Sie die `Manufacturer's Suggested Retail Price` -Attribut. |
 | [!UICONTROL Ceiling Price Action] | Wählen Sie eine Preisanpassungsaktion. Optionen:<ul><li>**[!UICONTROL Decrease By]** - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Ceiling Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Increase By]** - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Ceiling Price Source]_-Wert, der angepasst werden soll, sodass ein höherer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Match]** - Wählen Sie aus, wann der Listenpreis nicht über dem definierten Wert schwanken soll. _[!UICONTROL Ceiling Price Source]_-Wert. Wenn auf `Match`, die_[!UICONTROL Apply]_ und _[!UICONTROL Ceiling Adjustment Amount]_-Felder deaktiviert sind.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - prozentuale Anpassung im Verhältnis zum _[!UICONTROL Ceiling Price Source]_-Wert. |
 | [!UICONTROL Ceiling Price Adjustment] | Geben Sie den numerischen Wert für den Prozentwert ein, um Ihre _[!UICONTROL Ceiling Price Source]_-Wert. |

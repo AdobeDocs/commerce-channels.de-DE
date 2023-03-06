@@ -2,16 +2,16 @@
 title: Erneuerte Produkte
 description: Wenn Ihr Seller Central-Konto für das erneuerte Programm registriert ist, können Sie Ihre erneuerten Einträge im Amazon-Sales Channel verwalten.
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Erneuerte Produkte
 
-Bevor Sie Ihre hochwertigen, ähnlich neuen Produkte (renoviert, vorgeführt und offen gelegt) in Amazon auflisten können, müssen Sie sich zunächst registrieren und für die [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target=&quot;_blank&quot;}.
+Bevor Sie Ihre hochwertigen, ähnlich neuen Produkte (renoviert, vorgeführt und offen gelegt) in Amazon auflisten können, müssen Sie sich zunächst registrieren und für die [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target="_blank"}.
 
 Nachdem Sie die Genehmigung erteilt haben und [!DNL Seller Central] -Konto aktualisiert wurde, können Sie Ihre erneuerten Einträge im Amazon-Vertriebskanal verwalten. Erneuerte Listen erfordern die folgenden Schritte unter [!DNL Commerce]:
 
@@ -25,8 +25,8 @@ Nachdem Sie die Genehmigung erteilt haben und [!DNL Seller Central] -Konto aktua
 
 Weitere Informationen finden Sie in der zugehörigen Amazon-Dokumentation:
 
-- [Erneuertes Amazon-Programm](https://sell.amazon.com/programs/renewed.html){target=&quot;_blank&quot;}
+- [Erneuertes Amazon-Programm](https://sell.amazon.com/programs/renewed.html){target="_blank"}
 
-- [Erneuert - Erste Schritte](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target=&quot;_blank&quot;} (Anmeldung von Seller Central erforderlich)
+- [Erneuert - Erste Schritte](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target="_blank"} (Anmeldung bei Seller Central erforderlich)
 
-- [Häufig gestellte Fragen zu Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target=&quot;_blank&quot;} (Anmeldung von Seller Central erforderlich)
+- [Häufig gestellte Fragen zu Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target="_blank"} (Anmeldung bei Seller Central erforderlich)

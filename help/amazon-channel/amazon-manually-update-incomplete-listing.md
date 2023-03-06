@@ -2,18 +2,18 @@
 title: Aktualisieren erforderlicher Informationen (unvollständige Auflistung)
 description: Der Amazon-Vertriebskanal bietet die Registerkarte Unvollständig , um Commerce-Katalogprodukte zu überwachen, bei denen die für Amazon erforderlichen Informationen fehlen.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# Erforderliche Informationen aktualisieren (unvollständige Auflistung)
+# Aktualisieren erforderlicher Informationen (unvollständige Auflistung)
 
 Auf der Seite _[!UICONTROL Incomplete]_einschließen [!DNL Commerce] Katalogprodukte, die Ihren Amazon-Eignungsanforderungen gemäß Ihren Listening-Regeln entsprechen, aber Informationen fehlen, die von Amazon vor der Auflistung benötigt werden.
 
-## Erforderliche Informationen aktualisieren (Amazon-Auflistung kann nicht zugewiesen werden) {#update-required-info-unable-to-assign-to-amazon-listing}
+## Aktualisierung erforderlicher Informationen (Zuweisung zur Amazon-Auflistung nicht möglich) {#update-required-info-unable-to-assign-to-amazon-listing}
 
 1. Die Listen im _[!UICONTROL Incomplete]_Registerkarte in [Verwalten von Listen](./managing-product-listings.md).
 
@@ -29,7 +29,7 @@ Die Liste wird nun mit Ihrem Katalog abgeglichen, und die Liste wird dann aktual
 
 ![Manuelles Zuweisen von ASIN für Nichtauflistungsübereinstimmung](assets/amazon-listing-update-assign-asin.png)
 
-## Erforderliche Informationen aktualisieren (Mehrere Übereinstimmungen gefunden) {#update-required-info-multiple-matches-found}
+## Erforderliche Informationen aktualisieren (mehrere Übereinstimmungen gefunden) {#update-required-info-multiple-matches-found}
 
 1. Die Listen im _[!UICONTROL Incomplete]_Registerkarte in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 

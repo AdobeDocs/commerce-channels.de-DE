@@ -1,15 +1,15 @@
 ---
-title: Über den Amazon-Vertriebskanal
+title: Über Amazon Sales Channel
 description: Verwenden Sie die Amazon Sales Channel-Erweiterung, um Adobe Commerce oder Magento Open Source nahtlos in Ihr Amazon Seller Central-Konto zu integrieren.
 exl-id: 11752491-d0da-4ff7-a0a7-d17d4fa1bfc9
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
-# Über den Amazon-Vertriebskanal
+# Über den Amazon-Sales Channel
 
 Der Kanalmanager für Adobe Commerce bietet die Amazon-Vertriebskanal-Erweiterung, die Ihre [!DNL Commerce] Admin mit Ihrer [!DNL Amazon Seller Central] -Konto. Nachher [Onboarding](./amazon-onboarding-home.md), [!DNL Commerce] wird zu einem &quot;zentralen Befehlszentrum&quot;für die Verwaltung und Kontrolle Ihrer Amazon-Auflistungen, -Bestellungen und -Lagerbestände sowie der Preise für Ihren Amazon-Store.
 
@@ -121,7 +121,7 @@ Mit dem [!DNL Amazon Sales Channel] -Erweiterung haben Sie folgende Möglichkeit
 
 - Mehrere verwalten [!DNL Amazon Marketplace] Regionen (Länder).
 
-- Unterstützung mehrerer Währungen mithilfe der [[!DNL Commerce] Währungsumrechnungstool](https://docs.magento.com/user-guide/stores/currency-configuration.html){target=&quot;_blank&quot;}.
+- Unterstützung mehrerer Währungen mithilfe der [[!DNL Commerce] Währungsumrechnungstool](https://docs.magento.com/user-guide/stores/currency-configuration.html){target="_blank"}.
 
 - Verwalten Sie Sendungen von Ihren Produktstandorten und Amazon-Ausführungszentren.
 
