@@ -1,10 +1,10 @@
 ---
-title: '''[!DNL Amazon Sales Channel] Versionshinweise'''
+title: '''[!DNL Amazon Sales Channel] Versionshinweise'
 description: Informationen zu allen [!DNL Amazon Sales Channel] veröffentlicht.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
+source-git-commit: 10d88821deabbd7481b74f21a5196d0ec1808f9a
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2258'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,29 @@ Diese Versionshinweise beschreiben die erste Version von [!DNL Amazon sales chan
 ![Problem behoben](../assets/fix.svg) Fehlerbehebungen und Verbesserungen
 ![Bekanntes Problem](../assets/bug.svg) Bekannte Probleme
 
-Siehe [Bevorstehende Versionen](https://devdocs.magento.com/release/){target=&quot;_blank&quot;} für Versionierung, Unterstützung und Kompatibilität.
+Siehe [Bevorstehende Versionen](https://devdocs.magento.com/release/){target="_blank"} für Versionierung, Unterstützung und Kompatibilität.
+
+## v4.4.4
+
+[!DNL Amazon sales channel]  4.4.4 ist mit den Adobe Commerce-Versionen 2.3.x und 2.4.0 kompatibel, wird jedoch nur für die Versionen 2.4.1 (und höher) von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur unterstützt.
+
+![Problem behoben](../assets/fix.svg) Unterstützung für Adobe Commerce 2.4.6 und PHP 8.2 hinzugefügt.
+
+![Problem behoben](../assets/fix.svg) Geräuschminderung in Protokollen.
+
+![Problem behoben](../assets/fix.svg) Verbesserte Stabilität beim Abrufen von Aktualisierungen.
+
+![Problem behoben](../assets/fix.svg) Der Prozess für die Ausführung einer einzelnen aktionsähnlichen Pull-Methode oder für die Anwendung über die CLI wurde vereinfacht.
+
+![Problem behoben](../assets/fix.svg) Die Abhängigkeit für `magento/services-connector`.
+
+![Problem behoben](../assets/fix.svg) Synchronisierungsprobleme in Konten des Vereinigten Königreichs mit ungültigem Ländercode wurden behoben.
+
+![Problem behoben](../assets/fix.svg) Die hartcodierte entity_type_id für die Katalogproduktentität verursacht Probleme mit der Magento-Preisquelle.
+
+![Problem behoben](../assets/fix.svg) Es wurde ein Fehler behoben, der verhinderte, dass Konten, die in einem Backend aus einer anderen Instanz gelöscht wurden, auch aus der Benutzeroberfläche gelöscht wurden.
+
+![Problem behoben](../assets/fix.svg) Es wurde ein Problem behoben, bei dem einige Warenkorbregeln den Bestellimport verhinderten.
 
 ## v4.4.3
 
@@ -172,9 +194,9 @@ Amazon Sales Channel 3.0.0 ist mit den Adobe Commerce-Versionen 2.2.4+ und 2.3.x
 
 ![Neu](../assets/new.svg) **Amazon UK Marketplace jetzt verfügbar**: Benutzer können beim Erstellen und Integrieren eines Commerce-Stores den britischen Marketplace wählen. Dieses Upgrade für Großbritannien beinhaltet zusätzliche Unterstützung für:
 
-- [Amazon - MwSt-Berechnungsservice](https://sell.amazon.co.uk/learn/vat-resources){target=&quot;_blank&quot;}
+- [Amazon - MwSt-Berechnungsservice](https://sell.amazon.co.uk/learn/vat-resources){target="_blank"}
 
-- [Produktsteuercode](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US)Informationen zu {target=&quot;_blank&quot;}.
+- [Produktsteuercode](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} Informationen.
 
 ![Neu](../assets/new.svg) **Verbesserte Protokollierung**: <!--CHAN-3642, 3672-->Implementiert die **Aktivieren der Debug-Protokollierung** zur Erfassung zusätzlicher Synchronisierungsdaten bei der Fehlerbehebung. Siehe [Sales Channel-Einstellungen](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) Thema in der Konfigurationsreferenz.
 
