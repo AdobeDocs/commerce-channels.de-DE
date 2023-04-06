@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] Versionshinweise'
 description: Informationen zu allen [!DNL Amazon Sales Channel] veröffentlicht.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 10d88821deabbd7481b74f21a5196d0ec1808f9a
+source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Siehe [Bevorstehende Versionen](https://devdocs.magento.com/release/){target="_b
 
 ## v4.4.4
 
-[!DNL Amazon sales channel]  4.4.4 ist mit den Adobe Commerce-Versionen 2.3.x und 2.4.0 kompatibel, wird jedoch nur für die Versionen 2.4.1 (und höher) von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur unterstützt.
+*7. März 2023*
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Problem behoben](../assets/fix.svg) Unterstützung für Adobe Commerce 2.4.6 und PHP 8.2 hinzugefügt.
 
@@ -49,34 +51,34 @@ Siehe [Bevorstehende Versionen](https://devdocs.magento.com/release/){target="_b
 
 ## v4.4.3
 
-[!DNL Amazon sales channel]  4.4.3 ist mit den Adobe Commerce-Versionen 2.3.x und 2.4.0 kompatibel, wird jedoch nur für die Versionen 2.4.1 (und höher) von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur unterstützt.
+*7. März 2023*
 
-Diese Version von [!DNL Amazon sales channel] enthält die folgende Fehlerbehebung.
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Fehlerbehebung](../assets/fix.svg) Adobe Commerce 2.4.4 wird nun unterstützt.
 
 ## v4.4.2
 
-[!DNL Amazon sales channel]  4.4.2 ist mit den Adobe Commerce-Versionen 2.3.x und 2.4.0 kompatibel, wird jedoch nur für die Versionen 2.4.1 (und höher) von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur unterstützt.
+*11. November 2021*
 
-Diese Version von [!DNL Amazon sales channel] umfasst die folgenden Fehlerbehebungen.
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Fehlerbehebung](../assets/fix.svg) Aktualisierte Abhängigkeiten zur Unterstützung anderer aktualisierter Erweiterungen.
 ![Fehlerbehebung](../assets/fix.svg) Unterstützung für PHP 8.1 hinzugefügt.
 
 ## v4.4.1
 
-[!DNL Amazon sales channel] 4.4.1 ist mit den Adobe Commerce-Versionen 2.3.x und 2.4.0 kompatibel, wird jedoch nur für Magento Open Source-, Adobe Commerce- und Adobe Commerce-Versionen 2.4.1+ in der Cloud-Infrastruktur unterstützt.
+*11. November 2021*
 
-Diese Version von [!DNL Amazon sales channel]  enthält die folgende Fehlerbehebung.
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Fehlerbehebung](../assets/fix.svg) Die Art und Weise, wie Adobe Commerce die _Benutzername_ aus Amazon. Zuvor gab es bei der Auftragserstellung einen Fehler, wenn die Variable _Benutzername_ -Feld Sonderzeichen enthielt. Adobe Commerce erhält jetzt die _Benutzername_ Daten und filtert die Sonderzeichen heraus, damit die Bestellung erfolgreich erstellt werden kann.
 
 ## v4.4.0
 
-[!DNL Amazon sales channel] 4.4.0 ist mit den Adobe Commerce-Versionen 2.3.x und 2.4.0 kompatibel, wird jedoch nur für die Versionen 2.4.1 (und höher) von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur unterstützt.
+*9. April 2021*
 
-Diese Version von [!DNL Amazon sales channel] umfasst die folgenden Verbesserungen und Fehlerbehebungen.
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Neu](../assets/new.svg) Unterstützung für schreibgeschützten Modus zur Konfiguration hinzugefügt. Siehe [Vertriebskanaleinstellungen](sales-channel-settings.md).
 
@@ -92,9 +94,9 @@ Diese Version von [!DNL Amazon sales channel] umfasst die folgenden Verbesserung
 
 ## v4.3.0
 
-[!DNL Amazon sales channel] 4.3.0 ist mit den Adobe Commerce-Versionen 2.3.x und 2.4.0 kompatibel. Die Unterstützung ist nur für die Versionen 2.4.1+ von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur verfügbar.
+*3. März 2021*
 
-Diese Version von [!DNL Amazon sales channel] umfasst die folgenden Verbesserungen und Fehlerbehebungen.
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Fehlerbehebung](../assets/fix.svg) <!--CHAN-xxxx-->Die _Bestelldetails_ wurde neu gestaltet und verlässt sich nicht mehr auf die _Bestellungen importieren_ -Einstellung. Bestelldetails werden jetzt in der Amazon Sales Channel-Benutzeroberfläche für alle Bestellungen angezeigt.
 
@@ -108,9 +110,11 @@ Diese Version von [!DNL Amazon sales channel] umfasst die folgenden Verbesserung
 
 ## v4.2.0
 
-[!DNL Amazon sales channel] 4.2.0 ist mit Adobe Commerce-Versionen 2.3.x kompatibel, wird jedoch nur für die Versionen 2.4.x von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur unterstützt. Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und versuchen, Ihre Adobe Commerce auf Version 2.4.0 zu aktualisieren, werden Sie aufgefordert, die -Erweiterung zu aktualisieren, bevor Sie das Adobe Commerce-Update abschließen können.
+*3. März 2021*
 
-Diese Version von [!DNL Amazon sales channel] enthält eine neue Funktion sowie Verbesserungen und Fehlerbehebungen.
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+
+Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und versuchen, Ihre Adobe Commerce auf Version 2.4.0 zu aktualisieren, werden Sie aufgefordert, die -Erweiterung zu aktualisieren, bevor Sie das Adobe Commerce-Update abschließen können.
 
 ![Bekanntes Problem](../assets/bug.svg) Wann [!DNL Amazon sales channel] 4.2.0 ist in Version 2.4.0 integriert und [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) aktiviert ist, gibt es ein bekanntes Problem, das das Hinzufügen von Produkten in Ihren Commerce-Katalog verhindert. Dieses Problem wird in einer zukünftigen Commerce-Version behoben.
 
@@ -136,7 +140,9 @@ Diese Version von [!DNL Amazon sales channel] enthält eine neue Funktion sowie 
 
 ## v4.1.0
 
-Amazon Sales Channel 4.1.0 ist mit Adobe Commerce 2.3.x von Commerce Open Source, Adobe Commerce und Adobe Commerce in Cloud-Infrastruktur kompatibel. Diese Version von Amazon Sales Channel umfasst Verbesserungen der Benutzeroberfläche sowie kleinere Fehlerbehebungen.
+*7. Mai 2020*
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Neu](../assets/new.svg) <!--4247, 4230-->Der Bestellimport-Prozess wurde an die Anforderungen für Commerce-Bestellungen angepasst. Durch diese Änderungen werden Probleme behoben, die dazu führten, dass Commerce die entsprechende Bestellung für eine importierte Bestellung nicht erstellen konnte. Siehe [Bestellungen verwalten](managing-orders.md) für Informationen zu Bestellblockern und Lösungen.
 
@@ -164,7 +170,9 @@ Amazon Sales Channel 4.1.0 ist mit Adobe Commerce 2.3.x von Commerce Open Source
 
 ## v4.0.0
 
-Amazon Sales Channel 4.0.0 ist mit den Versionen 2.3.0, 2.3.1, 2.3.2, 2.3.3 und 2.3.4 von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur kompatibel. Diese Version von Amazon Sales Channel umfasst viele Aktualisierungen der Benutzeroberfläche sowie kleinere Fehlerbehebungen.
+*25. März 2020*
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 >[!IMPORTANT]
 >
@@ -180,7 +188,9 @@ Amazon Sales Channel 4.0.0 ist mit den Versionen 2.3.0, 2.3.1, 2.3.2, 2.3.3 und 
 
 ## v3.0.1
 
-Amazon Sales Channel 3.0.1 ist mit den Adobe Commerce-Versionen 2.2.4+ und 2.3.x von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur kompatibel.
+*11. November 2019*
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Fehlerbehebung](../assets/fix.svg) **Numerische Feldeinstellungen**: <!--CHAN-3779-->Felder, für die ein numerischer Wert erforderlich ist, wurden aktualisiert, sodass nur numerische Zeichen zulässig sind. Beispiel: Preisregeleinstellungen > Feld &quot;Anpassungsbetrag&quot;
 
@@ -190,7 +200,9 @@ Amazon Sales Channel 3.0.1 ist mit den Adobe Commerce-Versionen 2.2.4+ und 2.3.x
 
 ## v3.0.0
 
-Amazon Sales Channel 3.0.0 ist mit den Adobe Commerce-Versionen 2.2.4+ und 2.3.x von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur kompatibel.
+*7. Oktober 2019*
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Neu](../assets/new.svg) **Amazon UK Marketplace jetzt verfügbar**: Benutzer können beim Erstellen und Integrieren eines Commerce-Stores den britischen Marketplace wählen. Dieses Upgrade für Großbritannien beinhaltet zusätzliche Unterstützung für:
 
@@ -208,7 +220,7 @@ Amazon Sales Channel 3.0.0 ist mit den Adobe Commerce-Versionen 2.2.4+ und 2.3.x
 
 ## v2.0.0
 
-Amazon Sales Channel 2.0.0 ist mit den Versionen 2.2.4+ und 2.3.x von Magento Open Source, Adobe Commerce und Adobe Commerce in der Cloud-Infrastruktur kompatibel.
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 >[!NOTE]
 >
