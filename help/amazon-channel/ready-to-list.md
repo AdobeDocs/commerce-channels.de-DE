@@ -1,8 +1,8 @@
 ---
-title: Listenbereit
+title: Amazon-Vertriebskanal - [!UICONTROL Ready to List]
 description: Der Amazon-Vertriebskanal bietet die Registerkarte "Listenbereit", mit der Sie Commerce-Produkte überprüfen können, die die Voraussetzungen erfüllen, aber nicht automatisch aufgelistet werden.
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Sie haben einige Optionen zum manuellen [Neue Liste in Amazon veröffentlichen](
 >[!NOTE]
 >Wenn Listen in Bearbeitung sind, wird die Anzahl der Auflistungen in einer Meldung über den Registerkarten angezeigt.
 
-![Listenbereit](assets/amazon-ready-to-list.png)
+![Listenbereit](assets/amazon-ready-to-list.png){width="600" zoomable="yes"}
 
 ## Standardspalten
 

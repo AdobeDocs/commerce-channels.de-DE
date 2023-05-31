@@ -1,15 +1,15 @@
 ---
-title: Aktive Listen
+title: Aktive Amazon-Listen
 description: Der Amazon-Vertriebskanal bietet die Registerkarte Aktiv , um aktive Amazon-Auflistungen zu überwachen, die mit einem Produkt in Ihrem Adobe Commerce-Katalog übereinstimmen.
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# Aktive Listen
+# Aktive Amazon-Listen
 
 Die _[!UICONTROL Active]_-Registerkarte zeigt Ihre Amazon-Listen an, die auf der [!DNL Amazon Marketplace] und die mit einem Produkt in Ihrer [!DNL Commerce] Katalog.
 
@@ -39,7 +39,7 @@ under **[!UICONTROL Select]** im _[!UICONTROL Action]_column:
 >
 >Wenn Listen in Bearbeitung sind, wird die Anzahl der Auflistungen in einer Meldung über den Registerkarten angezeigt.
 
-![Aktive Listen](assets/amazon-active-listings.png)
+![Aktive Listen](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 

@@ -1,15 +1,15 @@
 ---
-title: Sales Channel-Einstellungen
+title: Vertriebskanaleinstellungen
 description: Aktualisieren Sie die Commerce-Konfiguration, um die Protokollierung, Cron-Quelle und Synchronisation für Amazon-Vertriebskanalfunktionen zu verwalten.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-# Sales Channel-Einstellungen
+# Vertriebskanaleinstellungen
 
 Wenn die [!DNL Amazon Sales Channel] installiert ist, werden im Vertriebskanal Admin für Amazon Standardwerte festgelegt. Diese Einstellungen können in Ihren Konfigurationseinstellungen für Ihren Amazon Store geändert werden. Zu diesen Einstellungen gehören:
 
@@ -33,11 +33,11 @@ Wenn die [!DNL Amazon Sales Channel] installiert ist, werden im Vertriebskanal A
 
 1. Für **[!UICONTROL Background Tasks (CRON) Source]** auswählen `Magento CRON`.
 
-   Mit dieser Option kann der Amazon-Vertriebskanal Ihre [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) Einstellungen zum Ermitteln von Kommunikations- und Datensynchronisierungsintervallen mit [!DNL Amazon Seller Central].
+   Mit dieser Option kann der Amazon-Vertriebskanal Ihre [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) Einstellungen zum Ermitteln von Kommunikations- und Datensynchronisierungsintervallen mit [!DNL Amazon Seller Central].
 
 1. Für **[!UICONTROL Enable Debug Logging]** auswählen `Enabled` , um bei der Fehlerbehebung zusätzliche Synchronisierungsdaten zu erfassen.
 
-   Die Protokollierung des Amazon-Vertriebskanals wird in `{Commerce Root}/var/log/channel_amazon.log` Datei und kann in [Entwicklermodus](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. Die Protokollierung sollte nur `Enabled` während der Fehlerbehebung und sollten `Disabled` wenn die Fehlerbehebung abgeschlossen ist.
+   Die Protokollierung des Amazon-Vertriebskanals wird in `{Commerce Root}/var/log/channel_amazon.log` Datei und kann in [Entwicklermodus](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). Die Protokollierung sollte nur `Enabled` während der Fehlerbehebung und sollten `Disabled` wenn die Fehlerbehebung abgeschlossen ist.
 
 1. Für **[!UICONTROL Read-Only Mode]** auswählen `Enabled` , um alle ausgehenden, sich ändernden API-Anfragen zu blockieren.
 
@@ -51,4 +51,4 @@ Wenn die [!DNL Amazon Sales Channel] installiert ist, werden im Vertriebskanal A
 
 1. Klicken **[!UICONTROL Save Config]**.
 
-![Sales Channel-Konfigurationseinstellungen](assets/config-sales-channel-global-settings.png)
+![Sales Channel-Konfigurationseinstellungen](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

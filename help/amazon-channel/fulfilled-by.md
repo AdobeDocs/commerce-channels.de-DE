@@ -1,16 +1,16 @@
 ---
-title: Erfüllt von
+title: Erfüllen durch Einstellungen für Amazon-Listen
 description: Verwenden Sie die Einstellungen Erfüllen von , um zu bestimmen, wie die Bestellungen aus Amazon-Auflistungen erfüllt (versandt) werden.
 redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
-# Erfüllt von
+# Erfüllen durch Einstellungen für Amazon-Listen
 
 _[!UICONTROL Fulfilled By]_-Einstellungen sind Teil Ihrer Einstellungen für die Store-Auflistung. Auf die Listening-Einstellungen kann über die [Store-Dashboard](./amazon-store-dashboard.md).
 
@@ -46,12 +46,12 @@ Die Ausführungsmethode ist ein regionales Attribut und basiert auf der **[!UICO
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save listing settings]**.
 
-![Erfüllen durch Einstellungen](assets/amazon-fulfilled-by.png)
+![Erfüllen durch Einstellungen](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |
 | [!UICONTROL Product Fulfilled By] | Optionen:<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) Wählen Sie aus, ob Sie die Bestellungen erfüllen. Wenn eine Bestellung aufgegeben wird, wird der Bestand von Ihrem [!DNL Commerce] Katalog. Wenn ein neues Produkt erstellt wird, wird die Ausführungsmethode von Merchant Fulfill zugewiesen.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Entscheiden Sie, ob Amazon die Bestellungen erfüllt. Mit dieser Erfüllungsmethode wird der Produktbestand nicht von Ihrer [!DNL Commerce] Katalog, wenn eine Bestellung aufgegeben wird. Wenn ein Produkt erstellt wird, wird es mit _[!UICONTROL Fulfilled by Amazon (FBA)]_als Erfüllungstyp. Stellen Sie sicher, dass Ihre Produkte innerhalb Ihrer [!DNL Amazon Seller Central] -Konto. FBA-Bestände werden auch direkt über Ihre [!DNL Amazon Seller Central] -Konto. Bei dieser Ausführungsmethode werden Mengenaktualisierungen nicht relativ zu Ihrer [!DNL Commerce] -Katalog, sodass Sie einige der unter [Lager-/Quantitätseinstellungen](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Wählen Sie aus, ob Sie bereits [!DNL Commerce] -Attribut, das bestimmt, ob der Händler es erfüllt oder von Amazon erfüllt hat. Wenn ausgewählt, **[!UICONTROL Fulfilled by Attribute]** aktiviert.</li></ul> |
-| [!UICONTROL Fulfilled By Attribute] | Wählen Sie die [!DNL Commerce] -Attribut, das zur Bestimmung der Ausführungsmethode verwendet wird.<br><br>Wenn das Attribut beispielsweise _Erfüllt von_ und Sie wählen den Attributwert als _[!UICONTROL Fulfilled By Merchant]_oder_[!UICONTROL Fulfilled By Amazon (FBA)]_ verwendet das System diesen Wert als Erfüllungstyp für ein neues Produkt. Als Händler sollten Sie sicherstellen, dass Ihre Produkte innerhalb Ihrer [!DNL Amazon Seller Central] -Konto. FBA Inventory wird auch direkt über Ihr Amazon-Verkaufskonto verwaltet.<br><br>Die Optionen hängen von den Attributen ab, die Sie für Ihre Amazon-Produkte einrichten. |
+| [!UICONTROL Fulfilled By Attribute] | Wählen Sie die [!DNL Commerce] -Attribut, das zur Bestimmung der Ausführungsmethode verwendet wird.<br><br>Wenn das Attribut beispielsweise _Erfüllt von_ und Sie wählen den Attributwert als `Fulfilled By Merchant` oder `Fulfilled By Amazon (FBA)`verwendet das System diesen Wert als Erfüllungstyp für ein neues Produkt. Als Händler sollten Sie sicherstellen, dass Ihre Produkte innerhalb Ihrer [!DNL Amazon Seller Central] -Konto. FBA Inventory wird auch direkt über Ihr Amazon-Verkaufskonto verwaltet.<br><br>Die Optionen hängen von den Attributen ab, die Sie für Ihre Amazon-Produkte einrichten. |
 
 **Schnellzugriff** - [!UICONTROL Listing Settings] Abschnitte
 

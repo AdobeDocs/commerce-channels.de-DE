@@ -1,15 +1,15 @@
 ---
-title: '''Beispiel: Bedingung definieren'''
+title: '''Beispiel: Definieren Sie eine Bedingung für Amazon-Listening-Regeln .'
 description: Definieren Sie beim Erstellen Ihrer Listening-Regeln Bedingungen zur Identifizierung der Commerce-Katalogprodukte, die auf dem Amazon Marketplace aufgeführt werden sollen.
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
 
-# Beispiel: Definieren einer Bedingung
+# Beispiel: Bedingung definieren
 
 ## Bedingungen
 
@@ -21,7 +21,7 @@ Auf alle Bereiche in den fett gedruckten Bedingungen kann geklickt werden, um di
 >
 >Es gibt eine komplexe Reihe von Back-End-Prozessen, die direkt mit den Systemen von Amazon kommunizieren. Je nachdem, wie viele Elemente Sie auflisten möchten und wie beschäftigt die Amazon-Systeme sein könnten (z. B. Black Friday), kann es einige Zeit dauern, bis Ihre Artikel in Amazon aufgelistet werden.
 
-Siehe Abschnitt &quot;Bedingungen&quot;von [Erstellen einer Preisregel für Warenkorb](https://docs.magento.com/user-guide/marketing/price-rules-catalog-create.html){target=&quot;_blank&quot;}.
+Siehe Abschnitt &quot;Bedingungen&quot;von [Erstellen einer Preisregel für Warenkorb](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html).
 
 ## Bedingung definieren
 
@@ -31,9 +31,9 @@ Bedingungen basieren auf vorhandenen Produktattributwerten. Lassen Sie den Absch
 
 >[!NOTE]
 >
->Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, legen Sie die **[!UICONTROL Use for Promo Rule Conditions]** Einstellung für das Attribut `Yes`. Sie können auf diese Einstellung im [Storefront-Eigenschaften](https://docs.magento.com/user-guide/catalog/product-attributes-add.html)Seite {target=&quot;_blank&quot;} für das Attribut.
+>Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, legen Sie die **[!UICONTROL Use for Promo Rule Conditions]** Einstellung für das Attribut `Yes`. Sie können auf diese Einstellung im [Storefront-Eigenschaften](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes-add.html) -Seite für das -Attribut.
 
-![Bedingung - Zeile 1](assets/ob-listing-rule-conditions-start.png)
+![Bedingung - Zeile 1](assets/ob-listing-rule-conditions-start.png){width="500"}
 
 Die Regel in diesem Beispiel definiert eine Regel, die die Amazon-Berechtigung für alle Katalogprodukte mit der Variablen _Amazon FBA_ -Attribut auf `Yes`.
 
@@ -51,13 +51,13 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
 
    - **[!UICONTROL Conditions Combination]** - Ermöglicht die Erstellung eines weiteren Satzes von `All/Any` und `True/False` Bedingungen innerhalb des vorhandenen Satzes.
 
-      ![Bedingungskombination](assets/ob-conditions-combinations.png)
+      ![Bedingungskombination](assets/ob-conditions-combinations.png){width="500"}
 
-   - **[!UICONTROL Product Attribute]** - Die Produktattribute hängen von der Einrichtung des Attributs ab. Damit ein Attribut in der Liste angezeigt wird, muss es für die Verwendung in Bedingungen für Werberegeln konfiguriert werden. Siehe _Verwendung für Bedingungen für Angebotsregeln_ in [Produktattribute](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;}.
+   - **[!UICONTROL Product Attribute]** - Die Produktattribute hängen von der Einrichtung des Attributs ab. Damit ein Attribut in der Liste angezeigt wird, muss es für die Verwendung in Bedingungen für Werberegeln konfiguriert werden. Siehe _Verwendung für Bedingungen für Angebotsregeln_ in [Produktattribute](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
       In der Liste unter **[!UICONTROL Product Attribute]**, wählen Sie das Attribut aus, das Sie als Grundlage für die Bedingung verwenden möchten. In diesem Beispiel lautet die ausgewählte Bedingung: `Amazon FBA`.
 
-      ![Bedingungszeile 2, Teil 2](assets/ob-condition-attribute-dropdown.png)
+      ![Bedingungszeile 2, Teil 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
       Die ausgewählte Bedingung wird in der Anweisung angezeigt, gefolgt von zwei weiteren fett gedruckten Links. Die Optionen variieren je nach ausgewähltem Produktattribut.
 
@@ -73,7 +73,7 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
 
          Das ausgewählte Element wird in der Anweisung angezeigt, um die Bedingung abzuschließen.
 
-         ![Bedingungszeile 2, Teil 3](assets/ob-listing-rule-condition-is.png)
+         ![Bedingungszeile 2, Teil 3](assets/ob-listing-rule-condition-is.png){width="500"}
    Diese Bedingung ist abgeschlossen. Wie angegeben bedeutet diese Bedingung, dass jedes Produkt in Ihrer [!DNL Commerce] Katalog, für den das Amazon FBA-Attribut auf den Wert `Yes` ist für die Aufnahme in Amazon für die Region und den Store qualifiziert. Sie können weitere Bedingungszeilen hinzufügen, um Ihre infrage kommenden Produkte weiter einzuschränken.
 
 1. Um der Anweisung eine weitere Bedingungszeile hinzuzufügen, kehren Sie zu Schritt 1 zurück und wiederholen Sie den Prozess, bis alle gewünschten Bedingungen abgeschlossen sind.

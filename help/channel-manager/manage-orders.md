@@ -2,7 +2,7 @@
 title: '"Anzeigen und Verwalten von Bestellungen aus [!DNL Channel Manager]'''
 description: "Anzeigen und Verwalten [!DNL Walmart Marketplace] Bestellungen mit [!DNL Channel Manager] für Adobe Commerce und Magento Open Source."
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Im [!DNL Commerce] bei erfolgreicher Synchronisierung werden die folgenden Trigg
 
 In der Storefront-Admin können Sie Bestelldaten aus [!DNL Channel Manager] durch Öffnen des Verkaufskanalspeichers und Auswählen **[!UICONTROL Orders]**.
 
-![Ansicht &quot;Channel Manager Bestellungen&quot;, die verwaltet werden soll [!DNL Walmart Marketplace] Bestellungen](assets/orders-dashboard-view.png)
+![Ansicht &quot;Channel Manager Bestellungen&quot;, die verwaltet werden soll [!DNL Walmart Marketplace] Bestellungen](assets/orders-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ Nachdem eine Bestellung vom Marketplace empfangen und in Ihren Vertriebskanalspe
 
 Von **[!UICONTROL Orders]**, wählen Sie die **[!UICONTROL Commerce Order Number]** , um [!DNL Commerce] Bestelldetails.
 
-![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png)
+![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 Im Commerce-Store werden aus importierte Bestellungen [!DNL Walmart Marketplace] die folgenden zusätzlichen Informationen in die Bestelldaten einschließen:
 
@@ -172,6 +172,6 @@ Im Commerce-Store werden aus importierte Bestellungen [!DNL Walmart Marketplace]
 
 - **Bestellte Artikel**—In diesem Abschnitt werden die Bestellinformationen aller Commerce-Bestellungen aufgelistet. Die [!UICONTROL Qty] gibt den Statusverlauf für Bestellelemente an. Wenn beispielsweise eine Bestellung fakturiert, versandt und rückerstattet wurde, können Sie die Statusübergänge sehen.
 
-   ![Auftragsdetails zum Status des geordneten Elements [!DNL Walmart Marketplace] Bestellungen](assets/order-detail-status-history.png)
+   ![Auftragsdetails zum Status des geordneten Elements [!DNL Walmart Marketplace] Bestellungen](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 Zeigen Sie Artikelrechnungen und Erstattungsdetails an, indem Sie [!UICONTROL Invoice] und [!UICONTROL Credit Memo] Optionen aus dem Navigationsmenü. Sie können auch direkt über das [[!UICONTROL Returns]](return-refund-orders.md) Dashboard in Ihrem Verkaufskanalspeicher.

@@ -1,16 +1,16 @@
 ---
-title: Listeneinstellungen anzeigen
+title: Einstellungen zur Amazon-Auflistung anzeigen
 description: Verwenden Sie die Listeneinstellungen, um festzulegen, wie Ihre [!DNL Commerce] Katalogprodukte sind unter [!DNL Amazon Marketplace].
 redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
-# Einstellungen für die Listenansicht
+# Listeneinstellungen anzeigen
 
 Auf die Listening-Einstellungen kann über die [Store-Dashboard](./amazon-store-dashboard.md).
 
@@ -41,4 +41,4 @@ Erweitern Sie jeden Bereich und konfigurieren Sie ihn nach Bedarf.
 
 1. Klicken **[!UICONTROL Save]**.
 
-![Listening-Einstellungen](assets/amazon-listing-settings.png)
+![Listening-Einstellungen](assets/amazon-listing-settings.png){width="600" zoomable="yes"}

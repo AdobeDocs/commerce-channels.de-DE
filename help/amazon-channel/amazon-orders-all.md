@@ -2,7 +2,7 @@
 title: Anzeigen von Amazon-Bestellungen
 description: Zeigen Sie Ihre Amazon Marketplace-Bestellungen in der Adobe Commerce- oder Magento Open Source-Administration an.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_-Ansicht fügt Filteroptionen für Auftragssuchvorgäng
 
 Sie können Ihre neuesten Bestellungen im _[!UICONTROL Recent Orders]_Abschnitt [Store-Dashboard](./amazon-store-dashboard.md).
 
-![Letzte Bestellungen](assets/amazon-recent-orders-imported.png)
+![Letzte Bestellungen](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### Aktuelle Amazon-Bestellungen anzeigen
 
@@ -54,7 +54,7 @@ Sie können alle Ihre Amazon-Bestellungen im _[!UICONTROL Amazon orders]_Seite (
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon-Bestellungen](assets/amazon-orders-list-all.png)
+![Amazon-Bestellungen](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### Alle Amazon-Bestellungen anzeigen
 
@@ -72,7 +72,7 @@ Sie können alle Ihre Amazon-Bestellungen im _[!UICONTROL Amazon orders]_Seite (
 
 Sie können Filter auf Ihre Bestellliste im _[!UICONTROL Filter by]_Abschnitt. Auswählen und klicken Sie auf **[!UICONTROL Apply filters]**. Die angewendeten Filter werden oberhalb des Sortierungsrasters angezeigt.
 
-![Filter zum Anzeigen von Amazon-Bestellungen](assets/amazon-orders-filter-view.png)
+![Filter zum Anzeigen von Amazon-Bestellungen](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### Ändern angewendeter Filter
 

@@ -1,15 +1,15 @@
 ---
-title: Inaktive Listen
+title: Inaktive Amazon-Listen
 description: Der Amazon-Vertriebskanal stellt die [!UICONTROL Inactive] Registerkarte zur Überwachung Ihrer derzeit inaktiven [!DNL Amazon Marketplace] Auflistungen.
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# Inaktive Listen
+# Inaktive Amazon-Listen
 
 Die _[!UICONTROL Inactive]_-Registerkarte zeigt Ihre Produkte an, die in Amazon veröffentlicht wurden, aber nicht auf der [!DNL Amazon Marketplace]. Ihre Auflistungen können aus verschiedenen Gründen inaktiv sein. Sie sind beispielsweise möglicherweise nicht berechtigt, diese Marke aufzulisten. Inaktive Auflistungen werden durch die Listenstandards von Amazon und Ihre [!DNL Amazon Seller Central] Kontoberechtigungen.
 
@@ -37,7 +37,7 @@ under **[!UICONTROL Select]** im _[!UICONTROL Action]_column:
 >
 >Wenn Listen in Bearbeitung sind, wird oberhalb der Registerkarten eine Meldung angezeigt, die die Anzahl der Auflistungen angibt.
 
-![Inaktive Amazon-Listen](assets/amazon-inactive-listings.png)
+![Inaktive Amazon-Listen](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 

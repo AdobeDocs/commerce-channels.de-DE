@@ -2,7 +2,7 @@
 title: Amazon Store-Dashboard
 description: Zeigen Sie die Aktivität für Ihre Amazon Stores über den Commerce Admin im Dashboard des Amazon Stores an.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Das Store-Dashboard ist der primäre Ort, an dem Sie die Aktivität für jeden I
 
 Sie können auch auf Ihre [Store-Einstellungen](./ob-store-review.md), [Listen verwalten](./managing-product-listings.md)und zeigen Sie Verkaufsdaten und aktuelle Bestellinformationen an.
 
-![Amazon Store-Dashboard](assets/amazon-store-dashboard.png)
+![Amazon Store-Dashboard](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 In der Kopfzeile des Store-Dashboards werden dieselben grundlegenden Store-Informationen angezeigt, die auch auf der Store-Karte angezeigt werden:
 

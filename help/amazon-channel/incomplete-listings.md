@@ -1,15 +1,15 @@
 ---
-title: Unvollständige Listen
+title: Unvollständige Amazon-Listen
 description: Der Amazon-Vertriebskanal stellt die [!UICONTROL Incomplete] -Tab, damit Sie die Voraussetzungen für eine unvollständige Amazon-Auflistung identifizieren und erfüllen können.
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Unvollständige Listen
+# Unvollständige Amazon-Listen
 
 Die _[!UICONTROL Incomplete]_enthält [!DNL Commerce] Katalogprodukte, die Ihren Amazon-Eignungsanforderungen entsprechen (definiert in Ihrem [Auflistungsregeln](./listing-rules.md)), fehlen jedoch Informationen, die von Amazon benötigt werden (z. B. Amazon ASIN oder eine definierte Produktbedingung).
 
@@ -41,7 +41,7 @@ under **[!UICONTROL Select]** im _[!UICONTROL Action]_column:
 >
 >Wenn Listen in Bearbeitung sind, wird die Anzahl der Auflistungen in einer Meldung über den Registerkarten angezeigt.
 
-![Unvollständige Amazon-Listen](assets/amazon-incomplete-listings.png)
+![Unvollständige Amazon-Listen](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 

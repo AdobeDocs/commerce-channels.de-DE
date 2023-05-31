@@ -1,18 +1,18 @@
 ---
-title: Bedingungen für Preisregeln
+title: Amazon-Vertriebskanal - Preisregelbedingungen
 description: Verwenden Sie die Preisregel-Bedingungen, um zu bestimmen, welche Produkte für die Regel des Listenpreises infrage kommen.
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
 # Bedingungen für Preisregeln
 
-Die Bedingungen bestimmen, welche Produkte für die Preisregel infrage kommen. Die Festlegung der Bedingungen für Ihre Amazon-Preisregeln folgt derselben Logik und demselben Prozess wie die Definition der Bedingungen für [Warenkorbpreisregeln](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
+Die Bedingungen bestimmen, welche Produkte für die Preisregel infrage kommen. Die Festlegung der Bedingungen für Ihre Amazon-Preisregeln folgt derselben Logik und demselben Prozess wie die Definition der Bedingungen für [Warenkorbpreisregeln](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,13 +24,13 @@ Auf alle Bereiche in den fett gedruckten Bedingungen kann geklickt werden, um di
 
 Dieser Vorgang kann je nach Konfiguration Ihres Katalogs einfach oder detailliert sein. Sie können Bedingungen so definieren, dass `ALL` oder `ANY` der Bedingungen `TRUE` oder `FALSE` für ein Produkt gilt die Preisregel für das Produkt.
 
-Die Bedingungen basieren auf Ihren [Produktattribute](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Lassen Sie den Abschnitt Bedingungen leer, um die Regel auf alle Produkte anzuwenden.
+Die Bedingungen basieren auf Ihren [Produktattribute](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Lassen Sie den Abschnitt Bedingungen leer, um die Regel auf alle Produkte anzuwenden.
 
 >[!NOTE]
 >
->Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, **Verwendung für Bedingungen für Angebotsregeln** für muss das Attribut auf `Yes` in [Storefront-Eigenschaften](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} für das -Attribut.
+>Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, **Verwendung für Bedingungen für Angebotsregeln** für muss das Attribut auf `Yes` in [Storefront-Eigenschaften](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) für das -Attribut.
 
-![Bedingung der Preisregel - Zeile 1](assets/ob-price-rules-condition-1.png)
+![Bedingung der Preisregel - Zeile 1](assets/ob-price-rules-condition-1.png){width="600" zoomable="yes"}
 
 In diesem Beispiel wird eine Regel definiert, die einen Rabatt von 25 % auf alle Produkte anwendet, die in der Variablen `Books` Kategorie.
 
@@ -48,13 +48,13 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
 
    **[!UICONTROL Conditions Combination]** - Wählen Sie aus, einen weiteren Satz von `All/Any` und `True/False` Bedingungen innerhalb der vorhandenen Bedingung.
 
-   ![Kombination von Preisregelbedingungen](assets/ob-conditions-combinations.png)
+   ![Kombination von Preisregelbedingungen](assets/ob-conditions-combinations.png){width="500"}
 
-   **[!UICONTROL Product Attribute]** - Die verfügbaren Produktattribute hängen von der [Einrichtung des Attributs](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
+   **[!UICONTROL Product Attribute]** - Die verfügbaren Produktattribute hängen von der [Einrichtung des Attributs](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). Damit ein Attribut in der Liste angezeigt wird, *[!UICONTROL Use for Promo Rule Conditions]* für muss das Attribut auf `Yes` in Ihren Storefront-Eigenschaften.
 
    - Für **[!UICONTROL Product Attribute]**, wählen Sie das Attribut aus, das Sie als Basis der Bedingung definieren möchten. In diesem Beispiel lautet die ausgewählte Bedingung: `Category`.
 
-      ![Bedingung für Preisregel - Zeile 2, Teil 2](assets/ob-price-rule-condition-2.png)
+      ![Bedingung für Preisregel - Zeile 2, Teil 2](assets/ob-price-rule-condition-2.png){width="500"}
 
       Die ausgewählte Bedingung wird in der Anweisung angezeigt, gefolgt von zwei weiteren fett gedruckten Links. Die Optionen variieren je nach ausgewähltem Produktattribut.
 
@@ -68,11 +68,11 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
 
       Sie werden möglicherweise aufgefordert, eine Option auszuwählen oder einen Wert für die Bedingung einzugeben. In diesem Beispiel wird das Feld leer angezeigt. Klicken Sie auf das Auswahlsymbol (![Auswahlsymbol](assets/btn-chooser.png)), um Ihre Auswahloptionen anzuzeigen. Diese Regel gilt für _Bücher_, wählen Sie die **[!UICONTROL Books]** aktivieren. Die Kategorienummer wird ausgefüllt. Um Ihre Kategorieauswahlen zu akzeptieren, klicken Sie auf das grüne Häkchensymbol (![Symbol &quot;Häkchen&quot;](assets/btn-check-mark-green.png)).
 
-      ![Bedingung für Preisregel - Zeile 2, Teil 3](assets/ob-price-rule-condition-3.png)
+      ![Bedingung für Preisregel - Zeile 2, Teil 3](assets/ob-price-rule-condition-3.png){width="500"}
 
       Das ausgewählte Element wird in der Anweisung angezeigt, um die Bedingung abzuschließen.
 
-      ![Bedingung für Preisregel - Zeile 2, Teil 4](assets/ob-price-rule-condition-4.png)
+      ![Bedingung für Preisregel - Zeile 2, Teil 4](assets/ob-price-rule-condition-4.png){width="500"}
 
       Diese Beispielbedingung ist abgeschlossen. Wie angegeben bedeutet diese Bedingung, dass jedes Produkt in Ihrer [!DNL Commerce] Katalog mit einer definierten Kategorie von Büchern (`4`) für diese Preisregel infrage kommt. Sie können weitere Bedingungszeilen hinzufügen, um Ihre infrage kommenden Produkte weiter einzuschränken.
 

@@ -1,15 +1,15 @@
 ---
-title: Neue Drittanbieterlisten
+title: Neue Amazon-Listen von Drittanbietern
 description: Verwalten Sie neue Amazon-Listen, indem Sie sie mit einem Produkt in Ihrem Commerce-Katalog abgleichen.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Neue Drittanbieterlisten
+# Neue Amazon-Listen von Drittanbietern
 
 Die _[!UICONTROL New Third Party]_zeigt Ihre vorhandenen Amazon-Listen an, die nicht mit einem Produkt in Ihrer [!DNL Commerce] Katalog. Um die Listenverwaltung für Menge, Preis, Bearbeitungszeit und mehr zu verwenden, muss jede Ihrer Amazon-Listen einem Produkt in Ihrem [!DNL Commerce] Katalog. Sie haben einige Optionen, um einem Produkt in Ihrer [!DNL Commerce] Katalog.
 
@@ -31,7 +31,7 @@ under _[!UICONTROL Select]_:
 >
 >Wenn Listen in Bearbeitung sind, wird oberhalb der Registerkarten eine Meldung angezeigt, die die Anzahl der Auflistungen angibt.
 
-![Neue Drittanbieterlisten](assets/amazon-listings-new-third-party.png)
+![Neue Drittanbieterlisten](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 

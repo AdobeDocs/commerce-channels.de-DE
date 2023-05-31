@@ -1,21 +1,21 @@
 ---
-title: Niedrigste Preise für Wettbewerber
+title: Amazon-Vertriebskanal - [!UICONTROL Lowest Competitor Pricing]
 description: Die [!UICONTROL Amazon Sales Channel] stellt die [!UICONTROL Lowest Competitor Pricing] -Tab, damit Sie die Preispositionierung Ihrer Konkurrenten in Amazon besser verstehen können.
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-# Niedrigste Preise für Wettbewerber
+# [!UICONTROL Lowest Competitor Pricing]
 
 Die _[!UICONTROL Lowest Competitor Pricing]_auf der Registerkarte_[!UICONTROL Product Listing Details]_ Seite zeigt den niedrigsten endgültigen Anlandepreis an, ist jedoch in den Versandpreis und den Börsennotierungspreis unterteilt. Anhand dieser Informationen können Sie die Preispositionierung Ihrer Wettbewerber in Amazon nachvollziehen.
 
 [Intelligente Neupreisregeln](./intelligent-repricing-rules.md) kann so konfiguriert werden, dass Ihre Preise an die Preise der Konkurrenten angepasst werden.
 
-![Niedrigste Preise für Wettbewerber](assets/amazon-listing-details-lowest-comp.png)
+![Niedrigste Preise für Wettbewerber](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
 
 ## Auf Informationen zu niedrigsten Preisen für Wettbewerber zugreifen
 

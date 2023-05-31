@@ -1,15 +1,15 @@
 ---
-title: Hinzufügen von Preisregeln
+title: Amazon-Preisregeln hinzufügen
 description: Verwenden Sie Preisregeln, um die Listenpreise auf dem Amazon Marketplace für Ihren Commerce-Produktkatalog zu verwalten.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Hinzufügen von Preisregeln
+# Amazon-Preisregeln hinzufügen
 
 Preisregeln können jederzeit konfiguriert oder geändert werden, nachdem Ihr Store integriert wurde. Preisregeln sind Teil von [Listening-Einstellungen](./listing-settings.md) und kann im [Store-Dashboard](./amazon-store-dashboard.md).
 

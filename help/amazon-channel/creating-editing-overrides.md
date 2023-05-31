@@ -1,10 +1,10 @@
 ---
-title: Erstellen und Bearbeiten von Überschreibungen
+title: Erstellen und Bearbeiten von Außerkraftsetzungen des Amazon-Vertriebskanals
 description: Verwenden Sie Überschreibungen des Amazon-Sales Channels, um Ihre Änderungen auf eine einzelne Amazon-Liste oder auf mehrere Auflistungen anzuwenden.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Die _[!UICONTROL Create Override]_-Aktion ist verfügbar, wenn Sie Listen auf de
 
 1. Im _[!UICONTROL Action]_Spalte, klicken Sie auf **[!UICONTROL Select]**>**[!UICONTROL Create Override]**, um die Seite Produktlistenüberschreibungen zu öffnen.
 
-   ![Amazon-Listenüberschreibungen erstellen](assets/amazon-select-create-override.png)
+   ![Amazon-Listenüberschreibungen erstellen](assets/amazon-select-create-override.png){width="220"}
 
 1. Um sicherzustellen, dass Sie die richtige Liste anzeigen, überprüfen Sie die _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ Die _[!UICONTROL Create Override]_-Aktion ist verfügbar, wenn Sie Listen auf de
 
 Das folgende Beispiel zeigt eine Überschreibung, die einen neuen Preis von `$55`, eine neue Bearbeitungszeit von `1 day`, eine neue Bedingung von `Used; Like New`und neuer Text für die Verkaufsnotiz.
 
-![Beispiel für Amazon-Listenüberschreibungen](assets/amazon-overrides-edit.png)
+![Beispiel für Amazon-Listenüberschreibungen](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## Bearbeiten oder Entfernen einer Überschreibung für eine einzelne Auflistung {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ Die _[!UICONTROL Edit Overrides]_-Aktion ist verfügbar, wenn Sie Listen auf der
 
    Die _[!UICONTROL Product Listing Overrides]_Seite geöffnet.
 
-   ![Amazon-Listenüberschreibungen auswählen](assets/amazon-select-edit-overrides.png)
+   ![Amazon-Listenüberschreibungen auswählen](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. Um sicherzustellen, dass Sie die richtige Liste überschreiben, überprüfen Sie die _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ Die _[!UICONTROL Edit Overrides]_-Aktion ist verfügbar, wenn Sie Listen auf der
 
 Schweine _Erstellen einer Überschreibung_ Beispiel. Das folgende Beispiel zeigt eine Bearbeitung der zuvor erstellten Überschreibung, die einen neuen Preis von `$50`, entfernt die Überschreibungszeit für die Handhabung und behält die vorherigen Bedingungen und die Außerkraftsetzungen für die Verkaufshinweise bei.
 
-![Bearbeiten oder Entfernen einer Überschreibung](assets/amazon-overrides-edit-2.png)
+![Bearbeiten oder Entfernen einer Überschreibung](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## Bearbeiten oder Entfernen einer Überschreibung für mehrere Listen {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ Die _[!UICONTROL Edit Listing Overrides]_-Aktion auf der_[!UICONTROL Inactive]_,
 
    Die _[!UICONTROL Product Listing Overrides]_Seite geöffnet.
 
-   ![Amazon-Listenüberschreibungen auswählen](assets/amazon-actions-edit-listing-overrides.png)
+   ![Amazon-Listenüberschreibungen auswählen](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. So bearbeiten Sie Ihre _[!UICONTROL Override]_festlegen, legen Sie die Abschnitte für den Typ fest, den Sie ändern möchten (Preis, Bearbeitungszeit, Bedingung, Verkaufsmitteilungen).
 

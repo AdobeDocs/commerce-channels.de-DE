@@ -1,16 +1,16 @@
 ---
-title: Katalogsuche
+title: Katalogsuche nach Amazon-Listen
 description: Um die Attributzuordnung festzulegen, mit der die geeigneten Commerce-Katalogprodukte Amazon-Auflistungen zugeordnet werden können, aktualisieren Sie die Einstellungen für die Katalogsuche .
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Katalogsuche
+# Katalogsuche nach Amazon-Listen
 
 _Katalogsuche_ -Einstellungen sind Teil Ihrer Einstellungen für die Store-Auflistung. Auf die Listening-Einstellungen kann über die [Store-Dashboard](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ Informationen zum Hinzufügen von Attributen finden Sie unter [Erstellen von Pro
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save listing settings]**.
 
-![Katalogsuche](assets/amazon-catalog-search.png)
+![Katalogsuche](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |

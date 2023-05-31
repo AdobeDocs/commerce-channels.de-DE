@@ -2,7 +2,7 @@
 title: '"Intelligente Neupreisregel: Regeltyp auswählen'''
 description: Bestimmen Sie anhand einer intelligenten Neupreisregel den Listenpreis für Amazon anhand der Preise für Wettbewerber.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Definieren Sie den Regeltyp im _[!UICONTROL Select Rule Type]_Abschnitt.
 >
 >Sie können diese Preisgestaltung und Feedback-Optionen von Konkurrenten verwenden, um zu vermeiden, dass Sie Ihre Preise auf einen Konkurrenten stützen, der über schlechtes Feedback verfügt und ein Produkt mit geringerer Qualität verkauft.
 
-![Intelligente Neupreisregel - Regeltyp auswählen](assets/ob-intelligent-price-rule-type.png)
+![Intelligente Neupreisregel - Regeltyp auswählen](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |

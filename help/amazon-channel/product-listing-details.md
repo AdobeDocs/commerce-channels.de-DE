@@ -1,15 +1,15 @@
 ---
-title: Listendetails anzeigen
+title: Amazon-Listendetails anzeigen
 description: Um Wettbewerbsmetriken in Ihren Amazon-Listen und individuellen SKU-/Produktänderungen zu verstehen, lesen Sie die Seite Produktlistendetails .
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# Listendetails anzeigen
+# Amazon-Listendetails anzeigen
 
 Die _[!UICONTROL Product Listing Details]_-Seite enthält zusätzliche Informationen zu Ihren aktiven Produktlisten, einschließlich des Protokolls zu Listing-Aktivitäten, das die Änderungen an einer einzelnen SKU bzw. einem einzelnen Produkt anzeigt. Diese Informationen helfen Ihnen dabei, die Wettbewerbsmetriken Ihrer Produkte und der einzelnen SKU/Produktänderungen zu verstehen. Weitere Informationen auf dieser Seite sind:
 
@@ -28,7 +28,7 @@ Die angezeigten Produktinformationen umfassen:
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![Auflistungsdetails](assets/amazon-product-listing-details.png)
+![Auflistungsdetails](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## Protokoll zu Listening-Aktivitäten {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Zeigt alle aktuellen Aktivitäten für die Amazon-Auflistung an. Zu den angezeig
 - Kommentare: Enthält zusätzliche Details zum Typ der aufgetretenen Auflistungsaktion.
 - Ausgeführt bei: Gibt das Datum und die Uhrzeit der Aktion an.
 
-![Produktlistendetails - Protokoll zu Listening-Aktivitäten](assets/amazon-listing-activity-log.png)
+![Produktlistendetails - Protokoll zu Listening-Aktivitäten](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Buy Box-Mitbewerber-Preise {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ Auf dieser Registerkarte werden Informationen zum Amazon-Händler angezeigt, der
 - Anlandepreis: Identifiziert den Börsennotierungspreis zuzüglich des Versandpreises für die Auflistung.
 - Zuletzt aktualisiert: Identifiziert das Datum und die Uhrzeit, zu der die Preisinformationen von Amazon aktualisiert wurden.
 
-![Details zur Produktliste: Buy Box-Mitbewerber-Preise](assets/amazon-listing-details-buy-box-2.png)
+![Details zur Produktliste: Buy Box-Mitbewerber-Preise](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## Niedrigste Preise für Wettbewerber {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ Auf dieser Registerkarte werden Informationen zu Amazon-Konkurrenten für diesel
 - Feedback-Anzahl: Identifiziert die Amazon-Feedback-Anzahl für den niedrigsten Preis-Händler.
 - Zuletzt aktualisiert: Identifiziert das Datum und die Uhrzeit, zu der die Preisinformationen von Amazon aktualisiert wurden.
 
-![Details zur Produktliste - niedrigste Preise für Wettbewerber](assets/amazon-listing-details-lowest-comp.png)
+![Details zur Produktliste - niedrigste Preise für Wettbewerber](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

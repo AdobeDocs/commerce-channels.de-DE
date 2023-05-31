@@ -1,15 +1,15 @@
 ---
-title: '"Onboarding: Erstellen einer Listungsregel'''
+title: Erstellen einer Amazon-Listening-Regel
 description: Erstellen Sie beim Abschluss des Onboarding-Prozesses für den Amazon-Verkaufskanal die anfänglichen Listening-Regeln zum Generieren von Amazon-Auflistungen für Ihre [!DNL Commerce] Produkte.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# Onboarding: Listungsregel erstellen
+# Erstellen einer Amazon-Listening-Regel
 
 Listening-Regeln können während des Onboarding definiert, aber auch jederzeit geändert werden. Nach dem Onboarding können Sie auf die [Auflistungsregeln](./listing-rules.md) im Geschäft [Dashboard](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ Listening-Regeln können während des Onboarding definiert, aber auch jederzeit 
 
 1. Überprüfen Sie Ihre Listen in der Listenvorschau:
 
-   ![Listenvorschau](assets/amazon-ob-listing-preview.png)
+   ![Listenvorschau](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]** - Produkte, die auf dieser Registerkarte aufgelistet sind, können nicht auf der Grundlage Ihrer aktuellen Listenregeleinstellungen in die Amazon-Liste aufgenommen werden.
 

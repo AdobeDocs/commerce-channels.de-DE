@@ -1,16 +1,15 @@
 ---
-title: Lager/Menge
+title: Amazon-Vertriebskanal - [!UICONTROL Stock/Quantity]
 description: So steuern Sie die Synchronisierung der Produktmengendetails von Ihrem Commerce-Store mit Ihrem [!DNL Amazon Seller Central] -Konto die Einstellungen für Lager/Menge aktualisieren.
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# Lager/Menge
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* -Einstellungen sind Teil Ihrer Einstellungen für die Store-Auflistung. Auf die Listening-Einstellungen kann über die [Store-Dashboard](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ Diese Einstellungen werden verwendet, um die Produktmengendetails von Ihren [!DN
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save listing settings]**.
 
-![Einstellungen für Lager/Menge](assets/amazon-stock-quantity.png)
+![Einstellungen für Lager/Menge](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |---|---|
@@ -67,10 +66,10 @@ Wenn ein Artikel verkauft wird, wird er von der Amazon-Auflistung auf diese Meng
 
 Wenn Sie beispielsweise *[!UICONTROL Maximum Listed Quantity]* as `12`, zeigt die Amazon-Liste eine Menge von 12 an, obwohl das Produkt über eine [!DNL Commerce] Menge 80:
 
-![Beispiel für die angegebene Höchstmenge 1](assets/amazon-max-listed-quantity.png)
+![Beispiel für die angegebene Höchstmenge 1](assets/amazon-max-listed-quantity.png){width="300"}
 
 Wenn Sie *[!UICONTROL Maximum Listed Quantity]* as `1`alle in Betracht kommenden Erzeugnisse mit einer Menge von `1`. Wenn ein Artikel verkauft wird, prüft das System Ihre [!DNL Commerce] -Produkt und, falls ein zusätzliches Lager vorhanden ist, benötigt das Element auf Amazon eine Menge von `1`.
 
 Diese Option kann für Produkte nützlich sein, die normalerweise mit einer Menge von 1 bestellt werden. Darüber hinaus erhöht sich die Dringlichkeit für den Käufer, wenn er Ihre Amazon-Liste anzeigt.
 
-![Beispiel für die angegebene Höchstmenge 2](assets/amazon-max-listed-quantity-1.png)
+![Beispiel für die angegebene Höchstmenge 2](assets/amazon-max-listed-quantity-1.png){width="300"}

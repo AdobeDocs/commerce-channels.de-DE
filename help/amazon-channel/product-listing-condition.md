@@ -1,16 +1,16 @@
 ---
-title: Produktlistenbedingung
+title: Amazon-Vertriebskanal - Bedingung für die Produktliste
 description: Verwenden Sie die Einstellungen für die Produktlisten-Bedingung, um Ihre Commerce-Produkte einer Amazon-Produktbedingung zuzuordnen, z. B. "Neu"oder "Neu"oder "Raffiniert".
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Produktlistenbedingung
+# Bedingung für die Produktliste
 
 Die Bedingungseinstellungen für die Produktliste sind Teil Ihrer Einstellungen für die Store-Auflistung. Sie können auf die Listeneinstellungen im [Store-Dashboard](./amazon-store-dashboard.md).
 
@@ -57,7 +57,7 @@ Während [Aufgaben vor der Einrichtung](./amazon-pre-setup-tasks.md)wird empfohl
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save listing settings]**.
 
-![Bedingung für die Produktliste](assets/amazon-product-listing-condition.png)
+![Bedingung für die Produktliste](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |---|---|

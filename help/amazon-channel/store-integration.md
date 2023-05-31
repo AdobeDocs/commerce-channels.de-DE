@@ -1,17 +1,17 @@
 ---
-title: Store-Integration
+title: Speicherintegration mit [!DNL Amazon Seller Account]
 description: Bevor Sie mit dem Onboarding-Prozess beginnen, müssen Sie einen Amazon-Sales Channel-Store erstellen (hinzufügen) und ihn mit Ihrem Amazon-Verkaufskonto verbinden.
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# Store-Integration
+# Speicherintegration mit [!DNL Amazon Seller Account]
 
-Um mit dem Amazon-Vertriebskanal zu beginnen, müssen Sie einen Amazon-Verkaufskanalspeicher erstellen (hinzufügen) und ihn mit Ihrem Amazon-Vertriebskonto verbinden. Diese beiden Schritte integrieren Ihre [!DNL Commerce] und Amazon-Konten verwenden, um Daten freizugeben, Produkte zu synchronisieren und mehr.
+Um mit dem Amazon-Vertriebskanal zu beginnen, müssen Sie einen Amazon-Verkaufskanalspeicher erstellen (hinzufügen) und ihn mit Ihrem [!DNL Amazon Seller Account]. Diese beiden Schritte integrieren Ihre [!DNL Commerce] und Amazon-Konten verwenden, um Daten freizugeben, Produkte zu synchronisieren und mehr.
 
 _Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central] -Konto (die E-Mail oder das Telefon, mit der das Verkäuferkonto erstellt wurde), um Ihr Geschäft zu verbinden._
 
@@ -29,7 +29,7 @@ _Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central
 
    Die _[!UICONTROL Add Amazon sales channel]_Seite geöffnet.
 
-   ![Amazon Sales Channel Store hinzufügen](assets/amazon-store-integration.png)
+   ![Amazon Sales Channel Store hinzufügen](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. Für **[!UICONTROL Magento Website to use for Amazon Listing]**, wählen Sie aus, welche Ihrer [!DNL Commerce] Websites zur Verbindung für diesen Amazon-Verkaufskanalspeicher.
 
@@ -84,7 +84,7 @@ _Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central
 
    Um das Store-Dashboard anzuzeigen, klicken Sie auf **[!UICONTROL View Store]** auf der Speicherkarte.
 
-![Amazon-Vertriebskanal-Homepage mit neuer Speicherkarte](assets/asc-dashboard-after-2fa.png)
+![Amazon-Vertriebskanal-Homepage mit neuer Speicherkarte](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 Ihr neuer Amazon-Verkaufskanalspeicher ist jetzt mit Ihrem [!DNL Amazon Seller Central] -Konto.
 

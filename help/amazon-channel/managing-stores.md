@@ -1,19 +1,19 @@
 ---
-title: Amazon Stores-Ansicht
+title: "[!UICONTROL Amazon Stores] view"
 description: Navigieren Sie zur Ansicht "Amazon Stores", um die grundlegenden Statistiken für jeden Ihrer Amazon Stores zu überprüfen und auf die Verwaltungsoptionen zuzugreifen.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Amazon Stores-Ansicht
+# [!UICONTROL Amazon Stores] Ansicht
 
 Wenn Sie sich die Startseite des Amazon-Vertriebskanals ansehen, wird die _Amazon Stores_ -Ansicht wird standardmäßig geöffnet.
 
-![Ansicht &quot;Amazon Stores&quot;](assets/amazon-sales-channel-home-tabs.png)
+![Ansicht &quot;Amazon Stores&quot;](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 Die _[!UICONTROL Amazon Stores]_-Ansicht zeigt für jeden Ihrer Amazon-Stores eine &quot;Store-Karte&quot;mit einigen grundlegenden Statistiken und Verwaltungsoptionen an. Die auf jeder Karte angezeigten Zusammenfassungsinformationen enthalten jeden Store-Status, das erstellte Datum, das Datum der letzten Aktualisierung und Auflistungen, die beachtet werden müssen (Beispiel: Unvollständige Listen) und die zugewiesenen [!DNL Commerce] Website.
 

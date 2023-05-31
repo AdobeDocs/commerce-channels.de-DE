@@ -2,9 +2,9 @@
 title: Rückgabe und Rückerstattung von Bestellungen
 description: Anleitung für die vollständige oder teilweise Erstattung von Rückerstattungsanträgen [!DNL Walmart Marketplace] von [!DNL Channel Manager] für Adobe Commerce und Magento Open Source.
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Auf der Seite &quot;Commerce&quot;löst die Rückgabeanforderung den folgenden W
 
 1. Der Kanal-Manager erstellt eine entsprechende Rückgabeanforderung mit dem Empfangsstatus und fügt die Rückgabe-ID-Nummer ([!UICONTROL RMA #]) auf [!UICONTROL Returns] Dashboard. Im [!DNL Orders] Dashboard, die Statusdetails für die Bestellung, die mit der Rückgabe verknüpft ist, werden aktualisiert und enthalten eine [!UICONTROL Return requested] -Link, um die Rückgabe anzuzeigen und zu verarbeiten.
 
-1. Die Händler verarbeiten die Rückerstattung im Zusammenhang mit der Rückgabe, indem sie ein Kreditmemo erstellen, das dem [Adobe Commerce-Erstattungs-Workflow](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). Alle Erstattungen werden nach der Offline-Methode verarbeitet.
+1. Die Händler verarbeiten die Rückerstattung im Zusammenhang mit der Rückgabe, indem sie ein Kreditmemo erstellen, das dem [Adobe Commerce-Erstattungs-Workflow](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). Alle Erstattungen werden nach der Offline-Methode verarbeitet.
 
 1. [!DNL Channel Manager] sendet eine Rückerstattungsaktualisierung an Walmart Marketplace, damit der Rückkehrstatus aktualisiert werden kann, um die von Adobe Commerce zurückgezahlte Erstattung widerzuspiegeln.
 
 In der Storefront-Admin können Sie die Rückgaben vom Kanal-Manager anzeigen und verarbeiten, indem Sie den Verkaufskanalspeicher öffnen und auswählen **[!UICONTROL Returns]**.
 
-![Kanal-Manager Gibt Dashboard zurück, um Rückerstattungen für Rückgabeanforderungen zu verarbeiten, die von empfangen wurden [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png)
+![Kanal-Manager Gibt Dashboard zurück, um Rückerstattungen für Rückgabeanforderungen zu verarbeiten, die von empfangen wurden [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ In den folgenden Szenarien wird beschrieben, wie Erstattungen für verschiedene 
 
    * Aus dem [!UICONTROL Status Details] Spalte auswählen **[!UICONTROL Create credit memo]** , um die Detailseite &quot;Bestellung&quot;in [!DNL Commerce].
 
-      Wenn die Bestellung nicht in Rechnung gestellt wurde, wird auf der Seite Bestelldetails eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, eine zu erstellen. Auswählen **[!UICONTROL Create invoice]**. Dann [Rechnung erstellen und speichern](https://docs.magento.com/user-guide/sales/invoices.html).
+      Wenn die Bestellung nicht in Rechnung gestellt wurde, wird auf der Seite Bestelldetails eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, eine zu erstellen. Auswählen **[!UICONTROL Create invoice]**. Dann [Rechnung erstellen und speichern](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Wählen Sie auf der Detailseite Sortierung die Option **[!UICONTROL Credit Memo]**.
 
@@ -179,7 +179,7 @@ Sie können Informationen zu Rückkehranfragen und Erstattungsverarbeitung über
 
 1. Anzeigen von Rückerstattungsdetails für eine Rückkehr durch Auswahl von **[!UICONTROL View credit memo]**.
 
-   ![Kreditvermerk zur Rückerstattung zurückgegebener Artikel für einen [!DNL Walmart Marketplace] order](assets/refund-credit-memo-for-marketplace-order.png)
+   ![Kreditvermerk zur Rückerstattung zurückgegebener Artikel für einen [!DNL Walmart Marketplace] order](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

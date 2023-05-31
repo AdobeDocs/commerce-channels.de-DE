@@ -1,15 +1,15 @@
 ---
-title: Standardspeichereinstellungen
+title: Standardmäßige Store-Einstellungen für Amazon-Listen
 description: Ändern Sie die standardmäßigen Commerce-Einstellungen, um den Amazon-Sales Channel für Ihren Store anzupassen.
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# Standardspeichereinstellungen
+# Standardmäßige Store-Einstellungen für Amazon-Listen
 
 Nachdem Ihr Store verbunden ist und Sie Ihre erste Listening-Regel eingerichtet haben, wird die Datensynchronisation zwischen Amazon und [!DNL Commerce] beginnt. Es gibt verschiedene Arten von Store-Einstellungen, mit denen Sie Ihren Store an Ihre Anforderungen anpassen können. Auf Store-Einstellungen kann über den Store zugegriffen werden. [Dashboard](./amazon-store-dashboard.md).
 
@@ -33,7 +33,7 @@ Zu den Store-Einstellungen gehören:
 
 | Einstellung | Standard | Beschreibung | Standort |
 |--- |--- |--- |--- |
-| [!UICONTROL Import Amazon Orders] | `Enabled` | Erstellt entsprechende [!DNL Commerce] Bestellungen, wenn neue Bestellungen von Amazon empfangen werden, sodass Bestellungen im [[!DNL Commerce] Bestellungen](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} Arbeitsablauf. Wann `Disabled`, bestellt Amazon Informationen zur Importbestellung zur Überprüfung, aber die Bestellungen müssen in Ihrer [!DNL Amazon Seller Central] -Konto. | [Bestelleinstellungen](./order-settings.md) |
+| [!UICONTROL Import Amazon Orders] | `Enabled` | Erstellt entsprechende [!DNL Commerce] Bestellungen, wenn neue Bestellungen von Amazon empfangen werden, sodass Bestellungen im [[!DNL Commerce] Bestellungen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) Arbeitsablauf. Wann `Disabled`, bestellt Amazon Informationen zur Importbestellung zur Überprüfung, aber die Bestellungen müssen in Ihrer [!DNL Amazon Seller Central] -Konto. | [Bestelleinstellungen](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | Kundendaten aus Amazon-Bestellungen werden nicht in Ihre [!DNL Commerce] Datenbank. Importierte Amazon-Bestellungen werden als Gastkasse verarbeitet. Wenn Sie Ihre [!DNL Commerce] Kundendatenbank, sollten Sie diese Einstellung ändern in `Build New Customer Account`. | [Bestelleinstellungen](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] -Katalogprodukte (die die Voraussetzungen für Amazon erfüllen), um sie automatisch in Amazon zu veröffentlichen und Amazon-Listen zu erstellen. Wenn Sie Ihre Produkte manuell überprüfen und veröffentlichen möchten, sollten Sie diese Einstellung in `Do Not Automatically List Eligible Products`. Produkte, die auf eine manuelle Veröffentlichung warten, werden auf [_Listenbereit_](./ready-to-list.md) Registerkarte. | [Produktlistenaktionen](./product-listing-actions.md) |
 | [!UICONTROL Magento Price Source] | `Price` | Definiert das Preisquellenattribut, das als Grundlage für Ihre Amazon-Auflistungen verwendet wird. Wenn Sie die [!DNL Commerce] `Price` als Basispreis festlegen, auf dem Ihre Preisregeln basieren, sollten Sie diese Einstellung in ein anderes Attribut ändern. | [Listenpreis](./listing-price.md) |

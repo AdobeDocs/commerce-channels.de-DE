@@ -1,15 +1,15 @@
 ---
-title: Startseite
+title: Startseite des Amazon-Vertriebskanals
 description: Verwenden Sie die Startseite des Amazon-Vertriebskanals in Ihrer [!DNL Commerce] Admin für den Zugriff auf Ihre [!DNL Amazon Marketplace] Auflistungen und Aktivitäten.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# Startseite
+# Startseite des Amazon-Vertriebskanals
 
 Die Startseite des Amazon-Vertriebskanals ist Ihre Landingpage beim Zugriff auf Ihren Amazon-Vertriebskanal.
 

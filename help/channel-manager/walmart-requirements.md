@@ -2,7 +2,7 @@
 title: '''[!DNL Walmart] Voraussetzungen'
 description: "Vergewissern Sie sich, dass Sie über die erforderlichen [!DNL Walmart Marketplace]Informationen und Ressourcen zur Integration mit dem Kanal-Manager."
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Wenn Sie Produkte mit dem Marketplace verbinden, hängt die Verfügbarkeit der L
 
 * Bei Geschäften, die nicht live sind, werden Ihre Produktangebote gestaffelt und für Kunden nicht sichtbar. Wenn die [!DNL Walmart Marketplace] Store wird live geschaltet, gestaffelte Listen werden automatisch an den Live Store gesendet.
 
-![[!DNL Walmart Seller Central] Staging-Produkte](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] Staging-Produkte](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >

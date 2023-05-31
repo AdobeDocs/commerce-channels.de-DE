@@ -1,21 +1,21 @@
 ---
-title: Verbesserungen bei Listen
+title: Amazon-Vertriebskanal - [!UICONTROL Listing Improvements]
 description: Amazon Sales Channel stellt Ihnen den Bericht zu Listening-Verbesserungen mit Vorschlägen für Amazon zur Auflistung von Qualitätsverbesserungen bereit.
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Verbesserungen bei Listen
+# [!UICONTROL Listing Improvements]
 
 Die [!UICONTROL Listing Improvements] zeigt Produkte mit Vorschlägen von Amazon zur Verbesserung der Listungsqualität an. Sie können diese Vorschläge überprüfen, um die Leistung von Produkten in der Amazon-Liste zu verbessern. Für das Protokoll sind keine Aktionen verfügbar. Es handelt sich um eine Funktion, die nur zur Überprüfung dient.
 
 Eine von Amazon erhaltene Verbesserung der Auflistung verhindert nicht, dass Ihr Produkt mit Amazon aufgeführt wird.
 
-![Verbesserungen bei Listen](assets/amazon-listing-improvements.png)
+![Verbesserungen bei Listen](assets/amazon-listing-improvements.png){width="600" zoomable="yes"}
 
 ## Standardspalten
 

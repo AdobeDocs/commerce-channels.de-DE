@@ -2,9 +2,9 @@
 user-guide-title: Benutzerhandbuch für Amazon Sales Channel
 user-guide-description: Generieren von Verkäufen über Amazon durch Integration von Adobe Commerce oder Magento Open Source in Ihre [!DNL Amazon Seller Central] -Konto.
 breadcrumb-title: Amazon-Vertriebskanal
-source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,11 @@ ht-degree: 0%
 
 # Amazon-Vertriebskanal - [!DNL channel manager] für Adobe Commerce {#amazon}
 
-- [Guide - Übersicht](guide-overview.md)
+- [Benutzerhandbuch für Amazon Sales Channel](guide-overview.md)
 - [Einführung in den Amazon-Vertriebskanal](overview.md)
-- [Versionshinweise](release-notes.md)
 - Erste Schritte {#getting-started}
-   - [Über den Amazon-Vertriebskanal](about-amazon-sales-channel.md)
    - [Über Amazon Marketplace](about-amazon-marketplace.md)
-   - [Über Amazon und Ihren Commerce-Katalog](about-listings-and-catalog.md)
+   - [Amazon und der Commerce-Katalog](about-listings-and-catalog.md)
    - [Best Practices und Einschränkungen](amazon-best-practices.md)
    - [Installieren der Erweiterung](install.md)
 - Onboarding {#onboarding}
@@ -113,3 +111,4 @@ ht-degree: 0%
    - [Allgemeine Aufgaben zur Bestellverarbeitung](common-order-processing.md)
    - [Erfüllungs-Workflows](fulfillment-workflows.md)
    - [Abbrechen nicht versandter Bestellungen](cancel-unshipped-order.md)
+- [Versionshinweise](release-notes.md)

@@ -2,16 +2,16 @@
 title: Alias Amazon Seller SKU erstellen
 description: Sie können die Alias Amazon Seller SKU verwenden, um aus Ihren Commerce-Katalogprodukten regionenübergreifende Amazon-Listen zu erstellen.
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
 
 # Alias Amazon Seller SKU erstellen
 
-Ein [!DNL Alias Amazon Seller SKU] wird verwendet, um eine Amazon-Liste aus demselben Produkt in Ihrer [!DNL Commerce] Katalog. Wenn Sie ein erfahrener Amazon-Verkäufer sind, kennen Sie möglicherweise die [Amazon Global SKU](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target=&quot;_blank&quot;} und marketplace-spezifische SKU für Inventar und Versand. Nach ähnlichen Grundsätzen für den Amazon-Vertriebskanal kontrolliert die Amazon Seller SKU die Produktlisten-Informationen auf multiregionaler Ebene und die [!DNL Alias Amazon Seller SKU] kann verwendet werden, um Produktanlistungsinformationen auf regionsspezifischer Ebene zu steuern.
+Ein [!DNL Alias Amazon Seller SKU] wird verwendet, um eine Amazon-Liste aus demselben Produkt in Ihrer [!DNL Commerce] Katalog. Wenn Sie ein erfahrener Amazon-Verkäufer sind, kennen Sie möglicherweise die [Amazon Global SKU](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target="_blank"} und marketplace-spezifische SKU für Inventar und Versand. Nach ähnlichen Grundsätzen für den Amazon-Vertriebskanal kontrolliert die Amazon Seller SKU die Produktlisten-Informationen auf multiregionaler Ebene und die [!DNL Alias Amazon Seller SKU] kann verwendet werden, um Produktanlistungsinformationen auf regionsspezifischer Ebene zu steuern.
 
 Mit dieser Funktion können zwei Funktionen ausgeführt werden:
 
@@ -73,7 +73,7 @@ Zeigen Sie die Liste auf der _[!UICONTROL Product Listings]_page (_[!UICONTROL I
 
 1. Klicken **[!UICONTROL Save Listing Update]**.
 
-![Erstellen einer Alias Amazon Seller SKU](assets/amazon-alias-sku-create.png)
+![Erstellen einer Alias Amazon Seller SKU](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |

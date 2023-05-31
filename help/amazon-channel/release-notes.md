@@ -2,14 +2,14 @@
 title: '''[!DNL Amazon Sales Channel] Versionshinweise'
 description: Informationen zu allen [!DNL Amazon Sales Channel] veröffentlicht.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
 
-# Versionshinweise
+# [!DNL Amazon Sales Channel] Versionshinweise
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ Diese Versionshinweise beschreiben die erste Version von [!DNL Amazon sales chan
 ![Problem behoben](../assets/fix.svg) Fehlerbehebungen und Verbesserungen
 ![Bekanntes Problem](../assets/bug.svg) Bekannte Probleme
 
-Siehe [Bevorstehende Versionen](https://devdocs.magento.com/release/){target="_blank"} für Versionierung, Unterstützung und Kompatibilität.
+Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) für Versionierung, Unterstützung und Kompatibilität.
 
 ## v4.4.4
 
@@ -116,13 +116,13 @@ Siehe [Bevorstehende Versionen](https://devdocs.magento.com/release/){target="_b
 
 Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und versuchen, Ihre Adobe Commerce auf Version 2.4.0 zu aktualisieren, werden Sie aufgefordert, die -Erweiterung zu aktualisieren, bevor Sie das Adobe Commerce-Update abschließen können.
 
-![Bekanntes Problem](../assets/bug.svg) Wann [!DNL Amazon sales channel] 4.2.0 ist in Version 2.4.0 integriert und [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) aktiviert ist, gibt es ein bekanntes Problem, das das Hinzufügen von Produkten in Ihren Commerce-Katalog verhindert. Dieses Problem wird in einer zukünftigen Commerce-Version behoben.
+![Bekanntes Problem](../assets/bug.svg) Wann [!DNL Amazon sales channel] 4.2.0 ist in Version 2.4.0 integriert und [Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) aktiviert ist, gibt es ein bekanntes Problem, das das Hinzufügen von Produkten in Ihren Commerce-Katalog verhindert. Dieses Problem wird in einer zukünftigen Commerce-Version behoben.
 
 ![Neu](../assets/new.svg) [!DNL Amazon sales channel] wurde verbessert, um textbasierte Adressdaten zu akzeptieren und sie mit standardisierten Adressformaten wie Stadt, Bundesland und Postleitzahl abzugleichen. Durch diese Aktualisierung können Bestell- und Versanddaten ohne Adressfehler mit Amazon synchronisiert (synchronisiert) werden.<br/>Beispielsweise gibt ein Käufer die Stadt, das Bundesland und die Postleitzahl als `Escondido, californiA 92025-1501`. Amazon Sales Channel importiert die Daten und stimmt sie mit dem Standardformat überein als `Escondido, CA 92025`und synchronisiert sie dann wieder mit Amazon in diesem standardisierten Format.
 
 ![Neu](../assets/new.svg) Unterstützung für PHP 7.4 hinzugefügt.
 
-![Neu](../assets/new.svg) <!--CHAN-4334-->Adobe Commerce 2.4.x wird nun unterstützt. Frühere Versionen sind möglicherweise mit Commerce 2.4.x kompatibel, werden jedoch nicht unterstützt. Siehe [Bevorstehende Versionen](https://devdocs.magento.com/release/){:target=&quot;_blank&quot;} für Versionskompatibilität. Amazon Sales Channel muss auf Version 4.2.0 aktualisiert werden, bevor das Adobe Commerce 2.4.0 Update abgeschlossen werden kann.
+![Neu](../assets/new.svg) <!--CHAN-4334-->Adobe Commerce 2.4.x wird nun unterstützt. Frühere Versionen sind möglicherweise mit Commerce 2.4.x kompatibel, werden jedoch nicht unterstützt. Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) zur Versionskompatibilität. Amazon Sales Channel muss auf Version 4.2.0 aktualisiert werden, bevor das Adobe Commerce 2.4.0 Update abgeschlossen werden kann.
 
 ![Fehlerbehebung](../assets/fix.svg) <!--CHAN-4431-->Korrektur eines Problems, das zu einem _Zugriff verweigert_ Fehler für Kunden aus Großbritannien.
 
@@ -210,7 +210,7 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 - [Produktsteuercode](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} Informationen.
 
-![Neu](../assets/new.svg) **Verbesserte Protokollierung**: <!--CHAN-3642, 3672-->Implementiert die **Aktivieren der Debug-Protokollierung** zur Erfassung zusätzlicher Synchronisierungsdaten bei der Fehlerbehebung. Siehe [Sales Channel-Einstellungen](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) Thema in der Konfigurationsreferenz.
+![Neu](../assets/new.svg) **Verbesserte Protokollierung**: <!--CHAN-3642, 3672-->Implementiert die **Aktivieren der Debug-Protokollierung** zur Erfassung zusätzlicher Synchronisierungsdaten bei der Fehlerbehebung. Siehe [Sales Channel-Einstellungen](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) Thema in der Konfigurationsreferenz.
 
 ![Fehlerbehebung](../assets/fix.svg) **Produktkatalog**: <!--CHAN-3687-->Fehlerkorrektur - Mit einer Amazon-Liste importierte Bilder können jetzt auf das entsprechende Commerce-Katalogprodukt angewendet werden.
 

@@ -1,11 +1,10 @@
 ---
-title: Allgemeine Preisregeleinstellungen
+title: Amazon-Vertriebskanal - Allgemeine Preisregeleinstellungen
 description: Verwenden Sie die allgemeinen Preisregeleinstellungen, um die Hauptmerkmale einer Regel für den Börsennotierungspreis zu definieren.
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -48,7 +47,7 @@ Definieren Sie den Namen, die Beschreibung, das aktive Datum und die Priorität 
 >
 >Um nachfolgende Regeln verwerfen zu können, muss eine Preisregel über eine **Priorität** -Wert.
 
-![Allgemeine Preisregeleinstellungen](assets/amazon-pricing-rule-general.png)
+![Allgemeine Preisregeleinstellungen](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |---|---|

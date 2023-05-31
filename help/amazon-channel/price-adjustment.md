@@ -1,15 +1,15 @@
 ---
-title: Preisanpassung
+title: Amazon-Vertriebskanal - [!UICONTROL Price Adjustment]
 description: Konfigurieren Sie Preisanpassungen, um die Preisberechnung zu definieren, wenn Sie die Preisquelle des Amazon-Konkurrenten ermittelt haben.
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# Preisanpassung
+# [!UICONTROL Price Adjustment]
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Definieren Sie Ihre Preisanpassung im _[!UICONTROL Price Adjustment]_Abschnitt.
 
    - Wann **[!UICONTROL Apply]** auf `Apply as fixed amount`Geben Sie den numerischen Wert für den Festbetrag ein (Beispiel: enter `25` für eine feste Anpassung in Höhe von 25 USD).
 
-![Intelligente Neupreisregelung - Preisanpassung](assets/amazon-price-adjustment.png)
+![Intelligente Neupreisregelung - Preisanpassung](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |---|---|

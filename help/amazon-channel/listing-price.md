@@ -1,16 +1,16 @@
 ---
-title: Listenpreis
+title: Amazon-Vertriebskanal - [!UICONTROL Listing Price]
 description: Verwenden Sie die Einstellungen für den Listenpreis , um die Preisquelle und den Basiswert (Standard) für Ihre Amazon-Auflistungen zu bestimmen.
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
 
-# Listenpreis
+# [!UICONTROL Listing Price]
 
 [!UICONTROL Listing Price] -Einstellungen sind Teil Ihrer Einstellungen für die Store-Auflistung. Auf die Listening-Einstellungen kann über die [Store-Dashboard](./amazon-store-dashboard.md).
 
@@ -18,9 +18,9 @@ Diese Einstellungen bestimmen, welche [!DNL Commerce] Preisattribut, das als Ihr
 
 Sie können Ihre [Preisgestaltung](./price-scope.md) als globale oder Website. Wenn Ihr Preisbereich auf `Global`, gibt es eine einzige Preisquelle für alle Ihre Geschäfte/Websites. Wenn Ihr Preisbereich auf `Website`verwendet die Preisquelle die Ausweichlogik des Website-Preises (sofern verfügbar) gefolgt vom standardmäßigen (globalen) Preis.
 
-Wenn eine Listening-Regel auf mehr als eine Website angewendet werden soll, wird die Reihenfolge, in der der Website-Preis verwendet wird, durch die in der Variablen [Auflistungsregel](./listing-rules.md). Mit diesen Regeln können Sie die Produktpreise in Ihrem Katalog definieren. Informationen dazu, ob Sie den Umfang der Website-Preise verwenden, finden Sie unter [Katalogpreisumfang](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html){target=&quot;_blank&quot;}.
+Wenn eine Listening-Regel auf mehr als eine Website angewendet werden soll, wird die Reihenfolge, in der der Website-Preis verwendet wird, durch die in der Variablen [Auflistungsregel](./listing-rules.md). Mit diesen Regeln können Sie die Produktpreise in Ihrem Katalog definieren. Informationen dazu, ob Sie den Umfang der Website-Preise verwenden, finden Sie unter [Katalogpreisumfang](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html).
 
-Die unter _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_ und _[!UICONTROL Strike Through Price (MSRP)]_enthalten Ihre konfigurierten Preisattribute. Preisattribute sind [!DNL Commerce] Produktattribute, bei denen der Katalogeingabetyp für den Wert &quot;Store Owner&quot;auf `Price`. Siehe [Attributeingabetypen](https://docs.magento.com/user-guide/stores/attributes-input-types.html){target=&quot;_blank&quot;}.
+Die unter _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_ und _[!UICONTROL Strike Through Price (MSRP)]_enthalten Ihre konfigurierten Preisattribute. Preisattribute sind [!DNL Commerce] Produktattribute, bei denen der Katalogeingabetyp für den Wert &quot;Store Owner&quot;auf `Price`. Siehe [Attributeingabetypen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html).
 
 ## Einstellungen für den Listenpreis konfigurieren {#configure-listing-price-settings}
 
@@ -51,7 +51,7 @@ Die unter _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Pr
    - `Enabled` - Wählen Sie aus, wann Sie die Mehrwertsteuer auf Ihren Listenpreis anwenden möchten. Die MwSt wird in der Regel als Umsatzsteuer in europäischen Ländern verwendet und zu Ihrem endgültigen börsennotierten Preis in Amazon hinzugefügt. Die Mehrwertsteuer gilt nicht für den Endpreis von Auflistungen, die im Rahmen einer intelligenten Preisregel verwendet werden, es sei denn, die [Grundpreis](./floor-price.md) wird getroffen.
    >[!NOTE]
    >
-   >Die Unternehmen in der Europäischen Union (EU) müssen den kaufenden Unternehmen Rechnungen zuschicken, damit der Kunde die Steuer umsetzen kann. Sie können diese Rechnungen entweder selbst erstellen und die Steuern berechnen oder einen Steuerrechnungs-Service wie den MwSt-Berechnungsdienst von Amazon nutzen. Amazon empfiehlt, sich für die [Amazon - MwSt-Berechnungsservice](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;){target=&quot;_blank&quot;}. Wenn Sie eine andere Methode wählen, sind Sie für die Einhaltung der Mehrwertsteuer verantwortlich.>
+   >Die Unternehmen in der Europäischen Union (EU) müssen den kaufenden Unternehmen Rechnungen zuschicken, damit der Kunde die Steuer umsetzen kann. Sie können diese Rechnungen entweder selbst erstellen und die Steuern berechnen oder einen Steuerrechnungs-Service wie den MwSt-Berechnungsdienst von Amazon nutzen. Amazon empfiehlt, sich für die [Amazon - MwSt-Berechnungsservice](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Wenn Sie eine andere Methode wählen, sind Sie für die Einhaltung der Mehrwertsteuer verantwortlich.>
    >
    >Es kann 10-14 Tage dauern, bis Amazon Ihr Konto für den MwSt-Berechnungsdienst überprüft und aktiviert.
 
@@ -68,15 +68,15 @@ Die unter _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Pr
       - Für **[!UICONTROL Default PTC]**, geben Sie den Standard-PTC an, der für alle zulässigen Amazon-Listen verwendet werden soll. Wenn Ihr standardmäßiger PTC in Ihrer [!DNL Amazon Seller Central] -Konto verwenden, lassen Sie dieses Feld leer. Änderungen an diesem Feld wirken sich nicht auf bestehende Amazon-Listen aus. Um den Standard-PTC für eine vorhandene Liste zu ändern, muss die Liste [ended](./end-listings-manually.md) und eine neue Liste erstellt.
    >[!NOTE]
    >
-   >Wenn Sie den MwSt-Berechnungsdienst von Amazon verwenden, müssen Sie die Steuerkategorie für Ihre Produkte kennen. Ein PTC ist der Steuerkategorie-ID-Code von Amazon für B2B-Käufe in der EU. Siehe [Amazon-Produktsteuercodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;}.
+   >Wenn Sie den MwSt-Berechnungsdienst von Amazon verwenden, müssen Sie die Steuerkategorie für Ihre Produkte kennen. Ein PTC ist der Steuerkategorie-ID-Code von Amazon für B2B-Käufe in der EU. Siehe [Amazon-Produktsteuercodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
 
 1. Für **[!UICONTROL Currency Conversion]**, wählen Sie eine Option aus.
 
-   Der Standardwert ist `Disabled`. Diese Optionen hängen von Ihrer [!DNL Commerce] [currency](https://docs.magento.com/user-guide/configuration/general/currency-setup.html)Einstellungen für {target=&quot;_blank&quot;}. Wenn keine Optionen verfügbar sind, richten Sie Ihre Währungseinstellungen ein.
+   Der Standardwert ist `Disabled`. Diese Optionen hängen von Ihrer [!DNL Commerce] [currency](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) -Einstellungen. Wenn keine Optionen verfügbar sind, richten Sie Ihre Währungseinstellungen ein.
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save listing settings]**.
 
-![Listenpreis](assets/amazon-listing-price.png)
+![Listenpreis](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |
@@ -85,9 +85,9 @@ Die unter _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Pr
 | [!UICONTROL Strike Through Price (MSRP)] | Die [!DNL Commerce] -Attribut, das die MSRP-Preise darstellt. Wenn Ihr Amazon-Listingpreis unter dem MSRP liegt, wird eine Durchsicht des MSRP-Preises und des Börsennotierungspreises angezeigt. Diese Einstellung wird auch verwendet, um den Betrag und den Prozentsatz für &quot;Sie speichern&quot;zu berechnen. Diese Funktion gilt jedoch nur für Auflistungen, die die [Buy Box](./buy-box-competitor-pricing.md) Position. |
 | [!UICONTROL Apply Value Added Tax (VAT)] | Die Mehrwertsteuer wird von Verkäufern in der Europäischen Union verwendet.<br><br>Auswählen `Disabled` wenn Sie nicht möchten, dass die MwSt zu den Preisen hinzugefügt wird.<br><br>Auswählen `Enabled` Geben Sie dann den MwSt.-Prozentsatz für die Anwendung der MwSt. auf Ihre Listenpreise ein. |
 | [!UICONTROL VAT Percentage] | Definieren Sie den Prozentsatz, der zur Berechnung des Mehrwertsteuerbetrags verwendet werden soll, der zum Listenpreis für Ihre Amazon-Auflistungen hinzugefügt werden soll. <br><br>Wenn Sie `5`auf den endgültigen Börsennotierungspreis wird eine Mehrwertsteuer von 5 % erhoben, nachdem alle Preisregeln angewandt wurden. Die MwSt.-Steuer gilt nicht für den Endpreis von Auflistungen, die im Rahmen einer intelligenten Preisregel verwendet werden, es sei denn, die [floor](./floor-price.md) oder [ceiling](./optional-ceiling-price.md) wird getroffen. |
-| [!UICONTROL Amazon Product Tax Code (PTC)] | (Nur für UK Stores angezeigt) Bestimmt, ob der Amazon-Vertriebskanal Produktsteuercode-Informationen an Ihre [!DNL Amazon Seller Central] -Konto. <br><br>Auswählen **PTC nicht verwalten** wenn Sie einen Steuerberechnungsdienst eines Drittanbieters verwenden oder bereits alle Ihre Steuerberechnungen in Ihrem [!DNL Amazon Seller Central] -Konto. Wenn diese Option aktiviert ist, sendet der Amazon-Verkaufskanal keine Informationen zum Produktsteuercode an Ihre [!DNL Amazon Seller Central] -Konto.<br><br>Auswählen **Standard-PTC festlegen** Wenn Sie einen universellen Produktsteuercode haben, den Sie für alle Ihre Produkte verwenden möchten.<br><br>Siehe [Amazon-Produktsteuercodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;}. |
+| [!UICONTROL Amazon Product Tax Code (PTC)] | (Nur für UK Stores angezeigt) Bestimmt, ob der Amazon-Vertriebskanal Produktsteuercode-Informationen an Ihre [!DNL Amazon Seller Central] -Konto. <br><br>Auswählen **PTC nicht verwalten** wenn Sie einen Steuerberechnungsdienst eines Drittanbieters verwenden oder bereits alle Ihre Steuerberechnungen in Ihrem [!DNL Amazon Seller Central] -Konto. Wenn diese Option aktiviert ist, sendet der Amazon-Verkaufskanal keine Informationen zum Produktsteuercode an Ihre [!DNL Amazon Seller Central] -Konto.<br><br>Auswählen **Standard-PTC festlegen** Wenn Sie einen universellen Produktsteuercode haben, den Sie für alle Ihre Produkte verwenden möchten.<br><br>Siehe [Amazon-Produktsteuercodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}. |
 | [!UICONTROL Default PTC] | Nur angezeigt, wenn **Amazon Product Tax Code (PTC)** auf `Set Default PTC`. Geben Sie den Standard-PTC an, der für alle zulässigen Amazon-Listen verwendet werden soll. Wenn Ihr standardmäßiger PTC in Ihrer [!DNL Amazon Seller Central] -Konto verwenden, lassen Sie dieses Feld leer. <br><br>Änderungen an diesem Feld wirken sich nicht auf bestehende Listen aus. Die Auflistung muss [ended](./end-listings-manually.md) und eine neue Liste erstellt, damit die Änderung wirksam wird. |
-| [!UICONTROL Currency Conversion] | Ermöglicht Ihnen die [!DNL Commerce] storefront die Standardwährung, um eine genaue Konversion in Ihre Amazon-Standardwährung vorzunehmen und Ihre Listenpreise in der entsprechenden Währung zu veröffentlichen. Die Währungsumrechnung basiert immer auf Ihrer [!DNL Commerce] Standardwährung.<br><br>Sie können Ihre Standardeinstellung weiterhin anzeigen [!DNL Commerce] und Amazon-Währungen, wenn andere Währungen verfügbar sind. Wenn die Standardeinstellung [!DNL Commerce] Die Währung entspricht der Amazon-Standardwährung, lassen Sie die Währungsumrechnung deaktiviert.<br><br>Wenn beispielsweise Ihre [!DNL Commerce] Standardwährung ist CAD (kanadischer Dollar) und Ihre Amazon-Standardwährung ist USD. Sie müssen die Währungsumrechnung aktivieren und die Konversionsrate CAD auf USD wählen. Die angezeigten Optionen basieren auf dem integrierten [!DNL Commerce] Währungsumrechnungen. Wenn die gewünschte Option nicht angezeigt wird, [die Währung in [!DNL Commerce]](https://docs.magento.com/user-guide/stores/currency-configuration.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Currency Conversion] | Ermöglicht Ihnen die [!DNL Commerce] storefront die Standardwährung, um eine genaue Konversion in Ihre Amazon-Standardwährung vorzunehmen und Ihre Listenpreise in der entsprechenden Währung zu veröffentlichen. Die Währungsumrechnung basiert immer auf Ihrer [!DNL Commerce] Standardwährung.<br><br>Sie können Ihre Standardeinstellung weiterhin anzeigen [!DNL Commerce] und Amazon-Währungen, wenn andere Währungen verfügbar sind. Wenn die Standardeinstellung [!DNL Commerce] Die Währung entspricht der Amazon-Standardwährung, lassen Sie die Währungsumrechnung deaktiviert.<br><br>Wenn beispielsweise Ihre [!DNL Commerce] Standardwährung ist CAD (kanadischer Dollar) und Ihre Amazon-Standardwährung ist USD. Sie müssen die Währungsumrechnung aktivieren und die Konversionsrate CAD auf USD wählen. Die angezeigten Optionen basieren auf dem integrierten [!DNL Commerce] Währungsumrechnungen. Wenn die gewünschte Option nicht angezeigt wird, [die Währung in [!DNL Commerce]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html). |
 
 **Schnellzugriff** - [!UICONTROL Listing Settings] Abschnitte
 

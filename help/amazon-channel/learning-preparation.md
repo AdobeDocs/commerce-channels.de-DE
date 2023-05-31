@@ -1,19 +1,19 @@
 ---
-title: Lernen und Vorbereitung
+title: Amazon-Vertriebskanal - [!UICONTROL Learning and Preparation]
 description: Amazon Sales Channel bietet den Tab Lernen- und Vorbereitungsansicht , um einen einfachen Zugriff auf eine Liste von Einrichtungsaufgaben und Informationsressourcen zu ermöglichen.
 exl-id: 0b31132b-9106-4492-8be7-e784ff436a6d
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
 
-# Lernen und Vorbereitung
+# [!UICONTROL Learning and Preparation]
 
 Die _[!UICONTROL Learning and Preparation]_zeigt die Liste der Aufgaben vor der Einrichtung an, die vor der Integration Ihrer Amazon Stores empfohlen werden. Es bietet auch Links zu Lernmaterialien wie:
 
 - Diese [Benutzerhandbuch](./overview.md)
 - Video-Tutorials
 
-![Lernen und Vorbereitung](assets/learning-preparation.png)
+![Lernen und Vorbereitung](assets/learning-preparation.png){width="600" zoomable="yes"}

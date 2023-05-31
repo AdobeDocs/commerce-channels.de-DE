@@ -1,15 +1,15 @@
 ---
-title: Nicht zulässige Listen
+title: Nicht infrage kommende Amazon-Listen
 description: Der Amazon-Vertriebskanal stellt die [!UICONTROL Ineligible] -Registerkarte, um Sie bei der Verwaltung von Elementen zu unterstützen, sind nicht als Liste auf der Grundlage Ihrer aktuellen Listening-Regeln qualifiziert.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# Nicht zulässige Listen
+# Nicht infrage kommende Amazon-Listen
 
 Die _[!UICONTROL Ineligible]_zeigt eine Liste aller Produkte an, die derzeit in Amazon veröffentlicht sind, aber aufgrund Ihrer aktuellen Listening-Regeln nicht als Liste infrage kommen. Wenn ein früheres Produkt in Frage kam und die Listening-Regeln so geändert werden, dass es jetzt nicht mehr zugelassen wird, wird die mit einem Produkt verbundene Menge auf 0 gesetzt und das Produkt wird als_ nicht förderfähig _. Es ist jedoch weiterhin in Ihrer [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ under **[!UICONTROL Select]** im _[!UICONTROL Action]_column:
 >[!NOTE]
 >Wenn Listen in Bearbeitung sind, wird die Anzahl der Auflistungen in einer Meldung über den Registerkarten angezeigt.
 
-![Nicht infrage kommende Amazon-Listen](assets/amazon-ineligible-listings.png)
+![Nicht infrage kommende Amazon-Listen](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 

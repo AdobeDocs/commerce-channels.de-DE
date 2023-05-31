@@ -2,7 +2,7 @@
 title: Hinzufügen von Produkten zum Kanal-Manager
 description: "Erstellen Sie ein Produktsortiment für [!DNL Walmart Marketplace] Vertrieb durch Hinzufügen von Produkten aus dem Katalog zum im Kanal-Manager konfigurierten Vertriebskanal."
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -41,13 +41,13 @@ Der Importvorgang kann je nach der Anzahl der ausgewählten Produkte bis zu 30 M
 
 1. Wählen Sie in einem verbundenen Verkaufskanalspeicher die Option **Produkte hinzufügen** , um den Produktkatalog zu öffnen.
 
-   ![Produkte zum Verkaufskanalspeicher hinzufügen](assets/add-initial-products-to-connected-channel.png)
+   ![Produkte zum Verkaufskanalspeicher hinzufügen](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
    Der Katalog wird in einer neuen Registerkarte geöffnet.
 
 1. Wählen Sie aus der Produktliste des Katalogs Produkte aus, die verkauft werden sollen [!DNL Walmart Marketplace].
 
-   ![Senden von Produkten an den Verkaufskanalspeicher](assets/select-products-from-catalog.png)
+   ![Senden von Produkten an den Verkaufskanalspeicher](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
 1. Aktivieren Sie die **[!UICONTROL Connect to Channel Manager]** -Attribut für die ausgewählten Elemente.
 
@@ -61,9 +61,9 @@ Der Importvorgang kann je nach der Anzahl der ausgewählten Produkte bis zu 30 M
 
       Eine Bestätigungsmeldung wird angezeigt.
 
-      ![Bestätigungsnachricht zum Produktimport von einem Katalog zu einem Verkaufskanal](assets/product-import-from-catalog-confirmation.png)
+      ![Bestätigungsnachricht zum Produktimport von einem Katalog zu einem Verkaufskanal](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      Wenn die Meldung anzeigt, dass die Aktualisierung geplant ist, verwenden Sie die [queue:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] -Befehl, um die Aktualisierung sofort zu verarbeiten.
+      Wenn die Meldung anzeigt, dass die Aktualisierung geplant ist, verwenden Sie die [queue:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] -Befehl, um die Aktualisierung sofort zu verarbeiten.
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
@@ -75,6 +75,6 @@ Der Importvorgang kann je nach der Anzahl der ausgewählten Produkte bis zu 30 M
 
 1. Aktualisieren Sie die Ansicht, um die neuen Produkte anzuzeigen, die dem Kanal-Manager hinzugefügt wurden, indem Sie die **[!UICONTROL Draft]** Statuskarte.
 
-   ![Importierte Produkte in verbundene Vertriebskanäle](assets/products-in-marketplace-sales-channel.png)
+   ![Importierte Produkte in verbundene Vertriebskanäle](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 
 

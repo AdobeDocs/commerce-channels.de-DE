@@ -2,9 +2,9 @@
 title: '"Intelligente Neupreisregel: Bedingte Unterschiede zwischen Wettbewerbern'
 description: Bestimmen Sie anhand einer intelligenten Neupreisregel Ihren Amazon-Listenpreis anhand der Preise und Bedingungen des Konkurrenten.
 exl-id: c52230e3-4e47-45bc-80e0-170530f58987
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,13 @@ Für **[!UICONTROL Conditional Variance]**, wählen Sie eine Option aus:
 
    Wenn die _[!UICONTROL Apply Variance]_ausgewählt ist, werden für jede Ihrer Amazon-Bedingungen zusätzliche Varianzfelder angezeigt. Diese Funktion ermöglicht Ihnen die Verwendung intelligenter Regeln für die Neuberechnung, wenn Sie Produkte anbieten, die sich in einem anderen Zustand befinden als Ihre Konkurrenten. Um die Berechnung hinter bedingten Abweichungen zu verstehen, müssen Sie zunächst verstehen, dass alle Varianzen anhand eines Basis-Übereinstimmungspreises ermittelt werden.
 
-   Die angezeigten bedingten Varianzoptionen basieren auf Ihren Listeneinstellungen für `Condition` , die mit einem [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Für alle zugeordneten Bedingungen können Sie einen Varianzprozentsatz von 1-100 definieren. Die Ausnahme sind Sammlerwerte. In diesem Fall kann ein Prozentsatz von mehr als 100 angewendet werden.
+   Die angezeigten bedingten Varianzoptionen basieren auf Ihren Listeneinstellungen für `Condition` , die mit einem [!DNL Commerce] [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Für alle zugeordneten Bedingungen können Sie einen Varianzprozentsatz von 1-100 definieren. Die Ausnahme sind Sammlerwerte. In diesem Fall kann ein Prozentsatz von mehr als 100 angewendet werden.
 
-![Intelligente Neupreisregel - bedingte Abweichungen von Konkurrenten](assets/amazon-competitor-cond-variances.png)
+![Intelligente Neupreisregel - bedingte Abweichungen von Konkurrenten](assets/amazon-competitor-cond-variances.png){width="500" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Competitor Conditional Variances] | Optionen: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Wenn für die Bedingung, mit der Sie Ihr Produkt auflisten, keine Übereinstimmung vorhanden ist, wird diese Option mit jeder verfügbaren Bedingung abgeglichen. Zunächst wird versucht, Ihre Bedingung zu erfüllen, und dann wird der Weg von der `New` Bedingung zu `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Diese Option entspricht der Bedingung Ihres Produkts. Wenn keine Übereinstimmung vorliegt, werden die Produktpreise zum _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Diese Option versucht zunächst, eine Übereinstimmung mit Ihrer Produktbedingung herzustellen. Wenn keine übereinstimmende Bedingung vorhanden ist, wird eine Varianz (in Prozent) in Bezug auf Ihre Produktbedingung und die Bedingung des niedrigsten Konkurrenten angewendet.</li></ul><br><br>Die bedingten Varianzoptionen, die basierend auf Ihren Listeneinstellungen für Bedingungen angezeigt werden, die mithilfe einer [!DNL Commerce] [Produktattribut](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Bei allen zugeordneten Bedingungen können Sie einen Varianzprozentsatz von 1-100 angeben. Die Ausnahme sind Sammlerwerte. In diesem Fall kann ein Prozentsatz von mehr als 100 angewendet werden.<br><br>Diese Funktion ermöglicht Ihnen die Verwendung intelligenter Regeln für die Neuberechnung, wenn Sie Produkte anbieten, die sich in einem anderen Zustand befinden als Ihre Konkurrenten. Um die Berechnung hinter bedingten Abweichungen zu verstehen, müssen Sie zunächst verstehen, dass alle Varianzen anhand eines Basis-Übereinstimmungspreises ermittelt werden. |
+| [!UICONTROL Competitor Conditional Variances] | Optionen: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Wenn für die Bedingung, mit der Sie Ihr Produkt auflisten, keine Übereinstimmung vorhanden ist, wird diese Option mit jeder verfügbaren Bedingung abgeglichen. Zunächst wird versucht, Ihre Bedingung zu erfüllen, und dann wird der Weg von der `New` Bedingung zu `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Diese Option entspricht der Bedingung Ihres Produkts. Wenn keine Übereinstimmung vorliegt, werden die Produktpreise zum _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Diese Option versucht zunächst, eine Übereinstimmung mit Ihrer Produktbedingung herzustellen. Wenn keine übereinstimmende Bedingung vorhanden ist, wird eine Varianz (in Prozent) in Bezug auf Ihre Produktbedingung und die Bedingung des niedrigsten Konkurrenten angewendet.</li></ul><br><br>Die bedingten Varianzoptionen, die basierend auf Ihren Listeneinstellungen für Bedingungen angezeigt werden, die mithilfe einer [!DNL Commerce] [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Bei allen zugeordneten Bedingungen können Sie einen Varianzprozentsatz von 1-100 angeben. Die Ausnahme sind Sammlerwerte. In diesem Fall kann ein Prozentsatz von mehr als 100 angewendet werden.<br><br>Diese Funktion ermöglicht Ihnen die Verwendung intelligenter Regeln für die Neuberechnung, wenn Sie Produkte anbieten, die sich in einem anderen Zustand befinden als Ihre Konkurrenten. Um die Berechnung hinter bedingten Abweichungen zu verstehen, müssen Sie zunächst verstehen, dass alle Varianzen anhand eines Basis-Übereinstimmungspreises ermittelt werden. |
 
 ## Bedingte Varianzbasis berechnen
 
@@ -55,18 +55,18 @@ Für **[!UICONTROL Conditional Variance]**, wählen Sie eine Option aus:
 
 Die Formel zur Berechnung der bedingten Varianzbasis lautet wie folgt:
 
-![Formel zur Berechnung der bedingten Varianz](assets/amazon-cond-variance-calc-1.png)
+![Formel zur Berechnung der bedingten Varianz](assets/amazon-cond-variance-calc-1.png){width="300"}
 
 ## Beispiel
 
 Die bedingten Variableneinstellungen lauten wie folgt:
 
-![Bedingte Variableneinstellungen](assets/amazon-cond-variances.png)
+![Bedingte Variableneinstellungen](assets/amazon-cond-variances.png){width="500" zoomable="yes"}
 
 - BMC = 100 (Konkurrierende Bedingung = Neu)
 - MCV = 80 (Handelsbedingung = Verwendet; Gut)
 - BMP = 7,99 USD (Basis-Übereinstimmungspreis = niedrigster Preis der übereinstimmenden Konkurrenzbedingung)
 
-![Beispiel für die Berechnung der bedingten Varianz](assets/amazon-cond-variance-calc-2.png)
+![Beispiel für die Berechnung der bedingten Varianz](assets/amazon-cond-variance-calc-2.png){width="300"}
 
 Bei Verwendung der obigen Berechnung der bedingten Varianz ist Ihre bedingte Varianzbasis = 6,39 USD. Diese Berechnung ist die Preisquelle des Konkurrenten, die für Ihre Preisregel-Aktionen verwendet wird. Weitere Informationen finden Sie unter [Preisanpassung](./price-adjustment.md).

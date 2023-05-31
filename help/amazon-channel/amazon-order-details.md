@@ -2,7 +2,7 @@
 title: Amazon-Bestelldetails
 description: Zeigen Sie Details zu Ihren Amazon Marketplace-Bestellungen in der Adobe Commerce oder Magento Open Source Admin an.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Amazon-Bestelldetails
 
-![Amazon-Bestelldetails](assets/amazon-order-details-header.png)
+![Amazon-Bestelldetails](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Amazon-Bestelldetails anzeigen
 
@@ -55,16 +55,16 @@ Die _[!UICONTROL Order and Shipping Details]_zeigt detaillierte Bestellinformati
 >
 >Vergessen Sie nicht, auf **Bestellung speichern** nach der Bearbeitung.
 
-![Bestelldetails und Versanddetails](assets/amazon-order-details.png)
+![Bestelldetails und Versanddetails](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Registerkarte &quot;Bestellelemente&quot;
 
 Die _[!UICONTROL Order Items]_-Tab zeigt alle mit der Amazon-Bestellung verknüpften Elemente an, wie sie von Amazon empfangen wurden.
 
-![Bestellelementdetails](assets/amazon-order-item-details.png)
+![Bestellelementdetails](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Tab Tracking
 
 Die _[!UICONTROL Tracking]_zeigt Tracking-Informationen an, die mit der Amazon-Bestellung verbunden sind.
 
-![Tracking-Details](assets/amazon-order-tracking-details.png)
+![Tracking-Details](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

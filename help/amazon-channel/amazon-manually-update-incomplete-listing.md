@@ -1,10 +1,10 @@
 ---
-title: Aktualisieren erforderlicher Informationen (unvollständige Auflistung)
+title: Amazon-erforderliche Informationen aktualisieren
 description: Der Amazon-Vertriebskanal bietet die Registerkarte Unvollständig , um Commerce-Katalogprodukte zu überwachen, bei denen die für Amazon erforderlichen Informationen fehlen.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Auf der Seite _[!UICONTROL Incomplete]_einschließen [!DNL Commerce] Katalogprod
 
 Die Liste wird nun mit Ihrem Katalog abgeglichen, und die Liste wird dann aktualisiert und basierend auf Ihren Cron- und Listeneinstellungen in Amazon veröffentlicht. Es wird auch aus dem _[!UICONTROL Incomplete]_Registerkarte.
 
-![Manuelles Zuweisen von ASIN für Nichtauflistungsübereinstimmung](assets/amazon-listing-update-assign-asin.png)
+![Manuelles Zuweisen von ASIN für Nichtauflistungsübereinstimmung](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## Erforderliche Informationen aktualisieren (mehrere Übereinstimmungen gefunden) {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ Die Liste wird nun mit Ihrem Katalog abgeglichen, und die Liste wird dann aktual
 
 1. Um die Produktübereinstimmung zu speichern, klicken Sie auf **[!UICONTROL Save Listing Update]**.
 
-![Manuelles Auswählen von ASIN aus mehreren möglichen Übereinstimmungen](assets/amazon-listing-update-multiple-matches.png)
+![Manuelles Auswählen von ASIN aus mehreren möglichen Übereinstimmungen](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## Erforderliche Informationen aktualisieren (enthält Varianten) {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ Die Liste wird nun mit Ihrem Katalog abgeglichen, und die Liste wird dann aktual
 
 1. Um die Produktübereinstimmung zu speichern, klicken Sie auf **[!UICONTROL Save Listing Update]**.
 
-![Manuelles Auswählen von ASIN aus möglichen Variantenübereinstimmungen](assets/amazon-listing-update-multiple-matches.png)
-
 ## Erforderliche Informationen aktualisieren (fehlende Bedingung) {#update-required-info-missing-condition}
 
 1. Die Listen im _[!UICONTROL Incomplete]_Registerkarte in [Verwalten von Listen](./managing-product-listings.md).
@@ -79,4 +77,4 @@ Die Liste wird nun mit Ihrem Katalog abgeglichen, und die Liste wird dann aktual
 
 1. Um die Produktübereinstimmung zu speichern, klicken Sie auf **[!UICONTROL Save Listing Update]** .
 
-![Fehlende Bedingung manuell aktualisieren](assets/amazon-update-listing-missing-condition.png)
+![Fehlende Bedingung manuell aktualisieren](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

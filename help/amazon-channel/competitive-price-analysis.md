@@ -1,19 +1,19 @@
 ---
-title: Preisanalyse für Wettbewerber
+title: Bericht zur wettbewerblichen Preisanalyse
 description: Die Wettbewerbsanalyse zeigt Ihre Amazon-Auflistungen pro Marktplatz mit dem jeweiligen Buy Box-Preis und den niedrigsten Preiswerten für Konkurrenten an.
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Preisanalyse für Wettbewerber
+# Bericht zur wettbewerblichen Preisanalyse
 
 Der Bericht zur Preisanalyse zeigt Ihre Amazon-Auflistungen pro Marketplace mit den entsprechenden [Buy Box](./buy-box-competitor-pricing.md) Preis und [kleinster Konkurrent](./lowest-competitor-pricing.md) Preiswerte. Für das Protokoll sind keine Aktionen verfügbar. Es handelt sich um eine Funktion, die nur zur Überprüfung dient.
 
-![Bericht zur wettbewerblichen Preisanalyse](assets/amazon-competitive-price-analysis.png)
+![Bericht zur wettbewerblichen Preisanalyse](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 
 ## Standardspalten
 

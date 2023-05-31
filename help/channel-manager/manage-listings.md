@@ -2,7 +2,7 @@
 title: Verwalten von Listen
 description: "Verwalten von Verkaufskanallisten für eine [!DNL Commerce] mit dem Kanal-Manager für Adobe Commerce und Magento Open Source speichern."
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Produktlisten für die [!DNL Walmart Marketplace] Vertriebskanal über die Kanal
 
 Der Status für eine einzelne Auflistung zeigt an, wo sich das Produkt im [!DNL Channel Manager] -Workflow, damit Sie die nächsten Schritte bestimmen und etwaige Fehler beheben können.
 
-![Listenseite für einen verbundenen Vertriebskanal](assets/listings-dashboard-view.png)
+![Listenseite für einen verbundenen Vertriebskanal](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 Sie können die folgenden Aufgaben in der Listenansicht ausführen.
 

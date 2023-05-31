@@ -1,26 +1,26 @@
 ---
-title: (B2B) Geschäftspreis
+title: "[!DNL (B2B) Business Price] für Amazon-Listen"
 description: Sie können [!DNL Commerce] Store-Produkte auf der Amazon Business-Site (B2B), indem Sie Unternehmen in Ihrer Amazon aktivieren [!DNL Seller Central] -Konto.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# (B2B) Geschäftspreis
+# [!DNL (B2B) Business Price] für Amazon-Listen
 
-(B2B) Die Business Price-Einstellungen sind Teil Ihrer Store-Listeneinstellungen. Auf die Listening-Einstellungen kann über die [Store-Dashboard](./amazon-store-dashboard.md).
+(B2B) Die Business Price-Einstellungen sind Teil Ihrer Store-Listeneinstellungen. Auf die Listening-Einstellungen kann über die [Amazon Store-Dashboard](./amazon-store-dashboard.md).
 
 [!DNL Amazon Business] ist ein Marktplatz, der ausschließlich für in Amazon registrierte Geschäftskonten gilt und nur in den USA, Frankreich, Deutschland und Großbritannien verfügbar ist. Wenn der Marketplace B2B-Geschäftspreise zulässt, kann er in Ihren Listeneinstellungen bearbeitet werden.
 
 [!DNL B2B Business Pricing] Ermöglicht Händlern mit Geschäftskonten, untereinander mit der erwarteten Leistung des Amazon-Einkaufserlebnisses zu kaufen. Mit B2B-Geschäftspreisen können Unternehmen gestaffelte Preise anbieten, die auf der gekauften Menge basieren.
 
-Damit Ihre Produkte im [!DNL Amazon Business (B2B)] Site müssen Sie zunächst in Ihrer [!DNL Amazon Seller Central] -Konto. Weitere Informationen zur B2B-Funktion finden Sie unter [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target=&quot;_blank&quot;} (erfordert Anmeldung von Seller Central).
+Damit Ihre Produkte im [!DNL Amazon Business (B2B)] Site müssen Sie zunächst in Ihrer [!DNL Amazon Seller Central] -Konto. Weitere Informationen zur B2B-Funktion finden Sie unter [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (erfordert die Anmeldung von Seller Central).
 
-## Business Price-Einstellungen konfigurieren (B2B)
+## Konfigurieren [!DNL (B2B) Business Price] settings
 
 1. Klicken **[!UICONTROL Listing Settings]** im Dashboard speichern.
 
@@ -44,7 +44,7 @@ Damit Ihre Produkte im [!DNL Amazon Business (B2B)] Site müssen Sie zunächst i
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save listing settings]**.
 
-![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png)
+![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |

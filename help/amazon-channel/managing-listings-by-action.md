@@ -1,15 +1,15 @@
 ---
-title: Verwalten von Produktlisten nach Aktion
+title: Verwalten von Amazon-Produktlisten nach Aktion
 description: Bei der Verwaltung Ihrer Amazon-Auflistungen können Sie eine Aktion auf einzelne oder mehrere Auflistungen anwenden.
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Verwalten von Produktlisten nach Aktion
+# Verwalten von Amazon-Produktlisten nach Aktion
 
 Die _[!UICONTROL Product Listings]_-Seite enthält mehrere Registerkarten, über die Sie die Status aller Ihrer Listen anzeigen und Ihre Produkte mit Amazon-Listen abgleichen können.
 

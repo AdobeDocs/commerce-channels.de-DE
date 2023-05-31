@@ -1,16 +1,16 @@
 ---
-title: Produktlistenaktionen
+title: Amazon-Vertriebskanal - Produktlistungsaktionen
 description: Verwenden Sie die Einstellungen für Produktlistungsaktionen , um festzulegen, wie Ihr Commerce-Katalog mit Amazon interagiert.
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
-# Produktlistenaktionen
+# Aktionen auf der Produktliste
 
 Die Aktionseinstellungen für die Produktliste sind Teil Ihrer Einstellungen für die Store-Auflistung. Auf die Listening-Einstellungen kann über die [Store-Dashboard](./amazon-store-dashboard.md).
 
@@ -42,7 +42,7 @@ Diese Einstellungen definieren, wie Ihr Katalog mit Amazon interagiert. Diese Ei
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save listing settings]**.
 
-![Aktionen auf der Produktliste](assets/amazon-product-listing-actions.png)
+![Aktionen auf der Produktliste](assets/amazon-product-listing-actions.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |

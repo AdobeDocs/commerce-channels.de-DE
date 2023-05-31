@@ -1,15 +1,15 @@
 ---
-title: Überschreibungen
+title: Amazon-Vertriebskanal - [!UICONTROL Overrides]
 description: Amazon Sales Channel bietet die Registerkarte Überschreibungen , mit der Sie erkennen und verwalten können, wie Sie Überschreibungen in Ihren Amazon-Auflistungen anwenden.
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# Überschreibungen
+# [!UICONTROL Overrides]
 
 Die _[!UICONTROL Overrides]_zeigt Ihre Amazon-Listen an, auf die Sie eine Überschreibung angewendet haben. Eine Überschreibung ist eine auflistungsspezifische Einstellung, die verwendet werden kann, um einen definierten Wert auf eine Auflistung festzulegen. Eine auf eine Auflistung angewendete Überschreibung definiert die Einstellung für die Auflistung, unabhängig von anderen definierten Einstellungen für die Auflistung oder Regeln, für die die Auflistung zugelassen ist. Wenn eine Überschreibung auf eine Auflistung angewendet wird, wird die Liste im_[!UICONTROL Overrides]_ Registerkarte. Der in der Überschreibung definierte Wert wird in der entsprechenden Spalte für die Auflistung angezeigt. Es gibt vier Arten von Außerkraftsetzungen, die angewendet werden können: Preis, Bearbeitungszeit, Bedingung und Verkaufshinweise.
 
@@ -36,7 +36,7 @@ Siehe [Erstellen und Bearbeiten von Überschreibungen](./creating-editing-overri
 >
 >Wenn Listen in Bearbeitung sind, wird die Anzahl der Auflistungen in einer Meldung über den Registerkarten angezeigt.
 
-![Registerkarte &quot;Außerkraftsetzungen&quot;](assets/amazon-overrides.png)
+![Registerkarte &quot;Außerkraftsetzungen&quot;](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 

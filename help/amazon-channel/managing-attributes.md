@@ -1,15 +1,15 @@
 ---
-title: Attribute verwalten
+title: Verwalten von Attributen für Amazon-Listen
 description: Sie können die Zuordnung von Commerce-Produktattributen zu den Amazon-Attributen verwalten, um genaue Produktinformationen zwischen den Systemen sicherzustellen.
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Attribute verwalten
+# Verwalten von Attributen für Amazon-Listen
 
 Amazon und [!DNL Commerce] Beide verwenden ein System von Produkteigenschaften, die als Attribute bezeichnet werden und zur Definition eines Produkts verwendet werden. Attribute definieren die Beschreibung, den Inhalt, die Bilder, die Preise und verschiedene Daten für Ihre Produkte.
 
@@ -23,7 +23,7 @@ Mit dem Amazon-Vertriebskanal können Sie nach Bedarf Attribute im [_[!UICONTROL
 
 Weitere Informationen finden Sie unter [!DNL Commerce] und Amazon-Attributsätze und -werte finden Sie unter:
 
-- [Grundlagen zum Verwalten von Attributen](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
+- [Grundlagen zum Verwalten von Attributen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [Attribut erstellen](./creating-attributes.md#create-an-attribute)
 - [Vorhandenes Attribut bearbeiten](./creating-attributes.md#edit-an-attribute)
 - [Anzeigen der Attributzuordnung](./amazon-matching-attributes-values.md)

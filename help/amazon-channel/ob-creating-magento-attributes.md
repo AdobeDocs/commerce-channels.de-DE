@@ -1,17 +1,17 @@
 ---
-title: Erstellen [!DNL Commerce] Attribute für Amazon
+title: Erstellen von Commerce-Attributen für Amazon
 description: Bevor Sie das Onboarding des Amazon-Verkaufskanals abschließen, stellen Sie sicher, dass Sie über die erforderlichen [!UICONTROL Commerce] Produktattribute.
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# Erstellen [!DNL Commerce] Attribute für Amazon
+# Erstellen von Commerce-Attributen für Amazon
 
-Vor der Onboarding [!DNL Amazon Seller Central] , empfiehlt es sich, [!DNL Commerce] [Produktattribute](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} , um Ihre Produktlisten zuzuordnen. Nach Abschluss des Onboarding können Sie Ihre Produktattribute über die [Attribute](./managing-attributes.md) des [Amazon-Vertriebskanal - Startseite](./amazon-sales-channel-home.md) Seite.
+Vor der Onboarding [!DNL Amazon Seller Central] , empfiehlt es sich, [!DNL Commerce] [Produktattribute](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) , um Ihre Produktlisten zuzuordnen. Nach Abschluss des Onboarding können Sie Ihre Produktattribute über die [Attribute](./managing-attributes.md) des [Amazon-Vertriebskanal - Startseite](./amazon-sales-channel-home.md) Seite.
 
 In diesen Anweisungen wird beschrieben, wie Sie [!DNL Commerce] -Attribute für Amazon ASIN- und Amazon-Bedingung. Es wird empfohlen, zusätzliche Attribute wie Amazon EAN, Amazon ISBN und Amazon UPC zu erstellen. Sie können auch ein Amazon-Preisattribut erstellen, wenn Sie Ihren Amazon-Listingpreis als Preisquelle für Preisregeln verwenden möchten. Diese Attribute werden bei der Konfiguration Ihrer Listen- und Preiseinstellungen beim Onboarding verwendet. Verwenden Sie diese Attribute auch beim Erstellen von Amazon-Listen und beim Aktualisieren und Synchronisieren Ihrer [!DNL Commerce] Katalog mit Ihren Amazon-Auflistungen.
 
@@ -59,7 +59,7 @@ Wenn Sie nur das Amazon-ASIN-Attribut erstellen (ohne ASIN-Werte pro Produkt hin
 
 1. Klicken **[!UICONTROL Save Attribute]**.
 
-![Amazon ASIN-Attribut](assets/creating-asin-attribute.png)
+![Amazon ASIN-Attribut](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
 ## Erstellen des Amazon-Bedingungs-Produktattributs
 
@@ -116,6 +116,6 @@ Wenn Sie nur das Amazon-ASIN-Attribut erstellen (ohne ASIN-Werte pro Produkt hin
 
 1. Klicken **[!UICONTROL Save Attribute]**.
 
-![Amazon-Bedingungsattribut](assets/creating-amazon-condition-attribute.png)
+![Amazon-Bedingungsattribut](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 
 ![Nächstes Symbol](assets/btn-next.png) [**API-Schlüssel weiterhin hinzufügen oder überprüfen**](./amazon-verify-api-key.md)

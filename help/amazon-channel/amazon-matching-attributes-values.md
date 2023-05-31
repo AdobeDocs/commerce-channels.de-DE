@@ -2,9 +2,9 @@
 title: Anzeigen der Amazon-Attributzuordnung
 description: Überprüfen Sie die Werte für Ihre verknüpften Commerce-Attribute, um die Commerce- und Amazon-Synchronisation korrekt durchzuführen.
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Die _Amazon-Wert_ unterscheidet sich je nach dem angezeigten Attributtyp und dem
 
 1. Klicken Sie auf **[!UICONTROL Matching Attribute Values]** Registerkarte.
 
-   Auflistungen mit einer entsprechenden [!DNL Commerce] Das Katalogprodukt zeigt einen verknüpften Wert im _Magento Product SKU_ Spalte. Wenn Sie auf einen Link klicken, wird die entsprechende Seite mit den Katalogproduktdetails geöffnet. Änderungen an Amazon-Attributen auf der Produktdetailseite werden nicht wieder mit dem Amazon-Vertriebskanal synchronisiert.
+   Auflistungen mit einer entsprechenden [!DNL Commerce] Das Katalogprodukt zeigt einen verknüpften Wert im _[!UICONTROL Magento Product SKU]_Spalte. Wenn Sie auf einen Link klicken, wird die entsprechende Seite mit den Katalogproduktdetails geöffnet. Änderungen an Amazon-Attributen auf der Produktdetailseite werden nicht wieder mit dem Amazon-Vertriebskanal synchronisiert.
 
 >[!TIP]
 >Informationen zum Bearbeiten oder Zuweisen der Zuordnung für eine Liste zu einem Katalogprodukt finden Sie unter [Erforderliche Informationen aktualisieren](./amazon-manually-update-incomplete-listing.md).
 
-![Anzeigen von Attributwerten](assets/amazon-managing-attribute-values.png)
+![Anzeigen von Attributwerten](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |
 | [!UICONTROL Region] | Die Region, in der die Verkaufsaktivitäten definiert werden in **[!DNL Amazon Marketplace]Land** während der Store-Integration. |
 | [!UICONTROL Magento Product SKU] | Gibt die [!DNL Commerce] mit dem Amazon Store synchronisierte Produkte. Der Wert ist eine Produkt-ID, die von [!DNL Commerce] und mit einem Produkt im Katalog verknüpft. So öffnen Sie das Produkt in [!DNL Commerce]klicken Sie auf den Link. |
 | [!UICONTROL ASIN] | Gibt die Amazon Standard-Identifikationsnummer (ASIN) an, die dem Produkt von Amazon zur Produktidentifizierung eine 10-stellige alphanumerische eindeutige Kennung zugewiesen hat. |
-| [!UICONTROL Amazon Value] | Gibt den Wert für das ausgewählte Attribut an. Der Amazon-Wert unterscheidet sich je nach dem Attributtyp und dem von Ihnen angezeigten Amazon-Attribut. Beispielsweise einen aufgelisteten Amazon-Wert für `Label` wäre ein Textwert, während `AmazonListPrice` wäre ein numerischer Betrag. Der Status gibt an, ob der Amazon-Wert importiert wurde. |
+| [!UICONTROL Amazon Value] | Gibt den Wert für das ausgewählte Attribut an. Der Amazon-Wert unterscheidet sich je nach dem Attributtyp und dem Amazon-Attribut, das Sie anzeigen. Beispielsweise einen aufgelisteten Amazon-Wert für `Label` wäre ein Textwert, während `AmazonListPrice` wäre ein numerischer Betrag. Der Status gibt an, ob der Amazon-Wert importiert wurde. |
 | [!UICONTROL Status] | Gibt an, ob die Attributwerte in importiert wurden [!DNL Commerce] und mit einer [!DNL Commerce] -Attribut. Optionen: `Not Imported` / `Imported` |

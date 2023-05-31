@@ -1,10 +1,10 @@
 ---
-title: Erstellen und Bearbeiten von Attributen
+title: Erstellen und Bearbeiten von Attributen für den Amazon-Vertriebskanal
 description: Amazon Sales Channel bietet die Ansicht "Attributes", mit der Sie die aktuellen Amazon-Attribute und verknüpften Commerce-Attribute überprüfen können.
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Diese Schritte erstellen eine [!DNL Commerce] zuordnen und sie einem Amazon-Attr
 
 1. Für **[!UICONTROL Comparable on Storefront]**, auf `Yes` , wenn der Attributwert in der Amazon-Funktion &quot;Vergleichen nach&quot;verwendet werden kann.
 
-1. Wählen Sie die [!DNL Commerce] [Umfang](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} und wählen Sie eine oder mehrere Store-Ansichten aus, in die Amazon-Werte importiert werden sollen.
+1. Wählen Sie die [!DNL Commerce] [Umfang](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) und wählen Sie eine oder mehrere Store-Ansichten aus, in die Amazon-Werte importiert werden sollen.
 
    Wenn der Umfang auf `Global`, die _[!UICONTROL Store View]_kann nach der Erstellung des Attributs nicht mehr geändert werden.
 
@@ -61,7 +61,7 @@ Diese Schritte erstellen eine [!DNL Commerce] zuordnen und sie einem Amazon-Attr
 
 Nach dem Speichern können Sie das Attribut bearbeiten, um die Einstellungen zu überprüfen und Amazon und [!DNL Commerce] -Werte für das -Attribut. Sie können auch angeben, ob Amazon-Werte überschreiben sollen [!DNL Commerce] -Werte.
 
-![Erstellen von Attributeinstellungen](assets/amazon-attribute-settings-create.png)
+![Erstellen von Attributeinstellungen](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |
@@ -75,8 +75,8 @@ Nach dem Speichern können Sie das Attribut bearbeiten, um die Einstellungen zu 
 | [!UICONTROL Use for Promo Rule Conditions] | Umschalten auf `Yes` , damit das Attribut für einen Parameter in Ihren Werbebedingungen verfügbar ist. |
 | [!UICONTROL Used in Search] | Gibt an, ob das Attribut und der Wert bei Produktsuchen verwendet werden können. |
 | [!UICONTROL Comparable on Storefront] | Gibt an, ob der Attributwert in der Amazon-Funktion &quot;Vergleichen nach&quot;verwendet werden kann. |
-| [!UICONTROL Magento Product Attribute Scope] | Gibt die [Umfang](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} für das -Attribut. Optionen: Globale/Store-Ansicht<br>Wenn auf `Global`festgelegt ist, kann die Store-Ansicht nach der Erstellung des Attributs nicht mehr bearbeitet werden. |
-| [!UICONTROL Store Views (to import values into to)] | Wird nur angezeigt, wenn der Umfang auf `Store View`. Wählen Sie die [Store-Ansicht](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} an die die Amazon-Attributwerte synchronisiert werden. Auswahl `All Store Views (Global)` aktualisiert den Wert über alle [!DNL Commerce] Store-Ansichten. |
+| [!UICONTROL Magento Product Attribute Scope] | Gibt die [Umfang](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) für das -Attribut. Optionen: Globale/Store-Ansicht<br>Wenn auf `Global`festgelegt ist, kann die Store-Ansicht nach der Erstellung des Attributs nicht mehr bearbeitet werden. |
+| [!UICONTROL Store Views (to import values into to)] | Wird nur angezeigt, wenn der Umfang auf `Store View`. Wählen Sie die [Store-Ansicht](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) an die die Amazon-Attributwerte synchronisiert werden. Auswahl `All Store Views (Global)` aktualisiert den Wert über alle [!DNL Commerce] Store-Ansichten. |
 
 ## Attribut bearbeiten {#edit-an-attribute}
 
@@ -106,7 +106,7 @@ Nach dem Speichern können Sie das Attribut bearbeiten, um die Einstellungen zu 
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Attribute Settings]**.
 
-![Attributeinstellungen bearbeiten](assets/amazon-attribute-settings-edit.png)
+![Attributeinstellungen bearbeiten](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--- |--- |
@@ -114,5 +114,5 @@ Nach dem Speichern können Sie das Attribut bearbeiten, um die Einstellungen zu 
 | [!UICONTROL Select Magento Product Attribute] | Gibt die ausgewählte [!DNL Commerce] -Attribut, das Sie mit dem aufgelisteten Amazon-Attributnamen verknüpfen möchten. Wenn Sie den Link ändern möchten [!DNL Commerce] ein anderes Attribut aus der Dropdown-Liste auswählen. Die Werte werden entsprechend den Konfigurationen synchronisiert. |
 | [!UICONTROL Amazon Attribute Name] | Zeigt den Namen des Amazon-Attributs an, wie in [!DNL Amazon Seller Central]. Die ausgewählte [!DNL Commerce] -Attribut verknüpft. Sie können diesen Wert nicht bearbeiten über [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | Gibt an, ob die Amazon-Attributwerte vorhandene Werte überschreiben [!DNL Commerce] Werte, die alle Produkte mit diesem betreffen [!DNL Commerce] -Attribut.<ul><li>**Vorhandene Magento-Werte nicht überschreiben** - (Standard) Behält die [!DNL Commerce] Wert, wobei unterschiedliche Werte für [!DNL Commerce] und Amazon Stores.</li><li>**Vorhandene Magento-Werte überschreiben** - Speichert den Amazon -Wert über dem [!DNL Commerce] Wert in [!DNL Commerce] Produktkatalog.</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | Wird beim Bearbeiten eines Attributs nicht angezeigt, wenn das Attribut mit der Variablen `Global` Umfang. Gibt die [!DNL Commerce] [Umfang](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} wurde erstellt und auf `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | Wählen Sie Ihre [!DNL Commerce] [Store-Ansicht](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} an die die Amazon-Attributwerte synchronisiert werden sollen. Auswahl `All Store Views (Global)` aktualisiert den Wert über alle Store-Ansichten hinweg. |
+| [!UICONTROL Magento Product Attribute Scope] | Wird beim Bearbeiten eines Attributs nicht angezeigt, wenn das Attribut mit der Variablen `Global` Umfang. Gibt an, dass die Variable [!DNL Commerce] [Umfang](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) wurde erstellt und auf `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | Wählen Sie Ihre [!DNL Commerce] [Store-Ansicht](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) an die die Amazon-Attributwerte synchronisiert werden sollen. Auswahl `All Store Views (Global)` aktualisiert den Wert über alle Store-Ansichten hinweg. |

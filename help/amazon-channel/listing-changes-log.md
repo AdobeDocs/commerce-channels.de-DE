@@ -1,15 +1,15 @@
 ---
-title: Protokoll zu Listungsänderungen
+title: Amazon-Vertriebskanal - [!UICONTROL Listing Changes Log]
 description: Amazon Sales Channel stellt das Änderungsprotokoll zur Auflistung bereit, mit dem Sie die betroffenen Änderungen in Ihrem Amazon-Vertriebskonto überwachen können.
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Protokoll zu Listungsänderungen
+# [!UICONTROL Listing Changes Log]
 
 Das Protokoll zu den Listenänderungen zeigt die Änderungen an, die in Ihrer [!DNL Amazon Seller Account] als Spiegelbild Ihrer Amazon-Vertriebskanaleinstellungen. Dieses Protokoll zeigt die globalen Änderungen an, die zwischen dem Amazon- und Amazon-Vertriebskanal synchronisiert wurden. Dieses Protokoll enthält Änderungen an einer Produkt-SKU, z. B. den Aktionstyp (Änderung), eine kurze Beschreibung der Änderung und das Datum der Änderung.
 
@@ -17,7 +17,7 @@ Für das Protokoll sind keine Aktionen verfügbar. Es handelt sich um eine Funkt
 
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 
-![Protokoll zu Listungsänderungen](assets/amazon-listing-changes-log.png)
+![Protokoll zu Listungsänderungen](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## Standardspalten
 

@@ -1,10 +1,10 @@
 ---
-title: Standardmäßige Preisregelaktionen
+title: Amazon-Vertriebskanal - Aktionen im Rahmen von Standardpreisregeln
 description: Verwenden Sie standardmäßige Preisregelaktionen, um einen Amazon-Listingpreis im Verhältnis zum Commerce-Katalogpreis (oder zur Preisquelle) zu erhöhen oder zu senken.
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Zu den Abschnitten einer Standardaktion für Preisregeln gehören:
 
    - `Increase By` - Wählen Sie aus, wann der Wert erhöht werden soll, bevor Sie Amazon auflisten.
 
-1. Für **[!UICONTROL Apply]**, wählen Sie eine Option und eine Option, um festzulegen, wie Sie die Definition *[!UICONTROL Magento Price Source]* definiert in [Listenpreis](./listing-price.md) Wert, der angepasst werden soll:
+1. Für **[!UICONTROL Apply]**, wählen Sie eine Option, um festzulegen, wie Sie die Definition *[!UICONTROL Magento Price Source]* definiert in [Listenpreis](./listing-price.md) Wert, der angepasst werden soll:
 
    - `Apply as percentage` - Legen Sie fest, wann die Definition erfolgen soll *[!UICONTROL Magento Price Source]* definiert in [Listenpreis](./listing-price.md) um einen Prozentsatz berichtigter Wert
 
@@ -46,7 +46,7 @@ Zu den Abschnitten einer Standardaktion für Preisregeln gehören:
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save pricing rule]**.
 
-![Standardpreisregel](assets/ob-price-rule-action-standard-example.png)
+![Standardpreisregel](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |---|---|

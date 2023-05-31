@@ -1,15 +1,15 @@
 ---
-title: Beendende Auflistungen
+title: Amazon-Listen beendet
 description: Amazon Sales Channel bietet die Registerkarte "Beendet", um beendete Amazon Marketplace-Einträge zu überprüfen, die bei Ihrer Auswahl erneut veröffentlicht werden können.
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# Beendende Auflistungen
+# Amazon-Listen beendet
 
 Die _[!UICONTROL Ended]_auf der Registerkarte werden alle Amazon-Produkte angezeigt, die manuell aus Ihrem [!DNL Amazon Seller Central] -Konto. Diese Produkte erfüllen alle Anforderungen an die Auflistung und können jederzeit erneut veröffentlicht werden und erfordern keine zusätzlichen Informationen. Wenn ein Produkt im_[!UICONTROL Ineligible]_ -Tab, können Sie die [Auflistungseinstellungen](./listing-settings.md) damit Ihr Produkt die Voraussetzungen für die Aufnahme in die Liste erfüllt.
 
@@ -33,7 +33,7 @@ Informationen zu Endlisten finden Sie unter [Beenden einer Amazon-Auflistung](./
 
 Informationen zu Veröffentlichungslisten finden Sie unter [Manuelles Veröffentlichen von Amazon-Listen](./publish-listings-manually.md).
 
-![Amazon-Listen beendet](assets/amazon-ended-listings.png)
+![Amazon-Listen beendet](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 

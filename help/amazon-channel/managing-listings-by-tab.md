@@ -1,15 +1,15 @@
 ---
-title: Verwalten von Produktlisten nach Status/Registerkarte
+title: Verwalten von Amazon-Produktlisten nach Status/Registerkarte
 description: Bei der Verwaltung Ihrer Amazon-Listen können Sie je nach Status Aktionen auf Ihre Listen anwenden.
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Verwalten von Produktlisten nach Status/Registerkarte
+# Verwalten von Amazon-Produktlisten nach Status/Registerkarte
 
 Die _[!UICONTROL Product Listings]_-Seite enthält mehrere Registerkarten, über die Sie die Status aller Ihrer Listen anzeigen und Ihre Produkte mit Amazon-Listen abgleichen können.
 
@@ -19,7 +19,7 @@ Optionen unter **[!UICONTROL Actions]** kann die Aktion auf mehrere Listen anwen
 
 Siehe auch [Verwalten von Listen nach Aktion](./managing-listings-by-action.md).
 
-![Registerkarten für Produktlisten](assets/amazon-product-listings-tabs.png)
+![Registerkarten für Produktlisten](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Registerkarte | Beschreibung | Aktionen |
 |--- |--- |--- |

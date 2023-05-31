@@ -1,10 +1,10 @@
 ---
-title: Beispiele für Preisregeln
+title: Amazon-Vertriebskanal - Beispiele für Preisregeln
 description: Um Sie bei der Erstellung Ihrer Preisregeln für Amazon-Auflistungen zu unterstützen, sollten Sie diese Beispiele anhand gängiger Szenarien durchlesen.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -231,7 +231,7 @@ Endpreis nach Anwendung der Standardpreisregel: $13.75 + $5.00 = $18.75
 
 In diesem Beispiel wird der wettbewerbsfähigste Preis durch einen Blick auf die Amazon definiert [niedrigster Preis des Konkurrenten](./lowest-competitor-pricing.md) mit einem 95% positiven Feedback und einer minimalen Feedback-Anzahl von 1.000 Händlerbewertungen.
 
-![Beispiel für Preisanpassung](assets/amazon-price-adjustment-example.png)
+![Beispiel für Preisanpassung](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 Nachdem Sie diese Suche anhand dieser Parameter ausgeführt haben, wird der Wettbewerbspreis wieder auf 25 USD gesetzt.
 

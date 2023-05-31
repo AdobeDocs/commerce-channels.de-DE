@@ -1,10 +1,10 @@
 ---
-title: Workspace-Steuerelemente
+title: Amazon-Vertriebskanal - Arbeitsbereich-Steuerelemente
 description: Amazon Sales Channel bietet Arbeitsbereichssteuerungen, mit denen Sie Auflistungen finden, Informationen anzeigen und Aktionen einfach anwenden können.
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Der Amazon-Vertriebskanal [Startseite](./amazon-sales-channel-home.md) verfügt über einige gängige Steuerelemente für den Arbeitsbereich, darunter Filter, Standardansicht, Spalten und Export. Nicht alle Seiten haben die gleichen Steuerungsoptionen.
 
-![Beispiele für Steuerelemente in Amazon Sales Channel Workspace](assets/amazon-workspace-controls.png)
+![Beispiele für Steuerelemente in Amazon Sales Channel Workspace](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## Aktionen
 
@@ -21,7 +21,7 @@ Die _[!UICONTROL Actions]_selector stellt eine Liste von Aktionen bereit, die ei
 
 Wenn beispielsweise der Selektor auf der _[!UICONTROL Attributes]_Seite, enthält sie die_[!UICONTROL Re-import Product Attribute Values]_ Aktion. Wenn Sie diese Aktion auswählen, wird der entsprechende Ping eingefügt [!DNL Amazon Seller Central] -Konto und aktualisiert die [!DNL Commerce] -Daten für jedes der Amazon-Store-Elemente, die in der linken Spalte aktiviert sind.
 
-![Menübeispiel Aktionen](assets/amazon-sales-channel-home-actions-option.png)
+![Menübeispiel Aktionen](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## Filter
 
@@ -37,11 +37,11 @@ Das folgende Beispiel zeigt die Einstellungen zum Filtern der Liste von Bestellu
 
 Wenn Sie die Filteroptionen festgelegt haben, klicken Sie auf **[!UICONTROL Apply Filters]** , um die aufgeführten Daten zu filtern. Klicken Sie auf Abbrechen , um das Steuerelement Filter zu verlassen, ohne anzuwenden.
 
-![Beispiel für eine Filtersteuerung](assets/workspace-controls-filters.png)
+![Beispiel für eine Filtersteuerung](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
 Nachdem Sie Filter auf Ihre Daten angewendet haben, **[!UICONTROL Active Filters]** angezeigt. Sie können auf die ![Symbol Filter löschen](assets/x-icon-clear-filters.png) Symbol zum Löschen einer bestimmten Filteroption oder klicken Sie auf **[!UICONTROL Clear All]** , um alle angewendeten Filter zu löschen.
 
-![Beispiel für aktive Filter](assets/applied-filters-line.png)
+![Beispiel für aktive Filter](assets/applied-filters-line.png){width="700"}
 
 ## Ansicht
 
@@ -72,7 +72,7 @@ Das folgende Beispiel zeigt ein Spalten-Steuerelement. Die aktivierten Optionen 
 - Um Ihrer Seite eine Datenspalte hinzuzufügen, aktivieren Sie das Kontrollkästchen .
 - Um eine Datenspalte aus Ihrer Seite zu entfernen, aktivieren Sie das Kontrollkästchen nicht.
 
-![Beispiel für Spalten-Steuerung](assets/workspace-controls-columns.png)
+![Beispiel für Spalten-Steuerung](assets/workspace-controls-columns.png){width="400"}
 
 Kontrollkästchenänderungen werden sofort angezeigt. Wenn Sie Änderungen vornehmen und die Seite verlassen, kehrt die Seite zur standardmäßigen Spaltenanzeige zurück. Für regelmäßig vorgenommene Änderungen können Sie die Spaltenänderungen als benutzerdefinierte Ansicht im Ansichtssteuerelement speichern. Anschließend können Sie im Ansichtssteuerelement umschalten, ohne Spalten manuell hinzufügen oder entfernen zu müssen.
 
@@ -89,4 +89,4 @@ Wenn Sie bereit sind, Ihre Daten zu exportieren, wählen Sie eine Exportformatop
 
 Die generierte Datendatei speichert automatisch zum Herunterladen in Ihrem angegebenen Ordner.
 
-![Exportkontrolle](assets/workspace-controls-export.png)
+![Exportkontrolle](assets/workspace-controls-export.png){width="250"}

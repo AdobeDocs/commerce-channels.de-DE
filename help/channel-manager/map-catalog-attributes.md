@@ -2,9 +2,9 @@
 title: Katalogattribute zuordnen
 description: 'Zuordnen von Attributen zum Abgleich [DNL! Commerce-] Produkte in bestehende [!DNL Walmart Marketplace] Auflistungen und Synchronisieren von Daten zwischen [!DNL Channel Manager] und [!DNL Walmart].'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Dieser Schritt muss mit [!DNL Commerce] bereits [!DNL Walmart] Auflistungen und 
 | ISSN | Internationale Standardseriennummer | 8-stellige Seriennummer zur Identifizierung von Zeitschriften, Zeitschriften, Zeitungen und Zeitschriften aller Art, die auf allen gedruckten Medien und auf elektronischem Wege zugestellt werden | 8 Stellen |
 | UPC | Universeller Produktcode | Standard-Tracking-Code für den Einzelhandel | 12 Stellen |
 
-Wenn Ihr Katalog nicht über ein entsprechendes Attribut verfügt, [Hinzufügen oder Konvertieren eines vorhandenen Katalogattributs](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+Wenn Ihr Katalog nicht über ein entsprechendes Attribut verfügt, [Hinzufügen oder Konvertieren eines vorhandenen Katalogattributs](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ## Zuordnen eindeutiger Kennungen
 
@@ -38,6 +38,6 @@ Wenn Ihr Katalog nicht über ein entsprechendes Attribut verfügt, [Hinzufügen 
 
       Im folgenden Beispiel wird die [!UICONTROL Walmart Marketplace UPC] -Attribut dem UPC-Attribut im Produktkatalog.
 
-      ![Zuordnungsattribute für Produktübereinstimmungskriterien](assets/products-map-attributes-for-match.png)
+      ![Zuordnungsattribute für Produktübereinstimmungskriterien](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Auswählen **[!UICONTROL Save]**.

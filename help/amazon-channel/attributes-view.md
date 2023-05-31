@@ -1,19 +1,19 @@
 ---
-title: Attribute
+title: Attribute für Amazon-Auflistungen
 description: Amazon Sales Channel stellt die [!UICONTROL Attributes] um die Liste der Amazon- und Commerce-Attribute und ihre Zuordnung für die Produktzuordnung zu überwachen.
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Attribute
+# Attribute für Amazon-Auflistungen
 
 Die _[!UICONTROL Attributes]_zeigt Ihre Liste von Amazon und [!DNL Commerce] -Attribute. Die Liste zeigt auch Attribute an, die für die Produktzuordnung zugeordnet wurden. Weitere Informationen finden Sie unter [Attribute verwalten](./managing-attributes.md).
 
-![Attributansicht](assets/amazon-attributes-view.png)
+![Attributansicht](assets/amazon-attributes-view.png){width="600" zoomable="yes"}
 
 Aus dem _[!UICONTROL Attributes]_anzeigen, Sie anzeigen und Ihre Attributeinstellungen in der Tabelle überprüfen und [erstellen oder bearbeiten](./creating-attributes.md) ein Attribut.
 
