@@ -1,9 +1,10 @@
 ---
 title: "Onboard [!DNL Amazon Sales Channel]"
 description: Erfahren Sie mehr über die Aufgaben vor der Einrichtung, Onboarding-Schritte und die Funktionsweise von Amazon mit Amazon Sales Channel in Adobe Commerce und Magento Open Source.
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Die [!DNL Amazon Sales Channel] -Erweiterung unterstützt mehrere Amazon-Stores.
 >Die Einstellungen Ihres Amazon-Vertriebskanals wirken sich auf Ihre Amazon-Auflistungen aus. Ihre Erstauflistung, Preise und Produkteinstellungen sind für Sie standardmäßig festgelegt. Sie können Ihre [Store-Einstellungen](./ob-store-review.md) (Auflistung, Preise, Bestellung und Berichterstellung), nachdem Ihr Geschäft mit Ihrem [!DNL Amazon Seller Central] -Konto.
 
 | Schritte | Was passiert? |
-|--- |--- |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Aufgaben vor der Einrichtung](./amazon-pre-setup-tasks.md) | Bevor Sie an Bord gehen, müssen Sie sicherstellen, dass Sie über eine aktive und genehmigte [!DNL Amazon Seller Central] -Konto. Es gibt auch einige [!DNL Commerce] Anforderungen und Empfehlungen, die vor dem Onboarding abzuschließen sind. |
 | [Überprüfen des Amazon API-Schlüssels](./amazon-verify-api-key.md) | Beim Zugriff auf den Amazon-Vertriebskanal [!DNL Commerce] überprüft und validiert automatisch den Amazon-API-Schlüssel, den Sie in Ihrer Store-Konfiguration hinzugefügt haben. Wenn Ihr API-Schlüssel nicht hinzugefügt wurde oder ungültig ist, werden Sie aufgefordert, [Amazon-API-Schlüssel hinzufügen oder aktualisieren](./amazon-verify-api-key.md). |
 | [Store-Integration](./store-integration.md) | Dieser Schritt umfasst das Erstellen eines Amazon-Verkaufskanalspeichers und dessen anschließende Verbindung zu Ihrem [!DNL Amazon Seller Central] -Konto. Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central] -Konto (die E-Mail oder das Telefon, mit der das Verkäuferkonto erstellt wurde) für diesen Schritt. |

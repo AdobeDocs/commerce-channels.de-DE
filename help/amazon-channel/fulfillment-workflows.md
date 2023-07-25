@@ -1,8 +1,9 @@
 ---
 title: Amazon-Ausführungs-Workflows
 description: Die Erfüllung einer Bestellung aus einer Amazon-Auflistung folgt einer bestimmten Sequenz von der Auftragseinsendung bis zum Versand.
+feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%
@@ -14,7 +15,7 @@ ht-degree: 2%
 ## Beispiel: vom Händler erfüllt
 
 | Schritt | Beschreibung |
-|----|----|
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | **Ein Kaufauftrag wird auf Amazon erteilt.** Amazon weist den Status `Pending` bis die Kreditkarteninformationen des Kunden verifiziert sind. Bestellungen in `Pending` Status automatisch in den Amazon-Verkaufskanal importieren, jedoch nicht auf der Seite _[!UICONTROL Orders]_Registerkarte. |
 | 2 | **Die Bestellung wird von Amazon überprüft.** Bei der Überprüfung ändert Amazon den Status in `Unshipped`. Mit dieser Statusänderung wird die Bestellung im Amazon-Vertriebskanal aktualisiert und im _[!UICONTROL Orders]_Registerkarte. |
 | 3 | **Die Bestelldetails werden aktualisiert.** Der Amazon-Vertriebskanal aktualisiert die Bestelldetails mit dem Preis, der E-Mail-Adresse und dem Kundennamen. Während dieser Aktualisierung erstellt die Amazon-Reihenfolge die entsprechende [!DNL Commerce] auf der Bestellverwaltungsseite. Die [!DNL Commerce] Bestellnummer mit Bestellinformationen auf der _[!UICONTROL Orders]_Registerkarte. |
@@ -24,7 +25,7 @@ ht-degree: 2%
 ## Beispiel: erfüllt von Amazon (FBA)
 
 | Schritt | Beschreibung |
-|---|---|
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | **Eine von Amazon erfüllte Bestellung wird auf Amazon aufgegeben.** |
 | 2 | **Die Bestellung wird importiert.** Die Bestellung wird erst dann in den Amazon-Vertriebskanal importiert, wenn der Bestellung die `Shipped` Status von Amazon. Da Amazon über das Inventar für dieses Produkt verfügt, verhindert es Eingriffe in Ihr Lager-/Lagerbestandsmanagement. |
 | 3 | **Die Bestelldetails werden aktualisiert.** Wenn in [Bestelleinstellungen](./order-settings.md), erstellt die Amazon-Reihenfolge die entsprechende [!DNL Commerce] Bestellung und als Bestellung mit dem Status `Complete`. |

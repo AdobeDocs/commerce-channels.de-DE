@@ -1,9 +1,10 @@
 ---
 title: Amazon-Vertriebskanal - [!UICONTROL Listing Price]
 description: Verwenden Sie die Einstellungen für den Listenpreis , um die Preisquelle und den Basiswert (Standard) für Ihre Amazon-Auflistungen zu bestimmen.
+feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -49,6 +50,7 @@ Die unter _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Pr
    - `Disabled` - (Standard) Wählen Sie aus, wann Sie keine Mehrwertsteuer auf Ihren Listenpreis anwenden möchten.
 
    - `Enabled` - Wählen Sie aus, wann Sie die Mehrwertsteuer auf Ihren Listenpreis anwenden möchten. Die MwSt wird in der Regel als Umsatzsteuer in europäischen Ländern verwendet und zu Ihrem endgültigen börsennotierten Preis in Amazon hinzugefügt. Die Mehrwertsteuer gilt nicht für den Endpreis von Auflistungen, die im Rahmen einer intelligenten Preisregel verwendet werden, es sei denn, die [Grundpreis](./floor-price.md) wird getroffen.
+
    >[!NOTE]
    >
    >Die Unternehmen in der Europäischen Union (EU) müssen den kaufenden Unternehmen Rechnungen zuschicken, damit der Kunde die Steuer umsetzen kann. Sie können diese Rechnungen entweder selbst erstellen und die Steuern berechnen oder einen Steuerrechnungs-Service wie den MwSt-Berechnungsdienst von Amazon nutzen. Amazon empfiehlt, sich für die [Amazon - MwSt-Berechnungsservice](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Wenn Sie eine andere Methode wählen, sind Sie für die Einhaltung der Mehrwertsteuer verantwortlich.>
@@ -66,6 +68,7 @@ Die unter _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Pr
    - `Set Default PTC` - Entscheiden Sie, ob Sie einen universellen Produktsteuercode (PTC) haben, den Sie für alle Ihre Produkte verwenden möchten. Wenn diese Option ausgewählt ist, müssen Sie _[!UICONTROL Default PTC]_.
 
       - Für **[!UICONTROL Default PTC]**, geben Sie den Standard-PTC an, der für alle zulässigen Amazon-Listen verwendet werden soll. Wenn Ihr standardmäßiger PTC in Ihrer [!DNL Amazon Seller Central] -Konto verwenden, lassen Sie dieses Feld leer. Änderungen an diesem Feld wirken sich nicht auf bestehende Amazon-Listen aus. Um den Standard-PTC für eine vorhandene Liste zu ändern, muss die Liste [ended](./end-listings-manually.md) und eine neue Liste erstellt.
+
    >[!NOTE]
    >
    >Wenn Sie den MwSt-Berechnungsdienst von Amazon verwenden, müssen Sie die Steuerkategorie für Ihre Produkte kennen. Ein PTC ist der Steuerkategorie-ID-Code von Amazon für B2B-Käufe in der EU. Siehe [Amazon-Produktsteuercodes](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
@@ -79,7 +82,7 @@ Die unter _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Pr
 ![Listenpreis](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Feld | Beschreibung |
-|--- |--- |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Magento Price Source] | Bestimmt die Preisquelle, die bei der Erstellung Ihrer Amazon-Auflistungen verwendet wird. Der Standardwert ist `Price`. Wenn Sie ein anderes Attribut auswählen, z. B. `Amazon Price` oder `Special Price`festgelegt ist, wird der definierte Wert für das Attribut für Ihre Amazon-Auflistung verwendet. Wenn das ausgewählte Attribut jedoch nicht definiert ist, `Price` verwendet. |
 | [!UICONTROL Minimum Advertised Price (MAP)] | Die [!DNL Commerce] -Attribut für MAP-Preise. Wenn Sie die MAP-Option auswählen, wird Ihre Amazon-Auflistung automatisch auf den MAP-Preis gesetzt, wenn der Listenpreis unter dem MAP-Preis liegt. |
 | [!UICONTROL Strike Through Price (MSRP)] | Die [!DNL Commerce] -Attribut, das die MSRP-Preise darstellt. Wenn Ihr Amazon-Listingpreis unter dem MSRP liegt, wird eine Durchsicht des MSRP-Preises und des Börsennotierungspreises angezeigt. Diese Einstellung wird auch verwendet, um den Betrag und den Prozentsatz für &quot;Sie speichern&quot;zu berechnen. Diese Funktion gilt jedoch nur für Auflistungen, die die [Buy Box](./buy-box-competitor-pricing.md) Position. |

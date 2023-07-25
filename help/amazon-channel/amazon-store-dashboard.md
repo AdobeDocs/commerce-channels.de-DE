@@ -1,8 +1,9 @@
 ---
 title: Amazon Store-Dashboard
 description: Zeigen Sie die Aktivität für Ihre Amazon Stores über den Commerce Admin im Dashboard des Amazon Stores an.
+feature: Sales Channels, Orders, Storefront
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -47,10 +48,10 @@ Das Store-Dashboard enthält auch Speicherdaten und Links zu Einstellungen oder 
 
 - **[!UICONTROL Store Listings]** - Zeigt eine grafische Darstellung der Store-Verkäufe für die letzten 7 oder 30 Tage zusammen mit den Verkaufsdaten über die gesamte Lebensdauer an.
 
-   In diesem Abschnitt finden Sie außerdem Auflistungszahlen für Ihre [aktive Listen](./active-listings.md), [inaktive Listen](./inactive-listings.md)und laufende Listen sowie Links zu den entsprechenden _[!UICONTROL Product Listings]_Seite. Sie können auch auf **[!UICONTROL Manage Listings]**, um_[!UICONTROL Product Listings]_ Seite. Siehe [Verwalten von Amazon-Listen](./managing-product-listings.md).
+  In diesem Abschnitt finden Sie außerdem Auflistungszahlen für Ihre [aktive Listen](./active-listings.md), [inaktive Listen](./inactive-listings.md)und laufende Listen sowie Links zu den entsprechenden _[!UICONTROL Product Listings]_Seite. Sie können auch auf **[!UICONTROL Manage Listings]**, um_[!UICONTROL Product Listings]_ Seite. Siehe [Verwalten von Amazon-Listen](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]** - Zeigt Informationen zu Ihren letzten Amazon-Bestellungen an. Die aufgeführten Informationen basieren auf den von Amazon erhaltenen Informationen. Diese Tabelle wird nicht mit [!DNL Commerce] Bestellinformationen, auch wenn [Bestellimport](./order-settings.md) aktiviert ist. Um alle Ihre Amazon-Bestellungen anzuzeigen, klicken Sie auf **Alle Bestellungen**.
 
-   Siehe [Anzeigen von Amazon-Bestellungen](./amazon-orders-all.md) für Spaltenbeschreibungen und siehe [Bestellungen verwalten](./managing-orders.md) für weitere Informationen.
+  Siehe [Anzeigen von Amazon-Bestellungen](./amazon-orders-all.md) für Spaltenbeschreibungen und siehe [Bestellungen verwalten](./managing-orders.md) für weitere Informationen.
 
 - **[!UICONTROL Seller Central links]** - Enthält Links zu wichtigen [!DNL Amazon Seller Central] Informationen.

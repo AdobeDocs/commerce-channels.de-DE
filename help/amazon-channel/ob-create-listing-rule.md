@@ -1,8 +1,10 @@
 ---
 title: Erstellen einer Amazon-Listening-Regel
 description: Erstellen Sie beim Abschluss des Onboarding-Prozesses für den Amazon-Verkaufskanal die anfänglichen Listening-Regeln zum Generieren von Amazon-Auflistungen für Ihre [!DNL Commerce] Produkte.
+role: Admin
+feature: Sales Channels, Products, Merchandising, Configuration
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -33,9 +35,9 @@ Listening-Regeln können während des Onboarding definiert, aber auch jederzeit 
 
    - **[!UICONTROL Ineligible Listings]** - Produkte, die auf dieser Registerkarte aufgelistet sind, können nicht auf der Grundlage Ihrer aktuellen Listenregeleinstellungen in die Amazon-Liste aufgenommen werden.
 
-      Nicht infrage kommende Produkte werden nicht in Amazon veröffentlicht. Wenn ein nicht infrage kommendes Produkt bereits in Amazon aufgeführt ist und Sie die Amazon-Liste mit Ihrer [!DNL Commerce] Katalogprodukt, die Menge für die Amazon, in der Änderungen an `0` um den Verkauf des Erzeugnisses zu verhindern. Informationen zum manuellen Entfernen einer Liste aus Amazon finden Sie unter [Beenden einer Amazon-Auflistung](./end-listings-manually.md). Produkte, die nicht für Amazon-Anforderungen infrage kommen, sind hier nicht aufgeführt. Diese Produkte sind auf der [[!UICONTROL Inactive Listings] tab](./inactive-listings.md).
+     Nicht infrage kommende Produkte werden nicht in Amazon veröffentlicht. Wenn ein nicht infrage kommendes Produkt bereits in Amazon aufgeführt ist und Sie die Amazon-Liste mit Ihrer [!DNL Commerce] Katalogprodukt, die Menge für die Amazon, in der Änderungen an `0` um den Verkauf des Erzeugnisses zu verhindern. Informationen zum manuellen Entfernen einer Liste aus Amazon finden Sie unter [Beenden einer Amazon-Auflistung](./end-listings-manually.md). Produkte, die nicht für Amazon-Anforderungen infrage kommen, sind hier nicht aufgeführt. Diese Produkte sind auf der [[!UICONTROL Inactive Listings] tab](./inactive-listings.md).
 
-      So ändern Sie eine `Ineligible` Auflistung von `Eligible` auflisten, diesen Prozess wiederholen und Ihre Listening-Regeln ändern.
+     So ändern Sie eine `Ineligible` Auflistung von `Eligible` auflisten, diesen Prozess wiederholen und Ihre Listening-Regeln ändern.
 
    - **[!UICONTROL Eligible Listings]** - Produkte, die auf dieser Registerkarte aufgelistet sind, können auf der Grundlage Ihrer aktuellen Listening-Regel-Einrichtung in die Amazon-Liste aufgenommen werden und sind für Amazon-Anforderungen geeignet. Auf dieser Registerkarte befinden sich die vorhandenen Amazon-Listen, die importiert werden (falls Sie **[!UICONTROL Import Third Party Listings]** auf `Import Listing` in [Listening-Einstellungen](./listing-settings.md)).
 

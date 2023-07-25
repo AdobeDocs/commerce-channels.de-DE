@@ -1,8 +1,10 @@
 ---
 title: "Über [!DNL Amazon Marketplace]"
 description: Erweitern Sie die Reichweite Ihres Adobe Commerce- oder Magento Open Source-Stores, indem Sie Ihren Produktkatalog als Auflistungen im Amazon Marketplace nutzen.
+role: Leader, Admin, User
+feature: Sales Channels, Tools and External Services
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%

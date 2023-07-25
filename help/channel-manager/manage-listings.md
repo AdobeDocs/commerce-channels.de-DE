@@ -1,8 +1,9 @@
 ---
 title: Verwalten von Listen
 description: "Verwalten von Verkaufskanallisten für eine [!DNL Commerce] mit dem Kanal-Manager für Adobe Commerce und Magento Open Source speichern."
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ Im Arbeitsbereich &quot;Listen&quot;zeigt die Bezeichnung Status an, wo sich ein
 
 * **[!UICONTROL Match]**- Identifiziert Produkte, die erfolgreich zugewiesen wurden unter [!DNL Walmart].
 
-   Eine Übereinstimmung tritt auf, wenn der Produktattributwert - z. B. der UPC-Code - mit dem UPC-Wert in einem vorhandenen übereinstimmt [!DNL Walmart Marketplace] Auflistung. Wenn ein Produkt übereinstimmt, wird das Commerce-Produktangebot der vorhandenen Liste hinzugefügt.
+  Eine Übereinstimmung tritt auf, wenn der Produktattributwert - z. B. der UPC-Code - mit dem UPC-Wert in einem vorhandenen übereinstimmt [!DNL Walmart Marketplace] Auflistung. Wenn ein Produkt übereinstimmt, wird das Commerce-Produktangebot der vorhandenen Liste hinzugefügt.
 
-   Überprüfen Sie die [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) Dashboard , um die aktualisierte Produktliste zu überprüfen und Produktdetails, Preise und Lagerbestände zu überprüfen.
+  Überprüfen Sie die [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) Dashboard , um die aktualisierte Produktliste zu überprüfen und Produktdetails, Preise und Lagerbestände zu überprüfen.
 
 * **[!UICONTROL Match - Match in Stage]**—Identifiziert Produkte, die übereinstimmen mit [!DNL Walmart] die erst dann verbunden werden können, wenn die [!DNL Walmart Marketplace] Store ist live. Produkte mit diesem Status werden automatisch verbunden, wenn die Variable [!DNL Walmart Marketplace] Store wird live geschaltet.
 
@@ -102,4 +103,4 @@ Im Arbeitsbereich &quot;Listen&quot;zeigt die Bezeichnung Status an, wo sich ein
 
 * **[!UICONTROL Error description]**—Bietet detaillierte Informationen zum Listenfehler.
 
-   Nachdem Sie den Fehler behoben haben, senden Sie das Produkt erneut zur Übereinstimmung. Siehe [Fehlerbehebung bei Produktübereinstimmungsfehlern](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  Nachdem Sie den Fehler behoben haben, senden Sie das Produkt erneut zur Übereinstimmung. Siehe [Fehlerbehebung bei Produktübereinstimmungsfehlern](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

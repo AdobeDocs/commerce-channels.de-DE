@@ -1,8 +1,9 @@
 ---
 title: Anzeigen der Amazon-Attributzuordnung
 description: Überprüfen Sie die Werte für Ihre verknüpften Commerce-Attribute, um die Commerce- und Amazon-Synchronisation korrekt durchzuführen.
+feature: Sales Channels, Products, Configuration
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Die _Amazon-Wert_ unterscheidet sich je nach dem angezeigten Attributtyp und dem
 ![Anzeigen von Attributwerten](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
-|--- |--- |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Region] | Die Region, in der die Verkaufsaktivitäten definiert werden in **[!DNL Amazon Marketplace]Land** während der Store-Integration. |
 | [!UICONTROL Magento Product SKU] | Gibt die [!DNL Commerce] mit dem Amazon Store synchronisierte Produkte. Der Wert ist eine Produkt-ID, die von [!DNL Commerce] und mit einem Produkt im Katalog verknüpft. So öffnen Sie das Produkt in [!DNL Commerce]klicken Sie auf den Link. |
 | [!UICONTROL ASIN] | Gibt die Amazon Standard-Identifikationsnummer (ASIN) an, die dem Produkt von Amazon zur Produktidentifizierung eine 10-stellige alphanumerische eindeutige Kennung zugewiesen hat. |

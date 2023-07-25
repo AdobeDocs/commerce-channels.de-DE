@@ -1,8 +1,9 @@
 ---
 title: Erstellen und Bearbeiten von Außerkraftsetzungen des Amazon-Vertriebskanals
 description: Verwenden Sie Überschreibungen des Amazon-Sales Channels, um Ihre Änderungen auf eine einzelne Amazon-Liste oder auf mehrere Auflistungen anzuwenden.
+feature: Sales Channels, Products, Configuration
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 0%
@@ -112,7 +113,7 @@ Die _[!UICONTROL Edit Listing Overrides]_-Aktion auf der_[!UICONTROL Inactive]_,
 ### Typen überschreiben
 
 | Überschreibung | Beschreibung |
-|--- |--- |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Override] | Ein Preisüberschreiben definiert den Preis für die Auflistungen. Diese Überschreibung hat Vorrang vor allen automatisierten Einstellungen, bis die Überschreibung entfernt wird.<br><br>Um den Preis Ihres Produkts zu überschreiben, wählen Sie **[!UICONTROL Change Listing Price]** und geben Sie den neuen Preis für **[!UICONTROL Price Override]**. |
 | [!UICONTROL Handling Time Override] | Eine Umschlagszeit-Überschreibung definiert die Zeit (in Tagen) für die Verarbeitung und das Versenden von Produkten. Eine Überschreibungszeit hat Vorrang vor allen automatisierten und standardmäßigen Verarbeitungszeiteinstellungen, bis die Überschreibung entfernt wird.<br><br>Der Wert, der im _[!UICONTROL Handling Time Override]_ist entweder Ihre standardmäßige Bearbeitungszeit, die in Ihrem [Auflistungseinstellungen](./listing-settings.md) oder der definierten Verarbeitungszeit für Überschreibungen. Wenn Sie eine Zeitüberschreitung bei der Verarbeitung entfernen, wird standardmäßig die in Ihren Listeneinstellungen definierte Bearbeitungszeit verwendet.<br><br>Wählen Sie zum Definieren einer Überschreibung der Bearbeitungszeit **[!UICONTROL Change Handling Time]**und geben Sie die neue Bearbeitungszeit (in Tagen) für **[!UICONTROL Handling Time Override]**. |
 | [!UICONTROL Condition Override] | Um die Auflistungsbedingung zu überschreiben, wählen Sie **[!UICONTROL Change Condition]** und wählen Sie die neue Bedingung aus **Bedingungsüberschreibungen**. |

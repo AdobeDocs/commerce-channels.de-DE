@@ -1,8 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - Beispiele für Preisregeln
 description: Um Sie bei der Erstellung Ihrer Preisregeln für Amazon-Auflistungen zu unterstützen, sollten Sie diese Beispiele anhand gängiger Szenarien durchlesen.
+feature: Sales Channels, Price Rules
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 2%
@@ -22,7 +23,7 @@ Wenn **[!UICONTROL Discard Subsequent Rules]** auf `Yes`, gelten die Regeln mit 
 Angenommen, es gibt drei Preisregeln:
 
 | Beispiel | Regelname | Priorität | Nachfolgende Regel verwerfen |
-|----------|----|----|----|
+|---------|-----------------------|----------|-------------------------|
 | 1 | 10 % Rabatt auf Verkaufsprodukte | 1 | Nein |
 | 2 | 2 USD an Verkaufsprodukten | 2 | Ja |
 | 3 | 5 % aller Produkte | 3 | Nein |
@@ -32,7 +33,7 @@ In diesem Szenario gelten die Regeln 1 und 2 für die entsprechenden Produkte. R
 ### Anwendung von zwei Preisregeln
 
 | Feld | Einstellung - Regel 1 | Einstellung - Regel 2 |
-|----------|----|----|
+|--------------------------------|---------------------|-----------------------|
 | [!UICONTROL Rule Name] | Regel 1 | Artikel 2 |
 | [!UICONTROL Priority] | 1 | 2 |
 | [!UICONTROL Rule Type] | Standardpreisregel | Standardpreisregel |
@@ -65,7 +66,7 @@ Der Endpreis nach Regel 1 und Regel 2 wird angewendet: 32,98 $
 ### Buy Box price mit Floor Price Source = Price
 
 | Feld | Einstellung |
-|----------|----|
+|--------------------------------------|----------------------------|
 | [!UICONTROL Rule Name] | Regel 1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligente Neupreisregel |
@@ -97,7 +98,7 @@ Der Endpreis nach Anwendung der Regel: 10$
 ### Buy Box-Preis mit Floor Price Source = Preis und 20% Preisrückgang
 
 | Feld | Einstellung |
-|----------|----|
+|--------------------------------------|----------------------------|
 | [!UICONTROL Rule Name] | Regel 1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligente Neupreisregel |
@@ -147,7 +148,7 @@ Der Endpreis nach Anwendung der Regel: 15$
 ### Niedrigster Preis mit allen Preisen des Wettbewerbers und Verwendung aller Produktbedingungen des Wettbewerbers
 
 | Feld | Einstellung |
-|----------|-----|
+|----------------------------------------|-----------------------------------------|
 | [!UICONTROL Rule Name] | Regel 1 |
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Intelligente Neupreisregel |
@@ -159,7 +160,7 @@ Der Endpreis nach Anwendung der Regel: 15$
 | [!UICONTROL Floor Price Action] | Übereinstimmung |
 
 | Preis | Bedingung |
-|----------|----|
+|-------|-----------------|
 | $17 | Neu |
 | $15 | Neu |
 | $14 | Verwendet; Sehr gut |
@@ -188,7 +189,7 @@ Der Endpreis nach Anwendung der Regel: 13$
 ### Intelligente Neupreisregelung, die Obergrenzen, Währungsumrechnung und Mehrwertsteuer kombiniert
 
 | Feld | Einstellung |
-|----------|-----|
+|-----------------------------------|---------------|
 | [!UICONTROL VAT] | 10% |
 | [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 Euro:1 USD |
@@ -204,7 +205,7 @@ Endpreis nach MwSt: 12,50 $ x (1,1) = 13,75 $
 #### Intelligente Preisregel (aus dem vorherigen Beispiel)
 
 | Feld | Einstellung |
-|----------|----|
+|----------------------|---------------|
 | Priorität | 1 |
 | Mehrwertsteuer | 10% |
 | Obergrenze der Preisquelle | $10 |
@@ -217,7 +218,7 @@ Endpreis nach MwSt: 12,50 $ x (1,1) = 13,75 $
 #### Standardmäßige Preisregel
 
 | Feld | Einstellung |
-|----------|-----|
+|--------------------------------|-----------------------|
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Erhöhen um |
 | [!UICONTROL Apply] | Anwenden als fester Betrag |
@@ -238,7 +239,7 @@ Nachdem Sie diese Suche anhand dieser Parameter ausgeführt haben, wird der Wett
 Von hier aus gibt es drei verschiedene [Preisregel-Aktion](./pricing-rule-actions.md) Optionen, die auf diesem niedrigsten Preis basieren.
 
 | Feld | Beschreibung |
-|--- |--- |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Optionen:<ul><li>**[!UICONTROL Decrease By]** - Diese Option senkt Ihren Listenkurs im Verhältnis zum [niedrigster Wettbewerbspreis](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Mit dieser Option erhöhen Sie Ihren Börsenpreis im Verhältnis zum [niedrigster Wettbewerbspreis](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Mit dieser Option wird Ihr Amazon-Listingpreis so geändert, dass er anhand der Parameter dem niedrigsten Preis entspricht. In diesem Beispiel beträgt der Amazon-Listingpreis 25 USD.</li></ul> |
 | [!UICONTROL Apply] | Optionen: Anwenden als Prozentsatz/Anwenden als festen Betrag |
 | [!UICONTROL Adjustment Amount] | Numerischer Wert : Angabe des Prozentsatzes oder Festbetrags für den anzuwendenden Rabatt. <br>Diese Auswahl führt dazu, dass der niedrigste Preis angenommen und auf 0,01 USD weniger gesetzt wird. |
@@ -246,7 +247,7 @@ Von hier aus gibt es drei verschiedene [Preisregel-Aktion](./pricing-rule-action
 ### Floor-Preis
 
 | Feld | Einstellung |
-|----------|----|
+|--------------------------------------|---------------------|
 | [!UICONTROL Floor Price Source] | Kosten = 5 USD |
 | [!UICONTROL Floor Price Action] | Erhöhen um |
 | [!UICONTROL Apply] | Anwenden als Prozentsatz |

@@ -1,8 +1,9 @@
 ---
 title: Anzeigen von Amazon-Bestellungen
 description: Zeigen Sie Ihre Amazon Marketplace-Bestellungen in der Adobe Commerce- oder Magento Open Source-Administration an.
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ Sie können Filter auf Ihre Bestellliste im _[!UICONTROL Filter by]_Abschnitt. A
 >- Abhängig von der Breite des Ansichtsfensters können Sie in den Spalten überlappenden Text sehen. Um die Spalten für den Text zu erweitern, erweitern Sie die Fensteransicht.
 >- Beim Filtern nach _[!UICONTROL Total]_, nach Ganzzahlen filtern. Die Eingabe eines Dezimalbetrags kann zu Fehlern in den Ergebnissen führen.
 
-
 ### Standardspalten
 
 | Spalte | Beschreibung |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | Nur im _[!UICONTROL All Orders]_anzeigen.<br>Schränken Sie die Liste der Bestellungen auf Grundlage folgender Elemente ein:<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | Das Datum des Kaufs, wie es von Amazon empfangen wurde. |
 | [!UICONTROL Order Number] | Die von Amazon generierte und von ihm empfangene Bestellnummer. Um den Bildschirm &quot;Amazon-Bestelldetails&quot;anzuzeigen, klicken Sie auf den Link. |

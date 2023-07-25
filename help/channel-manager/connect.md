@@ -1,10 +1,11 @@
 ---
 title: '"Verbinden mit [!DNL Commerce] Dienste'''
 description: "Verbinden Sie den Kanal-Manager mit [!DNL Commerce] Dienste, die die Datensynchronisation und Kommunikation zwischen [!DNL Commerce] -Instanz, Kanal-Manager und anderen unterstützenden Diensten."
-role: User
+role: Admin, Developer
 level: Intermediate
+feature: Sales Channels, Install, Integration
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Die [!DNL Commerce Services Connector] integriert den Kanal-Manager-Dienst in Ad
 
 - **Commerce-Konto**-Installieren der Software auf [!DNL Commerce] -Instanzen müssen Sie über ein Konto mit dem Inhaber- oder Administratorzugriff auf die [!DNL Commerce] Plattform.
 
-   Kontoinhaber und Superbenutzer können über die [!DNL Commerce] -Instanz oder über die Befehlszeile mit der [!DNL Commerce] CLI, Befehl `admin:user:create`.
+  Kontoinhaber und Superbenutzer können über die [!DNL Commerce] -Instanz oder über die Befehlszeile mit der [!DNL Commerce] CLI, Befehl `admin:user:create`.
 
 - **Adobe Commerce Production API-Schlüssel**-this [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) ermöglicht API-Zugriff auf Dienste, die für den Kanal-Manager erforderlich sind. Sie benötigen die öffentlichen und privaten Anmeldeinformationen für diesen Schlüssel.
 

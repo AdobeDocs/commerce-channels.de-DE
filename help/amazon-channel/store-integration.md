@@ -1,8 +1,10 @@
 ---
 title: Speicherintegration mit [!DNL Amazon Seller Account]
 description: Bevor Sie mit dem Onboarding-Prozess beginnen, müssen Sie einen Amazon-Sales Channel-Store erstellen (hinzufügen) und ihn mit Ihrem Amazon-Verkaufskonto verbinden.
+role: Admin, Developer
+feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -54,11 +56,11 @@ _Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central
 
    - Für **[!UICONTROL Product ID on the Amazon market]**, wählen Sie das Amazon-Attribut aus, das der [!DNL Commerce] Attribut unten ausgewählt ist.
 
-      Diese ID hilft bei der korrekten Übereinstimmung der entsprechenden Produkte in Ihrer [!DNL Commerce] Katalog.
+     Diese ID hilft bei der korrekten Übereinstimmung der entsprechenden Produkte in Ihrer [!DNL Commerce] Katalog.
 
    - Für **[!UICONTROL Map a Magento attribute]**, wählen Sie die [!DNL Commerce] Produktattribut, das dem oben ausgewählten Amazon-Attribut zugeordnet werden soll.
 
-      [Zuordnen von Attributen](./ob-creating-magento-attributes.md) hilft sicherzustellen, dass Ihre Amazon-Liste korrekt mit dem entsprechenden Produkt in Ihrer [!DNL Commerce] Katalog.
+     [Zuordnen von Attributen](./ob-creating-magento-attributes.md) hilft sicherzustellen, dass Ihre Amazon-Liste korrekt mit dem entsprechenden Produkt in Ihrer [!DNL Commerce] Katalog.
 
 1. Klicken **[!UICONTROL Connect]**.
 

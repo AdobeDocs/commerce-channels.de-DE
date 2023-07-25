@@ -9,7 +9,7 @@ feature-set: Commerce
 git-repo: https://github.com/AdobeDocs/commerce-channels.de-DE
 role: User
 index: true
-source-git-commit: da94226111c658048824453bb8f448b0f1e4c3b8
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 Die `metadata.md` -Datei enthält Metadaten auf Repo-Ebene, die an das Benutzerhandbuch übergeben werden `TOC.md` -Dateien im Repository. Wenn Sie den Inhalt von metadata.md für ein Benutzerhandbuch ändern möchten, tun Sie dies in einer beliebigen `TOC.md` -Datei.
 
 | Metadaten | Funktion |
-|--- |--- |
+|---------------------|---------------------------------------------------------------------------------|
 | solution-title | Wird in der Artikelüberschrift als Link verwendet |
 | solution-hub-url | Öffnet die Helpx-Hub-Seite |
 | solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
@@ -34,6 +34,6 @@ Die `metadata.md` -Datei enthält Metadaten auf Repo-Ebene, die an das Benutzerh
 In der Datei TOC.md
 
 | Metadaten | Funktion |
-|--- |--- |
+|------------------|--------------------------------|
 | user-guide-title | Wird in der Artikelüberschrift als Link verwendet |
 | user-guide-url | Öffnet die Helpx-Hub-Seite |

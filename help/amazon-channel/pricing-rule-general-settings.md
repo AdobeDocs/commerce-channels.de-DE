@@ -1,8 +1,9 @@
 ---
-title: Amazon-Vertriebskanal - Allgemeine Preisregeleinstellungen
+title: Amazon Sales Channel - Allgemeine Preisregeleinstellungen
 description: Verwenden Sie die allgemeinen Preisregeleinstellungen, um die Hauptmerkmale einer Regel für den Börsennotierungspreis zu definieren.
+feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Definieren Sie den Namen, die Beschreibung, das aktive Datum und die Priorität 
 ![Allgemeine Preisregeleinstellungen](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
-|---|---|
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Name] | (Erforderlich) Geben Sie einen Namen für die Regel ein, der für interne Identifizierungszwecke verwendet wird. Je beschreibender der Regelname ist, desto besser. Beispiel: &quot;25 % Rabatt auf den Jahresbuchverkauf.&quot; |
 | [!UICONTROL Description] | Geben Sie eine detaillierte Beschreibung ein, in der die Regel erläutert wird (auch für interne Zwecke verwendet). Beispiel: &quot;Verkauf Ende des Jahres, 25 % aller Artikel in der Kategorie &quot;Bücher&quot;. |
 | [!UICONTROL Status] | Optionen:<ul><li>**[!UICONTROL Inactive]** - Die Preisregel gilt nicht für Ihre Auflistungen. Diese Option kann verwendet werden, wenn eine Preisregel geändert oder nach einer begrenzten Promotion deaktiviert wird.</li><li>**[!UICONTROL Active]** - Die Preisregel gilt für Ihre Auflistungen und passt Ihre Auflistungspreise vor der Veröffentlichung in Amazon an.</li></ul> |

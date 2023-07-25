@@ -1,8 +1,9 @@
 ---
 title: "Intelligente Neupreisregel: Optionaler Höchstpreis"
 description: Verwenden Sie optionale Preiseinstellungen, um Ihren höchsten Produktpreis vor den intelligenten Preisregeln zu schützen, die Ihre Amazon-Auflistungen verwalten.
+feature: Sales Channels, Price Rules
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -46,7 +47,7 @@ In diesem Beispiel wird der Höchstpreis auf 2 % unter dem MSRP des Artikels fes
 ![Intelligente Neupreisregelung - optionaler Höchstpreis](assets/ob-intelligent-price-rule-ceiling.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
-|---|---|
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Ceiling Price Source] | Wählen Sie die [!DNL Commerce] [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) , der Ihre relative Obergrenze angibt. Wenn Sie beispielsweise nicht möchten, dass der Produktlistenpreis über dem MSRP Ihres Artikels liegt, wählen Sie die `Manufacturer's Suggested Retail Price` -Attribut. |
 | [!UICONTROL Ceiling Price Action] | Wählen Sie eine Preisanpassungsaktion. Optionen:<ul><li>**[!UICONTROL Decrease By]** - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Ceiling Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Increase By]** - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Ceiling Price Source]_-Wert, der angepasst werden soll, sodass ein höherer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Match]** - Wählen Sie aus, wann der Listenpreis nicht über dem definierten Wert schwanken soll. _[!UICONTROL Ceiling Price Source]_-Wert. Wenn auf `Match`, die_[!UICONTROL Apply]_ und _[!UICONTROL Ceiling Adjustment Amount]_-Felder deaktiviert sind.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - prozentuale Anpassung im Verhältnis zum _[!UICONTROL Ceiling Price Source]_-Wert. |

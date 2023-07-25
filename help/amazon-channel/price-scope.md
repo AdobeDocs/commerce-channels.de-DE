@@ -1,8 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - Preisbereich
 description: Verwenden Sie den Umfang der Commerce-Preise, um die Preise nach mehreren Websites oder global zu verwalten.
+feature: Sales Channels, Price Rules
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%

@@ -2,7 +2,10 @@
 user-guide-title: Benutzerhandbuch für Amazon Sales Channel
 user-guide-description: Generieren von Verkäufen über Amazon durch Integration von Adobe Commerce oder Magento Open Source in Ihre [!DNL Amazon Seller Central] -Konto.
 breadcrumb-title: Amazon-Vertriebskanal
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, User
+feature: Sales Channels
+recommendations: noDisplay
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -20,7 +23,7 @@ ht-degree: 0%
    - [Best Practices und Einschränkungen](amazon-best-practices.md)
    - [Installieren der Erweiterung](install.md)
 - Onboarding {#onboarding}
-   - [Integrierter Amazon-Vertriebskanal](amazon-onboarding-home.md)
+   - [Onboard Amazon Sales Channel](amazon-onboarding-home.md)
    - [Aufgaben vor der Einrichtung](amazon-pre-setup-tasks.md)
    - [Erstellen [!DNL Commerce] -Attribute für Amazon](ob-creating-magento-attributes.md)
    - [Überprüfen des Amazon-API-Schlüssels](amazon-verify-api-key.md)

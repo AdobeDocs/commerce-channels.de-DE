@@ -1,8 +1,9 @@
 ---
 title: Hinzufügen von Produkten zum Kanal-Manager
 description: "Erstellen Sie ein Produktsortiment für [!DNL Walmart Marketplace] Vertrieb durch Hinzufügen von Produkten aus dem Katalog zum im Kanal-Manager konfigurierten Vertriebskanal."
+feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -59,15 +60,15 @@ Der Importvorgang kann je nach der Anzahl der ausgewählten Produkte bis zu 30 M
 
    - Auswählen **[!UICONTROL Save]**.
 
-      Eine Bestätigungsmeldung wird angezeigt.
+     Eine Bestätigungsmeldung wird angezeigt.
 
-      ![Bestätigungsnachricht zum Produktimport von einem Katalog zu einem Verkaufskanal](assets/product-import-from-catalog-confirmation.png){width="400"}
+     ![Bestätigungsnachricht zum Produktimport von einem Katalog zu einem Verkaufskanal](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      Wenn die Meldung anzeigt, dass die Aktualisierung geplant ist, verwenden Sie die [queue:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] -Befehl, um die Aktualisierung sofort zu verarbeiten.
+     Wenn die Meldung anzeigt, dass die Aktualisierung geplant ist, verwenden Sie die [queue:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] -Befehl, um die Aktualisierung sofort zu verarbeiten.
 
-      ```bash
-      $ bin/magento queue:consumers:start product_action_attribute.update
-      ```
+     ```bash
+     $ bin/magento queue:consumers:start product_action_attribute.update
+     ```
 
 1. Überprüfen Sie nach Abschluss des Importvorgangs die hinzugefügten Produkte, indem Sie zu [!DNL Channel Manager] und auswählen **[!UICONTROL Listings]**.
 

@@ -1,8 +1,9 @@
 ---
 title: Protokollierung von Kommunikationsfehlern in Amazon
 description: Das Kommunikationsprotokoll zeigt Kommunikationsfehler zwischen Amazon und [!DNL Commerce].
+feature: Sales Channels, Logs
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbei
 ## Standardspalten
 
 | Spalte | Beschreibung |
-|--- |--- |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | Der Name des Stores, der beim Einrichten des Amazon-Stores definiert wurde. Siehe [Store-Integration](./store-integration.md). |
 | [!UICONTROL Error Code] | Der von Amazon empfangene Code zur Identifizierung des Fehlertyps. |
 | [!UICONTROL Message] | Die Meldung, die den Fehler im Zusammenhang mit dem Fehlercode beschreibt. |

@@ -1,8 +1,9 @@
 ---
 title: Katalogattribute zuordnen
 description: 'Zuordnen von Attributen zum Abgleich [DNL! Commerce-] Produkte in bestehende [!DNL Walmart Marketplace] Auflistungen und Synchronisieren von Daten zwischen [!DNL Channel Manager] und [!DNL Walmart].'
+feature: Sales Channels, Merchandising, Products
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -36,8 +37,8 @@ Wenn Ihr Katalog nicht über ein entsprechendes Attribut verfügt, [Hinzufügen 
 
    - Wählen Sie das entsprechende Attribut aus der [!DNL Commerce] Katalog speichern.
 
-      Im folgenden Beispiel wird die [!UICONTROL Walmart Marketplace UPC] -Attribut dem UPC-Attribut im Produktkatalog.
+     Im folgenden Beispiel wird die [!UICONTROL Walmart Marketplace UPC] -Attribut dem UPC-Attribut im Produktkatalog.
 
-      ![Zuordnungsattribute für Produktübereinstimmungskriterien](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
+     ![Zuordnungsattribute für Produktübereinstimmungskriterien](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Auswählen **[!UICONTROL Save]**.

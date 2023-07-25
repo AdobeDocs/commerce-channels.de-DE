@@ -1,9 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - Preisregelbedingungen
 description: Verwenden Sie die Preisregel-Bedingungen, um zu bestimmen, welche Produkte für die Regel des Listenpreises infrage kommen.
-redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
+feature: Sales Channels, Price Rules
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -54,27 +54,27 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
 
    - Für **[!UICONTROL Product Attribute]**, wählen Sie das Attribut aus, das Sie als Basis der Bedingung definieren möchten. In diesem Beispiel lautet die ausgewählte Bedingung: `Category`.
 
-      ![Bedingung für Preisregel - Zeile 2, Teil 2](assets/ob-price-rule-condition-2.png){width="500"}
+     ![Bedingung für Preisregel - Zeile 2, Teil 2](assets/ob-price-rule-condition-2.png){width="500"}
 
-      Die ausgewählte Bedingung wird in der Anweisung angezeigt, gefolgt von zwei weiteren fett gedruckten Links. Die Optionen variieren je nach ausgewähltem Produktattribut.
+     Die ausgewählte Bedingung wird in der Anweisung angezeigt, gefolgt von zwei weiteren fett gedruckten Links. Die Optionen variieren je nach ausgewähltem Produktattribut.
 
-      Nachdem Sie das Attribut festgelegt haben, kann es nicht mehr bearbeitet werden. Um das Attribut zu ändern, müssen Sie die Zeile löschen und das neue Attribut hinzufügen. Sie können eine Bedingungszeile löschen, indem Sie auf Löschen (![Löschsymbol](assets/btn-del-red.png) -Symbol am Ende der Zeile.
+     Nachdem Sie das Attribut festgelegt haben, kann es nicht mehr bearbeitet werden. Um das Attribut zu ändern, müssen Sie die Zeile löschen und das neue Attribut hinzufügen. Sie können eine Bedingungszeile löschen, indem Sie auf Löschen (![Löschsymbol](assets/btn-del-red.png) -Symbol am Ende der Zeile.
 
    - Klicken **[!UICONTROL is]** und wählen Sie den Vergleichsoperator aus, der die Bedingung für die zu erfüllenden Produkte beschreibt.
 
-      In diesem Beispiel lautet der Vergleichsoperator `is`. Die verfügbaren Optionen hängen vom im vorherigen Schritt ausgewählten Attribut ab und können verschiedene Vergleichsoptionen enthalten. Optionen können übereinstimmende Werte umfassen, die mindestens einen Wert nicht enthalten oder darunter fallen, sowie größer, gleich und kleiner als ein numerischer Wert. In diesem Beispiel sind die Optionen `is` und `is not`.
+     In diesem Beispiel lautet der Vergleichsoperator `is`. Die verfügbaren Optionen hängen vom im vorherigen Schritt ausgewählten Attribut ab und können verschiedene Vergleichsoptionen enthalten. Optionen können übereinstimmende Werte umfassen, die mindestens einen Wert nicht enthalten oder darunter fallen, sowie größer, gleich und kleiner als ein numerischer Wert. In diesem Beispiel sind die Optionen `is` und `is not`.
 
    - Klicken **[!UICONTROL ...]** und wählen Sie den Attributwert aus, auf dem die Bedingung basiert. Die Optionen hängen von der Einrichtung des Attributs ab.
 
-      Sie werden möglicherweise aufgefordert, eine Option auszuwählen oder einen Wert für die Bedingung einzugeben. In diesem Beispiel wird das Feld leer angezeigt. Klicken Sie auf das Auswahlsymbol (![Auswahlsymbol](assets/btn-chooser.png)), um Ihre Auswahloptionen anzuzeigen. Diese Regel gilt für _Bücher_, wählen Sie die **[!UICONTROL Books]** aktivieren. Die Kategorienummer wird ausgefüllt. Um Ihre Kategorieauswahlen zu akzeptieren, klicken Sie auf das grüne Häkchensymbol (![Symbol &quot;Häkchen&quot;](assets/btn-check-mark-green.png)).
+     Sie werden möglicherweise aufgefordert, eine Option auszuwählen oder einen Wert für die Bedingung einzugeben. In diesem Beispiel wird das Feld leer angezeigt. Klicken Sie auf das Auswahlsymbol (![Auswahlsymbol](assets/btn-chooser.png)), um Ihre Auswahloptionen anzuzeigen. Diese Regel gilt für _Bücher_, wählen Sie die **[!UICONTROL Books]** aktivieren. Die Kategorienummer wird ausgefüllt. Um Ihre Kategorieauswahlen zu akzeptieren, klicken Sie auf das grüne Häkchensymbol (![Symbol &quot;Häkchen&quot;](assets/btn-check-mark-green.png)).
 
-      ![Bedingung für Preisregel - Zeile 2, Teil 3](assets/ob-price-rule-condition-3.png){width="500"}
+     ![Bedingung für Preisregel - Zeile 2, Teil 3](assets/ob-price-rule-condition-3.png){width="500"}
 
-      Das ausgewählte Element wird in der Anweisung angezeigt, um die Bedingung abzuschließen.
+     Das ausgewählte Element wird in der Anweisung angezeigt, um die Bedingung abzuschließen.
 
-      ![Bedingung für Preisregel - Zeile 2, Teil 4](assets/ob-price-rule-condition-4.png){width="500"}
+     ![Bedingung für Preisregel - Zeile 2, Teil 4](assets/ob-price-rule-condition-4.png){width="500"}
 
-      Diese Beispielbedingung ist abgeschlossen. Wie angegeben bedeutet diese Bedingung, dass jedes Produkt in Ihrer [!DNL Commerce] Katalog mit einer definierten Kategorie von Büchern (`4`) für diese Preisregel infrage kommt. Sie können weitere Bedingungszeilen hinzufügen, um Ihre infrage kommenden Produkte weiter einzuschränken.
+     Diese Beispielbedingung ist abgeschlossen. Wie angegeben bedeutet diese Bedingung, dass jedes Produkt in Ihrer [!DNL Commerce] Katalog mit einer definierten Kategorie von Büchern (`4`) für diese Preisregel infrage kommt. Sie können weitere Bedingungszeilen hinzufügen, um Ihre infrage kommenden Produkte weiter einzuschränken.
 
 1. Um der Anweisung eine weitere Bedingungszeile hinzuzufügen, kehren Sie zu Schritt 1 zurück und wiederholen Sie den Prozess, bis alle gewünschten Bedingungen erfüllt sind.
 

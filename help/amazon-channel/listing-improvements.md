@@ -1,8 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - [!UICONTROL Listing Improvements]
 description: Amazon Sales Channel stellt Ihnen den Bericht zu Listening-Verbesserungen mit Vorschlägen für Amazon zur Auflistung von Qualitätsverbesserungen bereit.
+feature: Sales Channels, Products
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Eine von Amazon erhaltene Verbesserung der Auflistung verhindert nicht, dass Ihr
 ## Standardspalten
 
 | Spalte | Beschreibung |
-|--- |--- |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>ASIN steht für die [!DNL Amazon Standard Identification Number]. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
 | [!UICONTROL Alert Type] | Beschreibt den Typ des Problems mit der Auflistung. Beispielsweise zeigt &quot;Fehlt&quot;an, dass ein erforderliches Attribut fehlt. |

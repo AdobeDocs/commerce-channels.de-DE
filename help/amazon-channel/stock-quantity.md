@@ -1,8 +1,9 @@
 ---
-title: Amazon-Vertriebskanal - [!UICONTROL Stock/Quantity]
+title: Amazon Sales Channel - [!UICONTROL Stock/Quantity]
 description: So steuern Sie die Synchronisierung der Produktmengendetails von Ihrem Commerce-Store mit Ihrem [!DNL Amazon Seller Central] -Konto die Einstellungen für Lager/Menge aktualisieren.
+feature: Sales Channels, Inventory
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Diese Einstellungen werden verwendet, um die Produktmengendetails von Ihren [!DN
 ![Einstellungen für Lager/Menge](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
-|---|---|
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Out-of-Stock Threshold] | Geben Sie einen numerischen Wert für die niedrigste Produktmenge ein, um das Produkt für die Amazon-Auflistung in Frage zu stellen (Standard ist `0`).<br><br>Wenn [!DNL Commerce] Der Produktbestand liegt unter dieser Zahl, die entsprechende Amazon-Auflistung ist nicht für den Vertrieb über Amazon geeignet. |
 | [!UICONTROL Maximum Listed Quantity] | Geben Sie einen numerischen Wert für die Menge ein, die in Ihrer Amazon-Liste angezeigt werden soll.<br><br>Wenn ein Artikel verkauft wird, wird die Amazon-Liste mit der hier eingegebenen Menge erneut veröffentlicht. Diese Einstellung wird normalerweise verwendet, wenn Sie kein Produktinventar verwalten.<br><br>Geben Sie beispielsweise den Wert für die maximal aufgeführte Menge als `10`. Ihre tatsächliche Menge für ein Produkt ist `80`. Da Sie diesen Wert auf `10`, zeigt die Amazon-Liste immer eine verfügbare Menge an `10`. Die verfügbare Menge wird immer mit dem definierten Wert angezeigt, auch wenn die Lagermenge niedriger ist. |
 | [!UICONTROL "Do Not Manage Stock" Quantity] | Geben Sie einen Wert für Ihre Anzeigemenge für Ihre Amazon-Auflistungen ein.<br><br>Amazon erfordert die Veröffentlichung einer verfügbaren Menge. Für [!DNL Commerce] Produkte, die nicht für die Verwaltung von Lagern festgelegt sind, aber Sie sie in Amazon auflisten möchten, wird die Liste mit der verfügbaren Menge des hier eingegebenen Werts veröffentlicht. |

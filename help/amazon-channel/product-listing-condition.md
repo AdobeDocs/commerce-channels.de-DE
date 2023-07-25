@@ -1,9 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - Bedingung für die Produktliste
 description: Verwenden Sie die Einstellungen für die Produktlisten-Bedingung, um Ihre Commerce-Produkte einer Amazon-Produktbedingung zuzuordnen, z. B. "Neu"oder "Neu"oder "Raffiniert".
-redirect_from: /sales-channels/asc/ob-product-listing-condition.html
+feature: Sales Channels, Products, Merchandising
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Während [Aufgaben vor der Einrichtung](./amazon-pre-setup-tasks.md)wird empfohl
 ![Bedingung für die Produktliste](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
-|---|---|
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Listing Product Condition] | Die Bedingung Ihrer Produktlisten. Optionen: `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>Wenn Sie eine einzige Produktbedingung verkaufen, wählen Sie eine der standardmäßigen Amazon-Bedingungen. Wenn [!DNL Commerce] Der Katalog enthält Produkte unter verschiedenen Bedingungen, wählen Sie `Assign Condition Using Product Attribute`. |
 | [!UICONTROL Condition Attribute] | Die [!DNL Commerce] -Attribut, das die Bedingung für Ihre Produkte definiert. Wählen Sie das von Ihnen erstellte Attribut Magneto aus, um es dem Amazon-Bedingungsattribut zuzuordnen. Im [Beispiel für Aufgaben vor der Einrichtung](./ob-creating-magento-attributes.md) empfiehlt die Benennung als `Amazon Condition`. Wenn diese Option ausgewählt ist, werden zusätzliche Felder für die Zuordnung der standardmäßigen Amazon-Bedingungen angezeigt. |
 | [!UICONTROL Additional Condition fields] | Wählen Sie für jede der standardmäßigen Amazon-Bedingungen die entsprechende Bedingung aus. Die Optionen sind die Bedingungsbeschriftungen, die Sie bei der [Amazon-Bedingungsattribut erstellt haben](./ob-creating-magento-attributes.md).<br><br>Wenn Sie Produkte im `Used` oder `Collectible` -Bedingung, Sie unterscheiden jedoch nicht weiter, können Sie einer einzelnen `Used` oder `Collectible` Amazon-Bedingung verwenden und die anderen leer lassen. Diese Methode ordnet alle `Used` oder `Collectible` Bedingungen für die einzelne verwendete oder kollektive Amazon-Bedingung. |

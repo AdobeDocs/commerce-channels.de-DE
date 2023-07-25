@@ -1,17 +1,18 @@
 ---
 title: Aktive Amazon-Listen
 description: Der Amazon-Vertriebskanal bietet die Registerkarte Aktiv , um aktive Amazon-Auflistungen zu überwachen, die mit einem Produkt in Ihrem Adobe Commerce-Katalog übereinstimmen.
+feature: Sales Channels, Products, Merchandising, Catalogs
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # Aktive Amazon-Listen
 
-Die _[!UICONTROL Active]_-Registerkarte zeigt Ihre Amazon-Listen an, die auf der [!DNL Amazon Marketplace] und die mit einem Produkt in Ihrer [!DNL Commerce] Katalog.
+Die _[!UICONTROL Active]_-Registerkarte zeigt aktive Auflistungen auf der [!DNL Amazon Marketplace] die mit einem Produkt in Ihrer [!DNL Commerce] Katalog.
 
 Die verfügbaren Aktionen für die _[!UICONTROL Active]_einschließen:
 
@@ -44,7 +45,7 @@ under **[!UICONTROL Select]** im _[!UICONTROL Action]_column:
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 
 | Spalte | Beschreibung |
-|--- |--- |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen. <br><br>ASIN steht für die [!DNL Amazon Standard Identification Number]. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
 | [!UICONTROL Product Listing Name] | Der Name des Produkts. |

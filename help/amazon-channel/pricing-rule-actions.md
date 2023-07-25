@@ -1,9 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - Aktionen für Preisregeln
 description: Verwenden Sie die Preisregelaktionen, um die auf die Preisquelle angewendeten Anpassungsberechnungen zur Bestimmung des Amazon-Börsennotierungspreises zu definieren.
-redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
+feature: Sales Channels, Price Rules
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Preisregelaktionen definieren die Anpassungsberechnungen, die auf die Preisquell
 A [Standardpreisregel](./standard-price-rules.md) ermöglicht es Ihnen, einen Amazon-Listenpreis um einen bestimmten Prozentsatz oder festen Dollarbetrag im Verhältnis zum [!DNL Commerce] Katalogpreis (oder Preisquelle).
 
 | Abschnitt | Beschreibung |
-|--- |--- |
+|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | Legen Sie den Regeltyp auf `Standard price rule`. |
 | [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | Definieren Sie die auf die Preisquelle angewendeten Anpassungsberechnungen zur Bestimmung des Börsenkurses. |
 
@@ -28,7 +28,7 @@ A [Standardpreisregel](./standard-price-rules.md) ermöglicht es Ihnen, einen Am
 Ein [Intelligente Neupreisregel](./intelligent-repricing-rules.md) verwendet die Preise von Amazon-Konkurrenten, um Ihren Listenpreis zu ermitteln. Wettbewerber sind andere Verkäufer, die dieselben Produkte auflisten, die Sie in Amazon auflisten.
 
 | Abschnitt | Beschreibung |
-|--- |--- |
+|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Legen Sie den Regeltyp auf `Intelligent repricing rule` zusammen mit Ihren Anforderungen an Konkurrentenpreise und Feedback. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definieren Sie Abweichungen für Bedingungen des gleichen Produkts, das von Wettbewerbern verkauft wird. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Definieren Sie die auf die Preisquelle angewendeten Anpassungsberechnungen zur Bestimmung des Börsenkurses. |

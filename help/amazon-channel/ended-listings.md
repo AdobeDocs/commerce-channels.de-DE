@@ -1,8 +1,9 @@
 ---
 title: Amazon-Listen beendet
 description: Amazon Sales Channel bietet die Registerkarte "Beendet", um beendete Amazon Marketplace-Einträge zu überprüfen, die bei Ihrer Auswahl erneut veröffentlicht werden können.
+feature: Sales Channels, Products
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Informationen zu Veröffentlichungslisten finden Sie unter [Manuelles Veröffent
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 
 | Spalte | Beschreibung |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>ASIN steht für die Amazon Standard-Identifikationsnummern. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
 | [!UICONTROL Product Listing Name] | Der Name des Produkts. |

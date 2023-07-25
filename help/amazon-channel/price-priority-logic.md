@@ -1,8 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - Logik der Preispriorität
 description: Der Amazon-Vertriebskanal wendet bei der Bestimmung des veröffentlichten Preises für eine Amazon-Auflistung eine Priorisierung an.
+feature: Sales Channels, Price Rules
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 4%
@@ -23,8 +24,8 @@ Wenn der Produktpreis auf `Use Default`, wird der Standardwert anstelle des Webs
 
 ## Beispiel 1
 
-|  | Website-Priorität | Preis (Website) | Use Default |
-|---|---|---|---|
+|         | Website-Priorität | Preis (Website) | Use Default |
+|---------|------------------|-----------------|-------------|
 | Standard | 0 | $31.99 | -- |
 | Store 1 | 1 | $24.99 | Nein |
 | Store 2 | 2 | $27.99 | Ja |
@@ -35,8 +36,8 @@ Wenn der Produktpreis auf `Use Default`, wird der Standardwert anstelle des Webs
 
 ## Beispiel 2
 
-|  | Website-Priorität | Preiswebsite | Use Default |
-|---|---|---|---|
+|         | Website-Priorität | Preiswebsite | Use Default |
+|---------|------------------|---------------|-------------|
 | Standard | 0 | $31.99 | -- |
 | Store 1 | 1 | $24.99 | Ja |
 | Store 2 | 2 | $27.99 | Nein |
@@ -48,8 +49,8 @@ Wenn der Produktpreis auf `Use Default`, wird der Standardwert anstelle des Webs
 
 ## Beispiel 3
 
-|  | Website-Priorität | Preiswebsite | Use Default |
-|---|---|---|---|
+|         | Website-Priorität | Preiswebsite | Use Default |
+|---------|------------------|---------------|-------------|
 | Standard | 0 | $31.99 | $30.00 |
 | Store 1 | 1 | $24.99 | -- |
 | Store 2 | 2 | $27.99 | $20.00 |

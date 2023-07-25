@@ -1,8 +1,9 @@
 ---
 title: Rückgabe und Rückerstattung von Bestellungen
 description: Anleitung für die vollständige oder teilweise Erstattung von Rückerstattungsanträgen [!DNL Walmart Marketplace] von [!DNL Channel Manager] für Adobe Commerce und Magento Open Source.
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -138,7 +139,7 @@ In den folgenden Szenarien wird beschrieben, wie Erstattungen für verschiedene 
 
    * Sie können die Ergebnisse überprüfen, indem Sie die **[!UICONTROL Returns]** Registerkarte.
 
-      Sie können auch über die [!UICONTROL Orders] Seite. Suchen nach [!UICONTROL Shipped] Bestellungen mit einer Rückgabeanforderung. Wählen Sie anschließend die `Return requested` im [!UICONTROL Status Details] -Spalte, um die Anfrage anzuzeigen und zu verarbeiten.
+     Sie können auch über die [!UICONTROL Orders] Seite. Suchen nach [!UICONTROL Shipped] Bestellungen mit einer Rückgabeanforderung. Wählen Sie anschließend die `Return requested` im [!UICONTROL Status Details] -Spalte, um die Anfrage anzuzeigen und zu verarbeiten.
 
 1. Suchen Sie in der Tabelle &quot;Rückgaben&quot;nach einer Rückgabe mit der Variablen *[!UICONTROL Received]* Status.
 
@@ -148,13 +149,13 @@ In den folgenden Szenarien wird beschrieben, wie Erstattungen für verschiedene 
 
    * Aus dem [!UICONTROL Status Details] Spalte auswählen **[!UICONTROL Create credit memo]** , um die Detailseite &quot;Bestellung&quot;in [!DNL Commerce].
 
-      Wenn die Bestellung nicht in Rechnung gestellt wurde, wird auf der Seite Bestelldetails eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, eine zu erstellen. Auswählen **[!UICONTROL Create invoice]**. Dann [Rechnung erstellen und speichern](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     Wenn die Bestellung nicht in Rechnung gestellt wurde, wird auf der Seite Bestelldetails eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, eine zu erstellen. Auswählen **[!UICONTROL Create invoice]**. Dann [Rechnung erstellen und speichern](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Wählen Sie auf der Detailseite Sortierung die Option **[!UICONTROL Credit Memo]**.
 
    * In [!UICONTROL Items to Refund] Abschnitt [!UICONTROL Credit Memo], aktualisieren Sie die **[!UICONTROL Qty to refund]** und **[!UICONTROL Return to Stock]** Informationen für die Elemente, die in der Rückgabeanforderung enthalten sind.
 
-      Stellen Sie sicher, dass nur die in der Rückgabeanforderung aufgelisteten Elemente zurückgegeben werden.
+     Stellen Sie sicher, dass nur die in der Rückgabeanforderung aufgelisteten Elemente zurückgegeben werden.
 
    * Um einen Kommentar hinzuzufügen, geben Sie den Text im **[!UICONTROL Credit Memo Comments]**
 

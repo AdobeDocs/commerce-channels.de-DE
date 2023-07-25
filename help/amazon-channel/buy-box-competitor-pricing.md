@@ -1,8 +1,11 @@
 ---
 title: "[!DNL Buy Box] Preiswettbewerb für Amazon-Auflistungen"
 description: Amazon Sales Channel stellt die [!UICONTROL Buy Box Competitor Pricing] -Tab, damit Sie die Preispositionierung Ihrer Konkurrenten in Amazon besser verstehen können.
+role: Admin
+level: Intermediate
+feature: Sales Channels, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -34,7 +37,7 @@ Die _[!UICONTROL Buy Box Competitor Pricing]_auf der Registerkarte_[!UICONTROL P
    Zeigt den Händler und den Preis an, dessen Auflistung die [[!DNL Buy Box]](./buy-box-competitor-pricing.md) auf Amazon.
 
 | Spalte | Beschreibung |
-|--- |--- |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>Für Bücher ist das ASIN identisch mit der ISBN-Nummer, aber für alle anderen Produkte wird ein neues ASIN erstellt, wenn der Artikel in Ihren Katalog hochgeladen wird. Sie finden das ASIN eines Artikels auf der Produktdetailseite zusammen mit zusätzlichen Details zum Artikel (z. B. Größe, Anzahl der Seiten oder Anzahl der Festplatten). |
 | [!UICONTROL Is Seller] | Gibt an, ob der Verkäufer die Buy Box-Position für die Auflistung gewonnen hat. |
 | [!UICONTROL Condition] | Die [Bedingung](./product-listing-condition.md) des Erzeugnisses. |

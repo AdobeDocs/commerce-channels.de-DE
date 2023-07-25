@@ -1,9 +1,9 @@
 ---
 title: Amazon-Preise verwalten
 description: Sie können die Preise für Ihre Amazon-Auflistungen mithilfe der Preisregeln von Ihrem COCommerce-Store unterscheiden.
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Es gibt zwei Arten von Preisregeln:
 - [Standardmäßige Preisregel](./standard-price-rules.md)
 - [Intelligente Neupreisregel](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >Intelligente Regeln für die Neuberechnung funktionieren nicht ordnungsgemäß, wenn der Amazon-Bereich auf `Inactive` -Status, wie es beim Onboarding der Fall ist. Ihre Preisberechnungen hängen von Ihren Versandkosten ab und Ihre Region muss sich in `Active` Status für Ihre Versandraten, die von Amazon synchronisiert werden.
-   >
-   >Um den Status Ihrer Region in Ihrem Amazon-Konto zu aktualisieren, gehen Sie zu Einstellungen > Kontoinformationen > Urlaubseinstellungen. Siehe [Amazon: Listening-Status für Urlaub](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Anmeldung bei Seller Central erforderlich).
+  >[!IMPORTANT]
+  >
+  >Intelligente Regeln für die Neuberechnung funktionieren nicht ordnungsgemäß, wenn der Amazon-Bereich auf `Inactive` -Status, wie es beim Onboarding der Fall ist. Ihre Preisberechnungen hängen von Ihren Versandkosten ab und Ihre Region muss sich in `Active` Status für Ihre Versandraten, die von Amazon synchronisiert werden.
+  >
+  >Um den Status Ihrer Region in Ihrem Amazon-Konto zu aktualisieren, gehen Sie zu Einstellungen > Kontoinformationen > Urlaubseinstellungen. Siehe [Amazon: Listening-Status für Urlaub](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Anmeldung bei Seller Central erforderlich).
 
 Mit dieser Funktion können Sie Ihre Amazon-Preise so anpassen, dass sie der [!DNL Commerce] [Katalogpreisregeln](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). Sie können komplexe Regeln erstellen, mit denen Sie die Preise für bestimmte Produkte, Produkte innerhalb bestimmter Kategorien oder auch mit bestimmten Attributen ändern können.
 
@@ -58,7 +58,7 @@ Eine weitere Preisoption ist [Preisüberschreibung](./overrides.md), der auf der
 ## Standardspalten
 
 | Spalte | Beschreibung |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | Der Name der Preisregel, wie in [Allgemeine Preisregeleinstellungen](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | Der Regeltyp, wie in [Preisregelaktionen](./pricing-rule-actions.md) (entweder Standardpreisregel oder intelligente Neupreisregel) |
 | [!UICONTROL Is Active] | Gibt an, ob die Regel aktiv ist, wie in [Allgemeine Preisregeleinstellungen](./pricing-rule-general-settings.md) |

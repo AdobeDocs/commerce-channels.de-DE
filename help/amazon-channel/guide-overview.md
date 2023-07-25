@@ -3,8 +3,11 @@ title: '[!DNL Amazon Sales Channel] Guide'
 description: Umfassende Informationen zu [!DNL Amazon sales channel] für Adobe Commerce- und Magento Open Source-Administratoren, einschließlich Installation und Onboarding
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
+role: Leader, Admin, User
+level: Intermediate
+recommendations: noCatalog
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 901d856067cd9d236727edc8bde354820791c411
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,9 +30,9 @@ Dieses Handbuch enthält einige grundlegende [!DNL Amazon Seller Central] Inform
 >Die Kernfunktionen von Adobe Commerce und Magento Open Source werden in diesem Handbuch nicht behandelt.
 
 | Bereich | Beschreibung |
-|----|----|
+|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Einführung in den Amazon-Vertriebskanal](./overview.md) | Erfahren Sie mehr über die Grundlagen des Amazon-Vertriebskanals, die wichtigsten Funktionen, Best Practices und mehr. |
-| [Onboard Amazon Sales Channel](./amazon-onboarding-home.md) | Schnelles Erstellen von Amazon Stores und Integration mit [!DNL Amazon Seller Central]. Nutzen Sie Ihren Amazon-Vertriebskanal, um mit dem Verkauf zu beginnen. |
+| [Integrierter Amazon-Vertriebskanal](./amazon-onboarding-home.md) | Schnelles Erstellen von Amazon Stores und Integration mit [!DNL Amazon Seller Central]. Nutzen Sie Ihren Amazon-Vertriebskanal, um mit dem Verkauf zu beginnen. |
 | [Amazon-Vertriebskanal - Startseite](./amazon-sales-channel-home.md) | Erfahren Sie mehr über die Startseite Ihres Amazon-Vertriebskanals und die verfügbaren Optionen und Aufgaben. Zeigen Sie zusammenfassende Informationen zu Ihren Amazon Stores an und greifen Sie auf Store-Details und -Einstellungen zu. |
 | [Attribute verwalten](./attributes-view.md) | Der Amazon-Vertriebskanal ordnet Produkte zwischen [!DNL Commerce] Katalog und Amazon mithilfe von Produktattributen. Erfahren Sie mehr über das Erstellen, Zuordnen und Verwalten dieser Attribute. |
 | [Verwalten von Store-Einstellungen](./ob-store-review.md) | Zeigen Sie Ihre Store-Einstellungen an und ändern Sie sie, einschließlich Listeneinstellungen, Bestelleinstellungen, Listen- und Preisregeln. |
@@ -40,7 +43,7 @@ Dieses Handbuch enthält einige grundlegende [!DNL Amazon Seller Central] Inform
 ## Zusätzliche Dokumentation
 
 | Dokumentationsressource | Beschreibung |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Dokumentation zu Adobe Commerce 2.4 Merchant](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchandising-fokussierte Dokumentation für Adobe Commerce und Magento Open Source |
 | [Dienste für die Dokumentation zu Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Dokumentation zur Unterstützung einer Reihe von Diensten, die Händlern bei der Integration wichtiger Komponenten ihres Geschäfts in ihren Speicher helfen. |
 | [Benutzerhandbuch zu Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Schrittweise Anleitungen zur Bereitstellung von Adobe Commerce auf einer verwalteten, automatisierten Hosting-Cloud-Plattform. |

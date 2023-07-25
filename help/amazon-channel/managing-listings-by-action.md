@@ -1,8 +1,9 @@
 ---
 title: Verwalten von Amazon-Produktlisten nach Aktion
 description: Bei der Verwaltung Ihrer Amazon-Auflistungen können Sie eine Aktion auf einzelne oder mehrere Auflistungen anwenden.
+feature: Sales Channels, Products
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Optionen unter **[!UICONTROL Actions]** kann die Aktion auf mehrere Listen anwen
 Siehe auch [Verwalten von Listen nach Status/Registerkarte](./managing-listings-by-tab.md).
 
 | Aktion | Beschreibung | Registerkarten |
-|--- |--- |--- |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | Wird verwendet, um die unvollständigen Produkte wieder durch den entsprechenden Prozess zu verschieben. Um eine Neuübereinstimmung zu versuchen, müssen Sie Ihre [Auflistung](./listing-settings.md) und [Katalogsuche](./catalog-search.md) -Einstellungen, um das Potenzial für eine automatische Zuordnung zu erhöhen. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | Ordnen Sie Ihre Katalogprodukte manuell zu Amazon-Auflistungen zu, indem Sie eine Liste auswählen, eine passende ASIN eingeben oder eine fehlende Bedingung zuweisen. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL View Details]](./product-listing-details.md) | Zeigen Sie zusätzliche Informationen zu Ihren aktiven Produkten an, einschließlich des Protokolls zu Listing-Aktivitäten, in dem die Änderungen an einer einzelnen SKU/einem einzelnen Produkt angezeigt werden. | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |

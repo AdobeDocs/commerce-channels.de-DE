@@ -1,9 +1,11 @@
 ---
 title: "[!DNL (B2B) Business Price] für Amazon-Listen"
 description: Sie können [!DNL Commerce] Store-Produkte auf der Amazon Business-Site (B2B), indem Sie Unternehmen in Ihrer Amazon aktivieren [!DNL Seller Central] -Konto.
-redirect_from: /sales-channels/asc/ob-business-pricing.html
+role: Admin
+level: Intermediate
+feature: Sales Channels, Configuration, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -47,7 +49,7 @@ Damit Ihre Produkte im [!DNL Amazon Business (B2B)] Site müssen Sie zunächst i
 ![Amazon Business Pricing (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Feld | Beschreibung |
-|--- |--- |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | Optionen: <ul><li>**[!UICONTROL Disabled]** - (Standard) Wählen Sie aus, wann Sie den Business-to-Business-Vertrieb nicht aktivieren möchten. Wenn diese Option aktiviert ist, sind alle anderen Felder in diesem Abschnitt deaktiviert.</li><li>**[!UICONTROL Enabled]** - Entscheiden Sie, wann Sie Ihr Unternehmen für den Geschäftsverkauf aktivieren möchten. Wenn diese Option ausgewählt ist, wird der Geschäftspreis gleich dem Listenpreis festgelegt, nachdem alle Preisregeln angewendet wurden. Der Geschäftspreis entspricht, sofern aktiviert, dem Umfang der Website-Preise. Ein Geschäftspreis darf nicht weniger als 1 Dollar betragen.</li></ul> |
 | [!UICONTROL Enable Tiered Pricing] | (Erforderlich) Optionen: <ul><li>**[!UICONTROL Disabled]** - (Standard) Wählen Sie aus, wann Sie denselben Listenpreis für alle Bestellmengen wünschen. Wenn ausgewählt, werden alle _[!UICONTROL Pricing Level]_-Felder in diesem Abschnitt sind deaktiviert.</li><li>**[!UICONTROL Enabled]** - Wählen Sie aus, wann Sie eine Preisanpassung basierend auf der Bestellmenge vornehmen möchten. Wenn ausgewählt, wird die _[!UICONTROL Pricing Level]_-Felder aktiviert sind.</li></ul> |
 | [!UICONTROL Pricing Level One-Five (qty/discount)] | Wenn die Option &quot;Tiered Pricing&quot;aktiviert ist, können Sie bis zu fünf Quantitäts-/Rabatteinstellungen definieren, die die Stufenpreise für Ihre Geschäftslisten festlegen. Geben Sie in jeder Zeile den Schwellenwert für die Menge und den anzuwendenden Prozentsatz für den Rabatt an. Wenn Sie beispielsweise `5` im ersten Feld der ersten Zeile und `5` im zweiten Feld wird ein Rabatt von 5 % gewährt, wenn ein anderes Unternehmen eine Menge von fünf oder mehr kauft. |

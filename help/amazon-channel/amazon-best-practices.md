@@ -1,8 +1,10 @@
 ---
 title: Best Practices und Einschränkungen für [!DNL Amazon sales channel]
 description: Lesen Sie die Best Practices und Einschränkungen bei der Verwendung des Amazon-Vertriebskanals für Adobe Commerce und Magento Open Source.
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,10 +25,9 @@ Zu den Best Practices gehören:
 
 - Für Regionen des Vereinigten Königreichs empfiehlt es sich, sich bei der [Amazon - MwSt-Berechnungsservice](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} vor dem Onboarding des Amazon-Vertriebskanals.
 
-
-   >[!NOTE]
-   >
-   >Es kann 10-14 Tage dauern, bis Amazon Ihr Konto für den MwSt-Berechnungsdienst überprüft und aktiviert.
+  >[!NOTE]
+  >
+  >Es kann 10-14 Tage dauern, bis Amazon Ihr Konto für den MwSt-Berechnungsdienst überprüft und aktiviert.
 
 Zu den Einschränkungen gehören:
 

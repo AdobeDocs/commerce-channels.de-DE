@@ -4,7 +4,8 @@ description: "Umfassende Informationen zu [!DNL Channel Manager] für Adobe Comm
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+recommendations: noCatalog
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -32,7 +33,7 @@ Weitere Informationen zur Verwaltung Ihrer [!DNL Commerce] Informationen zu Plat
 
 
 | Dokumentationsressource | Beschreibung |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Dokumentation zu Adobe Commerce 2.4 Merchant](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchandising-fokussierte Dokumentation für Adobe Commerce und Magento Open Source |
 | [Dienste für die Dokumentation zu Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Dokumentation zur Unterstützung einer Reihe von Diensten, die Händlern bei der Integration wichtiger Komponenten ihres Geschäfts in ihren Speicher helfen. |
 | [Benutzerhandbuch zu Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Schrittweise Anleitungen zur Bereitstellung von Adobe Commerce auf einer verwalteten, automatisierten Hosting-Cloud-Plattform. |

@@ -1,8 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - [!UICONTROL Listing Rules]
 description: Mit Listening-Regeln werden die Commerce-Katalogprodukte bestimmt, die als Amazon Marketplace-Listen veröffentlicht werden.
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Ihre Listening-Regeln werden kontinuierlich mit Ihrer [!DNL Commerce] Katalog. W
 Siehe [Beispiel: Definieren einer Bedingung](./ob-define-condition-example.md).
 
 | Feld | Beschreibung |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | Die verfügbaren Optionen hängen von der [Websites](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) Sie haben sich in der [!DNL Commerce] Konfiguration. Wählen Sie die Website für die in Amazon aufgeführten Produkte aus. Es kann nur eine Website ausgewählt werden, da für jede Website ein eindeutiger Amazon Store erforderlich ist, der im Amazon-Vertriebskanal erstellt wurde. |
 | [!UICONTROL Conditions] | Wird verwendet, um die [!DNL Commerce] -Attribute für die Produkteignung in Ihrer Amazon-Region. Siehe [Beispiel: Definieren einer Bedingung](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ Ihre potenziellen Amazon-Auflistungen werden im _[!UICONTROL Listing Preview]_Se
 
 - **[!UICONTROL Ineligible Listings]** - Die aufgelisteten Produkte können aufgrund Ihrer aktuellen Listenregeln und -bedingungen nicht in die Amazon-Liste aufgenommen werden.
 
-   Nicht infrage kommende Produkte werden nicht in Amazon veröffentlicht. Wenn ein nicht infrage kommendes Produkt bereits in Amazon aufgeführt ist und Sie die Amazon-Liste mit Ihrer [!DNL Commerce] Katalogprodukt, die Menge für die Amazon, in der Änderungen an `0` um den Verkauf des Erzeugnisses zu verhindern. Informationen zum manuellen Entfernen einer Liste finden Sie unter [Beenden einer Amazon-Auflistung](./end-listings-manually.md). Produkte, die nicht für Amazon-Anforderungen infrage kommen, sind hier nicht aufgeführt. Diese Produkte sind auf der [Registerkarte &quot;Inaktive Listen&quot;](./inactive-listings.md).
+  Nicht infrage kommende Produkte werden nicht in Amazon veröffentlicht. Wenn ein nicht infrage kommendes Produkt bereits in Amazon aufgeführt ist und Sie die Amazon-Liste mit Ihrer [!DNL Commerce] Katalogprodukt, die Menge für die Amazon, in der Änderungen an `0` um den Verkauf des Erzeugnisses zu verhindern. Informationen zum manuellen Entfernen einer Liste finden Sie unter [Beenden einer Amazon-Auflistung](./end-listings-manually.md). Produkte, die nicht für Amazon-Anforderungen infrage kommen, sind hier nicht aufgeführt. Diese Produkte sind auf der [Registerkarte &quot;Inaktive Listen&quot;](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]** - aufgelistete Produkte können auf der Grundlage Ihrer aktuellen Listenregeln und -bedingungen in die Amazon-Liste aufgenommen werden und sind auch für Amazon-Anforderungen geeignet. Diese Liste enthält Ihre vorhandenen Amazon-Listen, die importiert werden (falls Sie **Importieren von Drittanbieterlisten** auf `Import Listing` in [Listening-Einstellungen](./third-party-listing-settings.md)).
 
@@ -94,7 +95,7 @@ Ihre potenziellen Amazon-Auflistungen werden im _[!UICONTROL Listing Preview]_Se
 ### Auflisten von Vorschaudatensätzen
 
 | Feld | Beschreibung |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | Die eindeutige, sequenzielle Zahl, die einer [!DNL Commerce] -Katalogprodukt, wenn es hinzugefügt wird. |
 | [!UICONTROL Thumbnail] | Zeigt eine Miniaturansicht des Hauptproduktbilds an. |
 | [!UICONTROL Name] | Der Name des Produkts, das im [!DNL Commerce] [Produktraster](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

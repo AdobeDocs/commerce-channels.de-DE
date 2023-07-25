@@ -1,8 +1,9 @@
 ---
 title: Unvollständige Amazon-Listen
 description: Der Amazon-Vertriebskanal stellt die [!UICONTROL Incomplete] -Tab, damit Sie die Voraussetzungen für eine unvollständige Amazon-Auflistung identifizieren und erfüllen können.
+feature: Sales Channels, Products
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Die _[!UICONTROL Incomplete]_enthält [!DNL Commerce] Katalogprodukte, die Ihren
 Es gibt vier mögliche Ursachen für eine unvollständige Auflistung, die jeweils durch ihren Status identifiziert werden.
 
 | Status | Grund | Aktion |
-|--- |--- |--- |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Fehlende Bedingung | Amazon akzeptiert Auflistungen unter verschiedenen Bedingungen (z. B. _Neu_, _renoviert_, _Verwendet: Like New_) erfordert eine definierte Bedingung. | Erforderliche Informationen und manuell aktualisieren [Zuweisen einer Bedingung](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) auf eine Liste. |
 | Der Amazon-Auflistung kann nicht zugewiesen werden | Die automatische Übereinstimmung dieser Auflistung mit Ihrem Katalog ist fehlgeschlagen. Wenn keine Übereinstimmung gefunden wird, kann die Auflistung nicht vom Amazon-Sales Channel verwaltet werden | Erforderliche Informationen und manuell aktualisieren [ZUWEISEN VON ASIN](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) zum Katalogprodukt, um mit der Auflistung abzugleichen. |
 | Mehrere gefundene Übereinstimmungen | Die automatische Übereinstimmung dieser Auflistung mit Ihrem Katalog ist fehlgeschlagen. Wenn mehrere mögliche Übereinstimmungen gefunden werden, müssen Sie die richtige Übereinstimmung für Ihr Produkt auswählen. | Erforderliche Informationen und manuell aktualisieren [Produktabgleich auswählen](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) für das Produkt und die Auflistung. |
@@ -46,7 +47,7 @@ under **[!UICONTROL Select]** im _[!UICONTROL Action]_column:
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 
 | Spalte | Beschreibung |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>ASIN steht für die [!DNL Amazon Standard Identification Number]. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
 | [!UICONTROL Product Listing Name] | Der Name des Produkts. |

@@ -1,8 +1,9 @@
 ---
 title: Attribute für Amazon-Auflistungen
 description: Amazon Sales Channel stellt die [!UICONTROL Attributes] um die Liste der Amazon- und Commerce-Attribute und ihre Zuordnung für die Produktzuordnung zu überwachen.
+feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -29,10 +30,10 @@ Aus dem _[!UICONTROL Attributes]_anzeigen, Sie anzeigen und Ihre Attributeinstel
 
    - So deaktivieren Sie oder [Einstellungen bearbeiten](./creating-attributes.md#edit-an-attribute) oder Abgleichen von Attributwerten für das Attribut klicken Sie auf **[!UICONTROL Edit]**.
 
-      Das Bearbeiten eines Attributs umfasst das Ändern der Attributzuordnung für die Produktzuordnung.
+     Das Bearbeiten eines Attributs umfasst das Ändern der Attributzuordnung für die Produktzuordnung.
 
 | Feld | Beschreibung |
-|--- |--- |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Country] | Das Land der Verkaufsaktivität, definiert in  **[!DNL Amazon Marketplace]Land** during [Store-Integration](./store-integration.md). |
 | [!UICONTROL ID] | Generischer Attributwert, generiert von [!DNL Commerce] wenn das Attribut erstellt wird. |
 | [!UICONTROL Amazon Attribute Name] | Der Name des aus Amazon importierten Attributs. |

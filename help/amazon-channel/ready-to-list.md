@@ -1,8 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - [!UICONTROL Ready to List]
 description: Der Amazon-Vertriebskanal bietet die Registerkarte "Listenbereit", mit der Sie Commerce-Produkte überprüfen können, die die Voraussetzungen erfüllen, aber nicht automatisch aufgelistet werden.
+feature: Sales Channels, Products, Merchandising
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Sie haben einige Optionen zum manuellen [Neue Liste in Amazon veröffentlichen](
 ## Standardspalten
 
 | Spalte | Beschreibung |
-|---|---|
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>ASIN steht für die [!DNL Amazon Standard Identification Number]. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
 | [!UICONTROL Product Listing Name] | Der Name des Produkts. |

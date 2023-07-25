@@ -1,8 +1,9 @@
 ---
-title: Amazon-Vertriebskanal - [!UICONTROL Store Integration Settings]
+title: Amazon Sales Channel - [!UICONTROL Store Integration Settings]
 description: Nachdem Sie das Onboarding des Amazon-Verkaufskanals abgeschlossen haben, überprüfen und konfigurieren Sie die Einstellungen für die Store-Integration über das [!UICONTROL Amazon Store] Dashboard
+feature: Sales Channels, Integration
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%

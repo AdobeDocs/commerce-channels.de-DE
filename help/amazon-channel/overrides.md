@@ -1,8 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - [!UICONTROL Overrides]
 description: Amazon Sales Channel bietet die Registerkarte Überschreibungen , mit der Sie erkennen und verwalten können, wie Sie Überschreibungen in Ihren Amazon-Auflistungen anwenden.
+feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Die _[!UICONTROL Overrides]_zeigt Ihre Amazon-Listen an, auf die Sie eine Übers
 ## Arten von Außerkraftsetzungen
 
 | Typ | Beschreibung |
-|---|---|
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Preis | Eine Überschreibung, die den Preis der Auflistung festlegt und alle anderen Preiseinstellungen für die Auflistung ignoriert. <br><br>**Beispiel**: Sie haben eine Preisregel von 20 % definiert, die für alle Produkte in einer bestimmten Kategorie Ihres Katalogs gilt. Sie haben ein Produkt, das neu auf dem Markt ist und die Nachfrage hoch ist, sodass Sie nicht möchten, dass der ermäßigte Preis auf die Auflistung angewendet wird, auch wenn das Produkt in dieser Kategorie enthalten ist. Sie können die Liste auswählen, [Preisüberschreibungen erstellen](./creating-editing-overrides.md#edit-override-single-listing)und legen Sie den Börsenkurs in einer Preisüberschreibung fest. |
 | Verarbeitungszeit | Eine Überschreibung, die die Verarbeitungszeit für eine Auflistung festlegt und dabei die standardmäßige Bearbeitungszeit ignoriert, die in den Listeneinstellungen festgelegt wurde.<br><br>**Beispiel**: Ihre standardmäßige Bearbeitungszeit für Ihre Listen ist auf 2 Tage eingestellt. Sie haben ein Produkt, das zerbrechlich ist und einen zusätzlichen Tag benötigt, um seine spezielle Verpackung für den Versand sicherzustellen. Sie können die Liste anzeigen, [Erstellen einer Zeitüberschreitung für die Verarbeitung](./creating-editing-overrides.md#edit-override-single-listing)und legen Sie die Bearbeitungszeit auf drei Tage fest.<br><br>**Hinweis:** Nicht verfügbar für Produkte, die auf `Fulfilled by Amazon`. |
 | Bedingung | Eine Überschreibung, die den Bedingungswert einer Auflistung festlegt, unabhängig vom Bedingungsattribut, das der Auflistung zugewiesen ist.<br><br>**Beispiel**: Die meisten Produkte in Ihrem Katalog sind neue Bedingungen, aber Sie haben ein Produkt, das sich in einem Zustand befindet, in dem es renoviert wurde. Sie können die Liste anzeigen, [Bedingungsüberschreibungen erstellen](./creating-editing-overrides.md#edit-override-single-listing)und definieren Sie die Bedingung Neu erstellt für die Auflistung.<br><br>**Hinweis:** Nicht verfügbar für Produkte, die auf `Fulfilled by Amazon`. |
@@ -43,7 +44,7 @@ Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbei
 ## Standardspalten
 
 | Spalte | Beschreibung |
-|---|---|
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>ASIN steht für die Amazon Standard-Identifikationsnummern. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
 | [!UICONTROL Condition Override] | Die neue Bedingung, die in der Überschreibung definiert wird. Wenn die auf die Auflistung angewendete Überschreibung keine Bedingungsüberschreibungen ist, `Not Selected` in dieser Spalte angezeigt. |

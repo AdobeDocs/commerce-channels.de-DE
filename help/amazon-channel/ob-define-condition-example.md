@@ -1,8 +1,9 @@
 ---
 title: '''Beispiel: Definieren Sie eine Bedingung für Amazon-Listening-Regeln .'
 description: Definieren Sie beim Erstellen Ihrer Listening-Regeln Bedingungen zur Identifizierung der Commerce-Katalogprodukte, die auf dem Amazon Marketplace aufgeführt werden sollen.
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
 
    - **[!UICONTROL Conditions Combination]** - Ermöglicht die Erstellung eines weiteren Satzes von `All/Any` und `True/False` Bedingungen innerhalb des vorhandenen Satzes.
 
-      ![Bedingungskombination](assets/ob-conditions-combinations.png){width="500"}
+     ![Bedingungskombination](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]** - Die Produktattribute hängen von der Einrichtung des Attributs ab. Damit ein Attribut in der Liste angezeigt wird, muss es für die Verwendung in Bedingungen für Werberegeln konfiguriert werden. Siehe _Verwendung für Bedingungen für Angebotsregeln_ in [Produktattribute](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      In der Liste unter **[!UICONTROL Product Attribute]**, wählen Sie das Attribut aus, das Sie als Grundlage für die Bedingung verwenden möchten. In diesem Beispiel lautet die ausgewählte Bedingung: `Amazon FBA`.
+     In der Liste unter **[!UICONTROL Product Attribute]**, wählen Sie das Attribut aus, das Sie als Grundlage für die Bedingung verwenden möchten. In diesem Beispiel lautet die ausgewählte Bedingung: `Amazon FBA`.
 
-      ![Bedingungszeile 2, Teil 2](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![Bedingungszeile 2, Teil 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      Die ausgewählte Bedingung wird in der Anweisung angezeigt, gefolgt von zwei weiteren fett gedruckten Links. Die Optionen variieren je nach ausgewähltem Produktattribut.
+     Die ausgewählte Bedingung wird in der Anweisung angezeigt, gefolgt von zwei weiteren fett gedruckten Links. Die Optionen variieren je nach ausgewähltem Produktattribut.
 
-      Nachdem Sie das Attribut festgelegt haben, kann es nicht mehr geändert werden. Um das Attribut zu ändern, müssen Sie die Zeile löschen und das neue Attribut hinzufügen. Sie können eine Bedingungszeile löschen, indem Sie auf Löschen (![Löschsymbol](assets/btn-del-red.png)) am Ende der Zeile.
+     Nachdem Sie das Attribut festgelegt haben, kann es nicht mehr geändert werden. Um das Attribut zu ändern, müssen Sie die Zeile löschen und das neue Attribut hinzufügen. Sie können eine Bedingungszeile löschen, indem Sie auf Löschen (![Löschsymbol](assets/btn-del-red.png)) am Ende der Zeile.
 
       1. Klicken **[!UICONTROL is]** und wählen Sie den Vergleichsoperator aus, der die Bedingung für die zu erfüllenden Produkte beschreibt.
 
@@ -74,6 +75,7 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
          Das ausgewählte Element wird in der Anweisung angezeigt, um die Bedingung abzuschließen.
 
          ![Bedingungszeile 2, Teil 3](assets/ob-listing-rule-condition-is.png){width="500"}
+
    Diese Bedingung ist abgeschlossen. Wie angegeben bedeutet diese Bedingung, dass jedes Produkt in Ihrer [!DNL Commerce] Katalog, für den das Amazon FBA-Attribut auf den Wert `Yes` ist für die Aufnahme in Amazon für die Region und den Store qualifiziert. Sie können weitere Bedingungszeilen hinzufügen, um Ihre infrage kommenden Produkte weiter einzuschränken.
 
 1. Um der Anweisung eine weitere Bedingungszeile hinzuzufügen, kehren Sie zu Schritt 1 zurück und wiederholen Sie den Prozess, bis alle gewünschten Bedingungen abgeschlossen sind.

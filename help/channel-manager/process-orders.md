@@ -1,8 +1,9 @@
 ---
 title: Prozessaufträge
 description: "Hinweise für Versand und Stornierung [!DNL Walmart Marketplace] Bestellungen von Adobe Commerce und Magento Open Source."
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Der Kanal-Manager synchronisiert Aktualisierungen mit [!DNL Walmart Marketplace]
 
 * **Stornierungen von Bestellungen**-Wenn Sie eine [!DNL Walmart Marketplace] Bestellung, Walmart benötigt einen Stornierungsgrund, der in der an den Kunden gesendeten Stornierungsmeldung enthalten ist. Der Stornogrund wird auch im Abschnitt [!DNL Commerce] Bestellzahlinformationen. Nachdem Sie den Abbruch gesendet haben, werden Bestandsaktualisierungen mit synchronisiert. [!DNL Walmart Marketplace]. Anschließend informiert Walmart die Kunden über den Bestellstatus und die Versanddetails.
 
-   In der Storefront müssen Sie die gesamte Bestellung stornieren. [!DNL Commerce] lässt keine teilweisen Stornierungen zu.
+  In der Storefront müssen Sie die gesamte Bestellung stornieren. [!DNL Commerce] lässt keine teilweisen Stornierungen zu.
 
 * **Erstattungsantrag**-Wenn eine Walmart Marketplace-Rückgabe für eine versandte Bestellung angefordert wird, wird die [!UICONTROL Status details] enthält einen Link zur Rückkehr. Die Rückgaben und Erstattungen werden über das [Rückgabe](return-refund-orders.md) Dashboard.
 
@@ -45,7 +46,7 @@ Bei der Verarbeitung von Commerce-Bestellungen und [!DNL Channel Manager] Synchr
 
    * Wählen Sie einen Versandunternehmen aus und fügen Sie eine Trackingnummer hinzu, indem Sie **[!UICONTROL Add tracking number]**.
 
-      ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
+     ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
    * Füllen Sie nach Bedarf den Rest des Versandformulars aus. Siehe [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) für detaillierte Anweisungen.
 
@@ -70,10 +71,10 @@ Nach dem Versand einer Bestellung können Sie die vollständige oder teilweise R
    * Auswählen **Abbrechen** über das Menü Bestelldetails .
 
    * Im [!UICONTROL Cancel Order] Wählen Sie das **[!UICONTROL Cancellation reason]**.
+
    ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
    * Auswählen **[!UICONTROL Cancel Order]**.
-
 
 1. Verfolgen Sie nach dem Absenden des Abbruchs die [Bestellstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] , um zu überprüfen, ob Aktualisierungen an [!DNL Walmart Marketplace].
 

@@ -1,8 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - [!UICONTROL Price Adjustment]
 description: Konfigurieren Sie Preisanpassungen, um die Preisberechnung zu definieren, wenn Sie die Preisquelle des Amazon-Konkurrenten ermittelt haben.
+feature: Sales Channels, Price Rules
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -52,7 +53,7 @@ Definieren Sie Ihre Preisanpassung im _[!UICONTROL Price Adjustment]_Abschnitt.
 ![Intelligente Neupreisregelung - Preisanpassung](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
-|---|---|
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Wählen Sie eine Preisanpassungsaktion. Optionen:<br>**[!UICONTROL Decrease By]**- Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Magento Price Source]_definiert in [Listenpreis](./listing-price.md) , um einen niedrigeren Preis für die Regel zu erzielen, bevor sie in Amazon aufgenommen wird.<br>**[!UICONTROL Increase By]**- Legen Sie fest, wann die Definition erfolgen soll_[!UICONTROL Magento Price Source]_ definiert in [Listenpreis](./listing-price.md) , um einen höheren Preis für die Regel zu erzielen, bevor sie in Amazon aufgenommen wird.<br>**[!UICONTROL Match Competitor Price]**- (Nur intelligente Neupreisregel) Wählen Sie aus, wann Sie Ihren Amazon-Listingpreis so ändern möchten, dass er mit dem [kleinster Konkurrent](./lowest-competitor-pricing.md) Preis, basierend auf Ihrem Feedback und Varianzparametern Ihrer Konkurrenten. Wenn ausgewählt, wird die _Anwenden_ und _Anpassungsbetrag_ -Felder entfernt werden. |
 | [!UICONTROL Apply] | Optionen:<br>**[!UICONTROL Apply as percentage]**- Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Magento Price Source]_definiert in [Listenpreis](./listing-price.md) um einen Prozentsatz bereinigt.<br>**[!UICONTROL Apply as fixed amount]**- Legen Sie fest, wann die Definition erfolgen soll_[!UICONTROL Magento Price Source]_ definiert in [Listenpreis](./listing-price.md) angepasst um einen festen Betrag. |
 | [!UICONTROL Adjustment Amount] | Erforderlich.<br>Wenn Sie `Apply as percentage` für **[!UICONTROL Apply]**, geben Sie den Prozentwert ein (Beispiel: enter `25` 25 %).<br>Wenn Sie `Apply as fixed amount` für **[!UICONTROL Apply]** Geben Sie den numerischen Wert für den Festbetrag ein (Beispiel: enter `25` für eine feste Anpassung in Höhe von 25 USD). |

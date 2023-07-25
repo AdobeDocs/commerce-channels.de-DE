@@ -1,8 +1,9 @@
 ---
 title: Amazon-Vertriebskanal - Aktionen im Rahmen von Standardpreisregeln
 description: Verwenden Sie standardmäßige Preisregelaktionen, um einen Amazon-Listingpreis im Verhältnis zum Commerce-Katalogpreis (oder zur Preisquelle) zu erhöhen oder zu senken.
+feature: Sales Channels, Price Rules
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -49,7 +50,7 @@ Zu den Abschnitten einer Standardaktion für Preisregeln gehören:
 ![Standardpreisregel](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
-|---|---|
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | Auswählen `Standard price rule`. |
 | [!UICONTROL Price Action] | Optionen:<ul><li>**[!UICONTROL Decrease By]** - Legen Sie fest, wann die Definition erfolgen soll [!DNL Commerce] Preisquellenwert vor der Aufnahme in Amazon zu reduzieren.</li><li>**[!UICONTROL Increase By]** - Legen Sie fest, wann die Definition erfolgen soll [!DNL Commerce] Preisquellenwert, der vor der Auflistung in Amazon erhöht werden soll.</li></ul> |
 | [!UICONTROL Apply] | Optionen:<ul><li>**[!UICONTROL Apply as percentage]** - Legen Sie fest, wann die Definition erfolgen soll [!DNL Commerce] Preisquellenwert, um einen Prozentsatz berichtigt.</li><li>**[!UICONTROL Apply as fixed amount]** - Legen Sie fest, wann die Definition erfolgen soll [!DNL Commerce] Preisquellenwert, berichtigt um einen festen Betrag.</li></ul> |
