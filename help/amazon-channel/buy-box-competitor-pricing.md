@@ -24,7 +24,7 @@ Die _[!UICONTROL Buy Box Competitor Pricing]_auf der Registerkarte_[!UICONTROL P
 
 ## Zugriff [!DNL Buy Box] Preisdetails für Wettbewerber
 
-1. Klicken **[!UICONTROL Manage Listings]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Manage Listings]** im Store-Dashboard.
 
    Die [_[!UICONTROL Product Listing]_](./managing-product-listings.md) Seite geöffnet.
 

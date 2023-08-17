@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Vollständige Einrichtung des Sales Channels
+# Vollständige Sales Channel-Einrichtung
 
 Nachdem Sie eine [!DNL Commerce] speichern in [!DNL Walmart Marketplace], schließen Sie die Store-Einrichtung über [!DNL Channel Manager] Homepage.
 
@@ -25,7 +25,7 @@ Nachdem Sie eine [!DNL Commerce] speichern in [!DNL Walmart Marketplace], schlie
 
    - [Konfigurieren von Kanaleinstellungen für Produkt-IDs und Versandunternehmen](settings-overview.md)
 
-   - [Produkte aus Ihrem [!DNL Commerce Catalog] zum Kanal-Manager](add-products-to-channel-store.md)
+   - [Fügen Sie Produkte aus Ihrem [!DNL Commerce Catalog] zum Kanal-Manager](add-products-to-channel-store.md)
 
    - [Produktlisten an [!DNL Walmart] Produktabgleich verwenden](connect-listings-to-marketplace.md)
 

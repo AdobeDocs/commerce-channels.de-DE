@@ -1,5 +1,5 @@
 ---
-title: '"Intelligente Neupreisregel: Bedingte Unterschiede zwischen Wettbewerbern'
+title: "Intelligente Preisänderungsregel: Konkurrierende bedingte Abweichungen"
 description: Bestimmen Sie anhand einer intelligenten Neupreisregel Ihren Amazon-Listenpreis anhand der Preise und Bedingungen des Konkurrenten.
 feature: Sales Channels, Configuration
 exl-id: c52230e3-4e47-45bc-80e0-170530f58987
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Intelligente Neupreisregel: Bedingte Unterschiede zwischen Wettbewerbern
+# Intelligente Neupreisregel: Bedingte Unterschiede zwischen Konkurrenten
 
 Zu den Abschnitten einer intelligenten Neupreisregel gehören:
 
@@ -30,15 +30,15 @@ Wenn ein Produkt mit der Bedingung aufgeführt ist `Used; Good` und dem Basispre
 
 Definieren Sie Ihre Bedingungsabweichungen im _[!UICONTROL Competitor Conditional Variances]_Abschnitt.
 
-Für **[!UICONTROL Conditional Variance]**, wählen Sie eine Option aus:
+Für **[!UICONTROL Conditional Variance]** eine Option auswählen:
 
 - `Use all competitor's product conditions` - (Standard) Wählen Sie aus, wann Ihr Produkt mit einer beliebigen verfügbaren Bedingung verglichen werden soll (wenn für die aufgeführte Bedingung keine Übereinstimmung vorhanden ist).
 
-- `Use Only Matching Competitor's Product Condition` - Wählen Sie aus, wann Ihr Produkt nur mit den Produkten des Konkurrenten in derselben Bedingung verglichen werden soll. Wenn keine Übereinstimmung vorhanden ist, wird der Preis für das Produkt am _Magento Price Source_ definiert in [Listenpreis](./listing-price.md).
+- `Use Only Matching Competitor's Product Condition` - Wählen Sie aus, wann Ihr Produkt nur mit den Produkten des Konkurrenten in derselben Bedingung verglichen werden soll. Wenn keine Übereinstimmung vorhanden ist, wird der Preis für das Produkt am _Magento-Preisquelle_ definiert in [Listingpreis](./listing-price.md).
 
 - `Apply Variance (if competitor's product condition differs)` - Wählen Sie aus, zunächst einen Vergleich mit Ihrer übereinstimmenden Produktbedingung durchzuführen. Wenn keine übereinstimmende Bedingung vorhanden ist, wird eine Abweichung (in Prozent) in Bezug auf Ihre Produktbedingung und die Bedingung des niedrigsten Konkurrenten angewendet.
 
-  Wenn die _[!UICONTROL Apply Variance]_ausgewählt ist, werden für jede Ihrer Amazon-Bedingungen zusätzliche Varianzfelder angezeigt. Diese Funktion ermöglicht Ihnen die Verwendung intelligenter Regeln für die Neuberechnung, wenn Sie Produkte anbieten, die sich in einem anderen Zustand befinden als Ihre Konkurrenten. Um die Berechnung hinter bedingten Abweichungen zu verstehen, müssen Sie zunächst verstehen, dass alle Varianzen anhand eines Basis-Übereinstimmungspreises ermittelt werden.
+  Wenn die Variable _[!UICONTROL Apply Variance]_ausgewählt ist, werden für jede Ihrer Amazon-Bedingungen zusätzliche Varianzfelder angezeigt. Diese Funktion ermöglicht Ihnen die Verwendung intelligenter Regeln für die Neuberechnung, wenn Sie Produkte anbieten, die sich in einem anderen Zustand befinden als Ihre Konkurrenten. Um die Berechnung hinter bedingten Abweichungen zu verstehen, müssen Sie zunächst verstehen, dass alle Varianzen anhand eines Basis-Übereinstimmungspreises ermittelt werden.
 
   Die angezeigten bedingten Varianzoptionen basieren auf Ihren Listeneinstellungen für `Condition` , die mit einem [!DNL Commerce] [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Für alle zugeordneten Bedingungen können Sie einen Varianzprozentsatz von 1-100 definieren. Die Ausnahme sind Sammlerwerte. In diesem Fall kann ein Prozentsatz von mehr als 100 angewendet werden.
 
@@ -50,8 +50,8 @@ Für **[!UICONTROL Conditional Variance]**, wählen Sie eine Option aus:
 
 ## Bedingte Varianzbasis berechnen
 
-- Base Match Condition Variance (BMC) = Die Varianz für die Bedingung Ihres Basis-Match-Preiswettbewerbers. Unter Verwendung des vorherigen Beispiels ist BMC die Varianz für die `New` Bedingung.
-- Varianz der Merchant Condition (MCV) = Varianz für die Bedingung Ihres Produkts. Bei Verwendung des vorherigen Beispiels ist MCV = die Varianz für die Variable `Used; Good` Bedingung.
+- Base Match Condition Variance (BMC) = Die Varianz für die Bedingung Ihres Basis-Match-Preiswettbewerbers. Beim vorherigen Beispiel ist BMC die Varianz für die `New` -Bedingung.
+- Varianz der Merchant Condition (MCV) = Varianz für die Bedingung Ihres Produkts. Bei Verwendung des vorherigen Beispiels ist MCV = die Varianz für die Variable `Used; Good` -Bedingung.
 - Basis-Übereinstimmungspreis (BMP) = 7,99 USD (Erklärung oben)
 
 Die Formel zur Berechnung der bedingten Varianzbasis lautet wie folgt:
@@ -70,4 +70,4 @@ Die bedingten Variableneinstellungen lauten wie folgt:
 
 ![Beispiel für die Berechnung der bedingten Varianz](assets/amazon-cond-variance-calc-2.png){width="300"}
 
-Bei Verwendung der obigen Berechnung der bedingten Varianz ist Ihre bedingte Varianzbasis = 6,39 USD. Diese Berechnung ist die Preisquelle des Konkurrenten, die für Ihre Preisregel-Aktionen verwendet wird. Weitere Informationen finden Sie unter [Preisanpassung](./price-adjustment.md).
+Bei Verwendung der obigen Berechnung der bedingten Varianz beträgt Ihre bedingte Varianzbasis = 6,39 USD. Diese Berechnung ist die Preisquelle des Konkurrenten, die für Ihre Preisregelaktionen verwendet wird. Weitere Informationen finden Sie unter [Preisanpassung](./price-adjustment.md).

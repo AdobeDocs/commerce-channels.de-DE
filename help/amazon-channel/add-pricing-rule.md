@@ -7,7 +7,7 @@ exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,11 @@ Preisregeln können jederzeit konfiguriert oder geändert werden, nachdem Ihr St
 
 ## Standardpreisregel
 
-Mit einer standardmäßigen Preisregel-Aktion können Sie einen Amazon-Börsennotierungspreis um einen bestimmten Prozentwert oder festen Dollarbetrag im Verhältnis zum * erhöhen oder verringern *[!UICONTROL Magento Price Source*]* definiert in [Listenpreis](./listing-price.md).
+Mit einer standardmäßigen Preisregel-Aktion können Sie einen Amazon-Börsennotierungspreis um einen bestimmten Prozentwert oder festen Dollarbetrag im Verhältnis zum * erhöhen oder verringern.*[!UICONTROL Magento Price Source*]* definiert in [Listingpreis](./listing-price.md).
 
 ### Hinzufügen einer standardmäßigen Preisregel
 
-1. Klicken **[!UICONTROL Pricing rules]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Pricing rules]** im Store-Dashboard.
 
 1. Klicken **[!UICONTROL Add new pricing rule]**.
 
@@ -39,7 +39,7 @@ Eine intelligente Neupreisregel nutzt die Preise von Amazon-Konkurrenten, um Ihr
 
 ### Intelligente Neupreisregel hinzufügen
 
-1. Klicken **[!UICONTROL Pricing rules]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Pricing rules]** im Store-Dashboard.
 
 1. Klicken **[!UICONTROL Add new pricing rule]**.
 

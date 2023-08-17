@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Vertriebskanaleinstellungen
 
-Wenn die [!DNL Amazon Sales Channel] installiert ist, werden im Vertriebskanal Admin für Amazon Standardwerte festgelegt. Diese Einstellungen können in Ihren Konfigurationseinstellungen für Ihren Amazon Store geändert werden. Zu diesen Einstellungen gehören:
+Wenn die Variable [!DNL Amazon Sales Channel] installiert ist, werden im Vertriebskanal Admin für Amazon Standardwerte festgelegt. Diese Einstellungen können in Ihren Konfigurationseinstellungen für Ihren Amazon Store geändert werden. Zu diesen Einstellungen gehören:
 
 - Zeiträume für das Löschen des Aktivitätsprotokollverlaufs
 - Cron-Quellauswahl
@@ -23,9 +23,9 @@ Wenn die [!DNL Amazon Sales Channel] installiert ist, werden im Vertriebskanal A
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales Channels]** und wählen Sie **[!UICONTROL Global Settings]**.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Sales Channels]** und wählen **[!UICONTROL Global Settings]**.
 
-1. Für **[!UICONTROL Clear Log History]**, wählen Sie eine Option aus:
+1. Für **[!UICONTROL Clear Log History]** eine Option auswählen:
 
    - `Once Daily` - Wählen Sie aus, den Verlauf Ihrer Store-Aktivität einmal täglich zu löschen.
 
@@ -37,7 +37,7 @@ Wenn die [!DNL Amazon Sales Channel] installiert ist, werden im Vertriebskanal A
 
    Mit dieser Option kann der Amazon-Vertriebskanal Ihre [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) Einstellungen zum Ermitteln von Kommunikations- und Datensynchronisierungsintervallen mit [!DNL Amazon Seller Central].
 
-1. Für **[!UICONTROL Enable Debug Logging]** auswählen `Enabled` , um bei der Fehlerbehebung zusätzliche Synchronisierungsdaten zu erfassen.
+1. Für **[!UICONTROL Enable Debug Logging]** auswählen `Enabled` um zusätzliche Synchronisierungsdaten zu erfassen, wenn eine Fehlerbehebung erforderlich ist.
 
    Die Protokollierung des Amazon-Vertriebskanals wird in `{Commerce Root}/var/log/channel_amazon.log` Datei und kann in [Entwicklermodus](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). Die Protokollierung sollte nur `Enabled` während der Fehlerbehebung und sollten `Disabled` wenn die Fehlerbehebung abgeschlossen ist.
 
@@ -47,7 +47,7 @@ Wenn die [!DNL Amazon Sales Channel] installiert ist, werden im Vertriebskanal A
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Read-Only Mode] ist für Kopien der Produktionsinstanz wie Staging oder Qualitätssicherung konzipiert und sollte nicht in der Produktionsinstanz verwendet werden.
+   >[!UICONTROL Read-Only Mode] wurde für Kopien der Produktionsinstanz entwickelt, z. B. Staging oder Qualitätssicherung, und sollte nicht in der Produktionsinstanz verwendet werden.
    >
    >Wenn eine Datenbank auf eine neue Kopie der Instanz migriert wird (erkannt, wenn sich die URL eines Stores in der Konfiguration ändert), [!UICONTROL Read-Only Mode] automatisch aktiviert ist.
 

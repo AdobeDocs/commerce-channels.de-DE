@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Erstellen von Commerce-Attributen für Amazon
 
-Vor der Onboarding [!DNL Amazon Seller Central] , empfiehlt es sich, [!DNL Commerce] [Produktattribute](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) , um Ihre Produktlisten zuzuordnen. Nach Abschluss des Onboarding können Sie Ihre Produktattribute über die [Attribute](./managing-attributes.md) des [Amazon-Vertriebskanal - Startseite](./amazon-sales-channel-home.md) Seite.
+Vor der Onboarding-Arbeit [!DNL Amazon Seller Central] , empfiehlt es sich, [!DNL Commerce] [Produktattribute](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) , um Ihre Produktlisten zuzuordnen. Nach Abschluss des Onboarding können Sie Ihre Produktattribute über die [Attribute](./managing-attributes.md) des [Amazon-Vertriebskanal - Startseite](./amazon-sales-channel-home.md) Seite.
 
 In diesen Anweisungen wird beschrieben, wie Sie [!DNL Commerce] -Attribute für Amazon ASIN- und Amazon-Bedingung. Es wird empfohlen, zusätzliche Attribute wie Amazon EAN, Amazon ISBN und Amazon UPC zu erstellen. Sie können auch ein Amazon-Preisattribut erstellen, wenn Sie Ihren Amazon-Listingpreis als Preisquelle für Preisregeln verwenden möchten. Diese Attribute werden bei der Konfiguration Ihrer Listen- und Preiseinstellungen beim Onboarding verwendet. Verwenden Sie diese Attribute auch beim Erstellen von Amazon-Listen und beim Aktualisieren und Synchronisieren Ihrer [!DNL Commerce] Katalog mit Ihren Amazon-Auflistungen.
 
@@ -25,13 +25,13 @@ Wenn Sie nur das Amazon-ASIN-Attribut erstellen (ohne ASIN-Werte pro Produkt hin
 
 >[!IMPORTANT]
 >
->Wenn Sie ein ASIN-, UPC- oder anderes Datenelement für ein manuell übereinstimmendes Produkt aktualisieren, müssen Sie die Daten an beiden Stellen aktualisieren: Ihre [!DNL Commerce] Katalog und die Auflistung in [!DNL Amazon Seller Central] -Konto.
+>Wenn Sie ein ASIN-, UPC- oder anderes Datenelement für ein manuell übereinstimmendes Produkt aktualisieren, müssen Sie die Daten an beiden Stellen aktualisieren: in Ihrer [!DNL Commerce] Katalog und die Auflistung in [!DNL Amazon Seller Central] -Konto.
 
 ## Amazon ASIN-Produktattribut erstellen
 
 1. Melden Sie sich bei [!DNL Commerce] Admin.
 
-1. Klicken **[!UICONTROL Stores]** im Menü links.
+1. Klicks **[!UICONTROL Stores]** im Menü links.
 
 1. Im _[!UICONTROL Attributes]_Abschnitt, klicken Sie auf **[!UICONTROL Product]**.
 
@@ -67,7 +67,7 @@ Wenn Sie nur das Amazon-ASIN-Attribut erstellen (ohne ASIN-Werte pro Produkt hin
 
 1. Melden Sie sich bei [!DNL Commerce] Admin.
 
-1. Klicken **[!UICONTROL Stores]** im Menü links.
+1. Klicks **[!UICONTROL Stores]** im Menü links.
 
 1. Im _[!UICONTROL Attributes]_Abschnitt, klicken Sie auf **[!UICONTROL Product]**.
 
@@ -98,9 +98,9 @@ Wenn Sie nur das Amazon-ASIN-Attribut erstellen (ohne ASIN-Werte pro Produkt hin
 
 1. Wählen Sie die **[!UICONTROL Is Default]** -Option für die Bedingung, die Sie als Standardauswahl festlegen möchten.
 
-1. Im _[!UICONTROL Admin]_den Text für den Titel der hinzuzufügenden Bedingung (z. B. `New`, `Used`und `Used-Like New`)
+1. Im _[!UICONTROL Admin]_den Text für den Titel der hinzuzufügenden Bedingung (z. B. `New`, `Used`, und `Used-Like New`)
 
-1. Klicken **[!UICONTROL Add Option]** , um bei Bedarf weitere Optionen hinzuzufügen.
+1. Klicks **[!UICONTROL Add Option]** , um bei Bedarf weitere Optionen hinzuzufügen.
 
 1. Erweitern _[!UICONTROL Advanced Attribute Properties]_und legen Sie die Optionen fest.
 

@@ -1,6 +1,6 @@
 ---
 title: Inaktive Amazon-Listen
-description: Der Amazon-Vertriebskanal stellt die [!UICONTROL Inactive] Registerkarte zur Überwachung Ihrer derzeit inaktiven [!DNL Amazon Marketplace] Auflistungen.
+description: Der Amazon-Vertriebskanal stellt die [!UICONTROL Inactive] Registerkarte zur Überwachung Ihrer derzeit inaktiven [!DNL Amazon Marketplace] Listen.
 feature: Sales Channels, Products
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Inaktive Amazon-Listen
 
-Die _[!UICONTROL Inactive]_-Registerkarte zeigt Ihre Produkte an, die in Amazon veröffentlicht wurden, aber nicht auf der [!DNL Amazon Marketplace]. Ihre Auflistungen können aus verschiedenen Gründen inaktiv sein. Sie sind beispielsweise möglicherweise nicht berechtigt, diese Marke aufzulisten. Inaktive Auflistungen werden durch die Listenstandards von Amazon und Ihre [!DNL Amazon Seller Central] Kontoberechtigungen.
+Die _[!UICONTROL Inactive]_-Registerkarte zeigt Ihre Produkte an, die in Amazon veröffentlicht wurden, aber nicht auf der [!DNL Amazon Marketplace]. Ihre Auflistungen können aus verschiedenen Gründen inaktiv sein. Sie sind beispielsweise möglicherweise nicht berechtigt, diese bestimmte Marke aufzulisten. Inaktive Auflistungen werden durch die Listenstandards von Amazon und Ihre [!DNL Amazon Seller Central] Kontoberechtigungen.
 
 under _[!UICONTROL Actions]_:
 
-- **[!UICONTROL End Listing(s) on Amazon]**: Wählen Sie aus, ob alle ausgewählten Listen aus dem [!DNL Amazon Marketplace]. Siehe [Beenden einer Amazon-Auflistung](./end-listings-manually.md).
+- **[!UICONTROL End Listing(s) on Amazon]**: Wählen Sie aus, um alle ausgewählten Listen aus dem [!DNL Amazon Marketplace]. Siehe [Beenden einer Amazon-Auflistung](./end-listings-manually.md).
 
 - **[!UICONTROL Edit Listing Overrides]**: Wählen Sie aus, die Einstellungen zum Außerkraftsetzen für die Auflistung zu ändern. Siehe [Überschreibungen](./overrides.md) oder [Bearbeiten oder Entfernen einer Überschreibung](./creating-editing-overrides.md#edit-override-single-listing).
 
 under **[!UICONTROL Select]** im _[!UICONTROL Action]_column:
 
-- **[!UICONTROL View Details]**: Wählen Sie aus, um Details zur Auflistung anzuzeigen, einschließlich der [Auflisten des Aktivitätsprotokolls](./product-listing-details.md#listing-activity-log), [Buy Box Konkurrentenpreise](./product-listing-details.md#buy-box-competitor-pricing)und [Niedrigste Preise für Wettbewerber](./product-listing-details.md#lowest-competitor-pricing). Diese Aktion dient nur der Anzeige. In den Listendetails können keine Änderungen vorgenommen werden. Siehe [Details anzeigen](./product-listing-details.md).
+- **[!UICONTROL View Details]**: Wählen Sie aus, um Details zur Auflistung anzuzeigen, einschließlich der [Auflisten des Aktivitätsprotokolls](./product-listing-details.md#listing-activity-log), [Buy Box Konkurrentenpreise](./product-listing-details.md#buy-box-competitor-pricing), und [Niedrigste Preise für Wettbewerber](./product-listing-details.md#lowest-competitor-pricing). Diese Aktion dient nur der Anzeige. In den Listendetails können keine Änderungen vorgenommen werden. Siehe [Details anzeigen](./product-listing-details.md).
 
 - **[!UICONTROL Create Override]**: Wählen Sie aus, eine Überschreibung zu erstellen und sie auf diese Auflistung anzuwenden. Siehe [Erstellen einer Überschreibung](./creating-editing-overrides.md).
 
@@ -44,7 +44,7 @@ Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbei
 
 | Spalte | Beschreibung |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Amazon Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
+| [!UICONTROL Amazon Seller SKU] | Die von Amazon einem Produkt zugewiesene SKU (Stock Keeping Unit, Bestandseinheit) zur Identifizierung von Produkt, Optionen, Preis und Hersteller. |
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>ASIN steht für die Amazon Standard-Identifikationsnummern. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
 | [!UICONTROL Product Listing Name] | Der Name des Produkts. |
 | [!UICONTROL Condition] | Die [Bedingung](./product-listing-condition.md) des Erzeugnisses. |

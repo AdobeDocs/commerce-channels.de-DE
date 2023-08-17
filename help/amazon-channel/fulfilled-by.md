@@ -30,7 +30,7 @@ Die Ausführungsmethode ist ein regionales Attribut und basiert auf der **[!UICO
 
 ## Konfigurieren Sie die [!UICONTROL Fulfilled By] settings {#configure-fulfilled-by-settings}
 
-1. Klicken **[!UICONTROL Listing Settings]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Listing Settings]** im Store-Dashboard.
 
 1. Erweitern Sie die _[!UICONTROL Fulfilled By]_Abschnitt.
 
@@ -42,7 +42,7 @@ Die Ausführungsmethode ist ein regionales Attribut und basiert auf der **[!UICO
 
    - `Assign Fulfilled By Using Magento Product Attribute` - A [!DNL Commerce] gibt an, wer die Bestellung pro Produkt erfüllt.
 
-     Wählen Sie, falls ausgewählt, die [!DNL Commerce] -Attribut, das Sie zuordnen möchten **[!UICONTROL Fulfilled by Attribute]**.
+     Wählen Sie bei Auswahl die Option [!DNL Commerce] -Attribut, das Sie zuordnen möchten **[!UICONTROL Fulfilled by Attribute]**.
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save listing settings]**.
 

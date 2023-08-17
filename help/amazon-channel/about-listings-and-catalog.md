@@ -33,11 +33,11 @@ Wenn Sie eine Liste erstellt haben [!DNL Commerce] Produkte, werden sie zur Gene
 
 - [Aktiv](./active-listings.md): Listet genehmigte Produktlisten auf, die über den Marketplace verfügbar sind.
 
-- [Listenbereit](./ready-to-list.md): Listet Produkte auf, die die Anforderungen an Regeln erfüllen und für die Veröffentlichung in Amazon bereit sind.
+- [Listenbereit](./ready-to-list.md): Listet Produkte auf, die den Anforderungen an Regeln entsprechen und für die Veröffentlichung in Amazon bereit sind.
 
-- [Inaktiv](./inactive-listings.md): Listet Produkte auf, die aufgrund der Blockierung aus einem bestimmten Grund (z. B. Branding-Problem), der Schließung und Anforderung von Zuverlässigkeit usw. nicht auf dem Markt verfügbar sind.
+- [Inaaktiv](./inactive-listings.md): Listet Produkte auf, die aufgrund der Blockierung aus einem bestimmten Grund (z. B. ein Branding-Problem), der Schließung und der Notwendigkeit einer Zuverlässigkeit usw. nicht auf dem Markt verfügbar sind.
 
-- [Nicht förderfähig](./ineligible-listings.md): Aufgrund der Listening-Regeln werden Produkte aufgelistet, die nicht aktiv auf dem Marketplace aufgeführt werden können (z. B. `0` Verkaufsdaten).
+- [Nicht förderfähig](./ineligible-listings.md): Listet aufgrund der Listening-Regeln Produkte auf, die nicht aktiv auf dem Marketplace aufgeführt werden können (z. B. `0` Verkaufsdaten).
 
 - [Unvollständig](./incomplete-listings.md): Listet Produkte auf, denen erforderliche Informationen fehlen. Aktualisieren Sie die Produktdaten für eine weitere Überprüfung.
 

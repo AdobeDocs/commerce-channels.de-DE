@@ -8,12 +8,12 @@ recommendations: noCatalog
 source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Handbuch zum Kanal-Manager
+# Kanal-Manager-Anleitung
 
 Dieses Handbuch richtet sich an Administratoren von Adobe Commerce und Magento Open Source. Es enthält detaillierte Informationen zu [!DNL Channel Manager] Installation, Onboarding, Konfiguration und Verwaltung. Das Handbuch setzt ein grundlegendes Verständnis des Kerns voraus [!DNL Commerce] Konfiguration und Funktionalität.
 
@@ -36,13 +36,13 @@ Weitere Informationen zur Verwaltung Ihrer [!DNL Commerce] Informationen zu Plat
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Dokumentation zu Adobe Commerce 2.4 Merchant](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Merchandising-fokussierte Dokumentation für Adobe Commerce und Magento Open Source |
 | [Dienste für die Dokumentation zu Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | Dokumentation zur Unterstützung einer Reihe von Diensten, die Händlern bei der Integration wichtiger Komponenten ihres Geschäfts in ihren Speicher helfen. |
-| [Benutzerhandbuch zu Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Schrittweise Anleitungen zur Bereitstellung von Adobe Commerce auf einer verwalteten, automatisierten Hosting-Cloud-Plattform. |
+| [Handbuch zu Commerce mit Cloud Infrastructure](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | Schrittweise Anleitungen zur Bereitstellung von Adobe Commerce auf einer verwalteten, automatisierten Hosting-Cloud-Plattform. |
 | [Adobe Commerce 2.4-Operationshandbücher](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Systemdokumentation zu Konzepten, Prozessen, Tools und Best Practices zur Entwicklung, Bereitstellung und Wartung von Projekten, die auf Adobe Commerce- und Magento Open Source-Plattformen bereitgestellt werden. |
 | [Adobe Commerce 2.4-Entwicklerdokumentation](https://developer.adobe.com/commerce/docs) | Entwickerorientierte Dokumentation zum Erstellen und Anpassen von Adobe Commerce oder Magento Open Source |
 
 ## Support
 
-Erhalten Sie zusätzliche Informationen und Hilfe zu Adobe Commerce und Magento Open Source aus den folgenden Ressourcen:
+Hier finden Sie weitere Informationen und Hilfe zu Adobe Commerce und Magento Open Source:
 
 * [Hilfezentrum](https://support.magento.com/hc/en-us){target="_blank"}
 * [Support-Tickets](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"}-Senden Sie ein Ticket, um zusätzliche Hilfe zu erhalten.

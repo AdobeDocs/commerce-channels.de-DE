@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel - [!UICONTROL Third-party Listings]
+title: AMAZON SALES CHANNEL - [!UICONTROL Third-party Listings]
 description: Aktualisieren Sie die Einstellungen für die Drittanbieterliste, um festzustellen, ob Ihr Commerce-Katalog Produkte aus Ihren bestehenden Amazon Seller Central-Listen importiert.
 feature: Sales Channels, Products
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 Die Einstellungen für die Drittanbieterliste sind Teil Ihrer Einstellungen für die Speicherauflistung. Auf die Listening-Einstellungen kann über die [Store-Dashboard](./amazon-store-dashboard.md).
 
-Diese Einstellungen bestimmen, ob Ihre [!DNL Commerce] -Katalog importiert Produkte aus Ihrem bestehenden [!DNL Amazon Seller Central] Auflistungen. Es empfiehlt sich, Listen aus Amazon zu importieren, um sicherzustellen, dass alle Auflistungen übereinstimmen. [!DNL Commerce] Produkte. Wenn Ihre Auflistungen Teil Ihrer [!DNL Commerce] -Katalog können Sie alle Ihre Produkte aus einem einzigen Katalog verwalten und die Funktionen des Amazon-Vertriebskanals verwenden. Zu diesen Funktionen gehören die Erfüllung und Auftragsverwaltung mit Amazon, intelligente Neupreisentwicklung und Mengenverwaltung.
+Diese Einstellungen bestimmen, ob Ihre [!DNL Commerce] -Katalog importiert Produkte aus Ihrem bestehenden [!DNL Amazon Seller Central] Listen. Es empfiehlt sich, Listen aus Amazon zu importieren, um sicherzustellen, dass alle Auflistungen übereinstimmen. [!DNL Commerce] Produkte. Wenn Ihre Auflistungen Teil Ihrer [!DNL Commerce] -Katalog können Sie alle Ihre Produkte aus einem einzigen Katalog verwalten und die Funktionen des Amazon-Vertriebskanals verwenden. Zu diesen Funktionen gehören die Erfüllung und Auftragsverwaltung mit Amazon, intelligente Neupreisentwicklung und Mengenverwaltung.
 
 Wenn der Amazon-Vertriebskanal für den Import Ihrer Amazon-Listen konfiguriert ist, importiert er Ihre Amazon-Listen in Ihre [!DNL Commerce] -Katalog, der versucht, sie mit vorhandenen Produkten abzugleichen. Wenn eine Übereinstimmung nicht automatisch gefunden wird, können Sie die Amazon-Liste als neue [!DNL Commerce] Produkt oder die manuelle Zuordnung der Liste zu einem Produkt.
 
 Wenn Sie Ihre Amazon-Listen importieren möchten, wählen Sie die [!DNL Commerce] -Attribute mit Werten für Amazon Seller SKU und Amazon ASIN. Wenn Sie [!DNL Commerce] [Produktattribute](./ob-creating-magento-attributes.md), sollten Sie sie erstellen und zuweisen. Die Zuordnung dieser Attribute erleichtert die korrekte Zuordnung importierter Amazon-Listen zu Ihren [!DNL Commerce] Produkte.
 
-Der erste Listenimport wird beim [Store-Integration](./store-integration.md) ist abgeschlossen. Anschließend und basierend auf Ihren Cron-Einstellungen [!DNL Commerce] sucht kontinuierlich nach neu hinzugefügten Amazon-Listen (nicht im Amazon-Sales Channel erstellt) und aktualisiert Ihre [!DNL Commerce] Katalog entsprechend Ihren Drittanbieter-Listening-Einstellungen.
+Der erste Listenimport wird beim [Store-Integration](./store-integration.md) ist abgeschlossen. Anschließend und basierend auf Ihren Cron-Einstellungen [!DNL Commerce] sucht kontinuierlich nach neu hinzugefügten Amazon-Listen (nicht in Amazon Sales Channel erstellt) und aktualisiert Ihre [!DNL Commerce] Katalog entsprechend Ihren Drittanbieter-Listening-Einstellungen.
 
 ## Einstellungen für die Drittanbieterliste konfigurieren
 
-1. Klicken **[!UICONTROL Listing Settings]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Listing Settings]** im Store-Dashboard.
 
 1. Erweitern Sie die _[!UICONTROL Third Party Listings]_Abschnitt.
 
-1. Für **[!UICONTROL Import Third Party Listings]** (erforderlich), wählen Sie eine Option aus:
+1. Für **[!UICONTROL Import Third Party Listings]** (erforderlich), wählen Sie eine Option:
 
    - `Import Listing` - (Standard) Wählen Sie aus, wann Produktinformationen aus Ihren Amazon-Listen in Ihre [!DNL Commerce] Produktkatalog. Diese Option ist die Standardoption und wird empfohlen.
 
@@ -42,7 +42,7 @@ Der erste Listenimport wird beim [Store-Integration](./store-integration.md) ist
 1. Für **[!UICONTROL Attribute That Contains Amazon ASIN]**, wählen Sie die [!DNL Commerce] -Attribut, das Sie erstellt haben, und ordnen Sie es dem Amazon-ASIN zu.
 
    >[!NOTE]
-   >Wenn Sie diese nicht erstellt haben [!DNL Commerce] -Attribute für Ihre Amazon-Listen finden Sie unter [Erstellen von Attributen für Amazon-Übereinstimmung](./ob-creating-magento-attributes.md).
+   >Wenn Sie diese nicht erstellen [!DNL Commerce] -Attribute für Ihre Amazon-Listen finden Sie unter [Erstellen von Attributen für Amazon-Übereinstimmung](./ob-creating-magento-attributes.md).
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save listing settings]**.
 

@@ -16,7 +16,7 @@ Sie können auf die Listenregeln für den Store im [Store-Dashboard](./amazon-st
 
 Listening-Regeln definieren die Regeln, um zu bestimmen, welche Produkte der Amazon-Vertriebskanal in Amazon veröffentlicht. Diese Regeln bieten viele Optionen zum Erstellen einfacher bis komplexer Regeln zum Ein- oder Ausschließen von Produkten als Listen. Jede Regel besteht aus Bedingungen, die die Voraussetzungen für die Produktlisten-Eignung festlegen.
 
-Ihre Listening-Regeln werden kontinuierlich mit Ihrer [!DNL Commerce] Katalog. Wenn Sie neue [!DNL Commerce] Produkte, die die in Ihren Zulassungsregeln festgelegten Eignungsanforderungen erfüllen, werden die Produkte automatisch für die Aufnahme in Amazon verarbeitet.
+Ihre Listening-Regeln werden kontinuierlich mit Ihrer [!DNL Commerce] Katalog. Wenn Sie neue [!DNL Commerce] Produkte, die die von Ihren Listening-Regeln festgelegten Eignungskriterien erfüllen, werden die Produkte automatisch für die Aufnahme in Amazon verarbeitet.
 
 - Wenn Sie möchten, dass alle Ihre Produkte in einer Amazon-Liste veröffentlicht werden, legen Sie keine Bedingungen für Ihre Listening-Regeln fest.
 
@@ -26,22 +26,22 @@ Ihre Listening-Regeln werden kontinuierlich mit Ihrer [!DNL Commerce] Katalog. W
 
 - Wenn ein nicht infrage kommendes Produkt bereits in Amazon aufgeführt ist und Sie die Amazon-Liste mit Ihrer [!DNL Commerce] Katalogprodukt, die Menge für die Amazon, in der Änderungen an `0` um den Verkauf des Erzeugnisses zu verhindern. Amazon-Listen können [manuell entfernt](./end-listings-manually.md).
 
-Änderungen an Menge und Berechtigungsstatus wirken sich auf alle Auflistungen aus, die die Amazon Seller-SKU auf Marktplätzen teilen, die für Geschäfte bestehen, die in derselben Region verkauft werden (wie definiert in _[!UICONTROL Amazon Marketplace Country]_during [Store-Integration](./store-integration.md)). Änderungen an freigegebenen [!DNL Amazon Seller SKU] in einer Region die Amazon-Listen des Produkts in einem anderen Land nicht beeinflusst.
+Änderungen an Menge und Berechtigungsstatus wirken sich auf alle Auflistungen aus, die die Amazon Seller-SKU auf Marktplätzen teilen, die für Geschäfte in derselben Region bestehen (wie definiert in _[!UICONTROL Amazon Marketplace Country]_during [Store-Integration](./store-integration.md)). Änderungen an freigegebenen [!DNL Amazon Seller SKU] in einer Region die Amazon-Listen des Produkts in einem anderen Land nicht beeinflusst.
 
 ![Listening-Regeln](assets/ob-listing-rules.png){width="600" zoomable="yes"}
 
 ## Einstellungen für Listening-Regeln konfigurieren
 
-1. Klicken **[!UICONTROL Listing Rules]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Listing Rules]** im Store-Dashboard.
 
 1. Legen Sie die gewünschten Bedingungen für die Berechtigung von Produkten fest, die in Amazon aufgeführt werden sollen.
 
-Siehe [Beispiel: Definieren einer Bedingung](./ob-define-condition-example.md).
+Siehe [Beispiel: Bedingung definieren](./ob-define-condition-example.md).
 
 | Feld | Beschreibung |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | Die verfügbaren Optionen hängen von der [Websites](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) Sie haben sich in der [!DNL Commerce] Konfiguration. Wählen Sie die Website für die in Amazon aufgeführten Produkte aus. Es kann nur eine Website ausgewählt werden, da für jede Website ein eindeutiger Amazon Store erforderlich ist, der im Amazon-Vertriebskanal erstellt wurde. |
-| [!UICONTROL Conditions] | Wird verwendet, um die [!DNL Commerce] -Attribute für die Produkteignung in Ihrer Amazon-Region. Siehe [Beispiel: Definieren einer Bedingung](./ob-define-condition-example.md). |
+| [!UICONTROL Conditions] | Wird verwendet, um die [!DNL Commerce] -Attribute für die Produkteignung in Ihrer Amazon-Region. Siehe [Beispiel: Bedingung definieren](./ob-define-condition-example.md). |
 
 ## Bedingungsarbeitsbereich
 
@@ -54,13 +54,13 @@ Weitere Informationen zu Bedingungen finden Sie unter [Beschreibung der Bedingun
 
 ## Vorschau der Listening-Regel
 
-Wenn Sie Ihre Bedingungsdefinitionen für Ihre Listenregeln ändern, können Sie auf **[!UICONTROL Preview Changes]** , um Ihre Regeländerungen anzuwenden und zu sehen, wie sich Ihre Listen auswirken. Überprüfen Sie Ihre Auflistungen in dieser Listenvorschau-Funktion, bevor Sie Ihre Änderungen an den Listening-Regeln speichern.
+Wenn Sie Ihre Bedingungsdefinitionen für Ihre Listening-Regeln ändern, können Sie auf **[!UICONTROL Preview Changes]** , um Ihre Regeländerungen anzuwenden und zu sehen, wie sich Ihre Listen auswirken. Überprüfen Sie Ihre Auflistungen in dieser Listenvorschau-Funktion, bevor Sie Ihre Änderungen an den Listening-Regeln speichern.
 
 Ihre Amazon-Listen werden mit Ihren Regeln und definierten Bedingungen verglichen. Anschließend können Sie Folgendes überprüfen:
 
 - Welche Produkte wechseln basierend auf Ihrem aktuellen Status zu einem nicht förderfähigen Produkt [!DNL Amazon Seller Central] account
-- Welche Erzeugnisse werden aus nicht förderfähigen Ländern wieder in den förderfähigen Status versetzt?
-- Welche Produkte sind neue Amazon-Listen und wurden aus Ihrer Liste in Amazon hinzugefügt? [!DNL Commerce] products
+- Welche Erzeugnisse werden von einem nicht förderfähigen Staat wieder in den förderfähigen Status versetzt?
+- Welche Produkte sind neue Amazon-Listen und wurden aus Ihren entsprechenden Amazon-Listen hinzugefügt? [!DNL Commerce] products
 
 Die Listenvorschau ermöglicht es Ihnen, eine Vorschau Ihrer potenziellen Amazon-Auflistungen anzuzeigen und die erforderlichen Anpassungen an Ihren Listenregeln vorzunehmen.
 
@@ -76,17 +76,17 @@ Ihre potenziellen Amazon-Auflistungen werden im _[!UICONTROL Listing Preview]_Se
 
 ### Listenvorschau anzeigen
 
-1. Klicken **[!UICONTROL Listing Rules]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Listing Rules]** im Store-Dashboard.
 
 1. Anzeigen oder Hinzufügen von [Auflistungsregeln](./listing-rules.md).
 
-1. Ändern Sie Ihre [Bedingungen für Listening-Regeln](./ob-define-condition-example.md).
+1. Ändern Sie [Bedingungen für Listening-Regeln](./ob-define-condition-example.md).
 
 1. Klicken **[!UICONTROL Preview Changes]**.
 
-1. Überprüfen und bestätigen Sie Ihre Auflistungen im _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_ und _[!UICONTROL New Listings]_Registerkarten.
+1. Überprüfen und bestätigen Sie Ihre Auflistungen im _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_, und _[!UICONTROL New Listings]_Registerkarten.
 
-1. Wenn Ihre Auflistungen Ihren Erwartungen entsprechen, klicken Sie auf **[!UICONTROL Save and close]**.
+1. Wenn Ihre Listen Ihren Erwartungen entsprechen, klicken Sie auf **[!UICONTROL Save and close]**.
 
    Wenn Ihre Listen nicht wie erwartet angezeigt werden, klicken Sie auf **[!UICONTROL Back]** und ändern Sie Ihre Regeln und Bedingungen, bis Ihre Listen Ihren Erwartungen entsprechen.
 

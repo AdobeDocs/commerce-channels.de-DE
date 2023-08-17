@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Die [!DNL Commerce Services Connector] integriert den Kanal-Manager-Dienst in Adobe Commerce- und Magento Open Source-Instanzen. Der Connector ermöglicht die Datensynchronisation und Kommunikation zwischen dem [!DNL Commerce] Instanz, [!DNL Channel Manager]und andere unterstützende Dienste.
 
-[!DNL Commerce Services Connector] Einrichtung ist ein einmaliger Prozess, der verwendet werden muss [Adobe Commerce SaaS-Dienste](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) wie [!DNL Channel Manager], [!DNL Live Search]und [!DNL Product Recommendations]. Wenn Sie den Connector bereits für einen anderen Dienst konfiguriert haben, überspringen Sie diesen Schritt.
+[!DNL Commerce Services Connector] Einrichtung ist ein einmaliger Prozess, der verwendet werden muss [Adobe Commerce SaaS-Dienste](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) wie [!DNL Channel Manager], [!DNL Live Search], und [!DNL Product Recommendations]. Wenn Sie den Connector bereits für einen anderen Dienst konfiguriert haben, überspringen Sie diesen Schritt.
 
 ## Voraussetzungen
 
@@ -39,7 +39,7 @@ Die [!DNL Commerce Services Connector] integriert den Kanal-Manager-Dienst in Ad
 
    - under *[!UICONTROL Settings]* auswählen **[!UICONTROL Configuration]**.
 
-   - Erweitern **[!UICONTROL Services]** und wählen Sie **[!UICONTROL Commerce Services Connector]**.
+   - Erweitern **[!UICONTROL Services]** und wählen **[!UICONTROL Commerce Services Connector]**.
 
 1. Fügen Sie Anmeldedaten für den Produktions-API-Schlüssel aus Ihrem Adobe Commerce-Konto hinzu.
 

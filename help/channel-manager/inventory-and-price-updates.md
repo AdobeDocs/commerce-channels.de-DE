@@ -35,7 +35,7 @@ Wenn sich die Produktinventarisierung ändert [!DNL Commerce], [!DNL Channel Man
 
 ## Preisaktualisierungen
 
-Wenn sich der Produktpreis in [!DNL Commerce], [!DNL Channel Manager] synchronisiert die Aktualisierung mit dem [!DNL Walmart Marketplace]. Es kann bis zu fünf Minuten dauern, bis die Preisänderung im [!DNL Walmart Marketplace] Auflistung.
+Wenn sich der Produktpreis in [!DNL Commerce], [!DNL Channel Manager] synchronisiert die Aktualisierung mit dem [!DNL Walmart Marketplace]. Die Anzeige der Preisänderung im [!DNL Walmart Marketplace] Auflistung.
 
 ### Preise für verbundene Produkte verwalten
 

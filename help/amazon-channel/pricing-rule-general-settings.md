@@ -24,7 +24,7 @@ Definieren Sie den Namen, die Beschreibung, das aktive Datum und die Priorität 
 
    Diese Beschreibung kann Informationen zu den qualifizierenden Produkten, den aktiven Daten, der Formel zur Berechnung Ihres angepassten Preises oder andere Informationen enthalten, die Sie für nützlich halten, wenn Sie die Regel ändern möchten.
 
-1. Für **[!UICONTROL Status]**, wählen Sie eine Option aus:
+1. Für **[!UICONTROL Status]** eine Option auswählen:
 
    - `Active` - Wählen Sie diese Option aus, wenn die Preisregel auf Ihre geeigneten Produkte angewendet werden soll, und passen Sie Ihre Listenpreise vor der Veröffentlichung in Amazon an.
 
@@ -38,7 +38,7 @@ Definieren Sie den Namen, die Beschreibung, das aktive Datum und die Priorität 
 
    Prioritätswert gleich `1` hat höchste Priorität. Wenn Sie mehrere Regeln für aktive Preise haben, können Sie diesen Prioritätswert verwenden, um zu bestimmen, welche Regel zuerst angewendet wird. Dieses Feld ist erforderlich, um die _[!UICONTROL Discard Subsequent Rules]_Funktion.
 
-1. Für **[!UICONTROL Discard Subsequent Rules]**, wählen Sie eine Option aus:
+1. Für **[!UICONTROL Discard Subsequent Rules]** eine Option auswählen:
 
    - `Yes` - Wählen Sie diese Option, wenn Sie keine anderen Preisregeln anwenden möchten, die für ein Produkt gelten können. Das Verwerfen nachfolgender Regeln bedeutet, dass, wenn mehrere Preisregeln für dasselbe Produkt gelten, nur die Preisregel mit dem höchsten definierten Prioritätswert auf das Produkt angewendet wird. Diese Option verhindert, dass mehrere Preisregeln stapeln und unbeabsichtigte zusätzliche Rabatte bieten.
 

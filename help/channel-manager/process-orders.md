@@ -42,15 +42,15 @@ Bei der Verarbeitung von Commerce-Bestellungen und [!DNL Channel Manager] Synchr
 
 1. Erstellen und Senden einer Sendung für die gesamte Bestellung oder einen Teil davon durch Auswahl von **[!UICONTROL Ship]**.
 
-   ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
+   ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] bestellen](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
    * Wählen Sie einen Versandunternehmen aus und fügen Sie eine Trackingnummer hinzu, indem Sie **[!UICONTROL Add tracking number]**.
 
-     ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
+     ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] bestellen](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
    * Füllen Sie nach Bedarf den Rest des Versandformulars aus. Siehe [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) für detaillierte Anweisungen.
 
-1. Verfolgen Sie nach der Übermittlung der Sendung die [Bestellstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] , um zu überprüfen, ob Aktualisierungen an [!DNL Walmart Marketplace].
+1. Verfolgen Sie nach dem Einreichen der Sendung die [Bestellstatus](manage-orders.md#about-order-status) in [!DNL Channel Manager] , um zu überprüfen, ob Aktualisierungen an [!DNL Walmart Marketplace].
 
 Nach dem Versand einer Bestellung können Sie die vollständige oder teilweise Rückerstattung von [!DNL Channel Manager] für Artikel, die in der Bestellung auf der Grundlage von Rückgabeanfragen von [!DNL Walmart Marketplace]. Siehe [Rückgabe- und Erstattungsanordnungen](return-refund-orders.md).
 
@@ -62,17 +62,17 @@ Nach dem Versand einer Bestellung können Sie die vollständige oder teilweise R
 
 1. Zur Ansicht [!DNL Walmart Marketplace] Bestellungen, auswählen *[!UICONTROL Orders]**.
 
-1. Öffnen Sie in der Tabelle &quot;Bestellungen&quot;den [Bestelldetailseite](manage-orders.md#view-order-detail) durch Auswahl der **[!UICONTROL Commerce Order Number]** für die Bestellung zum Abbrechen.
+1. Öffnen Sie in der Tabelle Bestellungen die [Bestelldetailseite](manage-orders.md#view-order-detail) durch Auswahl der **[!UICONTROL Commerce Order Number]** für die Bestellung zum Abbrechen.
 
-   ![Detailansicht einer Commerce-Bestellung für[!DNL Walmart Marketplace]order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
+   ![Detailansicht einer Commerce-Bestellung für[!DNL Walmart Marketplace]bestellen](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 1. Abbrechen der Bestellung.
 
    * Auswählen **Abbrechen** über das Menü Bestelldetails .
 
-   * Im [!UICONTROL Cancel Order] Wählen Sie das **[!UICONTROL Cancellation reason]**.
+   * Im [!UICONTROL Cancel Order] Formular, wählen Sie die **[!UICONTROL Cancellation reason]**.
 
-   ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
+   ![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] bestellen](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
    * Auswählen **[!UICONTROL Cancel Order]**.
 

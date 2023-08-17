@@ -37,7 +37,7 @@ Amazon bietet zwei Optionen für die Auftragserfüllung und den Versand:
 
 - **Vom Händler ausgefüllt (FBM)**: Drittanbieter speichern ihr eigenes Inventar. Wenn ein Kunde eine Bestellung aufgibt, übernimmt der Verkäufer die Verpackung und den Versand an den Kunden. Mit dieser Option können Sie Sendungen über Adobe Commerce und Magento Open Source oder einen anderen Drittanbieter abschließen.
 
-- **Erfüllt von Amazon (FBA)**: Drittanbieter speichern Lagerbestände in Amazon-Fulfillment-Zentren auf der ganzen Welt. Wenn ein Kunde eine Bestellung aufgibt, verarbeitet Amazon die Verpackung und den Versand an den Kunden. Bestelldetails und -status werden an Adobe Commerce oder Magento Open Source gesendet.
+- **Erfüllt von Amazon (FBA)**: Drittanbieter speichern Lagerbestände in Amazons Fulfillment-Zentren auf der ganzen Welt. Wenn ein Kunde eine Bestellung aufgibt, verarbeitet Amazon die Verpackung und den Versand an den Kunden. Bestelldetails und -status werden an Adobe Commerce oder Magento Open Source gesendet.
 
 Die [!DNL Amazon Sales Channel] -Erweiterung unterstützt beide Optionen, den Empfang und das Tracking dieser Bestellungen. Wenn Sie die Erfüllung abgeschlossen haben, werden die Bestellstatus automatisch aktualisiert. Siehe [Erfüllungs-Workflows](./fulfillment-workflows.md).
 

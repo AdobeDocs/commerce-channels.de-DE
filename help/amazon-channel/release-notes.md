@@ -1,6 +1,6 @@
 ---
 title: '''[!DNL Amazon Sales Channel] Versionshinweise'
-description: Informationen zu allen [!DNL Amazon Sales Channel] veröffentlicht.
+description: In den Versionshinweisen finden Sie Informationen zu allen [!DNL Amazon Sales Channel] veröffentlicht.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> [!DNL Amazon sales channel] kann auf Instanzen mit Magento Open Source, Adobe Commerce und Adobe Commerce in den Cloud-Infrastrukturversionen 2.3.x und 2.4.x installiert werden. Die -Erweiterung wird in Adobe Commerce 2.1, Magento Open Source 2.2 oder Magento 1 nicht mehr unterstützt.
-> <br>Support ist verfügbar für [!DNL Amazon sales channel]  Versionen 4.0.0 und 4.1.0 nur für Adobe Commerce 2.3.x.
+> [!DNL Amazon sales channel] kann auf Instanzen mit Magento Open Source, Adobe Commerce und Adobe Commerce in den Cloud-Infrastrukturversionen 2.3.x und 2.4.x installiert werden. Die -Erweiterung wird auf Adobe Commerce 2.1, Magento Open Source 2.2 oder Magento 1 nicht mehr unterstützt.
+> <br>Support ist verfügbar für [!DNL Amazon sales channel]  Versionen 4.0.0 und 4.1.0 nur für Adobe Commerce 2.3.x-Versionen.
 > <br>[!DNL Amazon sales channel] Version 4.2.0+ ist mit Adobe Commerce-Versionen 2.3.x kompatibel, unterstützt wird jedoch nur Adobe Commerce 2.4.x.
 >
 
@@ -74,7 +74,7 @@ Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
-![Fehlerbehebung](../assets/fix.svg) Die Art und Weise, wie Adobe Commerce die _Benutzername_ aus Amazon. Zuvor gab es bei der Auftragserstellung einen Fehler, wenn die Variable _Benutzername_ -Feld Sonderzeichen enthielt. Adobe Commerce erhält jetzt die _Benutzername_ Daten und filtert die Sonderzeichen heraus, damit die Bestellung erfolgreich erstellt werden kann.
+![Fehlerbehebung](../assets/fix.svg) Die Art und Weise, wie Adobe Commerce die _Benutzername_ -Feld aus Amazon. Zuvor gab es bei der Auftragserstellung einen Fehler, wenn die Variable _Benutzername_ -Feld Sonderzeichen enthielt. Adobe Commerce erhält jetzt die _Benutzername_ Daten und filtert die Sonderzeichen heraus, damit die Bestellung erfolgreich erstellt werden kann.
 
 ## v4.4.0
 
@@ -100,11 +100,11 @@ Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
-![Fehlerbehebung](../assets/fix.svg) <!--CHAN-xxxx-->Die _Bestelldetails_ wurde neu gestaltet und verlässt sich nicht mehr auf die _Bestellungen importieren_ -Einstellung. Bestelldetails werden jetzt in der Amazon Sales Channel-Benutzeroberfläche für alle Bestellungen angezeigt.
+![Fehlerbehebung](../assets/fix.svg) <!--CHAN-xxxx-->Die _Bestelldetails_ wurde neu gestaltet und verlässt sich nicht mehr auf die _Bestellungen importieren_ -Einstellung. Bestelldetails werden jetzt in der Amazon Sales Channel-Oberfläche für alle Bestellungen angezeigt.
 
 ![Fehlerbehebung](../assets/fix.svg) Im _[!UICONTROL Marketing]_im Admin-Menü wurde der Name geändert von_[!UICONTROL Amazon]_ nach _[!UICONTROL Amazon Sales Channel]_.
 
-![Bekanntes Problem](../assets/bug.svg) **Wichtig**: Bekannte Probleme mit der Kompatibilität mit Adobe Commerce 2.4.0 wurden in der Adobe Commerce-Version 2.4.1 behoben.
+![Bekanntes Problem](../assets/bug.svg) **Wichtig**: Bekannte Probleme mit der Kompatibilität mit Adobe Commerce 2.4.0 wurden in Adobe Commerce 2.4.1 behoben.
 
 - Amazon-Cron-Prozesse in `error` state
 - Die Installation mit Commerce 2.4.0 schlägt beim Erstellen von Stores in der Datenbank fehl
@@ -128,13 +128,13 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 ![Fehlerbehebung](../assets/fix.svg) <!--CHAN-4431-->Korrektur eines Problems, das zu einem _Zugriff verweigert_ Fehler für Kunden aus Großbritannien.
 
-![Fehlerbehebung](../assets/fix.svg) <!--CHAN-4394-->Fehlerkorrektur - Der Versandstatus von Amazon kann jetzt mit der entsprechenden Commerce-Bestellung synchronisiert werden, sodass der Versandstatus der Bestellung als `Pending` im Handel und `Unshipped` in Amazon. Mit der neuen standardisierten Adressfunktion wurden diese Versandstatusfehler behoben.
+![Fehlerbehebung](../assets/fix.svg) <!--CHAN-4394-->Fehlerkorrektur - Der Versandstatus von Amazon kann jetzt mit der entsprechenden Commerce-Bestellung synchronisiert werden, sodass der Versandstatus der Bestellung als `Pending` im Handel und `Unshipped` in Amazon. Mit der neuen standardisierten Adressenfunktion wurden diese Versandstatusfehler behoben.
 
 ![Fehlerbehebung](../assets/fix.svg) <!--ticket#-->Die Synchronisierung der Reihenfolge wurde aktualisiert, um fehlgeschlagene Bestellimporte zu ignorieren. Dadurch werden mehrere Synchronisierungsversuche reduziert und nachfolgende Importe können verarbeitet werden, wobei alle fünf Minuten Bestellsynchronisierungsanforderungen gesendet werden. Synchronisierungsfehler werden weiterhin im Fehlerprotokoll aufgezeichnet, aber als &quot;verarbeitet&quot;markiert, um weitere Protokollierungsfunktionen zu ermöglichen. Außerdem [!DNL Amazon sales channel] entfernt nun automatisch überschüssige Daten, die für Bestellungen gesammelt wurden, die nicht in Commerce erstellt werden.
 
 ![Fehlerbehebung](../assets/fix.svg) Die Fehlerprotokollierung wurde aktualisiert, um mehr Informationen zu nicht abgefangenen Ausnahmefehlern und Fehlern bei der Aktualisierung von Erweiterungen zu sammeln.
 
-![Fehlerbehebung](../assets/fix.svg) <!--ticket#-->Es wurde ein Problem behoben, das die anfängliche Synchronisierung der _niedrigster Preis_ Daten fehlschlagen, weil _price_ -Wert.
+![Fehlerbehebung](../assets/fix.svg) <!--ticket#-->Es wurde ein Problem behoben, das die anfängliche Synchronisierung der _niedrigster Preis_ Daten fehlschlagen, weil eine _price_ -Wert.
 
 ![Fehlerbehebung](../assets/fix.svg) <!--CHAN-4410-->Korrektur von Problemen, die zu Filterfehlern in der _Amazon-Bestellungen_ anzeigen, wenn das Datumsbereichsfeld leer gelassen wird.
 
@@ -162,7 +162,7 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 ![Fehlerbehebung](../assets/fix.svg) <!--CHAN-4211-->Fehlerkorrektur - Der Amazon-Bestellsteuerbetrag kann jetzt in die neue Commerce-Bestellung importiert werden.
 
-![Fehlerbehebung](../assets/fix.svg) <!--CHAN-4234-->Korrektur eines Fehlers, der dazu führte, dass die im Store-Dashboard angezeigten Umsatzsummen Bestellungen in `Canceled` oder `Error` Status.
+![Fehlerbehebung](../assets/fix.svg) <!--CHAN-4234-->Korrektur eines Fehlers, der dazu führte, dass die im Store-Dashboard angezeigten Umsatzsummen Bestellungen in `Canceled` oder `Error` -Status.
 
 ![Fehlerbehebung](../assets/fix.svg) <!--CHAN-4326-->Korrektur eines Fehlers, der zu Fehlern beim Bestellimport führte, die mit Erweiterungen von Drittanbietern, die _Magento Shipping_ Methoden zum Erstellen von Bestellungen.
 
@@ -178,13 +178,13 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 >[!IMPORTANT]
 >
->Amazon Sales Channel 4.0.0 wird für Adobe Commerce 2.3.5 nicht unterstützt. Für die Unterstützung mit Adobe Commerce 2.3.5 aktualisieren Sie auf Amazon Sales Channel 4.1.0.
+>Amazon Sales Channel 4.0.0 wird für Adobe Commerce 2.3.5 nicht unterstützt. Um Adobe Commerce 2.3.5 zu unterstützen, aktualisieren Sie auf Amazon Sales Channel 4.1.0.
 
 ![Neu](../assets/new.svg) Neu: [Amazon Sales Channel](amazon-sales-channel-home.md) Homepage mit verbesserter &quot;Kartenansicht&quot; für Ihre Store-Informationen.
 
 ![Neu](../assets/new.svg) Neu: [Store-Dashboard](amazon-store-dashboard.md) mit Listen, aktuellen Bestellungen und Store-Einstellungsinformationen.
 
-![Neu](../assets/new.svg) Einführung einer einfacheren, optimierten [Onboarding-Prozess](amazon-onboarding-home.md) und [Standardspeichereinstellungen](default-store-settings.md) um Ihre Geschäfte schneller zu integrieren.
+![Neu](../assets/new.svg) Einfachere, optimierte [Onboarding-Prozess](amazon-onboarding-home.md) und [Standardspeichereinstellungen](default-store-settings.md) um Ihre Geschäfte schneller zu integrieren.
 
 ![Bekanntes Problem](../assets/bug.svg) <!--CHAN-4102--> Wann [Erstellen von Attributen](managing-attributes.md) zum Importieren von Bildern aus Listen und **Store-Ansichten** auf `All Store Views (Global)`, ist ein bekanntes Problem vorhanden, das den Import von Bildern in alle Store-Ansichten verhindert. Wenn Sie die Einstellung für **Ansichten speichern (zum Importieren von Werten in )** in einen bestimmten Speicher importieren die Bilder für diesen Store.
 
@@ -206,7 +206,7 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
-![Neu](../assets/new.svg) **Amazon UK Marketplace jetzt verfügbar**: Benutzer können beim Erstellen und Integrieren eines Commerce-Stores den britischen Marketplace wählen. Dieses Upgrade für Großbritannien beinhaltet zusätzliche Unterstützung für:
+![Neu](../assets/new.svg) **Amazon UK Marketplace jetzt verfügbar**: Benutzer können beim Erstellen und Integrieren eines Commerce-Stores den britischen Marketplace auswählen. Dieses Upgrade für Großbritannien beinhaltet zusätzliche Unterstützung für:
 
 - [Amazon - MwSt-Berechnungsservice](https://sell.amazon.co.uk/learn/vat-resources){target="_blank"}
 
@@ -236,7 +236,7 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 ![Neu](../assets/new.svg)  **Listening-Verwaltung**: Automatisieren Sie Produktlisten und synchronisieren Sie Ihren Commerce-Katalog mithilfe von Listenregeln mit dem Amazon Marketplace. Fügen Sie spezifische Überschreibungen hinzu, um Ihre Angebote optimal zu steuern. Überwachen und verwalten Sie alle Ihre Einträge direkt über den Administrator.
 
-![Neu](../assets/new.svg)  **Konsistente Inventory management**: Bewahren Sie Ihre Lagerbestandsmengen in Commerce und Amazon konstant auf.
+![Neu](../assets/new.svg)  **Konsistente Inventory management**: Halten Sie die Lagerbestandsmengen in Commerce und Amazon konstant synchronisiert.
 
 ![Neu](../assets/new.svg)  **Auftrags- und Ausführungsverwaltung**: Verfolgen Sie Amazon-Bestellungen über das Dashboard mit nahtlosen Kommunikations- und Bestandsaktualisierungen. Vervollständigen und verfolgen Sie die Auftragslieferungen, die von Amazon, dem Händler oder einer Kombination von Methoden erfüllt wurden.
 

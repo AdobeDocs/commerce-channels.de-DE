@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Produktlisten für die [!DNL Walmart Marketplace] Vertriebskanal über die Kanal-Manager-Benutzeroberfläche.
 
-Der Status für eine einzelne Auflistung zeigt an, wo sich das Produkt im [!DNL Channel Manager] -Workflow, damit Sie die nächsten Schritte bestimmen und etwaige Fehler beheben können.
+Der Status für eine einzelne Auflistung zeigt an, wo sich das Produkt im [!DNL Channel Manager] -Arbeitsablauf, damit Sie die nächsten Schritte bestimmen und etwaige Fehler beheben können.
 
 ![Listenseite für einen verbundenen Vertriebskanal](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
@@ -33,7 +33,7 @@ Sie können die folgenden Aufgaben in der Listenansicht ausführen.
 
 1. Wählen Sie in der Liste Store das Augensymbol in einer Store-Einstiegszeile aus, um die Store-Ansicht zu öffnen.
 
-1. Auswählen [!UICONTROL **Auflistungen**].
+1. Auswählen [!UICONTROL **Listen**].
 
 1. Sortieren Sie die *Auflistung* Ansicht durch Auswahl einer Spaltenüberschrift im *Auflistung* Tabelle.
 
@@ -43,9 +43,9 @@ Sie können die folgenden Aufgaben in der Listenansicht ausführen.
 
 ## Hinzufügen [!DNL Commerce] Produkte an den Kanal-Manager
 
-Erstellen Sie das Produktangebot für die [!DNL Walmart Marketplace] -Kanal durch Ausführen der folgenden Aufgaben:
+Erstellen Sie das Produktsortiment für die [!DNL Walmart Marketplace] -Kanal durch Ausführen der folgenden Aufgaben:
 
-* [Produkte aus Ihrem [!DNL Commerce] Produktkatalog [!DNL Channel Manager]](add-products-to-channel-store.md)
+* [Fügen Sie Produkte aus Ihrem [!DNL Commerce] Produktkatalog [!DNL Channel Manager]](add-products-to-channel-store.md)
 
 * [Katalogattribute zuordnen](map-catalog-attributes.md#configure-product-attribute-settings)
 
@@ -55,11 +55,11 @@ Sie können Produktangebote auf der [!DNL Walmart Marketplace] durch Abgleich vo
 
 * **[Produkte bei Walmart abgleichen](connect-listings-to-marketplace.md)**—Produktlisten von Ihrem Kanal zu verbinden [!DNL Walmart Marketplace] durch Aktualisierung bestehender Listen, die dasselbe Produkt verkaufen. Übereinstimmungskriterien werden durch die [attribute-mapping-Konfiguration](map-catalog-attributes.md) für Ihren Kanal.
 
-* **[Manuelles Hochladen neuer Listen](connect-listings-to-marketplace.md#upload-new-product-listings)**—Für Produkte, die nicht mit einer vorhandenen Liste auf übereinstimmen. [!DNL Walmart Marketplace], verwenden Sie eine [!DNL Walmart] Produktkategorie Excel-Vorlage zum Massen-Upload von Produktlisten.
+* **[Manuelles Hochladen neuer Listen](connect-listings-to-marketplace.md#upload-new-product-listings)**—Für Produkte, die nicht mit einer vorhandenen Liste auf übereinstimmen [!DNL Walmart Marketplace], verwenden Sie eine [!DNL Walmart] Produktkategorie Excel-Vorlage zum Massen-Upload von Produktlisten.
 
 ## Listen- und Spaltenbeschreibungen
 
-Die folgenden Tabellen beschreiben die verfügbaren Steuerelemente und Spalten für [!UICONTROL Listings].
+In den folgenden Tabellen werden die für [!UICONTROL Listings].
 
 **Steuerelemente für[!UICONTROL Listings]**
 
@@ -76,28 +76,28 @@ Die folgenden Tabellen beschreiben die verfügbaren Steuerelemente und Spalten f
 
 | **Feld** | **Beschreibung** |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Product name] | Name des Produkts aus der [!DNL Commerce] Katalog speichern. |
-| [!UICONTROL SKU (Unique ID)] | Die SKU, die dem Produkt in der [!DNL Commerce] Katalog. |
+| [!UICONTROL Product name] | Name des Produkts aus der [!DNL Commerce] Store-Katalog. |
+| [!UICONTROL SKU (Unique ID)] | Die dem Produkt im [!DNL Commerce] Katalog. |
 | [!UICONTROL  Quantity] | Umfang des in Adobe Commerce oder Magento Open Source verfügbaren Bestands. |
-| [!UICONTROL Price] | Der Produktpreis aus dem [!DNL Commerce] Katalog speichern. Aktualisierungen des Katalogpreises werden mit dem Kanal-Manager synchronisiert und dann an [!DNL Walmart Marketplace]  sodass die aufgelisteten Artikel den aktuellen Preis anzeigen. |
-| [!UICONTROL Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Status wird aktualisiert, wenn Sie erfolgreich Produkte zu [!DNL Channel Manager] und wenn Sie Produkte auf dem Markt finden. Wenn ein Vorgang fehlschlägt, zeigt die Auflistung einen Fehlerstatus an. Nachdem Sie den Fehler behoben haben, [!DNL Channel Manager] wiederholt den Vorgang und aktualisiert den Status. |
-| [!UICONTROL Error Description] | Bietet zusätzliche Fehlerinformationen für Produkte mit einer `[!DNL Error]` Status. |
+| [!UICONTROL Price] | Der Produktpreis aus dem [!DNL Commerce] Store-Katalog. Aktualisierungen des Katalogpreises werden mit dem Kanal-Manager synchronisiert und dann an [!DNL Walmart Marketplace]  sodass die aufgelisteten Artikel den aktuellen Preis anzeigen. |
+| [!UICONTROL Status] | Gibt den aktuellen Bestellstatus im [!DNL Commerce] Bestellworkflow. Der Status wird aktualisiert, wenn Sie erfolgreich Produkte zu [!DNL Channel Manager] und wenn Sie Produkte auf dem Markt finden. Wenn ein Vorgang fehlschlägt, zeigt die Auflistung einen Fehlerstatus an. Nach Behebung des Fehlers [!DNL Channel Manager] wiederholt den Vorgang und aktualisiert den Status. |
+| [!UICONTROL Error Description] | Bietet zusätzliche Fehlerinformationen für Produkte mit einer `[!DNL Error]` -Status. |
 
 ### Über den Listenstatus
 
 Im Arbeitsbereich &quot;Listen&quot;zeigt die Bezeichnung Status an, wo sich ein Produkt im [!DNL Channel Manager] -Arbeitsablauf, damit Sie die nächsten Schritte bestimmen und Fehler beheben können. Listen können die folgenden Statusbezeichnungen aufweisen:
 
-* **[!UICONTROL Draft]**- Identifiziert nicht vorhandene Produkte [eingereicht [!DNL Walmart] für Abgleich](connect-listings-to-marketplace.md#match-products).
+* **[!UICONTROL Draft]**- Identifiziert nicht vorhandene Produkte [eingereicht von [!DNL Walmart] für Abgleich](connect-listings-to-marketplace.md#match-products).
 
 * **[!UICONTROL Processing]**—Identifiziert Produkte, die zum Abgleich auf der [!DNL Walmart Marketplace]. Produkte verbleiben in *Verarbeitung* bis zum [!DNL Walmart] gibt eine HTTP-Statusmeldung zurück, die angibt, ob die Übereinstimmung erfolgreich war oder ob ein Fehler aufgetreten ist. Es kann bis zu 30 Minuten dauern, bis der Match-Vorgang am [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Match]**- Identifiziert Produkte, die erfolgreich zugewiesen wurden unter [!DNL Walmart].
 
-  Eine Übereinstimmung tritt auf, wenn der Produktattributwert - z. B. der UPC-Code - mit dem UPC-Wert in einem vorhandenen übereinstimmt [!DNL Walmart Marketplace] Auflistung. Wenn ein Produkt übereinstimmt, wird das Commerce-Produktangebot der vorhandenen Liste hinzugefügt.
+  Eine Übereinstimmung tritt auf, wenn der Produktattributwert - z. B. der UPC-Code - dem UPC-Wert in einem vorhandenen [!DNL Walmart Marketplace] Auflistung. Wenn ein Produkt übereinstimmt, wird das Commerce-Produktangebot der vorhandenen Liste hinzugefügt.
 
   Überprüfen Sie die [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) Dashboard , um die aktualisierte Produktliste zu überprüfen und Produktdetails, Preise und Lagerbestände zu überprüfen.
 
-* **[!UICONTROL Match - Match in Stage]**—Identifiziert Produkte, die übereinstimmen mit [!DNL Walmart] die erst dann verbunden werden können, wenn die [!DNL Walmart Marketplace] Store ist live. Produkte mit diesem Status werden automatisch verbunden, wenn die Variable [!DNL Walmart Marketplace] Store wird live geschaltet.
+* **[!UICONTROL Match - Match in Stage]**—Identifiziert Produkte, die übereinstimmen mit [!DNL Walmart] die erst dann verbunden werden können, wenn [!DNL Walmart Marketplace] Store ist live. Produkte mit diesem Status werden automatisch verbunden, wenn die Variable [!DNL Walmart Marketplace] Store wird live geschaltet.
 
 * **[!UICONTROL Error]**—Identifiziert Produkte, die nicht mit einem vorhandenen übereinstimmen [!DNL Walmart Marketplace] Auflistung.
 

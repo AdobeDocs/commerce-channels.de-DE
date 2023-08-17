@@ -6,7 +6,7 @@ exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Die _[!UICONTROL Lowest Competitor Pricing]_auf der Registerkarte_[!UICONTROL Pr
 
 ## Auf Informationen zu niedrigsten Preisen für Wettbewerber zugreifen
 
-1. Klicken **[!UICONTROL Manage Listings]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Manage Listings]** im Store-Dashboard.
 
    Die [_[!UICONTROL Product Listing]_](./managing-product-listings.md) Seite geöffnet.
 
@@ -42,4 +42,4 @@ Die _[!UICONTROL Lowest Competitor Pricing]_auf der Registerkarte_[!UICONTROL Pr
 | [!UICONTROL Landed Price] | Der Börsennotierungspreis für das Produkt zuzüglich des Versandpreises. |
 | [!UICONTROL Feedback Rating] | Die durchschnittliche Bewertung des Wettbewerbers von seinen Kunden (0 - 100). |
 | [!UICONTROL Feedback Count] | Die Anzahl der Ratings des Konkurrenten von seinen Kunden. |
-| [!UICONTROL Last Updated] | Das Datum, an dem die Preise des Wettbewerbers zuletzt aktualisiert wurden. |
+| [!UICONTROL Last Updated] | Datum der letzten Aktualisierung der Preisgestaltung des Wettbewerbers. |

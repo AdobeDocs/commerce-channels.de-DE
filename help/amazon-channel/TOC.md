@@ -1,5 +1,5 @@
 ---
-user-guide-title: Benutzerhandbuch für Amazon Sales Channel
+user-guide-title: Benutzerhandbuch für den Amazon-Vertriebskanal
 user-guide-description: Generieren von Verkäufen über Amazon durch Integration von Adobe Commerce oder Magento Open Source in Ihre [!DNL Amazon Seller Central] -Konto.
 breadcrumb-title: Amazon-Vertriebskanal
 role: Admin, User
@@ -8,14 +8,14 @@ recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
 # Amazon-Vertriebskanal - [!DNL channel manager] für Adobe Commerce {#amazon}
 
-- [Benutzerhandbuch für Amazon Sales Channel](guide-overview.md)
+- [Benutzerhandbuch für den Amazon-Vertriebskanal](guide-overview.md)
 - [Einführung in den Amazon-Vertriebskanal](overview.md)
 - Erste Schritte {#getting-started}
    - [Über Amazon Marketplace](about-amazon-marketplace.md)
@@ -38,7 +38,7 @@ ht-degree: 0%
    - Attribute {#attributes}
       - [Anzeigen von Attributen](attributes-view.md)
       - [Attribute verwalten](managing-attributes.md)
-      - [Erstellen und Bearbeiten von Attributen](creating-attributes.md)
+      - [Attribute erstellen und bearbeiten](creating-attributes.md)
       - [Anzeigen der Attributzuordnung](amazon-matching-attributes-values.md)
    - [Admin-Einstellungen für Vertriebskanäle](sales-channel-settings.md)
    - [Amazon Store-Dashboard](amazon-store-dashboard.md)
@@ -80,7 +80,7 @@ ht-degree: 0%
 - Berichte und Protokolle {#reports-logs}
    - [Protokolle und Berichte speichern](amazon-logs-reports.md)
    - Store-Berichte {#store-reports}
-      - [Preisanalyse](competitive-price-analysis.md)
+      - [Wettbewerbsanalyse der Preise](competitive-price-analysis.md)
       - [Verbesserungen bei Listen](listing-improvements.md)
    - Protokolle {#logs}
       - [Protokoll zu Änderungen auflisten](listing-changes-log.md)
@@ -112,6 +112,6 @@ ht-degree: 0%
    - [Anzeigen von Amazon-Bestellungen](amazon-orders-all.md)
    - [Amazon-Bestelldetails anzeigen](amazon-order-details.md)
    - [Allgemeine Aufgaben zur Bestellverarbeitung](common-order-processing.md)
-   - [Erfüllungs-Workflows](fulfillment-workflows.md)
+   - [Erfüllung von Workflows](fulfillment-workflows.md)
    - [Abbrechen nicht versandter Bestellungen](cancel-unshipped-order.md)
 - [Versionshinweise](release-notes.md)

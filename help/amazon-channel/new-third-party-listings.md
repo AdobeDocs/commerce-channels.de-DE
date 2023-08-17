@@ -15,17 +15,17 @@ Die _[!UICONTROL New Third Party]_zeigt Ihre vorhandenen Amazon-Listen an, die n
 
 under _[!UICONTROL Actions]_:
 
-- **[!UICONTROL Create New Catalog Product(s)]**: Wählen Sie die Informationen in der Amazon-Liste aus, um automatisch ein Produkt in Ihrer [!DNL Commerce] Katalog. Dieser Vorgang stimmt die Amazon-Auflistung automatisch mit dem neuen Katalogprodukt überein. Siehe [Erstellen und Zuweisen von Katalogprodukten](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Create New Catalog Product(s)]**: Wählen Sie aus, die Informationen in der Amazon-Liste zu verwenden, um automatisch ein Produkt in Ihrer [!DNL Commerce] Katalog. Dieser Vorgang stimmt die Amazon-Auflistung automatisch mit dem neuen Katalogprodukt überein. Siehe [Erstellen und Zuweisen von Katalogprodukten](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Attempt Automatic Match]**: Wählen Sie basierend auf Ihrer aktuellen Version einen automatischen Abgleich für die ausgewählten Listen mit Ihrem Katalog aus. [Katalogsuche](./catalog-search.md) Optionen in Ihren Listeneinstellungen. Wenn Sie Ihre _[!UICONTROL Catalog Search]_-Optionen verwenden, können Sie den entsprechenden Prozess erneut versuchen.
+- **[!UICONTROL Attempt Automatic Match]**: Wählen Sie aus, ob Sie versuchen möchten, die ausgewählten Listen basierend auf Ihrem aktuellen Katalog automatisch zuzuordnen. [Katalogsuche](./catalog-search.md) Optionen in Ihren Listeneinstellungen. Wenn Sie Ihre _[!UICONTROL Catalog Search]_-Optionen verwenden, können Sie den entsprechenden Prozess erneut versuchen.
 
 under _[!UICONTROL Select]_:
 
 - **[!UICONTROL Assign Catalog Product]**: Wählen Sie aus, ob die Liste mit einem Produkt in Ihrer [!DNL Commerce] Katalog manuell. Siehe [Erstellen und Zuweisen von Katalogprodukten](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Create New Catalog Product]**: Wählen Sie die Informationen in der Amazon-Liste aus, um automatisch ein Produkt in Ihrer [!DNL Commerce] Katalog. Dieser Vorgang stimmt die Amazon-Auflistung automatisch mit dem neuen Katalogprodukt überein. Siehe [Erstellen und Zuweisen von Katalogprodukten](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Create New Catalog Product]**: Wählen Sie aus, die Informationen in der Amazon-Liste zu verwenden, um automatisch ein Produkt in Ihrer [!DNL Commerce] Katalog. Dieser Vorgang stimmt die Amazon-Auflistung automatisch mit dem neuen Katalogprodukt überein. Siehe [Erstellen und Zuweisen von Katalogprodukten](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL View Details]**: Wählen Sie aus, um Details zur Auflistung anzuzeigen, einschließlich der [Auflisten des Aktivitätsprotokolls](./product-listing-details.md#listing-activity-log), [Buy Box Konkurrentenpreise](./product-listing-details.md#buy-box-competitor-pricing)und [Niedrigste Preise für Wettbewerber](./product-listing-details.md#lowest-competitor-pricing). Diese Aktion dient nur der Anzeige. In den Listendetails können keine Änderungen vorgenommen werden. Siehe [Details anzeigen](./product-listing-details.md).
+- **[!UICONTROL View Details]**: Wählen Sie aus, um Details zur Auflistung anzuzeigen, einschließlich der [Auflisten des Aktivitätsprotokolls](./product-listing-details.md#listing-activity-log), [Buy Box Konkurrentenpreise](./product-listing-details.md#buy-box-competitor-pricing), und [Niedrigste Preise für Wettbewerber](./product-listing-details.md#lowest-competitor-pricing). Diese Aktion dient nur der Anzeige. In den Listendetails können keine Änderungen vorgenommen werden. Siehe [Details anzeigen](./product-listing-details.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbei
 
 | Spalte | Beschreibung |
 |---|---|
-| [!UICONTROL Amazon Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
+| [!UICONTROL Amazon Seller SKU] | Die von Amazon einem Produkt zugewiesene SKU (Stock Keeping Unit, Bestandseinheit) zur Identifizierung von Produkt, Optionen, Preis und Hersteller. |
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>ASIN steht für die [!DNL Amazon Standard Identification Number]. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
 | [!UICONTROL Product Listing Name] | Der Name des Produkts. |
 | [!UICONTROL Condition] | Die [Bedingung](./product-listing-condition.md) des Erzeugnisses. |

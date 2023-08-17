@@ -1,5 +1,5 @@
 ---
-title: Attribute für Amazon-Auflistungen
+title: Attribute für Amazon-Listen
 description: Amazon Sales Channel stellt die [!UICONTROL Attributes] um die Liste der Amazon- und Commerce-Attribute und ihre Zuordnung für die Produktzuordnung zu überwachen.
 feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Attribute für Amazon-Auflistungen
+# Attribute für Amazon-Listen
 
 Die _[!UICONTROL Attributes]_zeigt Ihre Liste von Amazon und [!DNL Commerce] -Attribute. Die Liste zeigt auch Attribute an, die für die Produktzuordnung zugeordnet wurden. Weitere Informationen finden Sie unter [Attribute verwalten](./managing-attributes.md).
 
@@ -22,7 +22,7 @@ Aus dem _[!UICONTROL Attributes]_anzeigen, Sie anzeigen und Ihre Attributeinstel
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. Klicken **[!UICONTROL Attributes]** Suchen Sie im Menü links ein Amazon-Attribut und überprüfen Sie Ihre Attributliste.
+1. Klicks **[!UICONTROL Attributes]** Suchen Sie im Menü links ein Amazon-Attribut und überprüfen Sie Ihre Attributliste.
 
 1. Erstellen oder bearbeiten Sie nach Bedarf ein Attribut:
 
@@ -34,7 +34,7 @@ Aus dem _[!UICONTROL Attributes]_anzeigen, Sie anzeigen und Ihre Attributeinstel
 
 | Feld | Beschreibung |
 |---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Country] | Das Land der Verkaufsaktivität, definiert in  **[!DNL Amazon Marketplace]Land** during [Store-Integration](./store-integration.md). |
+| [!UICONTROL Country] | Das Land, in dem die Verkaufsaktivität definiert wurde in  **[!DNL Amazon Marketplace]Land** during [Store-Integration](./store-integration.md). |
 | [!UICONTROL ID] | Generischer Attributwert, generiert von [!DNL Commerce] wenn das Attribut erstellt wird. |
 | [!UICONTROL Amazon Attribute Name] | Der Name des aus Amazon importierten Attributs. |
 | [!UICONTROL Product Catalog Attribute Code] | Wenn die Variable [!DNL Commerce] -Attribut, das der Zuordnung zum _[!UICONTROL Amazon Attribute Name]_für übereinstimmende Kataloge und Auflistungsprodukte. |

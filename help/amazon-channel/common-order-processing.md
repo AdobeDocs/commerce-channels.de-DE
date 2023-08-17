@@ -1,6 +1,6 @@
 ---
 title: Allgemeine Amazon-Auftragsverarbeitungsaufgaben
-description: Verwenden Sie die entsprechende [!DNL Commerce] Bestellungen, die für Amazon-Bestellungen erstellt wurden, um die Bestellaktivität und -verarbeitung im [!UICONTROL Commerce] Admin.
+description: Verwenden Sie die entsprechende [!DNL Commerce] Für Amazon-Bestellungen erstellte Bestellungen verwalten die Bestellaktivität und -verarbeitung in der [!UICONTROL Commerce] Admin.
 feature: Sales Channels, Orders
 exl-id: a44f36f0-db18-4de5-9c5b-cc68f4793008
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Allgemeine Amazon-Auftragsverarbeitungsaufgaben
 
-[Verarbeitung von Commerce-Aufträgen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order) Sie können Ihre Amazon-Bestellungen verwalten, einschließlich E-Mail an den Käufer, Erfüllung der Bestellung (Versand), Ausstellung von Gutschriften/Erstattungen, Hinzufügen von Kommentaren und mehr. Um Ihre Amazon-Bestellungen zu verwalten, benötigen Sie [**Importieren von Amazon-Bestellungen**](./order-settings.md) muss auf `Enabled` so, dass [!DNL Commerce] Bestellungen werden erstellt, wenn Amazon-Bestellungen empfangen werden. Amazon-Bestellinformationen werden im *[!UICONTROL Recent Orders]* des Store-Dashboards.
+[Verarbeitung von Commerce-Aufträgen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order) Sie können Ihre Amazon-Bestellungen verwalten, einschließlich E-Mail an den Käufer, Erfüllung der Bestellung (Versand), Ausstellung von Gutschriften/Erstattungen, Hinzufügen von Kommentaren und mehr. Um Ihre Amazon-Bestellungen zu verwalten, benötigen Sie [**Importieren von Amazon-Bestellungen**](./order-settings.md) muss auf `Enabled` so, dass [!DNL Commerce] Bestellungen werden erstellt, wenn Amazon-Bestellungen empfangen werden. Amazon-Bestellinformationen werden in der *[!UICONTROL Recent Orders]* des Store-Dashboards.
 
 Wenn aktiviert, entspricht [!DNL Commerce] Bestellungen werden für Amazon-Bestellungen erstellt und die Amazon-Bestellnummer wird im _[!UICONTROL Order Number]_Spalte. Wenn eine [!DNL Commerce] -Bestellung erstellt wird, klicken Sie auf die Bestellnummer, um die Bestellung im [Verarbeitung von Commerce-Aufträgen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order) Seite. Sie können die Bestellung so verwalten, wie Sie sie bei Ihren anderen [[!DNL Commerce] Bestellverarbeitung](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order).
 
@@ -42,6 +42,6 @@ Allgemeiner Handel [Bestellverarbeitung](https://experienceleague.adobe.com/docs
 
 >[!NOTE]
 >
->Wenn eine Bestellung in `Unshipped` Status, können Sie [Abbrechen einer Amazon-Bestellung](./cancel-unshipped-order.md) auf [[!UICONTROL Amazon Order Details]](./amazon-order-details.md) Seite. Wenn eine Bestellung versandt wurde, kann sie nicht storniert werden.
+>Wenn eine Bestellung in `Unshipped` -Status, können Sie [Abbrechen einer Amazon-Bestellung](./cancel-unshipped-order.md) auf [[!UICONTROL Amazon Order Details]](./amazon-order-details.md) Seite. Wenn eine Bestellung versandt wurde, kann sie nicht storniert werden.
 
 Siehe [Commerce Order Management](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/introduction.html#order-management-and-operations).

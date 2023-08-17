@@ -1,12 +1,12 @@
 ---
 title: Amazon-Vertriebskanal - [!UICONTROL Listing Changes Log]
-description: Amazon Sales Channel stellt das Änderungsprotokoll zur Auflistung bereit, mit dem Sie die betroffenen Änderungen in Ihrem Amazon-Vertriebskonto überwachen können.
+description: Amazon Sales Channel stellt das Änderungsprotokoll für die Liste bereit, mit dem Sie die betroffenen Änderungen in Ihrem Amazon-Vertriebskonto überwachen können.
 feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -24,8 +24,8 @@ Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbei
 
 | Spalte | Beschreibung |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Amazon Store Name] | Der Name des Stores, der beim Einrichten des Amazon-Stores definiert wurde. Siehe [Store-Integration](./store-integration.md). |
-| [!UICONTROL Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
+| [!UICONTROL Amazon Store Name] | Der Name des Stores, der beim Einrichten des Amazon-Stores definiert wurde. Siehe Abschnitt [Store-Integration](./store-integration.md). |
+| [!UICONTROL Seller SKU] | Die von Amazon einem Produkt zugewiesene SKU (Stock Keeping Unit, Bestandseinheit) zur Identifizierung von Produkt, Optionen, Preis und Hersteller. |
 | [!UICONTROL Listing Action] | Die Art der Änderung, die an der Auflistung vorgenommen wurde. |
 | [!UICONTROL Comments] | Zusätzliche Informationen zur Änderung der Auflistung. |
 | [!UICONTROL Created On] | Datum und Uhrzeit der Änderung. |

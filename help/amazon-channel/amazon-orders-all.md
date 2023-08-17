@@ -27,7 +27,7 @@ _[!UICONTROL All Orders]_-Ansicht fügt Filteroptionen für Auftragssuchvorgäng
 
 >[!NOTE]
 >
->Außer für _[!UICONTROL Order Notes]_-Spalte_[!UICONTROL Amazon orders]_ -Tabelle mit den von Amazon empfangenen Bestellinformationen gefüllt. Die _Bestellhinweise_ Spalte wird aktualisiert von [!DNL Commerce] als die Reihenfolge verarbeitet.
+>Außer für _[!UICONTROL Order Notes]_Spalte, die_[!UICONTROL Amazon orders]_ -Tabelle mit den von Amazon empfangenen Bestellinformationen gefüllt. Die _Bestellhinweise_ Spalte wird aktualisiert von [!DNL Commerce] als die Reihenfolge verarbeitet.
 
 ## Letzte Bestellungen
 
@@ -37,7 +37,7 @@ Sie können Ihre neuesten Bestellungen im _[!UICONTROL Recent Orders]_Abschnitt 
 
 ### Aktuelle Amazon-Bestellungen anzeigen
 
-1. Klicken **[!UICONTROL View Store]** auf einer Speicherkarte.
+1. Klicks **[!UICONTROL View Store]** auf einer Speicherkarte.
 
 1. Zeigen Sie Ihre Bestellungen im _[!UICONTROL Recent Orders]_Abschnitt.
 
@@ -59,11 +59,11 @@ Sie können alle Ihre Amazon-Bestellungen im _[!UICONTROL Amazon orders]_Seite (
 
 ### Alle Amazon-Bestellungen anzeigen
 
-1. Klicken **[!UICONTROL View Store]** auf einer Speicherkarte.
+1. Klicks **[!UICONTROL View Store]** auf einer Speicherkarte.
 
-1. Klicken **[!UICONTROL All Orders]** im _[!UICONTROL Recent Orders]_Abschnitt.
+1. Klicks **[!UICONTROL All Orders]** im _[!UICONTROL Recent Orders]_Abschnitt.
 
-1. Um die Liste einzuschränken oder nach einer bestimmten Bestellnummer zu suchen, müssen Sie die **[!UICONTROL Filter by]** Parameter und klicken Sie auf **[!UICONTROL Apply filters]**.
+1. Um die Liste einzuschränken oder nach einer bestimmten Bestellnummer zu suchen, müssen Sie die **[!UICONTROL Filter by]** Parameter und klicken Sie **[!UICONTROL Apply filters]**.
 
 1. Um Bestelldetails anzuzeigen, klicken Sie auf die Amazon-Bestellnummer im _[!UICONTROL Order Number]_Spalte.
 
@@ -71,15 +71,15 @@ Sie können alle Ihre Amazon-Bestellungen im _[!UICONTROL Amazon orders]_Seite (
 
 ## Filter verwenden
 
-Sie können Filter auf Ihre Bestellliste im _[!UICONTROL Filter by]_Abschnitt. Auswählen und klicken Sie auf **[!UICONTROL Apply filters]**. Die angewendeten Filter werden oberhalb des Sortierungsrasters angezeigt.
+Sie können Filter auf Ihre Bestellliste im _[!UICONTROL Filter by]_Abschnitt. Auswählen und Klicken **[!UICONTROL Apply filters]**. Die angewendeten Filter werden über dem Raster der Bestellungen angezeigt.
 
 ![Filter zum Anzeigen von Amazon-Bestellungen](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### Ändern angewendeter Filter
 
-- Sie können Filter in der _[!UICONTROL Filter by]_Abschnitt. Klicken **[!UICONTROL Apply filters]**um die Bestellliste und die Filteroptionen zu aktualisieren, die über dem Bestellraster angezeigt werden.
+- Sie können Filter in der _[!UICONTROL Filter by]_Abschnitt. Klicks **[!UICONTROL Apply filters]**um die Bestellliste und die Filteroptionen zu aktualisieren, die über dem Bestellraster angezeigt werden.
 
-- Sie können Filter einzeln entfernen, indem Sie auf die `x` für den Filter oder alle auf einmal durch Klicken auf **[!UICONTROL Clear all filters]**. Wenn Sie einen Filter entfernen, werden die Liste der Bestellungen und die Filteroptionen, die über dem Bestellungsraster angezeigt werden, aktualisiert.
+- Sie können Filter einzeln entfernen, indem Sie auf die `x` für den Filter oder alle gleichzeitig durch Klicken auf **[!UICONTROL Clear all filters]**. Wenn Sie einen Filter entfernen, werden die Liste der Bestellungen und die Filteroptionen, die über dem Bestellungsraster angezeigt werden, aktualisiert.
 
 - Wenn Ihre Bestellliste lang ist, können Sie die Paginierungssteuerelemente unterhalb des Rasters verwenden, um weitere Bestellungen anzuzeigen.
 
@@ -102,4 +102,4 @@ Sie können Filter auf Ihre Bestellliste im _[!UICONTROL Filter by]_Abschnitt. A
 | [!UICONTROL Status] | Der Status der Bestellung, wie er von Amazon empfangen wurde. Optionen: `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
 | [!UICONTROL Buyer's Name] | Der Name der Person, die die Bestellung aufgegeben hat, wie er von Amazon empfangen wurde. |
 | [!UICONTROL Grand Total] | Der Gesamtwährungswert der Bestellung, wie er von Amazon empfangen wurde. |
-| [!UICONTROL Order Notes] | Die letzte Aktion, die für die Bestellung aufgezeichnet wurde, während sie in [!DNL Commerce]. Die Informationen umfassen u. a. Bestellimportfehler und Bestellaktualisierungen.<br>**Hinweis**: Dieses Feld wird von [!DNL Commerce] als die Reihenfolge verarbeitet. |
+| [!UICONTROL Order Notes] | Die letzte Aktion, die für die Bestellung aufgezeichnet wurde, während sie in [!DNL Commerce]. Die Informationen umfassen u. a. Bestellimportfehler und Bestellaktualisierungen.<br>**Hinweis**: Dieses Feld wird aktualisiert von [!DNL Commerce] als die Reihenfolge verarbeitet. |

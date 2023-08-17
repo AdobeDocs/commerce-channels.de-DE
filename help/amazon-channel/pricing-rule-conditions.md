@@ -20,31 +20,31 @@ Die Bedingungen bestimmen, welche Produkte für die Preisregel infrage kommen. D
 
 Auf alle Bereiche in den fett gedruckten Bedingungen kann geklickt werden, um die verschiedenen Optionen anzuzeigen.
 
-## Beispiel: eine Preisregel-Bedingung erstellen
+## Beispiel: Erstellen einer Preisregel-Bedingung
 
-Dieser Vorgang kann je nach Konfiguration Ihres Katalogs einfach oder detailliert sein. Sie können Bedingungen so definieren, dass `ALL` oder `ANY` der Bedingungen `TRUE` oder `FALSE` für ein Produkt gilt die Preisregel für das Produkt.
+Dieser Vorgang kann je nach Konfiguration Ihres Katalogs einfach oder detailliert sein. Sie können Bedingungen so definieren, dass `ALL` oder `ANY` der Bedingungen `TRUE` oder `FALSE` für ein Produkt, ist das Produkt berechtigt, die Preisregel anzuwenden.
 
 Die Bedingungen basieren auf Ihren [Produktattribute](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Lassen Sie den Abschnitt Bedingungen leer, um die Regel auf alle Produkte anzuwenden.
 
 >[!NOTE]
 >
->Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, **Verwendung für Bedingungen für Angebotsregeln** für muss das Attribut auf `Yes` in [Storefront-Eigenschaften](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) für das -Attribut.
+>Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, **Verwendung für Bedingungen für Angebotsregeln** für muss das Attribut auf `Yes` in [Store-Eigenschaften](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) für das -Attribut.
 
 ![Bedingung der Preisregel - Zeile 1](assets/ob-price-rules-condition-1.png){width="600" zoomable="yes"}
 
-In diesem Beispiel wird eine Regel definiert, die einen Rabatt von 25 % auf alle Produkte anwendet, die in der Variablen `Books` Kategorie.
+In diesem Beispiel wird eine Regel definiert, die einen Rabatt von 25 % auf alle Produkte anwendet, die im `Books` Kategorie.
 
 Die Regelanweisung verfügt über zwei fette Links, die beim Klicken die Optionen für diesen Teil der Bedingungsanweisung anzeigen. Wenn Sie die Bedingung speichern, ohne eine fett gedruckte Option zu ändern, gilt die Regel für alle Ihre Produkte.
 
-- Klicken **[!UICONTROL ALL]** und wählen Sie entweder `ALL` oder `ANY`.
-- Klicken **[!UICONTROL TRUE]** und wählen Sie entweder `TRUE` oder `FALSE`.
+- Klicks **[!UICONTROL ALL]** und wählen Sie `ALL` oder `ANY`.
+- Klicks **[!UICONTROL TRUE]** und wählen Sie entweder `TRUE` oder `FALSE`.
 - Um die Regel auf alle Produkte anzuwenden, lassen Sie die Bedingung unverändert.
 
 Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination dieser Werte ändern. Für dieses Beispiel wird die folgende Bedingung verwendet:
 
 `If ALL of these conditions are TRUE:`
 
-1. Klicken Sie auf Hinzufügen (![Symbol hinzufügen](assets/btn-add-grn.png)) am Anfang der Bedingungszeile und wählen Sie ein Attribut aus, auf dem die Bedingung basieren soll.
+1. Um verfügbare Attribute anzuzeigen, für die die Bedingung gilt, klicken Sie auf Hinzufügen (![Symbol &quot;Hinzufügen&quot;](assets/btn-add-grn.png)) am Anfang der Bedingungszeile und wählen Sie ein Attribut aus, auf dem die Bedingung basieren soll.
 
    **[!UICONTROL Conditions Combination]** - Wählen Sie aus, einen weiteren Satz von `All/Any` und `True/False` Bedingungen innerhalb der vorhandenen Bedingung.
 
@@ -60,11 +60,11 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
 
      Nachdem Sie das Attribut festgelegt haben, kann es nicht mehr bearbeitet werden. Um das Attribut zu ändern, müssen Sie die Zeile löschen und das neue Attribut hinzufügen. Sie können eine Bedingungszeile löschen, indem Sie auf Löschen (![Löschsymbol](assets/btn-del-red.png) -Symbol am Ende der Zeile.
 
-   - Klicken **[!UICONTROL is]** und wählen Sie den Vergleichsoperator aus, der die Bedingung für die zu erfüllenden Produkte beschreibt.
+   - Klicks **[!UICONTROL is]** und wählen Sie den Vergleichsoperator aus, der die Bedingung für die zu erfüllenden Produkte beschreibt.
 
      In diesem Beispiel lautet der Vergleichsoperator `is`. Die verfügbaren Optionen hängen vom im vorherigen Schritt ausgewählten Attribut ab und können verschiedene Vergleichsoptionen enthalten. Optionen können übereinstimmende Werte umfassen, die mindestens einen Wert nicht enthalten oder darunter fallen, sowie größer, gleich und kleiner als ein numerischer Wert. In diesem Beispiel sind die Optionen `is` und `is not`.
 
-   - Klicken **[!UICONTROL ...]** und wählen Sie den Attributwert aus, auf dem die Bedingung basiert. Die Optionen hängen von der Einrichtung des Attributs ab.
+   - Klicks **[!UICONTROL ...]** und wählen Sie den Attributwert aus, auf dem die Bedingung basiert. Die Optionen hängen von der Einrichtung des Attributs ab.
 
      Sie werden möglicherweise aufgefordert, eine Option auszuwählen oder einen Wert für die Bedingung einzugeben. In diesem Beispiel wird das Feld leer angezeigt. Klicken Sie auf das Auswahlsymbol (![Auswahlsymbol](assets/btn-chooser.png)), um Ihre Auswahloptionen anzuzeigen. Diese Regel gilt für _Bücher_, wählen Sie die **[!UICONTROL Books]** aktivieren. Die Kategorienummer wird ausgefüllt. Um Ihre Kategorieauswahlen zu akzeptieren, klicken Sie auf das grüne Häkchensymbol (![Symbol &quot;Häkchen&quot;](assets/btn-check-mark-green.png)).
 

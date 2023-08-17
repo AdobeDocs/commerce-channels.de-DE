@@ -24,7 +24,7 @@ Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbei
 
 | Spalte | Beschreibung |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Amazon Store Name] | Der Name des Stores, der beim Einrichten des Amazon-Stores definiert wurde. Siehe [Store-Integration](./store-integration.md). |
+| [!UICONTROL Amazon Store Name] | Der Name des Stores, der beim Einrichten des Amazon-Stores definiert wurde. Siehe Abschnitt [Store-Integration](./store-integration.md). |
 | [!UICONTROL Error Code] | Der von Amazon empfangene Code zur Identifizierung des Fehlertyps. |
 | [!UICONTROL Message] | Die Meldung, die den Fehler im Zusammenhang mit dem Fehlercode beschreibt. |
 | [!UICONTROL Created On] | Datum und Uhrzeit des Fehlers. |

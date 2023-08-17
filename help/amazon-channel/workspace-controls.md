@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Der Amazon-Vertriebskanal [Startseite](./amazon-sales-channel-home.md) verfügt über einige gängige Steuerelemente für den Arbeitsbereich, darunter Filter, Standardansicht, Spalten und Export. Nicht alle Seiten haben die gleichen Steuerungsoptionen.
 
-![Beispiele für Steuerelemente in Amazon Sales Channel Workspace](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
+![Beispiele für die Amazon Sales Channel Workspace-Steuerelemente](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## Aktionen
 
 Die _[!UICONTROL Actions]_selector stellt eine Liste von Aktionen bereit, die einem Benutzer für eine Seite zur Verfügung stehen. Wenn diese Option ausgewählt ist, wird die Aktion auf alle ausgewählten Elemente angewendet. Um eine Aktion auf ein bestimmtes Element anzuwenden, aktivieren Sie das Kontrollkästchen in der ersten Spalte jedes Elements und wählen Sie eine Option unter_[!UICONTROL Actions]_.
 
-Wenn beispielsweise der Selektor auf der _[!UICONTROL Attributes]_Seite, enthält sie die_[!UICONTROL Re-import Product Attribute Values]_ Aktion. Wenn Sie diese Aktion auswählen, wird der entsprechende Ping eingefügt [!DNL Amazon Seller Central] -Konto und aktualisiert die [!DNL Commerce] -Daten für jedes der Amazon-Store-Elemente, die in der linken Spalte aktiviert sind.
+Wenn beispielsweise die Auswahl auf der _[!UICONTROL Attributes]_Seite, enthält sie die_[!UICONTROL Re-import Product Attribute Values]_ Aktion. Wenn Sie diese Aktion auswählen, wird der entsprechende Ping eingefügt [!DNL Amazon Seller Central] -Konto und aktualisiert die [!DNL Commerce] -Daten für jedes der Amazon-Store-Elemente, die in der linken Spalte aktiviert sind.
 
 ![Menübeispiel Aktionen](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
@@ -33,7 +33,7 @@ Filtersteuerelemente können dynamische Kalender enthalten, um Daten für bestim
 Das folgende Beispiel zeigt die Einstellungen zum Filtern der Liste von Bestellungen, sodass nur Bestellungen angezeigt werden, die die folgenden Kriterien erfüllen:
 
 - zwischen dem 1.1.2019 und dem 2.7.2019 aufgegebene Bestellungen und
-- Bestellungen mit einem Käufer mit dem Namen `Smith`und
+- Bestellungen mit einem Käufer mit dem Namen `Smith`, und
 - Bestellungen mit dem Status `Shipped`.
 
 Wenn Sie die Filteroptionen festgelegt haben, klicken Sie auf **[!UICONTROL Apply Filters]** , um die aufgeführten Daten zu filtern. Klicken Sie auf Abbrechen , um das Steuerelement Filter zu verlassen, ohne anzuwenden.
@@ -46,7 +46,7 @@ Nachdem Sie Filter auf Ihre Daten angewendet haben, **[!UICONTROL Active Filters
 
 ## Ansicht
 
-Das Ansichtssteuerelement basiert auf den Standardspalten für die Seite und erhält daher den Namen &quot;Standardansicht&quot;. Mithilfe des Spalten-Steuerelements können Sie verfügbare Spalten hinzufügen oder entfernen. Wenn Sie Ihre Spalten anpassen, können Sie die Ansicht dann als benutzerdefinierte Ansicht im Ansichtssteuerelement speichern.
+Das Ansichtssteuerelement basiert auf den Standardspalten für die Seite und erhält daher den Namen Standardansicht. Mithilfe des Spalten-Steuerelements können Sie verfügbare Spalten hinzufügen oder entfernen. Wenn Sie Ihre Spalten anpassen, können Sie die Ansicht dann als benutzerdefinierte Ansicht im Ansichtssteuerelement speichern.
 
 Wenn Sie Ihre Spalten von der Seite hinzugefügt oder entfernt haben, wird Folgendes angezeigt:
 

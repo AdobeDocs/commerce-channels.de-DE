@@ -20,7 +20,7 @@ Im [!DNL Commerce] bei erfolgreicher Synchronisierung werden die folgenden Trigg
 
 - Eine entsprechende [!DNL Commerce] -Bestellung wird aus der Walmart-Bestellung erstellt.
 
-- Die aktualisierten Bestellinformationen werden auf der Seite [!DNL Channel Manager] Dashboard &quot;Bestellungen&quot;.
+- Die aktualisierten Bestellinformationen werden auf der [!DNL Channel Manager] Dashboard &quot;Bestellungen&quot;.
 
 In der Storefront-Admin können Sie Bestelldaten aus [!DNL Channel Manager] durch Öffnen des Verkaufskanalspeichers und Auswählen **[!UICONTROL Orders]**.
 
@@ -51,11 +51,11 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 </tr>
 <tr>
 <td>[!UICONTROL View order detail]</td>
-<td>Um Bestelldetails anzuzeigen, wählen Sie die [!DNL Commerce] Bestellnummer im [!UICONTROL Order] Tabelle. Verwenden Sie dann [!DNL Commerce] Bestelloptionen, um die Bestellung zu verarbeiten.</td>
+<td>Um Bestelldetails anzuzeigen, wählen Sie die [!DNL Commerce] Bestellnummer in der [!UICONTROL Order] Tabelle. Verwenden Sie dann [!DNL Commerce] Bestelloptionen zur Verarbeitung der Bestellung.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Channel Settings]</td>
-<td>Um die Kanalkonfiguration zu ändern, wählen Sie die Anmeldeinformationen der Walmart Connection, zugeordnete Attribute oder Versandkennungen aus. Wählen Sie in den Einstellungen die Option [!DNL Commerce] Bestellnummer im [!UICONTROL Order] Tabelle. Verwenden Sie dann [!DNL Commerce] Bestelloptionen, um die Bestellung zu verarbeiten.</td>
+<td>Um die Kanalkonfiguration zu ändern, wählen Sie die Anmeldeinformationen der Walmart Connection, zugeordnete Attribute oder Versandkennungen aus. Wählen Sie in den Einstellungen die Option [!DNL Commerce] Bestellnummer in der [!UICONTROL Order] Tabelle. Verwenden Sie dann [!DNL Commerce] Bestelloptionen zur Verarbeitung der Bestellung.</td>
 </tr>
 </table>
 
@@ -69,7 +69,7 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 </tr>
 <tr>
 <td>[!UICONTROL Walmart Order #]</td>
-<td>Die Bestellnummer, die der Bestellung in der [!DNL Walmart Marketplace]. Beim erstmaligen Import einer Bestellung in [!DNL Channel Manager], wobei nur die [!DNL Walmart] Bestellnummer angezeigt. Wenn die [!DNL Commerce] -Reihenfolge erstellt wird, wird die [!DNL Walmart] Die Bestellnummer wird im [!UICONTROL External ID] Produktattribut.</td>
+<td>Die der Bestellung im [!DNL Walmart Marketplace]. Beim erstmaligen Import einer Bestellung in [!DNL Channel Manager], wobei nur die [!DNL Walmart] Bestellnummer angezeigt. Wenn die Variable [!DNL Commerce] -Reihenfolge erstellt wird, wird die [!DNL Walmart] Die Bestellnummer wird im [!UICONTROL External ID] Produktattribut.</td>
 </tr>
 <tr>
 <td>[!DNL Commerce] Bestellnummer</td>
@@ -118,7 +118,7 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
 [!UICONTROL Order Status] liefert Informationen zum aktuellen Status von [!DNL Walmart Marketplace] Bestellungen, die von Adobe Commerce oder Magento Open Source verwaltet werden. Aktualisierungen des Bestellstatus treten auf, wenn [!DNL Channel Manager] erhält aktualisierte Bestellinformationen von entweder [!DNL Walmart Marketplace] oder [!DNL Commerce] Bestellsystem. Bestellungen können den folgenden Status aufweisen:
 
-- **[!UICONTROL Shipped]**—Bestellungen, die von der [!DNL Commerce] speichern. Wenn die Bestellung ausgeht, [!DNL Channel Manager] sendet eine Aktualisierung an [!DNL Walmart Marketplace] um den Versandstatus von Walmart zu aktualisieren und die Bestellnummer für die Sendung anzugeben. Nach dem Versand einer Bestellung können Bestellungen teilweise oder vollständig zurückerstattet werden, wenn Walmart ein Formular zur Genehmigung der Rücksendung ausstellt. Siehe [Rückgaben und Erstattungen](return-refund-orders.md).
+- **[!UICONTROL Shipped]**—Bestellungen, die von der [!DNL Commerce] speichern. Wenn die Bestellung ausgeht, [!DNL Channel Manager] sendet eine Aktualisierung an [!DNL Walmart Marketplace] um den Versandstatus von Walmart zu aktualisieren und die Bestellnummer für die Sendung anzugeben. Nach dem Versand einer Bestellung können Bestellungen teilweise oder vollständig zurückerstattet werden, wenn Walmart ein Formular für die Rückgabe-Merchandise-Autorisierung ausgibt. Siehe [Rückgaben und Erstattungen](return-refund-orders.md).
 
 - **[!UICONTROL Partially Shipped]**—Bestellungen, bei denen einige als versandt markierte Artikel und andere auf den Versand warten. Wenn Artikel in der Bestellung versandt werden, [!DNL Channel Manager] sendet eine Aktualisierung an [!DNL Walmart Marketplace] , um den Versandstatus auf _[!DNL Partially Shipped]_auf Walmart und geben Sie die Bestellnummer für die Sendung an.
 
@@ -126,11 +126,11 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
   Nach Abschluss der Auftragsstornierung wird die [!DNL Commerce] Bestandsmengenaktualisierungen, um die zurückgegebenen Elemente widerzuspiegeln. Dann [!DNL Channel Manager] synchronisiert die Aktualisierung mit dem [!DNL Walmart Marketplace].
 
-- **[!UICONTROL Return requested]**—Wenn Walmart Marketplace eine Rückgabe für die gelieferten Bestellartikel anfordert, wird ein `Return requested` Der Link wird in [!UICONTROL Status details] Spalte. Wenn Sie den Link auswählen, wird der [!UICONTROL Returns] Dashboard, um die Rückgabe anzuzeigen und den Rückerstattungsprozess zu verwalten.
+- **[!UICONTROL Return requested]**—Wenn Walmart Marketplace eine Rückgabe für die gelieferten Bestellartikel anfordert, wird ein `Return requested` Der Link wird in der [!UICONTROL Status details] Spalte. Wenn Sie den Link auswählen, wird der [!UICONTROL Returns] Dashboard, um die Rückgabe anzuzeigen und den Rückerstattungsprozess zu verwalten.
 
-- **[!UICONTROL Error]**—Bestellungen mit Fehlern. Fehler können auftreten, wenn ein Bestellaktualisierungsvorgang fehlschlägt. Beispielsweise treten Fehler auf, wenn [!DNL Channel Manager] kann keine neue Bestellung von Walmart erhalten. Sie können auch auftreten, wenn [!DNL Channel Manager] kann eine Auftragsversand- oder Löschungsaktualisierung nicht an die [!DNL Walmart Marketplace]. Wenn ein Vorgang fehlschlägt, wird auf der Seite &quot;Bestellungen&quot;eine _Fehler_ Status für die Bestellung. Weitere Informationen finden Sie unter [Bestellfehler beheben](process-orders.md#fix-shipping-and-cancel-errors).
+- **[!UICONTROL Error]**—Bestellungen mit Fehlern. Fehler können auftreten, wenn ein Bestellaktualisierungsvorgang fehlschlägt. Wenn beispielsweise [!DNL Channel Manager] kann keine neue Bestellung von Walmart erhalten. Sie können auch auftreten, wenn [!DNL Channel Manager] kann eine Auftragsversand- oder Stornierungsaktualisierung nicht an die [!DNL Walmart Marketplace]. Wenn ein Vorgang fehlschlägt, wird auf der Seite &quot;Bestellungen&quot;eine _Fehler_ Status für die Bestellung. Weitere Informationen finden Sie unter [Bestellfehler beheben](process-orders.md#fix-shipping-and-cancel-errors).
 
-- **[!UICONTROL Status details]**-Bietet weitere Informationen zu Bestellfehlern, die aufgrund von Problemen auftreten, wie fehlende Informationen oder ungültige Werte, falsche Versanddetails oder eine fehlgeschlagene Auftragsstornierung. Anhand der Beschreibung kann festgestellt werden, ob ein Fehler auf der [!DNL Commerce] -Instanz oder auf [!DNL Walmart Marketplace].
+- **[!UICONTROL Status details]**-Bietet weitere Informationen zu Bestellfehlern, die aufgrund von Problemen auftreten, wie fehlende Informationen oder ungültige Werte, falsche Versanddetails oder eine fehlgeschlagene Auftragsstornierung. Anhand der Beschreibung kann festgestellt werden, ob ein Fehler auf der [!DNL Commerce] -Instanz oder auf der [!DNL Walmart Marketplace].
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
 ## Bestellungen überprüfen
 
-1. Wählen Sie im Admin die Option **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]** , um [!UICONTROL Channel Manager Marketplace Stores] Seite.
+1. Wählen Sie im Admin die Option **[!UICONTROL Marketing]** > **[!UICONTROL Channel Manager]** , um die [!UICONTROL Channel Manager Marketplace Stores] Seite.
 
 1. Öffnen Sie die Store-Ansicht, indem Sie das Augensymbol in einer Store-Einstiegszeile auswählen.
 
@@ -150,9 +150,9 @@ In den folgenden Tabellen werden die für Bestellungen verfügbaren Steuerelemen
 
 Nachdem eine Bestellung vom Marketplace empfangen und in Ihren Vertriebskanalspeicher importiert wurde, verwenden Sie die [!DNL Commerce] Bestell-ID zum Anzeigen der Auftragsdetails in Adobe Commerce.
 
-Von **[!UICONTROL Orders]**, wählen Sie die **[!UICONTROL Commerce Order Number]** , um [!DNL Commerce] Bestelldetails.
+Von **[!UICONTROL Orders]**, wählen Sie die **[!UICONTROL Commerce Order Number]** , um die [!DNL Commerce] Bestelldetails.
 
-![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
+![Detailansicht einer Commerce-Bestellung für [!DNL Walmart Marketplace] bestellen](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 Im Commerce-Store werden aus importierte Bestellungen [!DNL Walmart Marketplace] die folgenden zusätzlichen Informationen in die Bestelldaten einschließen:
 

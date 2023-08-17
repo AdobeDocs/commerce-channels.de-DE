@@ -22,11 +22,11 @@ Die folgenden Protokolle sind über die [Store-Dashboard](./amazon-store-dashboa
 
 - Die [Kommunikationsprotokoll](./communication-errors-log.md) zeigt alle gemeldeten Kommunikationsfehler mit Amazon an.
 
-Die folgenden speicherspezifischen Berichte sind über die [Store-Dashboard](./amazon-store-dashboard.md).
+Auf die folgenden speicherspezifischen Berichte kann über die [Store-Dashboard](./amazon-store-dashboard.md).
 
-- Die [Preisanalyse für Wettbewerber](./competitive-price-analysis.md) zeigt, dass Ihr Amazon _Anlandepreis_ (Börsenkurs plus Versandpreis) im Verhältnis zum [Buy Box](./buy-box-competitor-pricing.md) Preis und [kleinster Konkurrent](./lowest-competitor-pricing.md) Preis.
+- Die [Preisanalyse für Wettbewerber](./competitive-price-analysis.md) zeigt, dass Ihr Amazon _Anlandepreis_ (Börsenkurs zuzüglich Versandpreis) im Verhältnis zum [Buy Box](./buy-box-competitor-pricing.md) Preis und [kleinster Konkurrent](./lowest-competitor-pricing.md) Preis.
 
-- Die [Verbesserungen bei Listen](./listing-improvements.md) zeigt alle vorgeschlagenen Verbesserungen an, die von Amazon für den ausgewählten Store bereitgestellt werden.
+- Die [Verbesserungen bei Listen](./listing-improvements.md) zeigt alle vorgeschlagenen Listenerweiterungen an, die von Amazon für den ausgewählten Store bereitgestellt werden.
 
 >[!TIP]
 >

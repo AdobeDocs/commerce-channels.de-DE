@@ -1,5 +1,5 @@
 ---
-title: Amazon-Listen beendet
+title: Amazon-Listeneinträge beendet
 description: Amazon Sales Channel bietet die Registerkarte "Beendet", um beendete Amazon Marketplace-Einträge zu überprüfen, die bei Ihrer Auswahl erneut veröffentlicht werden können.
 feature: Sales Channels, Products
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Amazon-Listen beendet
+# Amazon-Listeneinträge beendet
 
 Die _[!UICONTROL Ended]_auf der Registerkarte werden alle Amazon-Produkte angezeigt, die manuell aus Ihrem [!DNL Amazon Seller Central] -Konto. Diese Produkte erfüllen alle Anforderungen an die Auflistung und können jederzeit erneut veröffentlicht werden und erfordern keine zusätzlichen Informationen. Wenn ein Produkt im_[!UICONTROL Ineligible]_ -Tab, können Sie die [Auflistungseinstellungen](./listing-settings.md) damit Ihr Produkt die Voraussetzungen für die Aufnahme in die Liste erfüllt.
 
@@ -24,7 +24,7 @@ under _[!UICONTROL Actions]_:
 
 under **[!UICONTROL Select]** im _[!UICONTROL Action]_column:
 
-- **[!UICONTROL View Details]**: Wählen Sie aus, um Details zur Auflistung anzuzeigen, einschließlich der [Auflisten des Aktivitätsprotokolls](./product-listing-details.md#listing-activity-log), [Buy Box Konkurrentenpreise](./product-listing-details.md#buy-box-competitor-pricing)und [Niedrigste Preise für Wettbewerber](./product-listing-details.md#lowest-competitor-pricing). Diese Aktion dient nur der Anzeige. In den Listendetails können keine Änderungen vorgenommen werden. Siehe [Details anzeigen](./product-listing-details.md).
+- **[!UICONTROL View Details]**: Wählen Sie aus, um Details zur Auflistung anzuzeigen, einschließlich der [Auflisten des Aktivitätsprotokolls](./product-listing-details.md#listing-activity-log), [Buy Box Konkurrentenpreise](./product-listing-details.md#buy-box-competitor-pricing), und [Niedrigste Preise für Wettbewerber](./product-listing-details.md#lowest-competitor-pricing). Diese Aktion dient nur der Anzeige. In den Listendetails können keine Änderungen vorgenommen werden. Siehe [Details anzeigen](./product-listing-details.md).
 
 - **[!UICONTROL Publish On Amazon]**: Wählen Sie aus, die Liste erneut im [!DNL Amazon Marketplace]. Siehe [Veröffentlichen von Amazon-Listen](./publish-listings-manually.md).
 
@@ -34,13 +34,13 @@ Informationen zu Endlisten finden Sie unter [Beenden einer Amazon-Auflistung](./
 
 Informationen zu Veröffentlichungslisten finden Sie unter [Manuelles Veröffentlichen von Amazon-Listen](./publish-listings-manually.md).
 
-![Amazon-Listen beendet](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
+![Amazon-Listeneinträge beendet](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Die Startseiten der Amazon-Vertriebskanäle teilen sich einige gemeinsame [Arbeitsbereichssteuerelemente](./workspace-controls.md) die es Ihnen ermöglichen, die angezeigten Daten anzupassen.
 
 | Spalte | Beschreibung |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Amazon Seller SKU] | Die SKU (Stock Keeping Unit, Bestandseinheit), die von Amazon einem Produkt zugewiesen wurde, um das Produkt, die Optionen, den Preis und den Hersteller zu identifizieren. |
+| [!UICONTROL Amazon Seller SKU] | Die von Amazon einem Produkt zugewiesene SKU (Stock Keeping Unit, Bestandseinheit) zur Identifizierung von Produkt, Optionen, Preis und Hersteller. |
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>ASIN steht für die Amazon Standard-Identifikationsnummern. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
 | [!UICONTROL Product Listing Name] | Der Name des Produkts. |
 | [!UICONTROL Condition] | Die [Bedingung](./product-listing-condition.md) des Erzeugnisses. |

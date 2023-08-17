@@ -31,7 +31,7 @@ Nachdem Sie das Onboarding-Verfahren für den Kanal-Manager abgeschlossen haben,
 
      ![[!DNL MAGEID] on [!DNL Commerce] Kontoeinstellungen](assets/mageid-my-commerce-account.png){width="250"}
 
-   - **Zugriffsschlüssel -** Abrufen von Authentifizierungsschlüsseln zum Herunterladen [!DNL Commerce] Erweiterungen aus [!DNL Commerce] Composer-Repository `([!DNL repo.magento.com]`).
+   - **Zugriffsschlüssel -** Herunterladen von Authentifizierungsschlüsseln [!DNL Commerce] Erweiterungen aus [!DNL Commerce] Composer-Repository `([!DNL repo.magento.com]`).
 
      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
 
@@ -43,7 +43,7 @@ Nachdem Sie das Onboarding-Verfahren für den Kanal-Manager abgeschlossen haben,
       - Administratorzugriff auf eine bestimmte Umgebung
       - ein [!DNL Adobe Commerce] Konto mit Berechtigungen für den Zugriff auf das Composer-Repository
 
-     Siehe [Benutzerzugriff verwalten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) im *Benutzerhandbuch zu Commerce on Cloud Infrastructure*.
+     Siehe [Verwalten des Benutzerzugriffs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) im *Benutzerhandbuch zu Commerce on Cloud Infrastructure*.
 
 - **Erlebnis mit Composer und dem[!DNL Commerce CLI]**-Siehe [Installieren einer Erweiterung](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) im *Installationsanleitung* für Informationen zur Verwendung dieser Tools zum Installieren und Verwalten von Erweiterungen in [!DNL Adobe Commerce] oder [!DNL Magento Open Source] Plattformen.
 
@@ -53,7 +53,7 @@ Nachdem Sie das Onboarding-Verfahren für den Kanal-Manager abgeschlossen haben,
 
   Wenn Sie planen, den Kanal-Manager für die Bestandsverwaltung und die Lagerbestandsverwaltung zu verwenden, muss die Inventory management-Erweiterung auf Ihrer Adobe Commerce- und Magento Open Source-Instanz installiert und aktiviert sein. In der Regel wird diese Erweiterung in Adobe Commerce installiert und standardmäßig aktiviert und [!DNL Magento Open Source] 2.3.x und höher.
 
-  Wenn Sie Commerce von 2.2.x aktualisiert haben oder Inventory management deaktiviert haben, aktualisieren Sie Ihre Installation, um die erforderlichen Module einzuschließen. Siehe [Installieren von Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) im *Inventory management-Handbuch*.
+  Wenn Sie Commerce von 2.2.x aktualisiert haben oder Inventory management deaktiviert haben, aktualisieren Sie Ihre Installation, um die erforderlichen Module einzuschließen. Siehe [Installieren von Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) im *Inventory management-Anleitung*.
 
 ### Systemanforderungen
 
@@ -77,6 +77,6 @@ Nachdem Sie das Onboarding-Verfahren für den Kanal-Manager abgeschlossen haben,
 
 1. [Verbindung zu Commerce Services herstellen](connect.md) , um den Kanal-Manager in die Commerce-Instanz und andere unterstützende Dienste zu integrieren.
 
-1. [Verbinden Sie Ihre [!DNL Commerce] speichern in [!DNL Walmart Marketplace]](connect-marketplace.md).
+1. [Verbinden Sie [!DNL Commerce] speichern in [!DNL Walmart Marketplace]](connect-marketplace.md).
 
 1. [Komplette Store-Einrichtung](complete-sales-channel-store-setup.md).

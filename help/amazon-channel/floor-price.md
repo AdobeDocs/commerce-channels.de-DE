@@ -1,5 +1,5 @@
 ---
-title: '"Intelligente Neupreisregel: Floor Price'''
+title: "Intelligente Neupreisregel: Floor Price"
 description: Verwenden Sie die Einstellungen für den Tiefstpreis, um den niedrigsten Preis für eine intelligente Preisregel zur Verwaltung Ihrer Amazon-Auflistungen zu ermitteln.
 feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Intelligente Neupreisregel: Floor Price
+# Intelligente Neupreisregel: Grundpreis
 
 Zu den Abschnitten einer intelligenten Neupreisregel gehören:
 
@@ -28,19 +28,19 @@ Der Floor-Preis wird nur verwendet, wenn **[!UICONTROL Rule Type]** auf `Intelli
 
 ## Grundpreis konfigurieren
 
-Definieren Sie Ihre niedrigste Preiseinstellung im _[!UICONTROL Floor Price]_Abschnitt.
+Definieren Sie Ihre niedrigste Preiseinstellung in der _[!UICONTROL Floor Price]_Abschnitt.
 
 1. Für **[!UICONTROL Floor Price Source]**, wählen Sie ein Preisquellenattribut aus.
 
    Wählen Sie die [!DNL Commerce] [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) , der Ihre relative Bodenbegrenzung angibt. Wenn Sie beispielsweise nicht möchten, dass der Listenpreis für Amazon unter den Artikelkosten liegt, wählen Sie die *Kosten* -Attribut.
 
-1. Für **[!UICONTROL Floor Price Action]**, wählen Sie eine Option aus.
+1. Für **[!UICONTROL Floor Price Action]**, wählen Sie eine Option.
 
-   - `Decrease By` - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Floor Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Mindestpreis für die Regel entsteht, bevor sie an Amazon notiert wird.
+   - `Decrease By` - Legen Sie fest, wann die Definition erfolgen soll. _[!UICONTROL Floor Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Mindestpreis für die Regel entsteht, bevor sie an Amazon notiert wird.
 
-   - `Increase By` - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Floor Price Source]_-Wert, der angepasst werden soll, wodurch ein höherer Grundpreis für die Regel entsteht, bevor sie an Amazon notiert wird.
+   - `Increase By` - Legen Sie fest, wann die Definition erfolgen soll. _[!UICONTROL Floor Price Source]_-Wert, der angepasst werden soll, wodurch ein höherer Fußbodenpreis für die Regel entsteht, bevor sie an Amazon notiert wird.
 
-   - `Match` - Wählen Sie aus, wann der Listenpreis nicht unter dem definierten Wert schwanken soll. _[!UICONTROL Floor Price Source]_-Wert. Wenn auf `Match`, die_[!UICONTROL Apply]_ und _[!UICONTROL Floor Adjustment Amount]_-Felder deaktiviert sind.
+   - `Match` - Wählen Sie aus, wann der Listenpreis nicht unter der definierten _[!UICONTROL Floor Price Source]_-Wert. Wenn festgelegt auf `Match`, die_[!UICONTROL Apply]_ und _[!UICONTROL Floor Adjustment Amount]_-Felder deaktiviert sind.
 
 1. Lassen Sie die **[!UICONTROL Apply]** Standard `Apply as percentage`.
 
@@ -53,6 +53,6 @@ In diesem Beispiel wird der Grundpreis auf 3 % über den Kosten des Artikels fes
 | Feld | Beschreibung |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | Wählen Sie die [!DNL Commerce] -Attribut, das Ihre relative Untergrenze (niedrigster Preis) angibt. Wenn Sie beispielsweise nicht möchten, dass der Listenpreis für Amazon unter den Artikelkosten liegt, wählen Sie die `Cost` -Attribut. |
-| [!UICONTROL Floor Price Action] | Wählen Sie eine Preisanpassungsaktion. Optionen:<ul><li>**[!UICONTROL Decrease By]** - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Floor Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Mindestpreis für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Increase By]** - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Floor Price Source]_-Wert, der angepasst werden soll, wodurch ein höherer Grundpreis für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Match]** - Wählen Sie aus, wann der Listenpreis nicht unter dem definierten Wert schwanken soll. _[!UICONTROL Floor Price Source]_-Wert. Wenn ausgewählt, wird die_[!UICONTROL Apply]_ und _[!UICONTROL Floor Adjustment Amount]_-Felder deaktiviert sind.</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - prozentuale Anpassung im Verhältnis zum _[!UICONTROL Floor Price Source]_-Wert. |
+| [!UICONTROL Floor Price Action] | Wählen Sie eine Preisanpassungsaktion. Optionen:<ul><li>**[!UICONTROL Decrease By]** - Legen Sie fest, wann die Definition erfolgen soll. _[!UICONTROL Floor Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Mindestpreis für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Increase By]** - Legen Sie fest, wann die Definition erfolgen soll. _[!UICONTROL Floor Price Source]_-Wert, der angepasst werden soll, wodurch ein höherer Fußbodenpreis für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Match]** - Wählen Sie aus, wann der Listenpreis nicht unter der definierten _[!UICONTROL Floor Price Source]_-Wert. Wenn ausgewählt, wird die_[!UICONTROL Apply]_ und _[!UICONTROL Floor Adjustment Amount]_-Felder deaktiviert sind.</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - prozentuale Anpassung in Bezug auf die _[!UICONTROL Floor Price Source]_-Wert. |
 | [!UICONTROL Floor Adjustment Amount] | Geben Sie den numerischen Wert für den Prozentwert ein, um Ihre _[!UICONTROL Floor Price Source]_-Wert. |

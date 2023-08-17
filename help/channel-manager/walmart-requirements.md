@@ -27,7 +27,7 @@ Navigieren Sie zu [!DNL Walmart Seller Center] , um [Walmart Seller-Konto](https
 
 ## Generieren Sie eine [!DNL Walmart Marketplace] Produktions-API-Schlüssel
 
-1. Navigieren Sie zu [!DNL Walmart Marketplace] , um [API-Schlüssel für die Produktion von Lösungsanbietern für die Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Navigieren Sie zu [!DNL Walmart Marketplace] , um [API-Schlüssel für die Produktion von Lösungsanbietern für Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Erstellen Sie den Schlüssel und konfigurieren Sie Berechtigungen:
 
@@ -35,7 +35,7 @@ Navigieren Sie zu [!DNL Walmart Seller Center] , um [Walmart Seller-Konto](https
 
    * Legen Sie die Berechtigungen wie in der folgenden Tabelle gezeigt fest. Weitere Informationen finden Sie unter [API-Anmeldeinformationen](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) im _Walmart Marketplace Seller-Hilfe_.
 
-   **Adobe API-Schlüsselkonfiguration für Walmart**
+   **Adobe-API-Schlüsselkonfiguration für Walmart**
 
    | **Berechtigung** | **Einstellung** |
    |----------------|-------------|
@@ -57,7 +57,7 @@ Wenn Sie Produkte mit dem Marketplace verbinden, hängt die Verfügbarkeit der L
 
 * Bei Live Stores werden Ihre Produktangebote aufgelistet und stehen zum Verkauf zur Verfügung, wenn der Match-Vorgang abgeschlossen ist.
 
-* Bei Geschäften, die nicht live sind, werden Ihre Produktangebote gestaffelt und für Kunden nicht sichtbar. Wenn die [!DNL Walmart Marketplace] Store wird live geschaltet, gestaffelte Listen werden automatisch an den Live Store gesendet.
+* Bei Geschäften, die nicht live sind, werden Ihre Produktangebote gestaffelt und für Kunden nicht sichtbar. Wenn die Variable [!DNL Walmart Marketplace] Store wird live geschaltet, gestaffelte Listen werden automatisch an den Live Store gesendet.
 
 ![[!DNL Walmart Seller Central] Staging-Produkte](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 

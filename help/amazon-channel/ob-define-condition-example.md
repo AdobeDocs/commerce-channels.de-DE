@@ -1,5 +1,5 @@
 ---
-title: '''Beispiel: Definieren Sie eine Bedingung für Amazon-Listening-Regeln .'
+title: "Beispiel: Bedingung für Amazon-Listening-Regeln definieren"
 description: Definieren Sie beim Erstellen Ihrer Listening-Regeln Bedingungen zur Identifizierung der Commerce-Katalogprodukte, die auf dem Amazon Marketplace aufgeführt werden sollen.
 feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
@@ -32,7 +32,7 @@ Bedingungen basieren auf vorhandenen Produktattributwerten. Lassen Sie den Absch
 
 >[!NOTE]
 >
->Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, legen Sie die **[!UICONTROL Use for Promo Rule Conditions]** Einstellung für das Attribut `Yes`. Sie können auf diese Einstellung im [Storefront-Eigenschaften](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes-add.html) -Seite für das -Attribut.
+>Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, legen Sie die **[!UICONTROL Use for Promo Rule Conditions]** Einstellung für das Attribut `Yes`. Sie können auf diese Einstellung im [Store-Eigenschaften](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes-add.html) -Seite für das -Attribut.
 
 ![Bedingung - Zeile 1](assets/ob-listing-rule-conditions-start.png){width="500"}
 
@@ -40,17 +40,17 @@ Die Regel in diesem Beispiel definiert eine Regel, die die Amazon-Berechtigung f
 
 Die Regelanweisung enthält zwei fette Links, die beim Klicken die Optionen für diesen Teil der Anweisung anzeigen. Wenn Sie die Bedingung speichern, ohne eine fett gedruckte Option zu ändern, gilt die Regel für alle Ihre Produkte.
 
-- Klicken **[!UICONTROL ALL]** und wählen Sie entweder `ALL` oder `ANY`.
-- Klicken **[!UICONTROL TRUE]** und wählen Sie entweder `TRUE` oder `FALSE`.
+- Klicks **[!UICONTROL ALL]** und wählen Sie entweder `ALL` oder `ANY`.
+- Klicks **[!UICONTROL TRUE]** und wählen Sie `TRUE` oder `FALSE`.
 - Um die Regel auf alle Produkte anzuwenden, lassen Sie die Bedingung unverändert.
 
 Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination dieser Werte ändern. Für dieses Beispiel wird die folgende Bedingung verwendet:
 
 `If ALL of these conditions are TRUE:`
 
-1. Klicken Sie auf Hinzufügen (![Symbol hinzufügen](assets/btn-add-grn.png)) am Anfang der Bedingungszeile und wählen Sie ein Attribut aus, auf dem die Bedingung basieren soll, z. B. eine Bedingungskombination oder ein Produktattribut.
+1. Klicken Sie auf Hinzufügen (![Symbol &quot;Hinzufügen&quot;](assets/btn-add-grn.png)) am Anfang der Bedingungszeile und wählen Sie ein Attribut aus, auf dem die Bedingung basieren soll, z. B. eine Bedingungskombination oder ein Produktattribut.
 
-   - **[!UICONTROL Conditions Combination]** - Ermöglicht die Erstellung eines weiteren Satzes von `All/Any` und `True/False` Bedingungen innerhalb des vorhandenen Satzes.
+   - **[!UICONTROL Conditions Combination]** - Ermöglicht die Erstellung eines weiteren Satzes von `All/Any` und `True/False` -Bedingungen innerhalb des vorhandenen Satzes.
 
      ![Bedingungskombination](assets/ob-conditions-combinations.png){width="500"}
 
@@ -64,11 +64,11 @@ Sie können unterschiedliche Bedingungen erstellen, indem Sie die Kombination di
 
      Nachdem Sie das Attribut festgelegt haben, kann es nicht mehr geändert werden. Um das Attribut zu ändern, müssen Sie die Zeile löschen und das neue Attribut hinzufügen. Sie können eine Bedingungszeile löschen, indem Sie auf Löschen (![Löschsymbol](assets/btn-del-red.png)) am Ende der Zeile.
 
-      1. Klicken **[!UICONTROL is]** und wählen Sie den Vergleichsoperator aus, der die Bedingung für die zu erfüllenden Produkte beschreibt.
+      1. Klicks **[!UICONTROL is]** und wählen Sie den Vergleichsoperator aus, der die Bedingung für die zu erfüllenden Produkte beschreibt.
 
          In diesem Beispiel lautet der Vergleichsoperator `is`. Die verfügbaren Optionen hängen vom im vorherigen Schritt ausgewählten Attribut ab. Optionen können verschiedene Vergleichsoptionen umfassen, z. B. übereinstimmende Werte, die mindestens einen Wert nicht enthalten oder darunter stehen, sowie größer, gleich und kleiner als ein numerischer Wert. In diesem Beispiel sind die Optionen `is` und `is not`.
 
-      1. Klicken **[!UICONTROL ...]** und wählen Sie den Attributwert aus, auf dem die Bedingung basiert.
+      1. Klicks **[!UICONTROL ...]** und wählen Sie den Attributwert aus, auf dem die Bedingung basiert.
 
          Die Optionen hängen von der Einrichtung des Attributs ab. Sie werden möglicherweise aufgefordert, eine Option auszuwählen oder Text- oder Zahlenwerte für die Bedingung einzugeben. In diesem Beispiel lautet die Auswahl `Yes`.
 

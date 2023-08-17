@@ -56,13 +56,13 @@ Ihr Produkt und Ihre Liste wurden nun abgeglichen. Der Amazon-Vertriebskanal kan
 
    - Für **[!UICONTROL Categories]**, eine Kategorie für das Produkt zuweisen (optional).
 
-     Um die Produktkategorie auszuwählen, klicken Sie auf den Abwärtspfeil und wählen Sie ein Kategorie-Kontrollkästchen aus. Klicken **[!UICONTROL Done]** wenn fertig.
+     Um die Produktkategorie auszuwählen, klicken Sie auf den Abwärtspfeil und wählen Sie ein Kategorie-Kontrollkästchen aus. Klicks **[!UICONTROL Done]** wenn fertig.
 
    - Für **[!UICONTROL Website Ids]**, wählen Sie die Website (Storefront) aus, der das Produkt zugeordnet werden soll.
 
      Die Optionen in dieser Liste hängen von Ihrer [!DNL Commerce] [Store-Konfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) -Einstellungen.
 
-   - Für **[!UICONTROL Attribute Set Id]** (erforderlich), wählen Sie eine Option aus.
+   - Für **[!UICONTROL Attribute Set Id]** (erforderlich), wählen Sie eine Option.
 
      `Default` ist die Standardauswahl. Die Optionen in dieser Liste hängen von Ihrer [!DNL Commerce] [Attributsätze](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) Sie haben konfiguriert.
 
@@ -88,7 +88,7 @@ Das Katalogprodukt wird in Ihrer [!DNL Commerce] und der Amazon-Liste zugewiesen
 
 1. under _[!UICONTROL Actions]_klicken **[!UICONTROL Create New Catalog Product(s)]**.
 
-1. Um die Bestätigungsnachricht zu akzeptieren, öffnen Sie die _[!UICONTROL Create Magento Catalog Product]_Seite, klicken Sie auf **[!UICONTROL OK]**.
+1. Um die Bestätigungsnachricht zu akzeptieren, öffnen Sie die _[!UICONTROL Create Magento Catalog Product]_Seite, klicken **[!UICONTROL OK]**.
 
 1. Füllen Sie die Katalogeinstellungen für die Produkte aus.
 
@@ -101,13 +101,13 @@ Das Katalogprodukt wird in Ihrer [!DNL Commerce] und der Amazon-Liste zugewiesen
 
    - Für **[!UICONTROL Categories]**, eine Kategorie für das Produkt zuweisen (optional).
 
-     Um die Produktkategorie auszuwählen, klicken Sie auf den Abwärtspfeil und wählen Sie ein Kategorie-Kontrollkästchen aus. Klicken **Fertig** wenn fertig.
+     Um die Produktkategorie auszuwählen, klicken Sie auf den Abwärtspfeil und wählen Sie ein Kategorie-Kontrollkästchen aus. Klicks **Fertig** wenn fertig.
 
    - Für **[!UICONTROL Website Ids]**, wählen Sie die Website (Storefront) aus, der das Produkt zugeordnet werden soll.
 
      Die Optionen in dieser Liste hängen von Ihrer [!DNL Commerce] [Store-Konfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) -Einstellungen.
 
-   - Für **[!UICONTROL Attribute Set Id]** (erforderlich), wählen Sie eine Option aus.
+   - Für **[!UICONTROL Attribute Set Id]** (erforderlich), wählen Sie eine Option.
 
      `Default` ist die Standardauswahl. Die Optionen in dieser Liste hängen von Ihrer [!DNL Commerce] [Attributsätze](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) Sie haben konfiguriert.
 

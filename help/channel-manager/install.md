@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Die Installationsanweisungen für den Kanalmanager hängen davon ab, ob Adobe Commerce oder Magento Open Source lokal oder in der Cloud-Infrastruktur bereitgestellt wird.
 
-- Installieren auf einem [Vor-Ort-Instanz](#install-on-an-on-premises-instance).
+- Installieren Sie auf einem [Vor-Ort-Instanz](#install-on-an-on-premises-instance).
 
-- Installieren auf einem [[!DNL Adobe Commerce] auf der Cloud-Infrastrukturinstanz](#install-adobe-commerce-on-cloud-infrastructure)
+- Installieren Sie auf einem [[!DNL Adobe Commerce] auf der Cloud-Infrastrukturinstanz](#install-adobe-commerce-on-cloud-infrastructure)
 
 Bei beiden Methoden müssen Sie die Befehlszeilenschnittstelle (CLI) verwenden.
 
@@ -34,7 +34,7 @@ Bei beiden Methoden müssen Sie die Befehlszeilenschnittstelle (CLI) verwenden.
 
 Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adobe Commerce und Magento Open Source zu einer lokalen Instanz.
 
-1. Melden Sie sich bei der [!DNL Commerce] Server als [Benutzer mit Berechtigungen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) , um [!DNL Commerce] Dateisystem.
+1. Melden Sie sich bei [!DNL Commerce] Server als [Benutzer mit Berechtigungen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) , um [!DNL Commerce] Dateisystem.
 
 1. Website in [Wartungsmodus](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
 
@@ -50,7 +50,7 @@ Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adob
 
 1. Geben Sie bei entsprechender Aufforderung die Zugriffsschlüssel aus Ihrem [!DNL Commerce] -Konto.
 
-   Ihr öffentlicher Schlüssel ist Ihr Benutzername. Ihr privater Schlüssel ist Ihr Passwort.
+   Ihr öffentlicher Schlüssel ist Ihr Benutzername, Ihr privater Schlüssel ist Ihr Passwort.
 
 1. Aktualisieren Sie die Abhängigkeiten und installieren Sie die Erweiterung.
 
@@ -58,7 +58,7 @@ Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adob
    composer update magento/channel-manager
    ```
 
-   Die `composer update` -Befehl aktualisiert nur die Abhängigkeiten, die für [!DNL Channel Manager]. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
+   Die `composer update` -Befehl aktualisiert nur die für [!DNL Channel Manager]. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
 
 1. Warten Sie, bis Composer die Aktualisierung der Projektabhängigkeiten abgeschlossen und etwaige Fehler behoben hat.
 
@@ -130,7 +130,7 @@ Während der Installation wird der Erweiterungsname (`magento\channel-manager`) 
    composer update magento/module-sales-channels-extension
    ```
 
-   Die `composer update` -Befehl aktualisiert nur die Abhängigkeiten, die für [!DNL Channel Manager]. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
+   Die `composer update` -Befehl aktualisiert nur die für [!DNL Channel Manager]. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
 
 1. Hinzufügen, Übertragen und Push-Code-Änderungen, die Änderungen an beiden `composer.lock` und `composer.json` -Datei.
 
@@ -161,7 +161,7 @@ Module is enabled
 Wenn das Modul deaktiviert ist, [Aktivieren Sie sie in Ihrer lokalen Umgebung](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) und stellen Sie Ihre Änderungen bereit.
 
 
-1. Nachdem Sie die Erweiterung erfolgreich installiert haben, melden Sie sich bei der [!UICONTROL Admin] nach [Konfigurieren von Commerce Services Connector](connect.md).
+1. Nachdem Sie die Erweiterung erfolgreich installiert haben, melden Sie sich bei [!UICONTROL Admin] nach [Konfigurieren von Commerce Services Connector](connect.md).
 
    >[!NOTE]
    >
@@ -174,7 +174,7 @@ Verwenden Sie die folgenden Informationen, um Fehler zu beheben, die während de
 
 ### Falsche Composer-Schlüssel
 
-Wenn die Variable [Zugriffsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) zum Authentifizieren beim Composer-Repository verwendet werden, ungültig sind oder nicht mit der [!DNL MAGE ID] verwendet, um sich für die [!DNL Channel Manager] -Dienst, wird der folgende Fehler angezeigt.
+Wenn die Variable [Zugriffsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) zum Authentifizieren beim Composer-Repository verwendet werden, ungültig sind oder nicht mit der [!DNL MAGE ID] verwendet, um sich für [!DNL Channel Manager] -Dienst, wird der folgende Fehler angezeigt.
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -194,7 +194,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. Überprüfen Sie, ob die Anmeldedaten in auth.json übereinstimmen. [die Schlüssel, die mit der MAGE ID verknüpft sind](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) verwendet, um sich für den Kanal-Manager-Dienst zu registrieren.
+1. Überprüfen Sie, ob die Anmeldedaten in auth.json übereinstimmen. [die mit der MAGE ID verknüpften Schlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) zur Registrierung für den Kanal-Manager-Dienst verwendet.
 
 ### Unzureichender Speicher für PHP
 

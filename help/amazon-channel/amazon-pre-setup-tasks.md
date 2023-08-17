@@ -1,6 +1,6 @@
 ---
 title: Aufgaben vor der Einrichtung für [!DNL Amazon sales channel]
-description: Überprüfen Sie die erforderlichen Aufgaben, die vor der Integration Ihres Adobe Commerce- oder Magento Open Source-Stores in Amazon Sales Channel ausgeführt werden müssen.
+description: Überprüfen Sie die erforderlichen Aufgaben, bevor Sie Ihren Adobe Commerce- oder Magento Open Source-Store in Amazon Sales Channel integrieren.
 role: Admin, Developer
 feature: Sales Channels, Install, Configuration
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
@@ -19,7 +19,7 @@ Wenn Sie Ihren ersten Amazon Store im Amazon-Vertriebskanal einrichten, wird ein
 
 ## 1. Aktivieren Sie Hintergrundaufgaben in [!DNL Commerce]
 
-Alle zwischen synchronisierten Produkte und Daten [!DNL Commerce] und Amazon von einer [Cron-Auftrag](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html). Wenn Sie Aufgaben wie das Hinzufügen oder Aktualisieren von Auflistungen abschließen und Bestellungen erhalten, sendet ein Cron-Auftrag Daten zwischen Ihren [!DNL Commerce] Backend und [!DNL Amazon Seller Central] -Konto.
+Alle zwischen synchronisierten Produkte und Daten [!DNL Commerce] und Amazon von einer [Cron-Auftrag](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html). Wenn Sie Aufgaben wie das Hinzufügen oder Aktualisieren von Auflistungen abschließen und Bestellungen erhalten, sendet ein Cron-Auftrag Daten zwischen Ihren [!DNL Commerce] Backend und Ihre [!DNL Amazon Seller Central] -Konto.
 
 - [Aktivieren [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html).
 
@@ -27,17 +27,17 @@ Alle zwischen synchronisierten Produkte und Daten [!DNL Commerce] und Amazon von
 
 ## 2. Erstellen Sie Ihre [!DNL Amazon Seller Central] account
 
-Bevor Sie mit der Einrichtung Ihres Amazon-Vertriebskanals beginnen, müssen Sie über eine aktive [!DNL Amazon Seller Central] -Konto. Wenn Sie kein Amazon-Verkaufskonto im [Nordamerika (USA, CA, MX)](https://sell.amazon.com/){target="_blank"} or [European (UK)](https://sell.amazon.co.uk/sell-online/beginners-guide){target="_blank"} -Region können Sie die Einrichtung des Amazon-Kundenkontos abschließen.
+Bevor Sie mit der Einrichtung Ihres Amazon-Vertriebskanals beginnen, müssen Sie über eine aktive [!DNL Amazon Seller Central] -Konto. Wenn Sie kein bestehendes Amazon-Verkaufskonto im [Nordamerika (USA, CA, MX)](https://sell.amazon.com/){target="_blank"} or [European (UK)](https://sell.amazon.co.uk/sell-online/beginners-guide){target="_blank"} -Region können Sie die Einrichtung des Amazon-Kundenkontos abschließen.
 
-Für den Amazon-Vertriebskanal ist ein [!DNL Professional Seller] Konto auf [!DNL Amazon Seller Central]. Amazon berechnet monatliche Abos und Verkaufspreise. Siehe [Amazon: Verkaufsplan auswählen](https://sell.amazon.com/pricing.html){target="_blank"}.
+Für den Amazon-Vertriebskanal ist ein [!DNL Professional Seller] Konto auf [!DNL Amazon Seller Central]. Amazon berechnet monatliche Abos und Verkaufspreise. Siehe [Amazon: Wählen Sie Ihren Verkaufsplan aus.](https://sell.amazon.com/pricing.html){target="_blank"}.
 
 ## 3. Stellen Sie sicher, dass Sie ein zugelassener Amazon-Verkäufer sind.
 
-Zur Integration benötigen Sie eine [!DNL Amazon Seller Central] -Konto. Für Ihr Konto dürfen keine Einschränkungen für Produkte oder Kategorien gelten. Einige Produkte und Kategorien müssen vor der Erstellung von Listen genehmigt werden. Überprüfen Sie die Amazon-Richtlinien für Kategorie- und Produktgenehmigungen, um sicherzustellen, dass Ihre Produkte genehmigt sind. Siehe [Amazon: Klassen und Produkte, für die eine Zulassung erforderlich ist](https://sellercentral.amazon.com/gp/help/200333160){target="_blank"} (Anmeldung bei Seller Central erforderlich).
+Zur Integration benötigen Sie eine [!DNL Amazon Seller Central] -Konto. Für Ihr Konto dürfen keine Einschränkungen für Produkte oder Kategorien gelten. Einige Produkte und Kategorien müssen vor der Erstellung von Listen genehmigt werden. Überprüfen Sie die Amazon-Richtlinien für Kategorie- und Produktgenehmigungen, um sicherzustellen, dass Ihre Produkte genehmigt sind. Siehe [Amazon: Kategorien und Produkte, für die eine Genehmigung erforderlich ist](https://sellercentral.amazon.com/gp/help/200333160){target="_blank"} (Anmeldung bei Seller Central erforderlich).
 
 Es ist auch wichtig sicherzustellen, dass Sie Folgendes in der [!DNL Amazon Seller Central] Konto:
 
-- Stellen Sie sicher, dass Ihre Rückkehrrichtlinie genauso gut oder besser ist wie die Amazon-Rückgaberichtlinie. Siehe [Amazon: Rückkehrrichtlinie](https://www.amazon.com/gp/help/customer/display.html){target="_blank"}.
+- Stellen Sie sicher, dass Ihre Rückkehrrichtlinie genauso gut oder besser ist wie die Amazon-Rückgaberichtlinie. Siehe [Amazon: Rückgaberichtlinie](https://www.amazon.com/gp/help/customer/display.html){target="_blank"}.
 
 - Stellen Sie sicher, dass Ihre Steuereinstellungen konfiguriert sind. Siehe [Amazon: Steuerpolitik](https://sellercentral.amazon.com/gp/help/external/help.html){target="_blank"} (Anmeldung bei Seller Central erforderlich).
 

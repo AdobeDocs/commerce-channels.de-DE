@@ -24,17 +24,17 @@ Damit Ihre Produkte im [!DNL Amazon Business (B2B)] Site müssen Sie zunächst i
 
 ## Konfigurieren [!DNL (B2B) Business Price] settings
 
-1. Klicken **[!UICONTROL Listing Settings]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Listing Settings]** im Store-Dashboard.
 
 1. Erweitern Sie die _[!UICONTROL (B2B) Business Price]_Abschnitt.
 
-1. Für **[!UICONTROL Enable Business Pricing]**, wählen Sie eine Option aus.
+1. Für **[!UICONTROL Enable Business Pricing]**, wählen Sie eine Option.
 
    - `Disabled` - (Standard) Wählen Sie aus, wann Sie den Business-to-Business-Vertrieb nicht aktivieren möchten. Alle anderen Felder in diesem Abschnitt sind bei Auswahl deaktiviert.
 
    - `Enabled` - Entscheiden Sie, wann Sie Ihren Business-to-Business-Vertrieb aktivieren möchten. Wenn diese Option aktiviert ist, wird der Geschäftspreis auf den Listenpreis gesetzt, nachdem alle Preisregeln angewendet wurden. Der Geschäftspreis entspricht, sofern aktiviert, dem Umfang der Website-Preise. Ein Geschäftspreis darf nicht weniger als 1 Dollar betragen.
 
-1. Für **[!UICONTROL Enable Tiered Pricing]**, wählen Sie eine Option aus.
+1. Für **[!UICONTROL Enable Tiered Pricing]**, wählen Sie eine Option.
 
    - `Disabled` - (Standard) Wählen Sie aus, wann Sie denselben Listenpreis für alle Bestellmengen wünschen. Wenn ausgewählt, werden alle _[!UICONTROL Pricing Level]_-Felder in diesem Abschnitt sind deaktiviert.
 
@@ -52,7 +52,7 @@ Damit Ihre Produkte im [!DNL Amazon Business (B2B)] Site müssen Sie zunächst i
 |----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | Optionen: <ul><li>**[!UICONTROL Disabled]** - (Standard) Wählen Sie aus, wann Sie den Business-to-Business-Vertrieb nicht aktivieren möchten. Wenn diese Option aktiviert ist, sind alle anderen Felder in diesem Abschnitt deaktiviert.</li><li>**[!UICONTROL Enabled]** - Entscheiden Sie, wann Sie Ihr Unternehmen für den Geschäftsverkauf aktivieren möchten. Wenn diese Option ausgewählt ist, wird der Geschäftspreis gleich dem Listenpreis festgelegt, nachdem alle Preisregeln angewendet wurden. Der Geschäftspreis entspricht, sofern aktiviert, dem Umfang der Website-Preise. Ein Geschäftspreis darf nicht weniger als 1 Dollar betragen.</li></ul> |
 | [!UICONTROL Enable Tiered Pricing] | (Erforderlich) Optionen: <ul><li>**[!UICONTROL Disabled]** - (Standard) Wählen Sie aus, wann Sie denselben Listenpreis für alle Bestellmengen wünschen. Wenn ausgewählt, werden alle _[!UICONTROL Pricing Level]_-Felder in diesem Abschnitt sind deaktiviert.</li><li>**[!UICONTROL Enabled]** - Wählen Sie aus, wann Sie eine Preisanpassung basierend auf der Bestellmenge vornehmen möchten. Wenn ausgewählt, wird die _[!UICONTROL Pricing Level]_-Felder aktiviert sind.</li></ul> |
-| [!UICONTROL Pricing Level One-Five (qty/discount)] | Wenn die Option &quot;Tiered Pricing&quot;aktiviert ist, können Sie bis zu fünf Quantitäts-/Rabatteinstellungen definieren, die die Stufenpreise für Ihre Geschäftslisten festlegen. Geben Sie in jeder Zeile den Schwellenwert für die Menge und den anzuwendenden Prozentsatz für den Rabatt an. Wenn Sie beispielsweise `5` im ersten Feld der ersten Zeile und `5` im zweiten Feld wird ein Rabatt von 5 % gewährt, wenn ein anderes Unternehmen eine Menge von fünf oder mehr kauft. |
+| [!UICONTROL Pricing Level One-Five (qty/discount)] | Wenn die Option &quot;Tiered Pricing&quot;aktiviert ist, können Sie bis zu fünf Quantitäts-/Discount-Einstellungen definieren, die die Stufenpreise für Ihre Geschäftslisten festlegen. Geben Sie in jeder Zeile den Schwellenwert für die Menge und den anzuwendenden Prozentsatz für den Rabatt an. Wenn Sie beispielsweise `5` im ersten Feld der ersten Zeile und `5` im zweiten Feld wird ein Rabatt von 5 % gewährt, wenn ein anderes Unternehmen eine Menge von fünf oder mehr kauft. |
 
 **Schnellzugriff** - [!UICONTROL Listing Settings] Abschnitte
 

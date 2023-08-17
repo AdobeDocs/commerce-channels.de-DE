@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Amazon-Produktlisten nach Status/Registerkarte
+title: Verwalten von Amazon-Produktlisten nach Status/Tab
 description: Bei der Verwaltung Ihrer Amazon-Listen können Sie je nach Status Aktionen auf Ihre Listen anwenden.
 feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von Amazon-Produktlisten nach Status/Registerkarte
+# Verwalten von Amazon-Produktlisten nach Status/Tab
 
 Die _[!UICONTROL Product Listings]_-Seite enthält mehrere Registerkarten, über die Sie die Status aller Ihrer Listen anzeigen und Ihre Produkte mit Amazon-Listen abgleichen können.
 
-Die verfügbaren Auflistungsaufgaben unterscheiden sich auf den einzelnen Registerkarten geringfügig, die [Arbeitsbereichssteuerelemente](./workspace-controls.md) sind identisch und ermöglichen es Ihnen, die Daten anzupassen, die für Ihre Auflistungen angezeigt werden.
+Die verfügbaren Auflistungsaufgaben unterscheiden sich auf den einzelnen Registerkarten geringfügig, aber die [Arbeitsbereichssteuerelemente](./workspace-controls.md) sind identisch und ermöglichen es Ihnen, die für Ihre Auflistungen angezeigten Daten anzupassen.
 
 Optionen unter **[!UICONTROL Actions]** kann die Aktion auf mehrere Listen anwenden, während Optionen unter **[!UICONTROL Select]** im _[!UICONTROL Action]_-Spalte nur auf die einzelne Auflistung anwenden.
 
@@ -37,6 +37,6 @@ Siehe auch [Verwalten von Listen nach Aktion](./managing-listings-by-action.md).
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. Klicken **[!UICONTROL View Store]** auf der Speicherkarte.
+1. Klicks **[!UICONTROL View Store]** auf der Speicherkarte.
 
 1. Klicken Sie im Store-Dashboard auf **[!UICONTROL Manage Listings]** im _[!UICONTROL Store Listings]_Abschnitt.

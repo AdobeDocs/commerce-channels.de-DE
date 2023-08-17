@@ -32,7 +32,7 @@ In der Storefront-Admin können Sie die Rückgaben vom Kanal-Manager anzeigen un
 
 ## Gibt Steuerelemente und Spaltenbeschreibungen aus
 
-Die folgenden Tabellen beschreiben die verfügbaren Steuerelemente und Spalten für [!DNL Channel Manager] gibt zurück.
+In den folgenden Tabellen werden die für [!DNL Channel Manager] gibt zurück.
 
 **Steuerelemente für[!UICONTROL Returns]**
 
@@ -51,11 +51,11 @@ Die folgenden Tabellen beschreiben die verfügbaren Steuerelemente und Spalten f
 </tr>
 <tr>
 <td>[!UICONTROL View order detail]</td>
-<td>Um Bestelldetails anzuzeigen, wählen Sie die [!DNL Commerce] Bestellnummer im [!UICONTROL Order] -Tabelle, um die Commerce-Bestellung zu öffnen.</td>
+<td>Um Bestelldetails anzuzeigen, wählen Sie die [!DNL Commerce] Bestellnummer in der [!UICONTROL Order] -Tabelle, um die Commerce-Bestellung zu öffnen.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Channel Settings]</td>
-<td>Um die Kanalkonfiguration zu ändern, wählen Sie die Anmeldeinformationen der Walmart Connection, zugeordnete Attribute oder Versandkennungen aus. Wählen Sie in den Einstellungen die Option [!DNL Commerce] Bestellnummer im [!UICONTROL Order] Tabelle. Verwenden Sie dann [!DNL Commerce] Bestelloptionen, um die Bestellung zu verarbeiten.</td>
+<td>Um die Kanalkonfiguration zu ändern, wählen Sie die Anmeldeinformationen der Walmart Connection, zugeordnete Attribute oder Versandkennungen aus. Wählen Sie in den Einstellungen die Option [!DNL Commerce] Bestellnummer in der [!UICONTROL Order] Tabelle. Verwenden Sie dann [!DNL Commerce] Bestelloptionen zur Verarbeitung der Bestellung.</td>
 </tr>
 </table>
 
@@ -76,7 +76,7 @@ Die folgenden Tabellen beschreiben die verfügbaren Steuerelemente und Spalten f
 </tr>
 <tr>
 <td>Angefordert</td>
-<td>Das Datum, an dem die Rückgabe am [!DNL Walmart Marketplace]
+<td>Das Datum, an dem die Rückgabe angefordert wurde am [!DNL Walmart Marketplace]
 in lokale Zeit konvertiert wurde.</td>
 </tr>
 <tr>
@@ -127,7 +127,7 @@ In den folgenden Szenarien wird beschrieben, wie Erstattungen für verschiedene 
 
 >[!NOTE]
 >
-> Es kann bis zu fünf Minuten dauern, bis die Aktualisierung der Rückerstattung mit synchronisiert wird. [!DNL Walmart Marketplace]. Sie können den aktuellen Rückkehrstatus im [!DNL Channel Manager] [!UICONTROL Returns] Dashboard.
+> Es kann bis zu fünf Minuten dauern, bis die Aktualisierung der Rückerstattung mit synchronisiert wird [!DNL Walmart Marketplace]. Sie können den aktuellen Rückkehrstatus im [!DNL Channel Manager] [!UICONTROL Returns] Dashboard.
 
 ## Erstattungsantrag verarbeiten
 
@@ -139,9 +139,9 @@ In den folgenden Szenarien wird beschrieben, wie Erstattungen für verschiedene 
 
    * Sie können die Ergebnisse überprüfen, indem Sie die **[!UICONTROL Returns]** Registerkarte.
 
-     Sie können auch über die [!UICONTROL Orders] Seite. Suchen nach [!UICONTROL Shipped] Bestellungen mit einer Rückgabeanforderung. Wählen Sie anschließend die `Return requested` im [!UICONTROL Status Details] -Spalte, um die Anfrage anzuzeigen und zu verarbeiten.
+     Sie können auch über die [!UICONTROL Orders] Seite. Suchen nach [!UICONTROL Shipped] Bestellungen mit einer Rückgabeanforderung. Wählen Sie anschließend die `Return requested` -Link in [!UICONTROL Status Details] -Spalte, um die Anfrage anzuzeigen und zu verarbeiten.
 
-1. Suchen Sie in der Tabelle &quot;Rückgaben&quot;nach einer Rückgabe mit der Variablen *[!UICONTROL Received]* Status.
+1. Suchen Sie in der Tabelle &quot;Rückgaben&quot;nach einer Rückgabe mit der Variablen *[!UICONTROL Received]* -Status.
 
 1. Überprüfen Sie in der Artikelspalte die Liste der Bestellartikel und der Menge, die rückerstattet werden sollen.
 
@@ -153,7 +153,7 @@ In den folgenden Szenarien wird beschrieben, wie Erstattungen für verschiedene 
 
    * Wählen Sie auf der Detailseite Sortierung die Option **[!UICONTROL Credit Memo]**.
 
-   * In [!UICONTROL Items to Refund] Abschnitt [!UICONTROL Credit Memo], aktualisieren Sie die **[!UICONTROL Qty to refund]** und **[!UICONTROL Return to Stock]** Informationen für die Elemente, die in der Rückgabeanforderung enthalten sind.
+   * In [!UICONTROL Items to Refund] Abschnitt [!UICONTROL Credit Memo], aktualisieren Sie die **[!UICONTROL Qty to refund]** und **[!UICONTROL Return to Stock]** Informationen für die in der Rückgabeanforderung enthaltenen Elemente.
 
      Stellen Sie sicher, dass nur die in der Rückgabeanforderung aufgelisteten Elemente zurückgegeben werden.
 
@@ -166,7 +166,7 @@ Nach Abschluss der Erstattung [!DNL Channel Manager] Aktualisiert den Rückkehrs
 
 ## Anzeigen von Rückerstattungsinformationen für die Rückgabe
 
-Sie können Informationen zu Rückkehranfragen und Erstattungsverarbeitung über die [!UICONTROL Returns] Dashboard.
+Sie können Informationen zu Rückkehranfragen und zur Rückerstattungsverarbeitung über die [!UICONTROL Returns] Dashboard.
 
 1. Öffnen Sie das Rückgabe-Dashboard für Ihren Verkaufskanalspeicher.
 
@@ -176,11 +176,11 @@ Sie können Informationen zu Rückkehranfragen und Erstattungsverarbeitung über
 
    * Auswählen **[!UICONTROL Returns]**.
 
-1. Zeigen Sie erstattete Bestellungen an, indem Sie **[!UICONTROL Refunded]** Statuskarte.
+1. Anzeigen erstatteter Bestellungen durch Auswahl der **[!UICONTROL Refunded]** Statuskarte.
 
-1. Anzeigen von Rückerstattungsdetails für eine Rückkehr durch Auswahl von **[!UICONTROL View credit memo]**.
+1. Anzeigen von Rückerstattungsdetails für eine Rückgabe durch Auswahl von **[!UICONTROL View credit memo]**.
 
-   ![Kreditvermerk zur Rückerstattung zurückgegebener Artikel für einen [!DNL Walmart Marketplace] order](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
+   ![Kreditvermerk zur Rückerstattung zurückgegebener Artikel für einen [!DNL Walmart Marketplace] bestellen](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

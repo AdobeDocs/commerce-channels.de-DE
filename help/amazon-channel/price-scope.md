@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Preissegment
 
-[!DNL Commerce] bietet Konfiguration für Ihre [Preisgestaltung](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) auf `Global` oder `Website`. Wenn der Preis auf `Global`, gibt es eine einzige Preisquelle für alle Websites. Wenn der Preis auf `Website`können Ihre Websites ihre Preise variieren und außerdem einen Fallback-Standardwert für die Preisgestaltung aufweisen (siehe [Preissegment](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html)).
+[!DNL Commerce] stellt die Konfiguration für Ihre [Preisgestaltung](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) auf `Global` oder `Website`. Wenn die Preisfestsetzung auf `Global`, gibt es eine einzige Preisquelle für alle Websites. Wenn die Preisfestsetzung auf `Website`, können Ihre Websites ihre Preise variieren und auch einen Fallback-Standardwert für die Preisgestaltung aufweisen (siehe [Preissegment](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html)).
 
 Wenn Sie den Umfang Ihres Katalogpreises von `Global` nach `Website`, ändern sich alle Preistypattribute ebenfalls in `Website`. Siehe [Hinzufügen von Websites](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites).
 

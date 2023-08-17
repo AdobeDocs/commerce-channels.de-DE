@@ -1,6 +1,6 @@
 ---
 title: Verbinden von Listen mit Walmart
-description: "Verbindungslisten für [!DNL Commerce] Produkte [!DNL Walmart Marketplace]zu verkaufen."
+description: "Verbindungslisten für [!DNL Commerce] Produkte [!DNL Walmart Marketplace]um zu verkaufen."
 feature: Sales Channels, Integration, Products, Tools and External Services
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Wie andere Marktplätze, [!DNL Walmart] Ermöglicht es Drittanbietern, von anderen Anbietern verkaufte Artikel aufzulisten.
 
-- [!DNL Walmart Marketplace] verwendet Produktidentifikatoren wie UPC und GTIN, um Produkte mit bestehenden abzugleichen [!DNL Walmart Marketplace] Auflistungen.
+- [!DNL Walmart Marketplace] verwendet Produktidentifikatoren wie UPC und GTIN, um Produkte mit bestehenden abzugleichen [!DNL Walmart Marketplace] Listen.
 
 - Bei übereinstimmenden Produkten listet der Walmart Marketplace Aktualisierungen auf, um die [!DNL Commerce] Produktangebot bei der Verbindung eines Produkts von [!DNL Channel Manager].
 
@@ -34,7 +34,7 @@ Bevor Sie Produkte zuordnen, überprüfen Sie, ob die Produktkatalog-Attributwer
 
 1. Öffnen Sie einen verbundenen Vertriebskanal.
 
-1. Von **[!UICONTROL Listings]**, wählen Sie Produkte für die Übereinstimmung aus, die in *[!UICONTROL Draft]* Status.
+1. Von **[!UICONTROL Listings]**, wählen Sie Produkte für die Übereinstimmung aus, die in *[!UICONTROL Draft]* -Status.
 
    ![Produkte aus Listen auswählen und zur Übereinstimmung senden](assets/products-in-marketplace-sales-channel.png){width="500" zoomable="yes"}
 
@@ -56,7 +56,7 @@ Nachdem die Übereinstimmung abgeschlossen ist, wählen Sie die **[!UICONTROL Re
 
    - Es wurde keine Übereinstimmung gefunden.
 
-   - Übereinstimmung gefunden, die Liste kann jedoch nicht verknüpft werden, weil [!DNL Walmart Marketplace] einen Fehlercode zurückgegeben. Siehe **[!UICONTROL Error Description]** für Informationen zum Problem.
+   - Übereinstimmung gefunden, die Liste kann jedoch nicht verknüpft werden, weil [!DNL Walmart Marketplace] einen Fehlercode zurückgegeben hat. Siehe **[!UICONTROL Error Description]** für Informationen zum Problem.
 
 ### Checkliste für Walmart
 
@@ -64,7 +64,7 @@ Nachdem die Übereinstimmung abgeschlossen ist, wählen Sie die **[!UICONTROL Re
 
 ### Fehlerbehebung bei Produktübereinstimmungsfehlern
 
-Wenn der Vorgang zur Produktanpassung mit einem Fehler fehlschlägt, wird die Fehlermeldung im *[!UICONTROL Status detail]* in der Spalte [!UICONTROL Channel Manager] Produktliste.
+Wenn der Vorgang zur Produktanpassung mit einem Fehler fehlschlägt, wird die Fehlermeldung im *[!UICONTROL Status detail]* in der [!UICONTROL Channel Manager] Produktliste.
 
 Häufige Fehler, die zurückgegeben werden, sind falsch formatierte Produkt-ID-Werte oder fehlende erforderliche Attribute.
 
@@ -112,13 +112,13 @@ Verwenden Sie für Produkte, die auf dem Walmart Marketplace nicht übereinstimm
 
 - Vergewissern Sie sich, dass Sie die [Walmart-Anforderungen](walmart-requirements.md).
 
-- In [!DNL Commerce] Produktkatalog, überprüfen Sie, ob die Katalogkonfiguration für die Produkte, die auf dem Walmart Marketplace aufgelistet werden sollen, alle erforderlichen Attribute aufweist und die Inhaltsrichtlinien von Walmart Marketplace erfüllt.
+- In der [!DNL Commerce] Produktkatalog, überprüfen Sie, ob die Katalogkonfiguration für die Produkte, die auf dem Walmart Marketplace aufgelistet werden sollen, alle erforderlichen Attribute aufweist und die Inhaltsrichtlinien von Walmart Marketplace erfüllt.
 
 - Stellen Sie sicher, dass der Cron-Auftrag ausgeführt wird, um den Exportvorgang abzuschließen.
 
    - Informationen zu Vor-Ort-Instanzen finden Sie unter [Cron konfigurieren und ausführen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html).
 
-   - Informationen zur Adobe Cloud-Infrastruktur finden Sie unter [Einrichten von Cron-Aufträgen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
+   - Informationen zur Adobe-Cloud-Infrastruktur finden Sie unter [Einrichten von Cron-Aufträgen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
 
 ### Erstellen der hochzuladenden Produktdatendatei
 
@@ -134,15 +134,15 @@ Verwenden Sie für Produkte, die auf dem Walmart Marketplace nicht übereinstimm
 
    - Stellen Sie sicher, dass die Vorlage die erforderlichen und empfohlenen Attribute für die Produktliste enthält.
 
-1. Aus dem [!DNL Commerce] Admin, wählen Sie die Produktdaten aus, die aus Ihrer Adobe exportiert werden sollen [!DNL Commerce] Site.
+1. Aus dem [!DNL Commerce] Admin, wählen Sie die Produktdaten aus, die von Ihrer Adobe exportiert werden sollen [!DNL Commerce] Site.
 
    - Wählen Sie im Admin die Option [!UICONTROL **System** > Datenübertragung > **Export**].
 
-   - Im [!UICONTROL Export] in der [!UICONTROL Entity Type] Feld, wählen Sie [!UICONTROL **Produkte**].
+   - Im [!UICONTROL Export] in der [!UICONTROL Entity Type] Feld auswählen [!UICONTROL **Produkte**].
 
    - Im [!UICONTROL Entity Attributes] -Tabelle die Auswahlkriterien für den Export von Produktdaten konfigurieren.
 
-     Verwenden Sie Filter, um die Attributwerte auszuwählen und zu konfigurieren, die für die Produktkategorien gelten, in denen Sie verkaufen. Stellen Sie sicher, dass Sie die erforderlichen und empfohlenen Attribute von Walmart einbeziehen. (Siehe [Daten exportieren](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) in der Adobe [!DNL Commerce] Benutzerhandbuch für detaillierte Anweisungen.)
+     Verwenden Sie Filter, um die Attributwerte auszuwählen und zu konfigurieren, die für die Produktkategorien gelten, in denen Sie verkaufen. Stellen Sie sicher, dass Sie die erforderlichen und empfohlenen Attribute von Walmart einbeziehen. (Siehe [Daten exportieren](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) im Adobe [!DNL Commerce] Benutzerhandbuch für detaillierte Anweisungen.)
 
      Um ein Attribut aus dem Export auszuschließen, wählen Sie die [!UICONTROL **Ausschließen**] am Anfang der Zeile.
 

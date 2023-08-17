@@ -20,7 +20,7 @@ Zu den Abschnitten einer intelligenten Neupreisregel gehören:
 - [Floor Price](./floor-price.md)
 - Optionaler Höchstpreis
 
-Die automatisierten Preiseinstellungen schützen automatisch Ihren höchsten Produktpreis vor intelligenten Preisregeln und ermöglichen es Ihnen, eine Obergrenze (den höchsten Preis) für Ihre intelligenten Preisregeln festzulegen.
+Die automatisierten Preiseinstellungen für die Obergrenze schützen automatisch Ihren höchsten Produktpreis vor intelligenten Preisregeln und ermöglichen es Ihnen, eine Obergrenze (den höchsten Preis) für Ihre intelligenten Preisregeln festzulegen.
 
 ## Optionalen Höchstpreis konfigurieren
 
@@ -28,15 +28,15 @@ Definieren Sie Ihre optionalen Einstellungen für den höchsten Preis in _[!UICO
 
 1. Für **[!UICONTROL Ceiling Price Source]**, wählen Sie ein Attribut aus.
 
-   Wählen Sie Ihre [!DNL Commerce] [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) , der Ihre relative Obergrenze angibt. Wenn Sie beispielsweise nicht möchten, dass der Amazon-Listingpreis über dem MSRP Ihres Artikels liegt, wählen Sie die `Manufacturer's Suggested Retail Price` -Attribut.
+   Wählen Sie [!DNL Commerce] [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) , der Ihre relative Obergrenze angibt. Wenn Sie z. B. nicht möchten, dass der Amazon-Listenpreis über dem MSRP Ihres Artikels liegt, wählen Sie die `Manufacturer's Suggested Retail Price` -Attribut.
 
-1. Für **[!UICONTROL Ceiling Price Action]**, wählen Sie eine Option aus.
+1. Für **[!UICONTROL Ceiling Price Action]**, wählen Sie eine Option.
 
-   - `Decrease By` - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Ceiling Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.
+   - `Decrease By` - Legen Sie fest, wann die Definition erfolgen soll. _[!UICONTROL Ceiling Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.
 
-   - `Increase By` - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Ceiling Price Source]_-Wert, der angepasst werden soll, sodass ein höherer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.
+   - `Increase By` - Legen Sie fest, wann die Definition erfolgen soll. _[!UICONTROL Ceiling Price Source]_-Wert, der angepasst werden soll, sodass ein höherer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.
 
-   - `Match` - Wählen Sie aus, wann der Listenpreis nicht über dem definierten Wert schwanken soll. _[!UICONTROL Ceiling Price Source]_-Wert. Wenn auf `Match`, die_[!UICONTROL Apply]_ und _[!UICONTROL Ceiling Adjustment Amount]_-Felder deaktiviert sind.
+   - `Match` - Wählen Sie aus, wann der Listenpreis nicht über dem definierten Wert schwanken soll _[!UICONTROL Ceiling Price Source]_-Wert. Wenn festgelegt auf `Match`, die_[!UICONTROL Apply]_ und _[!UICONTROL Ceiling Adjustment Amount]_-Felder deaktiviert sind.
 
 1. Lassen Sie die **[!UICONTROL Apply]** Standard `Apply as percentage`.
 
@@ -49,6 +49,6 @@ In diesem Beispiel wird der Höchstpreis auf 2 % unter dem MSRP des Artikels fes
 | Feld | Beschreibung |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Ceiling Price Source] | Wählen Sie die [!DNL Commerce] [Produktattribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) , der Ihre relative Obergrenze angibt. Wenn Sie beispielsweise nicht möchten, dass der Produktlistenpreis über dem MSRP Ihres Artikels liegt, wählen Sie die `Manufacturer's Suggested Retail Price` -Attribut. |
-| [!UICONTROL Ceiling Price Action] | Wählen Sie eine Preisanpassungsaktion. Optionen:<ul><li>**[!UICONTROL Decrease By]** - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Ceiling Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Increase By]** - Legen Sie fest, wann die Definition erfolgen soll _[!UICONTROL Ceiling Price Source]_-Wert, der angepasst werden soll, sodass ein höherer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Match]** - Wählen Sie aus, wann der Listenpreis nicht über dem definierten Wert schwanken soll. _[!UICONTROL Ceiling Price Source]_-Wert. Wenn auf `Match`, die_[!UICONTROL Apply]_ und _[!UICONTROL Ceiling Adjustment Amount]_-Felder deaktiviert sind.</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - prozentuale Anpassung im Verhältnis zum _[!UICONTROL Ceiling Price Source]_-Wert. |
+| [!UICONTROL Ceiling Price Action] | Wählen Sie eine Preisanpassungsaktion. Optionen:<ul><li>**[!UICONTROL Decrease By]** - Legen Sie fest, wann die Definition erfolgen soll. _[!UICONTROL Ceiling Price Source]_-Wert, der nach unten angepasst werden soll, sodass ein niedrigerer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Increase By]** - Legen Sie fest, wann die Definition erfolgen soll. _[!UICONTROL Ceiling Price Source]_-Wert, der angepasst werden soll, sodass ein höherer Plafonds für die Regel entsteht, bevor sie an Amazon notiert wird.</li><li>**[!UICONTROL Match]** - Wählen Sie aus, wann der Listenpreis nicht über dem definierten Wert schwanken soll _[!UICONTROL Ceiling Price Source]_-Wert. Wenn festgelegt auf `Match`, die_[!UICONTROL Apply]_ und _[!UICONTROL Ceiling Adjustment Amount]_-Felder deaktiviert sind.</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - prozentuale Anpassung in Bezug auf die _[!UICONTROL Ceiling Price Source]_-Wert. |
 | [!UICONTROL Ceiling Price Adjustment] | Geben Sie den numerischen Wert für den Prozentwert ein, um Ihre _[!UICONTROL Ceiling Price Source]_-Wert. |

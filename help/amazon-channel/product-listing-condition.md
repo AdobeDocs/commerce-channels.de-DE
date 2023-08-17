@@ -37,11 +37,11 @@ Während [Aufgaben vor der Einrichtung](./amazon-pre-setup-tasks.md)wird empfohl
 
 ## Einstellungen konfigurieren
 
-1. Klicken **[!UICONTROL Listing Settings]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Listing Settings]** im Store-Dashboard.
 
 1. Erweitern Sie die **[!UICONTROL Product Listing Condition]** Abschnitt.
 
-1. Für **[!UICONTROL Listing Product Condition]**, wählen Sie eine Option aus.
+1. Für **[!UICONTROL Listing Product Condition]**, wählen Sie eine Option.
 
    Wählen Sie eine der standardmäßigen Amazon-Bedingungen für Ihren globalen Bedingungswert für alle Ihre Auflistungen aus. Die Standardeinstellung ist `New`.
 
@@ -51,7 +51,7 @@ Während [Aufgaben vor der Einrichtung](./amazon-pre-setup-tasks.md)wird empfohl
 
    Wenn Sie Produkte im `Used` oder `Collectible` -Bedingung, Sie unterscheiden jedoch nicht weiter, können Sie einer einzelnen `Used` oder `Collectible` Amazon-Bedingung verwenden und die anderen leer lassen. Diese Methode ordnet alle Ihre `Used` oder `Collectible` Bedingungen für die einzelne verwendete oder kollektive Amazon-Bedingung.
 
-   Sie haben beispielsweise eine `Used` für Ihre Produkte. Bei der Zuordnung wählen Sie aus, ob Sie der Amazon-Bedingung zuordnen möchten `Used; Like New`, `Used; Very Good`, `Used; Good`oder `Used; Acceptable`. Füllen Sie nur das Feld für die gewünschte Amazon-Bedingung aus, wobei die andere `Used` Optionen festgelegt auf `--Select Option--`. Im Beispielbild werden alle [!DNL Commerce] in `Used` -Bedingung der Amazon zugeordnet werden. `Used; Very Good` Bedingung.
+   Sie haben beispielsweise eine `Used` für Ihre Produkte. Bei der Zuordnung wählen Sie aus, ob Sie der Amazon-Bedingung zuordnen möchten `Used; Like New`, `Used; Very Good`, `Used; Good`oder `Used; Acceptable`. Füllen Sie nur das Feld für die gewünschte Amazon-Bedingung aus, wobei die andere `Used` Optionen festgelegt auf `--Select Option--`. Im Beispielbild werden alle [!DNL Commerce] Produkte in `Used` -Bedingung der Amazon zugeordnet werden. `Used; Very Good` -Bedingung.
 
    Sie können auch beschreibenden Text für Ihre Bedingungen eingeben, außer `New`.
 

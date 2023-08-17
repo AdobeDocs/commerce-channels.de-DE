@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Amazon-Bestelldetails anzeigen
 
-1. Klicken **[!UICONTROL View Store]** auf der Speicherkarte.
+1. Klicks **[!UICONTROL View Store]** auf der Speicherkarte.
 
 1. Im _[!UICONTROL Recent Orders]_klicken Sie auf eine Bestellnummer.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Wenn Sie den Bestellimport in Ihrem [Bestelleinstellungen](./order-settings.md) und die Reihenfolge [erfüllt von Amazon (FBA)](./fulfilled-by.md), können Sie Platzhalterdaten für einige Felder in den Bestelldetails sehen. Amazon sendet nicht die folgenden Daten für FBA-Bestellungen.
+>Wenn Sie den Bestellimport in Ihrem [Bestelleinstellungen](./order-settings.md) und die Reihenfolge lautet [erfüllt von Amazon (FBA)](./fulfilled-by.md), können Sie Platzhalterdaten für einige Felder in den Bestelldetails sehen. Amazon sendet nicht die folgenden Daten für FBA-Bestellungen.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -37,9 +37,9 @@ ht-degree: 0%
 > - `CustomizedURL`
 > - `GiftMessageText`
 
-### Registerkarte &quot;Bestelldetails und Versanddetails&quot;
+### Tab &quot;Bestelldetails&quot;und &quot;Versanddetails&quot;
 
-Die _[!UICONTROL Order and Shipping Details]_zeigt detaillierte Bestellinformationen an, wie sie von Amazon empfangen wurden.
+Die _[!UICONTROL Order and Shipping Details]_-Tab zeigt detaillierte Bestellinformationen an, die von Amazon empfangen wurden.
 
 >[!IMPORTANT]
 >

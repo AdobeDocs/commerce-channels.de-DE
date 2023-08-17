@@ -19,7 +19,7 @@ _Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central
 
 >[!NOTE]
 >
->Nach der ersten Store-Integration werden Sie jedes Jahr aufgefordert, Ihre Amazon-Vertriebskanalverbindung zu Amazon zu erneuern, indem Sie erneut Zugriff gewähren. Sie können diese Autorisierung im _Aktuelle Berechtigungen_ in der _Amazon MWS-Entwicklerberechtigungen_ Abschnitt **Einstellungen** > **Benutzerberechtigungen** Seite Ihres Seller Central-Kontos.
+>Nach der ersten Store-Integration werden Sie jedes Jahr aufgefordert, Ihre Amazon-Vertriebskanalverbindung zu Amazon zu erneuern, indem Sie erneut Zugriff gewähren. Sie können diese Berechtigung im _Aktuelle Berechtigungen_ in der _Amazon MWS-Entwicklerberechtigungen_ Abschnitt **Einstellungen** > **Benutzerberechtigungen** Seite Ihres Seller Central-Kontos.
 
 ## Hinzufügen eines Amazon-Stores
 
@@ -39,7 +39,7 @@ _Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central
 
 1. Für **[!UICONTROL Email Address]** Geben Sie Ihre bevorzugte Kontakt-E-Mail-Adresse ein.
 
-1. Für **[!UICONTROL New Store Name]** Geben Sie einen beschreibenden Namen für Ihren neuen Amazon-Verkaufskanalspeicher ein.
+1. Für **[!UICONTROL New Store Name]** eingeben, geben Sie einen beschreibenden Namen für Ihren neuen Amazon-Verkaufskanalspeicher ein.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ _Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central
    - Vereinigte Staaten
    - Kanada
    - Mexiko
-   - Vereinigtes Königreich
+   - Vereinigtes
 
 1. Im _[!UICONTROL Map your Magento attributes to Amazon]_führen Sie folgende Schritte aus:
 
@@ -68,7 +68,7 @@ _Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central
 
 ## Schließen Sie einen Store an [!DNL Amazon Seller Central]
 
-1. Klicken Sie im Store-Dashboard auf **[!UICONTROL Connect store]** auf der Store-Karte, die gestartet werden soll [!DNL Amazon Seller Central] in einer neuen Registerkarte.
+1. Klicken Sie im Store-Dashboard auf **[!UICONTROL Connect store]** auf der Store-Karte zum Starten [!DNL Amazon Seller Central] in einer neuen Registerkarte.
 
 1. Geben Sie Ihre [!DNL Amazon Seller Central] Kontoanmeldeinformationen und klicken Sie auf **[!UICONTROL Sign in]**.
 
@@ -78,7 +78,7 @@ _Sie benötigen die primären Anmeldedaten für Ihre [!DNL Amazon Seller Central
 
 1. Im _[!UICONTROL Amazon Marketplace Web Service]_Bestätigungsseite wählen Sie die[!UICONTROL I understand...]&quot;und klicken Sie auf **[!UICONTROL Next]**.
 
-1. Im _[!UICONTROL You are almost done]_Meldung, klicken Sie auf **[!UICONTROL Continue]**.
+1. Im _[!UICONTROL You are almost done]_message, click **[!UICONTROL Continue]**.
 
    Sie haben Amazon Sales Channel-Berechtigung für den Zugriff auf und die Freigabe von Daten für Ihre [!DNL Amazon Seller Central] -Konto. Die Amazon-Seite wird geschlossen und eine Bestätigungsmeldung wird angezeigt.
 

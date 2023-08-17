@@ -1,6 +1,6 @@
 ---
 title: Hinzufügen von Produkten zum Kanal-Manager
-description: "Erstellen Sie ein Produktsortiment für [!DNL Walmart Marketplace] Vertrieb durch Hinzufügen von Produkten aus dem Katalog zum im Kanal-Manager konfigurierten Vertriebskanal."
+description: "Erstellen Sie ein Produktangebot für [!DNL Walmart Marketplace] Vertrieb durch Hinzufügen von Produkten aus dem Katalog zum im Kanal-Manager konfigurierten Vertriebskanal."
 feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
 source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
@@ -32,7 +32,7 @@ Der Importvorgang kann je nach der Anzahl der ausgewählten Produkte bis zu 30 M
 
    - Produktpreis, der auf maximal zwei Dezimalstellen festgelegt wird, z. B. `9.99`
 
-   - Produktgewichtung, die auf maximal zwei Dezimalstellen festgelegt wird, z. B. `1.25`
+   - Produktgewichtung, die auf maximal zwei Dezimalstellen festgelegt wird, beispielsweise `1.25`
 
 >[!TIP]
 >
@@ -46,7 +46,7 @@ Der Importvorgang kann je nach der Anzahl der ausgewählten Produkte bis zu 30 M
 
    Der Katalog wird in einer neuen Registerkarte geöffnet.
 
-1. Wählen Sie aus der Produktliste des Katalogs Produkte aus, die verkauft werden sollen [!DNL Walmart Marketplace].
+1. Wählen Sie aus dem Katalogproduktnetz Produkte aus, die verkauft werden sollen [!DNL Walmart Marketplace].
 
    ![Senden von Produkten an den Verkaufskanalspeicher](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ Der Importvorgang kann je nach der Anzahl der ausgewählten Produkte bis zu 30 M
 
 1. Überprüfen Sie nach Abschluss des Importvorgangs die hinzugefügten Produkte, indem Sie zu [!DNL Channel Manager] und auswählen **[!UICONTROL Listings]**.
 
-   Zunächst befinden sich die Produkte in *Entwurf* Status. Auswählen **[!UICONTROL Refresh products]** , um die Tabelle zu aktualisieren.
+   Zunächst befinden sich die Produkte in *Entwurf* -Status. Auswählen **[!UICONTROL Refresh products]** , um die Tabelle zu aktualisieren.
 
 1. Aktualisieren Sie die Ansicht, um die neuen Produkte anzuzeigen, die dem Kanal-Manager hinzugefügt wurden, indem Sie die **[!UICONTROL Draft]** Statuskarte.
 

@@ -30,7 +30,7 @@ Informationen zum Hinzufügen von Attributen finden Sie unter [Erstellen von Pro
 
 ## Konfigurieren [!UICONTROL Catalog Search] settings
 
-1. Klicken **[!UICONTROL Listing Settings]** im Dashboard speichern.
+1. Klicks **[!UICONTROL Listing Settings]** im Store-Dashboard.
 
 1. Erweitern Sie die _[!UICONTROL Catalog Search]_Abschnitt.
 
@@ -40,7 +40,7 @@ Informationen zum Hinzufügen von Attributen finden Sie unter [Erstellen von Pro
 
 1. Für **[!UICONTROL EAN]** wählen Sie das Produktattribut aus, das Sie für den Amazon EAN-Wert erstellt haben.
 
-   Die europäische Artikelnummer (European Article Number, EAN) ist ein Barcode-Standard, ein 12- oder 13-stelliger Produktidentifizierungscode. Jede EAN identifiziert das Produkt, den Hersteller und seine Attribute eindeutig. Normalerweise wird das EAN auf einem Produktetikett oder einer Verpackung als Barcode gedruckt. Amazon benötigt EAN-Codes, um die Qualität der Suchergebnisse und die Qualität des Katalogs zu verbessern. Sie können EANs vom Hersteller erhalten.
+   Die europäische Artikelnummer (European Article Number, EAN) ist ein Barcode-Standard, ein 12- oder 13-stelliger Produktidentifizierungscode. Jede EAN identifiziert das Produkt, den Hersteller und seine Attribute eindeutig. Normalerweise wird der EAN auf einem Produktetikett oder einer Verpackung als Barcode gedruckt. Amazon benötigt EAN-Codes, um die Qualität der Suchergebnisse und die Qualität des Katalogs zu verbessern. Sie können EANs vom Hersteller erhalten.
 
 1. Für **[!UICONTROL GCID]** wählen Sie das Produktattribut aus, das Sie für den Amazon GCIN-Wert erstellt haben.
 
@@ -65,7 +65,7 @@ Informationen zum Hinzufügen von Attributen finden Sie unter [Erstellen von Pro
 | Feld | Beschreibung |
 |--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | Ein eindeutiger Block von 10 Buchstaben und/oder Zahlen zur Identifizierung von Elementen.<br><br>ASIN steht für die [!DNL Amazon Standard Identification Number]. Ein ASIN ist ein eindeutiger Block von 10 Buchstaben und/oder Zahlen, der Elemente identifiziert. Bei Büchern entspricht das ASIN der ISBN-Nummer, bei allen anderen Produkten wird jedoch beim Hochladen des Artikels in den Katalog ein neues ASIN erstellt. Sie finden einen Artikel-ASIN auf der Produktdetailseite in Amazon sowie weitere Details zum Artikel. |
-| [!UICONTROL EAN (European Article Number)] | Ein 12- oder 13-stelliger Produktidentifizierungscode. Die europäische Artikelnummer (European Article Number, EAN) ist ein Barcode-Standard, ein 12- oder 13-stelliger Produktidentifizierungscode. Jede EAN identifiziert das Produkt, den Hersteller und seine Attribute eindeutig. Normalerweise wird das EAN auf einem Produktetikett oder einer Verpackung als Barcode gedruckt. Amazon benötigt EAN-Codes, um die Qualität der Suchergebnisse und die Qualität des Katalogs zu verbessern. Sie können EANs vom Hersteller erhalten. |
+| [!UICONTROL EAN (European Article Number)] | Ein 12- oder 13-stelliger Produktidentifizierungscode. Die europäische Artikelnummer (European Article Number, EAN) ist ein Barcode-Standard, ein 12- oder 13-stelliger Produktidentifizierungscode. Jede EAN identifiziert das Produkt, den Hersteller und seine Attribute eindeutig. Normalerweise wird der EAN auf einem Produktetikett oder einer Verpackung als Barcode gedruckt. Amazon benötigt EAN-Codes, um die Qualität der Suchergebnisse und die Qualität des Katalogs zu verbessern. Sie können EANs vom Hersteller erhalten. |
 | [!UICONTROL GCID (Global Catalog Identifier)] | Die globale Katalogkennung (GCID) ist eine ID für Produkte ohne UPC-Code oder ISBN. Mit der Brand Registry von Amazon können Sie sich als Markeninhaber registrieren und eine eindeutige ID für Produkte erstellen, die möglicherweise keine UPC oder ISBN besitzen. |
 | [!UICONTROL ISBN (International Standard Book Number)] | Ein 10- oder 13-stelliger eindeutiger Handelsbuchkennungsbarcode. Die International Standard Book Number (ISBN) ist ein eindeutiger Barcode für die Handelsbuchkennung. Jeder ISBN-Code identifiziert ein Buch eindeutig. Eine ISBN hat entweder zehn oder 13 Stellen. Alle nach dem 1. Januar 2007 zugewiesenen ISBN haben 13 Stellen. |
 | UPC (Universal Product Code) | Ein 12-stelliger Barcode. Der Universal Product Code (UPC) ist ein 12-stelliger Barcode, der in den Vereinigten Staaten in großem Umfang für Einzelhandelspackungen verwendet wird. |

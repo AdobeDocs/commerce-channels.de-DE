@@ -16,7 +16,7 @@ Sie können den Amazon-ASIN-Wert bearbeiten, der einem Produkt in Ihrer [!DNL Co
 
 Wenn ein zugewiesenes ASIN geändert wird:
 
-- [!DNL Commerce] beendet Ihre Amazon-Listen, die an das alte ASIN angehängt sind.
+- [!DNL Commerce] beendet Ihre Amazon-Listen, die mit dem alten ASIN verbunden sind.
 - Validiert die ASIN mit Amazon
 - Erstellt eine Liste für das aktualisierte ASIN
 - Aktualisierungen mit Informationen zum Amazon-Vertriebskanal
@@ -31,6 +31,6 @@ Wenn ein zugewiesenes ASIN geändert wird:
 
 1. Für **[!UICONTROL Assign ASIN]**, geben Sie den neuen ASIN-Wert ein.
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **[!UICONTROL Save Listing Update]**.
+1. Klicken Sie zum Speichern der Änderungen auf **[!UICONTROL Save Listing Update]**.
 
 ![Zugewiesene ASIN bearbeiten](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

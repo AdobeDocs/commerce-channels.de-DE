@@ -22,9 +22,9 @@ Nachdem Sie Ihren Amazon Sales Channel Store erstellt und integriert haben, übe
 
    - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Steuern Sie, wie Ihr Produktkatalog mit dem [!DNL Amazon Marketplace].
    - [**[!UICONTROL Order settings]**](./order-settings.md) - Steuern der Verwaltung von Amazon-Bestellungen.
-   - [**[!UICONTROL Listing rules]**](./listing-rules.md) - Definieren Sie, welche Katalogprodukte für die Auflistung in Amazon infrage kommen.
+   - [**[!UICONTROL Listing rules]**](./listing-rules.md) - Definieren Sie, welche Katalogprodukte zur Auflistung in Amazon zugelassen werden.
    - [**[!UICONTROL Pricing rules]**](./pricing-products.md) - Definieren Sie, wie der Listenpreis von Amazon für qualifizierte Auflistungen geändert wird.
-   - **[!UICONTROL Store reports]** - [Preisanalyse](./competitive-price-analysis.md) und [Auflistungsverbesserungen](./listing-improvements.md).
+   - **[!UICONTROL Store reports]** - [Wettbewerbsanalyse der Preise](./competitive-price-analysis.md) und [Auflistungsverbesserungen](./listing-improvements.md).
    - **[!UICONTROL Logs]** - [Listenänderungen](./listing-changes-log.md) und [Kommunikationsfehler](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Überprüfen Sie die Einstellungen für den E-Mail- und Amazon-Verkaufskanalspeichernamen in [!DNL Commerce] Admin.
 

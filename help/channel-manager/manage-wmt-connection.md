@@ -19,7 +19,7 @@ Handelsunternehmen, die keinem bevorzugten Netzbetreiber zugeordnet sind, werden
 
 **Voraussetzungen**
 
-Überprüfen [Walmart-Anforderungen](walmart-requirements.md) für [!DNL Marketplace Seller account].
+Überprüfen [Walmart-Anforderungen](walmart-requirements.md) für die [!DNL Marketplace Seller account].
 
 ## Verbindungsberechtigungen aktualisieren
 

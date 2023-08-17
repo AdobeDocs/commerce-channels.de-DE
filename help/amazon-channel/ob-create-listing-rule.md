@@ -27,7 +27,7 @@ Listening-Regeln können während des Onboarding definiert, aber auch jederzeit 
 
 1. Legen Sie die gewünschten Bedingungen für die Aufnahme von Produkten in Amazon fest und klicken Sie auf **[!UICONTROL Preview changes]** oder klicken Sie auf **[!UICONTROL Preview changes]** , um diesen Schritt zu überspringen.
 
-   Siehe [Beispiel: Definieren einer Bedingung](./ob-define-condition-example.md).
+   Siehe [Beispiel: Bedingung definieren](./ob-define-condition-example.md).
 
 1. Überprüfen Sie Ihre Listen in der Listenvorschau:
 
@@ -55,4 +55,4 @@ Sie können Ihre Amazon-Bestellinformationen im _[!UICONTROL Recent Orders]_des 
 >
 >Es gibt einige wichtige Store-Einstellungen (Listen, Preise, Regeln, Erfüllung usw.), die Standardwerte für einen neuen Store haben. Um sicherzustellen, dass Ihr Store für Ihre spezifischen Anforderungen eingerichtet ist, überprüfen Sie Ihre [Store-Einstellungen](./default-store-settings.md) .
 
-![Nächstes Symbol](assets/btn-next.png) [**Weiter zu den Standardspeichereinstellungen**](./default-store-settings.md)
+![Nächstes Symbol](assets/btn-next.png) [**Weiter zu den standardmäßigen Speichereinstellungen**](./default-store-settings.md)

@@ -1,5 +1,5 @@
 ---
-title: Amazon-erforderliche Informationen aktualisieren
+title: Aktualisieren erforderlicher Informationen zu Amazon
 description: Der Amazon-Vertriebskanal bietet die Registerkarte Unvollständig , um Commerce-Katalogprodukte zu überwachen, bei denen die für Amazon erforderlichen Informationen fehlen.
 feature: Sales Channels, Merchandising, Catalogs, Products
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
@@ -16,9 +16,9 @@ Auf der Seite _[!UICONTROL Incomplete]_einschließen [!DNL Commerce] Katalogprod
 
 ## Aktualisierung erforderlicher Informationen (Zuweisung zur Amazon-Auflistung nicht möglich) {#update-required-info-unable-to-assign-to-amazon-listing}
 
-1. Die Listen im _[!UICONTROL Incomplete]_Registerkarte in [Verwalten von Listen](./managing-product-listings.md).
+1. Anzeigen der Listen im _[!UICONTROL Incomplete]_Registerkarte in [Verwalten von Listen](./managing-product-listings.md).
 
-1. Im _[!UICONTROL Action]_Spalte, klicken Sie auf **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**für die Liste, die Sie aktualisieren möchten.
+1. Im _[!UICONTROL Action]_Spalte, klicken **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**für die Liste, die Sie aktualisieren möchten.
 
 1. Überprüfen Sie die Katalogproduktinformationen (SKU und Produktname), für die Sie eine Übereinstimmung mit einer Amazon-Liste suchen.
 
@@ -32,9 +32,9 @@ Die Liste wird nun mit Ihrem Katalog abgeglichen, und die Liste wird dann aktual
 
 ## Erforderliche Informationen aktualisieren (mehrere Übereinstimmungen gefunden) {#update-required-info-multiple-matches-found}
 
-1. Die Listen im _[!UICONTROL Incomplete]_Registerkarte in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
+1. Anzeigen der Listen im _[!UICONTROL Incomplete]_Registerkarte in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. Im _Aktion_ Spalte, klicken Sie auf **Auswählen** > **Erforderliche Informationen aktualisieren** für die Liste, die Sie aktualisieren möchten.
+1. Im _Aktion_ Spalte, klicken **Auswählen** > **Erforderliche Informationen aktualisieren** für die Liste, die Sie aktualisieren möchten.
 
 1. Überprüfen Sie die Katalogproduktinformationen (SKU und Produktname), für die Sie eine Übereinstimmung mit einer Amazon-Liste suchen.
 
@@ -50,9 +50,9 @@ Die Liste wird nun mit Ihrem Katalog abgeglichen, und die Liste wird dann aktual
 
 ## Erforderliche Informationen aktualisieren (enthält Varianten) {#update-required-info-has-variants}
 
-1. Die Listen im _[!UICONTROL Incomplete]_Registerkarte in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
+1. Anzeigen der Listen im _[!UICONTROL Incomplete]_Registerkarte in [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. Im _[!UICONTROL Action]_Spalte, klicken Sie auf **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**für die Liste, die Sie aktualisieren möchten.
+1. Im _[!UICONTROL Action]_Spalte, klicken **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**für die Liste, die Sie aktualisieren möchten.
 
 1. Überprüfen Sie die Katalogproduktinformationen (SKU und Produktname), für die Sie eine Übereinstimmung mit einer Amazon-Liste suchen.
 
@@ -66,9 +66,9 @@ Die Liste wird nun mit Ihrem Katalog abgeglichen, und die Liste wird dann aktual
 
 ## Erforderliche Informationen aktualisieren (fehlende Bedingung) {#update-required-info-missing-condition}
 
-1. Die Listen im _[!UICONTROL Incomplete]_Registerkarte in [Verwalten von Listen](./managing-product-listings.md).
+1. Anzeigen der Listen im _[!UICONTROL Incomplete]_Registerkarte in [Verwalten von Listen](./managing-product-listings.md).
 
-1. Im _[!UICONTROL Action]_Spalte, klicken Sie auf **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**für die Liste, die Sie aktualisieren möchten.
+1. Im _[!UICONTROL Action]_Spalte, klicken **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**für die Liste, die Sie aktualisieren möchten.
 
 1. Überprüfen Sie die Katalogproduktinformationen (SKU und Produktname), für die Sie eine Übereinstimmung mit einer Amazon-Liste suchen.
 
