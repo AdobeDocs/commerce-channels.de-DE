@@ -3,10 +3,10 @@ title: '[!DNL Channel Manager] Versionshinweise'
 description: Die neuesten Versionshinweise für [!DNL Channel Manager] aus Adobe Commerce.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 4%
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
@@ -18,12 +18,15 @@ Diese Versionshinweise beschreiben die erste Version von [!DNL Channel Manager] 
 ![Problem behoben](../assets/fix.svg) Fehlerbehebungen und Verbesserungen
 ![Bekanntes Problem](../assets/bug.svg) Bekannte Probleme
 
+Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) , um mehr über die Veröffentlichungszeitpläne und die Unterstützung zu erfahren.
+
+Siehe [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) , um zu erfahren, welche Adobe Commerce-Versionen diese Erweiterung unterstützen.
 
 ## v2.0.0
 
 *20. März 2023*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Neu](../assets/new.svg)<!--CHAN-5893--> Der Kanal-Manager ist jetzt mit Adobe Commerce-Version 2.4.6 kompatibel.
 
@@ -31,7 +34,7 @@ Diese Versionshinweise beschreiben die erste Version von [!DNL Channel Manager] 
 
 *23. November 2022*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Neu](../assets/new.svg)<!--CHAN-5204--> **Rückgaben und Erstattungen**- Sie können jetzt die Rückgabe- und Erstattungsverfahren von Walmart Marketplace für Bestellungen verarbeiten, die über einen Adobe Commerce- und Magento Open Source Channel Manager-Store versandt werden. Informationen und Aktualisierungen über Rückgaben und Erstattungen werden zwischen Walmart und Adobe Commerce synchronisiert, sodass die aktuellen Daten in beiden [!DNL Commerce] Storefront und [!DNL Walmart Marketplace]. Siehe [Rückgabe- und Erstattungsanordnungen](return-refund-orders.md).
 
@@ -41,7 +44,7 @@ Diese Versionshinweise beschreiben die erste Version von [!DNL Channel Manager] 
 
 *14. Januar 2022*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Neu](../assets/new.svg) Erste Version von Channel Manager für allgemeine Verfügbarkeit
 

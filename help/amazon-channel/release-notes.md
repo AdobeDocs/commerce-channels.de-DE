@@ -3,9 +3,9 @@ title: '''[!DNL Amazon Sales Channel] Versionshinweise'
 description: In den Versionshinweisen finden Sie Informationen zu allen [!DNL Amazon Sales Channel] veröffentlicht.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,13 @@ Diese Versionshinweise beschreiben die erste Version von [!DNL Amazon sales chan
 
 Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) für Versionierung, Unterstützung und Kompatibilität.
 
+Siehe [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) , um zu erfahren, welche Adobe Commerce-Versionen diese Erweiterung unterstützen.
+
 ## v4.5.0
 
 *30. August 2023*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Neu](../assets/new.svg) Es wurde das Adobe.IO API-Gateway hinzugefügt, das von MAGI geändert wird, um die Authentifizierungssicherheit zu verbessern. `ServicesId` bietet eine neue Benutzeroberfläche zum Verwalten Ihrer Adobe.IO-Anmeldedaten, ähnlich wie bei anderen [Adobe Commerce Services](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
@@ -46,7 +48,7 @@ Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce
 
 *7. März 2023*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Problem behoben](../assets/fix.svg) Unterstützung für Adobe Commerce 2.4.6 und PHP 8.2 hinzugefügt.
 
@@ -70,7 +72,7 @@ Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce
 
 *7. März 2023*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Fehlerbehebung](../assets/fix.svg) Adobe Commerce 2.4.4 wird nun unterstützt.
 
@@ -78,7 +80,7 @@ Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce
 
 *11. November 2021*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Fehlerbehebung](../assets/fix.svg) Aktualisierte Abhängigkeiten zur Unterstützung anderer aktualisierter Erweiterungen.
 ![Fehlerbehebung](../assets/fix.svg) Unterstützung für PHP 8.1 hinzugefügt.
@@ -87,7 +89,7 @@ Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce
 
 *11. November 2021*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Fehlerbehebung](../assets/fix.svg) Die Art und Weise, wie Adobe Commerce die _Benutzername_ -Feld aus Amazon. Zuvor gab es bei der Auftragserstellung einen Fehler, wenn die Variable _Benutzername_ -Feld Sonderzeichen enthielt. Adobe Commerce erhält jetzt die _Benutzername_ Daten und filtert die Sonderzeichen heraus, damit die Bestellung erfolgreich erstellt werden kann.
 
@@ -95,7 +97,7 @@ Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce
 
 *9. April 2021*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Neu](../assets/new.svg) Unterstützung für schreibgeschützten Modus zur Konfiguration hinzugefügt. Siehe [Vertriebskanaleinstellungen](sales-channel-settings.md).
 
@@ -113,7 +115,7 @@ Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce
 
 *3. März 2021*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Fehlerbehebung](../assets/fix.svg) <!--CHAN-xxxx-->Die _Bestelldetails_ wurde neu gestaltet und verlässt sich nicht mehr auf die _Bestellungen importieren_ -Einstellung. Bestelldetails werden jetzt in der Amazon Sales Channel-Oberfläche für alle Bestellungen angezeigt.
 
@@ -129,7 +131,7 @@ Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce
 
 *3. März 2021*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und versuchen, Ihre Adobe Commerce auf Version 2.4.0 zu aktualisieren, werden Sie aufgefordert, die -Erweiterung zu aktualisieren, bevor Sie das Adobe Commerce-Update abschließen können.
 
@@ -159,7 +161,7 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 *7. Mai 2020*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Neu](../assets/new.svg) <!--4247, 4230-->Der Bestellimport-Prozess wurde an die Anforderungen für Commerce-Bestellungen angepasst. Durch diese Änderungen werden Probleme behoben, die dazu führten, dass Commerce die entsprechende Bestellung für eine importierte Bestellung nicht erstellen konnte. Siehe [Bestellungen verwalten](managing-orders.md) für Informationen zu Bestellblockern und Lösungen.
 
@@ -189,7 +191,7 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 *25. März 2020*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 >[!IMPORTANT]
 >
@@ -207,7 +209,7 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 *11. November 2019*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Fehlerbehebung](../assets/fix.svg) **Numerische Feldeinstellungen**: <!--CHAN-3779-->Felder, für die ein numerischer Wert erforderlich ist, wurden aktualisiert, sodass nur numerische Zeichen zulässig sind. Beispiel: Preisregeleinstellungen > Feld &quot;Anpassungsbetrag&quot;
 
@@ -219,7 +221,7 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 *7. Oktober 2019*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 ![Neu](../assets/new.svg) **Amazon UK Marketplace jetzt verfügbar**: Benutzer können beim Erstellen und Integrieren eines Commerce-Stores den britischen Marketplace auswählen. Dieses Upgrade für Großbritannien beinhaltet zusätzliche Unterstützung für:
 
@@ -237,7 +239,7 @@ Wenn Sie eine frühere [!DNL Amazon sales channel] -Version installiert sind und
 
 ## v2.0.0
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
 
 >[!NOTE]
 >
