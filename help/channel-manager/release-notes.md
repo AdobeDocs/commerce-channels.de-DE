@@ -3,9 +3,9 @@ title: '[!DNL Channel Manager] Versionshinweise'
 description: Die neuesten Versionshinweise für [!DNL Channel Manager] aus Adobe Commerce.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
+source-git-commit: 003efd3c1044284a7d2c86db5d3eb1abfb3898ea
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,14 @@ Diese Versionshinweise beschreiben die erste Version von [!DNL Channel Manager] 
 Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) , um mehr über die Veröffentlichungszeitpläne und die Unterstützung zu erfahren.
 
 Siehe [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) , um zu erfahren, welche Adobe Commerce-Versionen diese Erweiterung unterstützen.
+
+## v2.1.0
+
+*3. Oktober 2023*
+
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
+
+![Neu](../assets/new.svg) Der Kanal-Manager ist jetzt mit [Beta-Version 2.4.7 von Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) veröffentlicht.
 
 ## v2.0.0
 
