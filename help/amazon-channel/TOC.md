@@ -1,13 +1,13 @@
 ---
 user-guide-title: Benutzerhandbuch für den Amazon-Vertriebskanal
-user-guide-description: Generieren von Verkäufen über Amazon durch Integration von Adobe Commerce oder Magento Open Source in Ihre [!DNL Amazon Seller Central] -Konto.
+user-guide-description: Generieren Sie Verkäufe über Amazon, indem Sie Adobe Commerce oder Magento Open Source in Ihr [!DNL Amazon Seller Central] Konto integrieren.
 breadcrumb-title: Amazon-Vertriebskanal
 role: Admin, User
 feature: Sales Channels
 recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 4%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 4%
 - [Einführung in den Amazon-Vertriebskanal](overview.md)
 - Erste Schritte {#getting-started}
    - [Über Amazon Marketplace](about-amazon-marketplace.md)
-   - [Amazon und der Commerce-Katalog](about-listings-and-catalog.md)
+   - [Amazon und Commerce-Katalog](about-listings-and-catalog.md)
    - [Best Practices und Einschränkungen](amazon-best-practices.md)
    - [Installieren der Erweiterung](install.md)
 - Onboarding {#onboarding}
    - [Onboard Amazon Sales Channel](amazon-onboarding-home.md)
    - [Aufgaben vor der Einrichtung](amazon-pre-setup-tasks.md)
-   - [Erstellen [!DNL Commerce] -Attribute für Amazon](ob-creating-magento-attributes.md)
+   - [Erstellen von [!DNL Commerce] Attributen für Amazon](ob-creating-magento-attributes.md)
    - [Überprüfen des Amazon-API-Schlüssels](amazon-verify-api-key.md)
    - [Speicherintegration](store-integration.md)
    - [Erstellen einer Listungsregel](ob-create-listing-rule.md)
@@ -43,7 +43,7 @@ ht-degree: 4%
    - [Admin-Einstellungen für Vertriebskanäle](sales-channel-settings.md)
    - [Amazon Store-Dashboard](amazon-store-dashboard.md)
    - [Speichereinstellungen](ob-store-review.md)
-- Listening-Einstellungen {#listing-settings}
+- Auflistungseinstellungen {#listing-settings}
    - [Listeneinstellungen anzeigen](listing-settings.md)
    - [Aktionen auf der Produktliste](product-listing-actions.md)
    - [Drittanbieterlisten](third-party-listing-settings.md)
@@ -79,7 +79,7 @@ ht-degree: 4%
       - [Beispiele für Preisregeln](price-rule-examples.md)
 - Berichte und Protokolle {#reports-logs}
    - [Protokolle und Berichte speichern](amazon-logs-reports.md)
-   - Store-Berichte {#store-reports}
+   - Store reports {#store-reports}
       - [Wettbewerbsanalyse der Preise](competitive-price-analysis.md)
       - [Verbesserungen bei Listen](listing-improvements.md)
    - Protokolle {#logs}
@@ -104,7 +104,7 @@ ht-degree: 4%
       - [Alias-Verkäufer-SKU erstellen](create-alias-seller-sku.md)
       - [Zugewiesene ASIN bearbeiten](edit-assigned-asin.md)
       - [Beenden einer Amazon-Auflistung](end-listings-manually.md)
-      - [Amazon-Liste veröffentlichen](publish-listings-manually.md)
+      - [Publish- und Amazon-Auflistung](publish-listings-manually.md)
       - [Erforderliche Informationen aktualisieren](amazon-manually-update-incomplete-listing.md)
       - [Details anzeigen](product-listing-details.md)
 - Bestellungen verwalten {#admin-orders}

@@ -1,18 +1,18 @@
 ---
-title: '"Installieren [!DNL Channel Manager]'''
-description: "Installieren Sie die[!DNL Channel Manager] Erweiterung."
+title: 'install [!DNL Channel Manager]'
+description: "Installieren Sie die Erweiterung[!DNL Channel Manager] ."
 role: Admin, Developer
 feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
 source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 
-# Installieren [!DNL Channel Manager]
+# Installieren Sie [!DNL Channel Manager]
 
 Überprüfen Sie die [Anforderungen](onboard.md#requirements) und sammeln Sie die erforderlichen Informationen, bevor Sie den Kanal-Manager installieren.
 
@@ -20,35 +20,35 @@ ht-degree: 0%
 
 Die Installationsanweisungen für den Kanalmanager hängen davon ab, ob Adobe Commerce oder Magento Open Source lokal oder in der Cloud-Infrastruktur bereitgestellt wird.
 
-- Installieren Sie auf einem [Vor-Ort-Instanz](#install-on-an-on-premises-instance).
+- Installieren Sie es auf einer [lokalen Instanz](#install-on-an-on-premises-instance).
 
-- Installieren Sie auf einem [[!DNL Adobe Commerce] auf der Cloud-Infrastrukturinstanz](#install-adobe-commerce-on-cloud-infrastructure)
+- Installieren auf einer [[!DNL Adobe Commerce] Cloud-Infrastrukturinstanz](#install-adobe-commerce-on-cloud-infrastructure)
 
 Bei beiden Methoden müssen Sie die Befehlszeilenschnittstelle (CLI) verwenden.
 
 >[!NOTE]
 >
->Hilfe zur Installation [!DNL Commerce] -Software, die die CLI verwendet, siehe [Installieren einer Erweiterung](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Hilfe zur Installation der [!DNL Commerce]-Software mithilfe der CLI finden Sie unter [Installieren einer Erweiterung](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 ### Installation auf einer lokalen Instanz
 
-Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adobe Commerce und Magento Open Source zu einer lokalen Instanz.
+Verwenden Sie diese Anweisungen, um [!DNL Channel Manager] in Adobe Commerce zu installieren und die Magento Open Source auf einer lokalen Instanz durchzuführen.
 
-1. Melden Sie sich bei [!DNL Commerce] Server als [Benutzer mit Berechtigungen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) , um [!DNL Commerce] Dateisystem.
+1. Melden Sie sich beim [!DNL Commerce] -Server als [Benutzer mit der Berechtigung](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) an, in das [!DNL Commerce] -Dateisystem zu schreiben.
 
-1. Website in [Wartungsmodus](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
+1. Setzen Sie Ihre Website in den [Wartungsmodus](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
 
    ```bash
    $ bin/magento maintenance:enable
    ```
 
-1. Aus dem [!DNL Commerce] Projektstammordner, Hinzufügen von Kanal-Manager zu `composer.json`.
+1. Fügen Sie im Stammverzeichnis des Projekts [!DNL Commerce] den Kanal-Manager zu `composer.json` hinzu.
 
    ```bash
     composer require magento/channel-manager --no-update
    ```
 
-1. Geben Sie bei entsprechender Aufforderung die Zugriffsschlüssel aus Ihrem [!DNL Commerce] -Konto.
+1. Geben Sie bei Aufforderung die Zugriffsschlüssel aus Ihrem [!DNL Commerce] -Konto ein.
 
    Ihr öffentlicher Schlüssel ist Ihr Benutzername, Ihr privater Schlüssel ist Ihr Passwort.
 
@@ -58,7 +58,7 @@ Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adob
    composer update magento/channel-manager
    ```
 
-   Die `composer update` -Befehl aktualisiert nur die für [!DNL Channel Manager]. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
+   Der Befehl `composer update` aktualisiert nur die Abhängigkeiten, die für [!DNL Channel Manager] erforderlich sind. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
 
 1. Warten Sie, bis Composer die Aktualisierung der Projektabhängigkeiten abgeschlossen und etwaige Fehler behoben hat.
 
@@ -88,7 +88,7 @@ Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adob
    bin/magento setup:upgrade
    ```
 
-1. Kompilieren Sie bei entsprechender Aufforderung Ihre [!DNL Commerce] Projekt.
+1. Kompilieren Sie bei entsprechender Aufforderung Ihr [!DNL Commerce] -Projekt erneut.
 
    ```bash
    bin/magento setup:di:compile
@@ -110,15 +110,15 @@ Verwenden Sie diese Anweisungen zur Installation [!DNL Channel Manager] auf Adob
 
 Arbeiten Sie in einer Entwicklungsverzweigung, wenn Sie Ihrer Cloud-Instanz eine Erweiterung hinzufügen.
 
-Hilfe zur Verwendung von Verzweigungen finden Sie unter [Erste Schritte mit der Erstellung von Zweigen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) im _Benutzerhandbuch zu Commerce on Cloud Infrastructure_.
+Hilfe zur Verwendung von Verzweigungen finden Sie unter [Erste Schritte zum Erstellen von Verzweigungen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) im _Commerce on Cloud Infrastructure Guide_.
 
-Während der Installation wird der Erweiterungsname (`magento\channel-manager`) wird automatisch in die [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) -Datei. Sie müssen die Datei nicht direkt bearbeiten.
+Während der Installation wird der Erweiterungsname (`magento\channel-manager`) automatisch in die Datei [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) eingefügt. Sie müssen die Datei nicht direkt bearbeiten.
 
 1. Wechseln Sie auf Ihrer lokalen Workstation zum Stammordner des Cloud-Projekts.
 
-1. Erstellen oder Auschecken einer Entwicklung [Verzweigung](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
+1. Erstellen oder auschecken Sie einen Entwicklungs-[Zweig](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
 
-1. Fügen Sie mithilfe des Composer-Namens die Erweiterung zum `require` Abschnitt `composer.json` -Datei.
+1. Fügen Sie mithilfe des Composer-Namens die Erweiterung zum Abschnitt `require` der Datei `composer.json` hinzu.
 
    ```bash
    composer require magento/module-sales-channels-extension --no-update
@@ -130,9 +130,9 @@ Während der Installation wird der Erweiterungsname (`magento\channel-manager`) 
    composer update magento/module-sales-channels-extension
    ```
 
-   Die `composer update` -Befehl aktualisiert nur die für [!DNL Channel Manager]. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
+   Der Befehl `composer update` aktualisiert nur die Abhängigkeiten, die für [!DNL Channel Manager] erforderlich sind. Um alle Abhängigkeiten zu aktualisieren, verwenden Sie stattdessen diesen Befehl: `composer update`.
 
-1. Hinzufügen, Übertragen und Push-Code-Änderungen, die Änderungen an beiden `composer.lock` und `composer.json` -Datei.
+1. Fügen Sie Änderungen an Code-Änderungen hinzu, übertragen Sie sie und fügen Sie sie in die Datei `composer.lock` und in die Datei `composer.json` ein.
 
    ```bash
    $ git add -A
@@ -158,14 +158,14 @@ Beispielantwort:
 Module is enabled
 ```
 
-Wenn das Modul deaktiviert ist, [Aktivieren Sie sie in Ihrer lokalen Umgebung](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) und stellen Sie Ihre Änderungen bereit.
+Wenn das Modul deaktiviert ist, aktivieren Sie es in Ihrer lokalen Umgebung ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) und stellen Sie Ihre Änderungen bereit.[
 
 
-1. Nachdem Sie die Erweiterung erfolgreich installiert haben, melden Sie sich bei [!UICONTROL Admin] nach [Konfigurieren von Commerce Services Connector](connect.md).
+1. Nachdem Sie die Erweiterung erfolgreich installiert haben, melden Sie sich bei [!UICONTROL Admin] an, um [den Commerce Services Connector zu konfigurieren](connect.md).
 
    >[!NOTE]
    >
-   >Anweisungen zum Aktualisieren des Kanal-Managers auf eine neue Version finden Sie unter [Upgrade-Module und -Erweiterungen](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html).
+   >Anweisungen zum Aktualisieren des Kanal-Managers auf eine neue Version finden Sie unter [Module und Erweiterungen aktualisieren](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html).
 
 
 ## Fehlerbehebung
@@ -174,7 +174,7 @@ Verwenden Sie die folgenden Informationen, um Fehler zu beheben, die während de
 
 ### Falsche Composer-Schlüssel
 
-Wenn die Variable [Zugriffsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) zum Authentifizieren beim Composer-Repository verwendet werden, ungültig sind oder nicht mit der [!DNL MAGE ID] verwendet, um sich für [!DNL Channel Manager] -Dienst, wird der folgende Fehler angezeigt.
+Wenn die [Zugriffsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html), die für die Authentifizierung am Composer-Repository verwendet werden, ungültig sind oder nicht mit den [!DNL MAGE ID] verknüpft sind, die für die Anmeldung für den [!DNL Channel Manager]-Dienst verwendet werden, wird der folgende Fehler angezeigt.
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -182,19 +182,19 @@ Could not find a matching version of package magento/channel-manager. Check the 
 
 Überprüfen Sie die Schlüsselkonfiguration:
 
-1. Suchen Sie den Speicherort der `auth.json` Datei:
+1. Suchen Sie den Speicherort der Datei &quot;`auth.json`&quot;:
 
    ```bash
    $ composer config –global home
    ```
 
-1. Anzeigen der `auth.json` -Datei.
+1. Anzeigen der Datei &quot;`auth.json`&quot;.
 
    ```bash
    $ cat /path/to/auth.json
    ```
 
-1. Überprüfen Sie, ob die Anmeldedaten in auth.json übereinstimmen. [die mit der MAGE ID verknüpften Schlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) zur Registrierung für den Kanal-Manager-Dienst verwendet.
+1. Vergewissern Sie sich, dass die Anmeldeinformationen in der Datei &quot;auth.json&quot;mit [den Schlüsseln übereinstimmen, die mit der MAGE ID](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) verknüpft sind, die zur Registrierung für den Kanal-Manager-Dienst verwendet wurde.
 
 ### Unzureichender Speicher für PHP
 
@@ -206,7 +206,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 Verwenden Sie eine der folgenden Methoden, um das Speicherproblem zu beheben:
 
-- [Erhöhen Sie die Speicherbegrenzung für PHP.](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) Umwelt `php.ini` -Datei. Überprüfen Sie außerdem, ob die Commerce-Instanz über die [empfohlene Werte](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) für andere PHP-Einstellungen.
+- [Erhöhen Sie die Speicherbegrenzung für PHP](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) in der Umgebungsdatei `php.ini`. Überprüfen Sie außerdem, ob die Commerce-Instanz über die [empfohlenen Werte](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) für andere PHP-Einstellungen verfügt.
 
 - Geben Sie die Speicherbegrenzung über die Befehlszeile an.
 
@@ -222,7 +222,7 @@ Verwenden Sie eine der folgenden Methoden, um das Speicherproblem zu beheben:
 
 ### Fehlende Ansicht
 
-Wenn Sie eine Fehlermeldung über eine fehlende `process_catalog_exporter_view` während der Installation des Kanal-Managers versuchen Sie es [Indexer aktualisieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html).
+Wenn Sie während der Installation des Kanalmanagers einen Fehler wegen des Fehlens von `process_catalog_exporter_view` erhalten, versuchen Sie, die Indexer zu aktualisieren [2}.](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html)
 
 ```bash
 php bin/magento indexer:refresh
@@ -230,4 +230,4 @@ php bin/magento indexer:refresh
 
 ### Cloud-Bereitstellungsfehler
 
-Probleme bei der Bereitstellung der Erweiterung in der Cloud finden Sie unter [Fehler bei der Erweiterungsbereitstellung](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html).
+Probleme bei der Bereitstellung der Erweiterung in der Cloud finden Sie unter [Fehler bei der Bereitstellung der Erweiterung](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html).

@@ -1,135 +1,143 @@
 ---
 title: Erstellen und Zuweisen von Produkten für den Amazon-Vertriebskanal
-description: Amazon Sales Channel stellt die [!UICONTROL New Third Party] -Tab, um die Erstellung und Zuweisung von entsprechenden Commerce-Katalogprodukten zu Amazon-Auflistungen zu erleichtern.
+description: Amazon Sales Channel stellt die Registerkarte [!UICONTROL New Third Party] bereit, mit der Sie übereinstimmende Commerce-Katalogprodukte mit Amazon-Auflistungen erstellen und zuweisen können.
 feature: Sales Channels, Products, Configuration
 exl-id: de000e80-7546-44d2-905e-28664b24f028
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Zuweisen von Produkten
 
-Beim Anzeigen _[!UICONTROL New Third Party]_-Registerkarte, können Sie Ihre [!DNL Commerce] -Produkte in eine bestehende Amazon-Liste zu katalogisieren. Für diese Zuordnung gibt es zwei Optionen. Sie können einem vorhandenen Katalogprodukt eine Liste zuweisen oder die Informationen aus der Liste verwenden, um Katalogprodukte zu erstellen. Diese Optionen sind hilfreich, wenn Ihre Amazon-Listen nicht automatisch mit Ihren [!DNL Commerce] Katalog.
+Beim Anzeigen der Registerkarte _[!UICONTROL New Third Party]_können Sie Ihre [!DNL Commerce] -Katalogprodukte mit einer vorhandenen Amazon-Liste abgleichen. Für diese Zuordnung gibt es zwei Optionen. Sie können einem vorhandenen Katalogprodukt eine Liste zuweisen oder die Informationen aus der Liste verwenden, um Katalogprodukte zu erstellen. Diese Optionen sind hilfreich, wenn Ihre Amazon-Listen nicht automatisch mit Ihrem [!DNL Commerce] -Katalog übereinstimmen.
 
 Um den gesamten Funktionsumfang des Amazon-Vertriebskanals nutzen zu können, ist es erforderlich, Ihre Produkte Ihren Amazon-Auflistungen zuzuordnen (oder zuzuweisen).
 
 Wenn Sie ein Katalogprodukt aus einer Amazon-Auflistung erstellen:
 
-- Die **ASIN** wird [!DNL Commerce] SKU
-- Die **Name der Produktliste** wird zum Kataloglistennamen
-- Die **Preis** und **Menge** aus der Amazon-Liste importiert werden
+- Der **ASIN** wird zur [!DNL Commerce] SKU
+- Der **Name der Produktliste** wird zum Namen der Katalogliste.
+- Die **Preis** und die **Menge** werden aus der Amazon-Liste importiert
 
-Die übrigen erforderlichen Einstellungen werden durch die Variable [!DNL Commerce] Produkteinstellungen, die Sie während der Erstellung auswählen.
+Die restlichen erforderlichen Einstellungen werden durch die [!DNL Commerce] -Produkteinstellungen bestimmt, die Sie während der Erstellung auswählen.
 
-Bei der Erstellung und Übereinstimmung werden die Listen aus der _[!UICONTROL New Third Party]_und werden auf der Registerkarte_[!UICONTROL Active]_ Registerkarte.
+Wenn sie erstellt und abgeglichen werden, werden die Auflistungen aus der Registerkarte _[!UICONTROL New Third Party]_entfernt und auf der Registerkarte_[!UICONTROL Active]_ angezeigt.
 
 ## Zuweisen eines einzelnen Katalogprodukts zu einer Amazon-Liste
 
-1. Anzeigen Ihrer Produktlisten auf der [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) Registerkarte.
+1. Zeigen Sie Ihre Produktlisten auf der Registerkarte [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) an.
 
-1. Suchen Sie die Liste, die Sie zuweisen möchten, und klicken Sie auf **[!UICONTROL Select]** im _[!UICONTROL Action]_und klicken Sie auf **[!UICONTROL Assign Catalog Product]**.
+1. Suchen Sie die Liste, die Sie zuweisen möchten, klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**und klicken Sie auf **[!UICONTROL Assign Catalog Product]**.
 
-   Diese Aktion öffnet die _[!UICONTROL Assign Magento Catalog Product]_Seite.
+   Durch diese Aktion wird die Seite _[!UICONTROL Assign Magento Catalog Product]_geöffnet.
 
-1. Suchen oder filtern Sie die Liste mithilfe der [Arbeitsbereichssteuerelemente](./workspace-controls.md) und suchen Sie das passende Katalogprodukt, das mit der Auflistung übereinstimmt.
+1. Suchen oder filtern Sie die Liste mithilfe der [Arbeitsbereichssteuerelemente](./workspace-controls.md) und suchen Sie nach dem entsprechenden Katalogprodukt, das mit der Auflistung übereinstimmt.
 
-1. Wenn das richtige Produkt in der Liste angezeigt wird, klicken Sie auf **[!UICONTROL Assign Catalog Product]** im _[!UICONTROL Action]_Spalte.
+1. Wenn das richtige Produkt in der Liste angezeigt wird, klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Assign Catalog Product]**.
 
 Ihr Produkt und Ihre Liste wurden nun abgeglichen. Der Amazon-Vertriebskanal kann jetzt Produkt- und Listendaten für Amazon freigeben und Ihre Liste und die zugehörigen Informationen verwalten, einschließlich Listenpreis, Versandpreis, Lager/Menge, Bestellinformationen und -status und mehr.
 
 ## Erstellen eines einzelnen Katalogprodukts mit Amazon-Listendaten
 
-1. Anzeigen Ihrer Produktlisten auf der [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) Registerkarte.
+1. Zeigen Sie Ihre Produktlisten auf der Registerkarte [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) an.
 
-1. Suchen Sie die Liste, die Sie erstellen möchten, in Ihrer [!DNL Commerce] Katalog, klicken **[!UICONTROL Select]** im _[!UICONTROL Action]_und klicken Sie auf **[!UICONTROL Create New Catalog Product]**.
+1. Suchen Sie die Liste, die Sie erstellen möchten, in Ihrem [!DNL Commerce]-Katalog, klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**und klicken Sie auf **[!UICONTROL Create New Catalog Product]**.
 
-   Diese Aktion öffnet die _[!UICONTROL Create Magento Catalog Product]_Seite.
+   Durch diese Aktion wird die Seite _[!UICONTROL Create Magento Catalog Product]_geöffnet.
 
 1. Füllen Sie die Katalogeinstellungen für das Produkt aus.
 
-   - Satz **[!UICONTROL Enable Product(s)]** Umschalten auf `Yes` oder `No` (erforderlich).
+   - Setzen Sie den Umschalter **[!UICONTROL Enable Product(s)]** auf `Yes` oder `No` (erforderlich).
 
-     |Ja|Wählen Sie aus, das Produkt für Ihre [!DNL Commerce] Storefront-Verkäufe.| |Nein|Wählen Sie aus, ob das Produkt für Ihre [!DNL Commerce] Storefront-Verkäufe.|
+     |Ja|Entscheiden Sie, ob Sie das Produkt für Ihren [!DNL Commerce] Store-Umsatz qualifizieren möchten.|
+|Nein|Wählen Sie aus, dass das Produkt nicht für Ihre [!DNL Commerce] Storefront-Verkäufe infrage kommt.|
 
-   - Für **[!UICONTROL Categories]**, eine Kategorie für das Produkt zuweisen (optional).
+   - Weisen Sie für **[!UICONTROL Categories]** eine Kategorie für das Produkt zu (optional).
 
-     Um die Produktkategorie auszuwählen, klicken Sie auf den Abwärtspfeil und wählen Sie ein Kategorie-Kontrollkästchen aus. Klicks **[!UICONTROL Done]** wenn fertig.
+     Um die Produktkategorie auszuwählen, klicken Sie auf den Abwärtspfeil und wählen Sie ein Kategorie-Kontrollkästchen aus. Klicken Sie zum Abschluss auf **[!UICONTROL Done]** .
 
-   - Für **[!UICONTROL Website Ids]**, wählen Sie die Website (Storefront) aus, der das Produkt zugeordnet werden soll.
+   - Wählen Sie für **[!UICONTROL Website Ids]** die Website (Storefront) aus, der das Produkt zugeordnet werden soll.
 
-     Die Optionen in dieser Liste hängen von Ihrer [!DNL Commerce] [Store-Konfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) -Einstellungen.
+     Die Optionen in dieser Liste hängen von Ihren [!DNL Commerce] [Speicherkonfigurationseinstellungen](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) ab.
 
-   - Für **[!UICONTROL Attribute Set Id]** (erforderlich), wählen Sie eine Option.
+   - Wählen Sie für **[!UICONTROL Attribute Set Id]** (erforderlich) eine Option aus.
 
-     `Default` ist die Standardauswahl. Die Optionen in dieser Liste hängen von Ihrer [!DNL Commerce] [Attributsätze](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) Sie haben konfiguriert.
+     `Default` ist die Standardauswahl. Die Optionen in dieser Liste hängen von den von Ihnen konfigurierten [!DNL Commerce] [Attributsätzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) ab.
 
-   - Für **[!UICONTROL Visibility]**, wählen Sie eine Option für das neue Produkt aus.
+   - Wählen Sie für **[!UICONTROL Visibility]** eine Option für das neue Produkt aus.
 
-     |**[!UICONTROL Not Visible Individually]** (Standard)|Das Produkt ist nicht in Ihren Storefront-Listen enthalten, obwohl es als Variante eines anderen Produkts verfügbar sein kann.| |**[!UICONTROL Catalog]**|Das Produkt wird in Ihren Kataloglisten angezeigt.| |**[!UICONTROL Search]**|Das Produkt ist für Suchvorgänge verfügbar.| |**[!UICONTROL Catalog and Search]**|Das Produkt ist in Kataloglisten enthalten und für Suchvorgänge verfügbar.|
+     |**[!UICONTROL Not Visible Individually]** (Standard)|Das Produkt ist nicht in Ihren Storefront-Auflistungen enthalten, obwohl es möglicherweise als Variante eines anderen Produkts verfügbar ist.|
+|**[!UICONTROL Catalog]**|Das Produkt wird in Ihren Kataloglisten angezeigt.|
+|**[!UICONTROL Search]**|Das Produkt ist für Suchvorgänge verfügbar.|
+|**[!UICONTROL Catalog and Search]**|Das Produkt ist in Kataloglisten enthalten und für Suchvorgänge verfügbar.|
 
-   - Für **[!UICONTROL Assign Tax Class]**, wählen Sie eine Option für das Produkt aus.
+   - Wählen Sie für **[!UICONTROL Assign Tax Class]** eine Option für das Produkt aus.
 
-     Die in dieser Liste angezeigten Optionen hängen von der [Steuerklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) Sie haben konfiguriert.
+     Die in dieser Liste angezeigten Optionen hängen von den konfigurierten [Steuerklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) ab.
 
-   - Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Create Catalog Products]**.
+   - Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Create Catalog Products]**.
 
-Das Katalogprodukt wird in Ihrer [!DNL Commerce] und der Amazon-Liste zugewiesen, aus der sie erstellt wurde. Da die Liste nun mit einer vorhandenen Amazon-Liste übereinstimmt, wird die Liste aus dem _[!UICONTROL New Third Party]_und in der_[!UICONTROL Active]_ Registerkarte.
+Das Katalogprodukt wird in Ihrem [!DNL Commerce] -Katalog erstellt und der Amazon-Liste zugewiesen, aus der es erstellt wurde. Da die Liste nun mit einer vorhandenen Amazon-Liste übereinstimmt, wird die Liste aus der Registerkarte _[!UICONTROL New Third Party]_entfernt und auf der Registerkarte_[!UICONTROL Active]_ angezeigt.
 
 ## Erstellen mehrerer Katalogprodukte mithilfe der Amazon-Listendaten
 
-1. Anzeigen Ihrer Produktlisten auf der [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) Registerkarte.
+1. Zeigen Sie Ihre Produktlisten auf der Registerkarte [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) an.
 
 1. Wählen Sie die Listen aus, für die Sie Katalogprodukte erstellen möchten.
 
-   Sie können einzelne Kontrollkästchen in der linken Spalte auswählen oder auf den Abwärtspfeil in der Spalte oben links klicken und die Option **[!UICONTROL Select All]** oder **[!UICONTROL Select All on this Page]**.
+   Sie können einzelne Kontrollkästchen in der linken Spalte auswählen oder auf den Pfeil nach unten in der Spalte oben links klicken und **[!UICONTROL Select All]** oder **[!UICONTROL Select All on this Page]** auswählen.
 
-1. under _[!UICONTROL Actions]_klicken **[!UICONTROL Create New Catalog Product(s)]**.
+1. Klicken Sie unter _[!UICONTROL Actions]_auf **[!UICONTROL Create New Catalog Product(s)]**.
 
-1. Um die Bestätigungsnachricht zu akzeptieren, öffnen Sie die _[!UICONTROL Create Magento Catalog Product]_Seite, klicken **[!UICONTROL OK]**.
+1. Um die Bestätigungsnachricht zu akzeptieren und die Seite _[!UICONTROL Create Magento Catalog Product]_zu öffnen, klicken Sie auf **[!UICONTROL OK]**.
 
 1. Füllen Sie die Katalogeinstellungen für die Produkte aus.
 
    >[!NOTE]
    >Beim Erstellen von Katalogprodukten für mehrere ausgewählte Listen werden die eingegebenen Produkteinstellungen auf alle Listen angewendet.
 
-   - Satz **[!UICONTROL Enable Product(s)]** Umschalten auf `Yes` oder `No` (erforderlich).
+   - Setzen Sie den Umschalter **[!UICONTROL Enable Product(s)]** auf `Yes` oder `No` (erforderlich).
 
-     |Ja|Wählen Sie aus, das Produkt für Ihre [!DNL Commerce] Storefront-Verkäufe.| |Nein|Wählen Sie aus, ob das Produkt für Ihre [!DNL Commerce] Storefront-Verkäufe.|
+     |Ja|Entscheiden Sie, ob Sie das Produkt für Ihren [!DNL Commerce] Store-Umsatz qualifizieren möchten.|
+|Nein|Wählen Sie aus, dass das Produkt nicht für Ihre [!DNL Commerce] Storefront-Verkäufe infrage kommt.|
 
-   - Für **[!UICONTROL Categories]**, eine Kategorie für das Produkt zuweisen (optional).
+   - Weisen Sie für **[!UICONTROL Categories]** eine Kategorie für das Produkt zu (optional).
 
-     Um die Produktkategorie auszuwählen, klicken Sie auf den Abwärtspfeil und wählen Sie ein Kategorie-Kontrollkästchen aus. Klicks **Fertig** wenn fertig.
+     Um die Produktkategorie auszuwählen, klicken Sie auf den Abwärtspfeil und wählen Sie ein Kategorie-Kontrollkästchen aus. Klicken Sie zum Abschluss auf **Fertig** .
 
-   - Für **[!UICONTROL Website Ids]**, wählen Sie die Website (Storefront) aus, der das Produkt zugeordnet werden soll.
+   - Wählen Sie für **[!UICONTROL Website Ids]** die Website (Storefront) aus, der das Produkt zugeordnet werden soll.
 
-     Die Optionen in dieser Liste hängen von Ihrer [!DNL Commerce] [Store-Konfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) -Einstellungen.
+     Die Optionen in dieser Liste hängen von Ihren [!DNL Commerce] [Speicherkonfigurationseinstellungen](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) ab.
 
-   - Für **[!UICONTROL Attribute Set Id]** (erforderlich), wählen Sie eine Option.
+   - Wählen Sie für **[!UICONTROL Attribute Set Id]** (erforderlich) eine Option aus.
 
-     `Default` ist die Standardauswahl. Die Optionen in dieser Liste hängen von Ihrer [!DNL Commerce] [Attributsätze](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) Sie haben konfiguriert.
+     `Default` ist die Standardauswahl. Die Optionen in dieser Liste hängen von den von Ihnen konfigurierten [!DNL Commerce] [Attributsätzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) ab.
 
-   - Für **[!UICONTROL Visibility]**, wählen Sie eine Option für das neue Produkt aus.
+   - Wählen Sie für **[!UICONTROL Visibility]** eine Option für das neue Produkt aus.
 
-     |**[!UICONTROL Not Visible Individually]** (Standard)|Das Produkt ist nicht in Ihren Storefront-Listen enthalten, obwohl es als Variante eines anderen Produkts verfügbar sein kann.| |**[!UICONTROL Catalog]**|Das Produkt wird in Ihren Kataloglisten angezeigt.| |**[!UICONTROL Search]**|Das Produkt ist für Suchvorgänge verfügbar.| |**[!UICONTROL Catalog and Search]**|Das Produkt ist in Kataloglisten enthalten und für Suchvorgänge verfügbar.|
+     |**[!UICONTROL Not Visible Individually]** (Standard)|Das Produkt ist nicht in Ihren Storefront-Auflistungen enthalten, obwohl es möglicherweise als Variante eines anderen Produkts verfügbar ist.|
+|**[!UICONTROL Catalog]**|Das Produkt wird in Ihren Kataloglisten angezeigt.|
+|**[!UICONTROL Search]**|Das Produkt ist für Suchvorgänge verfügbar.|
+|**[!UICONTROL Catalog and Search]**|Das Produkt ist in Kataloglisten enthalten und für Suchvorgänge verfügbar.|
 
-   - Für **[!UICONTROL Assign Tax Class]**, wählen Sie eine Option für das Produkt aus.
+   - Wählen Sie für **[!UICONTROL Assign Tax Class]** eine Option für das Produkt aus.
 
-     Die in dieser Liste angezeigten Optionen hängen von der [Steuerklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) Sie haben konfiguriert.
+     Die in dieser Liste angezeigten Optionen hängen von den konfigurierten [Steuerklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) ab.
 
-   - Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Create Catalog Products]**.
+   - Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Create Catalog Products]**.
 
-Die Katalogprodukte werden in Ihrer [!DNL Commerce] und der Amazon-Liste zugewiesen, aus der sie erstellt wurde. Da die Auflistungen nun mit der entsprechenden Amazon-Auflistung übereinstimmen, werden die Auflistungen aus dem [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) und in der [_[!UICONTROL Active]_](./active-listings.md) Registerkarte.
+Die Katalogprodukte werden in Ihrem [!DNL Commerce] -Katalog erstellt und der Amazon-Liste zugewiesen, aus der sie erstellt wurden. Da die Auflistungen nun mit der jeweiligen Amazon-Liste übereinstimmen, werden die Auflistungen aus der Registerkarte [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) entfernt und auf der Registerkarte [_[!UICONTROL Active]_](./active-listings.md) angezeigt.
 
 ![Commerce-Katalogprodukt erstellen](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | Feld | Beschreibung |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Product(s)] | (Erforderlich) Wenn diese Option aktiviert ist, ist das Produkt in Ihrer [!DNL Commerce] Storefront. Wenn diese Option deaktiviert ist, wird das Produkt nicht in Ihrer [!DNL Commerce] Storefront. |
-| [!UICONTROL Categories] | Sie können den Namen der Kategorie für Ihr neues Produkt eingeben oder eine Kategorie auswählen, indem Sie auf den Abwärtspfeil klicken, um Ihre Optionen anzuzeigen. Die Optionen hängen von Ihrer [categories](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) Konfiguration. |
-| [!UICONTROL Website Ids] | (Erforderlich) Wählen Sie die Website (Storefront) aus, der das Produkt zugeordnet werden soll. Die Optionen hängen von Ihrer [!DNL Commerce] [Store-Konfiguration](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) settings |
-| Attributset-ID | Wählen Sie einen Attributsatz aus. Die Optionen hängen von Ihrer Konfiguration ab [!DNL Commerce] [Attributsätze](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html). |
-| [!UICONTROL Visibility] | Optionen:<ul><li>**[!UICONTROL Not Visible Individually]** - Das Produkt ist in der [!DNL Commerce] Storefront (am häufigsten bei Variantenprodukten).</li><li>**[!UICONTROL Catalog]** - Ermöglicht den Zugriff auf das Produkt über die Kategorie, mit der es auf der Website verknüpft ist.</li><li>**Suche** - Ermöglicht es, das Produkt nur über das Suchwerkzeug zu finden.</li><li>**[!UICONTROL Catalog and Search]** - Ermöglicht den Zugriff auf die Produkte über die Kategoriestruktur und das Suchwerkzeug.</li></ul> |
-| [!UICONTROL Assign Tax Class] | Weisen Sie dem neuen Produkt eine Steuerklasse zu. Die Optionen hängen von Ihrer Konfiguration ab [Steuerklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html). |
+| [!UICONTROL Enable Product(s)] | (Erforderlich) Wenn diese Option aktiviert ist, ist das Produkt in Ihrer [!DNL Commerce] -Storefront sichtbar. Wenn diese Option deaktiviert ist, wird das Produkt nicht in Ihrer [!DNL Commerce] -Storefront angezeigt. |
+| [!UICONTROL Categories] | Sie können den Namen der Kategorie für Ihr neues Produkt eingeben oder eine Kategorie auswählen, indem Sie auf den Abwärtspfeil klicken, um Ihre Optionen anzuzeigen. Die Optionen hängen von Ihrer [categories](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) -Konfiguration ab. |
+| [!UICONTROL Website Ids] | (Erforderlich) Wählen Sie die Website (Storefront) aus, der das Produkt zugeordnet werden soll. Die Optionen hängen von Ihren [!DNL Commerce] [Speicherkonfigurationseinstellungen](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) ab |
+| Attributset-ID | Wählen Sie einen Attributsatz aus. Die Optionen hängen von den konfigurierten [!DNL Commerce] [Attributsätzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) ab. |
+| [!UICONTROL Visibility] | Optionen:<ul><li>**[!UICONTROL Not Visible Individually]** - Das Produkt ist nicht in Ihrer [!DNL Commerce] Storefront sichtbar (am häufigsten bei Variantenprodukten).</li><li>**[!UICONTROL Catalog]** - Ermöglicht den Zugriff auf das Produkt über die Kategorie, mit der es auf der Website verknüpft ist.</li><li>**Suche** - Ermöglicht, dass das Produkt nur über das Suchwerkzeug gefunden wird.</li><li>**[!UICONTROL Catalog and Search]** - Ermöglicht den Zugriff auf die Produkte über die Kategoriestruktur und das Suchwerkzeug.</li></ul> |
+| [!UICONTROL Assign Tax Class] | Weisen Sie dem neuen Produkt eine Steuerklasse zu. Die Optionen hängen von den konfigurierten [Steuerklassen](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) ab. |

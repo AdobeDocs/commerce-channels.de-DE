@@ -14,14 +14,14 @@ ht-degree: 0%
 
 Sie können eine oder mehrere Amazon-Listen, die beendet wurden, manuell veröffentlichen.
 
-1. Anzeigen von Listen auf der _[!UICONTROL Ended]_auf der Registerkarte [Produktlisten](./managing-product-listings.md) page (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_oder_[!UICONTROL Ineligible]_ Registerkarte).
+1. Zeigen Sie eine oder mehrere Auflistungen auf der Registerkarte _[!UICONTROL Ended]_auf der Seite [Produktauflistungen](./managing-product-listings.md) an ( Registerkarte_[!UICONTROL Inactive]_, _[!UICONTROL Active]_oder_[!UICONTROL Ineligible]_).
 
 1. Klicken Sie in der linken Spalte auf , um die einzelnen Listen zu überprüfen, die Sie erneut veröffentlichen möchten.
 
-1. under _[!UICONTROL Actions]_klicken **[!UICONTROL Publish Product to Amazon]**.
+1. Klicken Sie unter _[!UICONTROL Actions]_auf **[!UICONTROL Publish Product to Amazon]**.
 
-1. Klicks **[!UICONTROL OK]** in der Bestätigungsnachricht angezeigt.
+1. Klicken Sie in der Bestätigungsnachricht auf **[!UICONTROL OK]** .
 
    Es wird eine Meldung angezeigt, die bestätigt, dass die ausgewählten Listen zur Veröffentlichung in Amazon verarbeitet werden.
 
-   Listening-Informationen werden basierend auf Ihren Cron-Einstellungen in Amazon veröffentlicht. Listening-Informationen werden bei der nächsten Datensynchronisierung an Amazon gesendet. Bis Amazon mit der Listenbestätigung antwortet, bleiben die manuell veröffentlichten Listen auf der _Listenbereit_ mit einem `List in Progress` -Status. Wenn die Listenbestätigung von Amazon empfangen wird, werden die Listen in die _Aktiv_ mit einer `Active` -Status.
+   Listening-Informationen werden basierend auf Ihren Cron-Einstellungen in Amazon veröffentlicht. Listening-Informationen werden bei der nächsten Datensynchronisierung an Amazon gesendet. Solange Amazon nicht mit der Auflistungsbestätigung antwortet, bleiben die manuell veröffentlichten Auflistungen auf der Registerkarte &quot;_Bereit für Liste_&quot;mit dem Status &quot;`List in Progress`&quot;. Wenn die Listenbestätigung von Amazon empfangen wird, werden die Auflistungen auf die Registerkarte _Aktiv_ mit dem Status `Active` verschoben.

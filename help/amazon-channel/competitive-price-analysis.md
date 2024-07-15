@@ -5,14 +5,14 @@ feature: Sales Channels
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
 
 # Bericht zur wettbewerblichen Preisanalyse
 
-Der Bericht zur Preisanalyse zeigt Ihre Amazon-Auflistungen pro Marketplace mit den entsprechenden [Buy Box](./buy-box-competitor-pricing.md) Preis und [kleinster Konkurrent](./lowest-competitor-pricing.md) Preiswerte. Für das Protokoll sind keine Aktionen verfügbar. Es handelt sich um eine Funktion, die nur zur Überprüfung dient.
+Der Bericht &quot;Wettbewerbsanalyse&quot;zeigt Ihre Amazon-Auflistungen pro Marketplace mit den entsprechenden Preiswerten für [Buy Box](./buy-box-competitor-pricing.md) und [niedrigsten Konkurrenten](./lowest-competitor-pricing.md) an. Für das Protokoll sind keine Aktionen verfügbar. Es handelt sich um eine Funktion, die nur zur Überprüfung dient.
 
 ![Bericht zur wettbewerblichen Preisanalyse](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 
@@ -26,6 +26,6 @@ Der Bericht zur Preisanalyse zeigt Ihre Amazon-Auflistungen pro Marketplace mit 
 | [!UICONTROL Your Landed Price] | Ihr Auflistungspreis für das Produkt zuzüglich des Versandpreises. |
 | [!UICONTROL Lowest Landed Price] | Der niedrigste Anlandepreis (Listenpreis plus Versandpreis) von Ihren Amazon-Konkurrenten. |
 | [!UICONTROL Condition (lowest price)] | Die Bedingung des Produkts, das zum niedrigsten Preis aufgeführt ist. |
-| [!UICONTROL Buy Box Landed Price] | Anlandepreis (Listenpreis zuzüglich Versandpreis) des [Buy Box](./buy-box-competitor-pricing.md) Positionsauflistung. |
+| [!UICONTROL Buy Box Landed Price] | Der Anlandepreis (Börsenkurs plus Versandpreis) der Positionsauflistung [Buy Box](./buy-box-competitor-pricing.md). |
 | [!UICONTROL Is Seller (Buy Box)] | Gibt an, ob Sie die Buy Box-Position für die Auflistung gewonnen haben (NA bedeutet, dass es keinen Buy Box-Preis für die Auflistung gibt). |
 | Bedingung (Buy Box) | Die Bedingung der Buy Box-Positionsliste. |

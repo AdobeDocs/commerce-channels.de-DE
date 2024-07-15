@@ -1,6 +1,6 @@
 ---
 title: Vollständige Kanaleinrichtung
-description: '"Nach der Erstellung des Vertriebskanals, der eine [!DNL Commerce] Store-Ansicht zu [!DNL Walmart Marketplace], öffnen Sie den Kanal und schließen Sie die Kanalkonfiguration ab. Starten Sie dann den Prozess, um Produkte hinzuzufügen, Listen, Bestände, Preise und Bestellungen von [!DNL Channel Manager].'''
+description: '"Nachdem Sie den Verkaufskanal erstellt haben, der eine [!DNL Commerce] Store-Ansicht mit [!DNL Walmart Marketplace] verbindet, öffnen Sie den Kanal und schließen Sie die Kanalkonfiguration ab. Starten Sie dann den Prozess, um Produkte hinzuzufügen, Listen, Bestände, Preise und Bestellungen von  [!DNL Channel Manager] zu verwalten.'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
 role: Admin, User
 feature: Sales Channels, Configuration
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Vollständige Sales Channel-Einrichtung
 
-Nachdem Sie eine [!DNL Commerce] speichern in [!DNL Walmart Marketplace], schließen Sie die Store-Einrichtung über [!DNL Channel Manager] Homepage.
+Nachdem Sie einen [!DNL Commerce] -Store mit [!DNL Walmart Marketplace] verbunden haben, schließen Sie die Einrichtung des Stores von der Startseite [!DNL Channel Manager] ab.
 
-1. Wählen Sie im Admin ** aus.[!UICONTROL Marketing** > **Kanal-Manager**].
+1. Wählen Sie im Admin **[!UICONTROL Marketing** > **Kanal-Manager**] aus.
 
    ![Verwalten von Kanal-Manager-Stores](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
@@ -25,18 +25,18 @@ Nachdem Sie eine [!DNL Commerce] speichern in [!DNL Walmart Marketplace], schlie
 
    - [Konfigurieren von Kanaleinstellungen für Produkt-IDs und Versandunternehmen](settings-overview.md)
 
-   - [Fügen Sie Produkte aus Ihrem [!DNL Commerce Catalog] zum Kanal-Manager](add-products-to-channel-store.md)
+   - [Hinzufügen von Produkten aus Ihrem [!DNL Commerce Catalog]  zum Kanal-Manager](add-products-to-channel-store.md)
 
-   - [Produktlisten an [!DNL Walmart] Produktabgleich verwenden](connect-listings-to-marketplace.md)
+   - [Produktlisten mit  [!DNL Walmart] über Produktabgleich verbinden](connect-listings-to-marketplace.md)
 
-   - [Erfahren Sie mehr [!DNL Channel Manager] Synchronisiert Inventar- und Preisaktualisierungen zwischen [!DNL Commerce] und [!DNL Walmart]](inventory-and-price-updates.md)
+   - [Erfahren Sie, wie [!DNL Channel Manager] Bestandsaktualisierungen und Preisaktualisierungen zwischen [!DNL Commerce] und [!DNL Walmart] synchronisiert.](inventory-and-price-updates.md)
 
-   - [Anzeigen und Verwalten [!DNL Walmart Marketplace] Bestellungen von [!DNL Commerce Admin]](manage-orders.md)
+   - [Anzeigen und Verwalten von [!DNL Walmart Marketplace] Bestellungen über den  [!DNL Commerce Admin]](manage-orders.md)
 
    - [Auftragsrückgaben und -erstattungen verwalten](return-refund-orders.md)
 
-Nachdem Sie den Vertriebskanal erstellt haben und Produkte mit [!DNL Walmart Marketplace], können Sie alle Vorgänge der Produktauflistung, des Bestands, des Preises, der Bestellung, des Versands, der Stornierung, der Rückgabe und der Rückerstattung von [!DNL Commerce]. Auflistungs-, Bestands-, Preis- und Bestelldaten werden automatisch synchronisiert von [!DNL Commerce] nach [!DNL Walmart Marketplace]. Um Konflikte oder Diskrepanzen zwischen [!DNL Commerce] und [!DNL Walmart Marketplace] Aktualisierungen, keine Produkt- oder Bestelldaten für [!DNL Commerce] aus [!DNL Walmart Marketplace] -Konto.
+Nachdem Sie den Vertriebskanal erstellt und Produkte mit [!DNL Walmart Marketplace] abgeglichen haben, können Sie alle Vorgänge der Produktauflistung, des Bestands, des Preises, der Bestellung, des Versands, der Stornierung, der Rückkehr und der Rückerstattung von [!DNL Commerce] verwalten. Auflistungs-, Bestands-, Preis- und Bestelldaten werden automatisch von [!DNL Commerce] auf [!DNL Walmart Marketplace] synchronisiert. Um Konflikte oder Diskrepanzen zwischen den Aktualisierungen [!DNL Commerce] und [!DNL Walmart Marketplace] zu vermeiden, aktualisieren Sie keine Produkt- oder Bestelldaten für [!DNL Commerce] Produkte aus dem [!DNL Walmart Marketplace] -Konto.
 
 >[!IMPORTANT]
 >
->Wenn [!DNL Channel Manager] gibt Fehler während der Auftragsverarbeitung zurück. Sie können Bestellungen-, Versand- oder Löschvorgänge über die [!DNL Walmart Marketplace]. Siehe [Bestellfehler beheben](process-orders.md#fix-order-errors).
+>Wenn [!DNL Channel Manager] bei der Bestellverarbeitung Fehler zurückgibt, können Sie die Bestell-, Versand- oder Löschvorgänge von der [!DNL Walmart Marketplace] ausführen. Siehe [Bestellfehler beheben](process-orders.md#fix-order-errors).

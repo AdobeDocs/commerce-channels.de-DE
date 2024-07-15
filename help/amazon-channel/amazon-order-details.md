@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ## Amazon-Bestelldetails anzeigen
 
-1. Klicks **[!UICONTROL View Store]** auf der Speicherkarte.
+1. Klicken Sie auf der Speicherkarte auf **[!UICONTROL View Store]**.
 
-1. Im _[!UICONTROL Recent Orders]_klicken Sie auf eine Bestellnummer.
+1. Klicken Sie im Abschnitt _[!UICONTROL Recent Orders]_auf eine Bestellnummer.
 
-   Die _[!UICONTROL Amazon Order Details]_Seite geöffnet.
+   Die Seite _[!UICONTROL Amazon Order Details]_wird geöffnet.
 
 >[!NOTE]
 >
->Wenn Sie den Bestellimport in Ihrem [Bestelleinstellungen](./order-settings.md) und die Reihenfolge lautet [erfüllt von Amazon (FBA)](./fulfilled-by.md), können Sie Platzhalterdaten für einige Felder in den Bestelldetails sehen. Amazon sendet nicht die folgenden Daten für FBA-Bestellungen.
+>Wenn Sie den Bestellimport in Ihren [Bestelleinstellungen](./order-settings.md) aktiviert haben und die Bestellung durch Amazon (FBA) ](./fulfilled-by.md) erfüllt wurde, können Sie Platzhalterdaten für einige Felder in den Bestelldetails sehen. [ Amazon sendet nicht die folgenden Daten für FBA-Bestellungen.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### Tab &quot;Bestelldetails&quot;und &quot;Versanddetails&quot;
 
-Die _[!UICONTROL Order and Shipping Details]_-Tab zeigt detaillierte Bestellinformationen an, die von Amazon empfangen wurden.
+Auf der Registerkarte _[!UICONTROL Order and Shipping Details]_werden detaillierte Bestellinformationen angezeigt, die von Amazon empfangen wurden.
 
 >[!IMPORTANT]
 >
@@ -53,18 +53,18 @@ Die _[!UICONTROL Order and Shipping Details]_-Tab zeigt detaillierte Bestellinfo
 >- `Shipping postal code`
 >- `Shipping country`
 >
->Vergessen Sie nicht, auf **Bestellung speichern** nach der Bearbeitung.
+>Vergessen Sie nicht, nach der Bearbeitung auf **Bestellung speichern** zu klicken.
 
 ![Bestelldetails und Versanddetails](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Registerkarte &quot;Bestellelemente&quot;
 
-Die _[!UICONTROL Order Items]_-Tab zeigt alle mit der Amazon-Bestellung verknüpften Elemente an, wie sie von Amazon empfangen wurden.
+Auf der Registerkarte _[!UICONTROL Order Items]_werden alle Elemente angezeigt, die mit der Amazon-Bestellung verknüpft sind, wie sie von Amazon empfangen wurden.
 
 ![Bestellelementdetails](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Tab Tracking
 
-Die _[!UICONTROL Tracking]_zeigt Tracking-Informationen an, die mit der Amazon-Bestellung verbunden sind.
+Der Tab _[!UICONTROL Tracking]_enthält Tracking-Informationen, die mit der Amazon-Bestellung verknüpft sind.
 
 ![Tracking-Details](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}
